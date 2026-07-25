@@ -5,9 +5,10 @@
 #import "../vietphys.typ": *
 // Import thư viện tạo Dropcap từ kho package của Typst
 #import "@preview/droplet:0.3.1": dropcap
+#import "@preview/fontawesome:0.6.2": *
 
 // Dàn trang và Thiết lập
-#show: doc => vp-page-setup(paper: "a4", margin: (x: 2cm, y: 2.5cm), doc)
+#show: doc => vp-page-setup(paper: "a4", margin: (x: 2cm, y:60pt), doc)
 #set text(font: "Times New Roman", size: 12pt, lang: "vi")
 // === THÊM KHỐI NÀY ĐỂ ĐỘ LẠI GIAO DIỆN CODE ===
 // 1. Đổi font chữ và kích thước cho Code
@@ -25,8 +26,18 @@
 // ==============================================
 #let current-part = state("current-part", "Phần I - TNKQ")
 #set page(
-  header:context vp-header(left-text: "VIETPHYS MANUAL", center-text: "HƯỚNG DẪN SỬ DỤNG", right-text: current-part.get(), color: rgb("#722ED1")),
-  footer: vp-footer(left-text: "Phiên bản 1.2", center-text: context counter(page).display("1 / 1"))
+  header: context vp-header-theme-01(
+    title: "TÀI LIỆU VẬT LÍ 12",
+    subtitle: "Chuyên đề: Động lực học - Vượt chướng ngại vật",
+    color: rgb("#1D3B7A"),         // Đổi màu nền tùy ý
+    icon: "bolt",                  // Dùng icon sấm sét thay cho mũ cử nhân
+    right-content: current-part.get() 
+  ),
+  footer: vp-footer-kage(
+    color: rgb("#1D3B7A"), // Đổi màu xanh cho tone-sur-tone với Header ở trên
+    kunai-path: "kunai.svg", // Đổi thành tên file SVG thực tế của thầy
+    slogan: "Level Up Your Knowledge"
+  )
 )
 
 // Khởi tạo hình ảnh mẫu dùng chung cho tài liệu
