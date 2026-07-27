@@ -1,49 +1,54 @@
-#import "/vietphys-package/vietphys.typ": *
-#set text(lang: "vi")
-#set page(paper: "a4", margin: (top: 15pt, right: 15pt, bottom: 15pt, left: 15pt))
+// ==========================================
+// CẨM NANG SỬ DỤNG VIETPHYS - SELF-COMPILING
+// Tên file: vietphys-package/examples/manual_mcq.typ
+// ==========================================
+#import "../vietphys.typ": *
+// Import thư viện tạo Dropcap từ kho package của Typst
+#import "@preview/droplet:0.3.1": dropcap
+#import "@preview/fontawesome:0.6.2": *
+#vp-show-sol.update(true)
 
-
-#pad(0pt)[
-  #vp-css-box(bg: none, radius: 0pt, padding: 0pt, width: 100%)[
-    #align(left)[
-      #block(width: 100%, height: 80pt)[
-        #place(top + left)[#block(width: 100%, height: 100%)[#image(bytes("<svg viewBox=\"0 0 800 100\" xmlns=\"http://www.w3.org/2000/svg\">   <!-- Đường gạch và dấu chấm bên trái -->   <circle cx=\"20\" cy=\"50\" r=\"3\" fill=\"none\" stroke=\"#008f3e\" stroke-width=\"1.5\"/>   <line x1=\"23\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"#008f3e\" stroke-width=\"1.5\"/>      <!-- Đường gạch ngang phía trên -->   <line x1=\"135\" y1=\"15\" x2=\"700\" y2=\"15\" stroke=\"#008f3e\" stroke-width=\"1.5\"/>   <!-- 5 dấu chấm phía trên bên phải -->   <circle cx=\"715\" cy=\"15\" r=\"2.5\" fill=\"#008f3e\"/>   <circle cx=\"730\" cy=\"15\" r=\"2.5\" fill=\"#008f3e\"/>   <circle cx=\"745\" cy=\"15\" r=\"2.5\" fill=\"#008f3e\"/>   <circle cx=\"760\" cy=\"15\" r=\"2.5\" fill=\"#008f3e\"/>   <circle cx=\"775\" cy=\"15\" r=\"2.5\" fill=\"#008f3e\"/>    <!-- Đường gạch ngang phía dưới -->   <line x1=\"135\" y1=\"85\" x2=\"780\" y2=\"85\" stroke=\"#008f3e\" stroke-width=\"1.5\"/>   <!-- Hình tam giác góc dưới bên phải -->   <polygon points=\"780,85 780,65 760,85\" fill=\"#008f3e\"/>    <!-- Hình Lục giác (Vẽ cuối để đè lên các nét kia) -->   <polygon points=\"50,50 75,15 135,15 160,50 135,85 75,85\" fill=\"white\" stroke=\"#008f3e\" stroke-width=\"3\"/> </svg>"), format: "svg", width: 100%, height: 100%, fit: "stretch")]
-      ]
-              #place(top + left, dx: 5.5%, dy: 20%)[
-        #pad(0pt)[
-          #vp-css-box(bg: none, radius: 0pt, padding: 0pt, width: 15%)[
-            #align(center)[
-              #block(width: 100%)[
-                #pad(0pt)[
-                  #text(fill: rgb("#079243"), size: 12pt, weight: "regular", )[
-                  #text(size: 9pt)[CHƯƠNG]\ 
-                  #text(size: 26pt)[{{num}}]
-                ]
-                ]
-              ]
-            ]
-          ]
-        ]
-        ]
-        #place(top + left, dx: 25%, dy: 35%)[
-        #pad(0pt)[
-          #vp-css-box(bg: none, radius: 0pt, padding: 0pt, width: 55%)[
-            #align(left)[
-              #block(width: 100%)[
-                #pad(0pt)[
-                  #text(fill: rgb("#05a325"), size: 30pt, weight: "bold", )[
-                  {{title}}
-                ]
-                ]
-              ]
-            ]
-          ]
-        ]
-        ]
-#pad(10pt)[
-          #v(0pt)
-        ]
-      ]
-    ]
+#vp-question(
+  [Một vật chuyển động thẳng với gia tốc $a$ và vận tốc đầu $v_0$. Hãy tính quãng đường vật đi được trong $n$ giây và trong giây thứ $n$ ($n <$ thời gian chuyển động nếu chậm dần đều).],
+  type: "essay",
+  level: "VD",
+  lines: 5,
+  sol: [
+    \nGiải chi tiết:\n1. Quãng đường đi được trong $n$ giây:\nPhương trình quãng đường của chuyển động thẳng biến đổi đều là $s = v_0 t + 1/2 a t^2$. Thay $t = n$ vào, ta có:\n$s_n = v_0 n + 1/2 a n^2 = (v_0 + 1/2 a n)n$. \n2. Quãng đường đi được trong giây thứ $n$:\nQuãng đường đi được trong giây thứ $n$ là hiệu số giữa quãng đường đi được trong $n$ giây và quãng đường đi được trong $(n-1)$ giây.\n$Delta s_n = s_n - s_(n-1)$ \n$s_(n-1) = v_0 (n-1) + 1/2 a (n-1)^2$ \n$Delta s_n = (v_0 n + 1/2 a n^2) - (v_0 (n-1) + 1/2 a (n-1)^2)$ \n$Delta s_n = v_0 n + 1/2 a n^2 - v_0 n + v_0 - 1/2 a (n^2 - 2n + 1)$ \n$Delta s_n = v_0 + 1/2 a n^2 - 1/2 a n^2 + a n - 1/2 a$ \n$Delta s_n = v_0 + a n - 1/2 a = v_0 + a(n - 1/2) = v_0 + a(2n - 1)/2$.
   ]
-]
+)
+
+#vp-question(
+  [Một vật chuyển động thẳng với gia tốc $a$ và vận tốc đầu $v_0$. Hãy tính quãng đường vật đi được trong $n$ giây và trong giây thứ $n$ ($n <$ thời gian chuyển động nếu chậm dần đều).],
+  type: "essay",
+  level: "VD",
+  lines: 5,
+  sol: [
+    *Giải chi tiết:*
+
+    *1. Quãng đường đi được trong $n$ giây:* \
+    Phương trình quãng đường của chuyển động thẳng biến đổi đều là $s = v_0 t + 1/2 a t^2$. Thay $t = n$ vào, ta có:
+    $ s_n = v_0 n + 1/2 a n^2 = (v_0 + 1/2 a n)n $
+
+    *2. Quãng đường đi được trong giây thứ $n$:* \
+    Quãng đường đi được trong giây thứ $n$ là hiệu số giữa quãng đường đi được trong $n$ giây và quãng đường đi được trong $(n-1)$ giây:
+    $ Delta s_n &= s_n - s_(n-1) \
+    &= (v_0 n + 1/2 a n^2) - (v_0 (n-1) + 1/2 a (n-1)^2) \
+    &= v_0 n + 1/2 a n^2 - v_0 n + v_0 - 1/2 a (n^2 - 2n + 1) \
+    &= v_0 + 1/2 a n^2 - 1/2 a n^2 + a n - 1/2 a \
+    &= v_0 + a n - 1/2 a \
+    &= v_0 + a(n - 1/2) = v_0 + a(2n - 1)/2 $
+  ]
+)
+
+#vp-question(
+  [Trên mặt phẳng nghiêng góc $alpha$ có một dây không đàn hồi. Một đầu dây gắn vào tường ở $A$, đầu kia buộc vào một vật $B$ có khối lượng $m$. Mặt phẳng nghiêng chuyển động sang phải với gia tốc $vec(a)$ nằm ngang không đổi. \ Hãy xác định gia tốc của vật $B$ khi nó còn ở trên mặt phẳng nghiêng.],
+  type: "essay",
+  level: "VDC",
+  image: image("img/4_1.png"),
+  image-side: "right",
+  image-ratio: 0.4,
+  sol: [
+    aaaaaaa
+  ]
+)

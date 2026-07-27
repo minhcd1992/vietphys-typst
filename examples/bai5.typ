@@ -4,6 +4,7 @@
 #import "../vietphys.typ": *
 #import "@preview/droplet:0.3.1": dropcap
 #import "@preview/fontawesome:0.6.2": *
+#import "@preview/cetz:0.5.2"
 
 #show: doc => vp-page-setup(paper: "a4", margin: (x: 2cm, y: 60pt), doc)
 #set text(font: "Times New Roman", size: 12pt, lang: "vi")
@@ -24,20 +25,27 @@
   )
 )
 
+// Kích hoạt giao diện Heading Cờ Đuôi Nheo 
+#show: doc => vp-heading-theme-01(doc)
+
 #let mock-img(note: "Ghi chú nội dung ảnh vào đây") = box(width: 100%, height: 100pt, fill: rgb("#E6F7FF"), radius: 4pt, stroke: 1pt + rgb("#1890FF"), align(center+horizon)[*ẢNH MINH HỌA - #note*])
 
-#align(center)[
-  #text(size: 18pt, weight: "bold")[BÀI 5: KHẢO SÁT CHUYỂN ĐỘNG BẰNG TỌA ĐỘ - CHUYỂN ĐỘNG NÉM]
-]
-#v(15pt)
+// ==========================================
+// TRANG BÌA & MỤC LỤC
+// ==========================================
+#vp-lesson-title(
+  num: "5", 
+  title: "KHẢO SÁT CHUYỂN ĐỘNG BẰNG TỌA ĐỘ - CHUYỂN ĐỘNG NÉM", 
+  color: rgb("#1D3B7A") // Đổi màu xanh dương đậm cho hợp tone file bài 5
+)
 
 // ==========================================
 // PHẦN 1: LÝ THUYẾT
 // ==========================================
-#vp-section(num: "1", title: "TÓM TẮT LÝ THUYẾT")
 #current-part.update("1. Tóm tắt lý thuyết")
+= TÓM TẮT LÝ THUYẾT
 
-=== 1.1. Nguyên lý Độc lập của các chuyển động (The Independence of Motions)
+== Nguyên lý Độc lập của các chuyển động (The Independence of Motions)
 Trong chuyển động ném, chuyển động theo phương ngang và phương thẳng đứng hoàn toàn độc lập với nhau; chuyển động này không ảnh hưởng đến chuyển động kia.
 
 - *Bằng chứng:* Nếu bạn thả rơi một quả bóng gôn và đồng thời bắn ngang một quả bóng gôn khác từ cùng độ cao, cả hai sẽ chạm đất cùng một lúc.
@@ -46,56 +54,155 @@ Trong chuyển động ném, chuyển động theo phương ngang và phương t
 #mock-img(note: "Ảnh hoạt nghiệm 2 quả bóng gôn rơi (một thả rơi, một bắn ngang) chạm đất cùng lúc")
 #v(10pt)
 
-=== 1.2. Hệ phương trình Động học của Chuyển động Ném xiên
+== Hệ phương trình Động học của Chuyển động Ném xiên
 Một vật được ném lên với vận tốc ban đầu $v_0$ ở góc $theta_0$ so với phương ngang. Do bỏ qua sức cản không khí, gia tốc ngang $a_x = 0$ và gia tốc dọc $a_y = -g$.
 
 - Thành phần vận tốc ban đầu: $v_{0x} = v_0 cos theta_0$ và $v_{0y} = v_0 sin theta_0$.
 
-*Chuyển động ngang (Thẳng đều):*
-- Vận tốc ngang: $v_x = v_{0x} = v_0 cos theta_0 = text("const")$.
-- Tọa độ ngang: $x = x_0 + (v_0 cos theta_0)t$.
+#v(12pt)
+// ---------------------------------------------------------
+// BẢNG SO SÁNH 2 CỘT: CHUYỂN ĐỘNG NGANG VÀ DỌC
+// ---------------------------------------------------------
+#grid(
+  columns: (1fr, 1fr),
+  gutter: 15pt,
+  
+  // THẺ BÀI 1: CHUYỂN ĐỘNG NGANG (MÀU XANH DƯƠNG)
+  block(
+    width: 100%, fill: rgb("#F0F7FF"), radius: (bottom: 4pt),
+    stroke: (top: 3pt + rgb("#1890FF"), left: 0.5pt + rgb("#E6F7FF"), right: 0.5pt + rgb("#E6F7FF"), bottom: 0.5pt + rgb("#E6F7FF")),
+    inset: 12pt,
+  )[
+    #text(fill: rgb("#1890FF"), weight: "bold", size: 13pt)[CHUYỂN ĐỘNG NGANG] \
+    #text(fill: rgb("#555"), style: "italic")[Thẳng đều]
+    #v(6pt)
+    #line(length: 100%, stroke: 0.5pt + rgb("#1890FF").lighten(50%))
+    #v(6pt)
+    - Vận tốc: $v_x = v_{0x} = v_0 cos theta_0 = text("const")$
+    #v(4pt)
+    - Tọa độ: $x = x_0 + (v_0 cos theta_0)t$
+  ],
+  
+  // THẺ BÀI 2: CHUYỂN ĐỘNG DỌC (MÀU ĐỎ GẠCH)
+  block(
+    width: 100%, fill: rgb("#FFF1F0"), radius: (bottom: 4pt),
+    stroke: (top: 3pt + rgb("#FF4D4F"), left: 0.5pt + rgb("#FFF1F0"), right: 0.5pt + rgb("#FFF1F0"), bottom: 0.5pt + rgb("#FFF1F0")),
+    inset: 12pt,
+  )[
+    #text(fill: rgb("#FF4D4F"), weight: "bold", size: 13pt)[CHUYỂN ĐỘNG DỌC] \
+    #text(fill: rgb("#555"), style: "italic")[Rơi tự do / Ném thẳng đứng]
+    #v(6pt)
+    #line(length: 100%, stroke: 0.5pt + rgb("#FF4D4F").lighten(50%))
+    #v(6pt)
+    - Vận tốc: $v_y = v_0 sin theta_0 - g t$
+    #v(4pt)
+    - Tọa độ: $y = y_0 + (v_0 sin theta_0)t - 1/2 g t^2$
+  ]
+)
+#v(10pt)
 
-*Chuyển động dọc (Rơi tự do / Ném thẳng đứng):*
-- Vận tốc dọc: $v_y = v_0 sin theta_0 - g t$.
-- Tọa độ dọc: $y = y_0 + (v_0 sin theta_0)t - 1/2 g t^2$.
+== Phương trình Quỹ đạo và Tầm xa
+Bằng cách rút $t$ từ phương trình $x$ và thế vào $y$ (với $x_0 = 0, y_0 = 0$), ta thu được quỹ đạo không phụ thuộc thời gian là một đường Parabol.
 
-=== 1.3. Phương trình Quỹ đạo và Tầm xa
-- *Quỹ đạo Parabol:* Bằng cách rút $t$ từ phương trình $x$ và thế vào $y$ (với $x_0 = 0, y_0 = 0$), ta được phương trình quỹ đạo không phụ thuộc thời gian:
-  $ y = (tan theta_0)x - (g x^2)/(2(v_0 cos theta_0)^2) $
-  Phương trình này là một hàm bậc 2, chứng tỏ quỹ đạo là một đường Parabol.
+#v(8pt)
+// ---------------------------------------------------------
+// KHỐI CÔNG THỨC TRỌNG TÂM
+// ---------------------------------------------------------
+#vp-knowledge-box(
+  title: "CÔNG THỨC QUỸ ĐẠO & TẦM XA",
+  type: "theorem",
+  color: rgb("#D84315"), // Màu cam gạch chói lọi, hợp với cảnh báo
+  content: [
+    *1. Phương trình quỹ đạo:*
+    $ y = (tan theta_0)x - (g)/(2 v_0^2 cos^2 theta_0) x^2 $
+    
+    *2. Tầm xa (Khoảng cách ngang cực đại khi $y = 0$):*
+    $ R = (v_0^2 sin(2 theta_0))/(g) $
+    
+    #v(4pt)
+    _Nhận xét:_ Tầm xa đạt cực đại ($R_"max" = v_0^2/g$) khi góc ném $theta_0 = 45^degree$ (với điều kiện điểm ném và điểm rơi cùng độ cao).
+  ]
+)
 
-- *Tầm xa (Horizontal Range R):* Là khoảng cách ngang khi vật rơi trở lại cùng độ cao lúc ném ($y = 0$):
-  $ R = (v_0^2)/(g) sin(2 theta_0) $
-  Tầm xa đạt cực đại khi $theta_0 = 45^degree$.
+#v(15pt)
+// ---------------------------------------------------------
+// HÌNH VẼ MINH HỌA BẰNG CETZ (ĐÃ CHUẨN HÓA HÌNH HỌC)
+// ---------------------------------------------------------
+#align(center)[
+  #cetz.canvas({
+    import cetz.draw: *
+    
+    // 1. Hệ trục tọa độ Oxy
+    line((0, -0.5), (0, 4.5), mark: (end: "stealth"), name: "y-axis", stroke: 1pt)
+    line((-0.5, 0), (7.5, 0), mark: (end: "stealth"), name: "x-axis", stroke: 1pt)
+    content((0, 4.8), $y$)
+    content((7.7, 0), $x$)
+    content((-0.3, -0.3), $O$)
+    
+    // 2. Quỹ đạo Parabol (Đỉnh H_max tại (3,3). Điểm neo điều khiển tại (3,6))
+    bezier((0,0), (6,0), (3, 6), stroke: 1.2pt)
+    
+    // 3. Vector vận tốc ban đầu v0 (Tiếp tuyến 100%)
+    // Hướng thẳng về điểm neo (3,6). Ta rút ngắn độ dài lại tại tọa độ (1.2, 2.4)
+    line((0,0), (1.2, 2.4), mark: (end: "stealth"), stroke: (paint: rgb("#1890FF"), thickness: 1.5pt))
+    content((0.6, 1.8), text(fill: rgb("#1890FF"), weight: "bold")[$v_0$])
+    
+    // 4. Góc ném theta_0 (Dịch điểm bắt đầu ra trục Ox)
+    // Cung bắt đầu tại (1,0) trên trục Ox, quay đến góc tiếp tuyến 63.43 độ
+    arc((1, 0), start: 0deg, stop: 63.43deg, radius: 1, stroke: rgb("#1890FF"))
+    content((1.4, 0.6), text(fill: rgb("#1890FF"))[$theta_0$])
+    
+    // 5. Đường gióng và chú thích Đỉnh H_max
+    line((3,0), (3,3), stroke: (paint: rgb("#888"), dash: "dotted"))
+    content((3.6, 3.3), text(fill: rgb("#D84315"))[$H_"max"$])
+    
+    // 6. Vẽ viên bi tại đỉnh và vector vx (vì vy = 0)
+    circle((3,3), radius: 0.12, fill: rgb("#FF4D4F"))
+    line((3,3), (4.5, 3), mark: (end: "stealth"), stroke: (paint: rgb("#1890FF"), thickness: 1.5pt))
+    content((4.5, 3.4), text(fill: rgb("#1890FF"), weight: "bold")[$v_x$])
+    
+    // 7. Ký hiệu Tầm xa R
+    line((0, -0.8), (6, -0.8), mark: (start: "stealth", end: "stealth"), stroke: rgb("#555"))
+    content((3, -1.2), text(fill: rgb("#555"))[*Tầm xa* $R$])
+  })
+]
+#v(15pt)
 
-> *🚨 Bẫy khái niệm cần tránh:*
-> - *Vận tốc tại đỉnh:* Tại đỉnh quỹ đạo, vật KHÔNG dừng lại. Vận tốc dọc $v_y = 0$, nhưng nó vẫn đang bay ngang với vận tốc $v_x = v_0 cos theta_0$.
-> - *Góc ném tối ưu:* Tầm xa cực đại đạt được ở góc $45^degree$ CHỈ ĐÚNG khi điểm ném và điểm rơi nằm trên cùng một mặt phẳng ngang. Nếu bạn ném tạ từ độ cao vai xuống đất, góc tối ưu sẽ nhỏ hơn $45^degree$.
-
+// ---------------------------------------------------------
+// BẪY KHÁI NIỆM
+// ---------------------------------------------------------
+#vp-knowledge-box(
+  title: "BẪY KHÁI NIỆM CẦN TRÁNH",
+  type: "warning",
+  content: [
+    - *Vận tốc tại đỉnh:* Tại đỉnh quỹ đạo, vật KHÔNG dừng lại. Vận tốc dọc $v_y = 0$, nhưng nó vẫn đang bay ngang với vận tốc $v_x = v_0 cos theta_0$.
+    - *Góc ném tối ưu:* Tầm xa cực đại đạt được ở góc $45^degree$ CHỈ ĐÚNG khi điểm ném và điểm rơi nằm trên cùng một mặt phẳng ngang. Nếu bạn ném tạ từ độ cao vai xuống đất, góc tối ưu sẽ nhỏ hơn $45^degree$.
+  ]
+)
 #v(15pt)
 // ==========================================
 // PHẦN 2: DẠNG BÀI
 // ==========================================
-#vp-section(num: "2", title: "PHÂN LOẠI DẠNG BÀI & PHƯƠNG PHÁP GIẢI")
 #current-part.update("2. Phân loại dạng bài")
+= PHÂN LOẠI DẠNG BÀI & PHƯƠNG PHÁP GIẢI
 
-- *Dạng 1: Ném ngang từ độ cao $h$*
-  - Phương pháp: Đây là ném xiên với góc $theta_0 = 0^degree$. Phương trình rút gọn cực đẹp: $v_{0x} = v_0$ và $v_{0y} = 0$. Thời gian rơi $t = sqrt((2h)/g)$ hoàn toàn không phụ thuộc vào việc bạn ném mạnh hay nhẹ, nó chỉ phụ thuộc độ cao. Tầm xa $x_"max" = v_0 t$.
+== Dạng 1: Ném ngang từ độ cao $h$
+- *Phương pháp:* Đây là ném xiên với góc $theta_0 = 0^degree$. Phương trình rút gọn cực đẹp: $v_{0x} = v_0$ và $v_{0y} = 0$. Thời gian rơi $t = sqrt((2h)/g)$ hoàn toàn không phụ thuộc vào việc bạn ném mạnh hay nhẹ, nó chỉ phụ thuộc độ cao. Tầm xa $x_"max" = v_0 t$.
 
-- *Dạng 2: Bài toán vượt chướng ngại vật (Giao điểm quỹ đạo)*
-  - Tư duy: Đề thường cho tọa độ $(x,y)$ của hàng rào, đỉnh núi, mép lưới bóng chuyền.
-  - Phương pháp: Lập ngay "Phương trình quỹ đạo" $y(x)$. Thế tọa độ $(x,y)$ của chướng ngại vật vào. Lúc này ta sẽ có một phương trình đại số theo biến là $tan theta_0$ hoặc $v_0$. Giải và biện luận bất phương trình ($y_"vật" > y_"rào"$) để tìm điều kiện an toàn.
+== Dạng 2: Bài toán vượt chướng ngại vật (Giao điểm quỹ đạo)
+- *Tư duy:* Đề thường cho tọa độ $(x,y)$ của hàng rào, đỉnh núi, mép lưới bóng chuyền.
+- *Phương pháp:* Lập ngay "Phương trình quỹ đạo" $y(x)$. Thế tọa độ $(x,y)$ của chướng ngại vật vào. Lúc này ta sẽ có một phương trình đại số theo biến là $tan theta_0$ hoặc $v_0$. Giải và biện luận bất phương trình ($y_"vật" > y_"rào"$) để tìm điều kiện an toàn.
 
-- *Dạng 3: Bắn mục tiêu đang rơi (The Monkey and Hunter)*
-  - Sự kỳ diệu của vật lý: Nếu bạn nhắm thẳng súng vào một quả táo đang treo trên cây, và ngay khoảnh khắc viên đạn rời nòng, quả táo rụng xuống. Viên đạn LUÔN TRÚNG quả táo dù bạn bắn nhanh hay chậm (miễn là đủ lực để đạn bay tới trước khi táo chạm đất).
-  - Phương pháp chứng minh đại số: Lập phương trình $y_"đạn"(t)$ và $y_"táo"(t)$, cho 2 tọa độ $x$ bằng nhau để tìm thời gian $t$, sau đó thế vào $y$ để chứng minh tọa độ dọc của chúng cũng tự động bằng nhau.
+== Dạng 3: Bắn mục tiêu đang rơi (The Monkey and Hunter)
+- *Sự kỳ diệu của vật lý:* Nếu bạn nhắm thẳng súng vào một quả táo đang treo trên cây, và ngay khoảnh khắc viên đạn rời nòng, quả táo rụng xuống. Viên đạn LUÔN TRÚNG quả táo dù bạn bắn nhanh hay chậm (miễn là đủ lực để đạn bay tới trước khi táo chạm đất).
+- *Phương pháp chứng minh đại số:* Lập phương trình $y_"đạn"(t)$ và $y_"táo"(t)$, cho 2 tọa độ $x$ bằng nhau để tìm thời gian $t$, sau đó thế vào $y$ để chứng minh tọa độ dọc của chúng cũng tự động bằng nhau.
 
 #pagebreak()
 // ==========================================
 // PHẦN 3: VÍ DỤ MINH HỌA
 // ==========================================
-#vp-section(num: "3", title: "VÍ DỤ MINH HỌA")
 #current-part.update("3. Ví dụ minh họa")
+= VÍ DỤ MINH HỌA
 
 #vp-show-level.update(false)
 #vp-show-source.update(false)
@@ -121,7 +228,7 @@ Một vật được ném lên với vận tốc ban đầu $v_0$ ở góc $thet
     - *b) Vận tốc chạm đích:*
       - Thành phần ngang: $v_x = v_{0x} = 55,0 "m/s"$ (không đổi).
       - Thành phần dọc: $v_y = -g t = -9,8 times 10,1 = -99,0 "m/s"$.
-      - Độ lớn vận tốc va chạm: $v = sqrt(v_x^2 + v_y^2) = sqrt(55,0^2 + (-99,0)^2) = 113 "m/s"$.
+      - Độ lớn vận tốc va chạm: $v = sqrt(v_x^2 + v_y^2) = sqrt(55.0^2 + (-99.0)^2) = 113 "m/s"$.
     
     *Nhận xét:* Vận tốc $113 "m/s"$ (tương đương $400 "km/h"$) sẽ phá nát thùng hàng. Thực tế, người ta phải gắn dù để giảm gia tốc thẳng đứng. Bằng chứng là phi công không bao giờ được nhắm ngay trên đỉnh đầu để thả, mà phải thả từ xa tít $555 "m"$!
   ]
@@ -139,11 +246,11 @@ Một vật được ném lên với vận tốc ban đầu $v_0$ ở góc $thet
     - Chọn gốc tọa độ tại B (người bắn). Trục x hướng về cột, trục y hướng lên.
     - Tọa độ vật A (Rơi tự do từ độ cao $H$): $x_A = L$ (luôn bằng $L$ vì chỉ rơi thẳng xuống); $y_A = H - 1/2 g t^2$.
     - Tọa độ pháo B (Ném xiên góc $alpha$): $x_B = (v_0 cos alpha)t$; $y_B = (v_0 sin alpha)t - 1/2 g t^2$.
-    - Điều kiện gặp nhau theo phương ngang: Đạn B phải bay tới cột. Cho $x_B = x_A => v_0 cos alpha cdot t = L => t = L / (v_0 cos alpha)$.
+    - Điều kiện gặp nhau theo phương ngang: Đạn B phải bay tới cột. Cho $x_B = x_A => v_0 cos alpha dot t = L => t = L / (v_0 cos alpha)$.
     - Chứng minh gặp nhau theo phương dọc: Thay thời gian $t$ này vào tọa độ $y_B$ của viên đạn:
-      $ y_B = v_0 sin alpha cdot (L / (v_0 cos alpha)) - 1/2 g t^2 = L cdot tan alpha - 1/2 g t^2 $
+      $ y_B = v_0 sin alpha dot (L / (v_0 cos alpha)) - 1/2 g t^2 = L dot tan alpha - 1/2 g t^2 $
     - Nhưng vì ta ngắm nòng súng nhìn thẳng vào A lúc ban đầu, góc bắn có $tan alpha = H/L$. Thay vào, ta được:
-      $ y_B = L cdot H/L - 1/2 g t^2 = H - 1/2 g t^2 $
+      $ y_B = L dot H/L - 1/2 g t^2 = H - 1/2 g t^2 $
     - So sánh kết quả, ta thấy $y_B$ chính xác bằng $y_A$. Phép chứng minh hoàn tất!
     
     *Nhận xét:* Bài toán cho thấy sức mạnh của việc chia tách tọa độ. Thành phần "rơi tự do" $-1/2 g t^2$ ảnh hưởng lên cả 2 vật giống hệt nhau, nên chúng tự động triệt tiêu cho nhau. Đây là một ảo giác vật lý rất kinh điển.
@@ -154,14 +261,14 @@ Một vật được ném lên với vận tốc ban đầu $v_0$ ở góc $thet
 // ==========================================
 // PHẦN 4: BÀI TẬP RÈN LUYỆN
 // ==========================================
-#vp-section(num: "4", title: "BÀI TẬP RÈN LUYỆN (25 BÀI)")
 #current-part.update("4. Bài tập rèn luyện")
+= BÀI TẬP RÈN LUYỆN (25 BÀI)
 
 #vp-show-level.update(true)
 #vp-show-source.update(true)
 #vp-q-counter.update(0)
 
-=== MỨC 1: Nắm vững hệ tọa độ và Thời gian bay (10 bài)
+== Mức 1: Nắm vững hệ tọa độ và Thời gian bay
 _Mục tiêu: Đạt tốc độ cao trong việc phân tách $v_x, v_y$ và tìm Tầm xa, Thời gian rơi._
 
 #vp-question(
@@ -225,10 +332,10 @@ _Mục tiêu: Đạt tốc độ cao trong việc phân tách $v_x, v_y$ và tì
 )
 
 #pagebreak()
-=== MỨC 2: Cực trị quỹ đạo, Giao điểm và Phương trình lượng giác (15 bài)
+== Mức 2: Cực trị quỹ đạo, Giao điểm và Phương trình lượng giác
 _Mục tiêu: Đòi hỏi giải hệ phương trình, sử dụng hàm $tan(x)$, lượng giác, cực trị Parabol._
 
-*Nhóm 2.1: Bài toán rào chắn và Khung thành*
+=== Nhóm 2.1: Bài toán rào chắn và Khung thành
 
 #vp-question(
   [(Đá phạt hàng rào): Cầu thủ sút phạt trực tiếp muốn bóng bay với vận tốc $25 "m/s"$. Anh ta cần đá bay qua xà ngang khung thành cao $3,44 "m"$ và cách đó $50 "m"$. Tìm góc đá nhỏ nhất và lớn nhất để bóng có thể lọt vào lưới. (Sử dụng phương trình quỹ đạo và công thức $1/(cos^2 alpha) = 1 + tan^2 alpha$ để đưa về phương trình bậc 2 theo ẩn $tan alpha$).],
@@ -251,7 +358,7 @@ _Mục tiêu: Đòi hỏi giải hệ phương trình, sử dụng hàm $tan(x)$
 )
 
 #v(10pt)
-*Nhóm 2.2: Bài toán giao điểm chuyển động & Công nghệ*
+=== Nhóm 2.2: Bài toán giao điểm chuyển động & Công nghệ
 
 #vp-question(
   [(Cá mang rổ phun nước): Loài cá Archer fish (cá mang rổ) bắn những tia nước để hạ gục côn trùng. Một con cá phát hiện một con nhện đang bám trên cành cây ở góc ngẩng $phi = 36,0^degree$ và khoảng cách đường chim bay $d = 0,900 "m"$. Tuy nhiên, để đòn đánh mạnh nhất, tia nước phải chạm đỉnh parabol ngay tại vị trí con nhện. Hỏi con cá phải bắn tia nước với góc ném $theta_0$ bằng bao nhiêu?],
@@ -274,7 +381,7 @@ _Mục tiêu: Đòi hỏi giải hệ phương trình, sử dụng hàm $tan(x)$
 )
 
 #pagebreak()
-*Nhóm 2.3: Bối cảnh đặc biệt*
+=== Nhóm 2.3: Bối cảnh đặc biệt
 
 #vp-question(
   [(Ảo giác bay lơ lửng - Hang time): Trong môn bóng rổ, huyền thoại Michael Jordan nổi tiếng với ảo giác như "lơ lửng" trên không tại đỉnh của cú bật nhảy. Giả sử anh bật thẳng đứng với $v_0 = 7,0 "m/s"$ hoặc nhảy ném bóng với góc $theta = 35^degree$. Tính phần trăm thời gian mà cầu thủ này nằm ở nửa trên của quỹ đạo cú nhảy (nghĩa là độ cao từ $0,5 H_"max"$ đến $H_"max"$). Kết quả (trên 70%) giải thích vì sao mắt người xem có cảm giác anh lơ lửng rất lâu ở trên đó.],
@@ -315,6 +422,9 @@ _Mục tiêu: Đòi hỏi giải hệ phương trình, sử dụng hàm $tan(x)$
 // ==========================================
 // TỔNG HỢP KẾT QUẢ ĐẦU RA
 // ==========================================
-#vp-print-keys(title: "BẢNG TỔNG HỢP ĐÁP ÁN")
+= BẢNG TỔNG HỢP ĐÁP ÁN
+#vp-print-keys(title: "")
+
 #v(20pt)
-#vp-print-solutions(title: "HƯỚNG DẪN GIẢI CHI TIẾT")
+= HƯỚNG DẪN GIẢI CHI TIẾT
+#vp-print-solutions(title: "")

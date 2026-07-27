@@ -9,6 +9,7 @@
 #import "components/hierarchy.typ": *
 #import "components/knowledge_box.typ": *
 #import "components/media.typ": *
+#import "themes/heading_theme.typ": *
 
 // (Giữ nguyên file question_bank của thầy)
 #import "components/question_bank.typ": *

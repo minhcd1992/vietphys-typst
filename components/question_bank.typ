@@ -4,7 +4,6 @@
 
 #import "../themes/default_theme.typ": *
 
-
 // -----------------------------------------------------------------
 // 1. KHỞI TẠO STATE & COUNTER
 // -----------------------------------------------------------------
@@ -118,7 +117,6 @@
 // -----------------------------------------------------------------
 #let vp-question(
   stem, type: "mcq", options: (), statements: (), ans: none, ans-tf: (), sol: none, level: none, source: none, stem2: none, image-scope: "stem",
-  // TÍNH NĂNG MỚI: Đổi prefix, Thêm điểm số
   prefix: "Câu", points: none,
   
   lines: auto, q-bg: auto, q-border: auto, tf-header-bg: auto, ans-color: auto, tf-correct-color: auto, tf-wrong-color: auto, ans-shape: auto, ans-mark-bg: auto, ans-mark-border: auto, ans-mark-width: auto, ans-text-color: auto, level-color: auto, source-color: auto,
@@ -162,29 +160,22 @@
     let has-visible-level = is-level and level != none
     let has-visible-source = is-source and source != none
 
-    // Xử lý Prefix thông minh (Chống khoảng trắng thừa nếu rỗng)
     let prefix-str = if prefix != "" and prefix != none [#prefix ] else []
     let lbl-content = [#if icon-before != none [#icon-before ]#prefix-str#num#if icon-after != none [ #icon-after]]
 
-    // CẬP NHẬT: Hàm đóng gói Nhãn Câu với đầy đủ màu nền và bo góc
     let _make_styled_lbl(content) = {
       if lbl-bg != none {
-        // Có màu nền -> Bọc vào box, chỉnh baseline để thẳng hàng với Text
         box(fill: lbl-bg, radius: lbl-radius, inset: lbl-padding, baseline: 15%, text(weight: "bold", fill: lbl-color)[#content])
       } else {
-        // Không màu nền -> In text đậm bình thường
         text(weight: "bold", fill: lbl-color)[#content]
       }
     }
 
-    // LOGIC ĐIỀU HƯỚNG HIỂN THỊ (INLINE HOẶC BLOCK)
     let stem-block = if not has-visible-level and not has-visible-source {
-      // 1. Chế độ Đề thi (Inline): Kéo nội dung lên cùng dòng, nối bằng dấu chấm.
       let pts-str = if type == "essay" and points != none [ (#points)] else []
       let final-lbl = _make_styled_lbl([#lbl-content#pts-str.])
       block(spacing: 12pt)[#final-lbl #stem]
     } else {
-      // 2. Chế độ Sách giáo khoa (Block): Cắt dòng, chèn Nhãn Level và Nguồn
       let header-items = ()
       header-items.push(_make_styled_lbl([#lbl-content:]))
       if has-visible-level { header-items.push(text(fill: final-level-color, weight: "bold")[\[#level\]]) }
@@ -204,17 +195,28 @@
       #let cols-count = if total-w * 4 <= avail-w { 4 } else if total-w * 2 <= avail-w { 2 } else { 1 }
 
       #grid(
-        columns: (1fr,) * cols-count, gutter: 12pt, row-gutter: 12pt,
+        columns: (1fr,) * cols-count, gutter: 12pt, row-gutter: 17pt,
         ..options.enumerate().map(((i, opt)) => {
           let is-correct = is-ans and ans == str("ABCD".at(i))
           let letter = str("ABCD".at(i)) + "."
+          
+          // ==========================================
+          // BẢN VÁ LỖI LỆCH BASELINE THÔNG MINH
+          // ==========================================
           let marker = if is-correct {
-            _render-mcq-marker(letter, final-ans-shape, final-ans-mark-bg, final-ans-mark-border, final-ans-mark-width, final-ans-text-color)
+            // Hiển thị đáp án đúng (có khoanh tròn) -> Bù trừ độ lệch hẹp bằng lệnh move
+            move(dy: -0.4em)[#_render-mcq-marker(letter, final-ans-shape, final-ans-mark-bg, final-ans-mark-border, final-ans-mark-width, final-ans-text-color)]
+          } else if opt-bg != none or opt-border != none {
+            // Có nền/viền custom -> Bù trừ độ lệch hẹp bằng lệnh move
+            move(dy: -0.4em)[#box(width: 1.6em, height: 1.6em, fill: opt-bg, stroke: opt-border, radius: opt-radius, align(center + horizon)[#text(weight: "bold", fill: opt-color)[#letter]])]
           } else {
-            box(width: 1.6em, height: 1.6em, fill: opt-bg, stroke: opt-border, radius: opt-radius, align(center + horizon)[#text(weight: "bold", fill: opt-color)[#letter]])
+            // Mặc định: Trả về Text thuần túy để Typst tự động cân bằng baseline với nội dung bên phải!
+            text(weight: "bold", fill: opt-color)[#letter]
           }
+          
           let opt-content = if is-correct { text(fill: final-ans-text-color, weight: "bold")[#opt] } else { opt }
-          [ #grid(columns: (auto, 1fr), gutter: 8pt, align: (horizon, horizon), marker, opt-content) ]
+          
+          [ #grid(columns: (auto, 1fr), gutter: 8pt, align: (left + top, left + top), marker, opt-content) ]
         })
       )
     ] else if type == "tf" [
@@ -272,7 +274,6 @@
       let c-success = vp-colors.at("success", default: rgb("#52C41A"))
       heading(level: 1)[#text(fill: c-success)[#title]]
       for item in arr {
-        // Tự động nhận diện Prefix (Câu / Bài / Ví dụ)
         let p = item.at("prefix", default: "Câu")
         block(fill: rgb("#F6FFED"), stroke: 1pt + c-success, radius: 4pt, inset: 12pt, width: 100%, breakable: true)[
           *#p #item.num:* \ #v(4pt) #item.sol
