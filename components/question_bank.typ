@@ -227,21 +227,37 @@
       #_render-essay-answer(ans, is-ans, final-ans-color)
     ]
 
+    // ==========================================
+    // XỬ LÝ BỐ CỤC ẢNH (HỖ TRỢ LEFT, RIGHT, BOTTOM)
+    // ==========================================
     let content-with-image = if image != none {
-      let left-col = if image-side == "left" { 1fr * image-ratio } else { 1fr }
-      let right-col = if image-side == "left" { 1fr } else { 1fr * image-ratio }
-      
-      if image-scope == "full" {
-        grid(columns: (left-col, right-col), gutter: image-gap, align: image-valign,
-          if image-side == "left" { image } else { [#stem-block #if stem2 != none [#block(spacing: 12pt)[#stem2]] #options-block] },
-          if image-side == "left" { [#stem-block #if stem2 != none [#block(spacing: 12pt)[#stem2]] #options-block] } else { image }
-        )
+      if image-side == "bottom" {
+        // NẾU LÀ BOTTOM: Dàn hàng dọc (Đề bài -> Ảnh -> Options)
+        [
+          #stem-block
+          #if stem2 != none [#block(spacing: 12pt)[#stem2]]
+          #v(8pt)
+          #align(center)[#image]
+          #v(8pt)
+          #options-block
+        ]
       } else {
-        let top-grid = grid(columns: (left-col, right-col), gutter: image-gap, align: image-valign,
-          if image-side == "left" { image } else { stem-block },
-          if image-side == "left" { stem-block } else { image }
-        )
-        [ #top-grid #if stem2 != none [#block(spacing: 12pt)[#stem2]] #options-block ]
+        // NẾU LÀ LEFT/RIGHT: Dàn cột ngang như cũ
+        let left-col = if image-side == "left" { 1fr * image-ratio } else { 1fr }
+        let right-col = if image-side == "left" { 1fr } else { 1fr * image-ratio }
+        
+        if image-scope == "full" {
+          grid(columns: (left-col, right-col), gutter: image-gap, align: image-valign,
+            if image-side == "left" { image } else { [#stem-block #if stem2 != none [#block(spacing: 12pt)[#stem2]] #options-block] },
+            if image-side == "left" { [#stem-block #if stem2 != none [#block(spacing: 12pt)[#stem2]] #options-block] } else { image }
+          )
+        } else {
+          let top-grid = grid(columns: (left-col, right-col), gutter: image-gap, align: image-valign,
+            if image-side == "left" { image } else { stem-block },
+            if image-side == "left" { stem-block } else { image }
+          )
+          [ #top-grid #if stem2 != none [#block(spacing: 12pt)[#stem2]] #options-block ]
+        }
       }
     } else {
       [#stem-block #if stem2 != none [#block(spacing: 12pt)[#stem2]] #options-block]
