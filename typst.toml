@@ -1,0 +1,8 @@
+[package]
+name = "vietphys"
+version = "0.1.0"
+entrypoint = "vietphys.typ"
+authors = ["Chung Diệu Minh"]
+description = "Vietnamese physics questions, lessons and document layouts."
+compiler = "0.15.1"
+exclude = ["examples", "legacy", "tests", "img", "scripts", "dist", ".github", ".typst-packages"]
