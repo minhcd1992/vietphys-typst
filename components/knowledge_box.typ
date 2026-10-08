@@ -1,12 +1,15 @@
+#import "../themes/theme_colors.typ": vp-resolve-color
+
 // KHỐI ĐỊNH LÝ, ĐỊNH NGHĨA, LƯU Ý
 #let vp-knowledge-box(
   title: "",
   content: [],
   type: "definition", // Hỗ trợ: definition, theorem, warning, note
-  color: rgb("#1890FF")
-) = {
+  color: auto
+) = context {
+  let color = vp-resolve-color(color)
   let bg-color = color.lighten(90%)
-  
+
   if type == "definition" {
     // Khung Định Nghĩa: Kín 4 viền, viền trái nhấn đậm
     block(
@@ -39,7 +42,7 @@
         columns: (auto, 1fr),
         column-gutter: 8pt,
         align: (center+top, left+top),
-        text(fill: warn-color, size: 14pt, weight: "bold")[!], 
+        text(fill: warn-color, size: 14pt, weight: "bold")[!],
         [
           #if title != "" { text(fill: warn-color, weight: "bold")[#title #linebreak()] }
           #content

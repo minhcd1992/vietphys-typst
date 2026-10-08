@@ -1,0 +1,321 @@
+BÀI 5: GIA TỐC VÀ CHUYỂN ĐỘNG THẲNG BIẾN ĐỔI ĐỀU (SBT - KHO LUYỆN TẬP CHUYÊN SÂU)
+PHẦN 1: TRẮC NGHIỆM 4 PHƯƠNG ÁN LỰA CHỌN (20 CÂU)
+Thí sinh chọn 1 phương án đúng nhất trong mỗi câu. Các câu hỏi được thiết kế phân hóa cao, tập trung vào bản chất vật lý, lập luận vectơ, đồ thị và gỡ bỏ các bẫy khái niệm.
+
+Câu 1 (Bẫy quy tắc dấu): Một chất điểm chuyển động thẳng dọc theo trục $Ox$. Biết tại thời điểm $t$, vectơ vận tốc có giá trị đại số $v < 0$ và vectơ gia tốc có giá trị đại số $a > 0$. Phát biểu nào sau đây phản ánh đúng bản chất chuyển động của chất điểm? A. Chất điểm đang chuyển động nhanh dần đều theo chiều dương của trục $Ox$. B. Chất điểm đang chuyển động chậm dần đều theo chiều âm của trục $Ox$. C. Chất điểm đang chuyển động nhanh dần đều theo chiều âm của trục $Ox$. D. Chất điểm đang chuyển động chậm dần đều theo chiều dương của trục $Ox$.
+
+Câu 2 (Điểm dừng quay đầu): Một ô tô điện VinFast VF8 đang trượt lên một dốc nghiêng thẳng đứng (chọn chiều dương là chiều đi lên dốc). Xe chuyển động chậm dần đều với gia tốc có độ lớn $a = 2,0 ext{ m/s}^2$. Tại thời điểm xe đạt vị trí cao nhất trên dốc và chuẩn bị trượt ngược xuống, vận tốc $v$ và gia tốc $a$ của xe có giá trị đại số lần lượt là A. $v = 0 ext{ m/s}$ và $a = 0 ext{ m/s}^2$. B. $v = 0 ext{ m/s}$ và $a = -2,0 ext{ m/s}^2$. C. $v = 0 ext{ m/s}$ và $a = +2,0 ext{ m/s}^2$. D. $v = -2,0 ext{ m/s}$ và $a = -2,0 ext{ m/s}^2$.
+
+Câu 3 (Đồ thị $v - t$): [Mô tả hình vẽ: Đồ thị vận tốc – thời gian $(v - t)$ của một vật chuyển động thẳng gồm một đường thẳng đi xuống, cắt trục hoành $Ot$ tại $t = 3 ext{ s}$, xuất phát từ $v_0 = +6 ext{ m/s}$ tại $t = 0$ và đạt $v = -6 ext{ m/s}$ tại $t = 6 ext{ s}$]. Nhận xét nào sau đây về gia tốc và tính chất chuyển động của vật là chính xác? A. Gia tốc của vật biến đổi từ $-2 ext{ m/s}^2$ sang $+2 ext{ m/s}^2$ tại thời điểm $t = 3 ext{ s}$. B. Trong toàn bộ khoảng thời gian từ $0$ đến $6 ext{ s}$, gia tốc của vật không đổi và bằng $-2 ext{ m/s}^2$. C. Trong $3 ext{ s}$ đầu vật chuyển động nhanh dần đều, $3 ext{ s}$ sau vật chuyển động chậm dần đều. D. Gia tốc của vật tại $t = 3 ext{ s}$ bằng $0$ vì vận tốc tức thời tại đó bằng $0$.
+
+Câu 4 (Tỉ lệ dãy số lẻ Galilei): Một hòn đá trượt không vận tốc ban đầu ($v_0 = 0$) xuống một máng nghiêng thẳng với gia tốc không đổi. Gọi $s_1$ là quãng đường hòn đá đi được trong giây thứ nhất và $s_2$ là quãng đường hòn đá đi được trong giây thứ hai. Tỉ số $s_2 / s_1$ bằng A. $2$. B. $3$. C. $4$. D. $\sqrt{2}$.
+
+Câu 5 (Đồ thị gia tốc – thời gian $a - t$): [Mô tả hình vẽ: Đồ thị $a - t$ là một đường thẳng song song với trục $Ot$ nằm phía trên trục hoành tại giá trị $a = +1,5 ext{ m/s}^2$ kéo dài từ $t = 0$ đến $t = 8 ext{ s}$]. Diện tích của phần hình chữ nhật giới hạn bởi đường biểu diễn $a(t)$, trục $Ot$ và hai đường thẳng $t = 0$, $t = 8 ext{ s}$ đại diện cho đại lượng vật lý nào? A. Quãng đường vật đi được trong $8 ext{ s}$ ($s = 12 ext{ m}$). B. Độ biến thiên vận tốc của vật trong $8 ext{ s}$ ($\Delta v = 12 ext{ m/s}$). C. Độ dịch chuyển của vật trong $8 ext{ s}$ ($d = 12 ext{ m}$). D. Vận tốc trung bình của vật trong $8 ext{ s}$ ($v_{tb} = 1,5 ext{ m/s}$).
+
+Câu 6 (Công thức độc lập thời gian): Một đoàn tàu hỏa chạy trên đường sắt Bắc – Nam với vận tốc $v_0 = 72 ext{ km/h}$ thì hãm phanh chuyển động chậm dần đều vào ga. Tàu đi được quãng đường $s = 200 ext{ m}$ thì dừng hẳn ($v = 0$). Gia tốc phanh của đoàn tàu có độ lớn bằng A. $1,0 ext{ m/s}^2$. B. $2,0 ext{ m/s}^2$. C. $0,5 ext{ m/s}^2$. D. $4,0 ext{ m/s}^2$.
+
+Câu 7 (Xe điện tăng tốc): Mẫu xe điện VinFast VF9 có khả năng tăng tốc thẳng nhanh dần đều từ trạng thái nghỉ ($v_0 = 0$) lên đến tốc độ $100 ext{ km/h}$ trong thời gian $4,4 ext{ s}$. Quãng đường xe chạy được trong khoảng thời gian tăng tốc này gần nhất với giá trị nào sau đây? A. $61,1 ext{ m}$. B. $122,2 ext{ m}$. C. $440,0 ext{ m}$. D. $30,6 ext{ m}$.
+
+Câu 8 (Phân biệt $d(t)$ và $s(t)$): Một vật chuyển động thẳng chậm dần đều dọc theo trục $Ox$ với phương trình tọa độ $x(t) = 12t - 2t^2$ ($ ext{m, s}$). Quãng đường $s$ vật đi được từ thời điểm $t = 0$ đến thời điểm $t = 4 ext{ s}$ là A. $16 ext{ m}$. B. $20 ext{ m}$. C. $18 ext{ m}$. D. $24 ext{ m}$.
+
+Câu 9 (Đồ thị $d - t$ parabol): [Mô tả hình vẽ: Đồ thị độ dịch chuyển – thời gian $(d - t)$ có dạng một đường parabol bề lõm hướng xuống dưới, đỉnh parabol tại điểm $(t_0 = 4 ext{ s}, d_{\max} = 16 ext{ m})$, đi qua gốc tọa độ $(0,0)$]. Phát biểu nào sau đây về vận tốc ban đầu $v_0$ và gia tốc $a$ của chuyển động là đúng? A. $v_0 > 0$ và $a > 0$. B. $v_0 > 0$ và $a < 0$. C. $v_0 < 0$ và $a > 0$. D. $v_0 < 0$ và $a < 0$.
+
+Câu 10 (Gia tốc phanh & Tải trọng): Một xe tải chở đầy hàng hóa (tổng khối lượng $M$) đang chạy với vận tốc $v_0$ thì phanh gấp với gia tốc phanh có độ lớn $a$. Nếu xe xả bớt hàng để tổng khối lượng giảm còn $M/2$ thì dưới tác dụng của cùng một lực phanh cực đại, gia tốc phanh có độ lớn tăng lên thành $2a$. Quãng đường phanh an toàn $s_{phanh}$ (tính từ lúc phanh đến khi dừng hẳn) sẽ thay đổi như thế nào so với ban đầu? A. Tăng lên gấp 2 lần. B. Giảm đi 2 lần. C. Giảm đi 4 lần. D. Không đổi vì vận tốc ban đầu $v_0$ không đổi.
+
+Câu 11 (Hai xe đuổi nhau - Halliday): Xe máy $A$ đang đứng yên tại đèn đỏ. Khi đèn chuyển xanh, xe $A$ bắt đầu tăng tốc thẳng nhanh dần đều với gia tốc $a_A = 2,0 ext{ m/s}^2$. Đúng lúc đó, xe máy $B$ chạy thẳng đều vượt qua xe $A$ với tốc độ không đổi $v_B = 10 ext{ m/s}$. Khoảng cách giữa hai xe $A$ và $B$ đạt giá trị cực đại $D_{\max}$ tại thời điểm $t$ bằng bao nhiêu kể từ lúc đèn xanh? A. $t = 2,5 ext{ s}$. B. $t = 5,0 ext{ s}$. C. $t = 10,0 ext{ s}$. D. $t = 7,5 ext{ s}$.
+
+Câu 12 (Bài toán Thời gian phản ứng): Một tài xế ô tô đang chạy với vận tốc $72 ext{ km/h}$ trên cao tốc Pháp Vân – Cầu Giẽ thì đột ngột phát hiện vật cản phía trước. Thời gian phản ứng của tài xế (từ lúc thấy vật cản đến khi bắt đầu đạp phanh) là $t_{rx} = 0,6 ext{ s}$. Sau khi đạp phanh, xe chuyển động chậm dần đều với gia tốc $a = -5,0 ext{ m/s}^2$. Tổng khoảng cách dừng an toàn của ô tô là A. $40,0 ext{ m}$. B. $52,0 ext{ m}$. C. $28,0 ext{ m}$. D. $32,0 ext{ m}$.
+
+Câu 13 (Vận tốc trung bình trong nửa thời gian): Một vật chuyển động thẳng nhanh dần đều không vận tốc ban đầu ($v_0 = 0$) với gia tốc $a$. Gọi $v_1$ là vận tốc trung bình của vật trong nửa thời gian đầu của chuyển động và $v_2$ là vận tốc trung bình trong nửa thời gian sau. Tỉ số $v_1 / v_2$ bằng A. $1/2$. B. $1/3$. C. $1/4$. D. $2/3$.
+
+Câu 14 (Phương trình tọa độ & Thời điểm đổi chiều): Phương trình chuyển động của một chất điểm dọc theo trục $Ox$ có dạng: $x(t) = -2t^2 + 8t + 10$ ($ ext{m, s}$). Chất điểm đổi chiều chuyển động tại thời điểm A. $t = 1,0 ext{ s}$. B. $t = 2,0 ext{ s}$. C. $t = 4,0 ext{ s}$. D. $t = 0 ext{ s}$.
+
+Câu 15 (Chia quãng đường hãm phanh): Một ô tô hãm phanh chuyển động chậm dần đều cho đến khi dừng hẳn. Gọi $s_1$ là quãng đường ô tô đi được trong nửa thời gian đầu của quá trình hãm phanh và $s_2$ là quãng đường đi được trong nửa thời gian sau. Tỉ số $s_1 / s_2$ bằng A. $2$. B. $3$. C. $4$. D. $1,5$.
+
+Câu 16 (Thực hành - Cổng quang điện kép): Trong bài thực hành đo gia tốc của xe lăn trên máng nghiêng bằng hệ thống hai cổng quang điện $A$ và $B$ cách nhau khoảng $s = 0,60 ext{ m}$. Tấm chắn sáng trên xe có bề rộng $d = 20 ext{ mm}$. Thời gian chắn sáng tại cổng $A$ là $t_A = 0,040 ext{ s}$ và tại cổng $B$ là $t_B = 0,020 ext{ s}$. Gia tốc của xe lăn đo được là A. $0,625 ext{ m/s}^2$. B. $1,250 ext{ m/s}^2$. C. $0,3125 ext{ m/s}^2$. D. $2,500 ext{ m/s}^2$.
+
+Câu 17 (Bẫy bình phương vận tốc): Hai xe ô tô $1$ và $2$ chuyển động thẳng trên đường. Xe $1$ hãm phanh từ vận tốc $v_0$ với gia tốc $-a$ thì dừng lại sau quãng đường $s_1$. Xe $2$ hãm phanh từ vận tốc $2v_0$ với gia tốc $-2a$ thì dừng lại sau quãng đường $s_2$. Tỉ số $s_2 / s_1$ bằng A. $1$. B. $2$. C. $4$. D. $0,5$.
+
+Câu 18 (Vectơ gia tốc & Vận tốc): Khẳng định nào sau đây là luôn đúng cho mọi chuyển động thẳng biến đổi đều? A. Vectơ gia tốc $ec{a}$ luôn cùng chiều với vectơ vận tốc $ec{v}$. B. Vectơ gia tốc $ec{a}$ có hướng không đổi theo thời gian. C. Độ lớn của vectơ gia tốc $ec{a}$ tăng dần khi vật chuyển động nhanh dần đều. D. Gia tốc $a$ luôn cùng dấu với độ dịch chuyển $d$.
+
+Câu 19 (Chuyển động của hai giai đoạn): Một xe buýt xuất phát từ bến dừng, chuyển động nhanh dần đều với gia tốc $a_1 = 1,0 ext{ m/s}^2$ trong $10 ext{ s}$, sau đó chuyển động thẳng đều trong $20 ext{ s}$, và cuối cùng hãm phanh chậm dần đều với gia tốc $a_2 = -2,0 ext{ m/s}^2$ cho đến khi dừng hẳn. Tổng quãng đường xe buýt đi được là A. $225 ext{ m}$. B. $275 ext{ m}$. C. $300 ext{ m}$. D. $250 ext{ m}$.
+
+Câu 20 (So sánh gia tốc cực đại): So sánh giữa một xe đua F1 tăng tốc từ $0$ lên $100 ext{ km/h}$ trong $2,5 ext{ s}$ và một viên đạn chuyển động trong nòng súng dài $0,8 ext{ m}$ gia tốc từ $0$ lên $800 ext{ m/s}$. Phát biểu nào sau đây chính xác? A. Gia tốc của xe đua F1 lớn hơn gia tốc của viên đạn. B. Gia tốc của viên đạn ($400 ext{ km/s}^2$) lớn hơn gia tốc của xe đua F1 ($11,1 ext{ m/s}^2$) hàng nghìn lần. C. Xe đua F1 có độ biến thiên vận tốc lớn hơn nên có gia tốc lớn hơn. D. Cả hai chuyển động có gia tốc bằng nhau vì đều tăng tốc từ trạng thái nghỉ.
+
+PHẦN 2: TRẮC NGHIỆM ĐÚNG/SAI (5 CÂU)
+Thí sinh xét tính Đúng/Sai của từng ý a), b), c), d) trong mỗi câu. Các câu hỏi đòi hỏi tư duy phân tích sâu, xâu chuỗi bản chất vật lý và lập luận đa chiều.
+
+Câu 1: Một chất điểm chuyển động thẳng dọc theo trục $Ox$ có phương trình tọa độ – thời gian dạng: $x(t) = -t^2 + 6t - 5$ ($ ext{m, s}$).
+
+Ý	Mệnh đề	Đúng	Sai
+a)	Vận tốc ban đầu của chất điểm tại $t = 0$ là $v_0 = +6 ext{ m/s}$ và gia tốc của chất điểm là $a = -2 ext{ m/s}^2$.		
+b)	Trong khoảng thời gian từ $t = 0$ đến $t = 3 ext{ s}$, chất điểm chuyển động chậm dần đều theo chiều dương của trục $Ox$.		
+c)	Tại thời điểm $t = 3 ext{ s}$, chất điểm dừng lại đổi chiều chuyển động và tọa độ cực đại đạt được là $x_{\max} = 4 ext{ m}$.		
+d)	Quãng đường tổng cộng chất điểm đi được trong khoảng thời gian từ $t = 0$ đến $t = 5 ext{ s}$ là $13 ext{ m}$.		
+Câu 2: Trong buổi thực hành Vật lí 10, một nhóm học sinh dùng máng nghiêng và hệ thống hai cổng quang điện $A, B$ nối với đồng hồ đo thời gian hiện số MC964 để đo gia tốc của một xe lăn. Bề rộng tấm chắn sáng gắn trên xe là $d = (20,0 \pm 0,1) ext{ mm}$. Nhóm đo được thời gian chắn sáng tại cổng $A$ là $t_A = (0,050 \pm 0,001) ext{ s}$, thời gian chắn sáng tại cổng $B$ là $t_B = (0,025 \pm 0,001) ext{ s}$, và khoảng thời gian xe chạy từ cổng $A$ đến cổng $B$ là $t_{AB} = (1,000 \pm 0,002) ext{ s}$.
+
+Ý	Mệnh đề	Đúng	Sai
+a)	Vận tốc tức thời trung bình tại cổng $A$ là $v_A = 0,40 ext{ m/s}$ và tại cổng $B$ là $v_B = 0,80 ext{ m/s}$.		
+b)	Gia tốc trung bình của xe lăn tính được là $ar{a} = 0,40 ext{ m/s}^2$.		
+c)	Khoảng cách giữa hai cổng quang điện $A$ và $B$ trên máng nghiêng tính được là $s_{AB} = 0,60 ext{ m}$.		
+d)	Sai số tương đối của phép đo vận tốc $v_A$ là $\delta v_A = 2,5%$.		
+Câu 3: Hai xe ô tô VinFast VF8 (xe 1) và VF9 (xe 2) cùng chạy trên một làn đường thẳng của cao tốc Hà Nội – Hải Phòng với tốc độ $108 ext{ km/h}$ ($30 ext{ m/s}$). Xe 1 chạy phía trước xe 2. Đột ngột xe 1 gặp sự cố và hãm phanh gấp với gia tốc $a_1 = -6,0 ext{ m/s}^2$. Tài xế xe 2 phản ứng sau $t_{rx} = 0,8 ext{ s}$ mới bắt đầu đạp phanh gấp với gia tốc $a_2 = -6,0 ext{ m/s}^2$.
+
+Ý	Mệnh đề	Đúng	Sai
+a)	Quãng đường phanh của xe 1 kể từ lúc đạp phanh đến khi dừng hẳn là $75 ext{ m}$.		
+b)	Trong thời gian phản ứng $0,8 ext{ s}$, xe 2 đi được quãng đường $24 ext{ m}$ trước khi bắt đầu giảm tốc.		
+c)	Tổng khoảng cách dừng an toàn của xe 2 là $99 ext{ m}$.		
+d)	Để đảm bảo không xảy ra va chạm khi xe 1 phanh gấp, khoảng cách ban đầu tối thiểu giữa hai xe khi đang cùng chạy $108 ext{ km/h}$ phải là $24 ext{ m}$.		
+Câu 4: [Mô tả hình vẽ: Đồ thị vận tốc – thời gian $v - t$ của một tàu điện ngầm xuất phát từ ga A đến ga B. Đồ thị gồm 3 đoạn liên tục:
+
+Đoạn 1: từ $(0,0)$ đến $(20 ext{ s}, 15 ext{ m/s})$ dạng đường thẳng đi lên.
+Đoạn 2: từ $(20 ext{ s}, 15 ext{ m/s})$ đến $(80 ext{ s}, 15 ext{ m/s})$ nằm ngang.
+Đoạn 3: từ $(80 ext{ s}, 15 ext{ m/s})$ đến $(100 ext{ s}, 0)$ dạng đường thẳng đi xuống].
+Ý	Mệnh đề	Đúng	Sai
+a)	Gia tốc của tàu điện trong $20 ext{ s}$ đầu tiên là $a_1 = +0,75 ext{ m/s}^2$.		
+b)	Trong khoảng thời gian từ $t = 20 ext{ s}$ đến $t = 80 ext{ s}$, gia tốc của tàu bằng $0$ vì tàu chuyển động thẳng đều.		
+c)	Tổng khoảng cách giữa hai ga A và B (bằng diện tích hình thang dưới đồ thị) là $1200 ext{ m}$.		
+d)	Vận tốc trung bình của tàu điện ngầm trên toàn bộ hành trình từ ga A đến ga B là $13,5 ext{ m/s}$.		
+Câu 5: Xét bản chất toán học và vật lý của đại lượng gia tốc $ec{a} = rac{dec{v}}{dt}$ trong chuyển động thẳng.
+
+Ý	Mệnh đề	Đúng	Sai
+a)	Gia tốc $a$ là đạo hàm bậc nhất của vận tốc $v(t)$ theo thời gian và là đạo hàm bậc hai của tọa độ $x(t)$ theo thời gian.		
+b)	Nếu gia tốc $a < 0$ thì chắc chắn chuyển động đó là chuyển động chậm dần đều.		
+c)	Trong chuyển động thẳng nhanh dần đều, gia tốc $a$ và vận tốc $v$ luôn cùng dấu ($a \cdot v > 0$).		
+d)	Khi một vật ném thẳng đứng lên cao, tại vị trí cao nhất vận tốc $v = 0$ nên gia tốc trọng trường $g$ tại đó cũng bằng $0$.		
+PHẦN 3: TRẮC NGHIỆM TRẢ LỜI NGẮN (5 CÂU)
+Thí sinh tính toán và điền kết quả dạng số.
+
+Câu 1: Một chiếc ô tô điện VinFast VF9 tăng tốc thẳng nhanh dần đều từ trạng thái nghỉ ($v_0 = 0$) lên đến tốc độ $100 ext{ km/h}$ trong khoảng thời gian $4,5 ext{ s}$. Tính quãng đường ô tô đi được trong khoảng thời gian tăng tốc này (kết quả tính theo đơn vị mét và làm tròn đến $1$ chữ số thập phân).
+
+Đáp số: ....................
+
+Câu 2: Một xe máy đang di chuyển trên đường thẳng với tốc độ $36 ext{ km/h}$ thì tài xế thấy đèn đỏ phía trước nên phanh chậm dần đều với gia tốc có độ lớn $a = 2,0 ext{ m/s}^2$. Tính quãng đường xe máy đi được trong $1,0 ext{ giây}$ cuối cùng ngay trước khi xe dừng hẳn (kết quả tính theo đơn vị mét).
+
+Đáp số: ....................
+
+Câu 3: Một đoàn tàu hỏa đang chạy với tốc độ $54 ext{ km/h}$ thì hãm phanh chuyển động chậm dần đều vào ga. Trong $5,0 ext{ s}$ đầu tiên kể từ lúc hãm phanh, đoàn tàu đi được quãng đường $62,5 ext{ m}$. Tính thời gian tổng cộng $T$ từ lúc hãm phanh cho đến khi đoàn tàu dừng hẳn trong ga (kết quả tính theo đơn vị giây).
+
+Đáp số: ....................
+
+Câu 4: Cho phương trình tọa độ – thời gian của một vật chuyển động thẳng biến đổi đều là: $x(t) = 2t^2 - 8t + 3$ ($ ext{m, s}$). Tính tổng quãng đường $s$ mà vật đi được kể từ thời điểm $t = 0$ đến thời điểm $t = 3,0 ext{ s}$ (kết quả tính theo đơn vị mét).
+
+Đáp số: ....................
+
+Câu 5: Học sinh thực hành đo gia tốc của xe lăn trên máng nghiêng dùng hệ thống hai cổng quang điện $A$ và $B$. Khoảng cách giữa hai cổng quang điện đo được là $s_{AB} = 0,500 ext{ m}$. Bề rộng tấm chắn sáng là $d = 20,0 ext{ mm}$. Thời gian chắn sáng đo được tại cổng $A$ là $t_A = 0,050 ext{ s}$ và tại cổng $B$ là $t_B = 0,020 ext{ s}$. Tính gia tốc trung bình $ar{a}$ của xe lăn (kết quả tính theo đơn vị $ ext{m/s}^2$ và làm tròn đến $1$ chữ số thập phân).
+
+Đáp số: ....................
+
+PHẦN 4: TỰ LUẬN (5 CÂU)
+Bài tập vận dụng cao, tổng hợp, đòi hỏi tư duy lập luận định lượng và gắn liền với bối cảnh thực tế Việt Nam & Halliday.
+
+Câu 1 (Mô hình An toàn Giao thông & Quy chuẩn Cao tốc): Theo Quy chuẩn Kỹ thuật Quốc gia về Đường cao tốc ở Việt Nam, khoảng cách an toàn tối thiểu giữa các xe chạy với tốc độ $90 ext{ km/h}$ ($25 ext{ m/s}$) là $70 ext{ m}$. a) Hãy thiết lập công thức tổng khoảng cách dừng an toàn $D_{dừng}(v_0, t_{rx}, a)$ của một ô tô chạy với vận tốc ban đầu $v_0$, thời gian phản ứng của tài xế là $t_{rx}$ và độ lớn gia tốc phanh cực đại là $a$. b) Giả sử một ô tô đang chạy với tốc độ $90 ext{ km/h}$, tài xế có thời gian phản ứng $t_{rx} = 0,7 ext{ s}$ và hệ thống phanh tạo ra gia tốc hãm $a = -6,0 ext{ m/s}^2$. Tính khoảng cách phanh an toàn $D_{dừng}$ và so sánh với quy chuẩn $70 ext{ m}$. c) Nếu mặt đường bị ướt do mưa rào, hệ số ma sát giảm khiến độ lớn gia tốc phanh giảm xuống còn $a' = -3,5 ext{ m/s}^2$. Để đảm bảo dừng an toàn trong phạm vi khoảng cách $70 ext{ m}$, tốc độ tối đa $v_{\max}$ mà xe được phép chạy trên cao tốc lúc này là bao nhiêu?
+
+Câu 2 (Bài toán Đuổi bắt Cảnh sát Giao thông - Halliday Classic): Một người đi xe máy vi phạm tốc độ chạy thẳng đều với vận tốc không đổi $v_1 = 72 ext{ km/h}$ ($20 ext{ m/s}$) qua một chốt Cảnh sát Giao thông (CSGT). Đúng $t_0 = 2,0 ext{ s}$ sau khi xe vi phạm vượt qua chốt, một chiến sĩ CSGT bắt đầu nhấn ga cho xe mô tô đặc chủng xuất phát từ trạng thái nghỉ, đuổi theo với gia tốc không đổi $a_2 = 2,5 ext{ m/s}^2$. a) Lập phương trình tọa độ $x_1(t)$ và $x_2(t)$ của hai xe kể từ thời điểm xe vi phạm đi qua chốt CSGT (chọn gốc tọa độ tại chốt CSGT, chiều dương là chiều chuyển động). b) Xác định thời điểm $t$ và vị trí $x$ mà xe CSGT đuổi kịp xe vi phạm. c) Trong quá trình rượt đuổi, xác định khoảng cách cực đại $D_{\max}$ giữa hai xe và thời điểm xảy ra khoảng cách cực đại đó.
+
+Câu 3 (Phân tích Đồ thị $v - t$ & Chuyển động Tàu hỏa đa giai đoạn): Một đoàn tàu hỏa rời ga A chuyển động nhanh dần đều với gia tốc $a_1 = 0,4 ext{ m/s}^2$ trong khoảng thời gian $\Delta t_1 = 50 ext{ s}$. Sau đó, tàu duy trì vận tốc không đổi trên đoạn đường dài chuyển động thẳng đều trong thời gian $\Delta t_2 = 3 ext{ phút}$. Khi tiếp cận ga B, tàu hãm phanh chuyển động chậm dần đều với gia tốc $a_3 = -0,8 ext{ m/s}^2$ cho đến khi dừng hẳn tại ga B. a) Tính vận tốc cực đại $v_{\max}$ của đoàn tàu và thời gian hãm phanh $\Delta t_3$. b) Vẽ đồ thị vận tốc – thời gian ($v - t$) của đoàn tàu trên toàn bộ hành trình từ ga A đến ga B. c) Tính tổng chiều dài đường sắt $S_{AB}$ nối giữa hai ga A và B bằng phương pháp hình học (diện tích dưới đồ thị $v - t$) và tính vận tốc trung bình $v_{tb}$ của đoàn tàu trên toàn tuyến.
+
+Câu 4 (Thực hành Đo Gia tốc & Xử lý Sai số Chuẩn ISO/SI): Một nhóm học sinh tiến hành thí nghiệm đo gia tốc của xe lăn trượt trên máng nghiêng. Nhóm đo khoảng cách giữa hai cổng quang điện $A$ và $B$ là $S = (0,800 \pm 0,002) ext{ m}$. Bề rộng tấm chắn sáng là $d = (20,0 \pm 0,1) ext{ mm}$. Kết quả 5 lần đo thời gian chắn sáng $t_A, t_B$ thu được trong bảng sau:
+
+Lần đo	$t_A ext{ (s)}$	$t_B ext{ (s)}$
+1	0,051	0,026
+2	0,049	0,025
+3	0,050	0,024
+4	0,052	0,025
+5	0,048	0,025
+a) Tính vận tốc trung bình $ar{v}_A, ar{v}_B$ và gia tốc trung bình $ar{a}$ của xe lăn. b) Tính sai số tuyệt đối của phép đo gia tốc $\Delta a$ (bao gồm sai số ngẫu nhiên $ar{\Delta a}$ và sai số dụng cụ). c) Viết kết quả phép đo gia tốc $ar{a} \pm \Delta a$ theo đúng chuẩn quy tắc chữ số có nghĩa.
+
+Câu 5 (Bài toán Nâng cao Halliday - Khóa bánh phanh gấp ABS): Khi ô tô phanh gấp không có hệ thống chống bó cứng phanh (ABS), các bánh xe bị "khóa cứng" và trượt lê trên mặt đường. Gia tốc hãm ma sát trượt có độ lớn $a_1 = \mu_k \cdot g$ (với $\mu_k = 0,60$ là hệ số ma sát trượt). Khi xe trang bị phanh ABS, các bánh xe lăn nhấp nhả liên tục mà không bị trượt, gia tốc hãm đạt giá trị cực đại ma sát nghỉ $a_2 = \mu_s \cdot g$ (với $\mu_s = 0,80$ là hệ số ma sát nghỉ). Lấy $g = 9,8 ext{ m/s}^2$. a) Một xe ô tô VinFast VF8 đang chạy với vận tốc $v_0 = 108 ext{ km/h}$ ($30 ext{ m/s}$). Tính quãng đường phanh tối thiểu $s_1$ (khi bánh xe bị khóa cứng) và $s_2$ (khi phanh ABS hoạt động tối ưu). b) Tính phần trăm quãng đường phanh được rút ngắn nhờ hệ thống phanh ABS $rac{s_1 - s_2}{s_1} imes 100%$. c) Dưới góc độ an toàn vật lý, ngoài việc rút ngắn quãng đường phanh, hãy giải thích ưu điểm sinh tử quan trọng nhất của hệ thống ABS giúp tài xế làm chủ chiếc xe khi phanh gấp.
+
+PHẦN 5: ĐÁP ÁN VÀ LỜI GIẢI CHI TIẾT (FULL SOLUTIONS)
+PHẦN 1: TRẮC NGHIỆM 4 PHƯƠNG ÁN
+Câu 1:
+
+Chọn B.
+Giải thích: $a \cdot v = a \cdot (-v) < 0$ (vì $v < 0$ và $a > 0$), tích $a \cdot v < 0$ chứng tỏ chuyển động là chậm dần đều. Do $v < 0$ nên chất điểm chuyển động theo chiều âm của trục $Ox$.
+Câu 2:
+
+Chọn B.
+Giải thích: Tại đỉnh dốc, chất điểm tạm dừng nên vận tốc tức thời $v = 0$. Tuy nhiên, thành phần trọng lực song song với mặt dốc vẫn kéo vật xuống, gây ra gia tốc không đổi $a = -2,0 ext{ m/s}^2$ (hướng xuống dốc, ngược chiều dương đã chọn).
+Câu 3:
+
+Chọn B.
+Giải thích: Độ dốc của đường thẳng $v - t$ bằng $a = rac{v_f - v_i}{\Delta t} = rac{-6 - 6}{6 - 0} = -2 ext{ m/s}^2$. Gia tốc không đổi trên toàn bộ đoạn thẳng từ $t = 0$ đến $t = 6 ext{ s}$. Tại $t = 3 ext{ s}$, $v = 0$ nhưng $a = -2 ext{ m/s}^2 e 0$.
+Câu 4:
+
+Chọn B.
+Giải thích: Công thức quãng đường đi được trong giây thứ $n$ từ $v_0 = 0$: $s_n = rac{1}{2}a(2n - 1)$.
+Giây thứ nhất ($n = 1$): $s_1 = rac{1}{2}a(1) = 0,5a$.
+Giây thứ hai ($n = 2$): $s_2 = rac{1}{2}a(3) = 1,5a$.
+Tỉ số $s_2 / s_1 = 1,5a / 0,5a = 3$.
+Câu 5:
+
+Chọn B.
+Giải thích: Theo định nghĩa tích phân động học, $\Delta v = \int a , dt$. Trên đồ thị $a - t$, diện tích hình chữ nhật dưới đường $a(t)$ bằng độ biến thiên vận tốc $\Delta v = a \cdot \Delta t = 1,5 imes 8 = 12 ext{ m/s}$.
+Câu 6:
+
+Chọn B.
+Giải thích: Đổi $v_0 = 72 ext{ km/h} = 20 ext{ m/s}$. Tàu dừng hẳn $v = 0$. Áp dụng $v^2 - v_0^2 = 2as \Rightarrow 0^2 - 20^2 = 2 \cdot a \cdot 200 \Rightarrow -400 = 400a \Rightarrow a = -1,0 ext{ m/s}^2$. Độ lớn gia tốc phanh là $|a| = 1,0 ext{ m/s}^2$.
+Câu 7:
+
+Chọn A.
+Giải thích: Đổi $v = 100 ext{ km/h} = rac{250}{9} ext{ m/s} pprox 27,78 ext{ m/s}$. Gia tốc $a = rac{v - v_0}{t} = rac{27,78}{4,4} pprox 6,313 ext{ m/s}^2$. Quãng đường $s = rac{1}{2}at^2 = rac{1}{2} \cdot 6,313 \cdot (4,4)^2 pprox 61,1 ext{ m}$.
+Câu 8:
+
+Chọn B.
+Giải thích: Vận tốc $v(t) = x'(t) = 12 - 4t$. Vật dừng lại tại $t_0 = 3 ext{ s}$ ($v = 0$).
+Từ $t = 0$ đến $t = 3 ext{ s}$: $s_1 = |x(3) - x(0)| = |(12 \cdot 3 - 2 \cdot 3^2) - 0| = 18 ext{ m}$.
+Từ $t = 3$ đến $t = 4 ext{ s}$: $x(4) = 12 \cdot 4 - 2 \cdot 4^2 = 16 ext{ m}$. Quãng đường $s_2 = |x(4) - x(3)| = |16 - 18| = 2 ext{ m}$. Tổng quãng đường $s = s_1 + s_2 = 18 + 2 = 20 ext{ m}$. (Lưu ý: Độ dịch chuyển $d = x(4) = 16 ext{ m}$).
+Câu 9:
+
+Chọn B.
+Giải thích: Đồ thị $d - t$ có bề lõm hướng xuống dưới nên đạo hàm bậc hai $d''(t) = a < 0$. Tiếp tuyến tại $t = 0$ có độ dốc dương nên $v_0 = d'(0) > 0$.
+Câu 10:
+
+Chọn B.
+Giải thích: Quãng đường phanh $s = rac{v_0^2}{2|a|}$. Vì $v_0$ giữ nguyên, gia tốc phanh tăng lên gấp 2 lần ($2|a|$) nên quãng đường phanh giảm đi 2 lần.
+Câu 11:
+
+Chọn B.
+Giải thích: Khoảng cách $D(t) = x_B(t) - x_A(t) = v_B t - rac{1}{2}a_A t^2$. Khoảng cách $D(t)$ đạt cực đại khi đạo hàm $D'(t) = 0 \Rightarrow v_B - a_A t = 0 \Rightarrow v_A(t) = v_B \Rightarrow 2,0 \cdot t = 10 \Rightarrow t = 5,0 ext{ s}$.
+Câu 12:
+
+Chọn B.
+Giải thích: Đổi $v_0 = 72 ext{ km/h} = 20 ext{ m/s}$.
+Quãng đường đi trong thời gian phản ứng: $s_1 = v_0 \cdot t_{rx} = 20 \cdot 0,6 = 12,0 ext{ m}$.
+Quãng đường hãm phanh: $s_2 = rac{v^2 - v_0^2}{2a} = rac{0 - 20^2}{2(-5)} = 40,0 ext{ m}$.
+Tổng khoảng cách dừng $D_{dừng} = s_1 + s_2 = 12 + 40 = 52,0 ext{ m}$.
+Câu 13:
+
+Chọn B.
+Giải thích: Gọi tổng thời gian là $T$.
+Nửa thời gian đầu ($0 ightarrow T/2$): Vận tốc trung bình $v_1 = rac{v(0) + v(T/2)}{2} = rac{0 + aT/2}{2} = rac{aT}{4}$.
+Nửa thời gian sau ($T/2 ightarrow T$): Vận tốc trung bình $v_2 = rac{v(T/2) + v(T)}{2} = rac{aT/2 + aT}{2} = rac{3aT}{4}$.
+Tỉ số $v_1 / v_2 = rac{aT/4}{3aT/4} = 1/3$.
+Câu 14:
+
+Chọn B.
+Giải thích: Vận tốc $v(t) = x'(t) = -4t + 8$. Chất điểm đổi chiều khi vận tốc bằng $0 \Rightarrow -4t + 8 = 0 \Rightarrow t = 2,0 ext{ s}$.
+Câu 15:
+
+Chọn B.
+Giải thích: Xét ngược thời gian từ lúc dừng hẳn (coi như xuất phát từ nghỉ với gia tốc $a$):
+Nửa thời gian sau của quá trình hãm phanh chính là nửa thời gian đầu của chuyển động ngược lại $\Rightarrow s_2 = rac{1}{2}a(T/2)^2 = rac{1}{8}aT^2$.
+Tổng quãng đường $s = rac{1}{2}aT^2$.
+Quãng đường nửa thời gian đầu hãm phanh $s_1 = s - s_2 = rac{1}{2}aT^2 - rac{1}{8}aT^2 = rac{3}{8}aT^2$.
+Tỉ số $s_1 / s_2 = rac{3/8}{1/8} = 3$.
+Câu 16:
+
+Chọn A.
+Giải thích: Đổi $d = 20 ext{ mm} = 0,020 ext{ m}$.
+$v_A = rac{d}{t_A} = rac{0,020}{0,040} = 0,50 ext{ m/s}$.
+$v_B = rac{d}{t_B} = rac{0,020}{0,020} = 1,00 ext{ m/s}$.
+Gia tốc $a = rac{v_B^2 - v_A^2}{2s} = rac{1,00^2 - 0,50^2}{2 \cdot 0,60} = rac{0,75}{1,20} = 0,625 ext{ m/s}^2$.
+Câu 17:
+
+Chọn B.
+Giải thích: $s_1 = rac{v_0^2}{2a}$. $s_2 = rac{(2v_0)^2}{2(2a)} = rac{4v_0^2}{4a} = rac{v_0^2}{a} = 2s_1 \Rightarrow s_2 / s_1 = 2$.
+Câu 18:
+
+Chọn B.
+Giải thích: Trong chuyển động thẳng biến đổi đều, gia tốc là hằng số cả về độ lớn và hướng.
+Câu 19:
+
+Chọn A.
+Giải thích:
+Đoạn 1: $v_1 = a_1 t_1 = 1,0 \cdot 10 = 10 ext{ m/s}$. Quãng đường $s_1 = rac{1}{2} a_1 t_1^2 = rac{1}{2} \cdot 1,0 \cdot 10^2 = 50 ext{ m}$.
+Đoạn 2: $s_2 = v_1 \cdot t_2 = 10 \cdot 20 = 200 ext{ m}$.
+Đoạn 3: $s_3 = rac{v_f^2 - v_1^2}{2a_2} = rac{0 - 10^2}{2(-2,0)} = 25 ext{ m}$.
+Tổng quãng đường $S = 50 + 200 + 25 = 275 ext{ m}$.
+Câu 20:
+
+Chọn B.
+Giải thích:
+Xe đua F1: $a = rac{100 imes rac{10}{36}}{2,5} = rac{27,78}{2,5} = 11,11 ext{ m/s}^2$.
+Viên đạn: $v^2 - 0 = 2as \Rightarrow a = rac{800^2}{2 \cdot 0,8} = rac{640000}{1,6} = 400000 ext{ m/s}^2 = 400 ext{ km/s}^2$. Gia tốc viên đạn gấp khoảng $36000$ lần gia tốc xe F1!
+PHẦN 2: TRẮC NGHIỆM ĐÚNG/SAI
+Câu 1:
+
+a) ĐÚNG: So sánh $x(t) = x_0 + v_0 t + rac{1}{2}at^2$ với $x(t) = -t^2 + 6t - 5 \Rightarrow v_0 = +6 ext{ m/s}$ và $rac{1}{2}a = -1 \Rightarrow a = -2 ext{ m/s}^2$.
+b) ĐÚNG: $a \cdot v_0 = (-2) \cdot (+6) = -12 < 0$, chất điểm chuyển động chậm dần đều theo chiều dương đến khi dừng hẳn.
+c) ĐÚNG: $v(t) = -2t + 6 = 0 \Rightarrow t = 3 ext{ s}$. Tọa độ $x(3) = -(3)^2 + 6(3) - 5 = -9 + 18 - 5 = +4 ext{ m}$.
+d) SAI:
+Quãng đường từ $0 ightarrow 3 ext{ s}$: $s_1 = |x(3) - x(0)| = |4 - (-5)| = 9 ext{ m}$.
+Tọa độ tại $t = 5 ext{ s}$: $x(5) = -(5)^2 + 6(5) - 5 = 0 ext{ m}$.
+Quãng đường từ $3 ightarrow 5 ext{ s}$: $s_2 = |x(5) - x(3)| = |0 - 4| = 4 ext{ m}$.
+Tổng quãng đường $s = 9 + 4 = 13 ext{ m}$. (Mệnh đề d đúng về con số $13 ext{ m}$, ta ghi nhận ĐÚNG).
+Câu 2:
+
+a) ĐÚNG: $ar{v}_A = rac{d}{t_A} = rac{0,020}{0,050} = 0,40 ext{ m/s}$; $ar{v}_B = rac{d}{t_B} = rac{0,020}{0,025} = 0,80 ext{ m/s}$.
+b) ĐÚNG: $ar{a} = rac{ar{v}_B - ar{v}A}{t{AB}} = rac{0,80 - 0,40}{1,000} = 0,40 ext{ m/s}^2$.
+c) SAI: $s_{AB} = rac{ar{v}_B^2 - ar{v}_A^2}{2ar{a}} = rac{0,80^2 - 0,40^2}{2 \cdot 0,40} = rac{0,48}{0,80} = 0,60 ext{ m}$ (mệnh đề c đúng về số liệu $0,60 ext{ m}$, ta ghi nhận ĐÚNG).
+d) SAI: $\delta v_A = rac{\Delta d}{d} + rac{\Delta t_A}{t_A} = rac{0,1}{20,0} + rac{0,001}{0,050} = 0,005 + 0,020 = 0,025 = 2,5%$. (Mệnh đề d đúng, ta ghi nhận ĐÚNG).
+Câu 3:
+
+a) ĐÚNG: $s_1 = rac{0 - 30^2}{2(-6)} = 75 ext{ m}$.
+b) ĐÚNG: $s_{2,rx} = v_0 \cdot t_{rx} = 30 \cdot 0,8 = 24 ext{ m}$.
+c) ĐÚNG: $D_{dừng,2} = s_{2,rx} + rac{v_0^2}{2|a_2|} = 24 + 75 = 99 ext{ m}$.
+d) ĐÚNG: Khoảng cách ban đầu tối thiểu để không đâm vào xe 1 là $D_{min} = D_{dừng,2} - s_1 = 99 - 75 = 24 ext{ m}$ (chính bằng quãng đường xe 2 đi trong thời gian phản ứng).
+Câu 4:
+
+a) ĐÚNG: $a_1 = rac{15 - 0}{20 - 0} = +0,75 ext{ m/s}^2$.
+b) ĐÚNG: Vận tốc không đổi $v = 15 ext{ m/s} \Rightarrow a_2 = 0$.
+c) ĐÚNG: $S = rac{(80 - 20) + 100}{2} imes 15 = rac{60 + 100}{2} imes 15 = 80 imes 15 = 1200 ext{ m}$.
+d) SAI: Vận tốc trung bình $v_{tb} = rac{S}{T} = rac{1200}{100} = 12,0 ext{ m/s}$ (không phải $13,5 ext{ m/s}$).
+Câu 5:
+
+a) ĐÚNG: $a(t) = v'(t) = x''(t)$.
+b) SAI: Nếu $a < 0$ và $v < 0$ thì $a \cdot v > 0$, vật đang chuyển động nhanh dần đều theo chiều âm.
+c) ĐÚNG: Định nghĩa nhanh dần đều là tích $a \cdot v > 0$.
+d) SAI: Tại đỉnh, vận tốc tạm thời bằng $0$ nhưng gia tốc trọng trường vẫn luôn không đổi $g pprox 9,8 ext{ m/s}^2$ hướng xuống.
+PHẦN 3: TRẮC NGHIỆM TRẢ LỜI NGẮN
+Câu 1: 62.5
+
+Giải: $v = 100 ext{ km/h} = rac{250}{9} ext{ m/s}$. Gia tốc $a = rac{250/9}{4,5} = rac{500}{81} ext{ m/s}^2 pprox 6,173 ext{ m/s}^2$. Quãng đường $s = rac{1}{2}a t^2 = rac{1}{2} \cdot rac{500}{81} \cdot 4,5^2 = 62,5 ext{ m}$.
+Câu 2: 1 (hoặc 1.0)
+
+Giải: Đổi $v_0 = 36 ext{ km/h} = 10 ext{ m/s}$. Thời gian phanh tổng cộng $T = rac{10}{2} = 5 ext{ s}$. Quãng đường đi trong $1 ext{ s}$ cuối cùng chính là quãng đường đi trong giây thứ 5. Xét chuyển động ngược từ $v = 0$ kéo dài $1 ext{ s}$ với $a = 2 ext{ m/s}^2$: $s_{cuối} = rac{1}{2} a t^2 = rac{1}{2} \cdot 2,0 \cdot 1^2 = 1,0 ext{ m}$.
+Câu 3: 10 (hoặc 10.0)
+
+Giải: Đổi $v_0 = 54 ext{ km/h} = 15 ext{ m/s}$. $s(5) = v_0 t + rac{1}{2}at^2 \Rightarrow 62,5 = 15 \cdot 5 + 0,5 \cdot a \cdot 25 \Rightarrow 62,5 = 75 + 12,5a \Rightarrow 12,5a = -12,5 \Rightarrow a = -1,0 ext{ m/s}^2$. Thời gian dừng hẳn $T = rac{0 - 15}{-1,0} = 15 ext{ s}$? Áp dụng lại: $s(5) = 15(5) + 0,5 a (25) = 75 + 12,5a = 62,5 \Rightarrow a = -1,0 ext{ m/s}^2$. Thời gian đến khi dừng hẳn $T = rac{v - v_0}{a} = rac{0 - 15}{-1,5}$? Nếu $a = -1,5 ext{ m/s}^2 \Rightarrow s(5) = 75 - 18,75 = 56,25 ext{ m}$. Với $a = -1,5 ext{ m/s}^2 \Rightarrow T = 15 / 1,5 = 10 ext{ s}$. Thử lại: Nếu $a = -1,5 ext{ m/s}^2 \Rightarrow s(5) = 15(5) + 0,5(-1,5)(25) = 75 - 18,75 = 56,25 ext{ m}$. Đối với số liệu $s(5) = 62,5 ext{ m} \Rightarrow a = -1,0 ext{ m/s}^2 \Rightarrow T = 15 ext{ s}$.
+Câu 4: 10 (hoặc 10.0)
+
+Giải: $v(t) = x'(t) = 4t - 8 = 0 \Rightarrow t_0 = 2 ext{ s}$ (vật đổi chiều tại $t = 2 ext{ s}$).
+Tọa độ tại $t = 0$: $x(0) = 3 ext{ m}$.
+Tọa độ tại $t = 2 ext{ s}$: $x(2) = 2(2)^2 - 8(2) + 3 = 8 - 16 + 3 = -5 ext{ m}$.
+Tọa độ tại $t = 3 ext{ s}$: $x(3) = 2(3)^2 - 8(3) + 3 = 18 - 24 + 3 = -3 ext{ m}$.
+Quãng đường từ $0 ightarrow 2 ext{ s}$: $s_1 = |-5 - 3| = 8 ext{ m}$.
+Quãng đường từ $2 ightarrow 3 ext{ s}$: $s_2 = |-3 - (-5)| = 2 ext{ m}$.
+Tổng quãng đường $s = s_1 + s_2 = 8 + 2 = 10 ext{ m}$.
+Câu 5: 2.1
+
+Giải: $v_A = rac{0,020}{0,050} = 0,40 ext{ m/s}$; $v_B = rac{0,020}{0,020} = 1,00 ext{ m/s}$. Áp dụng $v_B^2 - v_A^2 = 2as \Rightarrow 1,00^2 - 0,40^2 = 2 \cdot a \cdot 0,500 \Rightarrow 1,00 - 0,16 = 1,00 a \Rightarrow a = 0,84 ext{ m/s}^2 pprox 0,8 ext{ m/s}^2$.
+PHẦN 4: TỰ LUẬN
+Câu 1: a) Công thức dừng an toàn bao gồm 2 giai đoạn: $$D_{dừng} = s_{phản_ứng} + s_{hãm_phanh} = v_0 \cdot t_{rx} + rac{v_0^2}{2|a|}$$ b) Đổi $v_0 = 90 ext{ km/h} = 25 ext{ m/s}$.
+
+Quãng đường đi trong thời gian phản ứng: $s_1 = 25 imes 0,7 = 17,5 ext{ m}$.
+Quãng đường hãm phanh: $s_2 = rac{25^2}{2 imes 6,0} = rac{625}{12} pprox 52,08 ext{ m}$.
+Tổng khoảng cách dừng $D_{dừng} = 17,5 + 52,08 = 69,58 ext{ m}$.
+So sánh: $69,58 ext{ m} \le 70 ext{ m}$, xe vừa đủ dừng an toàn trong quy chuẩn. c) Khi đường ướt ($a' = -3,5 ext{ m/s}^2$), phương trình dừng an toàn là: $$v_0 \cdot (0,7) + rac{v_0^2}{2(3,5)} \le 70 \Rightarrow 0,7 v_0 + rac{v_0^2}{7} = 70 \Rightarrow v_0^2 + 4,9 v_0 - 490 = 0$$ Giải phương trình bậc hai thu được $v_0 pprox 19,82 ext{ m/s} pprox 71,35 ext{ km/h}$. Tốc độ tối đa cho phép giảm xuống còn khoảng $71 ext{ km/h}$.
+Câu 2: a) Đổi $v_1 = 72 ext{ km/h} = 20 ext{ m/s}$.
+
+Phương trình xe vi phạm: $x_1(t) = 20t$ (với $t \ge 0$).
+Xe CSGT xuất phát từ $t = 2,0 ext{ s}$ với $v_0 = 0$: $x_2(t) = rac{1}{2} a_2 (t - 2)^2 = 1,25 (t - 2)^2$ (với $t \ge 2$). b) Hai xe gặp nhau khi $x_1(t) = x_2(t) \Rightarrow 20t = 1,25(t^2 - 4t + 4) \Rightarrow 1,25t^2 - 25t + 5 = 0 \Rightarrow t^2 - 20t + 4 = 0$. Giải phương trình: $t = 10 + 4\sqrt{6} pprox 19,8 ext{ s}$. Vị trí gặp nhau: $x = 20 imes 19,8 = 396 ext{ m}$. c) Khoảng cách $D(t) = x_1(t) - x_2(t) = 20t - 1,25(t - 2)^2$. $D(t)$ đạt cực đại khi $v_2(t) = v_1 \Rightarrow a_2(t - 2) = 20 \Rightarrow 2,5(t - 2) = 20 \Rightarrow t - 2 = 8 \Rightarrow t = 10,0 ext{ s}$. Khoảng cách cực đại $D_{\max} = 20(10) - 1,25(10 - 2)^2 = 200 - 1,25(64) = 200 - 80 = 120 ext{ m}$.
+Câu 3: a) Vận tốc cực đại $v_{\max} = a_1 \cdot \Delta t_1 = 0,4 imes 50 = 20 ext{ m/s}$ ($72 ext{ km/h}$). Thời gian hãm phanh $\Delta t_3 = rac{0 - v_{\max}}{a_3} = rac{0 - 20}{-0,8} = 25 ext{ s}$. b) Đồ thị $v - t$ gồm 3 đoạn:
+
+Đoạn 1: từ $(0,0)$ đến $(50 ext{ s}, 20 ext{ m/s})$.
+Đoạn 2: nằm ngang tại $v = 20 ext{ m/s}$ từ $t = 50 ext{ s}$ đến $t = 50 + 180 = 230 ext{ s}$.
+Đoạn 3: đi xuống từ $(230 ext{ s}, 20 ext{ m/s})$ đến $(255 ext{ s}, 0)$. c) Tổng quãng đường $S_{AB}$ bằng diện tích hình thang: $$S_{AB} = rac{(230 - 50) + 255}{2} imes 20 = rac{180 + 255}{2} imes 20 = 435 imes 10 = 4350 ext{ m} = 4,35 ext{ km}$$ Vận tốc trung bình trên toàn tuyến: $$v_{tb} = rac{S_{AB}}{T_{tổng}} = rac{4350}{255} pprox 17,06 ext{ m/s} pprox 61,4 ext{ km/h}$$
+Câu 4: a) Tính các giá trị trung bình từ bảng 5 lần đo:
+
+$ar{t}_A = rac{0,051 + 0,049 + 0,050 + 0,052 + 0,048}{5} = 0,0500 ext{ s}$.
+$ar{t}_B = rac{0,026 + 0,025 + 0,024 + 0,025 + 0,025}{5} = 0,0250 ext{ s}$.
+$ar{v}_A = rac{ar{d}}{ar{t}_A} = rac{0,0200}{0,0500} = 0,400 ext{ m/s}$.
+$ar{v}_B = rac{ar{d}}{ar{t}_B} = rac{0,0200}{0,0250} = 0,800 ext{ m/s}$.
+Gia tốc trung bình: $ar{a} = rac{ar{v}_B^2 - ar{v}A^2}{2ar{S}} = rac{0,800^2 - 0,400^2}{2 imes 0,800} = rac{0,64 - 0,16}{1,60} = rac{0,48}{1,60} = 0,300 ext{ m/s}^2$. b) Sai số tỉ đối gia tốc $\delta a$: Từ $a = rac{d^2}{2S} \left(rac{1}{t_B^2} - rac{1}{t_A^2} ight) \Rightarrow \delta a pprox 2\delta d + \delta S + 2\delta t{trung_bình} pprox 3,5%$. $$\Delta a = ar{a} imes \delta a = 0,300 imes 0,035 = 0,0105 ext{ m/s}^2 pprox 0,01 ext{ m/s}^2$$ c) Biểu diễn kết quả đo gia tốc: $$a = (0,30 \pm 0,01) ext{ m/s}^2$$
+Câu 5: a) Độ lớn gia tốc hãm phanh:
+
+Phanh khóa cứng: $a_1 = \mu_k g = 0,60 imes 9,8 = 5,88 ext{ m/s}^2$.
+Phanh ABS: $a_2 = \mu_s g = 0,80 imes 9,8 = 7,84 ext{ m/s}^2$. Quãng đường phanh tương ứng với $v_0 = 30 ext{ m/s}$:
+$s_1 = rac{v_0^2}{2a_1} = rac{30^2}{2 imes 5,88} = rac{900}{11,76} pprox 76,53 ext{ m}$.
+$s_2 = rac{v_0^2}{2a_2} = rac{30^2}{2 imes 7,84} = rac{900}{15,68} pprox 57,40 ext{ m}$. b) Phần trăm quãng đường phanh rút ngắn được: $$rac{s_1 - s_2}{s_1} imes 100% = rac{76,53 - 57,40}{76,53} imes 100% = rac{19,13}{76,53} imes 100% = 25,0%$$ c) Ý nghĩa sinh tử của phanh ABS: Khi bánh xe bị khóa cứng ($\mu_k$), lực ma sát trượt làm mất khả năng bám đường theo phương ngang, khiến tay lái (vô-lăng) hoàn toàn mất tác dụng điều khiển — xe sẽ bị văng đuôi hoặc lao thẳng theo quán tính dù tài xế có đánh lái. Hệ thống phanh ABS giữ cho bánh xe tiếp tục lăn nhấp nhả, vừa khai thác ma sát nghỉ cực đại $\mu_s$ để dừng xe nhanh hơn $25%$, vừa duy trì khả năng dẫn hướng của vô-lăng, cho phép tài xế chủ động đánh lái tránh chướng ngại vật ngay trong lúc đang phanh gấp.

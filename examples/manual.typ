@@ -1,11 +1,9 @@
 // ==========================================
 // CẨM NANG SỬ DỤNG VIETPHYS - SELF-COMPILING
-// Tên file: vietphys-package/examples/manual_mcq.typ
 // ==========================================
 #import "../vietphys.typ": *
 // Import thư viện tạo Dropcap từ kho package của Typst
 #import "@preview/droplet:0.3.1": dropcap
-#import "@preview/fontawesome:0.6.2": *
 
 // Dàn trang và Thiết lập
 #show: doc => vp-page-setup(paper: "a4", margin: (x: 2cm, y:60pt), doc)
@@ -59,7 +57,7 @@ Dạng câu hỏi Trắc nghiệm khách quan (`type: "mcq"`) là trái tim củ
 // ==========================================
 // TÍNH NĂNG 1
 // ==========================================
-#vp-section(num: "1", title: "Tính năng Tự động dàn cột (Auto-Columns Layout)")
+= Tính năng Tự động dàn cột (Auto-Columns Layout)
 
 Hệ thống sẽ tự động đo lường độ dài của các phương án A, B, C, D. Nếu chữ ngắn, nó chia 4 cột. Nếu chữ dài vừa, nó gập thành 2 cột. Nếu chữ quá dài, nó tự động xếp thành 1 cột dọc.
 
@@ -112,7 +110,7 @@ Hệ thống sẽ tự động đo lường độ dài của các phương án A
 // TÍNH NĂNG 2
 // ==========================================
 #pagebreak()
-#vp-section(num: "2", title: "Tùy biến Tên gọi (Prefix), Số thứ tự và Điểm số")
+= Tùy biến Tên gọi (Prefix), Số thứ tự và Điểm số
 
 Khi làm đề thi hoặc tài liệu, thầy có thể đổi chữ "Câu" thành "Bài", "Ví dụ", thêm icon, và cài đặt để nội dung bám sát ngay sau Nhãn câu hỏi (bằng cách tắt Hiển thị Nhãn mức độ và Nguồn).
 
@@ -157,7 +155,7 @@ Khi làm đề thi hoặc tài liệu, thầy có thể đổi chữ "Câu" thà
 // TÍNH NĂNG 3
 // ==========================================
 #v(15pt)
-#vp-section(num: "3", title: "Điều khiển Lời giải và Dòng kẻ nháp (Worksheet)")
+= Điều khiển Lời giải và Dòng kẻ nháp (Worksheet)
 
 Thầy có thể kiểm soát việc in lời giải ngay dưới câu hỏi (sách tham khảo) hoặc giấu lời giải đi và chỉ in các dòng chấm đứt nét để học sinh làm bài (đề cương/ đề thi). Lời giải bị giấu sẽ tự động được gom xuống cuối tài liệu.
 
@@ -207,7 +205,7 @@ Thầy có thể kiểm soát việc in lời giải ngay dưới câu hỏi (s�
 // TÍNH NĂNG 4
 // ==========================================
 #pagebreak()
-#vp-section(num: "4", title: "Kiến trúc Chèn Hình Ảnh Linh Hoạt (Image Scopes)")
+= Kiến trúc Chèn Hình Ảnh Linh Hoạt (Image Scopes)
 
 Thầy có thể chèn ảnh bên trái, bên phải, tùy chỉnh tỉ lệ, và chọn cách chữ bao quanh ảnh (chỉ ôm một phần đề bài, hay ôm trọn cả câu hỏi và đáp án).
 
@@ -253,7 +251,7 @@ Thầy có thể chèn ảnh bên trái, bên phải, tùy chỉnh tỉ lệ, v�
 // TÍNH NĂNG 5
 // ==========================================
 #pagebreak()
-#vp-section(num: "5", title: "Đại tu Giao diện (Extreme UI Customization)")
+= Đại tu Giao diện (Extreme UI Customization)
 
 Thầy có thể can thiệp sâu vào từng nét vẽ của một câu hỏi cụ thể mà không làm ảnh hưởng đến các câu khác. Tính năng này biến Typst thành công cụ đồ họa thực thụ.
 
@@ -321,7 +319,7 @@ Dạng câu hỏi Đúng/Sai (`type: "tf"`) trong Vietphys hỗ trợ mạnh m�
 // ==========================================
 // TÍNH NĂNG 1
 // ==========================================
-#vp-section(num: "1", title: "Chuyển đổi Dạng Bảng và Dạng Danh Sách")
+= Chuyển đổi Dạng Bảng và Dạng Danh Sách
 
 Sử dụng tham số `tf-style: "table"` (mặc định) để tạo bảng lưới chuyên nghiệp, hoặc `tf-style: "list"` để hiển thị dạng gạch đầu dòng gọn nhẹ. Khi tắt đáp án, dạng List sẽ tự động ẩn các ô checkbox để tạo thành một danh sách đề bài thông thường.
 
@@ -402,7 +400,7 @@ Sử dụng tham số `tf-style: "table"` (mặc định) để tạo bảng lư
 // TÍNH NĂNG 2
 // ==========================================
 #v(15pt)
-#vp-section(num: "2", title: "Tùy biến Màu sắc Bảng Đúng/Sai")
+= Tùy biến Màu sắc Bảng Đúng/Sai
 
 Thầy có thể thay đổi màu nền tiêu đề, màu nền của các hàng, và màu chữ đánh dấu Đúng (✓) / Sai (✗) để phù hợp với từng ấn phẩm tài liệu.
 
@@ -453,7 +451,7 @@ Thầy có thể thay đổi màu nền tiêu đề, màu nền của các hàng
 // TÍNH NĂNG 3
 // ==========================================
 #pagebreak()
-#vp-section(num: "3", title: "Trình diễn Ngắt trang Ngầm (Breakable Blocks)")
+= Trình diễn Ngắt trang Ngầm (Breakable Blocks)
 
 Trong các sách giáo khoa, đôi khi một câu hỏi (bao gồm cả khung viền `q-border` và màu nền `q-bg`) chứa một đoạn trích dẫn quá dài. Nếu hệ thống đẩy toàn bộ khối đồ họa này sang trang sau, trang trước sẽ bị trống một mảng lớn. Vietphys xử lý triệt để điều này: Khung câu hỏi sẽ được "cắt gãy" một cách hoàn hảo ở cuối trang giấy và nối tiếp nền màu sang trang sau.
 
@@ -508,7 +506,7 @@ Dạng câu hỏi Trả lời ngắn (`type: "short"`) tự động tạo ra cá
 // ==========================================
 // TÍNH NĂNG 1
 // ==========================================
-#vp-section(num: "1", title: "Hiển thị Ô đáp án và Dòng kẻ nháp (Worksheet)")
+= Hiển thị Ô đáp án và Dòng kẻ nháp (Worksheet)
 
 Khi làm sách giáo viên, thầy bật hiển thị đáp án để số được điền sẵn vào các ô. Khi làm đề thi cho học sinh, thầy tắt đáp án đi, hệ thống sẽ tự động để lại các ô trống và sinh ra các dòng kẻ chấm để học sinh nháp.
 
@@ -560,7 +558,7 @@ Khi làm sách giáo viên, thầy bật hiển thị đáp án để số đư�
 // TÍNH NĂNG 2
 // ==========================================
 #v(15pt)
-#vp-section(num: "2", title: "Thay đổi Tiền tố (Prefix) và Tùy biến Giao diện Ô")
+= Thay đổi Tiền tố (Prefix) và Tùy biến Giao diện Ô
 
 Thầy có thể thay chữ "Câu" thành "Bài", thêm icon cây bút, đồng thời thay đổi màu sắc của viền ô và nền ô chữ để đề bài trông sinh động hơn.
 
@@ -619,7 +617,7 @@ Dạng câu hỏi Tự luận (`type: "essay"`) được thiết kế đặc bi�
 // ==========================================
 // TÍNH NĂNG 1
 // ==========================================
-#vp-section(num: "1", title: "Cấu trúc Câu Tự luận và Điểm số")
+= Cấu trúc Câu Tự luận và Điểm số
 
 Khi chế độ Đề thi được kích hoạt (Tắt hiển thị Level và Nguồn), thầy có thể dùng biến `points` để gán điểm cho câu hỏi tự luận. Điểm số sẽ tự động bám sát theo số thứ tự của câu.
 
@@ -669,7 +667,7 @@ Khi chế độ Đề thi được kích hoạt (Tắt hiển thị Level và Ng
 // TÍNH NĂNG BỔ SUNG: TÙY BIẾN NHÃN CÂU & HIỂN THỊ ĐƠN VỊ VẬT LÝ
 // ==========================================
 #v(15pt)
-#vp-section(num: "2", title: "Tùy biến Nhãn Câu hỏi và Đơn vị Vật lý")
+= Tùy biến Nhãn Câu hỏi và Đơn vị Vật lý
 
 Thầy có thể làm nổi bật chữ "Câu X:" bằng cách tô màu nền, đổi màu chữ và bo góc thông qua các biến `lbl-bg`, `lbl-color`, `lbl-radius`. 
 
@@ -712,7 +710,7 @@ Thầy có thể làm nổi bật chữ "Câu X:" bằng cách tô màu nền, �
 // TÍNH NĂNG 2
 // ==========================================
 #v(15pt)
-#vp-section(num: "3", title: "Xuất Bảng Đáp Án và Lời Giải Chi Tiết")
+= Xuất Bảng Đáp Án và Lời Giải Chi Tiết
 
 Mọi câu hỏi được định nghĩa bằng lệnh `#vp-question` trong toàn bộ tài liệu (nếu có chứa biến `ans` hoặc `sol` và không được hiển thị trực tiếp) sẽ được hệ thống âm thầm lưu trữ. Khi muốn xuất ra ở cuối sách hoặc cuối đề thi, thầy chỉ cần gọi 2 hàm dưới đây.
 

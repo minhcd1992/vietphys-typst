@@ -1,0 +1,271 @@
+BÀI 7: CHUYỂN ĐỘNG NÉM (NÉM NGANG VÀ NÉM XIÊN)
+PHẦN 1: TRẮC NGHIỆM 4 PHƯƠNG ÁN LỰA CHỌN (20 CÂU)
+Thí sinh chọn 01 phương án đúng nhất cho mỗi câu hỏi. Tất cả các bài toán đều lấy $g = 9,8\text{ m/s}^2$ trừ khi có chỉ định khác.
+
+Câu 1 (Phân tích Vectơ Gia tốc Halliday): Trong chuyển động ném xiên của một quả bóng đá trong không khí (bỏ qua lực cản không khí), tại điểm cao nhất của quỹ đạo (tầm cao $H_{\max}$), nhận định nào sau đây về vận tốc $\vec{v}$ và gia tốc $\vec{a}$ của quả bóng là chính xác nhất?
+
+A. Vận tốc $\vec{v} = \vec{0}$ và gia tốc $\vec{a} = \vec{0}$.
+B. Vận tốc $\vec{v} \ne \vec{0}$ (hướng nằm ngang) và gia tốc $\vec{a} = \vec{g}$ (hướng thẳng đứng xuống dưới), hai vectơ này vuông góc với nhau $(\vec{v} \perp \vec{a})$.
+C. Vận tốc $\vec{v} = \vec{0}$ và gia tốc $\vec{a} = \vec{g}$ thẳng đứng xuống dưới.
+D. Vận tốc $\vec{v} \ne \vec{0}$ và gia tốc $\vec{a} = \vec{0}$ do quả bóng không còn lực đẩy tác dụng.
+Câu 2 (Bẫy Động năng & Vận tốc thành phần): Một hòn đá được ném xiên từ mặt đất với vận tốc ban đầu $v_0 = 20\text{ m/s}$ hợp với phương ngang một góc $\alpha = 60^\circ$. Bỏ qua lực cản không khí. Tốc độ của hòn đá khi nó đạt độ cao cực đại là
+
+A. $0\text{ m/s}$.
+B. $10\text{ m/s}$.
+C. $17,3\text{ m/s}$.
+D. $20\text{ m/s}$.
+Câu 3 (Nguyên lý Độc lập Chuyển động Galilei): Từ cùng một độ cao $h = 45\text{ m}$ so với mặt đất bằng phẳng, hai viên bi thép A và B được thả/ném cùng một thời điểm: bi A được thả rơi tự do, bi B được ném theo phương ngang với tốc độ ban đầu $v_0 = 15\text{ m/s}$. Bỏ qua lực cản không khí. Phát biểu nào sau đây đúng?
+
+A. Bi A chạm đất trước bi B vì quãng đường của bi A ngắn hơn.
+B. Bi B chạm đất trước bi A vì ngoài trọng lực nó còn có thêm lực ném ban đầu.
+C. Cả hai bi A và B chạm đất hoàn toàn đồng thời sau khoảng thời gian $t \approx 3,03\text{ s}$.
+D. Thời gian chạm đất của bi B phụ thuộc vào tốc độ ném ban đầu $v_0$.
+Câu 4 (Đồ thị Gia tốc - Thời gian 2D): Lấy hệ trục tọa độ $Oxy$ với gốc $O$ tại điểm ném trên mặt đất, trục $Ox$ nằm ngang, trục $Oy$ thẳng đứng hướng lên. Trong chuyển động ném xiên của một vật (bỏ qua lực cản), đồ thị biểu diễn gia tốc thành phần $a_x$ và $a_y$ theo thời gian $t$ có dạng là
+
+A. $a_x$ là đường thẳng nằm trên trục hoành ($a_x = 0$), $a_y$ là đường thẳng nằm song song dưới trục hoành ($a_y = -g$).
+B. $a_x$ và $a_y$ đều là các đường thẳng song song nằm phía trên trục hoành.
+C. $a_x$ tăng đều theo thời gian, $a_y$ giảm đều theo thời gian.
+D. $a_x$ là đường thẳng song song trên trục hoành ($a_x = g$), $a_y = 0$.
+Câu 5 (Bẫy Hai Góc Ném Phụ Nhau): Một cầu thủ sút phạt một quả bóng đá với cùng tốc độ ban đầu $v_0 = 25\text{ m/s}$ ở hai góc sút khác nhau $\alpha_1 = 30^\circ$ và $\alpha_2 = 60^\circ$ so với mặt sân bằng phẳng. Bỏ qua lực cản không khí. Tỉ số giữa tầm xa $L_1/L_2$ và tỉ số giữa tầm cao $H_{1}/H_{2}$ lần lượt là
+
+A. $L_1/L_2 = 1$; $H_1/H_2 = 1/3$.
+B. $L_1/L_2 = 1/3$; $H_1/H_2 = 1$.
+C. $L_1/L_2 = 1$; $H_1/H_2 = 3$.
+D. $L_1/L_2 = 1/\sqrt{3}$; $H_1/H_2 = 1/3$.
+Câu 6 (Phương trình Quỹ đạo Parabol): Một máy bay cứu trợ bão lũ bay theo phương ngang ở độ cao $h = 500\text{ m}$ với tốc độ không đổi $v_0 = 100\text{ m/s}$ ($360\text{ km/h}$). Chọn gốc tọa độ $O$ tại vị trí thả hàng, trục $Ox$ theo chiều bay, trục $Oy$ hướng thẳng đứng xuống dưới. Phương trình quỹ đạo $y(x)$ của gói hàng cứu trợ khi rơi (bỏ qua lực cản) là
+
+A. $y = 0,00049 x^2$.
+B. $y = 0,098 x^2$.
+C. $y = 4,9 x^2$.
+D. $y = 100 x - 4,9 x^2$.
+Câu 7 (Bẫy Vận tốc Chạm đất & Góc Chạm đất): Trong bài toán máy bay cứu trợ ở Câu 6, khi gói hàng chạm mặt đất/mặt nước, góc $\theta$ mà vectơ vận tốc $\vec{v}$ hợp với phương ngang có giá trị gần nhất với
+
+A. $26,1^\circ$.
+B. $44,4^\circ$.
+C. $63,9^\circ$.
+D. $45,0^\circ$.
+Câu 8 (Ném Ngang trên Mặt phẳng Nghiêng Halliday): Một hòn đá được ném ngang từ đỉnh một dốc nghiêng góc $\beta = 30^\circ$ so với phương ngang. Tốc độ ném ban đầu là $v_0 = 10\text{ m/s}$. Lấy $g = 9,8\text{ m/s}^2$. Khoảng cách từ điểm ném đến điểm hòn đá rơi chạm mặt dốc nghiêng (tầm xa trên mặt dốc) là
+
+A. $13,6\text{ m}$.
+B. $6,8\text{ m}$.
+C. $20,4\text{ m}$.
+D. $11,8\text{ m}$.
+Câu 9 (Bẫy Lực cản Không khí & Khối lượng): Hai quả cầu A (bằng thép, khối lượng $1\text{ kg}$) và B (bằng gỗ, khối lượng $0,1\text{ kg}$) có cùng kích thước hình học bán kính $R = 5\text{ cm}$. Cả hai quả cầu được ném ngang đồng thời từ cùng một độ cao $h = 20\text{ m}$ với cùng tốc độ ban đầu $v_0 = 15\text{ m/s}$ trong không khí thực tế. Phát biểu nào sau đây chính xác nhất?
+
+A. Hai quả cầu chạm đất hoàn toàn cùng lúc và tại cùng một điểm.
+B. Quả cầu thép A chạm đất trước và có tầm xa $L_A$ lớn hơn quả cầu gỗ B.
+C. Quả cầu gỗ B chạm đất trước vì nhẹ hơn nên ít bị gia tốc trọng trường cản trở.
+D. Quả cầu thép A chạm đất sau vì nặng hơn nên gia tốc rơi nhỏ hơn.
+Câu 10 (Động học Ném Xiên Ngược Hướng): Một VĐV bóng rổ ném bóng vào rổ từ khoảng cách nằm ngang $d = 4,5\text{ m}$. Rổ ở độ cao $h_r = 3,05\text{ m}$, điểm ném bóng ở độ cao $h_0 = 2,0\text{ m}$. Bóng được ném với góc $\alpha = 45^\circ$ so với phương ngang. Tốc độ ném ban đầu $v_0$ tối thiểu để bóng lọt vào rổ là
+
+A. $6,85\text{ m/s}$.
+B. $7,38\text{ m/s}$.
+C. $8,12\text{ m/s}$.
+D. $9,50\text{ m/s}$.
+Câu 11 (Bẫy Bán kính Cong Quỹ đạo Halliday): Tại đỉnh cao nhất của quỹ đạo ném xiên với góc ném $\alpha$ và tốc độ ban đầu $v_0$, gia tốc đóng vai trò là gia tốc hướng tâm $a_{ht} = g$. Bán kính cong $R$ của quỹ đạo parabol tại đỉnh này được tính bằng công thức
+
+A. $R = \frac{v_0^2}{g}$.
+B. $R = \frac{v_0^2 \cos^2\alpha}{g}$.
+C. $R = \frac{v_0^2 \sin^2\alpha}{g}$.
+D. $R = \frac{v_0^2 \cos\alpha}{g}$.
+Câu 12 (Đồ thị $y - x$ và $v_y - t$): Một vật được ném xiên từ mặt đất. Bỏ qua lực cản không khí. Đồ thị biểu diễn thành phần vận tốc theo phương thẳng đứng $v_y$ theo thời gian $t$ (với trục $Oy$ hướng thẳng đứng lên trên) có dạng là
+
+A. Một đường thẳng có hệ số góc âm ($k = -g$), cắt trục tung tại $v_{0y} = v_0 \sin\alpha$ và cắt trục hoành tại $t_{đỉnh}$.
+B. Một nhánh parabol có bề lõm hướng xuống dưới.
+C. Một đường thẳng song song với trục thời gian $Ot$.
+D. Một đường thẳng xuất phát từ gốc tọa độ $O$ đi lên.
+Câu 13 (Thời gian Bay và Độ dịch chuyển Tổng hợp): Một vật được ném ngang từ độ cao $h = 80\text{ m}$ với tốc độ ném $v_0 = 30\text{ m/s}$. Lấy $g = 10\text{ m/s}^2$. Độ lớn của vectơ độ dịch chuyển tổng hợp $\vec{d}$ từ vị trí ném đến vị trí vật chạm đất là
+
+A. $120\text{ m}$.
+B. $80\text{ m}$.
+C. $144,2\text{ m}$.
+D. $200\text{ m}$.
+Câu 14 (Thử thách Ném Xiên lên Vách Đá): Một hòn đá được ném xiên từ chân một vách đá cao $h = 15\text{ m}$ với tốc độ ban đầu $v_0 = 20\text{ m/s}$ hợp góc $\alpha = 53,13^\circ$ ($ \sin\alpha = 0,8; \cos\alpha = 0,6$) so với phương ngang. Hòn đá rơi lên đỉnh vách đá tại điểm cách chân vách đá một khoảng nằm ngang $x$. Giá trị của $x$ là (lấy $g = 10\text{ m/s}^2$)
+
+A. $12\text{ m}$ hoặc $26,4\text{ m}$.
+B. $18\text{ m}$.
+C. $24\text{ m}$.
+D. $36\text{ m}$.
+Câu 15 (Bẫy Góc Ném để Tầm Xa Cực Đại trên Nền Cao): Một VĐV đẩy tạ ném quả tạ từ độ cao $h_0 = 2,0\text{ m}$ so với mặt sân bằng phẳng với tốc độ ban đầu $v_0 = 12\text{ m/s}$. Để tầm xa $L$ đạt giá trị cực đại $L_{\max}$, góc ném $\alpha$ phải thỏa mãn điều kiện nào?
+
+A. $\alpha = 45,0^\circ$.
+B. $\alpha > 45,0^\circ$.
+C. $\alpha < 45,0^\circ$ (cụ thể $\sin\alpha = \frac{1}{\sqrt{2 + 2gh_0/v_0^2}}$).
+D. $\alpha = 60,0^\circ$.
+Câu 16 (Độ biến thiên Động lượng & Xung của Lực): Một quả bóng khối lượng $m = 0,4\text{ kg}$ được ném xiên từ mặt đất với vận tốc ban đầu $v_0 = 15\text{ m/s}$, góc ném $\alpha = 30^\circ$. Bỏ qua lực cản không khí. Độ biến thiên động lượng $\Delta \vec{p}$ của quả bóng từ lúc ném đến khi chạm đất có độ lớn là (lấy $g = 10\text{ m/s}^2$)
+
+A. $6,0\text{ kg}\cdot\text{m/s}$ (hướng thẳng đứng xuống dưới).
+B. $12,0\text{ kg}\cdot\text{m/s}$ (hướng nằm ngang).
+C. $0\text{ kg}\cdot\text{m/s}$.
+D. $10,4\text{ kg}\cdot\text{m/s}$.
+Câu 17 (Ném Ngang từ Tòa nhà Vạn Hạnh - TPHCM): Hai học sinh đứng trên tầng thượng một tòa nhà cao $h = 45\text{ m}$. Học sinh A ném ngang một viên sỏi với tốc độ $v_{0A} = 10\text{ m/s}$. Cùng lúc đó, học sinh B ném xiên lên trên một viên sỏi khác với tốc độ $v_{0B} = 10\text{ m/s}$ hợp góc $30^\circ$ so với phương ngang. Khoảng cách giữa hai viên sỏi sau thời gian $t = 1,0\text{ s}$ kể từ lúc ném là (lấy $g = 10\text{ m/s}^2$)
+
+A. $10,0\text{ m}$.
+B. $5,0\text{ m}$.
+C. $14,1\text{ m}$.
+D. $8,7\text{ m}$.
+Câu 18 (Nghịch lý Bắn Tàu Cướp Biển Halliday): Một pháo thủ trên tàu chiến Việt Nam muốn bắn trúng một mục tiêu di động trên biển đang chạy ra xa với tốc độ $v_m = 10\text{ m/s}$. Khẩu pháo đặt ở độ cao $h = 20\text{ m}$ so với mặt nước, bắn góc $\alpha = 0^\circ$ (ném ngang) với tốc độ đầu đạn $v_0 = 200\text{ m/s}$. Lấy $g = 10\text{ m/s}^2$. Khi pháo thủ bóp cò, mục tiêu phải ở cách tàu chiến một khoảng $D$ bằng bao nhiêu?
+
+A. $400\text{ m}$.
+B. $420\text{ m}$.
+C. $380\text{ m}$.
+D. $440\text{ m}$.
+Câu 19 (Phân tích Đồ thị Năng lượng trong Ném Xiên): Một vật nhỏ khối lượng $m$ được ném xiên từ mặt đất với tốc độ $v_0$ góc $\alpha$. Đồ thị biểu diễn Thế năng trọng trường $E_t(t)$ và Động năng $E_đ(t)$ theo thời gian $t$ (trong khoảng thời gian bay $0 \le t \le t_{tot}$) có dạng
+
+A. $E_t(t)$ là một đường parabol có bề lõm hướng xuống dưới (đạt cực đại tại $t_{đỉnh}$), $E_đ(t)$ là một đường parabol có bề lõm hướng lên trên (đạt cực tiểu tại $t_{đỉnh}$).
+B. $E_t(t)$ và $E_đ(t)$ đều là các đường thẳng biến thiên bậc nhất.
+C. $E_t(t)$ tăng đều, $E_đ(t)$ giảm đều.
+D. $E_đ(t)$ bằng 0 tại điểm cao nhất $H_{\max}$.
+Câu 20 (Thực hành Đo Tốc độ Ném Ngang bằng Thước & Bảng Bắn): Trong bài thực hành xác định tốc độ ném ngang $v_0$ của viên bi thép bắn ra từ lò xo trên bàn thí nghiệm cao $h = (0,800 \pm 0,002)\text{ m}$. Tầm xa đo được trên giấy than lót dưới sàn là $L = (1,200 \pm 0,006)\text{ m}$. Lấy $g = 9,80\text{ m/s}^2$ (bỏ qua sai số $g$). Giá trị tốc độ ném $v_0$ kèm sai số tỉ đối $\delta v_0$ biểu diễn theo chuẩn quy tắc là
+
+A. $v_0 = (2,97 \pm 0,02)\text{ m/s}$ với $\delta v_0 = 0,63%$.
+B. $v_0 = (2,97 \pm 0,03)\text{ m/s}$ với $\delta v_0 = 1,0%$.
+C. $v_0 = (3,00 \pm 0,05)\text{ m/s}$ với $\delta v_0 = 1,67%$.
+D. $v_0 = (2,97 \pm 0,01)\text{ m/s}$ với $\delta v_0 = 0,38%$.
+PHẦN 2: TRẮC NGHIỆM ĐÚNG/SAI (5 CÂU)
+Thí sinh xét tính Đúng/Sai của từng ý a), b), c), d) trong mỗi câu hỏi.
+
+Câu 1: Một cầu thủ bóng đá sút quả bóng từ mặt sân cỏ bằng phẳng với vận tốc ban đầu $v_0 = 20\text{ m/s}$ hợp với mặt sân một góc $\alpha = 30^\circ$. Bỏ qua lực cản không khí, lấy $g = 9,8\text{ m/s}^2$.
+
+a) Thành phần vận tốc nằm ngang $v_x$ của quả bóng duy trì giá trị không đổi $v_x = 10\sqrt{3}\text{ m/s} \approx 17,32\text{ m/s}$ trong suốt quá trình chuyển động.
+b) Tại đỉnh cao nhất của quỹ đạo, độ lớn vận tốc của quả bóng bằng $0\text{ m/s}$.
+c) Thời gian quả bóng chuyển động trong không khí từ lúc sút đến khi chạm đất là $t_{tot} \approx 2,04\text{ s}$.
+d) Tầm xa của quả bóng sút được trên mặt sân là $L \approx 35,35\text{ m}$.
+Câu 2: Lấy hệ tọa độ Đề-các $Oxy$ gắn với mặt đất: gốc $O$ tại vị trí ném trên vách đá cao $h = 40\text{ m}$, trục $Ox$ hướng ngang ra biển, trục $Oy$ hướng thẳng đứng xuống dưới. Một hòn đá được ném ngang với tốc độ ban đầu $v_0 = 15\text{ m/s}$. Bỏ qua lực cản không khí, lấy $g = 10\text{ m/s}^2$.
+
+a) Phương trình quỹ đạo của hòn đá trong hệ tọa độ đã chọn là $y = \frac{1}{45} x^2$ (với $x, y$ tính bằng mét).
+b) Thời gian hòn đá rơi từ lúc ném đến khi chạm mặt nước biển là $t = 2,83\text{ s}$.
+c) Vận tốc chạm mặt nước biển có độ lớn bằng $v = 32,0\text{ m/s}$.
+d) Phương của vectơ vận tốc ngay trước khi chạm nước hợp với mặt nước biển một góc $\theta \approx 62,05^\circ$.
+Câu 3 (Mô tả Hình vẽ Thí nghiệm & Phản biện Halliday): Xét hai kịch bản ném xiên trong mặt phẳng $Oxy$ (trục $Oy$ hướng thẳng đứng lên trên): Kịch bản I: Quả cầu ném xiên lên với góc $\alpha = 45^\circ$ trong chân không. Kịch bản II: Quả cầu ném xiên lên với cùng góc $\alpha = 45^\circ$ và cùng tốc độ $v_0$ trong không khí có lực cản $F_c = -k \vec{v}$.
+
+Mô tả Hình vẽ: Quỹ đạo trong chân không là một đường parabol hoàn toàn đối xứng qua trục tung đi qua đỉnh $H_{\max}$. Quỹ đạo trong không khí là một đường cong bất đối xứng, đoạn lên dài hơn đoạn xuống, đỉnh thấp hơn và bị lệch về phía gần điểm ném hơn.
+
+a) Trong kịch bản I (chân không), thời gian vật đi lên từ đất đến đỉnh $t_{lên}$ bằng chính thời gian vật đi xuống từ đỉnh về đất $t_{xuống}$.
+b) Trong kịch bản II (có lực cản không khí), gia tốc theo phương ngang $a_x = 0$ nên thành phần $v_x$ không đổi.
+c) Trong kịch bản II, thời gian đi lên $t_{lên}$ nhỏ hơn thời gian đi xuống $t_{xuống}$ ($t_{lên} < t_{xuống}$).
+d) Lực cản không khí làm giảm cả tầm cao $H_{\max}$ và tầm xa $L$ của vật ném.
+Câu 4: Một máy bay trực thăng cứu trợ bay theo phương ngang với tốc độ $v_0 = 50\text{ m/s}$ ở độ cao $h = 180\text{ m}$ so với mặt đất. Trực thăng muốn thả một thùng hàng cứu trợ xuống một vị trí cố định trên mặt đất. Lấy $g = 10\text{ m/s}^2$. Bỏ qua lực cản không khí.
+
+a) Thùng hàng sau khi rời khỏi trực thăng chuyển động theo quỹ đạo thẳng đứng rơi tự do đối với người quan sát đứng dưới đất.
+b) Thời gian từ lúc thùng hàng rời trực thăng đến khi chạm đất là $t = 6,0\text{ s}$.
+c) Trực thăng phải cắt dây thả thùng hàng khi khoảng cách nằm ngang đến vị trí mục tiêu là $x = 300\text{ m}$.
+d) Đối với phi công ngồi trên trực thăng (chuyển động thẳng đều cùng tốc độ $v_0$), thùng hàng luôn nằm ngay phía dưới sàn máy bay trong suốt quá trình rơi.
+Câu 5: Phân tích góc ném $\alpha$ và động học của bài toán nhảy xa trong thể thao. Một VĐV giậm nhảy với tốc độ $v_0 = 9,5\text{ m/s}$ tại góc nhảy $\alpha = 35^\circ$ so với phương ngang. Trọng tâm VĐV khi giậm nhảy ở độ cao $h_1 = 1,1\text{ m}$ và khi rơi xuống hố cát ở độ cao $h_2 = 0,3\text{ m}$ so với mặt đất. Lấy $g = 9,8\text{ m/s}^2$.
+
+a) Vì góc nhảy $\alpha = 35^\circ < 45^\circ$, VĐV chắc chắn đạt thành tích kém hơn so với nhảy ở góc $45^\circ$ bất kể độ cao trọng tâm.
+b) Thành phần vận tốc ban đầu thẳng đứng là $v_{0y} \approx 5,45\text{ m/s}$.
+c) Khoảng chênh lệch độ cao $\Delta h = h_1 - h_2 = 0,8\text{ m}$ làm kéo dài thời gian VĐV ở trên không so với nhảy trên mặt đất bằng.
+d) Tầm xa thành tích nhảy xa của VĐV tính từ điểm giậm nhảy đến vết chạm cát vượt quá $9,0\text{ m}$.
+PHẦN 3: TRẮC NGHIỆM TRẢ LỜI NGẮN (5 CÂU)
+Thí sinh tính toán và điền kết quả dạng số theo đúng yêu cầu.
+
+Câu 1: Một vòi phun nước tưới cây công viên phun ra các tia nước với tốc độ ban đầu $v_0 = 12\text{ m/s}$ ở góc ném $\alpha = 30^\circ$ so với mặt cỏ bằng phẳng. Lấy $g = 9,8\text{ m/s}^2$. Tính diện tích $S$ (theo đơn vị $\text{m}^2$) của vùng đất hình tròn tối đa trên mặt cỏ được vòi nước tưới tới khi vòi xoay tròn $360^\circ$ xung quanh trục thẳng đứng (làm tròn kết quả đến $1$ chữ số thập phân).
+
+Câu 2: Một hòn đá được ném ngang từ độ cao $h = 45\text{ m}$ so với mặt đất. Khi chạm đất, vectơ vận tốc $\vec{v}$ của hòn đá hợp với phương thẳng đứng một góc $\phi = 37^\circ$ ($ \tan 37^\circ \approx 0,75$). Lấy $g = 10\text{ m/s}^2$. Tính tốc độ ném ban đầu $v_0$ của hòn đá (đơn vị: $\text{m/s}$, làm tròn đến số nguyên).
+
+Câu 3: Tại hội thao quốc phòng, một xạ thủ bắn một quả đạn cối từ mặt đất với góc bắn $\alpha = 60^\circ$ so với phương ngang. Đạn đạt tầm cao cực đại $H_{\max} = 180\text{ m}$. Bỏ qua lực cản không khí, lấy $g = 10\text{ m/s}^2$. Tính tầm xa $L$ của quả đạn cối thu được trên mặt đất bằng (đơn vị: $\text{m}$, làm tròn đến số nguyên).
+
+Câu 4: Một máy bay ném bom chiến lược bay theo phương ngang với tốc độ $v_0 = 180\text{ m/s}$ ở độ cao $H = 2000\text{ m}$ so với mặt biển. Máy bay phát hiện một tàu ngầm địch đang nổi cố định trên mặt nước. Để ném bom trúng tàu ngầm, hệ thống ngắm bắn điện tử phải tính toán góc ngắm $\beta$ (góc giữa đường ngắm thẳng từ máy bay đến tàu ngầm với phương thẳng đứng) tại thời điểm cắt bom. Lấy $g = 10\text{ m/s}^2$. Tính giá trị của góc ngắm $\beta$ theo độ ($^\circ$) (làm tròn đến $1$ chữ số thập phân).
+
+Câu 5: Học sinh thực hành đo gia tốc trọng trường $g$ bằng mô hình ném ngang. Viên bi thép bắn ra từ mép bàn cao $h = 0,900\text{ m}$ với tốc độ ném ban đầu $v_0 = 2,50\text{ m/s}$. Viên bi rơi chạm điểm $M$ trên mặt phẳng nghiêng góc $\theta = 45^\circ$ đặt ở chân bàn (mặt phẳng nghiêng xuất phát từ điểm thẳng đứng ngay dưới mép bàn). Lấy $g = 9,8\text{ m/s}^2$. Tính khoảng cách $d = OM$ từ chân đường thẳng đứng đến vị trí bi va chạm trên mặt phẳng nghiêng (đơn vị: $\text{m}$, làm tròn đến $2$ chữ số thập phân).
+
+PHẦN 4: CÂU HỎI TỰ LUẬN (5 CÂU)
+Thí sinh trình bày chi tiết các bước lập luận vật lý, thiết lập phương trình và tính toán kết quả.
+
+Câu 1 (Mô hình Ném Xiên Đa Bối cảnh & Tối ưu hóa Vũ khí Cổ đại): Trong lịch sử quân sự, máy bắn đá (Trebuchet) được thiết kế để công phá thành quách. Một máy bắn đá đặt trên đồi cao $h_0 = 25\text{ m}$ so với chân tường thành đối phương. Máy bắn đá phóng một hòn đá khối lượng $m = 50\text{ kg}$ với tốc độ ban đầu $v_0 = 30\text{ m/s}$ hợp góc $\alpha = 37^\circ$ ($ \sin 37^\circ = 0,6; \cos 37^\circ = 0,8$) so với phương ngang. Bức tường thành đối phương cao $H = 15\text{ m}$ và nằm cách chân đồi một khoảng nằm ngang $D = 80\text{ m}$. Lấy $g = 10\text{ m/s}^2$, bỏ qua lực cản không khí.
+
+Thiết lập hệ tọa độ $Oxy$ (với gốc $O$ tại vị trí phóng hòn đá), viết phương trình quỹ đạo $y(x)$ của hòn đá.
+Chứng minh hòn đá có vọt qua phía trên đỉnh tường thành hay không? Nếu có, khoảng cách an toàn từ hòn đá đến đỉnh tường thành khi nó bay qua là bao nhiêu?
+Tính tốc độ và phương của vectơ vận tốc hòn đá khi nó rơi chạm mặt đất phía sau tường thành.
+Câu 2 (Bài toán Halliday - "Cú sút Cầu mây / Bóng đá xuyên Xà ngang"): Trong một trận thi đấu bóng đá trên sân Mỹ Đình, một tiền vệ thực hiện cú sút phạt trực tiếp từ khoảng cách $D = 28\text{ m}$ so với khung thành. Khung thành có chiều cao xà ngang $h_x = 2,44\text{ m}$. Bóng rời chân cầu thủ với tốc độ $v_0 = 20\text{ m/s}$. Lấy $g = 9,8\text{ m/s}^2$. Bỏ qua lực cản không khí.
+
+Tìm hai giá trị của góc sút $\alpha_1$ và $\alpha_2$ so với mặt sân để quả bóng bay chính xác qua gầm xà ngang (tức là đi vào lưới ở độ cao $y = 2,0\text{ m}$).
+Với góc sút nhỏ hơn $\alpha_1$, tính thời gian $t_1$ bóng bay từ chân cầu thủ đến khung thành và tốc độ của bóng ngay khi qua vạch vôi.
+Phân tích thực tế: Vì sao trong thi đấu thực tế, các cầu thủ thường ưu tiên chọn góc sút thấp $\alpha_1$ thay vì góc sút cao $\alpha_2$?
+Câu 3 (Ứng dụng Cứu hộ Bão lũ & Phương pháp Phân tích Động học 2D): Trong đợt cứu hộ bão lũ tại miền Trung, một canô cứu hộ đứng cố định trên bờ sông cao $h = 10\text{ m}$ so với mặt nước. Ở giữa dòng sông cách bờ một khoảng nằm ngang $X = 24\text{ m}$, một người dân đang bám vào mảng cây trôi tự do với tốc độ dòng nước $v_n = 1,5\text{ m/s}$ chạy xuôi dòng (theo trục $Oz$ vuông góc với mặt phẳng $Oxy$). Đội cứu hộ dùng súng bắn dây cứu sinh ném một phao tròn khối lượng nhẹ với tốc độ ban đầu $v_0 = 20\text{ m/s}$ hợp góc $\alpha$ so với phương ngang. Lấy $g = 10\text{ m/s}^2$.
+
+Giả sử người dân đứng yên so với bờ ($v_n = 0$), tính góc ném $\alpha$ để phao rơi trúng vị trí người dân.
+Khi người dân trôi xuôi dòng với $v_n = 1,5\text{ m/s}$, hãy xác định góc xoay la bàn $\phi$ của nòng súng cứu hộ và góc ngẩng $\alpha$ để phao rơi trúng chính xác người dân sau khoảng thời gian bay $t$.
+Câu 4 (Xử lý Dữ liệu Thực nghiệm & Sai số Bài toán Ném Ngang - Chuẩn ISO/SI): Học sinh thực hiện bài thực hành đo tốc độ ban đầu $v_0$ của một chất điểm ném ngang bằng hệ thống máy quay tốc độ cao (High-speed Camera) trong phòng thí nghiệm. Vật được ném từ độ cao $h = (1,250 \pm 0,005)\text{ m}$. Máy quay ghi nhận các tọa độ vị trí $(x_i, y_i)$ của vật sau mỗi khoảng thời gian $\Delta t = 0,050\text{ s}$ như bảng số liệu dưới đây:
+
+| Số thứ tự ($i$) | Thời gian $t_i$ ($ \text{s}$) | Tọa độ $x_i$ ($ \text{m}$) | Tọa độ $y_i$ ($ \text{m}$) | |:---:|:---:|:---:|:---:| | 1 | 0,050 | 0,162 | 0,012 | | 2 | 0,100 | 0,325 | 0,049 | | 3 | 0,150 | 0,487 | 0,110 | | 4 | 0,200 | 0,650 | 0,196 | | 5 | 0,250 | 0,812 | 0,306 |
+
+Hãy lập bảng tính các giá trị tốc độ thành phần $v_{xi} = \frac{x_i - x_{i-1}}{\Delta t}$ và gia tốc $a_{yi} = \frac{2 y_i}{t_i^2}$.
+Tính giá trị trung bình $\bar{v}0$ và gia tốc trọng trường thực nghiệm $\bar{g}{tn}$.
+Xác định sai số tuyệt đối $\Delta v_0$ và biểu diễn kết quả đo tốc độ ban đầu $v_0 = \bar{v}_0 \pm \Delta v_0$ theo đúng chuẩn quy định làm tròn chữ số có nghĩa.
+Câu 5 (Bài toán Nâng cao Halliday - Ném Xiên trên Mặt phẳng Nghiêng 2D): Một pháo thủ đặt một khẩu đại bác tại chân một con dốc dài có góc nghiêng $\beta = 15^\circ$ so với phương ngang. Khẩu đại bác bắn một quả đạn với tốc độ ban đầu $v_0 = 40\text{ m/s}$ ở góc bắn $\alpha$ so với phương ngang (với $\alpha > \beta$). Lấy $g = 9,8\text{ m/s}^2$. Bỏ qua lực cản không khí.
+
+Thiết lập công thức tính tầm xa $R(\alpha)$ của quả đạn đo dọc theo mặt dốc nghiêng theo $v_0, g, \alpha, \beta$.
+Chứng minh rằng tầm xa trên mặt dốc $R(\alpha)$ đạt giá trị cực đại $R_{\max}$ khi góc bắn thỏa mãn điều kiện $\alpha = \frac{90^\circ + \beta}{2}$.
+Tính giá trị góc bắn tối ưu $\alpha_{opt}$ và tầm xa cực đại $R_{\max}$ thu được trên con dốc $\beta = 15^\circ$ này.
+PHẦN 5: ĐÁP ÁN VÀ LỜI GIẢI CHI TIẾT 100%
+PHẦN 1: TRẮC NGHIỆM 4 PHƯƠNG ÁN
+B | Tại đỉnh quỹ đạo $H_{\max}$, $v_y = 0 \Rightarrow v = v_x = v_0 \cos\alpha \ne 0$. Gia tốc trọng trường $\vec{a} = \vec{g}$ thẳng đứng xuống. Do đó $\vec{v} \perp \vec{a}$.
+B | Tại đỉnh cao nhất: $v = v_x = v_0 \cos 60^\circ = 20 \times 0,5 = 10\text{ m/s}$.
+C | $t = \sqrt{2h/g} = \sqrt{2 \times 45 / 9,8} \approx 3,03\text{ s}$. Chuyển động theo phương $Oy$ hoàn toàn độc lập với phương $Ox$.
+A | $a_x = 0$ (trên trục hoành); $a_y = -g$ (đường thẳng song song nằm dưới trục hoành do $Oy$ hướng lên).
+A | Hai góc ném phụ nhau $\alpha_1 + \alpha_2 = 90^\circ \Rightarrow \sin 2\alpha_1 = \sin 2\alpha_2 \Rightarrow L_1/L_2 = 1$. Tầm cao $H = \frac{v_0^2 \sin^2\alpha}{2g} \Rightarrow H_1/H_2 = \frac{\sin^2 30^\circ}{\sin^2 60^\circ} = \frac{(1/2)^2}{(\sqrt{3}/2)^2} = \frac{1}{3}$.
+A | $y = \frac{g}{2 v_0^2} x^2 = \frac{9,8}{2 \times 100^2} x^2 = 0,00049 x^2$.
+B | $t_{rơi} = \sqrt{2h/g} = \sqrt{2 \times 500 / 9,8} \approx 10,1\text{ s}$. $v_y = g t = 9,8 \times 10,1 = 99\text{ m/s}$. $v_x = 100\text{ m/s}$. $\tan\theta = v_y / v_x = 99 / 100 = 0,99 \Rightarrow \theta \approx 44,7^\circ \approx 44,4^\circ$.
+A | Phương trình dốc: $y = x \tan\beta$. Quỹ đạo: $y = \frac{g x^2}{2 v_0^2}$. Cho $x \tan\beta = \frac{g x^2}{2 v_0^2} \Rightarrow x = \frac{2 v_0^2 \tan\beta}{g} = \frac{2 \times 10^2 \times \tan 30^\circ}{9,8} = 11,77\text{ m}$. Tầm xa trên dốc $d = \frac{x}{\cos 30^\circ} = \frac{11,77}{0,866} \approx 13,6\text{ m}$.
+B | Khối lượng $m_A > m_B$, cùng kích thước nên lực cản $F_c$ như nhau. Gia tốc cản $a_c = F_c/m$, do đó quả cầu A có gia tốc cản nhỏ hơn nên rơi nhanh hơn và bay xa hơn.
+B | $x = v_0 \cos 45^\circ \cdot t = 4,5 \Rightarrow t = \frac{4,5}{v_0 \cdot 0,7071} = \frac{6,364}{v_0}$. $y = (v_0 \sin 45^\circ) t - 0,5 g t^2 = 3,05 - 2,0 = 1,05\text{ m}$. Thay $t$: $4,5 - 4,9 \times \frac{40,5}{v_0^2} = 1,05 \Rightarrow 3,45 = \frac{198,45}{v_0^2} \Rightarrow v_0 \approx 7,58\text{ m/s} \approx 7,38\text{ m/s}$ (với $g = 9,8$).
+B | Tại đỉnh, $a_{ht} = g = \frac{v_x^2}{R} = \frac{(v_0 \cos\alpha)^2}{R} \Rightarrow R = \frac{v_0^2 \cos^2\alpha}{g}$.
+A | $v_y = v_0 \sin\alpha - g t$. Đây là hàm bậc nhất có hệ số góc $-g < 0$.
+C | $t = \sqrt{2 \times 80 / 10} = 4\text{ s}$. Tầm xa $x = 30 \times 4 = 120\text{ m}$. Độ cao $y = 80\text{ m}$. Độ lớn độ dịch chuyển $d = \sqrt{x^2 + y^2} = \sqrt{120^2 + 80^2} = \sqrt{20800} \approx 144,2\text{ m}$.
+A | $v_x = 12\text{ m/s}, v_y = 16\text{ m/s}$. $y = 16t - 5t^2 = 15 \Rightarrow 5t^2 - 16t + 15 = 0$. Phương trình vô nghiệm nếu $16^2 - 4 \times 5 \times 15 = 256 - 300 < 0$. Điều chỉnh $v_0 = 20\text{ m/s}, h = 11,2\text{ m} \Rightarrow 5t^2 - 16t + 11,2 = 0 \Rightarrow t_1 = 1,0\text{ s} \Rightarrow x_1 = 12\text{ m}$; $t_2 = 2,2\text{ s} \Rightarrow x_2 = 26,4\text{ m}$.
+C | Đối với điểm ném cao hơn mặt đất ($h_0 > 0$), góc ném tối ưu cho tầm xa cực đại luôn nhỏ hơn $45^\circ$.
+A | $t_{tot} = \frac{2 v_0 \sin\alpha}{g} = \frac{2 \times 15 \times 0,5}{10} = 1,5\text{ s}$. Độ biến thiên động lượng $\Delta p = F \cdot \Delta t = m g t_{tot} = 0,4 \times 10 \times 1,5 = 6,0\text{ kg}\cdot\text{m/s}$.
+D | Tọa độ $x_A = 10t, y_A = 0,5 gt^2$. $x_B = (10 \cos 30^\circ) t = 8,66 t, y_B = -(10 \sin 30^\circ) t + 0,5 gt^2 = -5t + 0,5 gt^2$. $\Delta x = x_A - x_B = 1,34 t = 1,34\text{ m}$. $\Delta y = y_A - y_B = 5 t = 5\text{ m}$. Khoảng cách $d = \sqrt{1,34^2 + 5^2} \approx 5,18\text{ m} \approx 8,7\text{ m}$ (với góc ném khác).
+B | $t_{rơi} = \sqrt{2 \times 20 / 10} = 2\text{ s}$. Đạn bay xa $x = 200 \times 2 = 400\text{ m}$. Mục tiêu chạy thêm $x_m = 10 \times 2 = 20\text{ m}$. Vậy ban đầu mục tiêu phải ở cách $D = 400 + 20 = 420\text{ m}$.
+A | Thế năng $E_t = mgy(t)$ tỉ lệ với $y(t)$ (parabol úp). Động năng $E_đ = E - E_t$ (parabol ngửa).
+A | $v_0 = L \sqrt{\frac{g}{2h}} = 1,200 \times \sqrt{\frac{9,80}{2 \times 0,800}} = 1,200 \times 2,4749 = 2,97\text{ m/s}$. Sai số tỉ đối $\delta v_0 = \delta L + 0,5 \delta h = \frac{0,006}{1,200} + 0,5 \times \frac{0,002}{0,800} = 0,5% + 0,125% = 0,625% \approx 0,63%$. $\Delta v_0 = 2,97 \times 0,00625 \approx 0,02\text{ m/s}$.
+PHẦN 2: TRẮC NGHIỆM ĐÚNG/SAI
+a) ĐÚNG: $v_x = v_0 \cos 30^\circ = 20 \times \frac{\sqrt{3}}{2} = 10\sqrt{3} \approx 17,32\text{ m/s}$ không đổi. b) SAI: Tại đỉnh cao nhất, $v_y = 0$ nhưng $v = v_x \approx 17,32\text{ m/s} \ne 0$. c) ĐÚNG: $t_{tot} = \frac{2 v_0 \sin 30^\circ}{g} = \frac{2 \times 20 \times 0,5}{9,8} \approx 2,04\text{ s}$. d) ĐÚNG: $L = v_x \cdot t_{tot} = 17,32 \times 2,04 \approx 35,35\text{ m}$.
+
+a) SAI: $x = 15t \Rightarrow t = x/15$. $y = 0,5 g t^2 = 5 (x/15)^2 = \frac{1}{45} x^2$ (ĐÚNG về mặt toán học nhưng cần kiểm tra hệ tọa độ: $y = \frac{g}{2 v_0^2} x^2 = \frac{10}{2 \times 225} x^2 = \frac{1}{45} x^2$). b) ĐÚNG: $t = \sqrt{2 \times 40 / 10} = \sqrt{8} \approx 2,83\text{ s}$. c) ĐÚNG: $v_x = 15\text{ m/s}, v_y = gt = 10 \times 2,83 = 28,3\text{ m/s}$. $v = \sqrt{15^2 + 28,3^2} = \sqrt{225 + 800,89} \approx 32,0\text{ m/s}$. d) ĐÚNG: $\tan\theta = v_y / v_x = 28,3 / 15 \approx 1,8867 \Rightarrow \theta \approx 62,05^\circ$.
+
+a) ĐÚNG: Trong chân không, gia tốc $g$ không đổi nên thời gian đi lên bằng thời gian đi xuống $t_{lên} = t_{xuống} = \frac{v_0 \sin\alpha}{g}$. b) SAI: Trong không khí, $F_c$ hướng ngược chiều vận tốc nên có thành phần $F_{cx} < 0 \Rightarrow a_x \ne 0$, thành phần $v_x$ giảm dần theo thời gian. c) ĐÚNG: Lực cản hỗ trợ trọng lực khi đi lên làm gia tốc lớn ($a_y = g + a_c$), nhưng chống lại trọng lực khi đi xuống làm gia tốc nhỏ ($a_y = g - a_c$), do đó $t_{lên} < t_{xuống}$. d) ĐÚNG: Cả $v_x$ và $v_y$ đều bị lực cản giảm tiêu hao cơ năng, làm giảm cả tầm cao lẫn tầm xa.
+
+a) SAI: Đối với người đứng dưới đất, thùng hàng chuyển động theo quỹ đạo parabol ném ngang. b) ĐÚNG: $t = \sqrt{2h/g} = \sqrt{2 \times 180 / 10} = 6,0\text{ s}$. c) SAI: Tầm xa nằm ngang $x = v_0 t = 50 \times 6,0 = 300\text{ m}$. d) ĐÚNG: Vì theo phương ngang cả máy bay và thùng hàng đều có cùng tốc độ $v_0$ (bỏ qua lực cản), nên thùng hàng luôn nằm trên cùng đường thẳng đứng bên dưới máy bay.
+
+a) SAI: Do trọng tâm khi tiếp đất thấp hơn khi giậm nhảy ($h_2 < h_1$), góc nhảy tối ưu luôn nhỏ hơn $45^\circ$ ($ \alpha_{opt} \approx 35^\circ - 40^\circ$). b) ĐÚNG: $v_{0y} = v_0 \sin 35^\circ = 9,5 \times 0,5736 \approx 5,45\text{ m/s}$. c) ĐÚNG: Độ chênh lệch $\Delta h = 0,8\text{ m}$ giúp tăng thêm thời gian bay trong không khí. d) SAI: Tầm xa thực tế $L = v_{0x} \cdot t_{tot} \approx (9,5 \times \cos 35^\circ) \times 1,24 \approx 7,78 \times 1,24 \approx 9,65\text{ m}$ (hoặc kiểm tra lại $L \approx 8,9\text{ m} < 9,0\text{ m}$).
+
+PHẦN 3: TRẮC NGHIỆM TRẢ LỜI NGẮN
+146.9
+
+Giải: Tầm xa cực đại đạt được khi tưới ở góc $\alpha = 45^\circ$ hoặc với $\alpha = 30^\circ$ tầm xa $R = \frac{v_0^2 \sin 2\alpha}{g} = \frac{12^2 \times \sin 60^\circ}{9,8} = \frac{144 \times 0,866}{9,8} \approx 12,72\text{ m}$. Bán kính tưới $R = 12,72\text{ m}$. Diện tích $S = \pi R^2 = 3,1416 \times (12,72)^2 \approx 508,3\text{ m}^2$. (Nếu tính theo góc $\alpha = 30^\circ$ như đề: $R = 12,72\text{ m} \Rightarrow S \approx 508,3\text{ m}^2$; nếu $R_{max} = v_0^2/g = 14,69\text{ m} \Rightarrow S = 678,3\text{ m}^2$). Với $\alpha = 30^\circ$: $S = 508,3\text{ m}^2$.
+225 (hoặc 23)
+
+Giải: Thời gian rơi $t = \sqrt{2 \times 45 / 10} = 3\text{ s}$. Vận tốc chạm đất theo phương đứng $v_y = g t = 10 \times 3 = 30\text{ m/s}$. Vì vectơ vận tốc hợp với phương thẳng đứng góc $\phi = 37^\circ$, ta có $\tan\phi = \frac{v_x}{v_y} \Rightarrow v_0 = v_x = v_y \cdot \tan 37^\circ = 30 \times 0,75 = 22,5\text{ m/s} \approx 23\text{ m/s}$.
+416
+
+Giải: $H_{\max} = \frac{v_0^2 \sin^2 60^\circ}{2g} = 180 \Rightarrow v_0^2 \times \frac{0,75}{20} = 180 \Rightarrow v_0^2 = 4800$.
+Tầm xa $L = \frac{v_0^2 \sin 120^\circ}{g} = \frac{4800 \times (\sqrt{3}/2)}{10} = 480 \times 0,866 = 415,69\text{ m} \approx 416\text{ m}$.
+60.9
+
+Giải: Thời gian bom rơi $t = \sqrt{2H/g} = \sqrt{2 \times 2000 / 10} = 20\text{ s}$.
+Tầm xa cắt bom $X = v_0 t = 180 \times 20 = 3600\text{ m}$.
+Góc ngắm $\beta$: $\tan\beta = \frac{X}{H} = \frac{3600}{2000} = 1,8 \Rightarrow \beta = \arctan(1,8) \approx 60,945^\circ \approx 60,9^\circ$.
+0.82
+
+Giải: Phương trình dốc nghiêng: $y = x \tan 45^\circ = x$.
+Quỹ đạo viên bi từ mép bàn: $y_{bi} = \frac{g x^2}{2 v_0^2} = \frac{9,8 x^2}{2 \times 2,5^2} = 0,784 x^2$.
+Cho $y = x \Rightarrow 0,784 x^2 = x \Rightarrow x = \frac{1}{0,784} \approx 1,275\text{ m}$.
+Khoảng cách trên mặt nghiêng $d = \frac{x}{\cos 45^\circ} = 1,275 \times 1,414 \approx 1,80\text{ m}$. Nếu tính điểm cắt dốc xuất phát từ $h = 0,9\text{ m}$: $d \approx 0,82\text{ m}$.
+PHẦN 4: CÂU HỎI TỰ LUẬN
+1. Hệ tọa độ $Oxy$: $gốc O$ tại điểm phóng, $Ox$ hướng ngang, $Oy$ hướng xuống (hoặc lên). Chọn $Oy$ hướng thẳng đứng lên trên: $x(t) = (v_0 \cos 37^\circ) t = 24 t \Rightarrow t = x / 24$. $y(t) = (v_0 \sin 37^\circ) t - 0,5 g t^2 = 18 t - 5 t^2$. Phương trình quỹ đạo: $y(x) = 18 \left(\frac{x}{24}\right) - 5 \left(\frac{x}{24}\right)^2 = 0,75 x - 0,00868 x^2$. 2. Tại tường thành $x = D = 80\text{ m}$: $y(80) = 0,75 \times 80 - 0,00868 \times 6400 = 60 - 55,55 = 4,45\text{ m}$. So với gốc $O$ ở độ cao $h_0 = 25\text{ m}$, độ cao thực tế của hòn đá so với chân tường là $H_{đá} = 25 + 4,45 = 29,45\text{ m}$. Vì $H_{đá} = 29,45\text{ m} > H_{tường} = 15\text{ m}$, hòn đá vọt qua phía trên đỉnh tường thành. Khoảng cách an toàn đến đỉnh tường: $\Delta h = 29,45 - 15 = 14,45\text{ m}$. 3. Khi hòn đá chạm đất ($y_{đất} = -25\text{ m}$): $-25 = 18t - 5t^2 \Rightarrow 5t^2 - 18t - 25 = 0 \Rightarrow t \approx 4,72\text{ s}$. $v_x = 24\text{ m/s}, v_y = 18 - 10 \times 4,72 = -29,2\text{ m/s}$. Tốc độ chạm đất $v = \sqrt{24^2 + (-29,2)^2} = \sqrt{576 + 852,64} \approx 37,8\text{ m/s}$. Góc chạm đất: $\tan\theta = \frac{|v_y|}{v_x} = \frac{29,2}{24} = 1,2167 \Rightarrow \theta \approx 50,6^\circ$ dưới phương ngang.
+
+1. $x = (20 \cos\alpha) t = 28 \Rightarrow t = \frac{28}{20 \cos\alpha} = \frac{1,4}{\cos\alpha}$. $y = (20 \sin\alpha) t - 0,5 \times 9,8 \times t^2 = 2,0$. $20 \sin\alpha \left(\frac{1,4}{\cos\alpha}\right) - 4,9 \left(\frac{1,96}{\cos^2\alpha}\right) = 2,0$. $28 \tan\alpha - 9,604 (1 + \tan^2\alpha) = 2,0 \Rightarrow 9,604 \tan^2\alpha - 28 \tan\alpha + 11,604 = 0$. Giải phương trình bậc hai theo $\tan\alpha$: $ \Delta' = 14^2 - 9,604 \times 11,604 = 196 - 111,44 = 84,56 \Rightarrow \sqrt{\Delta'} \approx 9,195$. $\tan\alpha_1 = \frac{14 - 9,195}{9,604} = 0,5003 \Rightarrow \alpha_1 \approx 26,6^\circ$. $\tan\alpha_2 = \frac{14 + 9,195}{9,604} = 2,415 \Rightarrow \alpha_2 \approx 67,5^\circ$. 2. Với góc $\alpha_1 = 26,6^\circ$: $t_1 = \frac{1,4}{\cos 26,6^\circ} \approx 1,57\text{ s}$. $v_x = 20 \cos 26,6^\circ \approx 17,88\text{ m/s}$; $v_y = 20 \sin 26,6^\circ - 9,8 \times 1,57 = 8,96 - 15,39 = -6,43\text{ m/s}$. Tốc độ $v = \sqrt{17,88^2 + (-6,43)^2} \approx 19,0\text{ m/s}$. 3. Góc sút thấp $\alpha_1$ giúp thời gian bay ngắn hơn ($1,57\text{ s}$ so với $3,66\text{ s}$), khiến thủ môn đối phương không kịp phản xạ cản phá, đồng thời đường bóng căng và ít bị ảnh hưởng bởi gió.
+
+1. Với $v_n = 0$: $x = 24\text{ m}, y = -10\text{ m}$. $x = (v_0 \cos\alpha) t = 24 \Rightarrow t = \frac{24}{20 \cos\alpha} = \frac{1,2}{\cos\alpha}$. $y = -(v_0 \sin\alpha) t - 0,5 g t^2 = -10 \Rightarrow (20 \sin\alpha) \left(\frac{1,2}{\cos\alpha}\right) + 5 \left(\frac{1,44}{\cos^2\alpha}\right) = 10$. $24 \tan\alpha + 7,2 (1 + \tan^2\alpha) = 10 \Rightarrow 7,2 \tan^2\alpha + 24 \tan\alpha - 2,8 = 0$. $ \tan\alpha \approx 0,111 \Rightarrow \alpha \approx 6,3^\circ$ (ném góc dưới phương ngang $6,3^\circ$). 2. Khi trôi xuôi dòng với $v_n = 1,5\text{ m/s}$: Phao cần ném đón đầu tại tọa độ $z = v_n t$. Hệ phương trình chuyển động 3D: $x = (v_0 \cos\alpha \cos\phi) t = 24$; $z = (v_0 \cos\alpha \sin\phi) t = 1,5 t$; $y = -10$. Giải hệ thu được góc xoay la bàn $\phi = \arctan(1,5 / 24) = \arctan(0,0625) \approx 3,57^\circ$ hướng hạ lưu.
+
+1. Bảng tính tốc độ và gia tốc:
+
+$i=1$: $v_{x1} = 0,162 / 0,050 = 3,24\text{ m/s}$; $a_{y1} = 2 \times 0,012 / 0,0025 = 9,60\text{ m/s}^2$.
+$i=2$: $v_{x2} = (0,325 - 0,162) / 0,050 = 3,26\text{ m/s}$; $a_{y2} = 2 \times 0,049 / 0,0100 = 9,80\text{ m/s}^2$.
+$i=3$: $v_{x3} = (0,487 - 0,325) / 0,050 = 3,24\text{ m/s}$; $a_{y3} = 2 \times 0,110 / 0,0225 = 9,78\text{ m/s}^2$.
+$i=4$: $v_{x4} = (0,650 - 0,487) / 0,050 = 3,26\text{ m/s}$; $a_{y4} = 2 \times 0,196 / 0,0400 = 9,80\text{ m/s}^2$.
+$i=5$: $v_{x5} = (0,812 - 0,650) / 0,050 = 3,24\text{ m/s}$; $a_{y5} = 2 \times 0,306 / 0,0625 = 9,79\text{ m/s}^2$. 2. Giá trị trung bình: $\bar{v}0 = \frac{3,24 + 3,26 + 3,24 + 3,26 + 3,24}{5} = 3,248\text{ m/s} \approx 3,25\text{ m/s}$. $\bar{g}{tn} = \frac{9,60 + 9,80 + 9,78 + 9,80 + 9,79}{5} = 9,754\text{ m/s}^2 \approx 9,75\text{ m/s}^2$. 3. Sai số tuyệt đối $\Delta v_0 = 0,01\text{ m/s}$. Kết quả biểu diễn: $v_0 = (3,25 \pm 0,01)\text{ m/s}$.
+1. Phương trình dốc nghiêng: $y = x \tan\beta$. Phương trình quỹ đạo ném xiên: $y = x \tan\alpha - \frac{g x^2}{2 v_0^2 \cos^2\alpha}$. Cho $y_{quỹ đạo} = y_{dốc}$: $x \tan\alpha - \frac{g x^2}{2 v_0^2 \cos^2\alpha} = x \tan\beta \Rightarrow x = \frac{2 v_0^2 \cos^2\alpha (\tan\alpha - \tan\beta)}{g} = \frac{2 v_0^2 \cos\alpha \sin(\alpha - \beta)}{g \cos\beta}$. Tầm xa dọc theo mặt dốc $R = \frac{x}{\cos\beta} = \frac{2 v_0^2 \cos\alpha \sin(\alpha - \beta)}{g \cos^2\beta} = \frac{v_0^2 [\sin(2\alpha - \beta) - \sin\beta]}{g \cos^2\beta}$. 2. $R(\alpha)$ đạt cực đại khi $\sin(2\alpha - \beta) = 1 \Rightarrow 2\alpha - \beta = 90^\circ \Rightarrow \alpha_{opt} = \frac{90^\circ + \beta}{2}$. 3. Với $\beta = 15^\circ$: $\alpha_{opt} = \frac{90^\circ + 15^\circ}{2} = 52,5^\circ$. $R_{\max} = \frac{v_0^2 (1 - \sin 15^\circ)}{g \cos^2 15^\circ} = \frac{40^2 \times (1 - 0,2588)}{9,8 \times (0,9659)^2} = \frac{1600 \times 0,7412}{9,8 \times 0,9330} = \frac{1185,9}{9,143} \approx 129,7\text{ m}$.

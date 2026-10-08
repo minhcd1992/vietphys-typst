@@ -12,6 +12,6 @@
 // Cài đặt Typography cơ bản
 #let vp-settings = (
   base-font: "Times New Roman",
-  base-size: 12pt,
+  base-size: 13pt,
   line-height: 1.2
 )

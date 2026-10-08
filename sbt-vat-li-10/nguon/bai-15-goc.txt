@@ -1,0 +1,335 @@
+BÀI 15: PHƯƠNG PHÁP GIẢI CÁC BÀI TOÁN ĐỘNG LỰC HỌC (SBT CHUYÊN SÂU & PHÂN HÓA)
+PHẦN 1: TRẮC NGHIỆM 4 PHƯƠNG ÁN LỰA CHỌN (20 CÂU)
+Thí sinh chọn 1 phương án đúng nhất cho mỗi câu. Các câu hỏi được thiết kế phân hóa, phản biện bẫy nhận thức và ứng dụng thực tiễn.
+
+Câu 1 (Bẫy chọn Hệ trục Tọa độ): Trong phương pháp giải bài toán động lực học cho một vật trượt trên mặt phẳng nghiêng góc $\alpha$ so với phương ngang, việc lựa chọn hệ trục tọa độ $Oxy$ nào sau đây giúp tối ưu hóa và đơn giản hóa nhất các phép chiếu phương trình vectơ $\sum \vec{F} = m\vec{a}$?
+
+A. Trục $Ox$ thẳng đứng hướng xuống, trục $Oy$ nằm ngang hướng theo chiều chuyển động.
+B. Trục $Ox$ song song với mặt phẳng nghiêng, cùng chiều với gia tốc $\vec{a}$; trục $Oy$ vuông góc với mặt phẳng nghiêng, hướng lên trên.
+C. Trục $Ox$ nằm ngang, trục $Oy$ thẳng đứng hướng lên trên theo hệ tọa độ Đề-các truyền thống.
+D. Trục $Ox$ vuông góc với mặt phẳng nghiêng, trục $Oy$ song song với mặt phẳng nghiêng hướng ngược chiều vận tốc.
+Câu 2 (Chiếu Lực Kéo Xiên trên Dốc Nghiêng): Một vật khối lượng $m$ được kéo trượt lên một mặt phẳng nghiêng góc $\beta$ so với phương ngang bởi một lực $\vec{F}$ hợp với mặt phẳng nghiêng một góc $\alpha$ ($\alpha > 0$). Hệ số ma sát trượt giữa vật và mặt dốc là $\mu_t$. Biểu thức đúng của độ lớn lực ma sát trượt $F_{mst}$ tác dụng lên vật là
+
+A. $F_{mst} = \mu_t \cdot m g \cos\beta$.
+B. $F_{mst} = \mu_t (m g \cos\beta - F \sin\alpha)$.
+C. $F_{mst} = \mu_t (m g \cos\beta + F \sin\alpha)$.
+D. $F_{mst} = \mu_t (m g \sin\beta - F \cos\alpha)$.
+Câu 3 (Hệ Hai Vật Nối Dây Trượt Ngang): Hai kiện hàng khối lượng $m_1$ và $m_2$ ($m_1 < m_2$) đặt trên mặt sàn nằm ngang không ma sát, được nối với nhau bằng một sợi dây nhẹ, không dãn. Tác dụng lực kéo $\vec{F}$ nằm ngang vào kiện hàng $m_2$ làm hệ chuyển động với gia tốc $a$. Độ lớn lực căng $T$ của sợi dây nối giữa hai kiện hàng bằng
+
+A. $T = F$.
+B. $T = \frac{m_1}{m_1 + m_2} F$.
+C. $T = \frac{m_2}{m_1 + m_2} F$.
+D. $T = \frac{m_1 m_2}{m_1 + m_2} F$.
+Câu 4 (Điều kiện Không Trượt của Hệ Hai Vật Chồng Nhau): Một khối gỗ $m_1$ đặt trên đỉnh một tấm gỗ $m_2$. Tấm gỗ $m_2$ nằm trên mặt sàn nằm ngang nhẵn bóng (bỏ qua ma sát với sàn). Hệ số ma sát nghỉ giữa $m_1$ và $m_2$ là $\mu_n$. Tác dụng lực kéo $\vec{F}$ nằm ngang vào tấm gỗ $m_2$. Lực kéo cực đại $F_{\max}$ tác dụng vào $m_2$ để khối gỗ $m_1$ không bị trượt trên $m_2$ bằng
+
+A. $F_{\max} = \mu_n m_1 g$.
+B. $F_{\max} = \mu_n m_2 g$.
+C. $F_{\max} = \mu_n (m_1 + m_2) g$.
+D. $F_{\max} = \frac{m_1 + m_2}{m_1} \mu_n g$.
+Câu 5 (Động lực học Xe Ôm Cua Đường Nghiêng - Banked Curve): Để ô tô di chuyển an toàn qua đoạn đường ôm cua bán kính $R$ với tốc độ thiết kế $v$ mà không cần phụ thuộc vào lực ma sát giữa lốp xe và mặt đường, người ta thiết kế mặt đường nghiêng một góc $\theta$ so với phương ngang. Biểu thức tính góc nghiêng $\theta$ lý tưởng là
+
+A. $\tan\theta = \frac{v^2}{g R}$.
+B. $\sin\theta = \frac{v^2}{g R}$.
+C. $\cos\theta = \frac{g R}{v^2}$.
+D. $\tan\theta = \frac{g R}{v^2}$.
+Câu 6 (Pháp lực trong Thang máy Gia tốc): Một hành khách khối lượng $m$ đứng trên một lực kế bàn đặt trong cabin thang máy của tòa nhà Landmark 81. Khi thang máy chuyển động đi lên chậm dần đều với gia tốc có độ lớn $a$, độ lớn pháp lực $N$ do sàn cân tác dụng lên chân hành khách (số chỉ của cân) là
+
+A. $N = m(g + a)$.
+B. $N = m(g - a)$.
+C. $N = mg$.
+D. $N = ma$.
+Câu 7 (Lực Nén lên Trục Ròng Rọc Máy Atwood): Trong hệ thống máy Atwood gồm hai vật khối lượng $m_1$ và $m_2$ ($m_1 > m_2$) vắt qua một ròng rọc cố định nhẹ, bỏ qua ma sát. Độ lớn lực nén $F_p$ tác dụng lên trục treo ròng rọc khi hệ đang chuyển động tự do bằng
+
+A. $F_p = (m_1 + m_2)g$.
+B. $F_p = (m_1 - m_2)g$.
+C. $F_p = \frac{2 m_1 m_2}{m_1 + m_2} g$.
+D. $F_p = \frac{4 m_1 m_2}{m_1 + m_2} g$.
+Câu 8 (Áp lực Ô tô Ôm Cầu Vồng): Một chiếc ô tô điện VinFast VF8 khối lượng $m$ chuyển động với tốc độ không đổi $v$ qua đỉnh một chiếc cầu vồng có bán kính cong $R$. Lấy gia tốc trọng trường là $g$. Áp lực $N$ do ô tô tác dụng lên mặt cầu tại điểm cao nhất bằng
+
+A. $N = m\left(g + \frac{v^2}{R}\right)$.
+B. $N = m\left(g - \frac{v^2}{R}\right)$.
+C. $N = m\frac{v^2}{R}$.
+D. $N = mg$.
+Câu 9 (Gia tốc Trượt Dốc có Ma sát): Một vật khối lượng $m$ trượt từ đỉnh một mặt phẳng nghiêng góc $\alpha$ so với phương ngang. Hệ số ma sát trượt giữa vật và mặt dốc là $\mu_t$. Độ lớn gia tốc $a$ của vật khi trượt xuống dốc được xác định bởi
+
+A. $a = g(\sin\alpha + \mu_t \cos\alpha)$.
+B. $a = g(\sin\alpha - \mu_t \cos\alpha)$.
+C. $a = g(\cos\alpha - \mu_t \sin\alpha)$.
+D. $a = g \sin\alpha$.
+Câu 10 (Sơ đồ Lực Cách ly - Free Body Diagram): Khi vẽ sơ đồ lực cách ly (FBD) cho một vật trong bài toán động lực học, nguyên tắc quan trọng nhất nào sau đây bắt buộc phải tuân thủ?
+
+A. Phải vẽ tất cả các lực do vật đó tác dụng lên các vật xung quanh (phản lực).
+B. Chỉ biểu diễn các ngoại lực do môi trường bên ngoài tác dụng VÀO vật đang xét.
+C. Phải vẽ vectơ gia tốc $\vec{a}$ như một lực thực thụ tác dụng vào tâm vật.
+D. Phải triệt tiêu ngay các cặp lực bằng nhau trước khi biểu diễn lên sơ đồ.
+Câu 11 (Con Lắc trong Ô tô Gia tốc - Hệ Quy chiếu Phi Quán tính): Một con lắc đơn gồm quả cầu nhỏ treo vào trần một chiếc xe buýt Hà Nội. Khi xe buýt bắt đầu tăng tốc chuyển động thẳng đều trên đường ngang với gia tốc $a_0$, dây treo con lắc bị lệch một góc $\theta$ so với phương thẳng đứng. Biểu thức tính góc lệch $\theta$ ở trạng thái cân bằng tương đối là
+
+A. $\tan\theta = \frac{a_0}{g}$.
+B. $\sin\theta = \frac{a_0}{g}$.
+C. $\cos\theta = \frac{g}{a_0}$.
+D. $\tan\theta = \frac{g}{a_0}$.
+Câu 12 (Hệ Vật trên Mặt phẳng Nghiêng nối Ròng Rọc): Vật $m_1$ nằm trên mặt phẳng nghiêng góc $\alpha$ (hệ số ma sát trượt $\mu_t$), nối với vật $m_2$ treo thẳng đứng qua một ròng rọc nhẹ ở đỉnh dốc. Biết $m_2$ đang đi xuống và kéo $m_1$ trượt lên dốc. Gia tốc $a$ của hệ vật được tính bằng công thức
+
+A. $a = \frac{m_2 - m_1(\sin\alpha + \mu_t \cos\alpha)}{m_1 + m_2} g$.
+B. $a = \frac{m_2 - m_1(\sin\alpha - \mu_t \cos\alpha)}{m_1 + m_2} g$.
+C. $a = \frac{m_1 - m_2 \sin\alpha}{m_1 + m_2} g$.
+D. $a = \frac{m_2 + m_1 \sin\alpha}{m_1 + m_2} g$.
+Câu 13 (Lực Căng Cực đại trong Chuyển động Tròn Đứng): Một quả cầu khối lượng $m$ treo vào đầu một sợi dây nhẹ chiều dài $L$. Quả cầu chuyển động tròn trong mặt phẳng thẳng đứng. Tại vị trí thấp nhất của quỹ đạo, tốc độ của quả cầu là $v$. Độ lớn lực căng $T$ của sợi dây tại vị trí này bằng
+
+A. $T = m\left(g - \frac{v^2}{L}\right)$.
+B. $T = m\left(g + \frac{v^2}{L}\right)$.
+C. $T = m\frac{v^2}{L}$.
+D. $T = mg$.
+Câu 14 (Chuyển động của Tàu Thủy Kéo Xà Lan): Một đầu máy tàu thủy khối lượng $M$ kéo một xà lan khối lượng $m$ trên đường thủy. Cả hệ chuyển động với gia tốc $a$. Lực cản nước tác dụng lên đầu máy là $F_{cM}$ và lên xà lan là $F_{cm}$. Lực căng $T$ của dây cáp nối giữa đầu máy và xà lan bằng
+
+A. $T = m a + F_{cm}$.
+B. $T = M a + F_{cM}$.
+C. $T = (M + m)a$.
+D. $T = m a - F_{cm}$.
+Câu 15 (Động lực học VinFast VF8 Leo Đèo Hải Vân): Ô tô điện VinFast VF8 khối lượng $m = 2600\text{ kg}$ chuyển động thẳng đều lên đèo Hải Vân góc nghiêng $\alpha = 12^\circ$ so với phương ngang. Tổng lực cản (ma sát và cản không khí) tác dụng lên xe là $F_{cản} = 1200\text{ N}$. Lấy $g = 9,8\text{ m/s}^2$. Độ lớn lực kéo do động cơ điện tạo ra bằng
+
+A. $5297\text{ N}$.
+B. $6497\text{ N}$.
+C. $1200\text{ N}$.
+D. $24928\text{ N}$.
+Câu 16 (Bẫy Chiếu Phương trình Vectơ ngược chiều Trục Tọa độ): Trong quá trình chiếu phương trình vectơ $\sum \vec{F} = m\vec{a}$ lên trục $Ox$ đã chọn, nếu một lực thành phần $\vec{F}i$ có hướng ngược chiều với chiều dương của trục $Ox$, giá trị hình chiếu $F{ix}$ của lực đó phải mang dấu
+
+A. Dương ($+$).
+B. Âm ($-$).
+C. Bằng $0$.
+D. Tùy thuộc vào độ lớn gia tốc $a$.
+Câu 17 (Cầu Lõm và Áp Lực Tăng Cường): Một chiếc xe tải chở hàng chạy qua một chiếc cầu lõm bán kính cong $R = 40\text{ m}$ với tốc độ không đổi $v = 12\text{ m/s}$. So với khi xe đỗ yên trên mặt đường bằng, áp lực của xe tác dụng lên điểm thấp nhất của cầu lõm
+
+A. giảm đi một lượng $m v^2 / R$.
+B. tăng thêm một lượng $m v^2 / R$.
+C. giữ nguyên không đổi bằng $mg$.
+D. giảm về $0$.
+Câu 18 (Góc Nhảy Tối ưu của VĐV Nhảy Xa): Khi phân tích động lực học cú nhảy xa của vận động viên điền kinh, góc nhảy $\alpha$ so với mặt đất nằm ngang để đạt tầm xa $L$ lớn nhất trong điều kiện có lực cản không khí nhỏ và độ cao trọng tâm lúc rơi khác độ cao lúc giậm nhảy thường có giá trị
+
+A. Đúng bằng $45^\circ$.
+B. Nhỏ hơn $45^\circ$ (khoảng $35^\circ - 42^\circ$).
+C. Lớn hơn $45^\circ$ (khoảng $50^\circ - 60^\circ$).
+D. Đúng bằng $90^\circ$.
+Câu 19 (Phương pháp Chiếu trong Bài toán Ném Xiên Lên Dốc): Một hòn đá được ném xiên góc $\alpha$ từ chân một con dốc nghiêng góc $\beta$ ($\alpha > \beta$). Để tìm tọa độ điểm chạm dốc, người ta chọn hệ trục $Oxy$ có $Ox$ dọc theo mặt dốc và $Oy$ vuông góc với mặt dốc. Gia tốc trọng trường $\vec{g}$ chiếu lên hai trục này lần lượt có giá trị
+
+A. $g_x = -g \sin\beta$; $g_y = -g \cos\beta$.
+B. $g_x = g \cos\beta$; $g_y = g \sin\beta$.
+C. $g_x = 0$; $g_y = -g$.
+D. $g_x = -g \cos\beta$; $g_y = -g \sin\beta$.
+Câu 20 (Chuyển động của Vật trên Xe Đang Hãm Phanh): Một kiện hàng đặt trên sàn phẳng của một xe tải đang chạy $72\text{ km/h}$. Xe tải phanh gấp với gia tốc hãm $a_0 = 4,0\text{ m/s}^2$. Hệ số ma sát nghỉ giữa kiện hàng và sàn xe là $\mu_n = 0,30$. Lấy $g = 9,8\text{ m/s}^2$. Trạng thái của kiện hàng so với sàn xe là
+
+A. Đứng yên không trượt do $\mu_n g > a_0$.
+B. Bị trượt xô về phía trước cabin xe do $a_0 > \mu_n g$.
+C. Bị trượt lùi về phía sau thùng xe.
+D. Bay vọt lên khỏi sàn xe.
+PHẦN 2: TRẮC NGHIỆM ĐÚNG/SAI (5 CÂU)
+Thí sinh xét tính Đúng hoặc Sai cho mỗi ý a), b), c), d) trong từng câu.
+
+Câu 21: Quy trình 4 bước tiêu chuẩn giải bài toán Động lực học bằng phương pháp chiếu phương trình Newton:
+
+a) Bước 1: Chọn vật (hoặc hệ vật) nghiên cứu và vẽ sơ đồ lực cách ly (FBD) biểu diễn đầy đủ các ngoại lực tác dụng vào vật.
+b) Bước 2: Viết phương trình định luật 2 Newton dạng vectơ: $\sum \vec{F}_{ngoại} = m\vec{a}$.
+c) Bước 3: Chọn hệ trục tọa độ $Oxy$ phù hợp (ưu tiên $Ox$ cùng chiều gia tốc $\vec{a}$) và chiếu phương trình vectơ lên hai trục $Ox, Oy$ để thu được hệ phương trình đại số.
+d) Bước 4: Giải hệ phương trình đại số thu được để tìm các đại lượng cần xác định và luôn bỏ qua điều kiện nghiệm vật lý.
+Câu 22: Khảo sát hệ hai vật $m_1 = 3,0\text{ kg}$ và $m_2 = 2,0\text{ kg}$ đặt tiếp xúc nhau trên mặt phẳng nằm ngang không ma sát. Tác dụng lực đẩy $\vec{F}$ nằm ngang có độ lớn $F = 10,0\text{ N}$ vào vật $m_1$ đẩy cả hai vật tiến về phía trước:
+
+a) Gia tốc của hệ hai vật thu được là $a = 2,0\text{ m/s}^2$.
+b) Độ lớn lực tương tác (lực nén) giữa hai vật $m_1$ và $m_2$ tại mặt tiếp xúc là $f_{12} = f_{21} = 4,0\text{ N}$.
+c) Nếu tác dụng đúng lực đẩy $F = 10,0\text{ N}$ đó theo hướng ngược lại vào vật $m_2$, gia tốc của hệ hai vật sẽ giảm đi do $m_2 < m_1$.
+d) Độ lớn lực tương tác giữa hai vật khi đẩy từ phía $m_2$ sẽ tăng lên thành $f'_{12} = 6,0\text{ N}$.
+Câu 23: Ô tô điện VinFast VF9 khối lượng $m = 2800\text{ kg}$ di chuyển qua một khúc cua tròn bán kính $R = 100\text{ m}$ trên đường đèo được thiết kế nghiêng góc $\theta = 15^\circ$ so với phương ngang. Lấy $g = 9,8\text{ m/s}^2$:
+
+a) Tốc độ lý tưởng $v_0$ để xe ôm cua an toàn mà không cần lực ma sát giữa lốp xe và mặt đường là $v_0 \approx 16,2\text{ m/s}$ ($58,3\text{ km/h}$).
+b) Khi xe chạy đúng tốc độ lý tưởng $v_0$, hợp lực của trọng lực $\vec{P}$ và phản lực pháp tuyến $\vec{N}$ đóng vai trò chính là lực hướng tâm.
+c) Nếu xe chạy với tốc độ $v > v_0$, lực ma sát nghỉ do mặt đường tác dụng lên lốp xe sẽ hướng lên phía trên đỉnh dốc nghiêng để giữ xe không bị lật.
+d) Nếu bề mặt đường đóng băng trượt ($\mu_n \approx 0$), xe chạy với tốc độ $80\text{ km/h}$ sẽ bị trượt văng ra ngoài khúc cua.
+Câu 24: Một chiếc xe trượt khối lượng $m = 50\text{ kg}$ bắt đầu trượt không vận tốc ban đầu từ đỉnh một con dốc đèo Bảo Lộc dài $L = 100\text{ m}$, nghiêng góc $\alpha = 20^\circ$ so với phương ngang. Hệ số ma sát trượt giữa xe và mặt đường là $\mu_t = 0,15$. Lấy $g = 9,8\text{ m/s}^2$:
+
+a) Thành phần trọng lực kéo xe trượt xuống dốc có độ lớn $P_x = P \sin 20^\circ \approx 167,6\text{ N}$.
+b) Độ lớn lực ma sát trượt tác dụng lên xe trượt là $F_{mst} = \mu_t m g \cos 20^\circ \approx 69,1\text{ N}$.
+c) Gia tốc của xe trượt thu được khi xuống dốc là $a \approx 1,97\text{ m/s}^2$.
+d) Vận tốc của xe trượt tại chân dốc đạt $v \approx 19,85\text{ m/s}$ ($71,5\text{ km/h}$).
+Câu 25 (Phản biện Halliday - Chuyển động trong Hệ Quy chiếu Gia tốc): Khảo sát con lắc đơn có quả cầu $m = 0,20\text{ kg}$ treo trong cabin thang máy tòa nhà Lotte Center Hà Nội. Thang máy đi lên nhanh dần đều với gia tốc $a_0 = 2,0\text{ m/s}^2$. Lấy $g = 9,8\text{ m/s}^2$:
+
+a) Quan sát từ hệ quy chiếu mặt đất (HQC quán tính), hợp lực tác dụng lên quả cầu gồm trọng lực $\vec{P}$ và lực căng dây $\vec{T}$, gây ra gia tốc $a_0$ hướng lên.
+b) Độ lớn lực căng dây $T$ ở trạng thái cân bằng tương đối là $T = m(g + a_0) = 2,36\text{ N}$.
+c) Quan sát từ hệ quy chiếu gắn với cabin thang máy (HQC phi quán tính), quả cầu chịu thêm lực quán tính $\vec{F}_{qt} = -m\vec{a}_0$ hướng xuống dưới.
+d) Gia tốc trọng trường hiệu dụng trong cabin thang máy lúc này giảm xuống còn $g_{hd} = g - a_0 = 7,8\text{ m/s}^2$.
+PHẦN 3: TRẮC NGHIỆM TRẢ LỜI NGẮN (5 CÂU)
+Thí sinh tính toán và điền kết quả số.
+
+Câu 26: Một chiếc ô tô khối lượng $m = 1500\text{ kg}$ chuyển động qua điểm thấp nhất của một chiếc cầu lõm bán kính cong $R = 50\text{ m}$ với tốc độ không đổi $v = 54\text{ km/h}$ ($15\text{ m/s}$). Lấy $g = 9,8\text{ m/s}^2$. Độ lớn áp lực do ô tô tác dụng lên mặt cầu tại điểm thấp nhất bằng bao nhiêu Newton?
+
+Câu 27: Hai kiện hàng khối lượng $m_1 = 4,0\text{ kg}$ và $m_2 = 6,0\text{ kg}$ đặt trên mặt sàn nằm ngang có hệ số ma sát trượt $\mu_t = 0,10$, được nối với nhau bằng một sợi dây nhẹ không dãn. Tác dụng lực kéo $F = 30,0\text{ N}$ nằm ngang vào vật $m_2$. Lấy $g = 9,8\text{ m/s}^2$. Độ lớn lực căng $T$ của sợi dây nối giữa hai kiện hàng bằng bao nhiêu Newton?
+
+Câu 28: Cho hệ thống máy Atwood gồm hai vật $m_1 = 2,0\text{ kg}$ và $m_2 = 2,8\text{ kg}$ vắt qua một ròng rọc cố định nhẹ. Bỏ qua ma sát và khối lượng ròng rọc, lấy $g = 9,8\text{ m/s}^2$. Độ lớn gia tốc $a$ của hệ vật bằng bao nhiêu $\text{m/s}^2$?
+
+Câu 29: Một khối gỗ khối lượng $m = 50\text{ kg}$ nằm trên mặt phẳng nghiêng góc $\alpha = 30^\circ$ so với phương ngang. Hệ số ma sát trượt giữa khối gỗ và mặt dốc là $\mu_t = 0,20$. Lấy $g = 9,8\text{ m/s}^2$. Độ lớn lực kéo $\vec{F}$ song song với mặt dốc hướng lên để kéo khối gỗ trượt đều lên dốc bằng bao nhiêu Newton?
+
+Câu 30: Một chiếc xe buýt Hà Nội đang chuyển động thẳng đều thì hãm phanh chuyển động chậm dần đều với gia tốc $a_0 = 2,0\text{ m/s}^2$. Một con lắc đơn treo trên trần xe buýt bị lệch khỏi phương thẳng đứng một góc $\theta$. Lấy $g = 9,8\text{ m/s}^2$. Góc lệch $\theta$ của dây treo con lắc bằng bao nhiêu độ (làm tròn đến 1 chữ số thập phân)?
+
+PHẦN 4: TỰ LUẬN (5 CÂU)
+Thí sinh trình bày chi tiết lời giải, lập luận vật lý và tính toán.
+
+Câu 31 (Bài toán Hệ Hai Vật Nối Dây qua Ròng Rọc Dốc Nghiêng - Halliday Classic): Cho hệ hai vật gồm vật $m_1 = 5,0\text{ kg}$ đặt trên mặt phẳng nghiêng góc $\alpha = 30^\circ$ so với phương ngang, nối với vật $m_2 = 8,0\text{ kg}$ treo thẳng đứng qua một ròng rọc nhẹ ở đỉnh dốc. Hệ số ma sát trượt giữa $m_1$ và mặt dốc là $\mu_t = 0,20$. Lấy $g = 9,8\text{ m/s}^2$. Bỏ qua khối lượng dây nối và ròng rọc.
+
+Biểu diễn đầy đủ các lực tác dụng lên từng vật trên sơ đồ lực cách ly (FBD). Xác định chiều chuyển động của hệ vật.
+Lập hệ phương trình Động lực học cho hai vật bằng phương pháp chiếu $Oxy$.
+Tính độ lớn gia tốc $a$ của hệ vật, lực căng $T$ của sợi dây và lực nén $F_p$ tác dụng lên trục ròng rọc.
+Câu 32 (An toàn Ô tô Ôm Cua Đường Nghiêng - Banked Curve VinFast VF8): Một chiếc ô tô điện VinFast VF8 khối lượng $m = 2600\text{ kg}$ di chuyển qua khúc cua tròn bán kính $R = 100\text{ m}$ trên đường đèo được thiết kế nghiêng góc $\theta = 12^\circ$ so với phương ngang. Lấy $g = 9,8\text{ m/s}^2$.
+
+Tính tốc độ lý tưởng $v_0$ ($\text{m/s}$ và $\text{km/h}$) để xe ôm cua an toàn mà không cần lực ma sát giữa lốp xe và mặt đường.
+Khi thời tiết xấu, bề mặt đường bị mưa ướt có hệ số ma sát nghỉ cực đại $\mu_n = 0,60$. Hãy lập phương trình Động lực học và tính tốc độ tối đa $v_{\max}$ ($\text{km/h}$) mà ô tô VinFast VF8 có thể ôm cua an toàn mà không bị trượt văng ra ngoài khúc cua.
+Câu 33 (Bài toán Hai Vật Chồng Lên Nhau $m_1$ trên $m_2$ - Halliday Challenge): Cho hai khối gỗ đặt chồng lên nhau: khối gỗ $m_1 = 2,0\text{ kg}$ đặt trên khối gỗ $m_2 = 4,0\text{ kg}$. Khối gỗ $m_2$ đặt trên mặt sàn nằm ngang. Hệ số ma sát nghỉ và ma sát trượt giữa $m_1$ và $m_2$ là $\mu_{n1} = \mu_{t1} = 0,30$. Hệ số ma sát trượt giữa $m_2$ và mặt sàn là $\mu_{t2} = 0,10$. Tác dụng lực kéo $\vec{F}$ nằm ngang vào khối gỗ $m_2$. Lấy $g = 9,8\text{ m/s}^2$.
+
+Biểu diễn các lực tác dụng lên $m_1$ và $m_2$ trên hai sơ đồ lực cách ly riêng biệt.
+Tính độ lớn lực kéo cực đại $F_{\max}$ tác dụng vào $m_2$ để $m_1$ không bị trượt trên $m_2$.
+Nếu tác dụng lực kéo $F = 40,0\text{ N}$ vào $m_2$, hãy tính gia tốc $a_1$ của $m_1$ và $a_2$ của $m_2$ so với mặt sàn.
+Câu 34 (Thực hành - Xử lý Số liệu Khảo sát Động lực học Đa Vật & Sai số ISO/SI): Trong bài thực hành khảo sát Định luật 2 Newton cho hệ máy Atwood ($m_1, m_2$ vắt qua ròng rọc), học sinh gắn cổng quang điện kép để đo gia tốc $a$ của hệ vật khi thay đổi tổng khối lượng $M = m_1 + m_2$ nhưng giữ nguyên hiệu khối lượng $\Delta m = m_2 - m_1 = 0,200\text{ kg}$. Kết quả 5 lần đo gia tốc $a$ thu được với tổng khối lượng $M = 2,000\text{ kg}$ ghi trong bảng sau:
+
+Lần đo	Gia tốc $a_i$ ($\text{m/s}^2$)
+1	0,962
+2	0,970
+3	0,958
+4	0,966
+5	0,964
+Tính gia tốc lý thuyết $a_{lt}$ của hệ vật theo công thức $a_{lt} = \frac{\Delta m}{M} g$ (với $g = 9,808\text{ m/s}^2$).
+Tính giá trị trung bình $\bar{a}$, sai số tuyệt đối ngẫu nhiên $\bar{\Delta a}$ và viết kết quả đo gia tốc $a$ theo tiêu chuẩn ISO/SI.
+So sánh $a_{thực_nghiệm}$ và $a_{lý_thuyết}$, tính sai số tương đối $\delta a$ và phân tích 2 nguyên nhân vật lý chính gây ra sự chênh lệch này (ảnh hưởng của momen quán tính ròng rọc và ma sát trục ròng rọc).
+Câu 35 (Cơ học Trong Hệ Quy Chiếu Phi Quán Tính & Con Lắc Gia Tốc - Halliday Advanced): Một xe tải chở hàng chạy chuyển động thẳng nhanh dần đều lên một con dốc nghiêng góc $\beta = 10^\circ$ so với phương ngang với gia tốc không đổi $a_0 = 2,5\text{ m/s}^2$. Trên trần thùng xe tải có treo một con lắc đơn gồm quả cầu nhỏ $m = 0,50\text{ kg}$. Lấy $g = 9,8\text{ m/s}^2$.
+
+Lập phương trình cân bằng cho quả cầu trong Hệ quy chiếu gắn với thùng xe tải (HQC phi quán tính) bằng cách bổ sung lực quán tính $\vec{F}_{qt}$.
+Xác định góc lệch $\theta$ của dây treo con lắc so với phương vuông góc với trần xe tải.
+Tính độ lớn lực căng $T$ của sợi dây treo con lắc ở vị trí cân bằng tương đối này.
+PHẦN 5: ĐÁP ÁN VÀ LỜI GIẢI CHI TIẾT (100%)
+PHẦN 1: TRẮC NGHIỆM 4 PHƯƠNG ÁN
+B | Chọn $Ox$ song song mặt dốc theo chiều $\vec{a}$, $Oy \perp$ mặt dốc giúp triệt tiêu các thành phần phức tạp khi chiếu.
+B | Phân tích lực theo $Oy$: $N + F\sin\alpha - mg\cos\beta = 0 \Rightarrow N = mg\cos\beta - F\sin\alpha \Rightarrow F_{mst} = \mu_t(mg\cos\beta - F\sin\alpha)$.
+B | Gia tốc hệ $a = F/(m_1+m_2)$. Xét riêng $m_1$: $T = m_1 a = \frac{m_1}{m_1+m_2} F$.
+D | Gia tốc cực đại của $m_1$ để không trượt là $a_{\max} = \mu_n g$. Với cả hệ: $F_{\max} = (m_1+m_2)a_{\max} = \frac{m_1+m_2}{m_1} \mu_n m_1 g$.
+A | Phân tích lực không ma sát: $N\cos\theta = mg, N\sin\theta = m v^2 / R \Rightarrow \tan\theta = v^2 / (g R)$.
+B | Thang máy đi lên chậm dần đều $\rightarrow \vec{a}$ hướng xuống $\rightarrow N = m(g - a)$.
+D | $a = \frac{m_1-m_2}{m_1+m_2}g \Rightarrow T = \frac{2m_1 m_2}{m_1+m_2}g \Rightarrow F_p = 2T = \frac{4m_1 m_2}{m_1+m_2}g$.
+B | Tại đỉnh cầu vồng: $mg - N = m v^2 / R \Rightarrow N = m(g - v^2/R)$.
+B | Chiếu lên $Ox$ dốc: $mg\sin\alpha - F_{mst} = ma \Rightarrow ma = mg\sin\alpha - \mu_t mg\cos\alpha \Rightarrow a = g(\sin\alpha - \mu_t \cos\alpha)$.
+B | Sơ đồ FBD chỉ biểu diễn ngoại lực tác dụng VÀO vật đang xét.
+A | Trong HQC xe: $F_{qt} = m a_0$ nằm ngang, $P = mg$ thẳng đứng $\rightarrow \tan\theta = F_{qt}/P = a_0 / g$.
+A | $m_2 g - T = m_2 a$; $T - m_1 g\sin\alpha - \mu_t m_1 g\cos\alpha = m_1 a \Rightarrow a = \frac{m_2 - m_1(\sin\alpha + \mu_t \cos\alpha)}{m_1 + m_2} g$.
+B | Tại điểm thấp nhất: $T - mg = m v^2 / L \Rightarrow T = m(g + v^2/L)$.
+A | Xét riêng xà lan $m$: $T - F_{cm} = m a \Rightarrow T = m a + F_{cm}$.
+B | Xe chạy đều $a = 0 \Rightarrow F_k = mg\sin\alpha + F_{cản} = 2600 \times 9,8 \times \sin 12^\circ + 1200 = 5297 + 1200 = 6497\text{ N}$.
+B | Lực ngược chiều dương của trục tọa độ có giá trị hình chiếu âm ($-$).
+B | Tại điểm thấp nhất cầu lõm: $N - mg = m v^2 / R \Rightarrow N = mg + m v^2 / R$ (áp lực tăng thêm $m v^2 / R$).
+B | Do độ cao giậm nhảy $h_1 > h_2$ (rơi) và lực cản không khí, góc nhảy tối ưu $\alpha \approx 35^\circ - 42^\circ < 45^\circ$.
+A | Trục $Ox$ hướng lên dốc $\rightarrow g_x = -g\sin\beta$; trục $Oy \perp$ dốc hướng lên $\rightarrow g_y = -g\cos\beta$.
+B | Gia tốc hãm $a_0 = 4,0\text{ m/s}^2 > \mu_n g = 0,30 \times 9,8 = 2,94\text{ m/s}^2 \rightarrow$ lực ma sát nghỉ không đủ giữ, kiện hàng bị trượt xô về trước.
+PHẦN 2: TRẮC NGHIỆM ĐÚNG/SAI
+Câu 21:
+
+a) ĐÚNG: Lập sơ đồ cách ly FBD là bước nền tảng đầu tiên.
+b) ĐÚNG: Phát biểu đúng dạng vectơ Định luật 2 Newton.
+c) ĐÚNG: Chọn $Oxy$ phù hợp và chiếu để chuyển từ vectơ sang đại số.
+d) SAI: Sau khi giải hệ phương trình đại số phải kiểm tra điều kiện vật lý của nghiệm (dấu gia tốc, điều kiện không trượt,...).
+Câu 22:
+
+a) ĐÚNG: $a = \frac{F}{m_1 + m_2} = \frac{10,0}{3,0 + 2,0} = 2,0\text{ m/s}^2$.
+b) ĐÚNG: Xét riêng $m_2$: $f_{12} = m_2 \cdot a = 2,0 \times 2,0 = 4,0\text{ N}$.
+c) SAI: Gia tốc hệ vẫn là $a = F/(m_1+m_2) = 2,0\text{ m/s}^2$ không thay đổi.
+d) ĐÚNG: Khi đẩy từ $m_2$, xét riêng $m_1$: $f'_{12} = m_1 \cdot a = 3,0 \times 2,0 = 6,0\text{ N}$.
+Câu 23:
+
+a) ĐÚNG: $\tan 15^\circ = \frac{v_0^2}{g R} \Rightarrow v_0 = \sqrt{9,8 \times 100 \times \tan 15^\circ} = \sqrt{262,59} \approx 16,2\text{ m/s}$ ($58,3\text{ km/h}$).
+b) ĐÚNG: Hợp lực $\vec{P} + \vec{N} = \vec{F}_{ht}$ hướng vào tâm đường tròn nằm ngang.
+c) SAI: Khi $v > v_0$, xe có xu hướng trượt văng ra ngoài, lực ma sát nghỉ do mặt đường tác dụng sẽ hướng xuống dưới chân dốc nghiêng để giữ xe.
+d) ĐÚNG: Tốc độ $80\text{ km/h} \approx 22,2\text{ m/s} > v_0 (16,2\text{ m/s})$, không có ma sát xe sẽ bị văng trượt ra ngoài.
+Câu 24:
+
+a) ĐÚNG: $P_x = mg\sin 20^\circ = 50 \times 9,8 \times 0,3420 \approx 167,6\text{ N}$.
+b) ĐÚNG: $F_{mst} = \mu_t mg\cos 20^\circ = 0,15 \times 50 \times 9,8 \times 0,9397 \approx 69,1\text{ N}$.
+c) ĐÚNG: $a = \frac{P_x - F_{mst}}{m} = \frac{167,6 - 69,1}{50} = 1,97\text{ m/s}^2$.
+d) ĐÚNG: $v = \sqrt{2 a L} = \sqrt{2 \times 1,97 \times 100} = \sqrt{394} \approx 19,85\text{ m/s}$ ($71,5\text{ km/h}$).
+Câu 25:
+
+a) ĐÚNG: Trong HQC quán tính đất: $\vec{T} + \vec{P} = m\vec{a}_0$.
+b) ĐÚNG: $T - mg = m a_0 \Rightarrow T = m(g + a_0) = 0,20 \times (9,8 + 2,0) = 2,36\text{ N}$.
+c) ĐÚNG: Trong HQC cabin (phi quán tính): xuất hiện lực quán tính $\vec{F}_{qt} = -m\vec{a}_0$ hướng ngược chiều $\vec{a}_0$ (hướng xuống).
+d) SAI: Gia tốc trọng trường hiệu dụng tăng lên $g_{hd} = g + a_0 = 11,8\text{ m/s}^2$.
+PHẦN 3: TRẮC NGHIỆM TRẢ LỜI NGẮN
+Câu 26: 21450 (hoặc 21450,0)\
+
+Giải: $v = 15\text{ m/s}$. Tại điểm thấp nhất cầu lõm: $N - mg = m \frac{v^2}{R} \Rightarrow N = m\left(g + \frac{v^2}{R}\right) = 1500 \times \left(9,8 + \frac{15^2}{50}\right) = 1500 \times (9,8 + 4,5) = 1500 \times 14,3 = 21450\text{ N}$.
+Câu 27: 12 (hoặc 12,0)\
+
+Giải: Gia tốc hệ: $a = \frac{F - \mu_t(m_1+m_2)g}{m_1+m_2} = \frac{30,0 - 0,10 \times 10 \times 9,8}{10} = \frac{30,0 - 9,8}{10} = 2,02\text{ m/s}^2$.\
+Lực căng dây: $T - \mu_t m_1 g = m_1 a \Rightarrow T = m_1(a + \mu_t g) = 4,0 \times (2,02 + 0,98) = 4,0 \times 3,0 = 12,0\text{ N}$.
+Câu 28: 1,63 (hoặc 1,6)\
+
+Giải: $a = \frac{m_2 - m_1}{m_1 + m_2} g = \frac{2,8 - 2,0}{2,0 + 2,8} \times 9,8 = \frac{0,8}{4,8} \times 9,8 = \frac{1}{6} \times 9,8 \approx 1,63\text{ m/s}^2$.
+Câu 29: 329,9 (hoặc 330)\
+
+Giải: Để trượt đều ($a = 0$): $F = mg\sin\alpha + \mu_t mg\cos\alpha = 50 \times 9,8 \times (\sin 30^\circ + 0,20 \times \cos 30^\circ) = 490 \times (0,50 + 0,1732) = 490 \times 0,6732 \approx 329,9\text{ N}$.
+Câu 30: 11,5\
+
+Giải: $\tan\theta = \frac{a_0}{g} = \frac{2,0}{9,8} \approx 0,2041 \Rightarrow \theta = \arctan(0,2041) \approx 11,53^\circ \approx 11,5^\circ$.
+PHẦN 4: TỰ LUẬN
+Câu 31:
+
+Sơ đồ Lực & Chiều chuyển động:
+$m_1$: Trọng lực $\vec{P}_1$, Pháp lực $\vec{N}_1$, Lực căng dây $\vec{T}1$, Lực ma sát trượt $\vec{F}{mst1}$ (hướng xuống dốc).
+$m_2$: Trọng lực $\vec{P}_2$, Lực căng dây $\vec{T}_2$.
+So sánh $m_2 g = 8,0 \times 9,8 = 78,4\text{ N}$ với $m_1 g \sin 30^\circ = 5,0 \times 9,8 \times 0,5 = 24,5\text{ N} \rightarrow m_2 g > m_1 g \sin 30^\circ \rightarrow$ Hệ chuyển động: $m_2$ đi xuống, $m_1$ trượt lên dốc.
+Hệ phương trình Động lực học (phương pháp chiếu):
+Vật $m_2$: $m_2 g - T = m_2 a \quad (1)$
+Vật $m_1$: $Oy_1: N_1 = m_1 g \cos 30^\circ$; $Ox_1: T - m_1 g \sin 30^\circ - \mu_t m_1 g \cos 30^\circ = m_1 a \quad (2)$
+Tính toán kết quả:
+Cộng (1) và (2): $a = \frac{m_2 g - m_1 g(\sin 30^\circ + \mu_t \cos 30^\circ)}{m_1 + m_2}$
+$a = \frac{78,4 - 5,0 \times 9,8 \times (0,5 + 0,2 \times 0,866)}{5,0 + 8,0} = \frac{78,4 - 49 \times 0,6732}{13} = \frac{78,4 - 32,99}{13} = \frac{45,41}{13} \approx 3,49\text{ m/s}^2$.
+Lực căng dây: $T = m_2 (g - a) = 8,0 \times (9,8 - 3,49) = 8,0 \times 6,31 = 50,48\text{ N}$.
+Lực nén lên ròng rọc ở đỉnh dốc góc $\alpha = 30^\circ$ (hai nhánh dây hợp góc $\phi = 90^\circ - 30^\circ = 60^\circ$): $F_p = 2 T \cos(\phi/2) = 2 \times 50,48 \times \cos 30^\circ = 100,96 \times 0,866 \approx 87,43\text{ N}$.
+Câu 32:
+
+Tốc độ lý tưởng $v_0$:
+$\tan 12^\circ = \frac{v_0^2}{g R} \Rightarrow v_0 = \sqrt{g R \tan 12^\circ} = \sqrt{9,8 \times 100 \times 0,21255} = \sqrt{208,3} \approx 14,43\text{ m/s}$ ($52,0\text{ km/h}$).
+Tốc độ tối đa $v_{\max}$ khi có ma sát $\mu_n = 0,60$:
+Khi $v = v_{\max}$, ma sát nghỉ cực đại $\vec{F}_{msn}$ hướng xuống dọc theo mặt dốc nghiêng để giữ xe không bị văng ra ngoài.
+Chiếu lên phương thẳng đứng: $N \cos 12^\circ - F_{msn} \sin 12^\circ - mg = 0$ với $F_{msn} = \mu_n N$ $\Rightarrow N (\cos 12^\circ - \mu_n \sin 12^\circ) = mg \Rightarrow N = \frac{mg}{\cos 12^\circ - \mu_n \sin 12^\circ} = \frac{mg}{0,9781 - 0,60 \times 0,2079} = \frac{mg}{0,8534}$.
+Chiếu lên phương nằm ngang (hướng tâm): $N \sin 12^\circ + F_{msn} \cos 12^\circ = m \frac{v_{\max}^2}{R}$ $\Rightarrow N (\sin 12^\circ + \mu_n \cos 12^\circ) = m \frac{v_{\max}^2}{R}$.
+Chia hai phương trình: $\frac{v_{\max}^2}{g R} = \frac{\sin 12^\circ + \mu_n \cos 12^\circ}{\cos 12^\circ - \mu_n \sin 12^\circ} = \frac{0,2079 + 0,60 \times 0,9781}{0,8534} = \frac{0,7948}{0,8534} \approx 0,9313$.
+Suy ra $v_{\max} = \sqrt{0,9313 \times 9,8 \times 100} = \sqrt{912,7} \approx 30,21\text{ m/s}$ ($108,8\text{ km/h}$).
+Câu 33:
+
+Sơ đồ Lực cách ly:
+$m_1$: Trọng lực $\vec{P}_1$, Pháp lực $\vec{N}1$, Lực ma sát nghỉ/trượt $\vec{F}{ms1}$ do $m_2$ tác dụng hướng theo chiều kéo.
+$m_2$: Trọng lực $\vec{P}_2$, Lực kéo $\vec{F}$, Phản lực $\vec{N}'1$ từ $m_1$, Lực ma sát $\vec{F}'{ms1}$ phản lực, Pháp lực mặt sàn $\vec{N}2$, Lực ma sát sàn $\vec{F}{ms2}$.
+Tính $F_{\max}$ để $m_1$ không trượt trên $m_2$:
+Gia tốc cực đại của $m_1$ nhờ ma sát nghỉ cực đại: $a_{\max} = \frac{F_{ms1,\max}}{m_1} = \frac{\mu_{n1} m_1 g}{m_1} = \mu_{n1} g = 0,30 \times 9,8 = 2,94\text{ m/s}^2$.
+Xét cả hệ $(m_1 + m_2)$ cùng chuyển động với gia tốc $a_{\max}$: $F_{\max} - F_{ms2} = (m_1 + m_2) a_{\max}$ với $F_{ms2} = \mu_{t2} (m_1 + m_2)g = 0,10 \times (2,0 + 4,0) \times 9,8 = 5,88\text{ N}$.
+$\Rightarrow F_{\max} = 5,88 + 6,0 \times 2,94 = 5,88 + 17,64 = 23,52\text{ N}$.
+Khi $F = 40,0\text{ N} > F_{\max} (23,52\text{ N})$:
+$m_1$ bị trượt trên $m_2$. Lực ma sát giữa $m_1$ và $m_2$ là ma sát trượt: $F_{mst1} = \mu_{t1} m_1 g = 0,30 \times 2,0 \times 9,8 = 5,88\text{ N}$.
+Gia tốc $m_1$: $a_1 = \frac{F_{mst1}}{m_1} = \frac{5,88}{2,0} = 2,94\text{ m/s}^2$.
+Gia tốc $m_2$: $F - F_{mst1} - F_{ms2} = m_2 a_2 \Rightarrow 40,0 - 5,88 - 5,88 = 4,0 \times a_2 \Rightarrow 28,24 = 4,0 a_2 \Rightarrow a_2 = 6,06\text{ m/s}^2$.
+Câu 34:
+
+Gia tốc lý thuyết $a_{lt}$:
+$a_{lt} = \frac{\Delta m}{M} g = \frac{0,200}{2,000} \times 9,808 = 0,10 \times 9,808 = 0,9808\text{ m/s}^2$.
+Xử lý số liệu thực nghiệm:
+Giá trị trung bình $\bar{a} = \frac{0,962 + 0,970 + 0,958 + 0,966 + 0,964}{5} = \frac{4,820}{5} = 0,964\text{ m/s}^2$.
+Sai số tuyệt đối ngẫu nhiên từng lần đo: $\Delta a_1 = |0,964 - 0,962| = 0,002$; $\Delta a_2 = |0,964 - 0,970| = 0,006$; $\Delta a_3 = |0,964 - 0,958| = 0,006$; $\Delta a_4 = |0,964 - 0,966| = 0,002$; $\Delta a_5 = |0,964 - 0,964| = 0,000$. $\bar{\Delta a} = \frac{0,002 + 0,006 + 0,006 + 0,002 + 0,000}{5} = \frac{0,016}{5} = 0,0032 \approx 0,003\text{ m/s}^2$.
+Viết kết quả chuẩn ISO/SI: $a = (0,964 \pm 0,003)\text{ m/s}^2$.
+So sánh & Nhận xét:
+$a_{thực_nghiệm} (0,964\text{ m/s}^2) < a_{lý_thuyết} (0,9808\text{ m/s}^2)$.
+Sai số tương đối: $\delta a = \frac{|0,964 - 0,9808|}{0,9808} \times 100% = 1,71%$.
+Nguyên nhân vật lý: Momen quán tính của ròng rọc tốn một phần lực để làm ròng rọc quay, và lực ma sát ổ trục ròng rọc làm gia tốc thực tế nhỏ hơn lý thuyết coi ròng rọc lý tưởng.
+Câu 35:
+
+Phương trình Cân bằng trong HQC phi quán tính gắn với xe:
+Các lực tác dụng lên $m$: Trọng lực $\vec{P}$ ($P = mg$), Lực căng dây $\vec{T}$, Lực quán tính $\vec{F}_{qt} = -m\vec{a}_0$ (hướng song song với dốc, hướng xuống chân dốc).
+Điều kiện cân bằng: $\vec{T} + \vec{P} + \vec{F}_{qt} = \vec{0}$.
+Góc lệch $\theta$ so với phương vuông góc sàn xe:
+Trọng lực $\vec{P}$ phân tích thành: $P_\perp = mg \cos 10^\circ$ (vuông góc sàn) và $P_\parallel = mg \sin 10^\circ$ (song song dốc hướng xuống).
+Tổng thành phần lực song song mặt sàn xe hướng xuống chân dốc: $F_\parallel = P_\parallel + F_{qt} = mg \sin 10^\circ + m a_0 = m (g \sin 10^\circ + a_0) = m (9,8 \times 0,1736 + 2,5) = m (1,702 + 2,5) = 4,202 m\text{ (N)}$.
+Thành phần vuông góc sàn xe: $F_\perp = mg \cos 10^\circ = m \times 9,8 \times 0,9848 = 9,651 m\text{ (N)}$.
+Góc lệch $\theta$ của dây treo so với phương vuông góc sàn xe: $\tan\theta = \frac{F_\parallel}{F_\perp} = \frac{4,202 m}{9,651 m} \approx 0,4354 \Rightarrow \theta = \arctan(0,4354) \approx 23,5^\circ$.
+Độ lớn Lực căng $T$:
+$T = \sqrt{F_\parallel^2 + F_\perp^2} = m \sqrt{4,202^2 + 9,651^2} = 0,50 \times \sqrt{17,657 + 93,142} = 0,50 \times \sqrt{110,80} = 0,50 \times 10,526 \approx 5,26\text{ N}$.

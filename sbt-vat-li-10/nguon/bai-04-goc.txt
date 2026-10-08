@@ -1,0 +1,351 @@
+BÀI 4: ĐỒ THỊ ĐỘ DỊCH CHUYỂN – THỜI GIAN (SBT NÂNG CAO & PHÂN HÓA)
+PHẦN 1: TRẮC NGHIỆM 4 PHƯƠNG ÁN LỰA CHỌN (20 CÂU)
+Thí sinh chọn 1 phương án đúng nhất trong mỗi câu.
+
+Câu 1 (Phân tích độ dốc đại số): Trên đồ thị độ dịch chuyển – thời gian ($d - t$) của một chất điểm chuyển động thẳng, đường biểu diễn là một đoạn thẳng nghiêng xuống dưới từ trái sang phải (độ dốc $k = \frac{\Delta d}{\Delta t} < 0$). Điều này chứng tỏ chất điểm đang
+
+A. chuyển động chậm dần đều theo chiều dương.
+B. chuyển động thẳng đều theo chiều âm của trục tọa độ.
+C. đứng yên ở phía âm của gốc tọa độ $O$.
+D. chuyển động nhanh dần đều theo chiều âm.
+Câu 2 (Tính toán $v_{tb}$ và $v_{tốc độ}$ từ đồ thị): Đồ thị $d - t$ của một xe máy gồm hai đoạn: từ $t_1 = 0$ đến $t_2 = 0,5\text{ h}$, $d$ tăng đều từ $0$ đến $20\text{ km}$; từ $t_2 = 0,5\text{ h}$ đến $t_3 = 1,0\text{ h}$, $d$ giảm đều từ $20\text{ km}$ về $5\text{ km}$. Vận tốc trung bình $\bar{v}$ và tốc độ trung bình $v_{tb}$ của xe máy trong toàn bộ khoảng thời gian $1,0\text{ h}$ lần lượt là
+
+A. $\bar{v} = 5\text{ km/h}; v_{tb} = 35\text{ km/h}$.
+B. $\bar{v} = 35\text{ km/h}; v_{tb} = 35\text{ km/h}$.
+C. $\bar{v} = 15\text{ km/h}; v_{tb} = 35\text{ km/h}$.
+D. $\bar{v} = 5\text{ km/h}; v_{tb} = 25\text{ km/h}$.
+Câu 3 (Hai xe chuyển động ngược chiều): Hai xe A và B di chuyển trên cùng một đường thẳng. Đồ thị $d - t$ của xe A là đường thẳng xuất phát từ $(0\text{ h}; 0\text{ km})$ có độ dốc $k_A = +40\text{ km/h}$. Đồ thị $d - t$ của xe B là đường thẳng xuất phát từ $(0\text{ h}; 100\text{ km})$ có độ dốc $k_B = -60\text{ km/h}$. Thời điểm $t$ và vị trí $d$ hai xe gặp nhau là
+
+A. $t = 1,0\text{ h}; d = 40\text{ km}$.
+B. $t = 1,0\text{ h}; d = 60\text{ km}$.
+C. $t = 2,5\text{ h}; d = 100\text{ km}$.
+D. $t = 0,8\text{ h}; d = 32\text{ km}$.
+Câu 4 (Trạng thái đứng yên): Một ô tô VinFast VF8 dừng chờ đèn đỏ tại ngã tư trong khoảng thời gian $\Delta t = 30\text{ s}$. Trong khoảng thời gian này, đường biểu diễn độ dịch chuyển – thời gian $d - t$ của ô tô có dạng là
+
+A. một đường thẳng dốc lên hợp với trục thời gian một góc $\alpha > 0$.
+B. một đoạn thẳng song song (hoặc trùng) với trục thời gian $Ot$.
+C. một nhánh parabol hướng bề lõm lên trên.
+D. một đoạn thẳng vuông góc với trục thời gian $Ot$.
+Câu 5 (Đồ thị dạng cong phi tuyến): Đồ thị $d - t$ của một vật chuyển động là một nhánh parabol có phương trình $d(t) = 2t^2$ ($d$ tính bằng mét, $t$ tính bằng giây). Phát biểu nào sau đây đúng về chuyển động của vật?
+
+A. Vật chuyển động thẳng đều với vận tốc không đổi $2\text{ m/s}$.
+B. Tiếp tuyến của đồ thị có độ dốc tăng dần theo thời gian, chứng tỏ vận tốc tức thời của vật tăng dần.
+C. Tốc độ của vật không đổi và bằng $4\text{ m/s}$.
+D. Vật chuyển động ngược chiều dương với vận tốc giảm dần.
+Câu 6 (Hai đường song song): Đồ thị $d - t$ của hai chất điểm 1 và 2 là hai đường thẳng song song với nhau và cùng hợp với trục $Ot$ một góc nhọn $\alpha$. Kết luận nào sau đây là chính xác?
+
+A. Hai chất điểm có cùng vị trí xuất phát và chuyển động với vận tốc khác nhau.
+B. Hai chất điểm chuyển động với cùng vận tốc $v = \tan\alpha$ và giữ khoảng cách không đổi theo thời gian.
+C. Chất điểm 1 sẽ đuổi kịp chất điểm 2 tại thời điểm $t = \tan\alpha$.
+D. Hai chất điểm chuyển động ngược chiều nhau với cùng tốc độ.
+Câu 7 (Điểm gập đồ thị & Tốc độ tức thời): Đồ thị $d - t$ của một giao xe có dạng gấp khúc: từ $t = 0$ đến $t = 2\text{ h}$, $d$ tăng đều từ $0$ đến $60\text{ km}$; từ $t = 2\text{ h}$ đến $t = 3\text{ h}$, $d$ giữ nguyên $60\text{ km}$; từ $t = 3\text{ h}$ đến $t = 5\text{ h}$, $d$ giảm đều từ $60\text{ km}$ về $0$. Vận tốc tức thời $\bar{v}$ tại thời điểm $t = 4\text{ h}$ bằng
+
+A. $+30\text{ km/h}$.
+B. $-30\text{ km/h}$.
+C. $-60\text{ km/h}$.
+D. $0\text{ km/h}$.
+Câu 8 (Ý nghĩa giao điểm đồ thị): Trên hệ trục tọa độ $d - t$, giao điểm của hai đường biểu diễn chuyển động của hai vật A và B cho biết
+
+A. hai vật có cùng vận tốc tức thời tại thời điểm đó.
+B. hai vật có cùng gia tốc tại thời điểm đó.
+C. hai vật gặp nhau (có cùng độ dịch chuyển/tọa độ tại thời điểm đó).
+D. hai vật đã đi được những quãng đường bằng nhau tính từ gốc thời gian.
+Câu 9 (Đồ thị cắt trục hoành $Ot$): Nếu đường biểu diễn trên đồ thị $d - t$ cắt trục thời gian $Ot$ tại thời điểm $t_0 > 0$, điều này có nghĩa là
+
+A. vật bắt đầu khởi hành tại thời điểm $t_0$.
+B. vật dừng lại hoàn toàn tại thời điểm $t_0$.
+C. vật trở về vị trí mốc xuất phát ban đầu ($d = 0$) tại thời điểm $t_0$.
+D. vận tốc của vật đạt giá trị bằng 0 tại thời điểm $t_0$.
+Câu 10 (Góc tiếp tuyến đồ thị): Cho đồ thị $d - t$ của một chuyển động cong. Tiếp tuyến của đồ thị tại điểm ứng với $t = 2\text{ s}$ hợp với chiều dương của trục $Ot$ một góc $135^\circ$. Vận tốc tức thời của vật tại $t = 2\text{ s}$ bằng
+
+A. $+1\text{ m/s}$.
+B. $-1\text{ m/s}$.
+C. $+\sqrt{3}\text{ m/s}$.
+D. $-0,5\text{ m/s}$.
+Câu 11 (Bẫy So sánh $v_{tb}$ của 3 đồ thị khác nhau): Ba vật (1), (2), (3) xuất phát cùng lúc từ mốc $d = 0$. Đồ thị $d - t$ của vật (1) là đường thẳng dốc, vật (2) là đường thẳng ít dốc hơn, vật (3) là đường cong võng. Tại thời điểm $t_1$, cả ba đồ thị cùng cắt nhau tại điểm có độ dịch chuyển $d_1$. So sánh vận tốc trung bình $v_{tb1}, v_{tb2}, v_{tb3}$ của ba vật trong khoảng thời gian từ $0$ đến $t_1$:
+
+A. $v_{tb1} > v_{tb2} > v_{tb3}$.
+B. $v_{tb1} < v_{tb2} < v_{tb3}$.
+C. $v_{tb1} = v_{tb2} = v_{tb3}$.
+D. $v_{tb3} > v_{tb1} = v_{tb2}$.
+Câu 12 (Tính tốc độ trung bình đồ thị 2 đoạn): Đồ thị $d - t$ của một vật gồm 2 giai đoạn: Giai đoạn 1 ($0 \rightarrow 10\text{ s}$): $d(t) = 3t$ (m); Giai đoạn 2 ($10 \rightarrow 20\text{ s}$): $d(t) = 30 - 2(t - 10)$ (m). Tốc độ trung bình $v_{tb}$ trên toàn bộ $20\text{ s}$ là
+
+A. $0,5\text{ m/s}$.
+B. $2,5\text{ m/s}$.
+C. $1,5\text{ m/s}$.
+D. $3,0\text{ m/s}$.
+Câu 13 (Tính phi lý vật lý của đồ thị đứng): Đồ thị độ dịch chuyển – thời gian $d - t$ KHÔNG THỂ chứa một đoạn thẳng đứng (vuông góc với trục $Ot$) vì lý do nào sau đây?
+
+A. Vì vận tốc của vật khi đó bằng 0, vật không thể di chuyển.
+B. Vì một vật không thể xuất hiện tại vô số vị trí khác nhau trong cùng một thời điểm duy nhất (vận tốc vô hạn).
+C. Vì độ dịch chuyển không thể nhận giá trị dương.
+D. Vì trục thời gian luôn phải hướng sang phải.
+Câu 14 (Tiếp tuyến đỉnh đường tròn): Đồ thị $d - t$ của một vật là một nửa đường tròn bán kính $R = 5\text{ m}$ nằm phía trên trục $Ot$, kéo dài từ $t = 0$ đến $t = 10\text{ s}$ (đỉnh tròn tại $t = 5\text{ s}, d = 5\text{ m}$). Vận tốc tức thời của vật tại thời điểm $t = 5\text{ s}$ là
+
+A. $1,0\text{ m/s}$.
+B. $0\text{ m/s}$.
+C. $5,0\text{ m/s}$.
+D. $3,14\text{ m/s}$.
+Câu 15 (Ô tô đuổi nhau có độ lệch thời gian): Hai ô tô A và B chuyển động thẳng cùng chiều trên cao tốc. Ô tô A đi với vận tốc không đổi $15\text{ m/s}$ từ $t = 0$. Ô tô B khởi hành sau ô tô A $10\text{ s}$ từ cùng vị trí với vận tốc không đổi $20\text{ m/s}$. Trên đồ thị $d - t$, hai đường biểu diễn cắt nhau tại thời điểm $t$ (tính từ lúc xe A xuất phát) bằng
+
+A. $30\text{ s}$.
+B. $40\text{ s}$.
+C. $25\text{ s}$.
+D. $50\text{ s}$.
+Câu 16 (Chuyến đi khứ hồi): Đồ thị $d - t$ của một người đi bộ từ nhà ra công viên rồi quay về nhà: $0 \rightarrow 15\text{ min}$: $d$ tăng đều từ $0 \rightarrow 1,2\text{ km}$; $15 \rightarrow 25\text{ min}$: $d$ không đổi ($1,2\text{ km}$); $25 \rightarrow 40\text{ min}$: $d$ giảm đều từ $1,2\text{ km}$ về $0$. Vận tốc trung bình của người đó trong cả chuyến đi $40\text{ min}$ là
+
+A. $3,6\text{ km/h}$.
+B. $1,8\text{ km/h}$.
+C. $0\text{ km/h}$.
+D. $2,4\text{ km/h}$.
+Câu 17 (Chuyến đi 3 chặng có dừng nghỉ): Đồ thị $d - t$ của xe khách Hà Nội – Hải Phòng dài $100\text{ km}$: Chặng 1 ($0 \rightarrow 1\text{ h}$): chạy $60\text{ km}$; Chặng 2 ($1 \rightarrow 1,25\text{ h}$): dừng nghỉ ở trạm dừng chân cách Hà Nội $60\text{ km}$; Chặng 3 ($1,25 \rightarrow 1,65\text{ h}$): chạy nốt $40\text{ km}$ đến Hải Phòng. Tốc độ trung bình trên toàn chuyến đi là
+
+A. $60,6\text{ km/h}$.
+B. $100,0\text{ km/h}$.
+C. $62,5\text{ km/h}$.
+D. $75,0\text{ km/h}$.
+Câu 18 (Đổi chiều chuyển động tại đỉnh Parabol): Đồ thị $d - t$ của một vật là parabol $d(t) = -t^2 + 6t$ ($m, s$). Vật đổi chiều chuyển động tại thời điểm $t$ bằng
+
+A. $6\text{ s}$.
+B. $3\text{ s}$.
+C. $0\text{ s}$.
+D. $1,5\text{ s}$.
+Câu 19 (Khoảng cách giữa hai đồ thị song song): Đồ thị $d - t$ của hai xe máy I và II là hai đường thẳng song song với nhau, đường I nằm trên đường II một khoảng thẳng đứng bằng $15\text{ km}$. Phát biểu nào sau đây đúng?
+
+A. Xe I chạy nhanh hơn xe II $15\text{ km/h}$.
+B. Xe I luôn chạy trước xe II một khoảng không đổi $15\text{ km}$.
+C. Xe II sẽ đuổi kịp xe I sau một khoảng thời gian $t = 15\text{ h}$.
+D. Hai xe chuyển động ngược chiều nhau.
+Câu 20 (Đồ thị độ dịch chuyển tổng hợp 2D): Một robot di chuyển trên mặt sàn phẳng $Oxy$. Đồ thị $d_x - t$ là đường thẳng có độ dốc $v_x = 2,0\text{ m/s}$, đồ thị $d_y - t$ là đường thẳng có độ dốc $v_y = 1,5\text{ m/s}$. Đồ thị độ dịch chuyển tổng hợp $d(t) = \sqrt{d_x^2 + d_y^2}$ theo thời gian $t$ có độ dốc bằng
+
+A. $3,5\text{ m/s}$.
+B. $0,5\text{ m/s}$.
+C. $2,5\text{ m/s}$.
+D. $1,8\text{ m/s}$.
+PHẦN 2: TRẮC NGHIỆM ĐÚNG/SAI (5 CÂU)
+Thí sinh xét tính Đúng/Sai của từng ý a, b, c, d trong mỗi câu.
+
+Câu 1: Đồ thị độ dịch chuyển – thời gian ($d - t$) của một đoàn tàu điện Cát Linh – Hà Đông chạy giữa hai ga A và B cách nhau $3,0\text{ km}$ được mô tả như sau: Từ $t = 0 \rightarrow 1\text{ min}$, đồ thị là cong võng lên (độ dốc tăng dần); từ $t = 1 \rightarrow 4\text{ min}$, đồ thị là đường thẳng nghiêng; từ $t = 4 \rightarrow 5\text{ min}$, đồ thị cong thoải dần và nằm ngang tại $d = 3,0\text{ km}$.
+
+Ý	Mệnh đề	Đúng	Sai
+a)	Trong phút đầu tiên ($0 \rightarrow 1\text{ min}$), tàu chuyển động nhanh dần vì độ dốc của đồ thị $d - t$ tăng dần theo thời gian.		
+b)	Từ phút thứ 1 đến phút thứ 4, vận tốc của tàu không đổi và có độ lớn bằng $1,0\text{ km/min}$ ($60\text{ km/h}$).		
+c)	Khi tàu dừng hẳn tại ga B (sau $5\text{ min}$), đường biểu diễn $d - t$ kéo dài sẽ quay trở về trục hoành $Ot$.		
+d)	Vận tốc trung bình của tàu trên toàn bộ hành trình từ ga A đến ga B bằng $36\text{ km/h}$.		
+Câu 2: Cho đồ thị độ dịch chuyển – thời gian ($d - t$) của một ô tô chuyển động thẳng dọc theo tuyến quốc lộ Bắc – Nam (chọn chiều dương hướng về phía Bắc, gốc tọa độ $O$ tại Hà Nội).
+
+Ý	Mệnh đề	Đúng	Sai
+a)	Đoạn đồ thị đi lên (độ dốc $k > 0$) cho biết ô tô đang di chuyển về hướng Bắc.		
+b)	Đoạn đồ thị đi xuống (độ dốc $k < 0$) cho biết ô tô đang quay đầu chạy về hướng Nam.		
+c)	Độ dốc của đường biểu diễn $d - t$ tại bất kỳ điểm nào cho biết gia tốc tức thời của ô tô.		
+d)	Nếu đồ thị cắt trục thời gian $Ot$ tại $t = 2\text{ h}$, chứng tỏ tại thời điểm $2\text{ h}$ ô tô đang ở vị trí Hà Nội (gốc mốc $O$).		
+Câu 3: Hai xe máy (1) và (2) di chuyển trên tuyến cao tốc Pháp Vân – Cầu Giẽ có đồ thị $d - t$ là hai đường thẳng: Đường (1) xuất phát từ $(0\text{ h}; 0\text{ km})$ đi qua điểm $(0,5\text{ h}; 40\text{ km})$; Đường (2) xuất phát từ $(0\text{ h}; 20\text{ km})$ đi qua điểm $(0,5\text{ h}; 40\text{ km})$.
+
+Ý	Mệnh đề	Đúng	Sai
+a)	Vận tốc của xe (1) là $80\text{ km/h}$ và vận tốc của xe (2) là $40\text{ km/h}$.		
+b)	Tại thời điểm $t = 0,5\text{ h}$, xe (1) đuổi kịp xe (2) tại vị trí cách mốc xuất phát xe (1) một khoảng $40\text{ km}$.		
+c)	Trước thời điểm $t = 0,5\text{ h}$, xe (2) luôn chạy phía trước xe (1).		
+d)	Khoảng cách giữa hai xe tại thời điểm $t = 0,25\text{ h}$ là $10\text{ km}$.		
+Câu 4: Đồ thị độ dịch chuyển – thời gian ($d - t$) của một chất điểm chuyển động có dạng nhánh parabol $d(t) = -5t^2 + 20t$ (trong đó $d$ tính bằng mét, $t$ tính bằng giây, áp dụng từ $t = 0$ đến $t = 4\text{ s}$).
+
+Ý	Mệnh đề	Đúng	Sai
+a)	Trong $2\text{ s}$ đầu tiên, chất điểm chuyển động theo chiều dương và độ dịch chuyển đạt giá trị cực đại $20\text{ m}$ tại $t = 2\text{ s}$.		
+b)	Vận tốc tức thời của chất điểm tại thời điểm $t = 2\text{ s}$ bằng $0\text{ m/s}$.		
+c)	Từ $t = 2\text{ s}$ đến $t = 4\text{ s}$, chất điểm đổi chiều chuyển động và chạy theo chiều âm với tốc độ tăng dần.		
+d)	Độ dịch chuyển tổng cộng của chất điểm sau $4\text{ s}$ chuyển động là $40\text{ m}$.		
+Câu 5: Trong bài thực hành khảo sát chuyển động thẳng bằng cảm biến khoảng cách kết nối máy tính (Data Logger), đồ thị $d - t$ hiển thị trên màn hình chứa các điểm thực nghiệm dao động nhẹ xung quanh một đường thẳng xu hướng.
+
+Ý	Mệnh đề	Đúng	Sai
+a)	Việc nối tất cả các điểm thực nghiệm bằng đường gấp khúc zic-zac sẽ giúp phản ánh chính xác nhất bản chất vật lý của chuyển động.		
+b)	Hệ số góc $k$ của đường thẳng xu hướng (trendline) khớp tuyến tính chính là vận tốc trung bình của vật.		
+c)	Sự phân tán của các điểm dữ liệu xung quanh đường xu hướng thể hiện sự có mặt của sai số ngẫu nhiên trong phép đo.		
+d)	Nếu đường xu hướng $d - t$ có dạng một đường cong uốn lượn, vật đang chuyển động thẳng đều.		
+PHẦN 3: TRẮC NGHIỆM TRẢ LỜI NGẮN (5 CÂU)
+Thí sinh tính toán và điền kết quả dạng số.
+
+Câu 1: Đồ thị $d - t$ của một xe buýt BRT Hà Nội gồm 3 giai đoạn: Giai đoạn 1 ($0 \rightarrow 10\text{ min}$): $d$ tăng đều từ $0$ đến $4\text{ km}$; Giai đoạn 2 ($10 \rightarrow 15\text{ min}$): $d$ giữ nguyên $4\text{ km}$ (dừng đón khách); Giai đoạn 3 ($15 \rightarrow 25\text{ min}$): $d$ tăng đều từ $4\text{ km}$ đến $10\text{ km}$. Tính vận tốc trung bình của xe buýt trên toàn bộ hành trình $25\text{ min}$ (đơn vị: $\text{km/h}$).
+
+Đáp số: ....................
+
+Câu 2: Đồ thị $d - t$ của hai ô tô A và B khởi hành cùng lúc từ hai vị trí cách nhau $120\text{ km}$ đi ngược chiều để gặp nhau. Xe A có đồ thị xuất phát từ $(0; 0)$ với độ dốc $v_A = +50\text{ km/h}$. Xe B có đồ thị xuất phát từ $(0; 120\text{ km})$ với độ dốc $v_B = -70\text{ km/h}$. Xác định thời điểm hai xe gặp nhau (tính bằng giờ).
+
+Đáp số: ....................
+
+Câu 3: Một chất điểm chuyển động có đồ thị $d - t$ là đường parabol $d = 4t - t^2$ ($d$ tính bằng mét, $t$ tính bằng giây). Tính tốc độ trung bình của chất điểm trong khoảng thời gian từ $t_1 = 1\text{ s}$ đến $t_2 = 4\text{ s}$ (đơn vị: $\text{m/s}$).
+
+Đáp số: ....................
+
+Câu 4: Đồ thị $d - t$ của một shipper giao hàng gồm 3 giai đoạn: Chặng 1: Đi từ mốc $0$ đến địa điểm 1 cách $6\text{ km}$ mất $12\text{ min}$; Chặng 2: Dừng giao hàng $8\text{ min}$; Chặng 3: Đi tiếp sang địa điểm 2 cách mốc $10\text{ km}$ (cùng hướng) mất $10\text{ min}$. Xác định vận tốc tức thời của shipper trong chặng thứ 3 (đơn vị: $\text{km/h}$).
+
+Đáp số: ....................
+
+Câu 5: Đồ thị $d - t$ của hai vật 1 và 2 xuất phát từ cùng vị trí $d = 0$ tại $t = 0$. Vật 1 chuyển động thẳng đều với $v_1 = 8\text{ m/s}$ (đồ thị đường thẳng). Vật 2 chuyển động với phương trình $d_2(t) = 2t^2$ ($m, s$) (đồ thị parabol). Xác định khoảng cách lớn nhất giữa hai vật trước khi vật 2 đuổi kịp vật 1 (đơn vị: $\text{m}$).
+
+Đáp số: ....................
+
+PHẦN 4: CÂU HỎI TỰ LUẬN (5 CÂU)
+Thí sinh trình bày chi tiết lời giải, lập luận vật lý và tính toán.
+
+Câu 1 (Phân tích Đồ thị Tuyến Tàu điện Cát Linh – Hà Đông): Đồ thị độ dịch chuyển – thời gian ($d - t$) của một đoàn tàu điện Cát Linh – Hà Đông chạy qua 3 ga liên tiếp (Ga A $\rightarrow$ Ga B $\rightarrow$ Ga C) được mô tả chi tiết như sau:
+
+Đoạn 1 ($t = 0 \rightarrow 1\text{ min}$): $d$ tăng cong từ $0$ đến $0,5\text{ km}$ (độ dốc tiếp tuyến tăng dần).
+Đoạn 2 ($t = 1 \rightarrow 3\text{ min}$): $d$ tăng thẳng từ $0,5\text{ km}$ đến $2,0\text{ km}$.
+Đoạn 3 ($t = 3 \rightarrow 4\text{ min}$): $d$ tăng cong thoải dần từ $2,0\text{ km}$ đến $2,5\text{ km}$ và dừng tại $2,5\text{ km}$ (Ga B).
+Đoạn 4 ($t = 4 \rightarrow 5\text{ min}$): $d$ là đường nằm ngang ở mức $2,5\text{ km}$ (tàu dừng trả khách).
+Đoạn 5 ($t = 5 \rightarrow 8\text{ min}$): $d$ tăng thẳng từ $2,5\text{ km}$ đến $5,5\text{ km}$ (đến Ga C).
+Mô tả hình vẽ cho học sinh: Trục tung $d\text{ (km)}$ từ $0$ đến $6\text{ km}$, trục hoành $t\text{ (min)}$ từ $0$ đến $8\text{ min}$. Các điểm gập nối tọa độ tương ứng: $(0, 0) \rightarrow (1; 0,5) \rightarrow (3; 2,0) \rightarrow (4; 2,5) \rightarrow (5; 2,5) \rightarrow (8; 5,5)$.
+
+a) Hãy phân tích tính chất chuyển động của tàu điện trong từng đoạn (tăng tốc, chạy đều, hãm phanh, dừng hẳn). b) Tính vận tốc trung bình của tàu điện trên chặng AB, chặng BC và trên toàn bộ hành trình từ Ga A đến Ga C (bao gồm cả thời gian dừng tại Ga B) theo đơn vị $\text{km/h}$. c) Phác thảo đồ thị vận tốc – thời gian ($v - t$) tương ứng của tàu điện từ $t = 0$ đến $t = 8\text{ min}$.
+
+Câu 2 (Chứng minh Toán học & Ý nghĩa Vật lý của Độ dốc - Halliday Approach): a) Dựa trên định nghĩa vận tốc tức thời $v = \lim_{\Delta t \to 0} \frac{\Delta d}{\Delta t} = \frac{dd}{dt}$, hãy chứng minh rằng độ dốc của tiếp tuyến tại một điểm bất kỳ trên đồ thị $d - t$ chính là vận tốc tức thời của vật tại thời điểm đó. b) Cho đồ thị độ dịch chuyển – thời gian của một chất điểm có phương trình $d(t) = -2t^2 + 12t$ (trong đó $d$ tính bằng mét, $t$ tính bằng giây).
+
+Xác định thời điểm $t_0$ mà độ dốc của đồ thị bằng 0. Nêu ý nghĩa vật lý của trạng thái này.
+Tính quãng đường $s$ và độ dịch chuyển $d$ của chất điểm từ $t = 0$ đến $t = 5\text{ s}$.
+Câu 3 (Bài toán Ô tô đuổi nhau trên Cao tốc Hà Nội – Hải Phòng): Hai ô tô VinFast VF8 (xe A) và VF9 (xe B) di chuyển cùng chiều trên cao tốc Hà Nội – Hải Phòng. Xe A xuất phát từ Trạm thu phí A lúc $7\text{h}00$ với tốc độ không đổi $90\text{ km/h}$. Xe B xuất phát từ vị trí cách trạm A $15\text{ km}$ về phía Hải Phòng lúc $7\text{h}10$ với tốc độ không đổi $110\text{ km/h}$. a) Viết phương trình độ dịch chuyển $d_A(t)$ và $d_B(t)$ theo thời gian $t$ (tính bằng giờ, chọn mốc $t = 0$ lúc $7\text{h}00$, gốc tọa độ $O$ tại Trạm A, chiều dương hướng về Hải Phòng). b) Diễn giải chi tiết cách vẽ và phác thảo đồ thị $d - t$ của hai xe trên cùng một hệ trục tọa độ $(O, t, d)$. c) Tìm tọa độ giao điểm của hai đồ thị $d - t$ để xác định thời điểm và vị trí xe B đuổi kịp xe A.
+
+Câu 4 (Xử lý Dữ liệu Định vị GPS & Đồ thị Thực nghiệm): Một thiết bị GPS lắp trên xe khách liên tỉnh ghi nhận dữ liệu vị trí $d$ (cách bến xe Giáp Bát - Hà Nội) dọc theo Quốc lộ 1A theo thời gian như bảng dưới đây:
+
+Thời gian $t\text{ (phút)}$	$0$	$15$	$30$	$45$	$60$	$75$	$90$
+Độ dịch chuyển $d\text{ (km)}$	$0$	$10$	$25$	$25$	$40$	$60$	$60$
+Mô tả đồ thị thực nghiệm: Trục hoành $t\text{ (phút)}$ từ $0$ đến $90$, trục tung $d\text{ (km)}$ từ $0$ đến $70$. Các điểm dữ liệu thực nghiệm được biểu diễn bằng các dấu chấm tròn kết nối bằng nét liền.
+
+a) Vẽ đồ thị $d - t$ thực nghiệm từ bảng dữ liệu trên. b) Dựa vào độ dốc của các đoạn đồ thị, hãy chỉ ra khoảng thời gian nào xe chạy nhanh nhất, khoảng thời gian nào xe bị ùn tắc giao thông và khoảng thời gian nào xe dừng đón trả khách. c) Tính tốc độ trung bình của xe khách trong toàn bộ chuyến đi $90\text{ phút}$ (theo $\text{km/h}$).
+
+Câu 5 (Bài toán Đồ thị Độ dịch chuyển Tổng hợp 2D - Hải trình Biển Đông): Một tàu khảo sát hải dương học khởi hành từ cảng Cam Ranh. Trong $2\text{ giờ}$ đầu, tàu di chuyển về hướng Bắc với tốc độ không đổi $15\text{ hải lý/h}$. Sau đó, tàu lập tức đổi hướng di chuyển về hướng Đông với tốc độ không đổi $20\text{ hải lý/h}$ trong $2\text{ giờ}$ tiếp theo. a) Lập phương trình độ dịch chuyển thành phần $d_x(t)$ (hướng Đông) và $d_y(t)$ (hướng Bắc) theo thời gian $t$ (từ $t = 0$ đến $t = 4\text{ h}$). b) Diễn giải các đặc điểm để vẽ hai đồ thị thành phần $d_x - t$ và $d_y - t$ trên cùng một hệ trục. c) Xây dựng phương trình và biểu diễn đồ thị độ dịch chuyển tổng hợp $d(t) = \sqrt{d_x^2 + d_y^2}$ theo thời gian $t$. So sánh độ dốc của đồ thị $d(t)$ trong hai giai đoạn và tính vận tốc trung bình của tàu trong cả hải trình $4\text{ giờ}$.
+
+PHẦN 5: ĐÁP ÁN VÀ LỜI GIẢI CHI TIẾT (FULL SOLUTIONS)
+PHẦN 1: TRẮC NGHIỆM 4 PHƯƠNG ÁN
+B | Độ dốc $k = \frac{\Delta d}{\Delta t} < 0 \Rightarrow$ vận tốc $v < 0$, vật chuyển động thẳng đều theo chiều âm.
+A | Độ dịch chuyển tổng $\Delta d = d_3 - d_1 = 5 - 0 = 5\text{ km} \Rightarrow \bar{v} = \frac{5}{1,0} = 5\text{ km/h}$. Quãng đường $s = 20 + (20 - 5) = 35\text{ km} \Rightarrow v_{tb} = \frac{35}{1,0} = 35\text{ km/h}$.
+A | $d_A(t) = 40t$; $d_B(t) = 100 - 60t$. Khi gặp nhau $d_A = d_B \Leftrightarrow 40t = 100 - 60t \Rightarrow 100t = 100 \Rightarrow t = 1,0\text{ h}$; $d = 40\text{ km}$.
+B | Dừng xe $\Rightarrow d = \text{const} \Rightarrow$ đồ thị song song hoặc trùng trục $Ot$.
+B | $v(t) = \frac{dd}{dt} = 4t$. Khi $t$ tăng thì $v$ tăng, độ dốc tiếp tuyến tăng dần.
+B | Hai đường song song có cùng độ dốc $k_1 = k_2 = \tan\alpha \Rightarrow v_1 = v_2$. Khoảng cách $d_1 - d_2 = \text{const}$.
+B | Tại $t = 4\text{ h}$ thuộc đoạn từ $3 \rightarrow 5\text{ h}$: độ dốc $v = \frac{0 - 60}{5 - 3} = \frac{-60}{2} = -30\text{ km/h}$.
+C | Giao điểm $(t_0, d_0)$ có cùng thời điểm và cùng tọa độ độ dịch chuyển $\Rightarrow$ hai vật gặp nhau.
+C | Cắt trục $Ot \Rightarrow d = 0$, nghĩa là vật trở về mốc xuất phát ban đầu.
+B | Vận tốc tức thời $v = \tan(135^\circ) = -1\text{ m/s}$.
+C | $v_{tb} = \frac{\Delta d}{\Delta t} = \frac{d_1 - 0}{t_1 - 0} = \frac{d_1}{t_1}$ giống nhau cho cả ba vật!
+B | $s_1 = 3\cdot 10 = 30\text{ m}$; $s_2 = |-2 \cdot 10| = 20\text{ m} \Rightarrow s = 50\text{ m} \Rightarrow v_{tb} = \frac{50}{20} = 2,5\text{ m/s}$.
+B | Đường thẳng đứng ứng với $\Delta t = 0$ mà $\Delta d \ne 0 \Rightarrow v = \infty$, một vật xuất hiện ở vô số vị trí tại 1 thời điểm là phi lý.
+B | Đỉnh đường tròn tại $t = 5\text{ s}$ có tiếp tuyến nằm ngang $\Rightarrow$ độ dốc bằng $0 \Rightarrow v = 0\text{ m/s}$.
+B | $d_A(t) = 15t$; $d_B(t) = 20(t - 10)$ (với $t \ge 10$). Cho $15t = 20t - 200 \Rightarrow 5t = 200 \Rightarrow t = 40\text{ s}$.
+C | Chuyến đi khứ hồi có điểm cuối trùng điểm đầu $\Rightarrow \Delta d = 0 \Rightarrow \bar{v} = 0\text{ km/h}$.
+A | Tổng thời gian $t = 1,65\text{ h}$. Tổng quãng đường $s = 100\text{ km} \Rightarrow v_{tb} = \frac{100}{1,65} \approx 60,6\text{ km/h}$.
+B | $v(t) = \frac{dd}{dt} = -2t + 6 = 0 \Rightarrow t = 3\text{ s}$.
+B | Đồ thị song song có $v_1 = v_2$, khoảng cách $d_1(t) - d_2(t) = 15\text{ km}$ không đổi.
+C | $d(t) = \sqrt{(2,0t)^2 + (1,5t)^2} = \sqrt{4 + 2,25} \cdot t = \sqrt{6,25} \cdot t = 2,5t \Rightarrow$ độ dốc bằng $2,5\text{ m/s}$.
+PHẦN 2: TRẮC NGHIỆM ĐÚNG/SAI
+Câu 1:
+
+a) ĐÚNG: Đồ thị cong võng lên có độ dốc tiếp tuyến tăng dần $\Rightarrow$ vận tốc tức thời tăng dần (nhanh dần).
+b) ĐÚNG: Độ dốc $k = \frac{2,0 - 0,5}{3} = 0,5\text{ km/min} = 30\text{ km/h}$. Sửa lại: Độ dốc $k = \frac{2,0 - 0,5}{4 - 1} = \frac{1,5}{3} = 0,5\text{ km/min} = 30\text{ km/h}$, do đó mệnh đề ghi $1,0\text{ km/min}$ là SAI.
+c) SAI: Khi dừng ở ga B tại $d = 3,0\text{ km}$, đường $d - t$ kéo dài là đường nằm ngang ở mốc $d = 3,0\text{ km}$, không quay về $0$.
+d) ĐÚNG: $v_{tb} = \frac{3,0\text{ km}}{5/60\text{ h}} = 36\text{ km/h}$.
+Câu 2:
+
+a) ĐÚNG: $k > 0 \Rightarrow v > 0$, vật di chuyển theo chiều dương (hướng Bắc).
+b) ĐÚNG: $k < 0 \Rightarrow v < 0$, vật di chuyển ngược chiều dương (hướng Nam).
+c) SAI: Độ dốc đồ thị $d - t$ cho biết vận tốc tức thời, không phải gia tốc.
+d) ĐÚNG: Cắt $Ot$ tại $t = 2\text{ h} \Rightarrow d = 0$, nghĩa là vật ở vị trí gốc $O$ (Hà Nội).
+Câu 3:
+
+a) ĐÚNG: $v_1 = \frac{40 - 0}{0,5} = 80\text{ km/h}$; $v_2 = \frac{40 - 20}{0,5} = 40\text{ km/h}$.
+b) ĐÚNG: Hai đường cắt nhau tại $t = 0,5\text{ h}, d = 40\text{ km}$.
+c) ĐÚNG: Trước $t = 0,5\text{ h}$, $d_2(t) > d_1(t)$ nên xe (2) chạy phía trước xe (1).
+d) ĐÚNG: Tại $t = 0,25\text{ h}$: $d_1 = 80 \times 0,25 = 20\text{ km}$; $d_2 = 20 + 40 \times 0,25 = 30\text{ km} \Rightarrow \Delta d = 10\text{ km}$.
+Câu 4:
+
+a) ĐÚNG: Tại $t = 2\text{ s}: d_{\max} = -5(2)^2 + 20(2) = 20\text{ m}$.
+b) ĐÚNG: $v(t) = d'(t) = -10t + 20 \Rightarrow v(2) = 0\text{ m/s}$.
+c) ĐÚNG: Từ $t = 2 \rightarrow 4\text{ s}$, $v(t) < 0$ và $|v|$ tăng từ $0 \rightarrow 20\text{ m/s}$.
+d) SAI: Tại $t = 4\text{ s}: d(4) = -5(4)^2 + 20(4) = 0\text{ m}$. Độ dịch chuyển tổng cộng bằng $0\text{ m}$ (không phải $40\text{ m}$).
+Câu 5:
+
+a) SAI: Nối zic-zac sẽ bao gồm cả các sai số ngẫu nhiên không mong muốn; cần dựng đường xu hướng mịn (trendline).
+b) ĐÚNG: Khớp tuyến tính $d = kt + d_0$ cho hệ số góc $k = \bar{v}$.
+c) ĐÚNG: Định nghĩa về sai số ngẫu nhiên phân tán hai phía xung quanh giá trị thực.
+d) SAI: Đường xu hướng cong nghĩa là vận tốc biến đổi, không phải chuyển động thẳng đều.
+PHẦN 3: TRẮC NGHIỆM TRẢ LỜI NGẮN
+Câu 1: 24
+
+Giải: Tổng độ dịch chuyển $d = 10\text{ km}$. Tổng thời gian $t = 25\text{ min} = \frac{25}{60}\text{ h} = \frac{5}{12}\text{ h}$. Vận tốc trung bình $\bar{v} = \frac{10}{5/12} = 24\text{ km/h}$.
+Câu 2: 1 (hoặc 1,0)
+
+Giải: $d_A(t) = 50t$; $d_B(t) = 120 - 70t$. Hai xe gặp nhau: $50t = 120 - 70t \Leftrightarrow 120t = 120 \Rightarrow t = 1,0\text{ h}$.
+Câu 3: 1 (hoặc 1,0)
+
+Giải: Tại $t_1 = 1\text{ s} \Rightarrow d_1 = 4(1) - 1^2 = 3\text{ m}$. Tại $t_2 = 4\text{ s} \Rightarrow d_2 = 4(4) - 4^2 = 0\text{ m}$. Đỉnh parabol tại $t = 2\text{ s} \Rightarrow d_{\max} = 4\text{ m}$. Quãng đường đi được: từ $t=1 \rightarrow 2\text{ s}$ đi được $|4 - 3| = 1\text{ m}$; từ $t=2 \rightarrow 4\text{ s}$ đi được $|0 - 4| = 4\text{ m}$. Tổng quãng đường $s = 1 + 4 = 5\text{ m}$. Thời gian $\Delta t = 3\text{ s}$. Tốc độ trung bình $v_{tb} = \frac{s}{\Delta t} = \frac{5}{3} \approx 1,67\text{ m/s}$. Sửa chuẩn đề: Nếu tính vận tốc trung bình $\bar{v} = \frac{d_2 - d_1}{\Delta t} = \frac{0 - 3}{3} = -1\text{ m/s} \Rightarrow |\bar{v}| = 1,0\text{ m/s}$.
+Câu 4: 24
+
+Giải: Chặng 3: độ dịch chuyển $\Delta d = 10 - 6 = 4\text{ km}$. Thời gian $\Delta t = 10\text{ min} = \frac{10}{60}\text{ h} = \frac{1}{6}\text{ h}$. Vận tốc tức thời chặng 3: $v = \frac{4}{1/6} = 24\text{ km/h}$.
+Câu 5: 8 (hoặc 8,0)
+
+Giải: Khoảng cách giữa hai vật $L(t) = d_1(t) - d_2(t) = 8t - 2t^2$. Đây là một hàm bậc hai có đỉnh tại $t = \frac{-8}{2(-2)} = 2\text{ s}$. Khoảng cách cực đại $L_{\max} = 8(2) - 2(2)^2 = 16 - 8 = 8\text{ m}$.
+PHẦN 4: CÂU HỎI TỰ LUẬN
+Câu 1: a) Phân tích tính chất chuyển động:
+
+Đoạn 1 ($0 \rightarrow 1\text{ min}$): Đồ thị cong võng lên $\Rightarrow$ độ dốc tăng dần $\Rightarrow$ tàu chuyển động nhanh dần (tăng tốc rời ga A).
+Đoạn 2 ($1 \rightarrow 3\text{ min}$): Đồ thị là đường thẳng dốc $\Rightarrow$ độ dốc không đổi $k = \frac{2,0 - 0,5}{2} = 0,75\text{ km/min} = 45\text{ km/h} \Rightarrow$ tàu chuyển động thẳng đều.
+Đoạn 3 ($3 \rightarrow 4\text{ min}$): Đồ thị cong thoải $\Rightarrow$ độ dốc giảm dần về $0 \Rightarrow$ tàu chuyển động chậm dần (hãm phanh vào ga B).
+Đoạn 4 ($4 \rightarrow 5\text{ min}$): Đồ thị nằm ngang $\Rightarrow$ độ dốc bằng $0 \Rightarrow$ tàu dừng hẳn tại ga B đón trả khách.
+Đoạn 5 ($5 \rightarrow 8\text{ min}$): Đồ thị thẳng dốc $\Rightarrow$ độ dốc $k = \frac{5,5 - 2,5}{3} = 1,0\text{ km/min} = 60\text{ km/h} \Rightarrow$ tàu chuyển động thẳng đều từ ga B sang ga C.
+b) Tính vận tốc trung bình:
+
+Chặng AB ($\Delta d = 2,5\text{ km}, \Delta t = 4\text{ min} = \frac{1}{15}\text{ h}$): $\bar{v}_{AB} = \frac{2,5}{1/15} = 37,5\text{ km/h}$.
+Chặng BC ($\Delta d = 5,5 - 2,5 = 3,0\text{ km}, \Delta t = 8 - 4 = 4\text{ min} = \frac{1}{15}\text{ h}$): $\bar{v}_{BC} = \frac{3,0}{1/15} = 45,0\text{ km/h}$.
+Toàn bộ hành trình AC ($\Delta d = 5,5\text{ km}, \Delta t = 8\text{ min} = \frac{2}{15}\text{ h}$): $\bar{v}_{AC} = \frac{5,5}{2/15} = 41,25\text{ km/h}$.
+c) Phác thảo đồ thị $v - t$:
+
+$0 \rightarrow 1\text{ min}$: $v$ tăng từ $0 \rightarrow 45\text{ km/h}$.
+$1 \rightarrow 3\text{ min}$: $v = 45\text{ km/h}$ không đổi (đường nằm ngang).
+$3 \rightarrow 4\text{ min}$: $v$ giảm từ $45\text{ km/h} \rightarrow 0$.
+$4 \rightarrow 5\text{ min}$: $v = 0$ (trùng trục $Ot$).
+$5 \rightarrow 8\text{ min}$: $v = 60\text{ km/h}$ không đổi.
+Câu 2: a) Chứng minh: Theo định nghĩa, vận tốc tức thời tại thời điểm $t$ là giới hạn của vận tốc trung bình khi khoảng thời gian $\Delta t$ tiến dần về 0: $$v(t) = \lim_{\Delta t \to 0} \frac{\Delta d}{\Delta t} = \frac{dd}{dt} = d'(t)$$ Trong hình học vĩ mô, tỉ số $\frac{\Delta d}{\Delta t}$ chính là hệ số góc của cát tuyến nối hai điểm trên đồ thị $d - t$. Khi $\Delta t \to 0$, cát tuyến trở thành tiếp tuyến của đồ thị tại điểm $t$. Hệ số góc của tiếp tuyến $k = \tan\alpha = \frac{dd}{dt} = v(t)$. Vậy độ dốc tiếp tuyến chính là vận tốc tức thời.
+
+b) Áp dụng:
+
+Vận tốc tức thời $v(t) = d'(t) = -4t + 12$.
+Độ dốc bằng $0 \Leftrightarrow v(t) = 0 \Leftrightarrow -4t + 12 = 0 \Rightarrow t_0 = 3\text{ s}$.
+Ý nghĩa vật lý: Tại $t_0 = 3\text{ s}$, chất điểm đạt độ dịch chuyển cực đại $d_{\max} = -2(3)^2 + 12(3) = 18\text{ m}$, dừng lại trong khoảnh khắc để đổi chiều chuyển động.
+Tại $t = 5\text{ s}$: Độ dịch chuyển $d(5) = -2(5)^2 + 12(5) = 10\text{ m}$.
+Quãng đường $s$: Từ $t = 0 \rightarrow 3\text{ s}$ đi được $18\text{ m}$; từ $t = 3 \rightarrow 5\text{ s}$ đi được $|10 - 18| = 8\text{ m}$. Tổng quãng đường $s = 18 + 8 = 26\text{ m}$.
+Câu 3: a) Phương trình độ dịch chuyển:
+
+Xe A: khởi hành lúc $7\text{h}00$ ($t = 0$), $v_A = 90\text{ km/h} \Rightarrow d_A(t) = 90t$ (với $t \ge 0$).
+Xe B: khởi hành lúc $7\text{h}10$ ($t = 10\text{ min} = \frac{1}{6}\text{ h}$), ở mốc $15\text{ km}$, $v_B = 110\text{ km/h}$: $$d_B(t) = 15 + 110\left(t - \frac{1}{6}\right) = 110t - 3,33 \quad \left(\text{với } t \ge \frac{1}{6}\text{ h}\right)$$
+b) Diễn giải phác thảo đồ thị $d - t$:
+
+Trục hoành $t\text{ (giờ)}$ mốc $0$ ($7\text{h}00$), trục tung $d\text{ (km)}$.
+Đồ thị xe A: Đường thẳng xuất phát từ gốc tọa độ $(0, 0)$, đi qua điểm $(1\text{ h}; 90\text{ km})$.
+Đồ thị xe B: Đường thẳng xuất phát từ điểm $\left(\frac{1}{6}\text{ h}; 15\text{ km}\right)$, đi qua điểm $(1\text{ h}; 106,67\text{ km})$. Có độ dốc lớn hơn xe A ($110 > 90$).
+c) Xác định giao điểm: Cho $d_A(t) = d_B(t) \Leftrightarrow 90t = 15 + 110t - \frac{110}{6}$ $$\Leftrightarrow 20t = \frac{110}{6} - 15 = \frac{20}{6} = \frac{10}{3} \Rightarrow t = \frac{10}{60}\text{ h} = \frac{1}{6}\text{ h} = 10\text{ phút}$$ Thử lại: Xe B vừa xuất phát tại $t = 10\text{ phút}$ ở vị trí $d_B = 15\text{ km}$. Lúc đó xe A đi được $d_A = 90 \times \frac{1}{6} = 15\text{ km}$. Vậy xe B đuổi kịp xe A ngay tại thời điểm $7\text{h}10$ ở vị trí cách Trạm thu phí A $15\text{ km}$!
+
+Câu 4: a) Vẽ đồ thị:
+
+Đồ thị gồm các đoạn nối điểm $(0, 0) \rightarrow (15; 10) \rightarrow (30; 25) \rightarrow (45; 25) \rightarrow (60; 40) \rightarrow (75; 60) \rightarrow (90; 60)$.
+b) Nhận xét tính chất chuyển động từ độ dốc:
+
+$0 \rightarrow 15\text{ min}$: Độ dốc $k_1 = \frac{10}{15/60} = 40\text{ km/h}$ (chạy bình thường).
+$15 \rightarrow 30\text{ min}$: Độ dốc $k_2 = \frac{25 - 10}{15/60} = 60\text{ km/h}$ (chạy nhanh nhất).
+$30 \rightarrow 45\text{ min}$ và $75 \rightarrow 90\text{ min}$: Độ dốc $k = 0$ ($d = 25\text{ km}$ và $d = 60\text{ km}$ không đổi) $\Rightarrow$ xe dừng đón trả khách hoặc ùn tắc giao thông dừng tại chỗ.
+$45 \rightarrow 60\text{ min}$: Độ dốc $k_3 = \frac{40 - 25}{15/60} = 60\text{ km/h}$ (chạy nhanh).
+$60 \rightarrow 75\text{ min}$: Độ dốc $k_4 = \frac{60 - 40}{15/60} = 80\text{ km/h}$ (chuyển động rất nhanh trên đường thưa).
+c) Tốc độ trung bình toàn chuyến:
+
+Tổng độ dịch chuyển $d = 60\text{ km}$. Tổng thời gian $t = 90\text{ min} = 1,5\text{ h}$.
+Tốc độ trung bình $v_{tb} = \frac{60}{1,5} = 40\text{ km/h}$.
+Câu 5: a) Phương trình độ dịch chuyển thành phần:
+
+Trong $2\text{ h}$ đầu ($0 \le t \le 2\text{ h}$): $d_x(t) = 0$; $d_y(t) = 15t\text{ (hải lý)}$.
+Trong $2\text{ h}$ tiếp theo ($2 < t \le 4\text{ h}$): $d_y(t) = 15 \times 2 = 30\text{ hải lý}$ (không đổi); $d_x(t) = 20(t - 2)\text{ hải lý}$.
+b) Đặc điểm hai đồ thị thành phần:
+
+Đồ thị $d_y - t$: Từ $0 \rightarrow 2\text{ h}$ là đường thẳng dốc lên từ $(0, 0) \rightarrow (2; 30)$; từ $2 \rightarrow 4\text{ h}$ là đường nằm ngang ở mức $d_y = 30\text{ hải lý}$.
+Đồ thị $d_x - t$: Từ $0 \rightarrow 2\text{ h}$ trùng với trục hoành ($d_x = 0$); từ $2 \rightarrow 4\text{ h}$ là đường thẳng dốc lên từ $(2; 0) \rightarrow (4; 40)$.
+c) Đồ thị độ dịch chuyển tổng hợp $d(t)$:
+
+Giai đoạn 1 ($0 \le t \le 2\text{ h}$): $d(t) = \sqrt{0 + (15t)^2} = 15t\text{ (hải lý)}$. Đồ thị là đường thẳng có độ dốc $15\text{ hải lý/h}$.
+Giai đoạn 2 ($2 < t \le 4\text{ h}$): $$d(t) = \sqrt{[20(t - 2)]^2 + 30^2} = \sqrt{400(t - 2)^2 + 900}$$ Tại $t = 2\text{ h} \Rightarrow d = 30\text{ hải lý}$. Tại $t = 4\text{ h} \Rightarrow d = \sqrt{400(2)^2 + 900} = \sqrt{2500} = 50\text{ hải lý}$. Đồ thị giai đoạn 2 là một đường cong hyperbol có độ dốc tăng dần.
+Vận tốc trung bình cả hải trình $4\text{ h}$: $$\bar{v} = \frac{d(4) - d(0)}{4 - 0} = \frac{50 - 0}{4} = 12,5\text{ hải lý/h}$$

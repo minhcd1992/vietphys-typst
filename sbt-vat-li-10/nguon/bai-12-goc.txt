@@ -1,0 +1,337 @@
+BÀI 12: TRỌNG LỰC VÀ LỰC CĂNG (SBT CHUYÊN SÂU & PHÂN HÓA)
+PHẦN 1: TRẮC NGHIỆM 4 PHƯƠNG ÁN LỰA CHỌN (20 CÂU)
+Thí sinh chọn 1 phương án đúng nhất cho mỗi câu. Các câu hỏi được thiết kế phân hóa, phản biện bẫy nhận thức, xâu chuỗi lý thuyết và ứng dụng thực tiễn.
+
+Câu 1 (Bẫy bản chất Trọng lực vs Trọng lượng): Khái niệm Trọng lực ($ec{P}$) và Trọng lượng ($P$) trong Vật lí học hiện đại được phân biệt như thế nào?
+
+A. Trọng lực là độ lớn của lực hấp dẫn, còn trọng lượng là vectơ chỉ hướng về tâm Trái Đất.
+B. Trọng lực là lực hấp dẫn do Trái Đất tác dụng lên vật, còn trọng lượng là độ lớn lực nén (hoặc lực kéo) của vật tác dụng lên mặt đỡ (hoặc dây treo).
+C. Trọng lực và trọng lượng là hai tên gọi hoàn toàn giống nhau của cùng một đại lượng vật lí không đổi ở mọi nơi.
+D. Trọng lực thay đổi khi vật chuyển động, còn trọng lượng luôn giữ nguyên giá trị $m \cdot g_0$ tại mặt đất.
+Câu 2 (Sự biến thiên của $g$ theo địa lý & độ cao): Một nhà địa chất mang một con lắc đơn và một chiếc cân bàn cơ học từ vùng Cực Bắc về Xích Đạo ở cùng độ cao so với mặt nước biển. Lấy bán kính Trái Đất là $R$. Kết luận nào sau đây đúng về gia tốc trọng trường $g$?
+
+A. Gia tốc $g$ tại Xích Đạo lớn hơn ở Cực Bắc do Trái Đất hình cầu hoàn hảo và quay nhanh hơn.
+B. Gia tốc $g$ tại Xích Đạo nhỏ hơn ở Cực Bắc do Trái Đất bị hơi dẹt ở hai cực ($R_{cực} < R_{xích_đạo}$) và ảnh hưởng của lực ly tâm do Trái Đất tự quay.
+C. Gia tốc $g$ không thay đổi vì khối lượng Trái Đất và khối lượng vật không đổi.
+D. Cân bàn cơ học sẽ chỉ số lớn hơn khi đặt tại Xích Đạo.
+Câu 3 (Đặc điểm của Lực căng dây $ec{T}$): Xét một sợi dây nhẹ, không dãn, một đầu gắn cố định vào trần nhà, đầu kia treo một vật nặng khối lượng $m$ đứng yên. Phát biểu nào sau đây sai khi nói về lực căng dây?
+
+A. Lực căng dây xuất hiện do sự biến dạng dãn của sợi dây chống lại lực kéo.
+B. Lực căng dây tác dụng lên vật nặng hướng dọc theo sợi dây, đi từ điểm buộc vật về phía trần nhà.
+C. Độ lớn lực căng dây ở hai đầu sợi dây nhẹ không dãn luôn bằng nhau ($T_1 = T_2$).
+D. Lực căng dây là lực đẩy, có thể đẩy vật nặng vọt lên phía trên khi dây bị chùng.
+Câu 4 (Tăng/Giảm Trọng lượng trong Thang máy): Người khách có khối lượng $60 ext{ kg}$ đứng trên một chiếc cân điện tử đặt trong cabin thang máy tòa nhà Lotte Center Hà Nội. Lấy $g = 9,8 ext{ m/s}^2$. Khi thang máy chuyển động đi xuống chậm dần đều với gia tốc $a = 2,0 ext{ m/s}^2$, số chỉ của cân điện tử bằng
+
+A. $468 ext{ N}$.
+B. $588 ext{ N}$.
+C. $708 ext{ N}$.
+D. $120 ext{ N}$.
+Câu 5 (Trạng thái Mất trọng lượng hoàn toàn): Một phi hành gia đang làm việc bên trong Trạm Vũ trụ Quốc tế (ISS) bay quanh Trái Đất ở độ cao $400 ext{ km}$. Phát biểu nào sau đây giải thích chính xác hiện tượng "mất trọng lượng" của phi hành gia?
+
+A. Ở độ cao $400 ext{ km}$, lực hấp dẫn của Trái Đất tác dụng lên phi hành gia đã hoàn toàn bị triệt tiêu bằng $0$.
+B. Lực hấp dẫn của Trái Đất vẫn tác dụng lên phi hành gia (đóng vai trò lực hướng tâm), nhưng cả ISS và phi hành gia đều đang rơi tự do về phía Trái Đất với cùng gia tốc $g$.
+C. Tàu vũ trụ có lớp vỏ đặc biệt ngăn chặn hoàn toàn trọng lực của Trái Đất xuyên qua.
+D. Khối lượng của phi hành gia bị giảm về $0$ khi bay vào không gian vũ trụ.
+Câu 6 (Cân bằng ngọn đèn treo hai dây xiên): Một ngọn đèn trang trí khối lượng $m = 3,0 ext{ kg}$ được treo vào điểm chụm $O$ của hai sợi dây nhẹ $OA$ và $OB$. Sợi dây $OA$ nằm ngang nối vào tường, sợi dây $OB$ hợp với trần nhà nằm ngang một góc $lpha = 30^\circ$. Lấy $g = 10 ext{ m/s}^2$. Độ lớn lực căng của sợi dây $OB$ bằng
+
+A. $30 ext{ N}$.
+B. $60 ext{ N}$.
+C. $30\sqrt{3} ext{ N}$.
+D. $15\sqrt{3} ext{ N}$.
+Câu 7 (Lực căng dây trong Máy Atwood): Cho hệ máy Atwood gồm hai vật $m_1 = 2,0 ext{ kg}$ và $m_2 = 3,0 ext{ kg}$ nối với nhau qua một sợi dây nhẹ, không dãn vắt qua ròng rọc nhẹ, không ma sát. Lấy $g = 10 ext{ m/s}^2$. Khi thả cho hệ chuyển động tự do, độ lớn lực căng $T$ của sợi dây nối bằng
+
+A. $24 ext{ N}$.
+B. $25 ext{ N}$.
+C. $30 ext{ N}$.
+D. $10 ext{ N}$.
+Câu 8 (Trọng lực biểu kiến trên Mặt Trăng): Một nhà hành tinh học có khối lượng $70 ext{ kg}$ trên Trái Đất ($g_{TĐ} = 9,8 ext{ m/s}^2$). Gia tốc trọng trường trên bề mặt Mặt Trăng là $g_{MT} = 1,6 ext{ m/s}^2$. Khối lượng $m$ và Trọng lực $P$ của nhà hành tinh học đó khi đứng trên Mặt Trăng lần lượt là
+
+A. $70 ext{ kg}$ và $112 ext{ N}$.
+B. $11,4 ext{ kg}$ và $112 ext{ N}$.
+C. $70 ext{ kg}$ và $686 ext{ N}$.
+D. $11,4 ext{ kg}$ và $686 ext{ N}$.
+Câu 9 (Giới hạn bền của sợi dây): Một sợi dây thừng nhẹ chỉ chịu được lực căng tối đa $T_{\max} = 250 ext{ N}$ mà không bị đứt. Dùng sợi dây này để kéo thẳng đứng một vật nặng $m = 20 ext{ kg}$ từ dưới giếng sâu lên. Lấy $g = 10 ext{ m/s}^2$. Gia tốc kéo thẳng đứng cực đại $a_{\max}$ để dây không bị đứt là
+
+A. $12,5 ext{ m/s}^2$.
+B. $2,5 ext{ m/s}^2$.
+C. $5,0 ext{ m/s}^2$.
+D. $1,25 ext{ m/s}^2$.
+Câu 10 (Chuyển động của Con lắc đơn khi đứt dây): Một con lắc đơn gồm quả cầu nhỏ khối lượng $m$ treo vào sợi dây mảnh length $L$. Kéo quả cầu lệch khỏi vị trí cân bằng góc $lpha_0 = 45^\circ$ rồi thả nhẹ. Khi quả cầu đi qua vị trí thấp nhất (vị trí cân bằng), sợi dây đột ngột bị đứt. Quỹ đạo chuyển động tiếp theo của quả cầu là
+
+A. một đường thẳng hướng thẳng đứng xuống dưới.
+B. một nhánh đường parabol có đỉnh là vị trí thấp nhất.
+C. một đường tròn tiếp tục quay xung quanh điểm treo.
+D. một đường thẳng nằm ngang.
+Câu 11 (Lực căng dây treo xe kéo rơ-móc trên dốc): Một xe bán tải VinFast VF Wild kéo một rơ-móc khối lượng $m = 800 ext{ kg}$ bằng một dây cáp thép cứng nằm song song với mặt dốc. Xe chuyển động thẳng đều lên dốc nghiêng góc $lpha = 30^\circ$ so với phương ngang. Bỏ qua ma sát. Lấy $g = 9,8 ext{ m/s}^2$. Lực căng $T$ của dây cáp thép bằng
+
+A. $7840 ext{ N}$.
+B. $3920 ext{ N}$.
+C. $6789 ext{ N}$.
+D. $15680 ext{ N}$.
+Câu 12 (Trọng lực theo độ cao $h$): Biết bán kính Trái Đất là $R$. Ở độ cao $h$ so với mặt đất, gia tốc trọng trường giảm đi $4$ lần so với giá trị $g_0$ tại mặt đất ($g = g_0 / 4$). Độ cao $h$ bằng
+
+A. $R / 2$.
+B. $R$.
+C. $2R$.
+D. $4R$.
+Câu 13 (Lực căng dây khi quay tròn trong mặt phẳng đứng): Quả cầu khối lượng $m = 0,5 ext{ kg}$ buộc vào đầu sợi dây mảnh dài $L = 1,0 ext{ m}$ quay tròn đều trong mặt phẳng thẳng đứng với tốc độ góc $\omega = 4,0 ext{ rad/s}$. Lấy $g = 10 ext{ m/s}^2$. Lực căng dây $T$ khi quả cầu ở vị trí cao nhất của quỹ đạo tròn bằng
+
+A. $3,0 ext{ N}$.
+B. $13,0 ext{ N}$.
+C. $8,0 ext{ N}$.
+D. $5,0 ext{ N}$.
+Câu 14 (Treo vật vào giữa sợi dây chăng ngang): Người ta chăng một sợi dây cáp dài nằm ngang giữa hai cột điện A và B. Khi treo một vật nặng $m = 10 ext{ kg}$ vào chính giữa sợi dây, sợi dây bị võng xuống làm hai nửa dây hợp với phương ngang một góc rất nhỏ $ heta = 5^\circ$. Lấy $g = 9,8 ext{ m/s}^2$. Lực căng $T$ xuất hiện trên mỗi nửa sợi dây bằng
+
+A. $49 ext{ N}$.
+B. $98 ext{ N}$.
+C. $562 ext{ N}$.
+D. $1124 ext{ N}$.
+Câu 15 (Lực nén và Lực căng trong Khung tam giác): Một biển báo giao thông khối lượng $m = 12 ext{ kg}$ được treo vào đỉnh $C$ của khung giá đỡ gồm thanh nằm ngang $AC$ và dây chống $BC$ hợp với thanh $AC$ góc $lpha = 45^\circ$. Lấy $g = 10 ext{ m/s}^2$. Lực căng $T$ của dây $BC$ và lực nén $N$ lên thanh $AC$ lần lượt là
+
+A. $T = 120\sqrt{2} ext{ N}$; $N = 120 ext{ N}$.
+B. $T = 120 ext{ N}$; $N = 120\sqrt{2} ext{ N}$.
+C. $T = 60\sqrt{2} ext{ N}$; $N = 60 ext{ N}$.
+D. $T = 120 ext{ N}$; $N = 120 ext{ N}$.
+Câu 16 (Bẫy lực căng dây khi dây có khối lượng): Một sợi dây thừng đồng chất có khối lượng $m_d = 2,0 ext{ kg}$, chiều dài $L = 2,0 ext{ m}$ được dùng để kéo một thùng hàng khối lượng $M = 8,0 ext{ kg}$ trượt trên mặt phẳng ngang không ma sát bằng lực kéo nằm ngang $F = 50 ext{ N}$ tác dụng vào đầu tự do của dây. Lực căng $T$ tại điểm chính giữa của sợi dây thừng bằng
+
+A. $50 ext{ N}$.
+B. $40 ext{ N}$.
+C. $45 ext{ N}$.
+D. $10 ext{ N}$.
+Câu 17 (Cảm giác "hẫng người" khi xe qua đỉnh cầu vồng): Một ô tô khối lượng $m = 1500 ext{ kg}$ chạy với tốc độ không đổi $v = 54 ext{ km/h}$ ($15 ext{ m/s}$) qua đỉnh một cầu vồng có bán kính cong $R = 45 ext{ m}$. Lấy $g = 10 ext{ m/s}^2$. Áp lực (pháp lực $N$) của ô tô tác dụng lên mặt cầu tại đỉnh cầu bằng
+
+A. $15000 ext{ N}$.
+B. $7500 ext{ N}$.
+C. $22500 ext{ N}$.
+D. $0 ext{ N}$.
+Câu 18 (Cân bằng của chuỗi hạt treo trên đĩa): Phát biểu nào sau đây đúng khi nói về điểm đặt của Trọng lực $ec{P}$ tác dụng lên một vật có hình dạng phức tạp (như một chiếc nhẫn tròn hoặc một chiếc khung dây kim loại hình chữ U)?
+
+A. Trọng tâm luôn luôn bắt buộc phải nằm bên trong phần vật chất cấu tạo nên vật đó.
+B. Trọng tâm là điểm đặt của hợp lực các trọng lực thành phần tác dụng lên mọi phần tử của vật, và có thể nằm ở khoảng không bên ngoài phần vật chất của vật.
+C. Trọng tâm của vật luôn trùng với tâm hình học bất kể vật có đồng chất hay không.
+D. Trọng lực chỉ tác dụng vào điểm thấp nhất của vật.
+Câu 19 (Lực căng dây trong chuyển động Nhanh dần đều hướng xuống): Kéo một vật nặng $m = 5,0 ext{ kg}$ đi xuống nhanh dần đều với gia tốc $a = 3,0 ext{ m/s}^2$ bằng một sợi dây cáp. Lấy $g = 9,8 ext{ m/s}^2$. Lực căng $T$ của sợi dây cáp bằng
+
+A. $64 ext{ N}$.
+B. $34 ext{ N}$.
+C. $49 ext{ N}$.
+D. $15 ext{ N}$.
+Câu 20 (Sự đứt dây của con lắc chuyển động tròn đứng): Một con lắc đơn gồm quả cầu sắt treo vào sợi dây chỉ mảnh. Khi con lắc dao động trong mặt phẳng thẳng đứng với biên độ góc $lpha_0$, sợi dây có nguy cơ bị đứt cao nhất tại vị trí nào?
+
+A. Tại vị trí biên góc $lpha = +lpha_0$.
+B. Tại vị trí thấp nhất (vị trí cân bằng $lpha = 0^\circ$).
+C. Tại vị trí có góc lệch $lpha = lpha_0 / 2$.
+D. Nguy cơ đứt dây tại mọi vị trí trên quỹ đạo là hoàn toàn như nhau.
+PHẦN 2: TRẮC NGHIỆM ĐÚNG/SAI (5 CÂU)
+Thí sinh xét tính Đúng hoặc Sai cho mỗi ý a), b), c), d) trong từng câu.
+
+Câu 1: Xét một cabin thang máy khối lượng $M = 1000 ext{ kg}$ chứa một kiện hàng khối lượng $m = 200 ext{ kg}$ đặt trên sàn. Cabin được kéo bởi dây cáp thép nối với động cơ phía trên. Lấy $g = 9,8 ext{ m/s}^2$.
+
+a) Khi thang máy đứng yên hoặc chuyển động thẳng đều, lực căng của dây cáp chính kéo cabin bằng $11760 ext{ N}$.
+b) Khi thang máy bắt đầu chuyển động đi lên nhanh dần đều với gia tốc $a = 2,0 ext{ m/s}^2$, lực nén của kiện hàng lên sàn cabin có độ lớn bằng $2360 ext{ N}$.
+c) Khi thang máy đi lên chậm dần đều với gia tốc $a = 2,0 ext{ m/s}^2$, lực căng của dây cáp kéo cabin có độ lớn bằng $9360 ext{ N}$.
+d) Nếu dây cáp thép đột ngột bị đứt, cabin rơi tự do, kiện hàng sẽ bị hất văng lên đụng trần cabin với lực nâng rất lớn.
+Câu 2 (Cáp treo Fansipan dưới tác dụng của Trọng lực và Lực căng): Cabin cáp treo Fansipan (Sapa) có khối lượng tổng cộng $m = 3000 ext{ kg}$ chuyển động thẳng đều dọc theo dây cáp tải nghiêng góc $eta = 30^\circ$ so với phương ngang. Lấy $g = 9,8 ext{ m/s}^2$.
+
+a) Trọng lực $ec{P}$ tác dụng lên cabin có độ lớn $29400 ext{ N}$ hướng thẳng đứng xuống dưới.
+b) Thành phần của trọng lực kéo cabin trượt dọc theo đường cáp xuống dưới có độ lớn $P_x = P \cdot \sin 30^\circ = 14700 ext{ N}$.
+c) Lực căng $T$ của dây cáp kéo cabin đi lên thẳng đều (bỏ qua ma sát và lực cản không khí) có độ lớn bằng $14700 ext{ N}$.
+d) Nếu dây cáp kéo bị đứt, cabin sẽ lập tức rơi thẳng đứng xuống vực sâu với gia tốc $g = 9,8 ext{ m/s}^2$ mà không trượt theo dây cáp tải.
+Câu 3 (Phân tích Lực căng và Trọng lực của Con lắc đơn - Halliday): Một con lắc đơn gồm quả cầu nhỏ khối lượng $m = 0,20 ext{ kg}$ treo vào sợi dây nhẹ không dãn dài $L = 1,0 ext{ m}$. Kéo quả cầu đến vị trí dây hợp với phương thẳng đứng góc $lpha_0 = 60^\circ$ rồi thả nhẹ không vận tốc ban đầu. Lấy $g = 10 ext{ m/s}^2$.
+
+a) Tại vị trí ban đầu ($lpha = 60^\circ$), gia tốc tiếp tuyến của quả cầu bằng $a_t = g \cdot \sin 60^\circ pprox 8,66 ext{ m/s}^2$.
+b) Tại vị trí ban đầu ($lpha = 60^\circ$), lực căng dây có độ lớn bằng $T = m \cdot g \cdot \cos 60^\circ = 1,0 ext{ N}$.
+c) Khi đi qua vị trí cân bằng ($lpha = 0^\circ$), vận tốc của quả cầu đạt cực đại $v_{\max} = \sqrt{2gL(1 - \cos 60^\circ)} = \sqrt{10} ext{ m/s} pprox 3,16 ext{ m/s}$.
+d) Tại vị trí cân bằng ($lpha = 0^\circ$), lực căng dây có độ lớn đúng bằng trọng lực $P = 2,0 ext{ N}$.
+Câu 4 (Khảo sát Sự phụ thuộc của $g$ và Lực hấp dẫn): Xét hai thiên thể Trái Đất (khối lượng $M_{TĐ}$, bán kính $R_{TĐ}$) và Mặt Trăng (khối lượng $M_{MT} pprox M_{TĐ} / 81$, bán kính $R_{MT} pprox R_{TĐ} / 3,7$).
+
+a) Gia tốc trọng trường tại bề mặt một thiên thể có bán kính $R$ và khối lượng $M$ được tính theo công thức $g = G \cdot rac{M}{R^2}$.
+b) Gia tốc trọng trường trên bề mặt Mặt Trăng bằng khoảng $1/6$ gia tốc trọng trường trên bề mặt Trái Đất.
+c) Một sợi dây cáp chịu được lực căng tối đa $T_{\max} = 600 ext{ N}$. Ở Trái Đất, sợi dây này chỉ treo được vật tối đa $61,2 ext{ kg}$, nhưng trên Mặt Trăng nó có thể treo được vật có khối lượng tối đa khoảng $375 ext{ kg}$.
+d) Nếu đưa một đồng hồ đếm giây hoạt động bằng con lắc đơn từ Trái Đất lên Mặt Trăng, đồng hồ sẽ chạy nhanh hơn so với trên Trái Đất.
+Câu 5 (Thực hành Đo Lực căng dây & Cân bằng Vật rắn bằng Cảm biến Lực): Trong bài thực hành khảo sát cân bằng của vật treo trên hai sợi dây nghiêng bằng hệ hai cảm biến lực Force Sensor kết nối Data Logger:
+
+a) Khi góc hợp bởi hai sợi dây $lpha$ tăng lên (vật treo giữ nguyên khối lượng), lực căng $T$ trên mỗi sợi dây sẽ giảm đi.
+b) Khi góc $lpha ightarrow 180^\circ$ (hai dây kéo thẳng hàng nằm ngang), lực căng $T$ tiến về vô cùng ($\infty$), lý giải vì sao không thể kéo cho sợi dây cáp hoàn toàn nằm ngang khi treo vật.
+c) Cảm biến lực đo trực tiếp độ dãn của lò xo cảm biến để quy đổi ra độ lớn lực căng $T$ theo định luật Hooke.
+d) Nếu một trong hai sợi dây bị nghiêng lệch góc so với mặt phẳng thẳng đứng chứa vật treo, hệ lực tác dụng lên điểm chụm sẽ không còn đồng phẳng, làm gia tăng sai số đo.
+PHẦN 3: TRẮC NGHIỆM TRẢ LỜI NGẮN (5 CÂU)
+Thí sinh tính toán và điền kết quả số.
+
+Câu 1: Một chậu cây cảnh khối lượng $m = 8,0 ext{ kg}$ được treo cân bằng bởi ba sợi dây nhẹ giống nhau hợp với phương thẳng đứng các góc bằng nhau $ heta = 30^\circ$. Lấy $g = 9,8 ext{ m/s}^2$. Độ lớn lực căng $T$ của mỗi sợi dây bằng bao nhiêu Newton? (Làm tròn đến 1 chữ số thập phân).
+
+Câu 2: Một vệ tinh nhân tạo khối lượng $m = 500 ext{ kg}$ bay quanh Trái Đất ở độ cao $h = R_{TĐ}$ (bằng đúng bán kính Trái Đất). Biết tại mặt đất $g_0 = 9,80 ext{ m/s}^2$. Độ lớn trọng lực của Trái Đất tác dụng lên vệ tinh ở độ cao này bằng bao nhiêu Newton?
+
+Câu 3: Khai thác cầu dây văng Mỹ Thuận: Dầm cầu bê tông có trọng lượng được giữ bởi cặp dây văng nghiêng góc $lpha = 45^\circ$ so với dầm cầu nằm ngang. Lực căng trên mỗi dây văng là $T = 800 ext{ kN}$. Tổng độ lớn lực nâng hướng thẳng đứng do cặp dây văng này tác dụng lên dầm cầu bằng bao nhiêu kilonewton ($ ext{kN}$)?
+
+Câu 4: Một thang máy chứa người có tổng khối lượng $M = 800 ext{ kg}$ đang đi lên. Động cơ cáp kéo tạo ra lực căng dây cáp $T = 9600 ext{ N}$. Lấy $g = 9,8 ext{ m/s}^2$. Gia tốc đi lên của thang máy bằng bao nhiêu $ ext{m/s}^2$?
+
+Câu 5: Một quả cầu nặng $m = 2,0 ext{ kg}$ buộc vào đầu một sợi dây dài $L = 0,8 ext{ m}$ quay tròn đều trong mặt phẳng nằm ngang (con lắc nón), sợi dây hợp với phương thẳng đứng một góc $ heta = 60^\circ$. Lấy $g = 10 ext{ m/s}^2$. Độ lớn lực căng $T$ của sợi dây bằng bao nhiêu Newton?
+
+PHẦN 4: TỰ LUẬN (5 CÂU)
+Thí sinh trình bày chi tiết lời giải, lập luận vật lý và tính toán.
+
+Câu 1 (Phân tích kĩ thuật Cầu dây văng & Tối ưu góc nghiêng dây văng): Trong kết cấu cầu dây văng (như cầu Mỹ Thuận hay cầu Nhật Tân), dầm cầu nằm ngang được đỡ bởi các sợi dây văng thép nối lên đỉnh trụ tháp thẳng đứng. Xét một đoạn dầm cầu có khối lượng $m = 50 ext{ tấn}$ ($50000 ext{ kg}$) chịu tác dụng của lực văng từ hai sợi dây cáp đối xứng nghiêng góc $lpha$ so với dầm cầu nằm ngang. Lấy $g = 9,8 ext{ m/s}^2$.
+
+Thiết lập biểu thức tính lực căng $T$ trên mỗi sợi dây văng theo $m, g$ và góc $lpha$.
+Tính lực căng $T$ khi góc nghiêng dây văng $lpha = 60^\circ$ và khi $lpha = 20^\circ$.
+Phân tích tác dụng của thành phần lực nằm ngang $T_x = T \cdot \coslpha$ lên dầm cầu. Vì sao kĩ sư xây dựng không thiết kế góc nghiêng $lpha$ quá nhỏ (dưới $25^\circ$)?
+Câu 2 (Ứng dụng An toàn Thang máy & Thiết bị Hãm Bảo vệ): Một cabin thang máy chở khách khối lượng tổng cộng $M = 1200 ext{ kg}$ đang di chuyển xuống với tốc độ $v_0 = 8,0 ext{ m/s}$ thì hệ thống cáp kéo chính bị đứt hoàn toàn. Lấy $g = 9,8 ext{ m/s}^2$.
+
+Khi dây cáp bị đứt hoàn toàn và chưa có phanh bảo hiểm, hãy mô tả chuyển động của cabin và cảm giác trọng lượng của hành khách bên trong.
+Ngay sau khi rơi được một khoảng $h = 4,0 ext{ m}$, hệ thống phanh an toàn cơ khí (Safety Gear) bám chặt vào rãnh ray dẫn hướng, tạo ra lực ma sát hãm không đổi $F_{hãm} = 18000 ext{ N}$ hướng thẳng đứng lên trên. Tính gia tốc hãm $a_h$ của cabin và quãng đường $s_h$ cabin trượt tiếp cho đến khi dừng hẳn.
+Tính lực nén của một hành khách khối lượng $70 ext{ kg}$ lên sàn cabin trong giai đoạn phanh hãm an toàn này.
+Câu 3 (Bài toán Con lắc đơn & Lực căng dây cực đại - Halliday Classic): Một con lắc đơn gồm quả cầu nhỏ sắt khối lượng $m = 0,50 ext{ kg}$ treo vào sợi dây nhẹ không dãn dài $L = 1,2 ext{ m}$. Sợi dây này có giới hạn bền (lực căng tối đa chịu được trước khi đứt) là $T_{\max} = 12,5 ext{ N}$. Lấy $g = 9,8 ext{ m/s}^2$.
+
+Kéo con lắc lệch khỏi phương thẳng đứng góc $lpha_0$ rồi thả nhẹ. Thiết lập công thức tính lực căng dây $T(lpha)$ theo góc lệch $lpha$, góc ban đầu $lpha_0$, $m$ và $g$.
+Chứng minh rằng lực căng dây đạt giá trị cực đại $T_{\max_xuất_hiện}$ tại vị trí thấp nhất ($lpha = 0^\circ$) và viết biểu thức $T_{\max_xuất_hiện}(lpha_0)$.
+Tính góc lệch ban đầu tối đa $lpha_{0\max}$ để sợi dây không bị đứt trong quá trình dao động.
+Câu 4 (Thực hành Khảo sát Sự phụ thuộc Lực căng dây vào Góc nghiêng bằng Data Logger): Trong phòng thực hành Vật lí, học sinh bố trí thí nghiệm treo một vật nặng $m = 0,500 ext{ kg}$ vào chính giữa sợi dây nhẹ $ACB$. Hai đầu dây $A$ và $B$ được gắn vào hai cảm biến lực Force Sensor kết nối thiết bị Data Logger. Lấy $g = 9,80 ext{ m/s}^2$.
+
+Lập bảng lý thuyết tính lực căng dây $T_{lt}$ trên mỗi nhánh dây $AC$ và $BC$ khi góc hợp bởi hai nhánh dây $ heta = \widehat{ACB}$ nhận các giá trị $30^\circ, 60^\circ, 90^\circ, 120^\circ, 150^\circ$.
+Vẽ đồ thị biểu diễn sự phụ thuộc của lực căng dây $T$ vào góc $ heta$. Nhận xét về tốc độ gia tăng của $T$ khi $ heta$ tiến gần về $180^\circ$.
+Trong thí nghiệm thực tế với $ heta = 120^\circ$, Data Logger ghi nhận giá trị lực căng trên hai cảm biến là $T_1 = 4,98 ext{ N}$ và $T_2 = 5,02 ext{ N}$. Tính sai số tỉ đối của phép đo so với giá trị lý thuyết và nêu 2 nguyên nhân gây ra sự chênh lệch này.
+Câu 5 (Bài toán Nâng cao Halliday - Cân bằng Động của Vật treo trên Hai Ròng rọc): Cho hệ cơ học gồm vật $M = 10 ext{ kg}$ treo vào điểm chính giữa $C$ của một sợi dây nhẹ không dãn dài $S = 2,0 ext{ m}$. Hai đầu dây vắt qua hai ròng rọc cố định $A$ và $B$ nằm trên cùng một đường thẳng nằm ngang cách nhau khoảng $D = 1,6 ext{ m}$. Hai đầu tự do của sợi dây treo hai vật giống nhau khối lượng $m$. Lấy $g = 9,8 ext{ m/s}^2$. Bỏ qua ma sát ở ròng rọc.
+
+Khi hệ cân bằng tĩnh, hãy vẽ sơ đồ lực tác dụng tại điểm chụm $C$ và góc nghiêng $ heta$ của dây $AC$ so với phương ngang.
+Tính góc $ heta$ và xác định khối lượng $m$ của mỗi vật treo ở hai đầu dây để hệ cân bằng.
+Nếu $m = 6,0 ext{ kg}$, hỏi hệ có thể đạt trạng thái cân bằng tĩnh không? Giải thích bản chất điều kiện tồn tại trạng thái cân bằng của hệ cơ học này.
+PHẦN 5: ĐÁP ÁN VÀ LỜI GIẢI CHI TIẾT (100%)
+PHẦN 1: TRẮC NGHIỆM 4 PHƯƠNG ÁN
+B | Trọng lực $ec{P} = mec{g}$ là lực hấp dẫn Trái Đất hút vật; Trọng lượng là độ lớn lực nén/kéo mà vật tác dụng lên mặt đỡ/dây treo.
+B | Trái Đất hơi dẹt ở hai cực ($R_{cực} < R_{XĐ}$) và lực ly tâm do tự quay cực đại ở Xích Đạo $ ightarrow g_{XĐ} < g_{cực}$.
+D | Lực căng dây là lực kéo, không thể là lực đẩy.
+C | Đi xuống chậm dần đều $ ightarrow ec{a}$ hướng lên $ ightarrow N = m(g + a) = 60 imes (9,8 + 2,0) = 60 imes 11,8 = 708 ext{ N}$.
+B | Phi hành gia rơi tự do cùng gia tốc $g$ với tàu vũ trụ $ ightarrow N = 0$ (mất trọng lượng biểu kiến).
+B | Cân bằng tại điểm $O$: $T_{OB} \cdot \sin 30^\circ = P \Rightarrow T_{OB} = m \cdot g / \sin 30^\circ = (3 imes 10) / 0,5 = 60 ext{ N}$.
+A | $a = rac{m_2 - m_1}{m_1 + m_2}g = rac{3 - 2}{5} imes 10 = 2 ext{ m/s}^2$. $T = m_1(g + a) = 2 imes (10 + 2) = 24 ext{ N}$.
+A | Khối lượng $m = 70 ext{ kg}$ không đổi. $P_{MT} = m \cdot g_{MT} = 70 imes 1,6 = 112 ext{ N}$.
+B | $T = m(g + a) \le T_{\max} \Rightarrow 20(10 + a) \le 250 \Rightarrow 10 + a \le 12,5 \Rightarrow a \le 2,5 ext{ m/s}^2$.
+B | Tại điểm thấp nhất, vận tốc $v$ nằm ngang. Dây đứt $ ightarrow$ quả cầu trở thành vật ném ngang $ ightarrow$ quỹ đạo parabol.
+B | Cân bằng thẳng đều dọc mặt dốc: $T = P_x = m \cdot g \cdot \sin 30^\circ = 800 imes 9,8 imes 0,5 = 3920 ext{ N}$.
+B | $g = g_0 rac{R^2}{(R+h)^2} = rac{g_0}{4} \Rightarrow rac{R}{R+h} = rac{1}{2} \Rightarrow R + h = 2R \Rightarrow h = R$.
+A | Tại đỉnh cao nhất: $F_{ht} = T + P = m \cdot \omega^2 \cdot L \Rightarrow T = m(\omega^2 L - g) = 0,5 imes (4^2 imes 1,0 - 10) = 0,5 imes (16 - 10) = 3,0 ext{ N}$.
+C | Cân bằng thẳng đứng: $2T \cdot \sin 5^\circ = mg \Rightarrow T = rac{mg}{2\sin 5^\circ} = rac{10 imes 9,8}{2 imes 0,08715} pprox 562,2 ext{ N}$.
+A | Cân bằng tại $C$: $T \cdot \sin 45^\circ = P \Rightarrow T = rac{120}{\sin 45^\circ} = 120\sqrt{2} ext{ N}$. $N = T \cdot \cos 45^\circ = 120 ext{ N}$.
+C | Gia tốc hệ: $a = rac{F}{M + m_d} = rac{50}{8 + 2} = 5 ext{ m/s}^2$. Khối lượng phần phía sau (thùng hàng + nửa dây) $m_{sau} = 8,0 + 1,0 = 9,0 ext{ kg}$. Lực căng $T = m_{sau} \cdot a = 9,0 imes 5 = 45 ext{ N}$.
+B | Tại đỉnh cầu vồng: $P - N = m rac{v^2}{R} \Rightarrow N = m(g - rac{v^2}{R}) = 1500 imes (10 - rac{15^2}{45}) = 1500 imes (10 - 5) = 7500 ext{ N}$.
+B | Trọng tâm là điểm đặt hợp lực trọng lực, có thể nằm ngoài phần vật chất của vật (như chiếc nhẫn).
+B | Nhanh dần đều hướng xuống $ ightarrow ec{a}$ hướng xuống $ ightarrow P - T = m \cdot a \Rightarrow T = m(g - a) = 5,0 imes (9,8 - 3,0) = 34 ext{ N}$.
+B | Tại vị trí thấp nhất $T = m(g + rac{v^2}{L})$ đạt giá trị lớn nhất trong suốt quỹ đạo.
+PHẦN 2: TRẮC NGHIỆM ĐÚNG/SAI
+Câu 1:
+
+a) ĐÚNG: $T = (M + m)g = (1000 + 200) imes 9,8 = 11760 ext{ N}$.
+b) ĐÚNG: Lên nhanh dần $a = 2,0 ext{ m/s}^2 ightarrow N = m(g + a) = 200 imes (9,8 + 2,0) = 2360 ext{ N}$.
+c) ĐÚNG: Lên chậm dần $a = 2,0 ext{ m/s}^2 ightarrow T = (M + m)(g - a) = 1200 imes (9,8 - 2,0) = 9360 ext{ N}$.
+d) SAI: Khi đứt cáp, cả cabin và kiện hàng đều rơi tự do cùng gia tốc $g ightarrow$ kiện hàng không trọng lượng so với sàn ($N = 0$), đứng yên chạm sàn chứ không bị hất văng lên đụng trần.
+Câu 2:
+
+a) ĐÚNG: $P = m \cdot g = 3000 imes 9,8 = 29400 ext{ N}$.
+b) ĐÚNG: $P_x = P \cdot \sin 30^\circ = 29400 imes 0,5 = 14700 ext{ N}$.
+c) ĐÚNG: Chuyển động thẳng đều $ ightarrow T = P_x = 14700 ext{ N}$.
+d) SAI: Nếu đứt cáp kéo, cabin vẫn bị dây cáp tải giữ lại theo phương vuông góc, cabin trượt nhanh dần đều dọc theo dây cáp tải với gia tốc $a = g \cdot \sin 30^\circ = 4,9 ext{ m/s}^2$.
+Câu 3:
+
+a) ĐÚNG: $a_t = g \cdot \sin 60^\circ = 10 imes rac{\sqrt{3}}{2} pprox 8,66 ext{ m/s}^2$.
+b) ĐÚNG: Tại biên thả: $v = 0 \Rightarrow T = m \cdot g \cdot \cos 60^\circ = 0,20 imes 10 imes 0,5 = 1,0 ext{ N}$.
+c) ĐÚNG: $v_{\max} = \sqrt{2gL(1 - \cos 60^\circ)} = \sqrt{2 imes 10 imes 1,0 imes 0,5} = \sqrt{10} pprox 3,16 ext{ m/s}$.
+d) SAI: Tại VTCB $T = m(g + rac{v^2}{L}) = 0,20 imes (10 + 10) = 4,0 ext{ N}$ (gấp đôi trọng lực $P = 2,0 ext{ N}$).
+Câu 4:
+
+a) ĐÚNG: Công thức gia tốc trọng trường $g = G M / R^2$.
+b) ĐÚNG: $g_{MT} pprox 1,6 ext{ m/s}^2 pprox g_{TĐ}/6$.
+c) ĐÚNG: $m_{TĐ_max} = 600 / 9,8 pprox 61,2 ext{ kg}$; $m_{MT_max} = 600 / 1,6 = 375 ext{ kg}$.
+d) SAI: Chu kỳ con lắc $T = 2\pi \sqrt{L/g}$. Vì $g_{MT} < g_{TĐ} \Rightarrow T_{MT} > T_{TĐ} ightarrow$ con lắc dao động chậm hơn $ ightarrow$ đồng hồ chạy chậm hơn.
+Câu 5:
+
+a) SAI: $T = rac{mg}{2\cos( heta/2)}$. Khi $lpha$ tăng (dây xòe rộng), $\cos( heta/2)$ giảm $ ightarrow T$ tăng lên mạnh.
+b) ĐÚNG: Khi $ heta ightarrow 180^\circ \Rightarrow \cos 90^\circ = 0 \Rightarrow T ightarrow \infty$.
+c) ĐÚNG: Cảm biến lực đo biến dạng (độ dãn lò xo/thanh điện trở) quy đổi thành lực.
+d) ĐÚNG: Hệ lực không đồng phẳng sẽ làm phát sinh thành phần lực vuông góc, gây sai số cho cảm biến.
+PHẦN 3: TRẮC NGHIỆM TRẢ LỜI NGẮN
+Câu 1: 30,2
+
+Giải: Cân bằng thẳng đứng 3 sợi dây: $3T \cdot \cos 30^\circ = m \cdot g \Rightarrow 3T \cdot rac{\sqrt{3}}{2} = 8,0 imes 9,8 = 78,4 ext{ N} \Rightarrow T = rac{78,4 imes 2}{3\sqrt{3}} pprox 30,176 ext{ N} pprox 30,2 ext{ N}$.
+Câu 2: 1225
+
+Giải: Ở độ cao $h = R_{TĐ}$, gia tốc $g = g_0 rac{R^2}{(R+R)^2} = rac{g_0}{4} = rac{9,80}{4} = 2,45 ext{ m/s}^2$.
+Trọng lực $P = m \cdot g = 500 imes 2,45 = 1225 ext{ N}$.
+Câu 3: 1131 (hoặc 1131,4)
+
+Giải: Lực nâng thẳng đứng do 1 dây tác dụng là $T_y = T \cdot \sin 45^\circ = 800 imes 0,7071 = 565,7 ext{ kN}$.
+Cặp dây văng tác dụng tổng lực nâng thẳng đứng $F_{nâng} = 2 T_y = 2 imes 565,7 = 1131,4 ext{ kN} pprox 1131 ext{ kN}$.
+Câu 4: 2,2
+
+Giải: Phương trình Newton: $T - Mg = M \cdot a \Rightarrow 9600 - 800 imes 9,8 = 800 \cdot a \Rightarrow 9600 - 7840 = 800a \Rightarrow 1760 = 800a \Rightarrow a = 2,2 ext{ m/s}^2$.
+Câu 5: 40 (hoặc 40,0)
+
+Giải: Con lắc nón cân bằng thẳng đứng: $T \cdot \cos heta = mg \Rightarrow T \cdot \cos 60^\circ = 2,0 imes 10 = 20 ext{ N} \Rightarrow T = 20 / 0,5 = 40 ext{ N}$.
+PHẦN 4: TỰ LUẬN
+Câu 1:
+
+Thành lập công thức:
+Chọn trục $Oy$ thẳng đứng hướng lên. Cân bằng thẳng đứng cho dầm cầu: $$2T \cdot \sinlpha = mg \Rightarrow T = rac{mg}{2\sinlpha}.$$
+Tính toán:
+Trọng lượng dầm cầu: $P = mg = 50000 imes 9,8 = 490000 ext{ N} = 490 ext{ kN}$.
+Khi $lpha = 60^\circ$: $T = rac{490}{2 imes \sin 60^\circ} = rac{245}{0,866} pprox 282,9 ext{ kN}$.
+Khi $lpha = 20^\circ$: $T = rac{490}{2 imes \sin 20^\circ} = rac{245}{0,342} pprox 716,4 ext{ kN}$.
+Phân tích tác dụng lực $T_x$ và giới hạn góc $lpha$:
+Thành phần lực nằm ngang $T_x = T \cdot \coslpha = rac{mg}{2 anlpha}$ nén dầm cầu bê tông vào trụ tháp.
+Khi góc $lpha$ quá nhỏ ($lpha < 25^\circ$), $\sinlpha$ rất nhỏ làm lực căng dây $T$ tăng vọt (gấp gần 3 lần so với $lpha = 60^\circ$), yêu cầu sợi cáp thép có đường kính quá lớn và lực nén $T_x$ lên dầm cầu cực kỳ nguy hiểm gây nứt gãy bê tông.
+Câu 2:
+
+Khi cáp đứt chưa có phanh: Cabin rơi tự do với gia tốc $g = 9,8 ext{ m/s}^2$. Vận tốc rơi tăng dần $v = \sqrt{v_0^2 + 2gh}$. Hành khách ở trạng thái mất trọng lượng biểu kiến ($N = 0$), có cảm giác "hẫng chân" lơ lửng.
+Khi phanh an toàn bám ray:
+Vận tốc cabin ngay trước khi phanh: $v_1 = \sqrt{v_0^2 + 2gh} = \sqrt{8,0^2 + 2 imes 9,8 imes 4,0} = \sqrt{64 + 78,4} = \sqrt{142,4} pprox 11,93 ext{ m/s}$.
+Các lực tác dụng lên cabin: Trọng lượng $P = Mg = 1200 imes 9,8 = 11760 ext{ N}$ hướng xuống; Lực hãm $F_h = 18000 ext{ N}$ hướng lên.
+Gia tốc hãm (chọn chiều dương hướng lên): $$a_h = rac{F_h - Mg}{M} = rac{18000 - 11760}{1200} = rac{6240}{1200} = 5,2 ext{ m/s}^2 ext{ (hướng lên)}.$$
+Quãng đường trượt hãm cho đến khi dừng hẳn ($v_2 = 0$): $$s_h = rac{v_2^2 - v_1^2}{-2 a_h} = rac{0 - 142,4}{-2 imes 5,2} = rac{142,4}{10,4} pprox 13,69 ext{ m}.$$
+Lực nén của hành khách $70 ext{ kg}$ lên sàn cabin:
+Sàn cabin có gia tốc $a_h = 5,2 ext{ m/s}^2$ hướng lên $ ightarrow N = m(g + a_h) = 70 imes (9,8 + 5,2) = 70 imes 15,0 = 1050 ext{ N}$.
+Câu 3:
+
+Thiết lập $T(lpha)$:
+Định luật 2 Newton theo phương hướng tâm: $T - mg \cdot \coslpha = m rac{v^2}{L} \Rightarrow T = m(g \cdot \coslpha + rac{v^2}{L})$.
+Theo định luật bảo toàn cơ năng: $rac{1}{2} m v^2 = mgL(\coslpha - \coslpha_0) \Rightarrow rac{v^2}{L} = 2g(\coslpha - \coslpha_0)$.
+Thay vào ta được: $T(lpha) = mg \cdot \coslpha + 2mg(\coslpha - \coslpha_0) = mg(3\coslpha - 2\coslpha_0)$.
+Lực căng cực đại:
+Vì $-1 \le \coslpha \le 1$, $T(lpha)$ đạt cực đại khi $\coslpha = 1 \Rightarrow lpha = 0^\circ$ (vị trí thấp nhất).
+$T_{\max_xuất_hiện} = mg(3 - 2\coslpha_0)$.
+Tính $lpha_{0\max}$:
+Yêu cầu $T_{\max_xuất_hiện} \le T_{\max} \Rightarrow mg(3 - 2\coslpha_0) \le 12,5 ext{ N}$.
+Với $m = 0,50 ext{ kg}, g = 9,8 ext{ m/s}^2 \Rightarrow mg = 4,9 ext{ N}$.
+$4,9 imes (3 - 2\coslpha_0) \le 12,5 \Rightarrow 3 - 2\coslpha_0 \le rac{12,5}{4,9} pprox 2,551$.
+$2\coslpha_0 \ge 3 - 2,551 = 0,449 \Rightarrow \coslpha_0 \ge 0,2245 \Rightarrow lpha_0 \le 77,02^\circ$.
+Vậy góc lệch ban đầu tối đa là $lpha_{0\max} pprox 77^\circ$.
+Câu 4:
+
+Bảng lý thuyết $T_{lt}( heta)$:
+Công thức: $T_{lt} = rac{mg}{2\cos( heta/2)} = rac{0,500 imes 9,80}{2\cos( heta/2)} = rac{2,45}{\cos( heta/2)} ext{ (N)}$.
+Khi $ heta = 30^\circ$: $T = rac{2,45}{\cos 15^\circ} = rac{2,45}{0,9659} pprox 2,54 ext{ N}$.
+Khi $ heta = 60^\circ$: $T = rac{2,45}{\cos 30^\circ} = rac{2,45}{0,8660} pprox 2,83 ext{ N}$.
+Khi $ heta = 90^\circ$: $T = rac{2,45}{\cos 45^\circ} = rac{2,45}{0,7071} pprox 3,46 ext{ N}$.
+Khi $ heta = 120^\circ$: $T = rac{2,45}{\cos 60^\circ} = rac{2,45}{0,5000} = 4,90 ext{ N}$.
+Khi $ heta = 150^\circ$: $T = rac{2,45}{\cos 75^\circ} = rac{2,45}{0,2588} pprox 9,47 ext{ N}$.
+Nhận xét đồ thị: Đồ thị $T( heta)$ có dạng tiệm cận đứng tại $ heta = 180^\circ$. Tốc độ gia tăng lực căng tăng cực nhanh khi $ heta > 120^\circ$.
+Xử lý số liệu:
+$T_{lt} = 4,90 ext{ N}$. Giá trị trung bình thực nghiệm $T_{tn} = rac{4,98 + 5,02}{2} = 5,00 ext{ N}$.
+Sai số tỉ đối: $\delta T = rac{|5,00 - 4,90|}{4,90} imes 100% = rac{0,10}{4,90} imes 100% pprox 2,04%$.
+Nguyên nhân: Khối lượng dây treo không hoàn toàn bằng 0; dây bị chùng nhẹ do độ võng trọng lực.
+Câu 5:
+
+Sơ đồ lực tại $C$:
+Trọng lực $ec{P}_M$ ($P_M = Mg$) hướng xuống.
+Lực căng dây $ec{T}_1, ec{T}_2$ hướng dọc theo hai đoạn dây $CA$ và $CB$ về phía ròng rọc. Do tính chất ròng rọc không ma sát, lực căng dây $T_1 = T_2 = m \cdot g$.
+Tính góc $ heta$ và $m$:
+Cân bằng thẳng đứng tại $C$: $2T \cdot \sin heta = Mg \Rightarrow 2 (mg) \sin heta = Mg \Rightarrow 2m \sin heta = M$.
+Về mặt hình học: Đoạn dây $ACB$ có chiều dài $S = 2,0 ext{ m} \Rightarrow AC = CB = 1,0 ext{ m}$.
+Khoảng cách ròng rọc $D = 1,6 ext{ m} \Rightarrow$ khoảng cách từ $C$ đến phương thẳng đứng là $D/2 = 0,8 ext{ m}$.
+Do đó: $\cos heta = rac{D/2}{AC} = rac{0,8}{1,0} = 0,8 \Rightarrow heta = 53,13^\circ$.
+Suy ra $\sin heta = \sqrt{1 - 0,8^2} = 0,6$.
+Khối lượng $m$: $2m (0,6) = 10 ext{ kg} \Rightarrow 1,2 m = 10 \Rightarrow m = rac{10}{1,2} pprox 8,33 ext{ kg}$.
+Trường hợp $m = 6,0 ext{ kg}$:
+Điều kiện cân bằng yêu cầu $2m \sin heta = M \Rightarrow \sin heta = rac{M}{2m} = rac{10}{2 imes 6,0} = rac{10}{12} pprox 0,833 \le 1$ (thỏa mãn toán học).
+Tuy nhiên, điều kiện hình học cố định của dây dài $S = 2,0 ext{ m}$ và $D = 1,6 ext{ m}$ bắt buộc $\cos heta = 0,8 \Rightarrow \sin heta = 0,6$.
+Với $m = 6,0 ext{ kg}$, lực nâng thẳng đứng tối đa tại góc hình học này là $2 (6,0 imes 9,8) imes 0,6 = 70,56 ext{ N} < P_M = 98 ext{ N}$.
+Do đó hệ không thể cân bằng tĩnh tại cấu hình dây này; vật $M$ sẽ trượt kéo hai vật $m$ đi lên cho đến khi vật $M$ chạm sàn hoặc hai vật $m$ chạm ròng rọc.

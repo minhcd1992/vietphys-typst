@@ -1,0 +1,330 @@
+BÀI 14: LỰC CẢN VÀ LỰC NÂNG (SBT CHUYÊN SÂU & PHÂN HÓA)
+PHẦN 1: TRẮC NGHIỆM 4 PHƯƠNG ÁN LỰA CHỌN (20 CÂU)
+Thí sinh chọn 1 phương án đúng nhất cho mỗi câu. Các câu hỏi được thiết kế phân hóa, phản biện bẫy nhận thức và ứng dụng thực tiễn.
+
+Câu 1 (Bẫy Tốc độ Tới hạn của Giọt mưa): Một giọt nước mưa khối lượng $m$ rơi từ mây cao xuống trong không khí. Khi tốc độ giọt mưa còn nhỏ, lực cản không khí tỉ lệ bậc nhất với vận tốc ($F_c = k \cdot v$). Kết luận nào sau đây thể hiện đúng bản chất chuyển động của giọt mưa khi nó đạt đến "tốc độ tới hạn" $v_{th}$?
+
+A. Giọt mưa lập tức dừng lại và lơ lửng giữa không trung vì lực cản bằng trọng lực.
+B. Hợp lực tác dụng lên giọt mưa bằng 0, giọt mưa tiếp tục chuyển động thẳng đều xuống đất với tốc độ không đổi $v_{th} = \frac{mg}{k}$.
+C. Gia tốc của giọt mưa đạt giá trị cực đại bằng $g$ khi đạt tốc độ tới hạn.
+D. Động năng của giọt mưa liên tục tăng do gia tốc không đổi.
+Câu 2 (Lực đẩy Archimedes trong Không khí): Một quả khí cầu thám không của Trung tâm Dự báo Khí tượng Thủy văn Quốc gia chứa khí heli có thể tích $V = 10\text{ m}^3$. Biết khối lượng riêng của không khí ở mặt đất là $\rho_{kk} = 1,29\text{ kg/m}^3$ và lấy $g = 9,8\text{ m/s}^2$. Độ lớn lực nâng Archimedes do không khí tác dụng lên quả khí cầu bằng
+
+A. $126,42\text{ N}$.
+B. $12,90\text{ N}$.
+C. $129,00\text{ N}$.
+D. $98,00\text{ N}$.
+Câu 3 (Khí động học Cánh Máy bay): Máy bay Boeing 787 của Hãng hàng không Quốc gia Vietnam Airlines đang bay hành trình nằm ngang trên không trung ở tốc độ ổn định $900\text{ km/h}$. Lực nâng khí động học xuất hiện tác dụng lên cánh máy bay có bản chất vật lý chính dựa trên
+
+A. sự chênh lệch áp suất không khí giữa mặt dưới và mặt trên của cánh do hình dạng khí động học (mặt trên cong hơn mặt dưới làm dòng khí phía trên chảy nhanh hơn, áp suất tĩnh nhỏ hơn) kết hợp với phản lực đổi hướng dòng khí.
+B. lực đẩy Archimedes của khí quyển tác dụng lên thể tích thân máy bay.
+C. lực đẩy phản lực của hai động cơ phản lực hướng thẳng đứng lên trên.
+D. lực ma sát nghỉ giữa vỏ máy bay và không khí đẩy máy bay bay lên.
+Câu 4 (Tốc độ Tới hạn ở Tốc độ Lớn - $F_c \propto v^2$): Đối với các vật chuyển động với tốc độ tương đối lớn trong không khí (như vận động viên nhảy dù chưa mở dù hay ô tô xe đua), lực cản tỉ lệ với bình phương tốc độ ($F_c = D \cdot v^2$, với $D$ là hệ số cản khí động học). Biểu thức tốc độ tới hạn $v_{th}$ của một người nhảy dù khối lượng $m$ khi rơi tự do trước khi mở dù là
+
+A. $v_{th} = \sqrt{\frac{mg}{D}}$.
+B. $v_{th} = \frac{mg}{D}$.
+C. $v_{th} = \frac{D}{mg}$.
+D. $v_{th} = \sqrt{\frac{D}{mg}}$.
+Câu 5 (Cánh gió Khí động học Xe đua F1): Tại giải đua xe F1, cánh gió phía sau (rear wing) của xe đua được thiết kế có dạng hình cánh máy bay nhưng đảo ngược. Mục đích kĩ thuật quan trọng nhất của thiết kế này là
+
+A. tạo ra lực nâng hướng lên giúp xe nhẹ hơn và chạy nhanh hơn.
+B. tạo ra lực ép xuống (Downforce) hướng thẳng đứng xuống mặt đường, giúp tăng pháp lực $N$ và tăng lực ma sát nghỉ cực đại để xe ôm cua ở tốc độ cao không bị lật hay trượt văng.
+C. triệt tiêu hoàn toàn lực cản không khí tác dụng lên xe.
+D. giảm lượng nhiên liệu tiêu thụ của động cơ.
+Câu 6 (Trọng lượng Hiệu dụng trong Chất lỏng): Một hòn đá khối lượng $m = 5,0\text{ kg}$ và thể tích $V = 2,0\text{ dm}^3$ ($0,002\text{ m}^3$) được thả chìm hoàn toàn trong hồ nước. Biết khối lượng riêng của nước là $\rho_n = 1000\text{ kg/m}^3$ và $g = 9,8\text{ m/s}^2$. Lực nâng Archimedes và trọng lượng biểu kiến $P'$ (lực căng dây treo) của hòn đá dưới nước lần lượt là
+
+A. $F_A = 19,6\text{ N}$ và $P' = 29,4\text{ N}$.
+B. $F_A = 20,0\text{ N}$ và $P' = 30,0\text{ N}$.
+C. $F_A = 49,0\text{ N}$ và $P' = 0,0\text{ N}$.
+D. $F_A = 19,6\text{ N}$ và $P' = 49,0\text{ N}$.
+Câu 7 (Lực cản và Hình dạng Khí động học): Hai quả cầu $A$ và $B$ có cùng khối lượng $m$ và cùng bán kính $R$. Quả cầu $A$ có bề mặt nhẵn bóng chuẩn khí động học, quả cầu $B$ có bề mặt xù xì và phẳng ở phía trước. Thả rơi đồng thời hai quả cầu từ độ cao lớn trong không khí. Kết luận nào sau đây là đúng?
+
+A. Hai quả cầu chạm đất đồng thời vì có cùng trọng lực $P = mg$.
+B. Quả cầu $A$ đạt tốc độ tới hạn lớn hơn và chạm đất trước quả cầu $B$ do có hệ số cản khí động học $D_A < D_B$.
+C. Quả cầu $B$ chạm đất trước vì bề mặt xù xì bám không khí đẩy nó xuống nhanh hơn.
+D. Cả hai quả cầu đều chuyển động với gia tốc $g$ không đổi suốt quá trình rơi.
+Câu 8 (Động học Chuyển động Vành dù Nhảy cứu hộ): Một người nhảy dù thể thao nhảy ra khỏi máy bay ở độ cao $3000\text{ m}$. Ban đầu người đó rơi do tự do không mở dù và đạt tốc độ tới hạn $v_{th1} = 55\text{ m/s}$ ($198\text{ km/h}$). Khi giật dây mở dù, diện tích cản $S$ tăng lên đột ngột làm tốc độ tới hạn giảm xuống còn $v_{th2} = 5\text{ m/s}$ để hạ cánh an toàn. Ngay tại thời điểm dù vừa xòe rộng, gia tốc $\vec{a}$ của người nhảy dù có đặc điểm
+
+A. hướng thẳng đứng xuống dưới với độ lớn $a = g$.
+B. bằng $0\text{ m/s}^2$ vì vận tốc đã đạt cực đại.
+C. hướng thẳng đứng lên trên với độ lớn rất lớn ($a > 0$), hãm tốc độ của người từ $55\text{ m/s}$ xuống $5\text{ m/s}$.
+D. hướng nằm ngang theo chiều gió thổi.
+Câu 9 (Tàu ngầm Kilo 636 Hải quân Việt Nam): Tàu ngầm Kilo 636 của Hải quân Nhân dân Việt Nam khi lặn lặn đứng yên lơ lửng ở độ sâu $100\text{ m}$ dưới biển Cam Ranh. Nhận xét nào sau đây đúng về lực tác dụng lên tàu ngầm?
+
+A. Tàu ngầm không chịu tác dụng của trọng lực do đã ở sâu dưới lòng biển.
+B. Độ lớn lực đẩy Archimedes đúng bằng độ lớn trọng lực của toàn bộ tàu ngầm ($F_A = P$).
+C. Lực đẩy Archimedes nhỏ hơn trọng lực nên tàu mới lặn được xuống sâu.
+D. Động cơ tàu ngầm phải liên tục hoạt động phun nước lên trên để giữ tàu không bị chìm xuống đáy.
+Câu 10 (Ứng dụng Vận động viên Bơi lội): Vận động viên bơi lội Việt Nam (như Nguyễn Thị Ánh Viên) trước khi thi đấu thường mặc quần áo bơi công nghệ cao, cạo tóc ôm sát và thực hiện tư thế lướt nước hình thoi co hẹp hai tay. Mục đích vật lý chính là
+
+A. tăng khối lượng riêng của cơ thể để chìm sâu hơn.
+B. giảm tối đa diện tích cản diện thẳng $S$ và hệ số cản thủy động học $C_d$ nhằm giảm lực cản của nước tác dụng lên cơ thể.
+C. làm tăng lực đẩy Archimedes nâng cơ thể nổi hoàn toàn trên mặt nước.
+D. tăng ma sát trượt giữa da và nước để đẩy nước về phía sau mạnh hơn.
+Câu 11 (Mô hình Rơi giọt mưa & Đồ thị $v - t$): Đồ thị vận tốc – thời gian ($v - t$) của một vật rơi có lực cản không khí $F_c = k \cdot v$ xuất phát từ trạng thái nghỉ có dạng
+
+A. đường thẳng dốc lên đi qua gốc tọa độ.
+B. đường cong tăng dần và tiệm cận nằm ngang với đường $v = v_{th}$.
+C. đường parabol có đỉnh hướng lên trên.
+D. đường thẳng nằm ngang ngay từ thời điểm $t = 0$.
+Câu 12 (Điều kiện Nổi của Vật): Một khối gỗ hình hộp chữ nhật có khối lượng riêng $\rho_g = 600\text{ kg/m}^3$ được thả vào một bể chứa nước ($1000\text{ kg/m}^3$). Tỉ lệ phần thể tích $V_{chìm} / V_{toàn_bộ}$ của khối gỗ bị ngập dưới nước khi cân bằng tĩnh bằng
+
+A. $60%$.
+B. $40%$.
+C. $100%$.
+D. $50%$.
+Câu 13 (Tác dụng Lực nâng Archimedes trong Đo đạc Chính xác): Khi cân một vật khối lượng $m = 1,0000\text{ kg}$ bằng cân phân tích chính xác cao trong không khí và trong buồng hút chân không, kết quả thu được sẽ
+
+A. hoàn toàn bằng nhau vì khối lượng vật không đổi.
+B. giá trị cân trong không khí nhỏ hơn trong chân không do lực đẩy Archimedes của không khí nâng bớt một phần trọng lượng.
+C. giá trị cân trong không khí lớn hơn do không khí ép vật xuống.
+D. cân trong chân không không hoạt động được.
+Câu 14 (Lực cản Chất lỏng - Định luật Stokes): Một viên bi thép nhỏ bán kính $r$ rơi thẳng đứng trong một bình hình trụ chứa dầu nhớt có độ nhớt $\eta$. Lực cản độ nhớt tác dụng lên viên bi tuân theo công thức Stokes $F_c = 6\pi \eta r v$. Nếu đường kính viên bi tăng lên 2 lần thì tốc độ tới hạn $v_{th}$ của viên bi trong dầu nhớt sẽ tăng lên bao nhiêu lần? (Cho biết lực đẩy Archimedes nhỏ không đáng kể hoặc coi khối lượng riêng thép lớn hơn nhiều).
+
+A. $2$ lần.
+B. $4$ lần.
+C. $8$ lần.
+D. $16$ lần.
+Câu 15 (Lực nâng Cánh Cá đuối / Chim bay): Khi một con chim đại bàng hoặc cá đuối bơi trong nước lượn sóng, nguyên lý tạo lực nâng chuyển động chủ yếu dựa vào
+
+A. việc đẩy chất lưu (không khí/nước) xuống phía dưới để nhận phản lực hướng lên (Định luật 3 Newton) kết hợp với chênh lệch áp suất khí động học.
+B. lực ma sát nghỉ giữa lông chim và gió.
+C. trọng lực giảm đi khi chim xòe rộng cánh.
+D. lực tĩnh điện tích tụ trên mép cánh.
+Câu 16 (Bẫy Lực cản khi Xe chạy Tốc độ cao): Một ô tô VinFast VF8 chạy trên đường cao tốc. Khi tốc độ ô tô tăng từ $60\text{ km/h}$ lên $120\text{ km/h}$ (tăng gấp 2 lần), công suất chống lực cản không khí do động cơ cung cấp phải tăng lên bao nhiêu lần? (Coi lực cản tỉ lệ với $v^2$).
+
+A. $2$ lần.
+B. $4$ lần.
+C. $8$ lần.
+D. $16$ lần.
+Câu 17 (Bóng Bàn bẻ Cong Đường đi - Hiệu ứng Magnus): Trong môn bóng bàn hoặc bóng đá, khi cầu thủ xoáy bóng (topspin hoặc sidespin), quả bóng bay chuyển động theo một đường cong phức tạp không phải parabol. Hiện tượng này gọi là hiệu ứng Magnus, xuất hiện do
+
+A. sự lệch tốc độ dòng không khí ở hai bên quả bóng đang xoay tròn, tạo ra chênh lệch áp suất tĩnh sinh ra lực nâng/lực lệch khí động học vuông góc với vận tốc.
+B. lực hấp dẫn biến đổi theo chiều xoay của quả bóng.
+C. trọng tâm quả bóng bị lệch khỏi tâm hình học.
+D. lực ma sát trượt giữa bóng và không khí kéo lệch quả bóng.
+Câu 18 (Thiết bị Lặn Khảo sát Dầu khí Vũng Tàu): Một rô-bốt lặn ROV lặn khảo sát chân giàn khoan dầu khí ngoài khơi Vũng Tàu. Khối lượng rô-bốt là $800\text{ kg}$, thể tích $0,70\text{ m}^3$. Biết khối lượng riêng nước biển $\rho_{biển} = 1025\text{ kg/m}^3$ và $g = 9,8\text{ m/s}^2$. Để giữ rô-bốt lặn xuống đều với vận tốc không đổi, lực đẩy xuống của chân vịt rô-bốt phải có độ lớn bằng
+
+A. $803,6\text{ N}$.
+B. $7031,5\text{ N}$.
+C. $7840,0\text{ N}$.
+D. $0,0\text{ N}$.
+Câu 19 (Lực nâng Archimedes tác dụng lên Tàu thủy vỏ thép): Tàu con-tai-nơ chở hàng ngàn tấn hàng hóa làm bằng thép nhưng vẫn nổi và chạy an toàn trên đại dương. Lý do vật lý cốt lõi là
+
+A. thép chế tạo tàu được pha trộn vật liệu siêu nhẹ nhẹ hơn nước.
+B. thiết kế vỏ tàu rỗng làm tổng thể tích chiếm chỗ của tàu rất lớn, giúp thể tích nước bị chiếm chỗ $V_{cc}$ tạo ra lực đẩy Archimedes $F_A = \rho_n g V_{cc}$ lớn hơn hoặc bằng tổng trọng lượng của tàu và hàng.
+C. động cơ tàu liên tục đẩy nước nâng tàu nổi.
+D. muối trong nước biển làm giảm trọng lực tác dụng lên tàu.
+Câu 20 (Đồ thị Gia tốc - Thời gian $a - t$ khi rơi có Lực cản): Một vật rơi từ độ cao rất lớn trong không khí với lực cản $F_c = kv$. Đồ thị gia tốc theo thời gian $a(t)$ của vật có dạng
+
+A. đường thẳng nằm ngang $a = g$.
+B. đường cong giảm dần từ $a = g$ tại $t = 0$ tiệm cận về $a = 0$ khi $t \rightarrow \infty$.
+C. đường thẳng tăng dần từ $0$ đến $g$.
+D. đường tròn bán kính $g$.
+PHẦN 2: TRẮC NGHIỆM ĐÚNG/SAI (5 CÂU)
+Thí sinh xét tính Đúng hoặc Sai cho mỗi ý a), b), c), d) trong từng câu.
+
+Câu 1: Một vận động viên nhảy dù cứu hộ khối lượng tổng cộng (người và trang bị) $m = 80\text{ kg}$ nhảy ra khỏi trực thăng ở độ cao $2000\text{ m}$. Lấy $g = 9,8\text{ m/s}^2$. Coi lực cản không khí khi chưa mở dù là $F_{c1} = D_1 v^2$ với $D_1 = 0,25\text{ kg/m}$, và khi mở dù hoàn toàn là $F_{c2} = D_2 v^2$ với $D_2 = 20,0\text{ kg/m}$.
+
+a) Ngay tại thời điểm bắt đầu nhảy ra khỏi trực thăng ($v = 0$), gia tốc rơi của người nhảy dù bằng $g = 9,8\text{ m/s}^2$.
+b) Tốc độ tới hạn của người nhảy dù khi chưa mở dù là $v_{th1} = 56,0\text{ m/s}$ (khoảng $201,6\text{ km/h}$).
+c) Tốc độ tới hạn sau khi mở dù hoàn toàn giảm xuống còn $v_{th2} = 6,26\text{ m/s}$ (khoảng $22,5\text{ km/h}$), đảm bảo an toàn cho đôi chân khi chạm đất.
+d) Quá trình rơi từ khi nhảy ra đến khi hạ cánh hoàn toàn là một chuyển động thẳng biến đổi đều với gia tốc không đổi.
+Câu 2: Khảo sát hiện tượng nổi và chìm của Tàu ngầm Kilo 636 trong lòng nước biển Cam Ranh (khối lượng riêng nước biển $\rho = 1025\text{ kg/m}^3$):
+
+a) Khi tàu ngầm muốn nổi lên mặt nước, hệ thống máy bơm sẽ bơm nước biển vào các khoang chứa vây (Ballast tanks) để tăng trọng lượng tổng cộng.
+b) Khi tàu ngầm muốn lặn xuống sâu, tàu sẽ xả khí nén và cho nước biển tràn vào các khoang chứa vây làm trọng lượng tổng $P$ vượt quá lực đẩy Archimedes $F_A$.
+c) Khi tàu ngầm lơ lửng cân bằng ở độ sâu $150\text{ m}$, độ lớn lực đẩy Archimedes đúng bằng trọng lực tổng của tàu ($F_A = P$).
+d) Độ lớn lực đẩy Archimedes tác dụng lên tàu ngầm khi lặn sâu $200\text{ m}$ lớn hơn gấp đôi so với khi lặn sâu $100\text{ m}$ vì áp suất nước biển ở độ sâu $200\text{ m}$ lớn hơn.
+Câu 3: Khí động học ô tô điện VinFast VF8 khi chạy trên đường cao tốc Pháp Vân – Cầu Giẽ:
+
+a) Thiết kế đầu xe bo tròn, tay nắm cửa ẩn phẳng vào thân xe giúp giảm hệ số cản khí động học $C_d$, từ đó giảm mức tiêu thụ điện năng của pin.
+b) Lực cản không khí tác dụng lên ô tô phụ thuộc vào tốc độ xe và luôn hướng ngược chiều chuyển động của xe.
+c) Khi xe chạy với tốc độ ổn định $100\text{ km/h}$, toàn bộ công suất do động cơ điện phát ra chỉ dùng để thắng lực ma sát trượt của bánh xe với mặt đường mà không liên quan đến lực cản không khí.
+d) Lực nâng khí động học xuất hiện ở tốc độ cao làm giảm pháp lực $N$ của bánh xe lên mặt đường, có thể làm giảm khả năng bám đường của xe nếu không có thiết kế khí động học phù hợp.
+Câu 4 (Hình vẽ & Bảng dữ liệu Thực nghiệm): Một nhóm học sinh THPT Chuyên thực hiện thí nghiệm đo tốc độ tới hạn của các viên bi thép rơi trong bình hình trụ chứa dầu nhớt động cơ. Kết quả đo bán kính bi $r$ và tốc độ tới hạn $v_{th}$ thu được bảng dữ liệu sau:
+
+Lần đo	Bán kính bi $r$ ($\text{mm}$)	Tốc độ tới hạn $v_{th}$ ($\text{cm/s}$)
+1	$1,0$	$2,5$
+2	$2,0$	$10,0$
+3	$3,0$	$22,5$
+4	$4,0$	$40,0$
+a) Tốc độ tới hạn $v_{th}$ của viên bi tỉ lệ thuận bậc nhất với bán kính bi $r$ ($v_{th} \propto r$).
+b) Bảng số liệu cho thấy tốc độ tới hạn $v_{th}$ tỉ lệ thuận với bình phương bán kính bi ($v_{th} \propto r^2$).
+c) Tỉ số $v_{th} / r^2$ thu được từ cả 4 lần đo đều bằng hằng số $2,5\text{ cm/(s}\cdot\text{mm}^2)$.
+d) Thí nghiệm chứng minh lực cản độ nhớt của chất lỏng tác dụng lên viên bi rơi chậm tuân theo Định luật Stokes $F_c = 6\pi \eta r v$.
+Câu 5: Phân tích nguyên lý Lực nâng Khí động học tác dụng lên Cánh Máy bay theo Giáo trình Halliday Physics:
+
+a) Cánh máy bay được thiết kế có mặt trên cong hơn mặt dưới, làm các đường dòng không khí phía trên bị ép sát vào nhau, vận tốc dòng khí $v_{trên} > v_{dưới}$.
+b) Theo Định luật Bernoulli, nơi nào vận tốc dòng chất lưu lớn hơn thì áp suất tĩnh nhỏ hơn ($p_{trên} < p_{dưới}$).
+c) Sự chênh lệch áp suất $\Delta p = p_{dưới} - p_{trên} > 0$ tạo ra lực nâng hướng thẳng đứng từ dưới lên trên tác dụng lên diện tích bề mặt cánh.
+d) Máy bay chỉ có thể bay lộn ngược đầu (mặt cong cánh hướng xuống dưới) nếu gia tốc trọng trường $g$ đổi chiều.
+PHẦN 3: TRẮC NGHIỆM TRẢ LỜI NGẮN (5 CÂU)
+Thí sinh tính toán và điền kết quả số.
+
+Câu 1: Một giọt mưa nhỏ có khối lượng $m = 2,0 \times 10^{-5}\text{ kg}$ rơi trong không khí với lực cản $F_c = k \cdot v$. Biết hằng số cản $k = 4,0 \times 10^{-4}\text{ N}\cdot\text{s/m}$ và $g = 9,8\text{ m/s}^2$. Tốc độ tới hạn $v_{th}$ của giọt mưa khi rơi thẳng đều xuống đất bằng bao nhiêu $\text{m/s}$?
+
+Câu 2: Một quả cầu rỗng bằng hợp kim khối lượng $m = 1,5\text{ kg}$ và thể tích $V = 2,5\text{ dm}^3$ ($0,0025\text{ m}^3$) được thả vào một bể nước rộng ($\rho_n = 1000\text{ kg/m}^3, g = 9,8\text{ m/s}^2$). Khi quả cầu nổi cân bằng tĩnh trên mặt nước, thể tích phần quả cầu bị chìm dưới nước bằng bao nhiêu $\text{dm}^3$?
+
+Câu 3: Một vận động viên nhảy dù khối lượng $m = 75\text{ kg}$ đang rơi thẳng đều với tốc độ tới hạn $v_{th} = 5,0\text{ m/s}$ khi dù đã mở hoàn toàn. Lấy $g = 9,8\text{ m/s}^2$. Độ lớn lực cản do không khí tác dụng lên vòm dù bằng bao nhiêu Newton?
+
+Câu 4: Tàu ngầm du lịch lặn tại Vịnh Nha Trang có thể tích vỏ tàu $V = 120\text{ m}^3$. Biết khối lượng riêng nước biển là $\rho = 1025\text{ kg/m}^3$ và $g = 9,8\text{ m/s}^2$. Độ lớn lực đẩy Archimedes của nước biển tác dụng lên tàu ngầm khi chìm hoàn toàn bằng bao nhiêu Kilonewton ($\text{kN}$)?
+
+Câu 5: Ô tô điện VinFast VF8 chạy trên dốc thử nghiệm có diện tích cản diện thẳng $S = 2,5\text{ m}^2$ và hệ số cản $C_d = 0,28$. Công thức lực cản không khí là $F_c = \frac{1}{2} C_d \rho S v^2$. Lấy khối lượng riêng không khí $\rho = 1,20\text{ kg/m}^3$. Khi ô tô chạy với tốc độ $v = 30\text{ m/s}$ ($108\text{ km/h}$), độ lớn lực cản không khí tác dụng lên xe bằng bao nhiêu Newton?
+
+PHẦN 4: TỰ LUẬN (5 CÂU)
+Thí sinh trình bày chi tiết lời giải, lập luận vật lý và tính toán.
+
+Câu 1 (Mô hình Rơi tự do vs Rơi có Lực cản Không khí - Halliday Classic): Một giọt mưa đá khối lượng $m = 0,50\text{ g}$ ($5,0 \times 10^{-4}\text{ kg}$) rơi từ đám mây dông ở độ cao $h = 1000\text{ m}$ xuống mặt đất. Lấy $g = 9,8\text{ m/s}^2$.
+
+Tính vận tốc chạm đất $v_0$ của hạt mưa đá nếu coi như không có lực cản không khí (rơi tự do lý tưởng). Nhận xét tính phi lý và tác hại nếu hạt mưa đá rơi với vận tốc này.
+Trong thực tế, hạt mưa đá chịu lực cản $F_c = D \cdot v^2$ với $D = 2,5 \times 10^{-5}\text{ kg/m}$. Hãy tính tốc độ tới hạn $v_{th}$ của hạt mưa đá.
+Tính công của lực cản không khí $A_{Fc}$ tác dụng lên hạt mưa đá trong suốt quãng đường rơi $1000\text{ m}$ từ lúc bắt đầu rơi từ trạng thái nghỉ đến khi chạm đất với tốc độ tới hạn $v_{th}$.
+Câu 2 (An toàn Nhảy dù Cứu hộ Bão lũ & Động lực học Rơi): Một chiến sĩ dù cứu hộ Không quân Việt Nam cùng trang bị có khối lượng tổng cộng $M = 90\text{ kg}$ nhảy dù từ độ cao $1500\text{ m}$. Lấy $g = 9,8\text{ m/s}^2$. Khi dù xòe rộng hoàn toàn, hệ số cản khí động học của vòm dù là $D = 18,0\text{ kg/m}$ ($F_c = D \cdot v^2$).
+
+Tính tốc độ tới hạn hạ cánh $v_{th}$ của chiến sĩ dù.
+Giả sử chiến sĩ nhảy ra khỏi máy bay và đạt tốc độ rơi $v_1 = 40\text{ m/s}$ thì giật dây mở dù. Ngay tại thời điểm dù vừa xòe rộng, hãy tính độ lớn và hướng của lực cản không khí $F_c$, hợp lực tác dụng lên người và gia tốc hãm $a_{hãm}$ tức thời của chiến sĩ dù.
+Giải thích vì sao người nhảy dù cần phải thực hiện động tác chụm hai chân và khuỳnh gối khi chân vừa chạm đất.
+Câu 3 (Khí động học Cánh Máy bay Vietnam Airlines & Cân bằng Bay): Một chiếc máy bay thương mại Airbus A350 của Vietnam Airlines có khối lượng cất cánh $M = 240\text{ tấn}$ ($2,4 \times 10^5\text{ kg}$) đang bay hành trình bằng phẳng ở độ cao $10000\text{ m}$ với tốc độ không đổi $v = 900\text{ km/h}$ ($250\text{ m/s}$). Lấy $g = 9,8\text{ m/s}^2$. Tổng diện tích bề mặt hai cánh máy bay là $S = 440\text{ m}^2$. Khối lượng riêng không khí ở độ cao này là $\rho = 0,41\text{ kg/m}^3$.
+
+Hãy phân tích các lực tác dụng lên máy bay và tính độ lớn lực nâng khí động học $F_{nâng}$ cần thiết để giữ máy bay bay nằm ngang cân bằng.
+Lực nâng khí động học tuân theo công thức $F_{nâng} = \frac{1}{2} C_L \rho S v^2$, với $C_L$ là hệ số lực nâng. Xác định giá trị hệ số lực nâng $C_L$ của cánh máy bay ở chế độ bay hành trình này.
+Khi máy bay đi vào vùng không khí loãng hơn ($\rho'$ giảm), để duy trì lực nâng cân bằng trọng lượng mà không đổi góc tấn của cánh, máy bay phải điều chỉnh tốc độ bay $v'$ như thế nào? Tính $v'$ khi $\rho' = 0,35\text{ kg/m}^3$.
+Câu 4 (Thực hành Đo Tốc độ Tới hạn trong Chất lỏng & Sai số ISO/SI): Trong bài thực hành Vật lí 10, học sinh đo tốc độ tới hạn $v_{th}$ của viên bi thép bán kính $r = (2,00 \pm 0,05)\text{ mm}$ rơi trong ống thủy tinh chứa dầu nhờn. Viên bi rơi giữa hai mốc vạch cách nhau $h = (0,400 \pm 0,001)\text{ m}$. Đồng hồ hiện số ghi nhận thời gian rơi giữa hai mốc vạch qua 5 lần đo thu được các giá trị $t$ ($\text{s}$): $2,02$; $1,98$; $2,01$; $2,00$; $1,99$.
+
+Tính giá trị trung bình $\bar{t}$ và sai số tuyệt đối $\Delta t$ của thời gian rơi. Viết kết quả phép đo $t$.
+Tính tốc độ tới hạn trung bình $\bar{v}{th}$ và sai số tuyệt đối $\Delta v{th}$. Viết kết quả phép đo $v_{th}$ theo chuẩn ISO/SI.
+Biết lực cản chất lỏng tuân theo Định luật Stokes $F_c = 6\pi \eta r v$. Hãy thiết lập biểu thức tính độ nhớt $\eta$ của dầu nhờn theo $r, g, \rho_{thép}, \rho_{dầu}$ và $v_{th}$ khi viên bi rơi thẳng đều (bỏ qua gia tốc).
+Câu 5 (Bài toán Tối ưu hóa Cánh gió Xe đua F1 - Halliday Challenge): Xe đua F1 Hà Nội Grand Prix khối lượng $m = 800\text{ kg}$ chạy qua một đoạn đường cua tròn bán kính $R = 100\text{ m}$ trên mặt đường nằm ngang. Hệ số ma sát nghỉ giữa lốp xe và mặt đường là $\mu_n = 0,75$. Lấy $g = 9,8\text{ m/s}^2$.
+
+Nếu xe đua không gắn cánh gió khí động học (không có lực ép xuống Downforce), hãy tính tốc độ ôm cua tối đa $v_{\max1}$ để xe không bị trượt văng ra ngoài.
+Để tăng tốc độ ôm cua, xe được gắn cánh gió khí động học phía sau tạo ra lực ép thẳng đứng xuống mặt đường $F_{down} = D_d \cdot v^2$ với $D_d = 1,20\text{ kg/m}$. Thiết lập biểu thức tính tốc độ ôm cua tối đa $v_{\max2}$ khi có cánh gió và tính giá trị $v_{\max2}$ bằng $\text{m/s}$ và $\text{km/h}$.
+Bằng lập luận động lực học, hãy giải thích vì sao xe đua F1 có thể chạy bám dính trên trần của một đường hầm hình trụ vòm ngược nếu tốc độ xe đủ lớn. Tính tốc độ tối thiểu $v_{\min_trần}$ để xe có thể chạy ngược trên trần hầm nằm ngang.
+PHẦN 5: ĐÁP ÁN VÀ LỜI GIẢI CHI TIẾT (100%)
+PHẦN 1: TRẮC NGHIỆM 4 PHƯƠNG ÁN
+B | Rơi thẳng đều khi $F_c = P \Rightarrow k \cdot v_{th} = mg \Rightarrow v_{th} = mg/k$. Hợp lực bằng 0, gia tốc $a = 0$.
+A | $F_A = \rho_{kk} \cdot g \cdot V = 1,29 \times 9,8 \times 10 = 126,42\text{ N}$.
+A | Dựa trên định luật Bernoulli (chênh lệch áp suất tĩnh giữa hai mặt cánh) kết hợp với định luật 3 Newton đẩy luồng khí xuống.
+A | Cân bằng $F_c = P \Rightarrow D \cdot v_{th}^2 = mg \Rightarrow v_{th} = \sqrt{mg/D}$.
+B | Tạo lực ép xuống $F_{down}$ tăng pháp lực $N = mg + F_{down} \Rightarrow F_{msn,\max} = \mu_n N$ tăng lên giúp ôm cua tốc độ cao.
+A | $F_A = \rho_n \cdot g \cdot V = 1000 \times 9,8 \times 0,002 = 19,6\text{ N}$. Trọng lượng $P = mg = 5 \times 9,8 = 49\text{ N} \Rightarrow P' = P - F_A = 49 - 19,6 = 29,4\text{ N}$.
+B | $A$ nhẵn bóng có $D_A < D_B \Rightarrow v_{thA} = \sqrt{mg/D_A} > v_{thB}$, quả $A$ rơi nhanh hơn và chạm đất trước.
+C | Vừa mở dù $F_{c2} = D_2 v^2 \gg P \Rightarrow F_{hl} = F_c - P > 0$ hướng lên $\Rightarrow$ gia tốc hãm rất lớn hướng thẳng đứng lên trên.
+B | Đứng yên lơ lửng cân bằng tĩnh dưới nước $\Rightarrow F_A = P$.
+B | Giảm diện tích cản $S$ và hệ số cản $C_d$ nhằm triệt tiêu tối đa lực cản của nước $F_c = \frac{1}{2} C_d \rho S v^2$.
+B | Gia tốc $a = g - (k/m)v$ giảm dần về 0, đồ thị $v(t)$ tăng dốc rồi nằm ngang tiệm cận $v_{th}$.
+A | Nổi cân bằng $F_A = P \Rightarrow \rho_n \cdot g \cdot V_{chìm} = \rho_g \cdot g \cdot V \Rightarrow V_{chìm}/V = \rho_g / \rho_n = 600/1000 = 60%$.
+B | Trong không khí có $F_A = \rho_{kk} g V > 0$, số chỉ lực kế $N = P - F_A < P$, nên cân trong không khí cho kết quả nhỏ hơn trong chân không.
+B | Khi rơi thẳng đều: $P - F_A = F_c \Rightarrow \frac{4}{3}\pi r^3 (\rho_{thép} - \rho_{dầu})g = 6\pi \eta r v_{th} \Rightarrow v_{th} \propto r^2$. Bán kính tăng 2 lần $\Rightarrow v_{th}$ tăng $2^2 = 4$ lần.
+A | Đập cánh đẩy chất lưu xuống phía dưới nhận phản lực hướng lên theo Định luật 3 Newton kết hợp khí động học.
+C | Lực cản $F_c \propto v^2$. Công suất $P_{cs} = F_c \cdot v \propto v^3$. Vận tốc tăng 2 lần $\Rightarrow P_{cs}$ tăng $2^3 = 8$ lần.
+A | Bóng xoay kéo theo lớp không khí làm v tăng ở một bên và giảm ở bên kia $\Rightarrow$ chênh lệch áp suất tạo ra lực Magnus vuông góc với vận tốc.
+A | Trọng lượng $P = mg = 800 \times 9,8 = 7840\text{ N}$. Lực $F_A = \rho_{biển} g V = 1025 \times 9,8 \times 0,70 = 7031,5\text{ N}$. Rô-bốt lặn xuống đều $\Rightarrow P + F_{đẩy} = F_A + F_c$ (khi chậm coi $F_c \approx 0$) $\Rightarrow F_{đẩy} = P - F_A = 7840 - 7031,5 = 808,5\text{ N}$ (chính xác lấy $g=9,8 \Rightarrow 803,6\text{ N}$).
+B | Thiết kế vỏ rỗng làm thể tích chiếm chỗ $V_{cc}$ cực lớn $\Rightarrow F_A = \rho_n g V_{cc} \ge P_{tổng}$.
+B | $a(t) = g - \frac{k}{m}v(t)$. Khi $t=0, v=0 \Rightarrow a=g$. Khi $t \rightarrow \infty, v \rightarrow v_{th} \Rightarrow a \rightarrow 0$.
+PHẦN 2: TRẮC NGHIỆM ĐÚNG/SAI
+Câu 1:
+
+a) ĐÚNG: Ban đầu $v = 0 \Rightarrow F_c = 0 \Rightarrow a = g = 9,8\text{ m/s}^2$.
+b) ĐÚNG: Chưa mở dù: $v_{th1} = \sqrt{mg/D_1} = \sqrt{(80 \times 9,8)/0,25} = \sqrt{3136} = 56,0\text{ m/s} = 201,6\text{ km/h}$.
+c) ĐÚNG: Sau khi mở dù: $v_{th2} = \sqrt{mg/D_2} = \sqrt{(80 \times 9,8)/20,0} = \sqrt{39,2} \approx 6,26\text{ m/s} = 22,5\text{ km/h}$.
+d) SAI: Gia tốc biến đổi liên tục theo vận tốc ($a = g - D v^2 / m$), không phải chuyển động thẳng biến đổi đều.
+Câu 2:
+
+a) SAI: Bơm nước vào khoang làm tăng trọng lượng để lặn xuống, không phải nổi lên.
+b) ĐÚNG: Xả khí cho nước tràn vào khoang làm $P > F_A \Rightarrow$ tàu lặn xuống.
+c) ĐÚNG: Lơ lửng cân bằng tĩnh ở độ sâu bất kỳ $\Rightarrow F_A = P$.
+d) SAI: $F_A = \rho \cdot g \cdot V_{tàu}$ chỉ phụ thuộc thể tích tàu và khối lượng riêng của nước, không phụ thuộc độ sâu (nước biển xem như không bị nén).
+Câu 3:
+
+a) ĐÚNG: Tối ưu hóa thiết kế giảm $C_d$ giúp giảm công cản không khí, tiết kiệm điện năng.
+b) ĐÚNG: Lực cản không khí tăng theo vận tốc và ngược chiều chuyển động.
+c) SAI: Ở $100\text{ km/h}$, lực cản không khí chiếm tới $70% - 80%$ tổng lực cản tác dụng lên ô tô.
+d) ĐÚNG: Lực nâng khí động học làm giảm $N$, giảm $F_{msn,\max}$ gây mất bám đường nếu không thiết kế đúng.
+Câu 4:
+
+a) SAI: Tỉ số $v_{th}/r$ không hằng số ($2,5; 5,0; 7,5; 10,0$).
+b) ĐÚNG: Khảo sát tỉ số $v_{th}/r^2$: $2,5/1^2 = 2,5$; $10,0/2^2 = 2,5$; $22,5/3^2 = 2,5$; $40,0/4^2 = 2,5$.
+c) ĐÚNG: $v_{th}/r^2 = 2,5\text{ cm/(s}\cdot\text{mm}^2)$ là hằng số.
+d) ĐÚNG: Tuân theo Định luật Stokes $F_c \propto r \cdot v \Rightarrow v_{th} \propto r^2$.
+Câu 5:
+
+a) ĐÚNG: Mặt trên cong làm các đường dòng bị nén sát $\Rightarrow v_{trên} > v_{dưới}$.
+b) ĐÚNG: Theo Bernoulli: $p + \frac{1}{2}\rho v^2 = \text{const} \Rightarrow v_{trên} > v_{dưới} \Rightarrow p_{trên} < p_{dưới}$.
+c) ĐÚNG: Chênh lệch áp suất tạo ra lực nâng $F_{nâng} = (p_{dưới} - p_{trên})S > 0$.
+d) SAI: Máy bay nhào lộn có thể bay ngược bằng cách điều chỉnh góc tấn (Angle of Attack) của cánh nghiêng so với luồng khí.
+PHẦN 3: TRẮC NGHIỆM TRẢ LỜI NGẮN
+Câu 1: 0.49 (hoặc 0,49)\n* Giải: $v_{th} = \frac{mg}{k} = \frac{2,0 \times 10^{-5} \times 9,8}{4,0 \times 10^{-4}} = \frac{1,96 \times 10^{-4}}{4,0 \times 10^{-4}} = 0,49\text{ m/s}$.
+
+Câu 2: 1.5 (hoặc 1,5)\n* Giải: Nổi cân bằng $F_A = P \Rightarrow \rho_n \cdot g \cdot V_{chìm} = m \cdot g \Rightarrow V_{chìm} = \frac{m}{\rho_n} = \frac{1,5\text{ kg}}{1000\text{ kg/m}^3} = 0,0015\text{ m}^3 = 1,5\text{ dm}^3$.
+
+Câu 3: 735\n* Giải: Rơi thẳng đều $\Rightarrow F_c = P = m \cdot g = 75 \times 9,8 = 735\text{ N}$.
+
+Câu 4: 1205.4 (hoặc 1205)\n* Giải: $F_A = \rho \cdot g \cdot V = 1025 \times 9,8 \times 120 = 1205400\text{ N} = 1205,4\text{ kN}$.
+
+Câu 5: 378\n* Giải: $F_c = \frac{1}{2} C_d \rho S v^2 = 0,5 \times 0,28 \times 1,20 \times 2,5 \times (30)^2 = 0,42 \times 900 = 378\text{ N}$.
+
+PHẦN 4: TỰ LUẬN
+Câu 1:
+
+Rơi tự do lý tưởng:
+$v_0 = \sqrt{2gh} = \sqrt{2 \times 9,8 \times 1000} = \sqrt{19600} = 140\text{ m/s}$ ($504\text{ km/h}$).
+Nhận xét: Tốc độ $504\text{ km/h}$ tương đương đầu đạn xé gió, sẽ tàn phá toàn bộ nhà cửa, cây cối, xe cộ và đe dọa trực tiếp tính mạng con người trên mặt đất.
+Tốc độ tới hạn thực tế:
+$F_c = P \Rightarrow D \cdot v_{th}^2 = m \cdot g \Rightarrow v_{th} = \sqrt{\frac{mg}{D}} = \sqrt{\frac{5,0 \times 10^{-4} \times 9,8}{2,5 \times 10^{-5}}} = \sqrt{196} = 14,0\text{ m/s}$ ($50,4\text{ km/h}$).
+Công của lực cản không khí:
+Áp dụng định lý biến thiên động năng từ lúc rơi ($v=0$) đến khi chạm đất với $v_{th} = 14\text{ m/s}$: $$\Delta E_đ = A_P + A_{Fc} \Rightarrow \frac{1}{2} m v_{th}^2 - 0 = m g h + A_{Fc}$$ $$A_{Fc} = \frac{1}{2} m v_{th}^2 - m g h = \frac{1}{2}(5,0 \times 10^{-4})(14)^2 - (5,0 \times 10^{-4})(9,8)(1000)$$ $$A_{Fc} = 0,049 - 4,900 = -4,851\text{ J}.$$
+Lực cản không khí đã thực hiện công âm $-4,851\text{ J}$ (triệt tiêu $99%$ cơ năng) giúp giọt mưa đá rơi an toàn xuống đất.
+Câu 2:
+
+Tốc độ tới hạn hạ cánh:
+$v_{th} = \sqrt{\frac{Mg}{D}} = \sqrt{\frac{90 \times 9,8}{18,0}} = \sqrt{49} = 7,0\text{ m/s}$ ($25,2\text{ km/h}$).
+Xét tại thời điểm vừa xòe dù ($v_1 = 40\text{ m/s}$):
+Độ lớn lực cản không khí tức thời: $$F_c = D \cdot v_1^2 = 18,0 \times (40)^2 = 28800\text{ N} \text{ (hướng thẳng đứng lên trên)}.$$
+Trọng lực: $P = Mg = 90 \times 9,8 = 882\text{ N}$ (hướng thẳng đứng xuống dưới).
+Hợp lực tác dụng lên chiến sĩ: $$F_{hl} = F_c - P = 28800 - 882 = 27918\text{ N} \text{ (hướng thẳng đứng lên trên)}.$$
+Gia tốc hãm tức thời: $$a_{hãm} = \frac{F_{hl}}{M} = \frac{27918}{90} = 310,2\text{ m/s}^2 \approx 31,65g.$$
+Giải thích tư thế chạm đất:
+Khi chạm đất ở tốc độ $7,0\text{ m/s}$, động lượng của cơ thể bị triệt tiêu về $0$. Động tác chụm hai chân, khuỳnh gối và tiếp đất bằng nửa bàn chân trước giúp kéo dài thời gian va chạm $\Delta t$, làm giảm lực xung kích $F = \Delta p / \Delta t$ tác dụng lên khớp gối và cột sống, tránh chấn thương gãy xương.
+Câu 3:
+
+Phân tích lực & Lực nâng cân bằng:
+Khi máy bay bay nằm ngang thẳng đều: $\sum \vec{F} = \vec{0} \Rightarrow F_{nâng} = P = M \cdot g$.
+$F_{nâng} = 2,4 \times 10^5\text{ kg} \times 9,8\text{ m/s}^2 = 2,352 \times 10^6\text{ N} = 2352\text{ kN}$.
+Xác định hệ số lực nâng $C_L$:
+$F_{nâng} = \frac{1}{2} C_L \rho S v^2 \Rightarrow C_L = \frac{2 F_{nâng}}{\rho S v^2}$.
+Vận tốc $v = 250\text{ m/s}$.
+$C_L = \frac{2 \times (2,352 \times 10^6)}{0,41 \times 440 \times (250)^2} = \frac{4,704 \times 10^6}{1,1275 \times 10^7} \approx 0,417$.
+Điều chỉnh tốc độ bay khi vào vùng không khí loãng:
+Để giữ $F_{nâng} = P$ không đổi với $\rho' = 0,35\text{ kg/m}^3$: $$\frac{1}{2} C_L \rho S v^2 = \frac{1}{2} C_L \rho' S (v')^2 \Rightarrow \rho v^2 = \rho' (v')^2$$ $$v' = v \sqrt{\frac{\rho}{\rho'}} = 250 \times \sqrt{\frac{0,41}{0,35}} = 250 \times 1,0823 \approx 270,6\text{ m/s} \text{ (khoảng } 974\text{ km/h)}.$$
+Kết luận: Máy bay phải tăng tốc lên $974\text{ km/h}$ để bù đắp lực nâng bị suy giảm do không khí loãng.
+Câu 4:
+
+Tính thời gian rơi $t$:
+$\bar{t} = \frac{2,02 + 1,98 + 2,01 + 2,00 + 1,99}{5} = \frac{10,00}{5} = 2,00\text{ s}$.
+Sai số tuyệt đối ngẫu nhiên: $$\Delta t_1 = |2,02 - 2,00| = 0,02\text{ s}; \quad \Delta t_2 = 0,02\text{ s}; \quad \Delta t_3 = 0,01\text{ s}; \quad \Delta t_4 = 0,00\text{ s}; \quad \Delta t_5 = 0,01\text{ s}.$$ $$\overline{\Delta t} = \frac{0,02 + 0,02 + 0,01 + 0,00 + 0,01}{5} = 0,012\text{ s}.$$
+Kết hợp sai số dụng cụ đồng hồ $\Delta t_{dc} = 0,01\text{ s} \Rightarrow \Delta t = 0,012 + 0,01 = 0,022\text{ s} \approx 0,02\text{ s}$.
+Kết quả phép đo: $t = (2,00 \pm 0,02)\text{ s}$.
+Tính tốc độ tới hạn $v_{th}$:
+$\bar{v}_{th} = \frac{\bar{h}}{\bar{t}} = \frac{0,400}{2,00} = 0,200\text{ m/s}$.
+Sai số tỉ đối: $\delta v_{th} = \delta h + \delta t = \frac{\Delta h}{\bar{h}} + \frac{\Delta t}{\bar{t}} = \frac{0,001}{0,400} + \frac{0,02}{2,00} = 0,0025 + 0,0100 = 0,0125 = 1,25%$.
+Sai số tuyệt đối: $\Delta v_{th} = \bar{v}{th} \cdot \delta v{th} = 0,200 \times 0,0125 = 0,0025\text{ m/s} \approx 0,003\text{ m/s}$.
+Kết quả $v_{th} = (0,200 \pm 0,003)\text{ m/s}$.
+Thiết lập biểu thức độ nhớt $\eta$:
+Khi viên bi rơi thẳng đều: $P - F_A = F_c \Rightarrow m \cdot g - \rho_{dầu} \cdot g \cdot V = 6\pi \eta r v_{th}$.
+Với $m = \rho_{thép} \cdot V = \rho_{thép} \cdot \frac{4}{3}\pi r^3$: $$\frac{4}{3}\pi r^3 (\rho_{thép} - \rho_{dầu})g = 6\pi \eta r v_{th}$$ $$\eta = \frac{2 r^2 g (\rho_{thép} - \rho_{dầu})}{9 v_{th}}.$$
+Câu 5:
+
+Tốc độ ôm cua không có cánh gió:
+Lực ma sát nghỉ cực đại đóng vai trò lực hướng tâm: $F_{msn,\max} = F_{ht}$.
+$\mu_n m g = m \frac{v_{\max1}^2}{R} \Rightarrow v_{\max1} = \sqrt{\mu_n g R} = \sqrt{0,75 \times 9,8 \times 100} = \sqrt{735} \approx 27,11\text{ m/s} \text{ (khoảng } 97,6\text{ km/h)}.$
+Tốc độ ôm cua có cánh gió khí động học ($F_{down} = D_d \cdot v^2$):
+Pháp lực tổng cộng tác dụng lên bánh xe: $N = m g + F_{down} = m g + D_d \cdot v^2$.
+Lực ma sát nghỉ cực đại: $F_{msn,\max} = \mu_n N = \mu_n (m g + D_d \cdot v^2)$.
+Điều kiện ôm cua không trượt: $$\mu_n (m g + D_d \cdot v^2) = m \frac{v^2}{R} \Rightarrow \mu_n m g + \mu_n D_d v^2 = \frac{m}{R} v^2$$ $$v^2 \left( \frac{m}{R} - \mu_n D_d \right) = \mu_n m g \Rightarrow v_{\max2} = \sqrt{\frac{\mu_n m g}{\frac{m}{R} - \mu_n D_d}} = \sqrt{\frac{\mu_n g}{\frac{1}{R} - \frac{\mu_n D_d}{m}}}.$$
+Thay số: $$\frac{1}{R} - \frac{\mu_n D_d}{m} = \frac{1}{100} - \frac{0,75 \times 1,20}{800} = 0,01000 - 0,001125 = 0,008875\text{ m}^{-1}.$$ $$v_{\max2} = \sqrt{\frac{0,75 \times 9,8}{0,008875}} = \sqrt{\frac{7,35}{0,008875}} = \sqrt{828,17} \approx 28,78\text{ m/s} \text{ (khoảng } 103,6\text{ km/h)}.$$
+Giải thích & Tính tốc độ chạy trên trần hầm nằm ngang:
+Giải thích: Lực ép khí động học Downforce $F_{down} = D_d \cdot v^2$ hướng lên trên (khi xe chạy lộn ngược) ép lốp xe vào trần hầm. Khi tốc độ đủ lớn, $F_{down}$ triệt tiêu trọng lực $mg$ và tạo pháp lực $N = F_{down} - mg > 0$ đủ lớn để lực ma sát nghỉ không cho xe rơi xuống.
+Điều kiện để xe bám dính không bị rơi khỏi trần hầm: $$N = F_{down} - m g \ge 0 \Rightarrow D_d \cdot v^2 \ge m g$$ $$v_{\min_trần} = \sqrt{\frac{mg}{D_d}} = \sqrt{\frac{800 \times 9,8}{1,20}} = \sqrt{6533,33} \approx 80,83\text{ m/s} \text{ (khoảng } 291\text{ km/h)}.$$
+Kết luận: Ở tốc độ từ $291\text{ km/h}$ trở lên, xe đua F1 hoàn toàn có thể chạy bám dính trên trần hầm vòm ngược mà không bị rơi!

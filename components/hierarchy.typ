@@ -1,85 +1,76 @@
-// KHỐI TIÊU ĐỀ CHƯƠNG (CHAPTER)
-#let vp-chapter(
-  num: "1",
-  title: "TÊN CHƯƠNG",
-  style: "chap_hexagon", 
-  color: rgb("#1E3A8A"),
-  font: "Arial"
-) = {
-  v(15pt)
-  if style == "chap_hexagon" {
-    // ----------------------------------------------------
-    // MẪU 1: LỤC GIÁC (DỰA TRÊN THIẾT KẾ CỦA THẦY MINH)
-    // ----------------------------------------------------
-    block(width: 100%, height: 70pt)[
-      // 1. Đường kẻ ngang tự động kéo dài 100% bề rộng trang
-      #place(top + left, dx: 100pt, dy: 35pt)[#line(length: 100%, stroke: 1.5pt + color)]
-      
-      // 2. Chấm tròn trang trí ở cuối (Neo bằng hệ tọa độ right)
-      #place(top + right, dx: 0pt, dy: 35pt)[#circle(radius: 2pt, fill: color, stroke: none)]
-      #place(top + right, dx: -10pt, dy: 35pt)[#circle(radius: 2pt, fill: color, stroke: none)]
-      
-      // 3. Khối đa giác Native (Không dùng SVG)
-      #place(top + left, dx: 0pt, dy: 5pt)[
-        #polygon(
-          fill: white, stroke: 2.5pt + color,
-          (25pt, 0pt), (75pt, 0pt), (100pt, 30pt), (75pt, 60pt), (25pt, 60pt), (0pt, 30pt)
-        )
-      ]
-      
-      // 4. Định vị chữ lọt lòng Lục giác
-      #place(top + left, dx: 26pt, dy: 15pt)[
-        #align(center)[
-          #text(fill: color, font: font, size: 9pt, weight: "bold")[CHƯƠNG]\
-          #text(fill: color, font: font, size: 26pt, weight: "black")[#num]
-        ]
-      ]
-      
-      // 5. Định vị Tên Chương nằm sát đường kẻ ngang
-      #place(top + left, dx: 120pt, dy: 22pt)[
-        #text(fill: color, font: font, size: 22pt, weight: "bold")[#upper(title)]
-      ]
-    ]
-  } else {
-    // ----------------------------------------------------
-    // MẪU MẶC ĐỊNH: BO GÓC CƠ BẢN
-    // ----------------------------------------------------
-    align(center)[
-      #block(fill: color.lighten(90%), radius: 10pt, inset: 20pt, width: 100%)[
-        #text(fill: color, font: font, size: 12pt, weight: "bold")[CHƯƠNG #num] \
-        #text(fill: color, font: font, size: 24pt, weight: "black")[#upper(title)]
-      ]
-    ]
+// Public hierarchy API: renderers only draw, this module owns structure and counters.
+#import "headings/modern.typ": vp-chapter-modern, vp-lesson-modern
+#import "headings/basic.typ": _vp-chapter-basic, _vp-lesson-basic, vp-lesson-star as _vp-lesson-star
+#import "hierarchy_rules.typ": vp-hierarchy
+#import "document_state.typ": vp-is-first-lesson
+#let vp-chapter-counter = counter("vp-chapter")
+#let vp-lesson-counter = counter("vp-lesson")
+
+#let _vp-step-structure(c, num) = {
+  if num == auto { c.step() }
+  else if type(num) == int { c.update(num) }
+  else if type(num) == str and num.match(regex("^[0-9]+$")) != none { c.update(int(num)) }
+  else { c.step() }
+}
+
+#let _vp-structural-heading(level, num, title, supplement, target) = {
+  place({
+    set heading(offset: 0)
+    show heading: it => hide(it)
+    let marker = heading(level: level, numbering: (..values) => str(num),
+      supplement: supplement, outlined: true, title)
+    if target == none { marker } else { [#marker #target] }
+  })
+}
+
+#let vp-chapter(num: auto, title: "TÊN CHƯƠNG", style: "chap_modern",
+  color: auto, font: auto, label: none) = {
+  assert(("chap_modern", "chap_hexagon", "default").contains(style), message: "Unknown chapter style")
+  pagebreak(weak: true)
+  _vp-step-structure(vp-chapter-counter, num)
+  vp-lesson-counter.update(0)
+  vp-is-first-lesson.update(true)
+  context {
+    let n = if num == auto { str(vp-chapter-counter.get().first()) } else { str(num) }
+    [#metadata("vp-chapter") <vp-chapter-mark>]
+    [#metadata((num: n, title: title)) <vp-chapter-info>]
+    [#metadata([Chương #n: #title]) <vp-chapter-title>]
+    _vp-structural-heading(1, n, title, [Chương], label)
+    counter(heading).update(0)
+    let f = if font == auto { ("Rounded Mplus 1c", "Arial") } else { font }
+    if style == "chap_modern" {
+      vp-chapter-modern(num: n, title: title, color: color, font: f)
+    } else {
+      _vp-chapter-basic(num: n, title: title, style: style, color: color, font: f)
+    }
   }
-  v(15pt)
 }
 
-// KHỐI BÀI HỌC (LESSON)
-#let vp-lesson(
-  num: "1",
-  title: "TÊN BÀI HỌC",
-  style: "less_ribbon",
-  color: rgb("#FF7A1D"),
-  font: "Arial"
-) = {
-  v(10pt)
-  block(width: 100%, stroke: (left: 6pt + color), inset: (left: 10pt))[
-    #text(fill: color, font: font, size: 16pt, weight: "bold")[BÀI #num: #upper(title)]
-  ]
-  v(5pt)
+#let vp-lesson(num: auto, title: "TÊN BÀI HỌC", subtitle: none,
+  style: "less_modern", color: auto, font: auto, tab-text: "BÀI HỌC",
+  new-page: auto, label: none) = {
+  assert(("less_modern", "less_ribbon", "less_default", "default", "less_star").contains(style),
+    message: "Unknown lesson style")
+  _vp-step-structure(vp-lesson-counter, num)
+  context {
+    let should-break = if new-page == auto { not vp-is-first-lesson.get() } else { new-page }
+    if should-break { pagebreak(weak: true) }
+    vp-is-first-lesson.update(false)
+    let n = if num == auto { str(vp-lesson-counter.get().first()) } else { str(num) }
+    [#metadata([Bài #n: #title]) <vp-lesson-title>]
+    _vp-structural-heading(if heading.offset == 2 { 2 } else { 1 }, n, title, [Bài], label)
+    counter(heading).update(0)
+    let f = if font == auto { ("Rounded Mplus 1c", "Arial") } else { font }
+    if style == "less_modern" {
+      vp-lesson-modern(num: n, title: title, subtitle: subtitle, color: color, font: f, tab-text: tab-text)
+    } else if style == "less_star" {
+      _vp-lesson-star(num: n, title: title, subtitle: subtitle, color: color, font: f, tab-text: tab-text)
+    } else {
+      _vp-lesson-basic(num: n, title: title, subtitle: subtitle, style: style,
+        color: color, font: f, tab-text: tab-text)
+    }
+  }
 }
 
-// KHỐI MỤC LỚN (SECTION)
-#let vp-section(
-  num: "I",
-  title: "TIÊU ĐỀ MỤC",
-  style: "sec_underline",
-  color: rgb("#1890FF"),
-  font: "Arial"
-) = {
-  v(10pt)
-  block(width: 100%, stroke: (bottom: 1.5pt + color), inset: (bottom: 5pt))[
-    #text(fill: color, font: font, size: 14pt, weight: "bold")[#num. #upper(title)]
-  ]
-  v(5pt)
-}
+#let vp-lesson-star = vp-lesson.with(style: "less_star")
+#let vp-lesson-title = vp-lesson-star

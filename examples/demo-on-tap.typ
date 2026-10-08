@@ -1,6 +1,5 @@
 // ==========================================
 // TỆP ĐỀ CƯƠNG ÔN TẬP KHÍ LÍ TƯỞNG
-// Thư mục: vietphys-package/examples/demo_khi_li_tuong.typ
 // ==========================================
 
 #import "../vietphys.typ": *
@@ -32,7 +31,7 @@
 // ==========================================
 // PHẦN I: TÓM TẮT KIẾN THỨC
 // ==========================================
-#vp-section(num: "I", title: "TÓM TẮT KIẾN THỨC")
+=== TÓM TẮT KIẾN THỨC
 
 Khí lí tưởng là một mô hình vật lý quan trọng, giúp đơn giản hóa việc nghiên cứu các đặc tính của chất khí trong tự nhiên.
 
@@ -59,7 +58,7 @@ Khí lí tưởng là một mô hình vật lý quan trọng, giúp đơn giản
 // ==========================================
 // PHẦN II: BÀI TẬP VÍ DỤ
 // ==========================================
-#vp-section(num: "II", title: "BÀI TẬP VÍ DỤ")
+=== BÀI TẬP VÍ DỤ
 
 // BẬT hiển thị Đáp án & Lời giải cho phần Ví dụ
 #vp-show-ans.update(true)
@@ -103,7 +102,7 @@ Khí lí tưởng là một mô hình vật lý quan trọng, giúp đơn giản
 // ==========================================
 // PHẦN III: BÀI TẬP LUYỆN TẬP
 // ==========================================
-#vp-section(num: "III", title: "BÀI TẬP LUYỆN TẬP")
+=== BÀI TẬP LUYỆN TẬP
 
 // TẮT Lời giải & Đáp án (Học sinh tự làm, sẽ tự động in xuống cuối sách)
 #vp-show-ans.update(false)
@@ -239,7 +238,7 @@ Khí lí tưởng là một mô hình vật lý quan trọng, giúp đơn giản
 // PHẦN IV: LỜI GIẢI CHI TIẾT
 // ==========================================
 #pagebreak()
-#vp-section(num: "IV", title: "LỜI GIẢI CHI TIẾT")
+=== LỜI GIẢI CHI TIẾT
 
 // Hàm tự động nhả Bảng Đáp án và Lời giải.
 // Hệ thống sẽ THÔNG MINH BỎ QUA Phần II (Bài tập ví dụ) do ta đã bật #vp-show-sol ở trên, 

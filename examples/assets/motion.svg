@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 230">
+  <rect width="340" height="230" rx="10" fill="#f0f7ff"/>
+  <g stroke="#d6e4ff" stroke-width="1"><path d="M50 45H300M50 105H300M50 165H300M110 25V190M170 25V190M230 25V190M290 25V190"/></g>
+  <g fill="none" stroke="#333" stroke-width="2"><path d="M50 195V22M45 30L50 20L55 30M40 185H310M300 180L312 185L300 190"/></g>
+  <path d="M50 165L290 45" stroke="#1890ff" stroke-width="4" fill="none"/>
+  <path d="M290 45V185M50 45H290" stroke="#888" stroke-dasharray="5 4" fill="none"/>
+  <g font-family="Arial" font-size="14" fill="#333"><text x="12" y="20">v (m/s)</text><text x="272" y="218">t (s)</text><text x="32" y="203">0</text><text x="27" y="170">2</text><text x="18" y="50">10</text><text x="285" y="203">4</text></g>
+</svg>

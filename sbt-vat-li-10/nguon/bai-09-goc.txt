@@ -1,0 +1,323 @@
+BÀI 9: ĐỊNH LUẬT 1 NEWTON (SBT CHUYÊN SÂU & PHÂN HÓA)
+PHẦN 1: TRẮC NGHIỆM 4 PHƯƠNG ÁN LỰA CHỌN (20 CÂU)
+Thí sinh chọn 1 phương án đúng nhất cho mỗi câu. Các câu hỏi được thiết kế phân hóa, phản biện bẫy nhận thức và ứng dụng thực tiễn.
+
+Câu 1 (Bẫy khái niệm về Quán tính): Một ô tô VinFast VF8 đang di chuyển thẳng đều trên cao tốc Hà Nội – Hải Phòng với tốc độ $120\text{ km/h}$. Phát biểu nào sau đây thể hiện đúng bản chất vật lý về quán tính của xe?
+
+A. Quán tính là lực sinh ra bởi động cơ giúp ô tô chống lại lực cản không khí để duy trì tốc độ.
+B. Quán tính là tính chất cố hữu của ô tô có khối lượng, làm xe xu hướng giữ nguyên trạng thái vận tốc $\vec{v}$ hiện tại.
+C. Khi xe chạy càng nhanh thì quán tính của xe càng tăng, khi xe dừng lại thì quán tính bằng 0.
+D. Quán tính chỉ xuất hiện khi ô tô đột ngột phanh gấp hoặc tăng tốc, không tồn tại khi xe chạy đều.
+Câu 2 (Quan điểm Aristotle vs Galileo/Newton): Một cuốn sách Vật lí 10 đặt trên mặt bàn nằm ngang trong phòng học. Học sinh A dùng tay đẩy cuốn sách trượt đều. Khi học sinh A thôi tác dụng lực, cuốn sách trượt thêm một đoạn ngắn rồi dừng lại. Lập luận nào sau đây tuân thủ đúng Định luật 1 Newton?
+
+A. Cuốn sách dừng lại vì lực đẩy của tay đã hết, mà theo tự nhiên vật cần có lực tác dụng để duy trì chuyển động.
+B. Lực ma sát giữa mặt bàn và cuốn sách đóng vai trò là hợp lực làm biến đổi vận tốc của sách từ $v$ về $0$.
+C. Cuốn sách dừng lại vì quán tính của cuốn sách đã bị tiêu hao hết trong quá trình trượt trên mặt bàn.
+D. Khi cuốn sách trượt đều, lực đẩy của tay lớn hơn lực ma sát trượt tác dụng lên cuốn sách.
+Câu 3 (Điều kiện Cân bằng & Trạng thái Chuyển động): Một vật khối lượng $m$ chịu tác dụng của 3 lực đồng phẳng $\vec{F}_1, \vec{F}_2, \vec{F}_3$. Biết hợp lực của 3 lực này bằng $\vec{0}$ ($\vec{F}_1 + \vec{F}_2 + \vec{F}_3 = \vec{0}$). Trạng thái chuyển động của vật sẽ như thế nào?
+
+A. Vật chắc chắn phải đứng yên hoàn toàn tại gốc tọa độ.
+B. Vật chuyển động thẳng nhanh dần đều theo hướng của lực có độ lớn lớn nhất.
+C. Vật hoặc đứng yên, hoặc chuyển động thẳng đều với vận tốc không đổi $\vec{v} = \text{const}$.
+D. Vật chuyển động tròn đều xung quanh điểm đặt của hợp lực.
+Câu 4 (Hệ quy chiếu Quán tính - IRF): Hệ quy chiếu nào sau đây không được xem là hệ quy chiếu quán tính (xấp xỉ hoặc chính xác)?
+
+A. Hệ tọa độ gắn với tòa nhà Landmark 81 cố định trên mặt đất (bỏ qua sự tự quay rất nhỏ của Trái Đất).
+B. Hệ tọa độ gắn với tàu hỏa Bắc – Nam đang chạy thẳng đều với tốc độ $80\text{ km/h}$ trên đường ray thẳng.
+C. Hệ tọa độ gắn với chiếc xe buýt Hà Nội đang vào cua hãm phanh với gia tốc $a = 2,5\text{ m/s}^2$.
+D. Hệ tọa độ gắn với một con tàu vũ trụ đang bay thẳng đều trong không gian sâu xa rời các thiên thể.
+Câu 5 (Thắt dây An toàn & Tai nạn Giao thông): Trên đường tránh xe tải qua thành phố Ninh Bình, một chiếc ô tô chở khách phanh gấp để tránh chướng ngại vật. Hành khách không thắt dây an toàn bị chồm mạnh về phía trước và đập đầu vào tựa ghế phía trước. Hiện tượng này giải thích bằng
+
+A. lực quán tính của Trái Đất đẩy hành khách về phía trước.
+B. lực phanh của ô tô truyền sang hành khách đẩy họ về phía trước.
+C. hành khách có quán tính nên có xu hướng tiếp tục duy trì vận tốc cũ theo hướng chuyển động ban đầu của xe.
+D. sự giảm đột ngột của trọng lực tác dụng lên cơ thể hành khách khi phanh.
+Câu 6 (Khối lượng - Số đo Quán tính): Hai vật $A$ và $B$ nằm trên mặt phẳng ngang không ma sát. Khi tác dụng cùng một hợp lực $\vec{F}$ không đổi trong khoảng thời gian $\Delta t$, vật $A$ thay đổi vận tốc một lượng $\Delta v_A = 4\text{ m/s}$, vật $B$ thay đổi vận tốc một lượng $\Delta v_B = 1\text{ m/s}$. Tỉ số khối lượng $m_A / m_B$ bằng
+
+A. $4$.
+B. $1/4$.
+C. $2$.
+D. $1/2$.
+Câu 7 (Thí nghiệm Tưởng tượng của Galileo): Galileo đã thực hiện thí nghiệm tưởng tượng thả hòn bi trượt xuống từ một mặt phẳng nghiêng $1$ và trượt lên mặt phẳng nghiêng $2$. Khi giảm dần góc nghiêng của mặt phẳng $2$ về $0^\circ$ (thành mặt phẳng ngang) và bỏ qua mọi ma sát, hòn bi sẽ
+
+A. dừng lại ngay khi chạm vào mặt phẳng ngang vì không còn độ dốc.
+B. trượt trên mặt phẳng ngang cho đến khi năng lượng bị triệt tiêu hoàn toàn.
+C. chuyển động thẳng đều mãi mãi trên mặt phẳng ngang để tìm lại độ cao xuất phát ban đầu.
+D. chuyển động chậm dần đều và dừng lại sau khi đi được quãng đường bằng quãng đường trượt dốc.
+Câu 8 (Thang máy & Cảm giác Trọng lượng): Một người đứng trên một chiếc cân bàn đặt trong cabin thang máy của tòa nhà Lotte Center Hà Nội. Khi thang máy bắt đầu chuyển động đi lên nhanh dần đều với gia tốc $\vec{a}$, số chỉ của cân tăng lên. Hiện tượng này chứng tỏ
+
+A. trọng lực của Trái Đất tác dụng lên người đã tăng lên khi thang máy đi lên.
+B. lực áp vuông góc (pháp lực $N$) của chân người lên mặt cân tăng do quán tính của người chống lại sự tăng vận tốc hướng lên.
+C. quán tính của người đã biến mất khi thang máy có gia tốc.
+D. khối lượng của người bị thay đổi theo gia tốc của thang máy.
+Câu 9 (Chuyển động trong Vũ trụ sâu): Tàu vũ trụ Voyager 1 sau khi cất cánh từ Trái Đất đã bay ra ngoài hệ Mặt Trời vào không gian liên sao, nơi lực hấp dẫn của các ngôi sao là không đáng kể. Nếu động cơ đẩy của tàu tắt hoàn toàn, tàu Voyager 1 sẽ
+
+A. ngay lập tức dừng lại và đứng yên trong không gian.
+B. chuyển động chậm dần đều và dừng lại sau vài năm light-year.
+C. tiếp tục chuyển động thẳng đều với vận tốc không đổi mãi mãi.
+D. quay chuyển động tròn xung quanh tâm của Dải Ngân Hà với bán kính giảm dần.
+Câu 10 (Chống Lật xe vào Cua): Khi một chiếc xe tải chở đầy hàng hóa nặng đi vào đoạn đường cua tròn trên đường đèo Cả, tài xế bắt buộc phải giảm tốc độ. Lý do vật lý quan trọng nhất liên quan đến Định luật 1 Newton là
+
+A. khối lượng xe lớn làm lực ma sát giữa bánh xe và mặt đường bị giảm.
+B. xe có khối lượng lớn có mức quán tính lớn, có xu hướng tiếp tục đi thẳng theo tiếp tuyến, dễ dẫn đến trượt văng ra ngoài khúc cua hoặc lật xe.
+C. lực hấp dẫn của Trái Đất giảm đi khi xe đi vào đường cong.
+D. động cơ xe không đủ công suất để duy trì chuyển động tròn.
+Câu 11 (Máy đệm khí - Air Track): Trong phòng thực hành Vật lí, một con trượt chuyển động trên đệm khí nằm ngang. Khi bật máy nén khí, lớp khí mỏng nâng con trượt lên khỏi mặt ray. Nếu gạt nhẹ cho con trượt chuyển động, ta thấy đồ thị độ dịch chuyển – thời gian ($d - t$) của con trượt có dạng
+
+A. một đường parabol nằm ngang.
+B. một đường thẳng xiên góc đi qua gốc tọa độ.
+C. một đường cong tiệm cận nằm ngang thể hiện sự dừng lại.
+D. một đường zic-zac ngẫu nhiên.
+Câu 12 (Hiện tượng Rẽ ngoặt đột ngột): Hành khách ngồi trên xe buýt tuyến số 01 Hà Nội đang chạy thẳng đều. Bất ngờ tài xế đánh lái ngoặt sang bên trái để tránh xe máy tạt đầu. Hành khách trên xe sẽ bị ngả nghiêng về phía nào?
+
+A. Ngả về phía bên trái theo hướng đánh lái.
+B. Ngả về phía bên phải ngược hướng đánh lái.
+C. Chồm về phía trước theo hướng mũi xe.
+D. Ngửa về phía sau tựa ghế.
+Câu 13 (Phân tích Lực trên Giọt mưa): Một giọt nước mưa rơi trong không khí. Ban đầu giọt mưa rơi nhanh dần, nhưng sau một khoảng thời gian, giọt mưa đạt đến "tốc độ tới hạn" $v_{th}$ và rơi thẳng đều xuống đất. Tại trạng thái rơi thẳng đều này, kết luận nào sau đây là đúng?
+
+A. Lực cản không khí tác dụng lên giọt mưa đã biến mất hoàn toàn.
+B. Trọng lực tác dụng lên giọt mưa bị triệt tiêu do giọt mưa quá nhỏ.
+C. Độ lớn lực cản không khí đúng bằng độ lớn trọng lực tác dụng lên giọt mưa ($F_c = P$).
+D. Hợp lực tác dụng lên giọt mưa có độ lớn bằng $m \cdot g$.
+Câu 14 (Tựa đầu An toàn - Headrest): Tựa đầu phía trên ghế tựa của xe ô tô điện VinFast VF e34 có vai trò quan trọng nhất trong tình huống nào để bảo vệ đốt sống cổ của hành khách?
+
+A. Ô tô đang chạy nhanh thì phanh gấp.
+B. Ô tô đang đứng yên bị một xe khác đâm mạnh từ phía sau.
+C. Ô tô bị sa lầy vào hố cát.
+D. Ô tô bị trượt ngang khi chạy trên đường băng tuyết.
+Câu 15 (Giọt mực trên Trần xe hỏa): Một giọt mực nhỏ ngắt rớt từ trần của một toa tàu hỏa Bắc – Nam. Nếu toa tàu đang chạy thẳng đều với tốc độ $90\text{ km/h}$ trên đường ray nằm ngang, giọt mực sẽ rơi xuống sàn tàu tại vị trí
+
+A. đúng hình chiếu thẳng đứng của điểm ngắt rớt trên trần toa tàu.
+B. phía sau hình chiếu thẳng đứng một khoảng do toa tàu chạy về phía trước.
+C. phía trước hình chiếu thẳng đứng do giọt mực bị gió đẩy.
+D. lệch sang bên phải theo chiều quay của Trái Đất.
+Câu 16 (Bẫy nhận thức Lực duy trì): Nhận định nào sau đây là SAI theo quan điểm của Vật lí hiện đại?
+
+A. Một vật có thể chuyển động liên tục mà không cần bất kỳ lực nào tác dụng lên nó.
+B. Khi hợp lực tác dụng lên vật bằng 0, gia tốc của vật chắc chắn bằng 0.
+C. Muốn làm cho một vật đang đứng yên bắt đầu chuyển động, bắt buộc phải có hợp lực khác 0 tác dụng lên vật.
+D. Vật chuyển động càng nhanh thì hợp lực tác dụng lên vật phải càng lớn.
+Câu 17 (Cân bằng của Hộp hàng trên Sàn xe): Một kiện hàng khối lượng $50\text{ kg}$ đặt trên sàn nằm ngang của một xe tải đang chuyển động thẳng đều với vận tốc $15\text{ m/s}$. Bỏ qua lực cản không khí. Lực ma sát nghỉ giữa kiện hàng và sàn xe có độ lớn bằng
+
+A. $500\text{ N}$.
+B. $750\text{ N}$.
+C. $0\text{ N}$.
+D. $50\text{ N}$.
+Câu 18 (Rũ bụi áo quần): Khi ta cầm chiếc áo khoác bị bám bụi và giật mạnh rồi dừng lại đột ngột, hạt bụi bị văng ra khỏi áo. Cơ sở vật lý của hành vi này dựa trên
+
+A. lực hút của Trái Đất kéo hạt bụi xuống.
+B. hạt bụi có quán tính nên tiếp tục chuyển động khi vải áo đã dừng lại.
+C. lực ma sát giữa hạt bụi và vải áo đột ngột tăng lên.
+D. sự điện hóa hạt bụi khi vung áo.
+Câu 19 (Nhảy từ Thuyền lên Bờ): Một người đứng ở đuôi một chiếc thuyền nhỏ đang đứng yên trên mặt nước hồ Tây. Khi người đó bước nhảy về phía trước để lên bờ, chiếc thuyền bị lùi về phía sau. Hiện tượng này thể hiện
+
+A. thuyền không có quán tính nên bị đẩy lùi.
+B. tác dụng tương hỗ giữa người và thuyền (Định luật 3 Newton) kết hợp với quán tính của thuyền.
+C. Định luật 1 Newton không áp dụng được trên mặt nước.
+D. lực cản của nước đẩy thuyền lùi lại.
+Câu 20 (Chuyển động của Vệ tinh Địa tĩnh): Vệ tinh viễn thông VINASAT-1 của Việt Nam chuyển động tròn đều xung quanh Trái Đất ở độ cao khoảng $35786\text{ km}$. Phát biểu nào sau đây đúng khi nói về lực tác dụng lên vệ tinh?
+
+A. Vệ tinh chuyển động tròn đều nên hợp lực tác dụng lên nó bằng 0 theo Định luật 1 Newton.
+B. Vệ tinh chịu tác dụng của lực hấp dẫn Trái Đất đóng vai trò lực hướng tâm làm biến đổi hướng vận tốc, do đó không thỏa mãn điều kiện $\sum \vec{F} = \vec{0}$ của Định luật 1.
+C. Lực quán tính ly tâm cân bằng hoàn toàn với lực hấp dẫn làm vệ tinh đứng yên so với mặt đất.
+D. Động cơ vệ tinh phải liên tục phun khí để tạo lực duy trì chuyển động tròn.
+PHẦN 2: TRẮC NGHIỆM ĐÚNG/SAI (5 CÂU)
+Thí sinh xét tính Đúng hoặc Sai cho mỗi ý a), b), c), d) trong từng câu.
+
+Câu 1: Một chiếc ô tô VinFast VF9 khối lượng $2,8\text{ tấn}$ đang chạy trên đường cao tốc Bắc – Nam đoạn Mai Sơn – Quốc lộ 45 với tốc độ không đổi $90\text{ km/h}$. Xét các phát biểu sau:
+
+a) Hợp lực của tất cả các lực tác dụng lên xe (trọng lực, pháp lực, lực kéo động cơ, lực cản không khí và ma sát) bằng 0.
+b) Nếu đột ngột động cơ bị ngắt hoàn toàn và bỏ qua ma sát ổ trục, ô tô sẽ lập tức dừng lại ngay tại chỗ do mất lực kéo.
+c) Nếu người lái xe thả nhẹ chân ga sao cho lực kéo cân bằng hoàn toàn với tổng lực cản, xe sẽ tiếp tục duy trì chuyển động thẳng đều $90\text{ km/h}$.
+d) Hành khách trên xe có khối lượng $70\text{ kg}$ sở hữu mức quán tính lớn hơn chính chiếc ô tô VinFast VF9.
+Câu 2: Lịch sử phát triển nhận thức Vật lí về Chuyển động và Lực từ thời Cổ đại đến Định luật 1 Newton:
+
+a) Aristotle cho rằng "Lực là nguyên nhân duy trì chuyển động", tức muốn vật chuyển động liên tục thì phải có lực tác dụng liên tục lên vật.
+b) Galileo Galilei là người đầu tiên đưa ra thí nghiệm tưởng tượng trên mặt phẳng nghiêng, chứng minh rằng nếu không có ma sát, vật sẽ chuyển động thẳng đều mãi mãi mà không cần lực tác dụng.
+c) Isaac Newton kế thừa phát kiến của Galileo và nâng lên thành Định luật 1 Newton, khẳng định lực không phải là nguyên nhân gây ra chuyển động mà là nguyên nhân làm biến đổi trạng thái chuyển động.
+d) Định luật 1 Newton có thể suy ra trực tiếp như một trường hợp đặc biệt của Định luật 2 Newton ($a = F/m \Rightarrow F = 0 \Rightarrow a = 0$), do đó Định luật 1 là thừa và không có vai trò định nghĩa Hệ quy chiếu quán tính.
+Câu 3: Khảo sát một chiếc va li đặt trên sàn phẳng của con tàu hỏa Express SE1 đang di chuyển:
+
+a) Khi tàu hỏa chạy thẳng đều với tốc độ $80\text{ km/h}$, va li nằm yên trên sàn tàu vì lực ma sát nghỉ giữa va li và sàn bằng 0.
+b) Nếu tàu hỏa đột ngột hãm phanh gấp, va li sẽ trượt về phía đầu toa tàu do quán tính của va li giữ nguyên vận tốc $80\text{ km/h}$ ban đầu.
+c) Nếu tàu hỏa bẻ lái rẽ sang bên phải, va li sẽ có xu hướng trượt nghiêng về phía bên trái toa tàu.
+d) Quan sát từ hệ quy chiếu gắn với toa tàu hỏa khi hãm phanh, va li tự động gia tốc về phía trước mà không có lực thực tế nào tác dụng, chứng tỏ hệ quy chiếu toa tàu lúc phanh là hệ quy chiếu quán tính.
+Câu 4: Thí nghiệm mô phỏng trên đệm khí (Air Track) trong phòng thí nghiệm trường THPT Chuyên:
+
+a) Khi tắt máy đệm khí, ma sát giữa con trượt và thanh ray rất lớn làm con trượt chuyển động chậm dần đều rồi dừng lại.
+b) Khi bật máy đệm khí, lớp không khí mỏng làm giảm ma sát xuống mức gần như bằng 0, con trượt chuyển động xấp xỉ thẳng đều.
+c) Độ dốc của đồ thị độ dịch chuyển – thời gian ($d - t$) của con trượt khi có đệm khí là một đường thẳng có hệ số góc hằng số bằng vận tốc $v$.
+d) Nếu tăng khối lượng con trượt bằng cách gắn thêm các quả nặng, mức quán tính của con trượt sẽ giảm đi, làm nó dễ bị biến đổi vận tốc hơn khi va chạm.
+Câu 5: Tình huống an toàn giao thông và quy chuẩn kĩ thuật xe cơ giới tại Việt Nam:
+
+a) Túi khí (Airbag) trong xe ô tô được kích hoạt khi có va chạm mạnh, làm kéo dài thời gian biến đổi động lượng của hành khách, giảm lực tác dụng lên cơ thể do quán tính chồm về trước.
+b) Xe tải chở hàng container bắt buộc phải chằng buộc hàng hóa chắc chắn vào thùng xe để tránh trường hợp xe phanh gấp, khối hàng do quán tính tiếp tục trôi xô lệch xé rách cabin.
+c) Người đi xe máy không đội mũ bảo hiểm khi xảy ra va chạm ngã xuống đường, đầu có quán tính va đập mạnh xuống mặt đường gây chấn thương não nghiêm trọng.
+d) Trên đường cao tốc, khoảng cách an toàn tối thiểu giữa hai xe chạy $100\text{ km/h}$ là $70\text{ m}$ nhằm bù đắp quãng đường xe di chuyển do quán tính trong thời gian phản xạ của tài xế và thời gian hãm phanh.
+PHẦN 3: TRẮC NGHIỆM TRẢ LỜI NGẮN (5 CÂU)
+Thí sinh tính toán và điền kết quả số.
+
+Câu 1: Một vật khối lượng $m = 4,0\text{ kg}$ nằm yên trên mặt sàn nằm ngang. Tác dụng vào vật một lực kéo nằm ngang $F = 12\text{ N}$. Biết lực ma sát trượt giữa vật và mặt sàn có độ lớn $F_{ms} = 12\text{ N}$. Sau $5,0\text{ giây}$ kể từ khi tác dụng lực, quãng đường vật đi được là bao nhiêu mét?
+
+Câu 2: Một xe ô tô khối lượng $1500\text{ kg}$ đang di chuyển thẳng đều trên đường ngang với tốc độ $72\text{ km/h}$. Tổng độ lớn của các lực cản (ma sát và cản không khí) tác dụng lên xe là $800\text{ N}$. Độ lớn của lực kéo do động cơ ô tô tạo ra bằng bao nhiêu Newton?
+
+Câu 3: Hai vật $A$ và $B$ có khối lượng lần lượt là $m_A = 2\text{ kg}$ và $m_B = 6\text{ kg}$ đặt trên mặt phẳng ngang không ma sát. Lần lượt tác dụng lực hợp lực $F$ không đổi lên vật $A$ trong thời gian $t$, vật $A$ đạt vận tốc $12\text{ m/s}$. Nếu tác dụng đúng hợp lực $F$ đó lên vật $B$ cũng trong thời gian $t$ (ban đầu vật $B$ đứng yên), vận tốc vật $B$ đạt được bằng bao nhiêu $\text{m/s}$?
+
+Câu 4: Một chiếc dù nhảy cứu hộ có khối lượng tổng cộng (người và dù) $m = 80\text{ kg}$ rơi thẳng đứng trong không khí. Khi lực cản không khí đạt giá trị $F_c = 784\text{ N}$ (lấy $g = 9,8\text{ m/s}^2$), gia tốc rơi của người nhảy dù bằng bao nhiêu $\text{m/s}^2$?
+
+Câu 5: Một con trượt đệm khí khối lượng $0,5\text{ kg}$ chuyển động thẳng đều trên thanh ray đệm khí nằm ngang. Tại thời điểm $t_1 = 1,0\text{ s}$, con trượt ở tọa độ $x_1 = 0,2\text{ m}$. Tại thời điểm $t_2 = 4,0\text{ s}$, con trượt ở tọa độ $x_2 = 1,4\text{ m}$. Độ lớn hợp lực tác dụng lên con trượt trong khoảng thời gian trên bằng bao nhiêu Newton?
+
+PHẦN 4: TỰ LUẬN (5 CÂU)
+Thí sinh trình bày chi tiết lời giải, lập luận vật lý và tính toán.
+
+Câu 1 (Phản biện Lý luận Vật lí - Aristotle vs Newton): Hãy so sánh chi tiết quan điểm của Aristotle và Isaac Newton về mối quan hệ giữa Lực và Chuyển động.
+
+Giải thích vì sao quan niệm của Aristotle lại thống trị tư tưởng loài người suốt hơn 2000 năm dù nó sai bản chất vật lý?
+Dùng nguyên lý Định luật 1 Newton và hiện tượng ma sát để giải thích hiện tượng: "Một người đẩy một chiếc xe hàng trên sàn siêu thị, xe chạy đều; khi người đó buông tay, xe chạy chậm dần rồi dừng lại."
+Câu 2 (Ứng dụng An toàn Giao thông & Vật lí Sinh học): Phân tích hiện tượng xảy ra đối với cổ và cột sống của hành khách ngồi trên xe ô tô trong hai tình huống giao thông thực tế tại Việt Nam:
+
+Xe ô tô điện VinFast đang đỗ chờ đèn đỏ tại ngã tư thì bị một xe tải nặng đâm mạnh từ phía sau.
+Xe ô tô đang chạy $80\text{ km/h}$ trên cao tốc Hà Nội – Hải Phòng thì tài xế đạp phanh gấp dừng lại hoàn toàn. Hãy giải thích vai trò của Tựa đầu (Headrest) và Dây an toàn 3 điểm (Seatbelt) trong việc ngăn ngừa chấn thương tử vong cho hành khách ở hai tình huống trên dựa vào Định luật 1 Newton.
+Câu 3 (Hệ quy chiếu Quán tính & Nguyên lý Tương đối Galilei): Một hành khách ngồi trong toa tàu hỏa đóng kín cửa, cách âm hoàn toàn, đang chạy trên đường ray thẳng không có xóc nảy.
+
+Người đó thả rơi một viên bi thép từ độ cao $h = 1,5\text{ m}$ xuống sàn toa tàu. Hỏi vị trí điểm chạm sàn của viên bi có bị lệch so với vị trí thả khi: a) Tàu hỏa đứng yên tại ga? b) Tàu hỏa đang chạy thẳng đều với tốc độ $100\text{ km/h}$? c) Tàu hỏa đang phanh gấp hãm tốc?
+Hành khách đó có thể thực hiện bất kỳ thí nghiệm cơ học nào bên trong toa tàu kín để phát hiện ra tàu đang đứng yên hay đang chuyển động thẳng đều hay không? Hãy lập luận dựa trên khái niệm Hệ quy chiếu quán tính.
+Câu 4 (Thực hành Khảo sát Quán tính & Đệm khí): Trong bài thực hành kiểm chứng Định luật 1 Newton bằng thanh ray đệm khí:
+
+Mô tả sơ đồ bố trí dụng cụ và phương pháp triệt tiêu lực ma sát giữa con trượt và thanh ray.
+Nếu máy đệm khí hoạt động hoàn hảo (bỏ qua ma sát), làm thế nào để xác định con trượt đang chuyển động thẳng đều? (Sử dụng hai cổng quang điện $A, B$ nối với đồng hồ đo thời gian hiện số MC964).
+Cho biết khoảng cách giữa hai cổng quang điện là $s = 0,50\text{ m}$. Thời gian tấm chắn sáng có bề rộng $d = 20\text{ mm}$ qua cổng $A$ là $t_A = 0,040\text{ s}$ và qua cổng $B$ là $t_B = 0,040\text{ s}$. Tính vận tốc $v_A, v_B$ và chứng minh con trượt thỏa mãn Định luật 1 Newton.
+Câu 5 (Bài toán Tối ưu hóa & Phân tích Động lực học Đa vật - Halliday Challenge): Một chiếc xe tải chở một thùng hàng khối lượng $M = 500\text{ kg}$ đặt trên sàn xe phẳng nằm ngang. Hệ số ma sát nghỉ giữa thùng hàng và sàn xe là $\mu_n = 0,35$. Xe tải đang chạy thẳng đều với tốc độ $v_0 = 72\text{ km/h}$ ($20\text{ m/s}$) trên đường ngang thì gặp chướng ngại vật. Lấy $g = 9,8\text{ m/s}^2$.
+
+Khi xe phanh gấp, lực nào đóng vai trò giữ cho thùng hàng không bị trượt xô về phía cabin xe? Hãy phân tích các lực tác dụng lên thùng hàng trong hệ quy chiếu mặt đất.
+Xác định gia tốc hãm phanh cực đại $a_{\max}$ của xe tải để thùng hàng vẫn đứng yên so với sàn xe (không bị trượt do quán tính).
+Tính quãng đường phanh ngắn nhất $s_{\min}$ của xe tải kể từ khi đạp phanh cho đến khi dừng hẳn mà thùng hàng vẫn an toàn không bị trượt.
+PHẦN 5: ĐÁP ÁN VÀ LỜI GIẢI CHI TIẾT (100%)
+PHẦN 1: TRẮC NGHIỆM 4 PHƯƠNG ÁN
+B | Quán tính là tính chất cố hữu của mọi vật có khối lượng, làm vật có xu hướng giữ nguyên trạng thái vận tốc $\vec{v}$ (cả hướng và độ lớn).
+B | Theo Newton, khi buông tay, lực ma sát trượt đóng vai trò hợp lực làm cuốn sách bị hãm tốc từ $v$ về $0$.
+C | Theo Định luật 1 Newton, khi $\sum \vec{F} = \vec{0}$, vật duy trì trạng thái đứng yên ($v = 0$) hoặc chuyển động thẳng đều ($ec{v} = \text{const}$).
+C | Xe buýt đang vào cua hãm phanh có gia tốc $a \ne 0$, do đó là hệ quy chiếu phi quán tính (Non-inertial frame).
+C | Xe phanh gấp nhưng cơ thể hành khách có quán tính nên giữ nguyên vận tốc cũ chồm về phía trước.
+B | $a = \Delta v / \Delta t$. Với cùng $F$ và $\Delta t$: $m_A \Delta v_A = m_B \Delta v_B \Rightarrow m_A / m_B = \Delta v_B / \Delta v_A = 1/4$.
+C | Thí nghiệm tưởng tượng Galileo: Không ma sát trên mặt phẳng ngang, hòn bi chuyển động thẳng đều mãi mãi.
+B | Khi thang máy gia tốc hướng lên, sàn cân phải tác dụng lực $N > P$ lên chân người để tạo gia tốc $a = (N - P)/m$. Lực $N$ tăng do quán tính chống lại sự gia tốc.
+C | Tàu Voyager 1 ở không gian sâu không chịu lực hút đáng kể ($\sum \vec{F} = \vec{0}$) nên tiếp tục chuyển động thẳng đều mãi mãi.
+B | Khối lượng xe lớn $\rightarrow$ quán tính lớn $\rightarrow$ xu hướng đi thẳng tiếp tuyến cực mạnh, dễ văng hoặc lật khi ôm cua nhanh.
+B | Đệm khí triệt tiêu ma sát $\rightarrow$ con trượt chuyển động thẳng đều $\rightarrow$ đồ thị $d - t$ là đường thẳng xiên góc.
+B | Xe ngoặt sang trái, do quán tính hành khách giữ chiều chuyển động thẳng cũ nên bị nghiêng sang phải so với xe.
+C | Khi rơi thẳng đều, gia tốc $a = 0 \Rightarrow \sum F = P - F_c = 0 \Rightarrow F_c = P$.
+B | Khi bị đâm từ phía sau, ghế ô tô lao về phía trước đẩy lưng hành khách, nhưng đầu do quán tính ở lại phía sau. Tựa đầu ngăn cổ bị gập ngửa ra sau gây gãy đốt sống cổ.
+A | Giọt mực có vận tốc nằm ngang $v = 90\text{ km/h}$ bằng vận tốc toa tàu, do quán tính giọt mực giữ nguyên $v_{ngang}$ này trong khi rơi $\rightarrow$ rơi đúng hình chiếu thẳng đứng.
+D | Phát biểu D sai. Vận tốc lớn không cần lực lớn. Lực chỉ cần thiết để biến đổi vận tốc (tạo gia tốc).
+C | Xe chạy thẳng đều $\rightarrow a = 0 \rightarrow$ kiện hàng không có gia tốc so với đất $\rightarrow$ lực ma sát nghỉ tác dụng lên kiện hàng bằng $0\text{ N}$.
+B | Khi dừng áo đột ngột, hạt bụi có quán tính tiếp tục chuyển động về phía trước và tách khỏi sợi vải.
+B | Người đạp thuyền lùi (lực tác dụng), thuyền đẩy người tiến (phản lực) và quán tính làm thuyền trượt lùi trên nước.
+B | Vệ tinh chuyển động tròn đều có gia tốc hướng tâm $\vec{a}{ht} \ne \vec{0}$, do đó hợp lực tác dụng lên nó là lực hấp dẫn $\vec{F}{hd} \ne \vec{0}$, không thỏa mãn $\sum \vec{F} = \vec{0}$.
+PHẦN 2: TRẮC NGHIỆM ĐÚNG/SAI
+Câu 1:
+
+a) ĐÚNG: Xe chạy thẳng đều $90\text{ km/h} \Rightarrow \vec{a} = \vec{0} \Rightarrow \sum \vec{F} = \vec{0}$.
+b) SAI: Xe có quán tính nên khi ngắt động cơ xe sẽ trượt tiếp một đoạn (do ma sát hãm chậm dần) chứ không đứng yên lập tức.
+c) ĐÚNG: Khi $F_{kéo} = F_{cản} \Rightarrow \sum F = 0 \Rightarrow$ xe tiếp tục duy trì chuyển động thẳng đều $90\text{ km/h}$.
+d) SAI: Mức quán tính đặc trưng bởi khối lượng. Xe $2,8\text{ tấn}$ có quán tính lớn hơn nhiều so với hành khách $70\text{ kg}$.
+Câu 2:
+
+a) ĐÚNG: Quan điểm Aristotle cho rằng lực là nguyên nhân duy trì chuyển động.
+b) ĐÚNG: Galileo dùng thí nghiệm tưởng tượng mặt phẳng nghiêng để bác bỏ Aristotle.
+c) ĐÚNG: Newton hệ thống hóa thành Định luật 1 Newton.
+d) SAI: Định luật 1 Newton không thừa. Nó có vai trò độc lập nền tảng là định nghĩa thế nào là Hệ quy chiếu quán tính – nơi mà Định luật 2 và 3 Newton mới có hiệu lực.
+Câu 3:
+
+a) ĐÚNG: Tàu chạy thẳng đều $\rightarrow a = 0 \rightarrow F_{msn} = 0$.
+b) ĐÚNG: Tàu hãm phanh (giảm tốc), va li giữ vận tốc cũ $80\text{ km/h}$ nên trượt lên phía trước.
+c) ĐÚNG: Tàu rẽ phải, va li giữ hướng thẳng cũ nên trượt sang trái so với toa tàu.
+d) SAI: Quan sát từ toa tàu thấy vật tự gia tốc mà không có lực tương tác $\rightarrow$ hệ quy chiếu toa tàu lúc phanh là phi quán tính.
+Câu 4:
+
+a) ĐÚNG: Tắt đệm khí $\rightarrow$ ma sát trượt lớn $\rightarrow$ chuyển động chậm dần.
+b) ĐÚNG: Bật đệm khí $\rightarrow$ ma sát $\approx 0 \rightarrow$ chuyển động thẳng đều.
+c) ĐÚNG: Đồ thị $d - t$ của chuyển động thẳng đều là đường thẳng dốc nghiêng có slope $k = v$.
+d) SAI: Tăng khối lượng $\rightarrow$ mức quán tính tăng lên (khó biến đổi vận tốc hơn).
+Câu 5:
+
+a) ĐÚNG: Túi khí tăng thời gian va chạm $\Delta t \rightarrow$ giảm lực quán tính tác dụng lên người ($F = \Delta p / \Delta t$).
+b) ĐÚNG: Tránh khối hàng theo quán tính lao xé rách cabin khi xe phanh khẩn cấp.
+c) ĐÚNG: Mũ bảo hiểm hấp thụ xung lực và giảm chấn thương do quán tính va đập.
+d) ĐÚNG: Bù đắp quãng đường di chuyển do quán tính trong thời gian phản xạ $t_{rx}$ của tài xế.
+PHẦN 3: TRẮC NGHIỆM TRẢ LỜI NGẮN
+Câu 1: 10 (hoặc 10,0)
+
+Giải: Hợp lực tác dụng lên vật: $F_{hl} = F - F_{ms} = 12 - 12 = 0\text{ N}$.
+Theo Định luật 1 Newton, vật đang đứng yên sẽ tiếp tục đứng yên. Quãng đường $s = 0\text{ m}$?
+Lưu ý gài bẫy: Ban đầu vật nằm yên. Lực kéo $12\text{ N}$ bằng đúng ma sát trượt $12\text{ N}$ (hoặc ma sát nghỉ cực đại). Khi vật chưa chuyển động, hợp lực bằng 0 làm vật tiếp tục đứng yên! Do đó quãng đường $s = 0\text{ m}$. (Nếu bài toán giả định vật đã chuyển động trượt đều thì $v = \text{const}$, nhưng ở đây ban đầu vật nằm yên $\rightarrow$ tiếp tục nằm yên $\rightarrow s = 0\text{ m}$).
+Câu 2: 800
+
+Giải: Xe di chuyển thẳng đều $72\text{ km/h} \Rightarrow \vec{a} = \vec{0} \Rightarrow \sum F = F_{kéo} - F_{cản} = 0 \Rightarrow F_{kéo} = F_{cản} = 800\text{ N}$.
+Câu 3: 4 (hoặc 4,0)
+
+Giải: Với cùng hợp lực $F$ và thời gian $t$, độ biến thiên động lượng $\Delta p = F \cdot t = m \cdot v$.
+Do đó: $m_A \cdot v_A = m_B \cdot v_B \Rightarrow 2 \times 12 = 6 \times v_B \Rightarrow v_B = 24 / 6 = 4\text{ m/s}$.
+Câu 4: 0 (hoặc 0,0)
+
+Giải: Trọng lực $P = m \cdot g = 80 \times 9,8 = 784\text{ N}$.
+Lực cản $F_c = 784\text{ N} = P$.
+Hợp lực $F_{hl} = P - F_c = 784 - 784 = 0\text{ N} \Rightarrow a = 0\text{ m/s}^2$ (người rơi thẳng đều).
+Câu 5: 0 (hoặc 0,0)
+
+Giải: Con trượt chuyển động thẳng đều $\rightarrow$ gia tốc $a = 0\text{ m/s}^2$.
+Theo Định luật 1 Newton, hợp lực tác dụng lên con trượt bằng $0\text{ N}$.
+PHẦN 4: TỰ LUẬN
+Câu 1:
+
+So sánh:
+Aristotle: Lực là nguyên nhân gây ra và duy trì chuyển động ($F \propto v$). Không có lực thì vật dừng lại.
+Newton: Lực không phải là nguyên nhân duy trì chuyển động, mà là nguyên nhân làm biến đổi vận tốc (gây ra gia tốc $\vec{a}$). Khi $\sum \vec{F} = \vec{0}$, vật duy trì vận tốc không đổi $\vec{v} = \text{const}$.
+Vì sao Aristotle thống trị 2000 năm: Do trong cuộc sống thường nhật, ma sát luôn hiện hữu khắp nơi. Mọi vật khi ngắt lực đẩy đều dừng lại do ma sát, khiến con người lầm tưởng rằng "dừng lại là trạng thái tự nhiên" và "cần lực để duy trì".
+Giải thích hiện tượng đẩy xe siêu thị:
+Khi người đẩy xe chạy đều, lực đẩy của tay cân bằng với lực ma sát của sàn tác dụng lên bánh xe ($\sum F = 0$), xe duy trì vận tốc $v = \text{const}$.
+Khi buông tay, lực đẩy bằng 0. Lực ma sát đóng vai trò hợp lực khác 0 ($\sum F = F_{ms}$ ngược chiều chuyển động), gây ra gia tốc âm làm xe chuyển động chậm dần rồi dừng lại.
+Câu 2:
+
+Tình huống 1 (Xe đỗ bị đâm từ phía sau):
+Hiện tượng: Khung xe bị hất mạnh về phía trước. Lưng ghế đẩy thân hành khách lao về phía trước, nhưng phần đầu hành khách có quán tính nên có xu hướng giữ nguyên vị trí cũ. Kết quả là đầu bị gập ngửa mạnh ra phía sau làm gãy các đốt sống cổ (Whiplash injury).
+Vai trò Tựa đầu (Headrest): Tựa đầu đỡ lấy phần đầu, truyền lực hất đầu lao về phía trước đồng bộ với thân người, ngăn không cho cổ bị gập ngửa.
+Tình huống 2 (Xe $80\text{ km/h}$ phanh gấp):
+Hiện tượng: Xe bị hãm dừng đột ngột, nhưng thân thể hành khách có quán tính nên tiếp tục duy trì vận tốc $80\text{ km/h}$ chồm mạnh về phía trước, va đập vào kính chắn gió hoặc vô-lăng gây tử vong.
+Vai trò Dây an toàn (Seatbelt): Dây an toàn giữ chặt ngực và hông hành khách vào ghế, tác dụng lực hãm kéo cơ thể dừng lại cùng với xe, triệt tiêu nguy cơ va đập do quán tính.
+Câu 3:
+
+Xét vị trí chạm sàn của viên bi:
+a) Tàu đứng yên: Bi rơi đúng vào điểm $O$ (hình chiếu thẳng đứng của điểm thả).
+b) Tàu chạy thẳng đều $100\text{ km/h}$: Do quán tính, viên bi khi rời tay vẫn duy trì vận tốc nằm ngang $v_x = 100\text{ km/h}$ bằng vận tốc của toa tàu. Trong thời gian rơi $\sqrt{2h/g}$, cả bi và sàn tàu đều đi được cùng một quãng đường nằm ngang như nhau. Do đó viên bi vẫn chạm đúng vào điểm $O$.
+c) Tàu phanh gấp: Tàu bị giảm vận tốc, nhưng viên bi có quán tính giữ nguyên vận tốc $100\text{ km/h}$ lớn hơn toa tàu $\rightarrow$ viên bi bị lệch rơi về phía trước điểm $O$ (về phía đầu toa tàu).
+Kết luận về Khảo sát Cơ học:
+Hành khách không thể thực hiện bất kỳ thí nghiệm cơ học nào để phân biệt trạng thái đứng yên hay chuyển động thẳng đều của toa tàu.
+Mọi quy luật cơ học (Định luật 1, 2, 3 Newton) đều hoàn toàn như nhau trong mọi Hệ quy chiếu quán tính (Nguyên lý Tương đối Galilei).
+Câu 4:
+
+Sơ đồ & Triệt tiêu ma sát:
+Bố trí thanh ray đệm khí nằm ngang, điều chỉnh các chân ốc cân bằng bọt thủy ngân.
+Bật máy nén khí để không khí phun ra qua các lỗ nhỏ trên ray, tạo lớp đệm khí nâng con trượt không tiếp xúc trực tiếp với kim loại $\rightarrow F_{ms} \approx 0$.
+Xác định chuyển động thẳng đều:
+Đặt hai cổng quang điện $A, B$ cách nhau khoảng $s$.
+Gắn tấm chắn sáng bề rộng $d$ lên con trượt.
+Đo thời gian chắn sáng $t_A$ tại $A$ và $t_B$ tại $B$. Tính $v_A = d/t_A$ và $v_B = d/t_B$. Nếu $v_A = v_B$ (hay $t_A = t_B$) thì con trượt chuyển động thẳng đều.
+Tính toán số liệu:
+$v_A = d / t_A = 0,020\text{ m} / 0,040\text{ s} = 0,50\text{ m/s}$.
+$v_B = d / t_B = 0,020\text{ m} / 0,040\text{ s} = 0,50\text{ m/s}$.
+Nhận xét: $v_A = v_B = 0,50\text{ m/s} = \text{const}$. Do hợp lực $\sum F \approx 0$ (đã triệt tiêu ma sát), con trượt duy trì vận tốc không đổi, chứng minh đúng Định luật 1 Newton.
+Câu 5:
+
+Phân tích lực tác dụng lên thùng hàng:
+Trọng lực $\vec{P}$ ($P = Mg = 500 \times 9,8 = 4900\text{ N}$) hướng xuống.
+Pháp lực $\vec{N}$ ($N = P = 4900\text{ N}$) hướng lên từ sàn xe.
+Lực ma sát nghỉ $\vec{F}_{msn}$ do sàn xe tác dụng hướng về phía sau xe, đóng vai trò là lực duy nhất gây ra gia tốc hãm $a$ cho thùng hàng để nó giảm tốc cùng với xe.
+Gia tốc hãm phanh cực đại $a_{\max}$:
+Để thùng hàng không bị trượt do quán tính chồm về trước, lực ma sát nghỉ phải đủ lớn để tạo gia tốc $a$: $F_{msn} = M \cdot a \le F_{msn,\max} = \mu_n \cdot N = \mu_n \cdot M \cdot g$.
+Suy ra: $a \le a_{\max} = \mu_n \cdot g = 0,35 \times 9,8 = 3,43\text{ m/s}^2$.
+Quãng đường phanh ngắn nhất $s_{\min}$:
+Vận tốc ban đầu $v_0 = 20\text{ m/s}$, vận tốc cuối $v = 0$.
+Sử dụng công thức độc lập thời gian với gia tốc hãm $a = -a_{\max} = -3,43\text{ m/s}^2$: $$v^2 - v_0^2 = 2 \cdot a \cdot s_{\min} \Rightarrow 0^2 - 20^2 = 2 \cdot (-3,43) \cdot s_{\min}$$ $$s_{\min} = \frac{400}{2 \times 3,43} = \frac{400}{6,86} \approx 58,31\text{ m}.$$
+Kết luận: Xe tải phải hãm phanh trên quãng đường tối thiểu $58,31\text{ m}$ để thùng hàng $500\text{ kg}$ không bị trượt xô xé rách cabin.

@@ -24,3 +24,17 @@
     math.equation(block: true, eval(eq, mode: "math"))
   }
 }
+#let vp-logo(
+  color: rgb("#1D3B7A"),
+  color2: rgb("#C09153"), // Màu vàng đất mặc định
+  height: 2cm
+) = {
+  let c = color
+  let c2 = color2
+  let svg-str = read("../layout/design-assets/logo.svg")
+
+  svg-str = svg-str.replace("#0000FF", c.to-hex())
+  svg-str = svg-str.replace("#FFA500", c2.to-hex())
+
+  image(bytes(svg-str), format: "svg", height: height)
+}

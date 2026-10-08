@@ -32,7 +32,7 @@
 // ==========================================
 // TEST 1: HỆ THỐNG TRẮC NGHIỆM (MCQ)
 // ==========================================
-#vp-section(num: "I", title: "Tính năng của Trắc nghiệm (MCQ)")
+= Tính năng của Trắc nghiệm (MCQ)
 
 // Test 1.1: Auto chia 4 cột (vì chữ ngắn) + Giao diện mặc định
 #vp-question(
@@ -85,7 +85,7 @@
 // TEST 2: HỆ THỐNG ĐÚNG/SAI (TF)
 // ==========================================
 #pagebreak()
-#vp-section(num: "II", title: "Tính năng của Đúng/Sai (TF)")
+= Tính năng của Đúng/Sai (TF)
 
 // Test 2.1: Render dạng Bảng (Table) + Đổi màu Tiêu đề Bảng
 #vp-question(
@@ -125,7 +125,7 @@
 // ==========================================
 // TEST 3: TRẢ LỜI NGẮN & TỰ LUẬN
 // ==========================================
-#vp-section(num: "III", title: "Tính năng Trả lời ngắn & Tự luận")
+= Tính năng Trả lời ngắn & Tự luận
 
 // Test 3.1: Short answer với ô vuông được sơn màu
 #vp-question(
@@ -162,7 +162,7 @@
 // TEST 5: CƠ CHẾ ĐIỀU KHIỂN LỜI GIẢI THÔNG MINH
 // ==========================================
 #pagebreak()
-#vp-section(num: "IV", title: "Test Lọc Lời Giải Đã Hiển Thị")
+= Test Lọc Lời Giải Đã Hiển Thị
 
 // 1. Tắt lời giải trực tiếp từ lúc này trở đi
 #vp-show-sol.update(false)

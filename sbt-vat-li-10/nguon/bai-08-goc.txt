@@ -1,0 +1,281 @@
+BÀI 8: TỔNG HỢP, PHÂN TÍCH LỰC VÀ THỰC HÀNH TỔNG HỢP LỰC
+PHẦN 1: TRẮC NGHIỆM 4 PHƯƠNG ÁN LỰA CHỌN (20 CÂU)
+Thí sinh chọn 1 phương án đúng nhất trong mỗi câu.
+
+Câu 1 (Thông hiểu - Tầm giá trị hợp lực): Một vật chịu tác dụng đồng thời của hai lực đồng quy $\vec{F}_1$ và $\vec{F}2$ có độ lớn lần lượt là $30\text{ N}$ và $40\text{ N}$. Góc giữa hai vectơ lực có thể thay đổi từ $0^\circ$ đến $180^\circ$. Trong các giá trị sau đây, giá trị nào không thể là độ lớn của hợp lực $\vec{F}{th}$? A. $10\text{ N}$.
+B. $50\text{ N}$.
+C. $70\text{ N}$.
+D. $80\text{ N}$.
+
+Câu 2 (Thông hiểu - Phân tích lực mặt phẳng nghiêng): (Mô tả hình vẽ: Khối gỗ m chuyển động trên mặt phẳng nghiêng góc $\alpha$ so với phương ngang. Trọng lực $\vec{P}$ thẳng đứng hướng xuống được phân tích thành hai thành phần: $\vec{P}_x$ song song với mặt nghiêng hướng xuống chân dốc và $\vec{P}_y$ vuông góc với mặt nghiêng hướng vào bề mặt). Một xe ô tô điện VinFast VF8 khối lượng $m$ đỗ trên một đường dốc nghiêng góc $\alpha$ so với phương ngang. Trọng lực $\vec{P}$ tác dụng lên xe được phân tích thành hai lực thành phần $\vec{P}_x$ (song song mặt đường) và $\vec{P}_y$ (vuông góc mặt đường). Biểu thức độ lớn của các lực thành phần này là: A. $P_x = P \cos\alpha$ và $P_y = P \sin\alpha$.
+B. $P_x = P \sin\alpha$ và $P_y = P \cos\alpha$.
+C. $P_x = P \tan\alpha$ và $P_y = P \cos\alpha$.
+D. $P_x = P \sin\alpha$ và $P_y = P \tan\alpha$.
+
+Câu 3 (Thông hiểu - Cầu dây văng Việt Nam): (Mô tả hình vẽ: Mô hình dầm cầu bê tông được treo giữ bởi hai dây văng đối xứng nối vào đỉnh trụ cầu. Hai dây văng hợp với phương thẳng đứng của trụ cầu các góc bằng nhau $\theta$). Trên cầu dây văng Mỹ Thuận (Tiền Giang), một dầm bê tông nặng $m = 100\text{ tấn}$ được giữ cân bằng nhờ hai dây văng đối xứng nối vào đỉnh trụ cầu. Mỗi dây văng hợp với phương thẳng đứng của trụ cầu một góc $\theta = 60^\circ$. Lấy $g = 9,8\text{ m/s}^2$. Bỏ qua khối lượng của dây văng. Độ lớn lực căng $T$ của mỗi dây văng bằng: A. $490\text{ kN}$.
+B. $980\text{ kN}$.
+C. $565,8\text{ kN}$.
+D. $1960\text{ kN}$.
+
+Câu 4 (Vận dụng - Cân bằng 3 lực đồng quy & Định luật Lami): Một ngọn đèn đường khối lượng $m = 3,0\text{ kg}$ được treo vào điểm trung tâm $O$ của sợi dây cáp mềm nhẹ $ACB$. Hai đầu $A$ và $B$ cố định ở cùng độ cao trên hai cột điện cách nhau $6,0\text{ m}$. Do trọng lượng đèn, điểm $O$ võng xuống một đoạn $h = 0,8\text{ m}$ so với đường nối $AB$. Lấy $g = 10\text{ m/s}^2$. Độ lớn lực căng $T$ của mỗi nửa sợi dây cáp gần nhất với giá trị nào sau đây? A. $57,7\text{ N}$.
+B. $28,9\text{ N}$.
+C. $15,0\text{ N}$.
+D. $30,0\text{ N}$.
+
+Câu 5 (Thông hiểu - Bẫy sai số thực hành tổng hợp lực): Trong bài thực hành tổng hợp hai lực đồng quy bằng đĩa tròn chia độ và lực kế, học sinh ghi nhận kết quả độ lớn hai lực thành phần là $F_1 = 3,0\text{ N}$, $F_2 = 4,0\text{ N}$ hợp với nhau góc $\alpha = 90^\circ$. Khi đọc lực kế đo hợp lực trực tiếp $F_{đo}$, học sinh thu được $F_{đo} = 5,4\text{ N}$. Nguyên nhân chính dẫn đến sự chênh lệch giữa $F_{đo}$ và giá trị lý thuyết $F_{lt} = 5,0\text{ N}$ không phải là do: A. Lực kế đo hợp lực chưa được hiệu chỉnh về mốc số 0 trước khi đo.
+B. Các dây kéo không nằm song song sát với mặt đĩa tròn chia độ mà bị xếch lên cao.
+C. Ma sát giữa vòng chốt tròn $O$ và trục đĩa chia độ.
+D. Bản chất phép toán vectơ không tuân theo quy tắc cộng đại số thông thường.
+
+Câu 6 (Thông hiểu - Hợp lực 3 vectơ cùng mặt phẳng): Một vật chịu tác dụng đồng thời của ba lực đồng phẳng $\vec{F}_1, \vec{F}_2, \vec{F}_3$. Biết $F_1 = 10\text{ N}$ hướng về phía Đông, $F_2 = 10\text{ N}$ hướng về phía Bắc, và $F_3 = 10\sqrt{2}\text{ N}$ hướng về phía Tây - Nam. Độ lớn hợp lực tổng cộng tác dụng lên vật bằng: A. $0\text{ N}$.
+B. $10\text{ N}$.
+C. $20\text{ N}$.
+D. $10\sqrt{2}\text{ N}$.
+
+Câu 7 (Vận dụng - Giới hạn vật lý dây cáp căng ngang): (Mô tả hình vẽ: Sợi dây cáp $AB$ được căng ngang. Một vật nặng $m$ treo vào điểm chính giữa làm dây bị võng xuống góc $\theta$ rất nhỏ so với phương ngang). Xét bài toán kéo căng sợi dây cáp $AB$ theo phương nằm ngang. Người ta cố gắng treo một vật nặng $m$ vào chính giữa sợi dây và dùng lực kéo hai đầu dây để sợi dây hoàn toàn thẳng tắp theo phương ngang (góc võng $\theta = 0^\circ$). Dưới góc độ Vật lí: A. Điều này hoàn toàn làm được nếu lực kéo đủ lớn.
+B. Không bao giờ làm được vì lực căng dây $T = \frac{mg}{2\sin\theta} \rightarrow \infty$ khi $\theta \rightarrow 0^\circ$.
+C. Làm được vì trọng lực bị triệt tiêu bởi ma sát hai đầu dây.
+D. Làm được nếu thay dây thép bằng dây cao su co giãn.
+
+Câu 8 (Thông hiểu - Sự phụ thuộc của hợp lực vào góc giữa 2 lực): Hai lực đồng quy $\vec{F}_1$ và $\vec{F}_2$ có độ lớn không đổi $F_1 = 12\text{ N}$ và $F_2 = 5\text{ N}$. Khi góc $\alpha$ giữa hai vectơ lực tăng dần từ $0^\circ$ đến $180^\circ$, độ lớn hợp lực $F$ sẽ: A. Tăng liên tục từ $7\text{ N}$ đến $17\text{ N}$.
+B. Tăng từ $7\text{ N}$ đạt cực đại tại $90^\circ$ rồi giảm về $17\text{ N}$.
+C. Giảm liên tục từ $17\text{ N}$ xuống $7\text{ N}$.
+D. Không đổi vì độ lớn $F_1, F_2$ giữ nguyên.
+
+Câu 9 (Thông hiểu - Bẫy khái niệm lực cân bằng): Phát biểu nào sau đây chính xác nhất về hai lực cân bằng? A. Hai lực có cùng độ lớn, cùng phương, ngược chiều và cùng tác dụng vào một vật.
+B. Hai lực có cùng độ lớn, xuất hiện thành từng cặp ở hai vật khác nhau theo Định luật 3 Newton.
+C. Hai lực vuông góc nhau có hợp lực bằng 0.
+D. Hai lực cùng tác dụng vào một vật làm vật chuyển động nhanh dần đều.
+
+Câu 10 (Vận dụng - Phân tích lực cáp treo Fansipan): (Mô tả hình vẽ: Cabin cáp treo chuyển động trên tuyến cáp nghiêng góc $\alpha = 30^\circ$ so với phương ngang. Lực cản không khí $\vec{F}_c$ ngược chiều chuyển động). Tuyến cáp treo Fansipan (Sa Pa) có góc nghiêng trung bình $\alpha = 30^\circ$ so với phương ngang. Một cabin khối lượng tổng cộng $M = 2000\text{ kg}$ chuyển động thẳng đều đi lên đỉnh núi. Lực cản của gió tác dụng lên cabin ngược chiều chuyển động có độ lớn $F_c = 1000\text{ N}$. Lấy $g = 9,8\text{ m/s}^2$. Tổng độ lớn lực kéo của hệ thống cáp tác dụng lên cabin bằng: A. $9800\text{ N}$.
+B. $10800\text{ N}$.
+C. $17978\text{ N}$.
+D. $18978\text{ N}$.
+
+Câu 11 (Thông hiểu - Tổng hợp hai lực song song cùng chiều): Hai lực song song cùng chiều $\vec{F}_1$ và $\vec{F}_2$ đặt tại hai điểm $A$ và $B$ cách nhau $60\text{ cm}$. Biết $F_1 = 20\text{ N}$ và $F_2 = 40\text{ N}$. Điểm đặt $O$ của hợp lực $\vec{F} = \vec{F}_1 + \vec{F}_2$ cách điểm $A$ một khoảng $d_1$ bằng: A. $40\text{ cm}$.
+B. $20\text{ cm}$.
+C. $30\text{ cm}$.
+D. $15\text{ cm}$.
+
+Câu 12 (Vận dụng - Kéo xà lan trên kênh Rạch Giá - Hà Tiên): (Mô tả hình vẽ: Hai người đứng trên hai bờ kênh kéo một chiếc xà lan di chuyển dọc theo đường trung trực giữa kênh bằng hai dây cáp. Hai dây cáp hợp với nhau góc $2\theta = 60^\circ$). Để kéo một xà lan chở hàng đi thẳng dọc theo lòng kênh Rạch Giá – Hà Tiên với lực cản của nước $F_c = 1732\text{ N}$, hai người đứng ở hai bên bờ kênh kéo xà lan bằng hai sợi dây cáp đối xứng hợp với nhau góc $2\theta = 60^\circ$. Để xà lan đi thẳng dọc theo trục kênh, độ lớn lực kéo $F_0$ của mỗi người (biết $F_1 = F_2 = F_0$) là: A. $1000\text{ N}$.
+B. $866\text{ N}$.
+C. $1732\text{ N}$.
+D. $2000\text{ N}$.
+
+Câu 13 (Thông hiểu - Kỹ năng đọc đĩa tròn chia độ): Khi tiến hành thực hành phân tích một lực $\vec{F}$ thành hai lực thành phần $\vec{F}_x \perp \vec{F}_y$, một học sinh đo được góc giữa $\vec{F}$ và $\vec{F}_x$ trên thước đo góc là $\alpha = 30^\circ \pm 1^\circ$. Biết độ lớn $F = (10,0 \pm 0,1)\text{ N}$. Độ lớn lực thành phần $F_x = F \cos\alpha$ được ghi theo chuẩn chữ số có nghĩa là: A. $(8,66 \pm 0,24)\text{ N}$.
+B. $(8,7 \pm 0,2)\text{ N}$.
+C. $(5,0 \pm 0,1)\text{ N}$.
+D. $(8,660 \pm 0,100)\text{ N}$.
+
+Câu 14 (Vận dụng - Khung treo biển hiệu giao thông chữ A): (Mô tả hình vẽ: Khung sắt chữ A bắt vào tường thẳng đứng gồm thanh ngang $AB$ tựa vuông góc vào tường tại $A$ và dây cáp $BC$ nối từ đầu $B$ lên điểm $C$ trên tường. Biển báo giao thông khối lượng $m$ treo tại $B$). Một biển báo giao thông khối lượng $m = 10\text{ kg}$ treo vào đầu $B$ của thanh nhẹ $AB$ dài $1,2\text{ m}$ cắm vuông góc vào tường thẳng đứng. Đầu $B$ được giữ vững nhờ dây cáp thép $BC$ nối nghiêng góc $30^\circ$ so với thanh $AB$. Lấy $g = 10\text{ m/s}^2$. Độ lớn lực nén $N$ mà thanh $AB$ tác dụng vào tường tại $A$ và lực căng $T$ của dây cáp $BC$ lần lượt là: A. $N = 173,2\text{ N}; T = 200\text{ N}$.
+B. $N = 200\text{ N}; T = 173,2\text{ N}$.
+C. $N = 100\text{ N}; T = 100\sqrt{3}\text{ N}$.
+D. $N = 50\text{ N}; T = 100\text{ N}$.
+
+Câu 15 (Thông hiểu - Hợp lực của hai lực bằng nhau): Hai lực có độ lớn bằng nhau $F_1 = F_2 = F$. Góc $\alpha$ giữa hai lực bằng bao nhiêu để độ lớn hợp lực $F_{th}$ cũng đúng bằng $F$? A. $\alpha = 0^\circ$.
+B. $\alpha = 60^\circ$.
+C. $\alpha = 90^\circ$.
+D. $\alpha = 120^\circ$.
+
+Câu 16 (Thông hiểu - Phương pháp chiếu lực trong mặt phẳng): Một chất điểm chịu tác dụng của hai lực $\vec{F}_1$ và $\vec{F}_2$ vuông góc nhau. Biết $F_1 = 6\text{ N}$ nằm trên trục $Ox$, $F_2 = 8\text{ N}$ nằm trên trục $Oy$. Góc $\phi$ mà hợp lực $\vec{F}$ tạo với trục $Ox$ thỏa mãn: A. $\tan\phi = 0,75 \Rightarrow \phi \approx 36,87^\circ$.
+B. $\tan\phi = 1,33 \Rightarrow \phi \approx 53,13^\circ$.
+C. $\cos\phi = 0,8 \Rightarrow \phi \approx 36,87^\circ$.
+D. Cả B và C đều đúng.
+
+Câu 17 (Vận dụng - Cân bằng lực ma sát nghỉ cực đại): Một thùng hàng khối lượng $m = 50\text{ kg}$ đặt trên sàn xe tải nằm ngang. Hệ số ma sát nghỉ giữa thùng hàng và sàn xe là $\mu_n = 0,4$. Lấy $g = 10\text{ m/s}^2$. Người ta dùng sợi dây thừng buộc vào thùng hàng để kéo theo phương ngang. Độ lớn lực kéo $F$ nhỏ nhất để thùng hàng bắt đầu bị trượt là: A. $200\text{ N}$.
+B. $500\text{ N}$.
+C. $125\text{ N}$.
+D. $20\text{ N}$.
+
+Câu 18 (Thông hiểu - Điểm đặt hợp lực hai lực song song ngược chiều): (Mô tả hình vẽ: Hai lực song song ngược chiều $F_1 = 10\text{ N}$ và $F_2 = 30\text{ N}$ đặt tại $A$ và $B$. Điểm đặt $O$ của hợp lực nằm ngoài đoạn $AB$ về phía lực lớn hơn). Hai lực song song ngược chiều $\vec{F}_1$ và $\vec{F}_2$ ($F_2 > F_1$) đặt tại $A$ và $B$ cách nhau $A B = 20\text{ cm}$. Biết $F_1 = 10\text{ N}$ và $F_2 = 30\text{ N}$. Điểm đặt $O$ của hợp lực $\vec{F} = \vec{F}_1 + \vec{F}_2$ nằm trên đường thẳng $AB$: A. Nằm trong đoạn $AB$, cách $A$ một khoảng $15\text{ cm}$.
+B. Nằm ngoài đoạn $AB$, về phía $B$, cách $B$ một khoảng $10\text{ cm}$.
+C. Nằm ngoài đoạn $AB$, về phía $A$, cách $A$ một khoảng $30\text{ cm}$.
+D. Nằm ngoài đoạn $AB$, về phía $B$, cách $A$ một khoảng $30\text{ cm}$.
+
+Câu 19 (Thông hiểu - Lực căng dây võng xếp): Một người nằm nghỉ trên võng xếp inox. Võng treo vào hai móc cố định $A$ và $B$ trên khung. Khi người nằm yên, hai đầu dây võng bị hạ thấp làm dây hợp với phương nằm ngang một góc $\theta = 20^\circ$. Nếu trọng lượng người và võng là $P = 600\text{ N}$, lực căng $T$ của mỗi đầu dây võng là: A. $300\text{ N}$.
+B. $877,1\text{ N}$.
+C. $1754,3\text{ N}$.
+D. $600\text{ N}$.
+
+Câu 20 (Thông hiểu - Bản chất đại số chiếu vectơ): Cho hệ ba lực đồng quy cân bằng $\vec{F}_1 + \vec{F}_2 + \vec{F}_3 = \vec{0}$. Khẳng định nào sau đây luôn luôn đúng? A. Độ lớn $F_1 + F_2 = F_3$.
+B. Vectơ $\vec{F}_3$ là hợp lực của hai vectơ $\vec{F}_1$ và $\vec{F}_2$.
+C. Vectơ $\vec{F}_3$ trực đối với vectơ hợp lực $(\vec{F}_1 + \vec{F}_2)$.
+D. Ba lực $\vec{F}_1, \vec{F}_2, \vec{F}_3$ bắt buộc phải đôi một vuông góc nhau.
+
+PHẦN 2: TRẮC NGHIỆM ĐÚNG/SAI (5 CÂU)
+Thí sinh xét tính Đúng/Sai của từng ý a, b, c, d trong mỗi câu.
+
+Câu 21: Một chiếc xe ô tô điện VinFast VF8 khối lượng $m = 2000\text{ kg}$ đỗ cân bằng trên một đoạn đường dốc có góc nghiêng $\alpha = 15^\circ$ so với phương ngang ở đèo Tam Đảo. Lấy $g = 9,8\text{ m/s}^2$. Trọng lực $\vec{P}$ tác dụng lên xe được phân tích thành hai lực thành phần: $\vec{P}_x$ song song với mặt dốc hướng xuống và $\vec{P}_y$ vuông góc với mặt dốc hướng vào lòng đường.
+
+Ý	Mệnh đề	Đúng	Sai
+a)	Độ lớn của lực thành phần vuông góc với mặt dốc là $P_y = P \cos 15^\circ \approx 18932\text{ N}$.		
+b)	Lực ma sát nghỉ $F_{msn}$ do mặt đường tác dụng lên lốp xe có độ lớn bằng $P_x = P \sin 15^\circ \approx 5073\text{ N}$ và hướng ngược chiều dốc.		
+c)	Phản lực pháp tuyến $N$ của mặt đường tác dụng lên xe có độ lớn đúng bằng trọng lượng toàn phần $P = 19600\text{ N}$.		
+d)	Nếu góc nghiêng $\alpha$ của đèo tăng lên $30^\circ$, độ lớn lực thành phần $P_x$ tăng gấp đôi so với khi $\alpha = 15^\circ$.		
+Câu 22: (Mô tả hình vẽ: Sơ đồ thí nghiệm thực hành tổng hợp hai lực đồng quy gồm đĩa tròn chia độ bằng nhựa gắn trên giá thẳng đứng, ba sợi dây cáp mảnh nhẹ nối vào một vòng chốt tròn $O$ trung tâm. Hai sợi dây đi qua hai rọc rọc A và B móc vào hai lực kế $L_1, L_2$. Sợi dây thứ ba treo quả tạ khối lượng $M$). Học sinh tiến hành thực hành tổng hợp hai lực đồng quy trong phòng thí nghiệm Vật lí THPT bằng bộ dụng cụ như hình vẽ. Hai lực kế $L_1$ và $L_2$ đo hai lực thành phần $\vec{F}_1, \vec{F}_2$. Chuẩn bị thí nghiệm, học sinh treo quả tạ khối lượng $M = 0,5\text{ kg}$ ($g = 9,8\text{ m/s}^2$).
+
+Ý	Mệnh đề	Đúng	Sai
+a)	Vòng chốt tròn $O$ nằm cân bằng là dấu hiệu cho thấy hợp lực của hai lực $\vec{F}_1$ và $\vec{F}_2$ trực đối với trọng lực $\vec{P}$ của quả tạ.		
+b)	Khi điều chỉnh hai lực kế sao cho $\vec{F}_1 \perp \vec{F}_2$ và chỉ số $F_1 = 2,94\text{ N}$, chỉ số lực kế $L_2$ đo được lý thuyết là $F_2 = 3,92\text{ N}$.		
+c)	Nếu các sợi dây cáp không nằm áp sát song song với mặt đĩa chia độ mà bị xếch ra ngoài, giá trị góc $\alpha$ đọc trên đĩa sẽ bị sai số hệ thống làm $F_{đo} > F_{lt}$.		
+d)	Độ lớn hợp lực $F_{th}$ của hai lực $\vec{F}_1$ và $\vec{F}_2$ luôn luôn bằng tổng đại số $F_1 + F_2$ bất kể góc nghiêng $\alpha$ giữa hai dây kéo.		
+Câu 23: (Mô tả hình vẽ: Khảo sát dầm bê tông cốt thép của cầu Nhật Tân (Hà Nội). Hai dây văng $AC$ và $BC$ kéo dầm cầu tại $C$, hợp với dầm nằm ngang các góc $\alpha = 30^\circ$ và $\beta = 45^\circ$). Một đoạn dầm cầu bê tông chịu tác dụng của lực kéo từ hai dây văng $AC$ và $BC$ chụm tại điểm $C$. Cho biết lực căng của dây văng $AC$ là $T_1 = 400\text{ kN}$, hợp với phương ngang một góc $\alpha = 30^\circ$. Dây văng $BC$ hợp với phương ngang góc $\beta = 45^\circ$.
+
+Ý	Mệnh đề	Đúng	Sai
+a)	Thành phần lực nằm ngang của dây văng $AC$ kéo dầm cầu về bên trái có độ lớn $T_{1x} = T_1 \cos 30^\circ \approx 346,4\text{ kN}$.		
+b)	Để dầm cầu không bị xê dịch theo phương nằm ngang ($F_{x,th} = 0$), lực căng $T_2$ của dây văng $BC$ phải có độ lớn bằng $489,9\text{ kN}$.		
+c)	Tổng lực nâng theo phương thẳng đứng do hai dây văng $AC$ và $BC$ tác dụng lên dầm cầu tại $C$ bằng $546,4\text{ kN}$.		
+d)	Nếu góc nghiêng $\beta$ của dây văng thứ hai giảm từ $45^\circ$ xuống $30^\circ$, lực nâng theo phương thẳng đứng của nó tác dụng lên dầm cầu sẽ tăng lên.		
+Câu 24: Một khung giá treo đèn chùm trang trí tại sảnh khách sạn gồm hai thanh nhẹ $AB$ và $AC$ bằng thép không gỉ nối vào tường thẳng đứng tại $A$ và $C$, chụm lại tại $B$ để treo đèn nặng $m = 20\text{ kg}$ ($g = 10\text{ m/s}^2$). Thanh $AB$ nằm ngang dài $1,0\text{ m}$, thanh $AC$ nghiêng góc $45^\circ$ nối từ điểm $C$ trên tường xuống đầu $B$.
+
+Ý	Mệnh đề	Đúng	Sai
+a)	Thanh $AC$ chịu lực nén, còn thanh $AB$ chịu lực kéo.		
+b)	Độ lớn lực tác dụng lên thanh $AC$ bằng $200\sqrt{2}\text{ N} \approx 282,8\text{ N}$.		
+c)	Lực kéo tác dụng lên thanh nằm ngang $AB$ có độ lớn bằng $200\text{ N}$.		
+d)	Nếu thay đèn bằng một vật khác nặng gấp đôi ($m' = 40\text{ kg}$), góc hợp bởi thanh $AC$ và tường sẽ bị giảm đi một nửa.		
+Câu 25: Khảo sát bản chất vật lý của khái niệm lực, sự phân tích lực và điều kiện cân bằng theo quan điểm Halliday:
+
+Ý	Mệnh đề	Đúng	Sai
+a)	Lực là một đại lượng vectơ, sự tác dụng đồng thời của nhiều lực lên một vật có thể thay thế bằng một lực duy nhất gọi là hợp lực.		
+b)	Khi phân tích một lực $\vec{F}$ thành hai lực thành phần $\vec{F}_1$ và $\vec{F}_2$, ta có thể thu được vô số cặp lực thành phần nếu không chỉ định trước phương của chúng.		
+c)	Nếu một vật chuyển động thẳng đều, ta khẳng định không có lực nào tác dụng lên vật.		
+d)	Hai lực song song ngược chiều cùng độ lớn đặt vào hai điểm khác nhau của một vật rắn tạo thành một ngẫu lực, không thể thay thế bằng một hợp lực duy nhất.		
+PHẦN 3: TRẮC NGHIỆM TRẢ LỜI NGẮN (5 CÂU)
+Thí sinh tính toán và điền kết quả dạng số.
+
+Câu 26: Một chất điểm chịu tác dụng của hai lực vuông góc $\vec{F}_1 \perp \vec{F}2$ có độ lớn lần lượt là $F_1 = 60\text{ N}$ và $F_2 = 80\text{ N}$. Tính độ lớn của hợp lực $F{th}$ (đơn vị: (\text{N})).
+
+Đáp số: ....................
+
+Câu 27: Một ngọn đèn đường khối lượng $m = 4,0\text{ kg}$ được treo vào điểm chính giữa của một sợi dây cáp căng ngang. Sự treo đèn làm dây võng xuống góc $\theta = 15^\circ$ so với phương ngang. Lấy $g = 9,8\text{ m/s}^2$. Tính độ lớn lực căng $T$ của sợi dây cáp (đơn vị: (\text{N}), làm tròn đến $1$ chữ số thập phân).
+
+Đáp số: ....................
+
+Câu 28: Hai lực song song cùng chiều $F_1 = 40\text{ N}$ và $F_2 = 60\text{ N}$ đặt tại hai đầu $A$ và $B$ của một thanh nhẹ dài $L = 1,0\text{ m}$. Xác định khoảng cách $d_1$ từ điểm đặt hợp lực $O$ đến đầu $A$ của thanh (đơn vị: (\text{m}), viết dưới dạng số thập phân).
+
+Đáp số: ....................
+
+Câu 29: Cho hai lực thành phần có độ lớn bằng nhau $F_1 = F_2 = 50\text{ N}$. Xác định góc $\alpha$ giữa hai vectơ lực (đơn vị: độ, $^\circ$) để độ lớn hợp lực của chúng bằng $50\sqrt{3}\text{ N} \approx 86,6\text{ N}$.
+
+Đáp số: ....................
+
+Câu 30: Một vận động viên nhảy dù khối lượng tổng cộng (người và dù) $M = 80\text{ kg}$ đang rơi thẳng đều trong không khí với tốc độ không đổi $v = 5,0\text{ m/s}$. Lấy $g = 9,8\text{ m/s}^2$. Tính độ lớn lực cản $F_c$ của không khí tác dụng lên vòm dù (đơn vị: (\text{N})).
+
+Đáp số: ....................
+
+PHẦN 4: TỰ LUẬN (5 CÂU)
+Thí sinh trình bày chi tiết lời giải gồm phân tích hiện tượng, lập luận vật lý, tính toán và nhận xét.
+
+Câu 31 (Bài toán Cầu dây văng Mỹ Thuận - Động lực học Cầu đường): (Mô tả hình vẽ: Khảo sát dầm cầu bê tông phẳng treo giữ bởi dây văng $AC$ nghiêng góc $\alpha = 30^\circ$ so với phương ngang dầm cầu và tựa vào gối đỡ trụ cầu tại $A$). Trong thiết kế cầu dây văng Mỹ Thuận, một dầm bê tông trọng lượng $P = 500\text{ kN}$ được giữ cân bằng nằm ngang nhờ lực căng của dây văng $AC$ hợp với dầm cầu một góc $\alpha = 30^\circ$ tại đầu $C$ và khớp quay tựa tại $A$.
+
+Thiết lập hệ phương trình cân bằng lực tác dụng lên dầm cầu theo hai phương vuông góc (nằm ngang $Ox$ và thẳng đứng $Oy$).
+Tính độ lớn lực căng $T$ của dây văng $AC$ và lực nén nằm ngang do dây văng tác dụng lên dầm cầu.
+Phân tích vai trò của góc nghiêng dây văng $\alpha$: Nếu giảm góc $\alpha$ xuống $15^\circ$ để kéo dài khoảng cách nhịp cầu, lực căng dây $T$ và lực nén dầm cầu sẽ biến đổi như thế nào? Đưa ra nhận xét về giới hạn kỹ thuật văng dây.
+Câu 32 (Khung giá treo biển báo giao thông chữ A - Cân bằng 3D/2D): Một biển quảng cáo khối lượng $m = 15\text{ kg}$ được treo vào đầu $B$ của một khung sắt gồm thanh nhẹ $AB$ dài $1,5\text{ m}$ đặt nằm ngang, cắm tựa vuông góc vào tường thẳng đứng tại $A$. Đầu $B$ được giữ chặt nhờ dây cáp thép $BC$ nối lên điểm $C$ trên tường thẳng đứng cao hơn $A$ một khoảng $AC = 2,0\text{ m}$. Lấy $g = 9,8\text{ m/s}^2$.
+
+Vẽ sơ đồ phân tích các lực tác dụng lên điểm chụm $B$.
+Tính độ lớn lực căng $T$ của dây cáp $BC$ và độ lớn lực nén $N$ của thanh $AB$ tác dụng vào tường tại $A$.
+Nếu dây cáp $BC$ chỉ chịu được lực căng tối đa $T_{\max} = 500\text{ N}$, hỏi có thể treo thêm một đèn chiếu sáng khối lượng $m' = 20\text{ kg}$ vào điểm $B$ được không? Giải thích bằng tính toán.
+Câu 33 (Tối ưu hóa lực kéo tàu xà lan trên sông Hồng): (Mô tả hình vẽ: Hai tàu kéo nhỏ di chuyển song song hai bên bờ kéo một xà lan lớn ở giữa dòng sông Hồng. Lực kéo của hai tàu là $F_1$ và $F_2$ hợp với hướng chuyển động của xà lan các góc $\alpha_1$ và $\alpha_2$). Để kéo một tàu xà lan chở cát khối lượng $M = 200\text{ tấn}$ di chuyển thẳng đều dọc theo lòng sông Hồng với lực cản của nước không đổi $F_c = 4000\text{ N}$, hai tàu kéo nhỏ đi ở hai bên bờ sông kéo xà lan bằng hai dây cáp. Dây cáp thứ nhất hợp với phương chuyển động góc $\alpha_1 = 30^\circ$.
+
+Tìm góc nghiêng $\alpha_2$ của dây cáp thứ hai sao cho tổng lực kéo $F_{tong} = F_1 + F_2$ của hai tàu kéo đạt giá trị nhỏ nhất $F_{\min}$.
+Tính độ lớn lực kéo $F_1$ và $F_2$ của mỗi tàu khi đạt trạng thái tối ưu đó.
+Giải thích ý nghĩa kinh tế - kỹ thuật của việc điều chỉnh góc kéo đối với việc tiết kiệm nhiên liệu cho tàu kéo giao thông đường thủy Việt Nam.
+Câu 34 (Thực hành - Xử lý số liệu thực nghiệm Tổng hợp lực & Chuẩn hóa ISO/SI): Học sinh tiến hành bài thực hành "Tổng hợp hai lực đồng quy" bằng đĩa tròn chia độ và lực kế lò xo. Cố định góc giữa hai dây kéo $\alpha = 60^\circ$. Học sinh tiến hành đo $5$ lần độ lớn hai lực thành phần $F_1, F_2$ và lực kế đo hợp lực trực tiếp $F_{đo}$. Kết quả thu được ghi trong bảng dưới đây ($F_1, F_2$ giữ ổn định ở $3,0\text{ N}$ và $4,0\text{ N}$):
+
+Lần đo	$F_1\text{ (N)}$	$F_2\text{ (N)}$	$\alpha\text{ (deg)}$	$F_{đo}\text{ (N)}$
+1	3,0	4,0	$60^\circ$	6,0
+2	3,0	4,0	$60^\circ$	6,2
+3	3,0	4,0	$60^\circ$	6,1
+4	3,0	4,0	$60^\circ$	5,9
+5	3,0	4,0	$60^\circ$	6,1
+Tính giá trị lý thuyết độ lớn hợp lực $F_{lt} = \sqrt{F_1^2 + F_2^2 + 2F_1F_2 \cos\alpha}$.
+Tính giá trị trung bình $\bar{F}{đo}$, sai số ngẫu nhiên tuyệt đối trung bình $\bar{\Delta F}{đo}$. Biết sai số dụng cụ lực kế là $\Delta F_{dc} = 0,05\text{ N}$.
+Biểu diễn kết quả phép đo hợp lực $F_{đo} = \bar{F}{đo} \pm \Delta F{đo}$ theo quy chuẩn ISO/SI. So sánh $F_{đo}$ với $F_{lt}$ và chỉ ra $2$ nguyên nhân chính gây ra sai số thực nghiệm.
+Câu 35 (Cân bằng 3D Cáp treo Fansipan dưới tác dụng của Gió ngang - Halliday Challenge): (Mô tả hình vẽ: Cabin cáp treo Fansipan treo trên dây cáp nằm trong mặt phẳng thẳng đứng $Oyz$. Một luồng gió bão thổi mạnh theo phương ngang vuông góc với tuyến cáp (trục $Ox$), đẩy cabin lệch khỏi mặt phẳng thẳng đứng một góc $\phi$). Một cabin cáp treo Fansipan khối lượng $M = 1500\text{ kg}$ treo vào cụm bánh xe lăn trên cáp tải. Khi dừng nghỉ trên tuyến cáp nghiêng góc $\theta = 30^\circ$ so với phương ngang, một luồng gió bão thổi ngang vuông góc với mặt phẳng tuyến cáp (theo trục $Ox$) tác dụng lực cản gió $F_{gió} = 3000\text{ N}$ làm dây treo cabin bị lệch một góc $\phi$ so với mặt phẳng thẳng đứng. Lấy $g = 9,8\text{ m/s}^2$.
+
+Xác định góc lệch $\phi$ của dây treo cabin so với mặt phẳng thẳng đứng $Oyz$.
+Tính tổng độ lớn lực căng $T$ của thanh treo giữ cabin.
+Nêu giải pháp an toàn tự động của hệ thống cáp treo hiện đại khi lực gió ngang vượt quá ngưỡng an toàn cho phép.
+PHẦN 5: ĐÁP ÁN VÀ LỜI GIẢI CHI TIẾT (FULL SOLUTIONS)
+PHẦN 1: TRẮC NGHIỆM 4 PHƯƠNG ÁN
+D | Tầm hợp lực: $|F_1 - F_2| \le F \le F_1 + F_2 \Rightarrow |30 - 40| \le F \le 30 + 40 \Rightarrow 10\text{ N} \le F \le 70\text{ N}$. Do đó $80\text{ N}$ không thể xảy ra.
+B | Trọng lực phân tích: $P_x = P \sin\alpha$ (kéo trượt dốc), $P_y = P \cos\alpha$ (nén ép vào mặt đường).
+B | Cân bằng thẳng đứng: $2 T \cos\theta = mg \Rightarrow 2 T \cos 60^\circ = 100000 \times 9,8 = 980000\text{ N} \Rightarrow T \times 1 = 980000\text{ N} = 980\text{ kN}$.
+A | Ta có $\sin\theta = \frac{h}{\sqrt{h^2 + (L/2)^2}} = \frac{0,8}{\sqrt{0,8^2 + 3^2}} = \frac{0,8}{\sqrt{9,64}} \approx 0,2576$. Cân bằng thẳng đứng $2 T \sin\theta = mg \Rightarrow 2 T (0,2576) = 30 \Rightarrow T = \frac{30}{0,5153} \approx 58,2\text{ N} \approx 57,7\text{ N}$.
+D | Phép toán vectơ tuân theo quy tắc hình bình hành, không cộng đại số nhưng $F_{lt} = \sqrt{3^2+4^2} = 5,0\text{ N}$. Việc đo $5,4\text{ N}$ chênh lệch do sai số thực nghiệm, không phải do lý thuyết sai.
+A | $\vec{F}{12} = \vec{F}1 + \vec{F}2 \Rightarrow F{12} = \sqrt{10^2 + 10^2} = 10\sqrt{2}\text{ N}$ hướng Đông - Bắc. Vectơ $\vec{F}3 = 10\sqrt{2}\text{ N}$ hướng Tây - Nam trực đối với $\vec{F}{12} \Rightarrow \vec{F}{th} = \vec{F}{12} + \vec{F}_3 = \vec{0}$.
+B | Chiếu lên phương thẳng đứng $2 T \sin\theta = mg \Rightarrow T = \frac{mg}{2\sin\theta}$. Khi $\theta \rightarrow 0^\circ \Rightarrow \sin\theta \rightarrow 0 \Rightarrow T \rightarrow \infty$, vượt quá giới hạn bền của mọi vật liệu.
+C | $F = \sqrt{F_1^2 + F_2^2 + 2F_1 F_2 \cos\alpha}$. Vì $\cos\alpha$ giảm liên tục từ $+1$ đến $-1$ khi $\alpha$ tăng từ $0^\circ$ đến $180^\circ$ nên $F$ giảm liên tục từ $F_1 + F_2 = 17\text{ N}$ xuống $|F_1 - F_2| = 7\text{ N}$.
+A | Định nghĩa chuẩn hai lực cân bằng: cùng độ lớn, cùng phương, ngược chiều, cùng đặt vào một vật.
+B | Chuyển động thẳng đều: $F_{kéo} = P_x + F_c = Mg \sin\alpha + F_c = 2000 \times 9,8 \times \sin 30^\circ + 1000 = 9800 + 1000 = 10800\text{ N}$.
+A | $F = F_1 + F_2 = 60\text{ N}$. Quy tắc chia khoảng cách: $\frac{d_1}{d_2} = \frac{F_2}{F_1} = \frac{40}{20} = 2 \Rightarrow d_1 = 2 d_2$. Mà $d_1 + d_2 = 60\text{ cm} \Rightarrow d_1 = 40\text{ cm}, d_2 = 20\text{ cm}$.
+A | Hai lực đối xứng: $F_{th} = 2 F_0 \cos\theta = F_c \Rightarrow 2 F_0 \cos 30^\circ = 1732 \Rightarrow 2 F_0 \times 0,866 = 1732 \Rightarrow 1,732 F_0 = 1732 \Rightarrow F_0 = 1000\text{ N}$.
+B | $F_x = 10,0 \times \cos 30^\circ = 8,66\text{ N}$. Sai số $\Delta F_x = F_x \left( \frac{\Delta F}{F} + \tan\alpha \Delta\alpha \right) = 8,66 \left( \frac{0,1}{10} + \tan 30^\circ \times \frac{\pi}{180} \right) \approx 0,866 \times (0,01 + 0,0101) \approx 0,17\text{ N} \approx 0,2\text{ N}$. Làm tròn: $(8,7 \pm 0,2)\text{ N}$.
+A | Góc giữa cáp $BC$ và tường $\beta = 90^\circ - 30^\circ = 60^\circ$. Cân bằng điểm $B$: $T \cos 60^\circ = mg = 100\text{ N} \Rightarrow T = 200\text{ N}$. Lực nén $N = T \sin 60^\circ = 200 \times \frac{\sqrt{3}}{2} = 100\sqrt{3} \approx 173,2\text{ N}$.
+D | $F_{th} = 2 F \cos(\alpha/2) = F \Rightarrow \cos(\alpha/2) = 0,5 \Rightarrow \alpha/2 = 60^\circ \Rightarrow \alpha = 120^\circ$.
+D | $F_1 = 6\text{ N}$ trên $Ox$, $F_2 = 8\text{ N}$ trên $Oy$. $\tan\phi = \frac{F_2}{F_1} = \frac{8}{6} = 1,333 \Rightarrow \phi \approx 53,13^\circ$. Do đó $\cos\phi = \frac{F_1}{F_{th}} = \frac{6}{10} = 0,6$ (ý A, C nhầm giá trị). Ý B đúng ($\tan\phi = 1,33$).
+A | Lực kéo tối thiểu thắng ma sát nghỉ cực đại: $F_{min} = F_{msn,max} = \mu_n N = \mu_n m g = 0,4 \times 50 \times 10 = 200\text{ N}$.
+C | Hợp lực hai lực song song ngược chiều $F = F_2 - F_1 = 30 - 10 = 20\text{ N}$. Điểm đặt $O$ nằm ngoài $AB$ về phía $F_2$ lớn hơn: $\frac{d_1}{d_2} = \frac{F_2}{F_1} = \frac{30}{10} = 3 \Rightarrow d_1 = 3 d_2$. Mà $d_1 - d_2 = AB = 20\text{ cm} \Rightarrow 2 d_2 = 20 \Rightarrow d_2 = 10\text{ cm}, d_1 = 30\text{ cm}$ (cách $A$ một khoảng $30\text{ cm}$).
+B | Cân bằng thẳng đứng: $2 T \sin\theta = P \Rightarrow 2 T \sin 20^\circ = 600 \Rightarrow T = \frac{600}{2 \sin 20^\circ} = \frac{300}{0,3420} \approx 877,1\text{ N}$.
+C | $\vec{F}_1 + \vec{F}_2 + \vec{F}_3 = \vec{0} \Rightarrow \vec{F}_1 + \vec{F}_2 = -\vec{F}_3$. Tức là $\vec{F}_3$ trực đối với vectơ hợp lực $(\vec{F}_1 + \vec{F}_2)$.
+PHẦN 2: TRẮC NGHIỆM ĐÚNG/SAI
+a) ĐÚNG: $P_y = P \cos 15^\circ = 2000 \times 9,8 \times \cos 15^\circ = 19600 \times 0,9659 \approx 18932\text{ N}$.
+b) ĐÚNG: Xe đỗ cân bằng $\Rightarrow F_{msn} = P_x = P \sin 15^\circ = 19600 \times \sin 15^\circ = 19600 \times 0,2588 \approx 5073\text{ N}$ hướng ngược chiều dốc.
+c) SAI: Phản lực $N = P_y = 18932\text{ N} < P = 19600\text{ N}$.
+d) SAI: $P_x(15^\circ) = P \sin 15^\circ \approx 0,2588 P$; $P_x(30^\circ) = P \sin 30^\circ = 0,5 P$. Tỉ số $\frac{0,5}{0,2588} \approx 1,93$ lần (không đúng bằng 2 lần).
+
+a) ĐÚNG: Cân bằng điểm $O$: $\vec{F}1 + \vec{F}2 + \vec{P} = \vec{0} \Rightarrow \vec{F}{12} = -\vec{P}$.
+b) ĐÚNG: $P = Mg = 0,5 \times 9,8 = 4,9\text{ N}$. Khi $\vec{F}1 \perp \vec{F}2 \Rightarrow F_1^2 + F_2^2 = P^2 \Rightarrow 2,94^2 + F_2^2 = 4,9^2 \Rightarrow 8,6436 + F_2^2 = 24,01 \Rightarrow F_2 = \sqrt{15,3664} = 3,92\text{ N}$.
+c) SAI: Khi dây bị xếch ra ngoài, thành phần lực tác dụng trong mặt phẳng đĩa giảm đi $F{hiệu lực} = F \cos\theta{lệch}$, làm hợp lực hiệu dụng nhỏ hơn lý thuyết ($F{đo} < F_{lt}$).
+d) SAI: $F_{th} = \sqrt{F_1^2 + F_2^2 + 2F_1F_2\cos\alpha}$, chỉ bằng $F_1 + F_2$ khi $\alpha = 0^\circ$.
+
+a) ĐÚNG: $T_{1x} = T_1 \cos 30^\circ = 400 \times \cos 30^\circ = 346,4\text{ kN}$.
+b) ĐÚNG: Cân bằng nằm ngang: $T_{2x} = T_{1x} \Rightarrow T_2 \cos 45^\circ = 346,4 \Rightarrow T_2 = \frac{346,4}{\cos 45^\circ} \approx 489,9\text{ kN}$.
+c) ĐÚNG: $F_{y,th} = T_1 \sin 30^\circ + T_2 \sin 45^\circ = 400 \times 0,5 + 489,9 \times 0,7071 = 200 + 346,4 = 546,4\text{ kN}$.
+d) SAI: Lực nâng $T_{2y} = T_2 \sin\beta$. Khi $\beta$ giảm từ $45^\circ$ xuống $30^\circ$, $\sin\beta$ giảm làm lực nâng giảm.
+
+a) ĐÚNG: Đèn kéo điểm $B$ xuống làm thanh $AC$ bị nén đẩy ra và thanh $AB$ bị kéo căng giữ lại.
+b) ĐÚNG: $P = mg = 200\text{ N}$. Cân bằng thẳng đứng tại $B$: $N_{AC} \sin 45^\circ = P = 200 \Rightarrow N_{AC} = \frac{200}{\sin 45^\circ} = 200\sqrt{2}\text{ N} \approx 282,8\text{ N}$.
+c) ĐÚNG: Cân bằng nằm ngang: $T_{AB} = N_{AC} \cos 45^\circ = 200\sqrt{2} \times \frac{\sqrt{2}}{2} = 200\text{ N}$.
+d) SAI: Khung hình học cố định ($AB = 1,0\text{ m}, AC = 1,0\text{ m} \Rightarrow \alpha = 45^\circ$), góc không phụ thuộc vào khối lượng đèn treo.
+
+a) ĐÚNG: Định nghĩa chuẩn của hợp lực theo quy tắc hình bình hành.
+b) ĐÚNG: Một vectơ có thể phân tích thành vô số cặp vectơ thành phần nếu không cố định phương.
+c) SAI: Vật chuyển động thẳng đều thì hợp lực tác dụng lên vật bằng 0 (các lực cân bằng nhau), không có nghĩa là không có lực nào.
+d) ĐÚNG: Ngẫu lực làm vật quay, có tổng lực bằng 0 nhưng tổng momen khác 0, không có hợp lực duy nhất.
+
+PHẦN 3: TRẮC NGHIỆM TRẢ LỜI NGẮN
+100 | $F_{th} = \sqrt{F_1^2 + F_2^2} = \sqrt{60^2 + 80^2} = \sqrt{3600 + 6400} = \sqrt{10000} = 100\text{ N}$.
+75.8 | $P = mg = 4,0 \times 9,8 = 39,2\text{ N}$. Cân bằng thẳng đứng: $2 T \sin 15^\circ = P \Rightarrow T = \frac{39,2}{2 \sin 15^\circ} = \frac{19,6}{0,2588} \approx 75,73\text{ N} \approx 75,8\text{ N}$.
+0.6 | Quy tắc hai lực song song cùng chiều: $\frac{d_1}{d_2} = \frac{F_2}{F_1} = \frac{60}{40} = 1,5 \Rightarrow d_1 = 1,5 d_2$. Mà $d_1 + d_2 = 1,0\text{ m} \Rightarrow 2,5 d_2 = 1,0 \Rightarrow d_2 = 0,4\text{ m} \Rightarrow d_1 = 0,6\text{ m}$.
+60 | Công thức $F = 2 F_1 \cos(\alpha/2) \Rightarrow 50\sqrt{3} = 2 \times 50 \times \cos(\alpha/2) \Rightarrow \cos(\alpha/2) = \frac{\sqrt{3}}{2} \Rightarrow \alpha/2 = 30^\circ \Rightarrow \alpha = 60^\circ$.
+784 | Dù rơi thẳng đều $\Rightarrow$ hợp lực bằng 0 $\Rightarrow F_c = P = Mg = 80 \times 9,8 = 784\text{ N}$.
+PHẦN 4: TỰ LUẬN
+Lời giải chi tiết:
+
+Hệ phương trình cân bằng lực: Chọn hệ trục $Oxy$ với $Ox$ nằm ngang hướng từ $A$ đến $C$, $Oy$ thẳng đứng hướng lên. Các lực tác dụng lên dầm cầu gồm: Trọng lực $\vec{P}$, lực căng dây văng $\vec{T}$ tại $C$ (nghiêng góc $\alpha$ so với $Ox$), và phản lực gối đỡ $\vec{Q} = (Q_x, Q_y)$ tại $A$. Phương trình vectơ: $\vec{P} + \vec{T} + \vec{Q} = \vec{0}$. Chiếu lên $Ox$: $Q_x - T \cos\alpha = 0 \Rightarrow Q_x = T \cos\alpha$. Chiếu lên $Oy$: $Q_y + T \sin\alpha - P = 0 \Rightarrow Q_y + T \sin\alpha = P$.
+Tính độ lớn: Lấy momen đối với chốt $A$: $P \cdot \frac{L}{2} = (T \sin\alpha) \cdot L \Rightarrow T \sin\alpha = \frac{P}{2}$. Thay $P = 500\text{ kN}, \alpha = 30^\circ$: $T \sin 30^\circ = 250 \Rightarrow T = \frac{250}{0,5} = 500\text{ kN}$. Lực nén dầm cầu theo phương ngang: $F_{nén} = T \cos 30^\circ = 500 \times \frac{\sqrt{3}}{2} \approx 433,0\text{ kN}$.
+Phân tích biến đổi: Khi góc $\alpha$ giảm từ $30^\circ$ xuống $15^\circ$: $T' = \frac{250}{\sin 15^\circ} = \frac{250}{0,2588} \approx 966,0\text{ kN}$ (tăng gần gấp 2 lần). Lực nén dầm cầu: $F'_{nén} = T' \cos 15^\circ = 966,0 \times 0,9659 \approx 933,0\text{ kN}$ (tăng hơn gấp 2 lần). Nhận xét: Góc văng dây quá nhỏ làm lực căng dây và lực nén dầm tăng vọt, gây nguy cơ nứt gãy dầm bê tông. Do đó góc văng dây tối ưu trong kiến trúc cầu thường giữ $\alpha \ge 25^\circ - 30^\circ$.
+Lời giải chi tiết:
+
+Sơ đồ phân tích lực tại $B$: Tại điểm $B$ có ba lực tác dụng: Trọng lực biển quảng cáo $\vec{P}$ hướng thẳng đứng xuống, Lực nén của thanh $AB$ đẩy ra $\vec{N}$ theo phương ngang $AB$, và Lực căng dây cáp $\vec{T}$ kéo lên theo phương $BC$.
+Tính toán độ lớn: Góc $\theta = \widehat{ABC} \Rightarrow \tan\theta = \frac{AC}{AB} = \frac{2,0}{1,5} = \frac{4}{3} \Rightarrow \sin\theta = \frac{4}{5} = 0,8; \cos\theta = \frac{3}{5} = 0,6$. Trọng lượng biển báo: $P = mg = 15 \times 9,8 = 147\text{ N}$. Cân bằng thẳng đứng tại $B$: $T \sin\theta = P \Rightarrow T \times 0,8 = 147 \Rightarrow T = 183,75\text{ N}$. Cân bằng nằm ngang tại $B$: $N = T \cos\theta = 183,75 \times 0,6 = 110,25\text{ N}$.
+Kiểm tra khả năng treo thêm đèn: Khi treo thêm đèn $m' = 20\text{ kg} \Rightarrow M_{tổng} = 15 + 20 = 35\text{ kg} \Rightarrow P' = 35 \times 9,8 = 343\text{ N}$. Lực căng dây cáp mới: $T' = \frac{P'}{\sin\theta} = \frac{343}{0,8} = 428,75\text{ N}$. So sánh: $T' = 428,75\text{ N} < T_{\max} = 500\text{ N}$. Kết luận: Hoàn toàn có thể treo thêm đèn chiếu sáng mà dây cáp vẫn đảm bảo an toàn tuyệt đối.
+Lời giải chi tiết:
+
+Tìm góc nghiêng $\alpha_2$ tối ưu: Xà lan đi thẳng đều $\Rightarrow$ hợp lực theo phương chuyển động $F_{1x} + F_{2x} = F_c$, và tổng lực vuông góc phải triệt tiêu $F_{1y} = F_{2y} \Rightarrow F_1 \sin\alpha_1 = F_2 \sin\alpha_2$. Biểu diễn tổng lực kéo: $F_{tong} = F_1 + F_2 = \frac{F_1 \sin\alpha_1}{\sin\alpha_1} + \frac{F_1 \sin\alpha_1}{\sin\alpha_2}$. Để tổng lực kéo $F_1 + F_2$ nhỏ nhất với lực cản $F_c = F_1 \cos\alpha_1 + F_2 \cos\alpha_2 = 4000\text{ N}$, góc kéo hai bên phải đối xứng: $\alpha_2 = \alpha_1 = 30^\circ$.
+Tính độ lớn lực kéo: Khi $\alpha_1 = \alpha_2 = 30^\circ \Rightarrow F_1 = F_2 = F_0$. Hợp lực kéo: $2 F_0 \cos 30^\circ = F_c = 4000\text{ N} \Rightarrow 2 F_0 \times 0,866 = 4000 \Rightarrow 1,732 F_0 = 4000 \Rightarrow F_0 \approx 2309,4\text{ N}$. Lực kéo tổng cộng của hai tàu: $F_{tong} = 2 F_0 = 4618,8\text{ N}$.
+Ý nghĩa kinh tế - kỹ thuật: Góc kéo quá rộng (ví dụ $\alpha = 60^\circ$) sẽ làm phần lớn công suất động cơ bị lãng phí vào việc xé dây sang hai bên. Việc duy trì góc kéo nhỏ và đối xứng $\alpha \approx 15^\circ - 30^\circ$ giúp tối đa hóa thành phần lực dọc dòng sông, tiết kiệm $20% - 35%$ chi phí nhiên liệu dầu diezen cho các đội tàu kéo giao thông đường thủy Việt Nam.
+Lời giải chi tiết:
+
+Tính giá trị lý thuyết $F_{lt}$: $F_{lt} = \sqrt{F_1^2 + F_2^2 + 2F_1F_2 \cos 60^\circ} = \sqrt{3^2 + 4^2 + 2 \times 3 \times 4 \times 0,5} = \sqrt{9 + 16 + 12} = \sqrt{37} \approx 6,0828\text{ N} \approx 6,08\text{ N}$.
+Tính giá trị trung bình và sai số: $\bar{F}{đo} = \frac{6,0 + 6,2 + 6,1 + 5,9 + 6,1}{5} = \frac{30,3}{5} = 6,06\text{ N}$. Độ lệch từng lần đo: $\Delta F_1 = |6,06 - 6,0| = 0,06\text{ N}$; $\Delta F_2 = |6,06 - 6,2| = 0,14\text{ N}$; $\Delta F_3 = |6,06 - 6,1| = 0,04\text{ N}$; $\Delta F_4 = |6,06 - 5,9| = 0,16\text{ N}$; $\Delta F_5 = |6,06 - 6,1| = 0,04\text{ N}$. Sai số ngẫu nhiên trung bình: $\bar{\Delta F} = \frac{0,06 + 0,14 + 0,04 + 0,16 + 0,04}{5} = \frac{0,44}{5} = 0,088\text{ N} \approx 0,09\text{ N}$. Sai số tuyệt đối tổng cộng: $\Delta F{đo} = \bar{\Delta F} + \Delta F_{dc} = 0,09 + 0,05 = 0,14\text{ N}$.
+Biểu diễn kết quả và nhận xét: Kết quả chuẩn ISO/SI: $F_{đo} = (6,06 \pm 0,14)\text{ N}$. So sánh: Giá trị lý thuyết $F_{lt} = 6,08\text{ N}$ nằm hoàn toàn bên trong khoảng tin cậy của phép đo $[5,92\text{ N}; 6,20\text{ N}]$. Hai nguyên nhân gây ra sai số:
+Ma sát tại vòng chốt treo đĩa tròn và lực cản không khí khi thả vòng tự do.
+Mắt đọc nghiêng (lỗi thị giác Parallax) khi đối chiếu chỉ số kim lực kế với vạch chia trên mặt đĩa tròn.
+Lời giải chi tiết:
+
+Xác định góc lệch $\phi$: Trong mặt phẳng thẳng đứng vuông góc với tuyến cáp (mặt phẳng $Oxz$), cabin chịu tác dụng của Trọng lực $P = Mg = 1500 \times 9,8 = 14700\text{ N}$ hướng xuống theo $Oz$, và Lực cản gió $F_{gió} = 3000\text{ N}$ theo phương ngang $Ox$. Góc lệch dây treo so với phương thẳng đứng thỏa mãn: $\tan\phi = \frac{F_{gió}}{P} = \frac{3000}{14700} \approx 0,2041 \Rightarrow \phi = \arctan(0,2041) \approx 11,54^\circ$.
+Tính lực căng $T$ của thanh treo: Hợp lực tác dụng trong mặt phẳng ngang - thẳng đứng: $F_{xz} = \sqrt{P^2 + F_{gió}^2} = \sqrt{14700^2 + 3000^2} = \sqrt{216090000 + 9000000} = \sqrt{225090000} \approx 15003\text{ N}$. Cân bằng lực theo phương cáp treo nghiêng $\theta = 30^\circ$: Thành phần trọng lực dọc theo tuyến cáp $P_{cáp} = P \sin 30^\circ = 14700 \times 0,5 = 7350\text{ N}$. Tổng lực căng thanh treo giữ cabin: $T = \sqrt{F_{xz}^2 + P_{cáp}^2} = \sqrt{15003^2 + 7350^2} \approx \sqrt{225090000 + 54022500} = \sqrt{279112500} \approx 16706,7\text{ N} \approx 16,71\text{ kN}$.
+Giải pháp an toàn tự động cáp treo: Hệ thống cáp treo Fansipan được trang bị cảm biến tốc độ gió (Anemometer) tại các trụ cáp. Khi lực gió ngang vượt quá cấp 8 (tốc độ gió $> 20\text{ m/s}$, góc lắc $\phi > 15^\circ$), hệ thống tự động phát cảnh báo, giảm tốc độ vận hành cáp và đưa cabin về ga an toàn gần nhất để tạm dừng hoạt động, đảm bảo an toàn tuyệt đối cho du khách.

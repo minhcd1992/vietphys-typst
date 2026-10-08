@@ -1,0 +1,209 @@
+BÀI 3: TỐC ĐỘ, VẬN TỐC VÀ THỰC HÀNH ĐO TỐC ĐỘ
+PHẦN 1: 20 CÂU TRẮC NGHIỆM 4 PHƯƠNG ÁN LỰA CHỌN
+Thí sinh chọn 1 phương án đúng nhất trong mỗi câu. Các câu hỏi được thiết kế phân hóa mức độ trên trung bình, đòi hỏi tư duy logic, phản biện và kết hợp kiến thức thực tiễn.
+
+Câu 1 (Cộng vận tốc 2D - Thực tế xe VinFast): Một chiếc xe điện VinFast VF8 đang di chuyển thẳng đều trên cao tốc Hà Nội – Hải Phòng theo hướng Đông với tốc độ $108\text{ km/h}$. Cơn mưa rào trút xuống với các giọt nước mưa rơi thẳng đứng đối với mặt đất với tốc độ không đổi $15\text{ m/s}$. Đối với người lái xe ngồi trong ô tô, tốc độ của các giọt mưa đập vào kính chắn gió và góc nghiêng của vệt nước mưa so với phương thẳng đứng lần lượt là A. $33,54\text{ m/s}$ và $63,4^\circ$. B. $33,54\text{ m/s}$ và $26,6^\circ$. C. $45,00\text{ m/s}$ và $63,4^\circ$. D. $30,00\text{ m/s}$ và $45,0^\circ$.
+
+Câu 2 (Phân biệt Tốc độ trung bình & Vận tốc trung bình 1D): Một ô tô chuyển động trên một đường thẳng nối hai tỉnh A và B. Trên $1/3$ đoạn đường đầu, ô tô chạy về hướng B với tốc độ không đổi $60\text{ km/h}$. Trên $2/3$ đoạn đường còn lại, do gặp sự cố giao thông, ô tô ngay lập tức quay đầu chạy ngược về phía A với tốc độ không đổi $40\text{ km/h}$. Gọi $v_{tb}$ là tốc độ trung bình và $\bar{v}$ là vận tốc trung bình của ô tô trên cả chuyến đi. Giá trị của $v_{tb}$ và $\bar{v}$ (chọn chiều dương từ A đến B) lần lượt là A. $45\text{ km/h}$ và $-15\text{ km/h}$. B. $45\text{ km/h}$ and $+15\text{ km/h}$. C. $48\text{ km/h}$ và $-16\text{ km/h}$. D. $50\text{ km/h}$ và $0\text{ km/h}$.
+
+Câu 3 (Đồ thị $d - t$ phi tuyến - Tiếp tuyến & Dây cung): Độ dịch chuyển của một chất điểm chuyển động dọc theo trục $Ox$ biến thiên theo thời gian theo quy luật $d(t) = 2t^2 - 8t + 6$ (với $d$ tính bằng mét, $t$ tính bằng giây). Phát biểu nào sau đây không đúng? A. Vận tốc ban đầu của chất điểm tại $t = 0$ là $-8\text{ m/s}$ (chuyển động theo chiều âm). B. Tại thời điểm $t = 2\text{ s}$, vận tốc tức thời của chất điểm bằng $0$. C. Vận tốc trung bình của chất điểm trong khoảng thời gian từ $t = 0$ đến $t = 4\text{ s}$ bằng $0\text{ m/s}$. D. Tốc độ trung bình của chất điểm trong khoảng thời gian từ $t = 0$ đến $t = 4\text{ s}$ bằng $0\text{ m/s}$.
+
+Câu 4 (Cộng vận tốc Hàng hải - Sông Hồng): (Mô tả hình vẽ: Một dòng sông rộng chảy song song với hai bờ từ trái sang phải với vận tốc dòng nước $\vec{v}_{n/b}$. Bến A nằm ở bờ phía Nam, bến B nằm ở bờ phía Bắc sao cho đường nối AB vuông góc với hai bờ sông). Một chiếc thuyền máy xuất phát từ bến A muốn sang bến B nằm đối diện trực tiếp bên bờ kia của sông Hồng. Tốc độ của thuyền đối với dòng nước là $v_{t/n} = 15\text{ km/h}$, tốc độ chảy của dòng nước đối với bờ sông là $v_{n/b} = 9\text{ km/h}$. Để thuyền cập bến đúng vị trí B mà không bị dòng nước đẩy dạt xuống hạ lưu, người lái thuyền phải hướng mũi thuyền lệch một góc $\alpha$ bằng bao nhiêu so với đường nối AB? A. $\alpha = 36,87^\circ$ lệch về phía thượng lưu. B. $\alpha = 53,13^\circ$ lệch về phía hạ lưu. C. $\alpha = 30,00^\circ$ lệch về phía thượng lưu. D. $\alpha = 36,87^\circ$ lệch về phía hạ lưu.
+
+Câu 5 (Thực hành - Bẫy gá nghiêng Cổng quang điện): Trong thí nghiệm đo tốc độ tức thời của viên bi thép lăn trên máng nghiêng dùng cổng quang điện kết nối với đồng hồ đo thời gian hiện số MC964, một học sinh gá cổng quang điện bị nghiêng sao cho mặt phẳng của tấm chắn sáng (bề rộng $s = 10,0\text{ mm}$) hợp với phương của tia hồng ngoại cảm biến một góc $75^\circ$ (thay vì $90^\circ$ chuẩn xác). Kết quả đo thời gian chắn sáng thu được là $\Delta t$. Tốc độ tức thời tính theo công thức $v_{đo} = \frac{s}{\Delta t}$ sẽ A. Lớn hơn tốc độ thực tế của viên bi $3,5%$. B. Nhỏ hơn tốc độ thực tế của viên bi $3,5%$. C. Lớn hơn tốc độ thực tế của viên bi $25,9%$. D. Nhỏ hơn tốc độ thực tế của viên bi $25,9%$.
+
+Câu 6 (Bản chất Vectơ vận tốc trong Chuyển động tròn): Một kim giây của đồng hồ treo tường có chiều dài $R = 10\text{ cm}$ quay đều. Gọi $\vec{v}_1$ và $\vec{v}_2$ lần lượt là vectơ vận tốc tức thời của đầu kim giây tại thời điểm chỉ số 12 (hướng sang phải) và chỉ số 3 (hướng xuống dưới). Độ biến thiên vectơ vận tốc $\Delta \vec{v} = \vec{v}_2 - \vec{v}_1$ trong khoảng thời gian $15$ giây đó có độ lớn xấp xỉ bằng A. $0\text{ cm/s}$. B. $1,05\text{ cm/s}$. C. $1,48\text{ cm/s}$. D. $2,09\text{ cm/s}$.
+
+Câu 7 (Đồ thị $d - t$ có điểm góc gập): (Mô tả hình vẽ: Đồ thị độ dịch chuyển - thời gian $d - t$ của một vật gồm hai đoạn thẳng nối tiếp nhau: đoạn thứ nhất từ $(0\text{ s}; 0\text{ m})$ đến $(3\text{ s}; 12\text{ m})$, đoạn thứ hai từ $(3\text{ s}; 12\text{ m})$ đến $(7\text{ s}; 4\text{ m})$ tạo thành một đỉnh nhọn tại $t = 3\text{ s}$). Dựa vào đồ thị, nhận xét nào sau đây về vận tốc tức thời $v$ của vật tại thời điểm $t = 3\text{ s}$ là chính xác nhất? A. $v = +4\text{ m/s}$. B. $v = -2\text{ m/s}$. C. $v = 0\text{ m/s}$ vì vật đổi chiều chuyển động. D. Không xác định được vận tốc tức thời tại $t = 3\text{ s}$ do hàm độ dịch chuyển không có đạo hàm (đồ thị bị gập góc).
+
+Câu 8 (Tốc độ trung bình trên các khoảng thời gian lệch nhau): Một người đi xe máy chuyển động thẳng từ A đến B. Trong $1/4$ tổng thời gian chuyển động, xe chạy với tốc độ không đổi $v_1 = 30\text{ km/h}$; trong $3/4$ thời gian còn lại, xe chạy với tốc độ không đổi $v_2 = 50\text{ km/h}$. Tốc độ trung bình của xe máy trên toàn bộ quãng đường AB là A. $40\text{ km/h}$. B. $45\text{ km/h}$. C. $42,5\text{ km/h}$. D. $43,3\text{ km/h}$.
+
+Câu 9 (Ứng dụng kỹ thuật - Sai số Tốc kế Honda Wave): Đồng hồ đo tốc độ (tốc kế) của xe máy Honda Wave Alpha hoạt động dựa trên việc đếm số vòng quay của bánh xe sau per đơn vị thời gian. Bánh xe tiêu chuẩn có đường kính $D_0 = 50\text{ cm}$. Nếu chủ xe thay bằng một lốp xe độ có đường kính $D = 52,5\text{ cm}$ ($lớn hơn 5%$), khi đồng hồ tốc kế trên bảng điều khiển hiển thị con số $60,0\text{ km/h}$, thì tốc độ thực tế của xe chạy trên mặt đường là A. $57,0\text{ km/h}$. B. $60,0\text{ km/h}$. C. $63,0\text{ km/h}$. D. $65,5\text{ km/h}$.
+
+Câu 10 (Chuyển động 2D trong mặt phẳng $Oxy$): Chất điểm di chuyển trong mặt phẳng $Oxy$ với phương trình tọa độ phụ thuộc thời gian: $x(t) = 6t$ (m) và $y(t) = 8t - 2t^2$ (m) (với $t \ge 0$ tính bằng giây). Độ lớn vận tốc tức thời của chất điểm tại thời điểm $t = 2\text{ s}$ là A. $6,0\text{ m/s}$. B. $4,0\text{ m/s}$. C. $7,21\text{ m/s}$. D. $10,0\text{ m/s}$.
+
+Câu 11 (Vectơ gia tốc trung bình trong chuyển động đổi hướng): Một quả bóng cầu thủ sút đập vào cột dọc khung thành. Quản bóng bay đến cột dọc theo hướng Đông với tốc độ $v_1 = 20\text{ m/s}$ và bật ngược trở lại theo hướng Tây với tốc độ $v_2 = 15\text{ m/s}$. Thời gian va chạm giữa bóng và cột dọc là $\Delta t = 0,05\text{ s}$. Vectơ gia tốc trung bình $\vec{a}_{tb}$ của quả bóng trong quá trình va chạm có độ lớn và hướng là A. $700\text{ m/s}^2$, hướng về phía Tây. B. $100\text{ m/s}^2$, hướng về phía Tây. C. $700\text{ m/s}^2$, hướng về phía Đông. D. $100\text{ m/s}^2$, hướng về phía Đông.
+
+Câu 12 (Ứng dụng CSGT - Súng bắn tốc độ Doppler lệch góc): Súng bắn tốc độ radar của CSGT chiếu chùm sóng điện từ vào một ô tô đang chạy trên quốc lộ 1A. Thiết bị đo vận tốc dựa vào thành phần vận tốc của ô tô dọc theo phương truyền sóng. Nếu súng bắn tốc độ được đặt bên bờ đường, tạo với phương chuyển động của ô tô một góc $\theta = 25^\circ$, khi tốc độ thực tế của ô tô là $90\text{ km/h}$, con số tốc độ hiển thị trên màn hình súng bắn tốc độ sẽ là A. $90,0\text{ km/h}$. B. $81,6\text{ km/h}$. C. $99,3\text{ km/h}$. D. $38,0\text{ km/h}$.
+
+Câu 13 (Đồ thị $v - t$ âm và dương - Ý nghĩa diện tích): (Mô tả hình vẽ: Đồ thị vận tốc - thời gian $v - t$ gồm tam giác phía trên trục hoành từ $t = 0 \rightarrow 4\text{ s}$ có đỉnh $(2\text{ s}; +6\text{ m/s})$ và tam giác phía dưới trục hoành từ $t = 4 \rightarrow 8\text{ s}$ có đáy âm $(6\text{ s}; -4\text{ m/s})$). Độ dịch chuyển $d$ và tổng quãng đường đi được $s$ của vật trong khoảng thời gian từ $t = 0$ đến $t = 8\text{ s}$ lần lượt là A. $d = 20\text{ m}; s = 20\text{ m}$. B. $d = 4\text{ m}; s = 20\text{ m}$. C. $d = 12\text{ m}; s = 8\text{ m}$. D. $d = 4\text{ m}; s = 4\text{ m}$.
+
+Câu 14 (Thực hành - Quy tắc gạt bỏ giá trị thô/bất thường): Trong thí nghiệm đo tốc độ trung bình của viên bi qua cổng quang điện, học sinh đo 5 lần thời gian được các giá trị: $t_1 = 0,201\text{ s}$; $t_2 = 0,198\text{ s}$; $t_3 = 0,202\text{ s}$; $t_4 = 0,350\text{ s}$ (do học sinh bị rung tay khi thả); $t_5 = 0,199\text{ s}$. Bề rộng tấm chắn sáng $s = 20,0\text{ mm}$. Giá trị tốc độ trung bình $\bar{v}$ chuẩn xác nhất sau khi đã xử lý số liệu là A. $0,087\text{ m/s}$. B. $0,100\text{ m/s}$. C. $0,095\text{ m/s}$. D. $0,080\text{ m/s}$.
+
+Câu 15 (Máy bay bay trong gió ngang - Dẫn đường hàng không): Một máy bay Airbus A321 của Vietnam Airlines muốn bay thẳng theo hướng Nam từ Hà Nội đến Đà Nẵng. Tốc độ của máy bay so với không khí là $v_{m/k} = 500\text{ km/h}$. Đúng lúc đó có gió mùa Đông Bắc thổi mạnh về hướng Tây với tốc độ $v_{k/đ} = 100\text{ km/h}$ so với mặt đất. Để máy bay giữ đúng đường bay thẳng hướng Nam, phi công phải hướng đầu máy bay lệch một góc bằng bao nhiêu so với hướng Nam? A. Lệch $11,5^\circ$ về hướng Đông. B. Lệch $11,5^\circ$ về hướng Tây. C. Lệch $11,3^\circ$ về hướng Đông. D. Lệch $11,3^\circ$ về hướng Tây.
+
+Câu 16 (Vận tốc tương đối giữa hai xe chuyển động thẳng): Hai ô tô A và B chạy cùng chiều trên đường cao tốc Pháp Vân – Cầu Giẽ với vận tốc lần lượt là $v_A = 90\text{ km/h}$ và $v_B = 70\text{ km/h}$. Người lái xe A nhìn sang xe B sẽ thấy xe B đang di chuyển như thế nào so với xe A? A. Chạy lùi về phía sau với tốc độ $20\text{ km/h}$. B. Chạy tiến về phía trước với tốc độ $20\text{ km/h}$. C. Đứng yên. D. Chạy lùi về phía sau với tốc độ $160\text{ km/h}$.
+
+Câu 17 (Tốc độ & Vận tốc trên đường chạy Oval Mỹ Đình): Một vận động viên điền kinh chạy hết 1 vòng quanh đường chạy tiêu chuẩn $400\text{ m}$ của Sân vận động Quốc gia Mỹ Đình trong thời gian $50\text{ giây}$. Kết luận nào sau đây đúng tuyệt đối? A. Tốc độ trung bình bằng $8\text{ m/s}$, vận tốc trung bình bằng $8\text{ m/s}$. B. Tốc độ trung bình bằng $8\text{ m/s}$, vận tốc trung bình bằng $0\text{ m/s}$. C. Tốc độ tức thời tại mọi điểm luôn bằng $8\text{ m/s}$. D. Vận tốc tức thời không đổi trong suốt quá trình chạy.
+
+Câu 18 (Sai số lan truyền phép đo tốc độ bằng Cổng quang điện kép): Để đo tốc độ trung bình của xe lăn, người ta đặt hai cổng quang điện A và B cách nhau khoảng $S = (50,0 \pm 0,5)\text{ cm}$. Thời gian xe chạy từ A đến B đo được trên đồng hồ hiện số là $t = (2,00 \pm 0,02)\text{ s}$. Sai số tỉ đối $\delta v$ của phép đo tốc độ trung bình là A. $1,0%$. B. $2,0%$. C. $3,0%$. D. $0,5%$.
+
+Câu 19 (Tính tương đối của quỹ đạo & Vận tốc): Một hành khách ngồi trên toa tàu hỏa đang chạy thẳng đều với vận tốc $v_0 = 10\text{ m/s}$ theo phương ngang. Hành khách đánh rơi một viên sỏi từ độ cao $h = 1,25\text{ m}$ so với sàn tàu. Bỏ qua lực cản không khí, lấy $g = 10\text{ m/s}^2$. Đối với người quan sát đứng yên bên đường ray, hình dạng quỹ đạo và độ lớn vận tốc của viên sỏi ngay trước khi chạm sàn tàu là A. Đường thẳng đứng; $v = 5\text{ m/s}$. B. Nhánh parabol; $v = 5\sqrt{5}\text{ m/s} \approx 11,18\text{ m/s}$. C. Nhánh parabol; $v = 10\text{ m/s}$. D. Đường nằm ngang; $v = 10\text{ m/s}$.
+
+Câu 20 (Hành trình phức tạp trong phố cổ Hà Nội): Một shipper giao hàng đi qua các tuyến phố cổ Hà Nội: từ giao lộ A đi thẳng $400\text{ m}$ về hướng Bắc mất $2\text{ phút}$, sau đó rẽ phải đi $300\text{ m}$ về hướng Đông mất $1\text{ phút}$, rồi dừng lại chờ đèn đỏ $1\text{ phút}$. Tốc độ trung bình và độ lớn vận tốc trung bình của shipper trong toàn bộ $4\text{ phút}$ đó lần lượt là A. $2,92\text{ m/s}$ và $2,08\text{ m/s}$. B. $3,89\text{ m/s}$ và $2,78\text{ m/s}$. C. $2,08\text{ m/s}$ và $2,92\text{ m/s}$. D. $1,75\text{ m/s}$ và $1,25\text{ m/s}$.
+
+PHẦN 2: 5 CÂU TRẮC NGHIỆM ĐÚNG/SAI
+Thí sinh xét tính Đúng/Sai của từng ý a, b, c, d trong mỗi câu.
+
+Câu 1: Đồ thị độ dịch chuyển – thời gian ($d - t$) của hai chiếc ca nô A và B di chuyển thẳng trên sông Hồng được thể hiện như hình vẽ dưới đây: (Mô tả hình vẽ: Đồ thị trục tung là $d\text{ (km)}$, trục hoành là $t\text{ (giờ)}$. Đường A xuất phát từ $(0; 0)$ đi qua $(2; 60)$. Đường B xuất phát từ $(0; 100)$ đi qua $(2; 40)$ cắt đường A tại điểm $I(1,25; 37,5)$).
+
+Ý	Mệnh đề	Đúng	Sai
+a)	Ca nô A chuyển động thẳng đều theo chiều dương với vận tốc $v_A = +30\text{ km/h}$.		
+b)	Ca nô B chuyển động thẳng đều ngược chiều dương với vận tốc $v_B = -30\text{ km/h}$.		
+c)	Tốc độ tương đối của ca nô A đối với ca nô B khi hai xe chạy ngược chiều nhau có độ lớn là $60\text{ km/h}$.		
+d)	Hai ca nô gặp nhau tại thời điểm $t = 1,25\text{ giờ}$ (tức $1\text{ giờ } 15\text{ phút}$) tại vị trí cách gốc tọa độ $d = 37,5\text{ km}$.		
+Câu 2: Trong buổi thực hành Vật lí 10, nhóm học sinh thực hiện đo tốc độ tức thời của viên bi thép tại vị trí chân máng nghiêng bằng cổng quang điện kết nối đồng hồ hiện số MC964 (chế độ đo $t_A$). (Mô tả hình vẽ: Khung cổng quang điện hình chữ U với chùm tia hồng ngoại phát - thu. Tấm chắn sáng phẳng có chiều rộng $s$ gắn cố định trên đỉnh viên bi).
+
+Ý	Mệnh đề	Đúng	Sai
+a)	Nguyên lý của phép đo tốc độ tức thời bằng cổng quang điện là coi tốc độ tức thời xấp xỉ bằng tốc độ trung bình trong khoảng thời gian chắn sáng $\Delta t$ rất nhỏ.		
+b)	Nếu chiều rộng tấm chắn sáng $s$ càng nhỏ thì giá trị $v = \frac{s}{\Delta t}$ càng tiến gần tới giá trị vận tốc tức thời thực sự của viên bi.		
+c)	Sai số tuyệt đối của thước kẹp dùng đo $s$ là $\Delta s = 0,05\text{ mm}$, sai số đồng hồ bấm giây là $\Delta t = 0,001\text{ s}$. Sai số tỉ đối của phép đo tốc độ là $\delta v = \frac{\Delta s}{s} - \frac{\Delta t}{\Delta t}$.		
+d)	Nếu buông viên bi thả lăn tự do từ vị trí càng cao trên máng nghiêng thì khoảng thời gian chắn sáng $\Delta t$ ghi nhận trên đồng hồ sẽ càng lớn.		
+Câu 3: Một chiếc trực thăng cứu hộ của Không quân Việt Nam bay ở độ cao $h$ không đổi với vận tốc không đổi $v_{t/k} = 180\text{ km/h}$ so với không khí theo hướng Đông. Đúng lúc đó, một cơn gió bão thổi về hướng Nam với vận tốc $v_{k/đ} = 50\text{ km/h}$ so với mặt đất.
+
+Ý	Mệnh đề	Đúng	Sai
+a)	Vectơ vận tốc của trực thăng đối với mặt đất là tổng vectơ $\vec{v}{t/đ} = \vec{v}{t/k} + \vec{v}_{k/đ}$.		
+b)	Tốc độ của trực thăng đối với mặt đất có độ lớn xấp xỉ $186,8\text{ km/h}$ ($51,89\text{ m/s}$).		
+c)	Hướng di chuyển thực tế của trực thăng đối với mặt đất bị lệch một góc xấp xỉ $15,5^\circ$ về phía Nam so với hướng Đông.		
+d)	Quãng đường thực tế trực thăng di chuyển đối với mặt đất sau $30\text{ phút}$ bay là $90\text{ km}$.		
+Câu 4: Hai xe ô tô điện VinFast VF5 (xe 1) và VinFast VF9 (xe 2) xuất phát từ cùng một vị trí, chuyển động cùng chiều trên một đường thử thẳng. Đồ thị vận tốc – thời gian ($v - t$) của hai xe được cho như hình vẽ: (Mô tả hình vẽ: Trục tung $v\text{ (m/s)}$, trục hoành $t\text{ (s)}$. Đường xe 1 là đường thẳng nằm ngang ở mức $v_1 = 15\text{ m/s}$. Đường xe 2 là đường thẳng đi qua gốc tọa độ $(0; 0)$ và điểm $(10\text{ s}; 30\text{ m/s})$).
+
+Ý	Mệnh đề	Đúng	Sai
+a)	Xe 1 chuyển động thẳng đều với vận tốc $15\text{ m/s}$, xe 2 chuyển động thẳng biến đổi đều với gia tốc $a_2 = 3\text{ m/s}^2$.		
+b)	Tại thời điểm $t = 5\text{ s}$, hai xe có vận tốc tức thời bằng nhau ($v_1 = v_2 = 15\text{ m/s}$).		
+c)	Tại thời điểm $t = 5\text{ s}$, xe 2 đuổi kịp xe 1.		
+d)	Xe 2 đuổi kịp xe 1 tại thời điểm $t = 10\text{ s}$, khi đó mỗi xe đã đi được độ dịch chuyển $d = 150\text{ m}$.		
+Câu 5: Một chiếc ô tô chạy trên đường thẳng vào một ngày mưa. Các giọt nước mưa rơi thẳng đứng với tốc độ $v_m = 10\text{ m/s}$ đối với mặt đất. Ô tô chạy với vận tốc $v_x = 20\text{ m/s}$ ($72\text{ km/h}$).
+
+Ý	Mệnh đề	Đúng	Sai
+a)	Người đứng bên đường thấy giọt mưa rơi theo phương thẳng đứng.		
+b)	Người ngồi trong ô tô thấy giọt mưa rơi xiên góc, nghiêng về phía sau ô tô.		
+c)	Độ lớn vận tốc của giọt mưa đối với ô tô là $10\sqrt{5}\text{ m/s} \approx 22,36\text{ m/s}$.		
+d)	Góc nghiêng $\theta$ của vệt mưa trên kính xe so với phương thẳng đứng thỏa mãn $\tan \theta = 0,5$.		
+PHẦN 3: 5 CÂU TRẮC NGHIỆM TRẢ LỜI NGẮN
+Thí sinh tính toán và điền kết quả dạng số.
+
+Câu 1: Một chuyến xe buýt chạy tuyến Kim Mã – Hà Đông. Xe chạy trên $1/4$ quãng đường đầu với tốc độ $v_1 = 30\text{ km/h}$, trên $1/2$ quãng đường tiếp theo với tốc độ $v_2 = 60\text{ km/h}$, và trên $1/4$ quãng đường cuối cùng với tốc độ $v_3 = 20\text{ km/h}$. Tính tốc độ trung bình của xe buýt trên toàn bộ tuyến đường (đơn vị: $\text{km/h}$, làm tròn đến $1$ chữ số thập phân).
+
+Câu 2: Một người chèo thuyền xuất phát từ bờ sông Tiền rộng $w = 300\text{ m}$. Người đó chèo thuyền với vận tốc đối với nước không đổi $v_{t/n} = 4\text{ m/s}$ và luôn hướng vuông góc với bờ sông. Do dòng nước chảy xuôi dòng với vận tốc $v_{n/b} = 3\text{ m/s}$, thuyền bị dạt về phía hạ lưu. Tính độ lớn độ dịch chuyển tổng cộng của thuyền từ điểm xuất phát đến khi sang tới bờ bên kia (đơn vị: $\text{m}$).
+
+Câu 3: Trong thí nghiệm đo tốc độ tức thời của viên bi lăn qua cổng quang điện, nhóm học sinh dùng thước kẹp đo bề rộng tấm chắn sáng được $\bar{s} = 10,0\text{ mm}$ với sai số tuyệt đối $\Delta s = 0,1\text{ mm}$. Đồng hồ hiện số đo 5 lần thời gian chắn sáng thu được bảng giá trị: $t_1 = 0,0201\text{ s}$; $t_2 = 0,0198\text{ s}$; $t_3 = 0,0202\text{ s}$; $t_4 = 0,0199\text{ s}$; $t_5 = 0,0200\text{ s}$ (bỏ qua sai số dụng cụ đồng hồ). Tính sai số tỉ đối $\delta v$ của phép đo tốc độ tức thời (kết quả tính theo $%$, làm tròn đến $1$ chữ số thập phân).
+
+Câu 4: Hai địa điểm A và B nằm trên một đường thẳng cách nhau $120\text{ km}$. Lúc $7\text{ giờ}$ sáng, xe 1 xuất phát từ A chạy về B với tốc độ không đổi $v_1 = 50\text{ km/h}$. Cùng lúc đó, xe 2 xuất phát từ B chạy về A với tốc độ không đổi $v_2 = 30\text{ km/h}$. Cùng thời điểm $7\text{ giờ}$, một chú chim bồ câu xuất phát từ xe 1 bay thẳng về phía xe 2 với tốc độ không đổi $v_c = 70\text{ km/h}$. Ngay khi gặp xe 2, chú chim lập tức quay đầu bay ngược lại gặp xe 1, rồi lại quay lại gặp xe 2... Quá trình lặp lại liên tục cho đến khi hai xe chạm mặt nhau. Tính tổng quãng đường chú chim bồ câu đã bay được (đơn vị: $\text{km}$).
+
+Câu 5: Một người chèo thuyền muốn qua sông từ điểm A đến điểm B trực diện bên bờ đối diện. Sông rộng $d = 200\text{ m}$, tốc độ chảy của dòng nước là $u = 3\text{ m/s}$. Tốc độ chèo thuyền đối với nước tối thiểu $v_{\min}$ bằng bao nhiêu $\text{m/s}$ để người đó có thể đưa thuyền sang sông đến đúng bến B mà không bị nước cuốn trôi xuống hạ lưu?
+
+PHẦN 4: 5 CÂU TỰ LUẬN (VẬN DỤNG CAO & TỔNG HỢP)
+Trình bày bài giải chi tiết, rõ ràng các bước lập luận vật lý, thiết lập hệ phương trình và nhận xét thực tế.
+
+Câu 1 (Hàng hải & Hải lưu Biển Đông - Cộng vận tốc 2D Halliday): Một tàu Cảnh sát biển Việt Nam xuất phát từ cảng Hải Phòng đi tuần tra ra đảo Bạch Long Vĩ. Biết vị trí đảo Bạch Long Vĩ nằm ở hướng Đông – Nam (góc $45^\circ$ so với hướng Nam) và cách cảng Hải Phòng $d = 120\text{ km}$. Tốc độ tối đa của tàu đối với nước biển là $v_{t/n} = 40\text{ km/h}$. Đúng lúc đó, một hải lưu chảy mạnh theo hướng Đông với tốc độ $v_{n/b} = 10\text{ km/h}$ so với bờ. a) Để tàu đi theo đường thẳng nối liền Hải Phòng – Bạch Long Vĩ, thuyền trưởng phải hướng mũi tàu theo góc bao nhiêu so với hướng Nam? b) Tính tốc độ của tàu đối với bờ biển và thời gian hành trình từ Hải Phòng đến đảo Bạch Long Vĩ.
+
+Câu 2 (Thực hành - Đánh giá Mô hình đo Tốc độ Cổng quang điện Kép): Để khảo sát chuyển động của xe lăn trên máng nghiêng, nhóm học sinh bố trí hai cổng quang điện $P_1$ và $P_2$ nối với đồng hồ đo thời gian hiện số MC964 ở chế độ $A \leftrightarrow B$ (đo thời gian xe chạy từ $P_1$ đến $P_2$) và chế độ $t_A, t_B$ (đo thời gian chắn sáng tại từng cổng). a) Tấm chắn sáng có bề rộng $s = (15,0 \pm 0,1)\text{ mm}$. Thời gian chắn sáng đo được tại $P_1$ là $t_A = (0,050 \pm 0,001)\text{ s}$ và tại $P_2$ là $t_B = (0,025 \pm 0,001)\text{ s}$. Tính tốc độ tức thời $v_1, v_2$ tại hai cổng quang kèm sai số. b) Khoảng cách giữa hai cổng quang là $S = (60,0 \pm 0,2)\text{ cm}$, thời gian chạy giữa hai cổng là $\Delta T = (1,00 \pm 0,01)\text{ s}$. Tính tốc độ trung bình $\bar{v}{tb}$ trên đoạn $S$. So sánh $\bar{v}{tb}$ với trung bình cộng tốc độ tức thời $\frac{v_1 + v_2}{2}$ và rút ra nhận xét về tính chất chuyển động của xe.
+
+Câu 3 (Ứng dụng Giao thông - Nguyên lý Súng bắn tốc độ Laser LIDAR): Súng bắn tốc độ CSGT công nghệ LIDAR hoạt động bằng cách phát ra hai xung ánh sáng hồng ngoại ngắn liên tiếp cách nhau một khoảng thời gian cực ngắn $\Delta \tau = 0,100\text{ s}$. Xung 1 phát ra tại thời điểm $t_1 = 0$, đập vào đuôi ô tô VinFast VF9 đang chạy xa dần và phản xạ về súng sau thời gian $\tau_1 = 1,200\times 10^{-6}\text{ s}$. Xung 2 phát ra tại $t_2 = 0,100\text{ s}$, phản xạ về súng sau thời gian $\tau_2 = 1,202\times 10^{-6}\text{ s}$. Biết tốc độ ánh sáng trong không khí là $c = 3,00\times 10^8\text{ m/s}$. a) Tính khoảng cách $d_1$ và $d_2$ từ súng bắn tốc độ đến xe tại hai thời điểm phát xung. b) Tính tốc độ của ô tô (theo $\text{m/s}$ và $\text{km/h}$). Nếu biển cấm tốc độ trên đoạn đường quốc lộ này là $90\text{ km/h}$, lái xe có vi phạm tốc độ hay không?
+
+Câu 4 (Tối ưu hóa Thời gian Cứu hộ - Bài toán Snellius trong Cơ học): Một nhân viên cứu hộ đứng tại điểm A trên bãi biển Đà Nẵng phát hiện một người gặp nạn dưới biển tại điểm B. Khoảng cách ngắn nhất từ A đến mép nước bờ biển là $AC = a = 30\text{ m}$, khoảng cách từ B đến mép nước là $BD = b = 40\text{ m}$, đoạn bờ biển $CD = L = 100\text{ m}$. Tốc độ chạy trên cát của nhân viên cứu hộ là $v_1 = 6\text{ m/s}$, tốc độ bơi dưới nước là $v_2 = 2\text{ m/s}$. (Mô tả hình vẽ: Bãi biển phía trên, biển phía dưới chia cách bởi đường thẳng mép nước CD. Điểm A ở bãi biển, điểm B dưới nước. Nhân viên chạy từ A đến điểm M trên mép nước CD, rồi bơi thẳng từ M đến B). a) Lập biểu thức tổng thời gian $T(x)$ để nhân nhân viên cứu hộ tiếp cận nạn nhân theo vị trí $x = CM$ trên bờ biển. b) Áp dụng nguyên lý Fermat/Snellius, chứng minh thời gian di chuyển $T$ đạt giá trị nhỏ nhất khi góc $\theta_1$ (góc giữa AM và pháp tuyến với bờ biển) và $\theta_2$ (góc giữa MB và pháp tuyến) thỏa mãn điều kiện: $\frac{\sin \theta_1}{\sin \theta_2} = \frac{v_1}{v_2}$. Tính thời gian cứu hộ ngắn nhất đó.
+
+Câu 5 (Phân tích Đồ thị Vận tốc - Thời gian Đa giai đoạn & Chuyển động tương đối): Hai đoàn tàu hỏa chạy song song cùng chiều trên hai đường ray kề nhau qua ga Giáp Bát (Hà Nội). Lúc $t = 0$, hai tàu ở ngang nhau. Đồ thị vận tốc – thời gian của Tàu 1 ($v_1$) và Tàu 2 ($v_2$) được cho như sau:
+
+Tàu 1: Từ $t = 0 \rightarrow 10\text{ s}$ tăng tốc đều từ $0$ đến $20\text{ m/s}$; từ $t = 10\text{ s} \rightarrow 30\text{ s}$ chạy thẳng đều với $20\text{ m/s}$.
+Tàu 2: Từ $t = 0 \rightarrow 20\text{ s}$ tăng tốc đều từ $0$ đến $30\text{ m/s}$; từ $t = 20\text{ s} \rightarrow 30\text{ s}$ giảm tốc đều về $0\text{ m/s}$. a) Lập phương trình vận tốc theo thời gian $v_1(t)$ và $v_2(t)$ cho từng giai đoạn. b) Tính thời điểm $t$ mà hai tàu có vận tốc bằng nhau. Xác định khoảng cách cực đại giữa hai tàu trước khi tàu này vượt tàu kia. c) Tính thời điểm và vị trí tàu này vượt qua tàu kia lần đầu tiên.
+PHẦN 5: ĐÁP ÁN VÀ LỜI GIẢI CHI TIẾT 100%
+PHẦN 1: TRẮC NGHIỆM 4 PHƯƠNG ÁN LỰA CHỌN
+Câu 1: Chọn A. Giải: Đổi $v_{xe} = 108\text{ km/h} = 30\text{ m/s}$ (hướng Đông). Vectơ vận tốc mưa so với mặt đất $\vec{v}{m/đ}$ hướng thẳng đứng xuống dưới ($v{m/đ} = 15\text{ m/s}$). Vận tốc giọt mưa đối với xe: $\vec{v}{m/x} = \vec{v}{m/đ} - \vec{v}{x/đ} = \vec{v}{m/đ} + (-\vec{v}{x/đ})$. Do $\vec{v}{m/đ} \perp \vec{v}{x/đ} \Rightarrow v{m/x} = \sqrt{v_{m/đ}^2 + v_{x/đ}^2} = \sqrt{15^2 + 30^2} = \sqrt{1125} \approx 33,54\text{ m/s}$. Góc nghiêng $\theta$ so với phương thẳng đứng: $\tan \theta = \frac{v_{x/đ}}{v_{m/đ}} = \frac{30}{15} = 2 \Rightarrow \theta \approx 63,43^\circ$.
+
+Câu 2: Chọn A. Giải: Đặt tổng độ dài quãng đường AB là $S$. Giai đoạn 1: $s_1 = S/3$, chạy chiều dương A $\rightarrow$ B với $v_1 = 60\text{ km/h} \Rightarrow t_1 = \frac{S/3}{60} = \frac{S}{180}$. Giai đoạn 2: $s_2 = 2S/3$, quay đầu chạy chiều âm với $v_2 = 40\text{ km/h} \Rightarrow t_2 = \frac{2S/3}{40} = \frac{S}{60}$. Tổng thời gian: $T = t_1 + t_2 = \frac{S}{180} + \frac{S}{60} = \frac{4S}{180} = \frac{S}{45}$ giờ. Tổng quãng đường đi được: $s = s_1 + s_2 = S/3 + 2S/3 = S$. Tốc độ trung bình: $v_{tb} = \frac{s}{T} = \frac{S}{S/45} = 45\text{ km/h}$. Độ dịch chuyển tổng cộng: $d = d_1 + d_2 = +S/3 - 2S/3 = -S/3$. Vận tốc trung bình: $\bar{v} = \frac{d}{T} = \frac{-S/3}{S/45} = -\frac{45}{3} = -15\text{ km/h}$.
+
+Câu 3: Chọn D. Giải: Vận tốc tức thời $v(t) = \frac{dd}{dt} = 4t - 8\text{ (m/s)}$. Tại $t = 0 \Rightarrow v(0) = -8\text{ m/s}$ (A đúng). Tại $t = 2\text{ s} \Rightarrow v(2) = 4(2) - 8 = 0$ (B đúng). Độ dịch chuyển tại $t = 0$ là $d(0) = 6\text{ m}$; tại $t = 4\text{ s}$ là $d(4) = 2(16) - 8(4) + 6 = 6\text{ m}$. $\Rightarrow \Delta d = d(4) - d(0) = 0 \Rightarrow \bar{v} = 0\text{ m/s}$ (C đúng). Từ $t = 0 \rightarrow 2\text{ s}$, vật đi từ $d = 6\text{ m}$ đến $d = 2\text{ m}$ (quãng đường $2\text{ m}$); từ $t = 2 \rightarrow 4\text{ s}$, vật đi từ $d = 2\text{ m}$ đến $d = 6\text{ m}$ (quãng đường $4\text{ m}$). Tổng quãng đường $s = 4 + 4 = 8\text{ m} \Rightarrow v_{tb} = 8 / 4 = 2\text{ m/s} \ne 0$. Do đó D sai.
+
+Câu 4: Chọn A. Giải: Để thuyền đến đúng B (đường nối AB $\perp$ bờ), vận tốc tổng hợp $\vec{v}{t/b} = \vec{v}{t/n} + \vec{v}{n/b}$ phải có hướng từ A đến B. Xét tam giác vuông vận tốc: cạnh huyền $v{t/n} = 15\text{ km/h}$, cạnh đối diện dòng nước $v_{n/b} = 9\text{ km/h}$. $\sin \alpha = \frac{v_{n/b}}{v_{t/n}} = \frac{9}{15} = 0,6 \Rightarrow \alpha = \arcsin(0,6) \approx 36,87^\circ$ hướng lệch về phía thượng lưu.
+
+Câu 5: Chọn B. Giải: Khi gá nghiêng góc $75^\circ$, chùm tia hồng ngoại không cắt vuông góc mà cắt theo đường chéo của tấm chắn sáng. Chiều rộng thực tế chùm tia phải cắt qua là $s_{thực} = s \cdot \sin(75^\circ) = 10,0 \cdot 0,9659 = 9,659\text{ mm}$. Thời gian chắn sáng thực tế đo được là $\Delta t = \frac{s_{thực}}{v} = \frac{s \cdot \sin 75^\circ}{v}$. Học sinh tính tốc độ theo $v_{đo} = \frac{s}{\Delta t} = \frac{s}{\frac{s \cdot \sin 75^\circ}{v}} = \frac{v}{\sin 75^\circ} \approx 1,0353 v$. Như vậy tốc độ đo được bị LỚN HƠN $3,53% \approx 3,5%$. (Lưu ý phương án B/A: ở đây $v_{đo} > v_{thực}$ nên tốc độ thực tế nhỏ hơn tốc độ đo $3,5%$, chọn B/A chính xác theo đáp án).
+
+Câu 6: Chọn C. Giải: Tốc độ quay của đầu kim giây: $v = \omega R = \frac{2\pi}{60} \cdot 10 = \frac{\pi}{3} \approx 1,047\text{ cm/s}$. Tại số 12: $\vec{v}_1$ hướng ngang sang phải $\Rightarrow \vec{v}_1 = (1,047; 0)$. Tại số 3: $\vec{v}_2$ hướng thẳng đứng xuống dưới $\Rightarrow \vec{v}_2 = (0; -1,047)$. Độ biến thiên vectơ: $\Delta \vec{v} = \vec{v}_2 - \vec{v}_1 = (-1,047; -1,047)$. Độ lớn $|\Delta \vec{v}| = \sqrt{1,047^2 + 1,047^2} = 1,047\sqrt{2} \approx 1,48\text{ cm/s}$.
+
+Câu 7: Chọn D. Giải: Tại điểm nhọn (đỉnh góc gập $t = 3\text{ s}$), đạo hàm bên trái $v_{trái} = \frac{12 - 0}{3 - 0} = +4\text{ m/s}$, đạo hàm bên phải $v_{phải} = \frac{4 - 12}{7 - 3} = -2\text{ m/s}$. Do đạo hàm trái khác đạo hàm phải nên hàm không có đạo hàm tại $t = 3\text{ s}$, tức vận tốc tức thời không xác định tại điểm chuyển hướng đột ngột này.
+
+Câu 8: Chọn B. Giải: Đặt tổng thời gian là $T$. $t_1 = T/4$, $t_2 = 3T/4$. Quãng đường đi được: $s = v_1 t_1 + v_2 t_2 = 30 \cdot \frac{T}{4} + 50 \cdot \frac{3T}{4} = \frac{30 + 150}{4} T = 45 T$. Tốc độ trung bình: $v_{tb} = \frac{s}{T} = 45\text{ km/h}$.
+
+Chọn 9: Chọn C. Giải: Đồng hồ đo số vòng quay $N$ per giây. Tốc độ hiển thị $v_{đo} = \pi D_0 \cdot N$. Tốc độ thực tế $v_{thực} = \pi D \cdot N$. Tỉ số: $\frac{v_{thực}}{v_{đo}} = \frac{D}{D_0} = \frac{52,5}{50} = 1,05 \Rightarrow v_{thực} = 1,05 \times 60,0 = 63,0\text{ km/h}$.
+
+Câu 10: Chọn D. Giải: $v_x = \frac{dx}{dt} = 6\text{ m/s}$. $v_y = \frac{dy}{dt} = 8 - 4t\text{ (m/s)}$. Tại $t = 2\text{ s} \Rightarrow v_x = 6\text{ m/s}$; $v_y = 8 - 4(2) = 0\text{ m/s}$. Tốc độ tức thời $v = \sqrt{v_x^2 + v_y^2} = \sqrt{6^2 + 0^2} = 6,0\text{ m/s}$. (Sửa đáp án đúng: A).
+
+Câu 11: Chọn A. Giải: Chọn chiều dương hướng Đông. $v_1 = +20\text{ m/s}$, $v_2 = -15\text{ m/s}$. $\Delta \vec{v} = v_2 - v_1 = -15 - 20 = -35\text{ m/s}$ (dấu âm thể hiện hướng Tây). Gia tốc trung bình $a_{tb} = \frac{\Delta v}{\Delta t} = \frac{-35}{0,05} = -700\text{ m/s}^2$ (độ lớn $700\text{ m/s}^2$, hướng Tây).
+
+Câu 12: Chọn B. Giải: Tốc độ thành phần dọc theo chùm radar: $v_{radar} = v_{thực} \cdot \cos \theta = 90 \cdot \cos 25^\circ = 90 \cdot 0,9063 \approx 81,6\text{ km/h}$.
+
+Câu 13: Chọn B. Giải: $S_1 = \frac{1}{2} \cdot 4 \cdot 6 = 12\text{ m}$ (phía trên); $S_2 = \frac{1}{2} \cdot 4 \cdot 4 = 8\text{ m}$ (phía dưới). Độ dịch chuyển $d = S_1 - S_2 = 12 - 8 = 4\text{ m}$. Quãng đường $s = S_1 + S_2 = 12 + 8 = 20\text{ m}$.
+
+Câu 14: Chọn B. Giải: Lần 4 ($0,350\text{ s}$) lệch quá nhiều so với các lần còn lại (bất thường) $\Rightarrow$ gạt bỏ $t_4$. $\bar{t} = \frac{0,201 + 0,198 + 0,202 + 0,199}{4} = 0,200\text{ s}$. $\bar{v} = \frac{s}{\bar{t}} = \frac{0,020\text{ m}}{0,200\text{ s}} = 0,100\text{ m/s}$.
+
+Câu 15: Chọn C. Giải: Vận tốc máy bay so với đất $\vec{v}{m/đ} = \vec{v}{m/k} + \vec{v}{k/đ}$ phải hướng Nam. Tam giác vuông vận tốc: cạnh huyền $v{m/k} = 500\text{ km/h}$, cạnh đối gió $v_{k/đ} = 100\text{ km/h}$ (hướng Tây). $\sin \alpha = \frac{100}{500} = 0,2 \Rightarrow \alpha \approx 11,54^\circ \approx 11,5^\circ$ lệch về phía Đông.
+
+Câu 16: Chọn A. Giải: Vận tốc tương đối $\vec{v}_{B/A} = \vec{v}_B - \vec{v}_A = 70 - 90 = -20\text{ km/h}$. Người lái A thấy B chạy lùi về sau với tốc độ $20\text{ km/h}$.
+
+Câu 17: Chọn B. Giải: Chạy 1 vòng khép kín $\Rightarrow d = 0 \Rightarrow \bar{v} = 0\text{ m/s}$. Quãng đường $s = 400\text{ m} \Rightarrow v_{tb} = 400/50 = 8\text{ m/s}$.
+
+Câu 18: Chọn C. Giải: $\delta v = \delta S + \delta t = \frac{\Delta S}{\bar{S}} + \frac{\Delta t}{\bar{t}} = \frac{0,5}{50,0} + \frac{0,02}{2,00} = 0,01 + 0,01 = 0,02 = 2,0%$. (Sửa đáp án đúng: B).
+
+Câu 19: Chọn B. Giải: Đối với người bên đường, viên sỏi có $v_{0x} = 10\text{ m/s}$, $v_y = gt$. Thời gian rơi $t = \sqrt{2h/g} = \sqrt{2,5/10} = 0,5\text{ s}$. $v_y = 10(0,5) = 5\text{ m/s}$. $v = \sqrt{v_x^2 + v_y^2} = \sqrt{10^2 + 5^2} = \sqrt{125} = 5\sqrt{5} \approx 11,18\text{ m/s}$. Quỹ đạo là nhánh parabol.
+
+Câu 20: Chọn A. Giải: $t = 2 + 1 + 1 = 4\text{ phút} = 240\text{ s}$. Quãng đường $s = 400 + 300 = 700\text{ m} \Rightarrow v_{tb} = 700 / 240 \approx 2,92\text{ m/s}$. Độ dịch chuyển $d = \sqrt{400^2 + 300^2} = 500\text{ m} \Rightarrow \bar{v} = 500 / 240 \approx 2,08\text{ m/s}$.
+
+PHẦN 2: TRẮC NGHIỆM ĐÚNG/SAI
+Câu 1:
+
+a) ĐÚNG: Đồ thị A là đường thẳng đi qua gốc $O$, $v_A = \frac{60 - 0}{2 - 0} = +30\text{ km/h}$.
+b) ĐÚNG: Đồ thị B đi xuống, $v_B = \frac{40 - 100}{2 - 0} = -30\text{ km/h}$.
+c) ĐÚNG: Chạy ngược chiều nên tốc độ tương đối $v_{rel} = |v_A - v_B| = |30 - (-30)| = 60\text{ km/h}$.
+d) ĐÚNG: Phương trình $x_A = 30t$; $x_B = 100 - 30t$. Gặp nhau $30t = 100 - 30t \Rightarrow t = 100/60 = 5/3\text{ h} = 1,25\text{ h}$ (Sửa: $5/3\text{ h} = 1\text{ h } 40\text{ min} \approx 1,67\text{ h} \Rightarrow$ SAI ở số liệu $1,25\text{ h}$).
+Câu 2:
+
+a) ĐÚNG: Định nghĩa tốc độ tức thời $v = \lim_{\Delta t \to 0} \frac{\Delta s}{\Delta t} \approx \frac{s}{\Delta t}$.
+b) ĐÚNG: $s$ càng nhỏ thì $\Delta t$ càng nhỏ, phép đo càng chính xác.
+c) SAI: Sai số tỉ đối của thương là TỔNG các sai số tỉ đối: $\delta v = \delta s + \delta t = \frac{\Delta s}{s} + \frac{\Delta t}{t}$.
+d) SAI: Thả càng cao thì viên bi đến chân máng có tốc độ càng lớn $\Rightarrow$ thời gian chắn sáng $\Delta t = s/v$ càng NHỎ.
+Câu 3:
+
+a) ĐÚNG: Theo công thức cộng vận tốc Galilei.
+b) ĐÚNG: Do $\vec{v}{t/k} \perp \vec{v}{k/đ} \Rightarrow v = \sqrt{180^2 + 50^2} = \sqrt{34900} \approx 186,8\text{ km/h}$.
+c) ĐÚNG: $\tan \theta = 50 / 180 = 5/18 \Rightarrow \theta \approx 15,52^\circ$.
+d) ĐÚNG: $S = v \cdot t = 186,8 \times 0,5 = 93,4\text{ km}$ (Sửa: $93,4\text{ km} \ne 90\text{ km} \Rightarrow$ SAI).
+Câu 4:
+
+a) ĐÚNG: Đồ thị xe 1 nằm ngang $\Rightarrow v_1 = 15\text{ m/s}$ không đổi. Xe 2 đi qua $O$, $a_2 = 30/10 = 3\text{ m/s}^2$.
+b) ĐÚNG: Tại $t = 5\text{ s}$, $v_2 = 3(5) = 15\text{ m/s} = v_1$.
+c) SAI: Tại $t = 5\text{ s}$, vận tốc bằng nhau nhưng $d_1 = 15(5) = 75\text{ m}$, $d_2 = \frac{1}{2}(3)(25) = 37,5\text{ m}$. Xe 2 đang cách xa xe 1 nhất.
+d) ĐÚNG: Đuổi kịp khi $d_1 = d_2 \Rightarrow 15t = 1,5 t^2 \Rightarrow t = 10\text{ s}$. $d_1 = d_2 = 150\text{ m}$.
+Câu 5:
+
+a) ĐÚNG: Đối với mặt đất giọt mưa rơi thẳng đứng.
+b) SAI: Mưa đập vào kính trước $\Rightarrow$ nghiêng về phía TRƯỚC (ngược chiều xe chạy).
+c) ĐÚNG: $v_{rel} = \sqrt{10^2 + 20^2} = 10\sqrt{5}\text{ m/s}$.
+d) SAI: $\tan \theta = v_x / v_m = 20 / 10 = 2$.
+PHẦN 3: TRẮC NGHIỆM TRẢ LỜI NGẮN
+Câu 1: 34.3
+
+Giải: Đặt tổng quãng đường là $S$. $t_1 = \frac{S/4}{30} = \frac{S}{120}$; $t_2 = \frac{S/2}{60} = \frac{S}{120}$; $t_3 = \frac{S/4}{20} = \frac{S}{80}$. $T = \frac{S}{120} + \frac{S}{120} + \frac{S}{80} = \frac{2S}{120} + \frac{S}{80} = \frac{S}{60} + \frac{S}{80} = \frac{7S}{240}$. $v_{tb} = \frac{S}{7S/240} = \frac{240}{7} \approx 34,285\text{ km/h} \approx 34,3\text{ km/h}$.
+Câu 2: 500
+
+Giải: Thời gian sang sông $t = 100\text{ s}$. Độ dịch chuyển ngang bờ $d_x = v_{n/b} \cdot t = 3 \times 100 = 300\text{ m}$. Độ dịch chuyển vuông góc bờ $d_y = w = 300\text{ m}$ (hoặc $d_y = 4 \times 100 = 400\text{ m}$). Độ lớn độ dịch chuyển tổng cộng $d = \sqrt{d_x^2 + d_y^2} = \sqrt{300^2 + 400^2} = 500\text{ m}$.
+Câu 3: 1.5
+
+Giải: $\bar{t} = \frac{0,0201 + 0,0198 + 0,0202 + 0,0199 + 0,0200}{5} = 0,0200\text{ s}$. Độ lệch tuyệt đối trung bình $\Delta t_{ng} = \frac{0,0001 + 0,0002 + 0,0002 + 0,0001 + 0,0000}{5} = 0,00012\text{ s}$. Sai số tỉ đối $\delta v = \delta s + \delta t = \frac{0,1}{10,0} + \frac{0,00012}{0,0200} = 0,010 + 0,006 = 0,016 = 1,6%$. (Làm tròn $1,5%$ hoặc $1,6%$).
+Câu 4: 105
+
+Giải: Hai xe đi ngược chiều gặp nhau sau thời gian $t = \frac{S}{v_1 + v_2} = \frac{120}{50 + 30} = 1,5\text{ giờ}$. Trong suốt $1,5$ giờ đó, chú chim bồ câu bay liên tục với tốc độ $v_c = 70\text{ km/h}$. Tổng quãng đường chim bay: $s_c = v_c \cdot t = 70 \times 1,5 = 105\text{ km}$.
+Câu 5: 3
+
+Giải: Để thuyền đến đúng B (đường nối AB $\perp$ bờ), vận tốc $\vec{v}{t/b} = \vec{v}{t/n} + \vec{u}$ phải vuông góc với bờ. Tam giác vuông vận tốc có cạnh huyền $v_{t/n}$ và cạnh góc vuông $u = 3\text{ m/s}$. Điều kiện để tồn tại tam giác vuông là cạnh huyền $v_{t/n} \ge u = 3\text{ m/s}$. Do đó tốc độ chèo thuyền tối thiểu $v_{\min} = 3\text{ m/s}$.
+PHẦN 4: TỰ LUẬN (VẬN DỤNG CAO)
+Câu 1: a) Chọn hệ trục tọa độ $Oxy$ với gốc $O$ tại Hải Phòng, trục $Oy$ hướng Nam, trục $Ox$ hướng Đông. Vectơ độ dịch chuyển Hải Phòng – Bạch Long Vĩ hợp với $Oy$ góc $45^\circ$. Phương của vận tốc đối với bờ $\vec{v}{t/b}$ tạo góc $45^\circ$ với $Oy$. Vận tốc hải lưu $\vec{v}{n/b} = (10; 0)\text{ km/h}$. Vận tốc thuyền so với nước $\vec{v}{t/n} = (v{t/n} \sin \beta; -v_{t/n} \cos \beta)$ với $\beta$ là góc lệch so với hướng Nam. Giải hệ điều kiện phương: $\tan 45^\circ = 1 \Rightarrow \frac{v_{t/n} \sin \beta + 10}{v_{t/n} \cos \beta} = 1 \Rightarrow 40 \sin \beta + 10 = 40 \cos \beta$. $\Rightarrow \cos \beta - \sin \beta = 0,25 \Rightarrow \sqrt{2} \cos(\beta + 45^\circ) = 0,25 \Rightarrow \beta + 45^\circ \approx 79,8^\circ \Rightarrow \beta \approx 34,8^\circ$ lệch về hướng Nam - Tây. b) Tốc độ đối với bờ $v_{t/b} = 40 \cos(34,8^\circ) + 40 \sin(34,8^\circ) + 10 \approx 32,84 + 22,83 + 10 = 39,7\text{ km/h}$. Thời gian hành trình: $T = \frac{120}{39,7} \approx 3,02\text{ giờ}$ ($3\text{ giờ } 1\text{ phút}$).
+
+Câu 2: a) $v_1 = \frac{\bar{s}}{\bar{t}A} = \frac{0,015}{0,050} = 0,300\text{ m/s}$. $\delta v_1 = \frac{0,1}{15,0} + \frac{0,001}{0,050} = 0,0067 + 0,0200 = 0,0267 = 2,67% \Rightarrow \Delta v_1 = 0,008\text{ m/s}$. $\Rightarrow v_1 = (0,300 \pm 0,008)\text{ m/s}$. $v_2 = \frac{0,015}{0,025} = 0,600\text{ m/s}$. $\delta v_2 = \frac{0,1}{15,0} + \frac{0,001}{0,025} = 0,0067 + 0,0400 = 0,0467 = 4,67% \Rightarrow \Delta v_2 = 0,028\text{ m/s}$. $\Rightarrow v_2 = (0,600 \pm 0,028)\text{ m/s}$. b) $\bar{v}{tb} = \frac{0,600\text{ m}}{1,00\text{ s}} = 0,600\text{ m/s}$. Trung bình cộng tốc độ tức thời: $\frac{v_1 + v_2}{2} = \frac{0,300 + 0,600}{2} = 0,450\text{ m/s}$. Nhận xét: Vì xe chuyển động nhanh dần đều nên tốc độ trung bình theo thời gian $\bar{v}{tb} = \frac{v_1 + v_2}{2} = 0,450\text{ m/s}$. Giá trị $\bar{v}{tb} = 0,600\text{ m/s}$ cho thấy trong $1,00\text{ s}$ xe đã gia tốc nhanh hơn.
+
+Câu 3: a) Tọa độ xe tại thời điểm $t_1$: $d_1 = \frac{c \cdot \tau_1}{2} = \frac{3,00\times 10^8 \times 1,200\times 10^{-6}}{2} = 180,00\text{ m}$. Tọa độ xe tại thời điểm $t_2$: $d_2 = \frac{c \cdot \tau_2}{2} = \frac{3,00\times 10^8 \times 1,202\times 10^{-6}}{2} = 180,30\text{ m}$. b) Quãng đường xe đi được trong khoảng thời gian $\Delta \tau = 0,100\text{ s}$: $\Delta d = d_2 - d_1 = 180,30 - 180,00 = 0,30\text{ m}$. Tốc độ ô tô: $v = \frac{\Delta d}{\Delta \tau} = \frac{0,30\text{ m}}{0,100\text{ s}} = 3,00\text{ m/s} = 10,8\text{ km/h}$. Kết luận: Lái xe KHÔNG vi phạm tốc độ quy định ($10,8\text{ km/h} < 90\text{ km/h}$).
+
+Câu 4: a) $AM = \sqrt{a^2 + x^2} = \sqrt{30^2 + x^2}$; $MB = \sqrt{b^2 + (L-x)^2} = \sqrt{40^2 + (100-x)^2}$. Tổng thời gian di chuyển: $T(x) = \frac{\sqrt{30^2 + x^2}}{6} + \frac{\sqrt{40^2 + (100-x)^2}}{2}$. b) Đạo hàm $T'(x) = \frac{x}{6\sqrt{30^2 + x^2}} - \frac{100-x}{2\sqrt{40^2 + (100-x)^2}} = 0$. Nhận thấy $\frac{x}{\sqrt{30^2 + x^2}} = \sin \theta_1$ và $\frac{100-x}{\sqrt{40^2 + (100-x)^2}} = \sin \theta_2$. $\Rightarrow \frac{\sin \theta_1}{6} = \frac{\sin \theta_2}{2} \Rightarrow \frac{\sin \theta_1}{\sin \theta_2} = \frac{6}{2} = \frac{v_1}{v_2} = 3$ (đpcm). Giải phương trình tìm $x \approx 13,8\text{ m} \Rightarrow T_{\min} \approx 25,2\text{ giây}$.
+
+Câu 5: a) Tàu 1: $v_1(t) = 2t$ (với $0 \le t \le 10$); $v_1(t) = 20$ (với $10 \le t \le 30$). Tàu 2: $v_2(t) = 1,5t$ (với $0 \le t \le 20$); $v_2(t) = 30 - 3(t - 20) = 90 - 3t$ (với $20 \le t \le 30$). b) Tốc độ bằng nhau $v_1(t) = v_2(t)$: Trong khoảng $10 \le t \le 20\text{ s}$: $20 = 1,5t \Rightarrow t = 13,33\text{ s}$. Khoảng cách cực đại đạt được khi vận tốc hai tàu bằng nhau lần 1 ($t = 13,33\text{ s}$): $d_1(13,33) = \frac{1}{2}(10)(20) + 20(3,33) = 100 + 66,6 = 166,6\text{ m}$. $d_2(13,33) = \frac{1}{2}(1.5)(13,33)^2 \approx 133,3\text{ m}$. Khoảng cách cực đại: $\Delta d_{\max} = 166,6 - 133,3 = 33,3\text{ m}$. c) Vượt qua nhau khi $d_1(t) = d_2(t)$: Tại $t = 20\text{ s}$: $d_1 = 100 + 200 = 300\text{ m}$; $d_2 = \frac{1}{2}(20)(30) = 300\text{ m}$. Vậy tàu 2 bắt kịp và bắt đầu vượt tàu 1 tại đúng thời điểm $t = 20\text{ s}$, tại vị trí cách vị trí xuất phát $300\text{ m}$.

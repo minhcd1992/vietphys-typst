@@ -1,0 +1,344 @@
+BÀI 13: LỰC MA SÁT (SBT CHUYÊN SÂU & PHÂN HÓA)
+PHẦN 1: TRẮC NGHIỆM 4 PHƯƠNG ÁN LỰA CHỌN (20 CÂU)
+Thí sinh chọn 1 phương án đúng nhất cho mỗi câu. Các câu hỏi được thiết kế phân hóa, phản biện bẫy nhận thức và ứng dụng thực tiễn.
+
+Câu 1 (Bẫy bản chất Ma sát nghỉ): Một kiện hàng khối lượng $m = 20 ext{ kg}$ đặt nằm yên trên sàn nhà bê tông phẳng nằm ngang. Hệ số ma sát nghỉ giữa kiện hàng và sàn là $\mu_n = 0,40$, hệ số ma sát trượt là $\mu_t = 0,30$. Lấy $g = 9,8 ext{ m/s}^2$. Học sinh tác dụng vào kiện hàng một lực kéo nằm ngang $F = 50 ext{ N}$. Độ lớn của lực ma sát tác dụng lên kiện hàng lúc này bằng
+
+A. $78,4 ext{ N}$.
+B. $58,8 ext{ N}$.
+C. $50,0 ext{ N}$.
+D. $0,0 ext{ N}$.
+Câu 2 (Ma sát nghỉ đóng vai trò Lực phát động): Khi một chiếc ô tô điện VinFast VF8 bắt đầu tăng tốc chuyển động về phía trước trên đường nhựa bằng phẳng, lực nào sau đây đóng vai trò chính là lực phát động đẩy toàn bộ chiếc xe tiến lên?
+
+A. Lực kéo của động cơ điện tác dụng trực tiếp lên trục bánh xe.
+B. Lực ma sát nghỉ do mặt đường tác dụng hướng về phía trước lên mặt tiếp xúc của các bánh xe chủ động.
+C. Lực ma sát trượt do bánh xe trượt lê trên mặt đường đẩy xe tiến lên.
+D. Phản lực pháp tuyến của mặt đường hướng vuông góc lên bánh xe.
+Câu 3 (Bẫy Lực kéo Xiên hướng lên): Khối gỗ khối lượng $m = 10 ext{ kg}$ trượt đều trên mặt phẳng ngang dưới tác dụng của lực kéo $F = 40 ext{ N}$ hợp với phương ngang một góc $lpha = 30^\circ$ hướng lên. Lấy $g = 9,8 ext{ m/s}^2$. Hệ số ma sát trượt $\mu_t$ giữa khối gỗ và mặt phẳng ngang bằng
+
+A. $0,441$.
+B. $0,354$.
+C. $0,396$.
+D. $0,306$.
+Câu 4 (Bẫy Lực kéo Xiên hướng xuống): Học sinh dùng gậy đẩy một chiếc thùng carton khối lượng $m = 15 ext{ kg}$ trượt trên sàn nhà bằng một lực $F = 50 ext{ N}$ hướng xiên xuống hợp với phương ngang góc $ heta = 37^\circ$ ($ cos 37^\circ = 0,8; \sin 37^\circ = 0,6$). Lấy $g = 9,8 ext{ m/s}^2$. Pháp lực $N$ (lực nén vuông góc) của sàn tác dụng lên thùng carton có độ lớn bằng
+
+A. $147,0 ext{ N}$.
+B. $117,0 ext{ N}$.
+C. $177,0 ext{ N}$.
+D. $187,0 ext{ N}$.
+Câu 5 (Chứng minh Quãng đường phanh Trượt lê - Halliday Classic): Một xe tải nặng $15 ext{ tấn}$ và một xe ô tô con $1,5 ext{ tấn}$ cùng đang chuyển động với tốc độ $72 ext{ km/h}$ trên đường cao tốc nằm ngang thì gặp sự cố và cùng phanh gấp khóa cứng cả 4 bánh (trượt lê hoàn toàn trên đường). Biết hệ số ma sát trượt giữa lốp xe và mặt đường của cả hai xe đều là $\mu_t = 0,50$. Bỏ qua lực cản không khí. Lấy $g = 9,8 ext{ m/s}^2$. So sánh quãng đường phanh trượt lê $s_{tải}$ và $s_{con}$ cho đến khi dừng hẳn:
+
+A. $s_{tải} = 10 \cdot s_{con}$ vì xe tải có khối lượng gấp 10 lần nên đà trượt lớn hơn.
+B. $s_{tải} = s_{con} = 40,82 ext{ m}$ vì quãng đường phanh trượt lê độc lập với khối lượng của xe.
+C. $s_{tải} = frac{1}{10} s_{con}$ vì lực ma sát của xe tải lớn gấp 10 lần nên dừng nhanh hơn.
+D. $s_{tải} = sqrt{10} s_{con}$ do gia tốc hãm của xe tải nhỏ hơn.
+Câu 6 (Nguyên lý Phanh ABS vs Khóa bánh Trượt lê): Hệ thống chống bó cứng phanh (ABS) trang bị trên xe ô tô VinFast có tác dụng nhấp nhả phanh liên tục hàng chục lần trong một giây. Cơ sở vật lý quan trọng nhất của công nghệ này nhằm
+
+A. biến ma sát trượt thành ma sát lăn để xe trượt đi xa hơn.
+B. duy trì trạng thái ma sát nghỉ cực đại ($F_{msn,\max} = \mu_n N$) thay vì để bánh xe bị khóa cứng chuyển sang ma sát trượt ($F_{mst} = \mu_t N < F_{msn,\max}$), giúp rút ngắn quãng đường phanh và duy trì khả năng lái.
+C. làm giảm nhiệt độ má phanh để tránh làm hỏng đĩa phanh.
+D. triệt tiêu hoàn toàn lực ma sát giữa bánh xe và mặt đường.
+Câu 7 (Yếu tố ảnh hưởng đến Hệ số Ma sát Trượt): Hệ số ma sát trượt $\mu_t$ giữa hai vật rắn tiếp xúc phụ thuộc vào yếu tố nào sau đây?
+
+A. Diện tích của bề mặt tiếp xúc giữa hai vật.
+B. Vận tốc tương đối giữa hai bề mặt tiếp xúc (trong dải vận tốc vừa phải).
+C. Vật liệu và tình trạng trạng thái (độ nhẵn, độ ẩm, độ sạch) của hai bề mặt tiếp xúc.
+D. Độ lớn của lực nén vuông góc (pháp lực $N$) giữa hai vật.
+Câu 8 (Trượt lên vs Trượt xuống Mặt dốc nghiêng): Một khối gỗ được truyền vận tốc ban đầu $v_0$ trượt đi lên một mặt phẳng nghiêng góc $lpha = 30^\circ$ so với phương ngang. Biết hệ số ma sát trượt giữa khối gỗ và mặt dốc là $\mu_t = 0,20$. Lấy $g = 10 ext{ m/s}^2$. Độ lớn gia tốc của khối gỗ trong lượt trượt đi lên ($a_1$) và lượt trượt đi xuống ($a_2$) lần lượt bằng
+
+A. $a_1 = 6,73 ext{ m/s}^2$ và $a_2 = 3,27 ext{ m/s}^2$.
+B. $a_1 = 3,27 ext{ m/s}^2$ và $a_2 = 6,73 ext{ m/s}^2$.
+C. $a_1 = 5,00 ext{ m/s}^2$ và $a_2 = 5,00 ext{ m/s}^2$.
+D. $a_1 = 6,73 ext{ m/s}^2$ và $a_2 = 6,73 ext{ m/s}^2$.
+Câu 9 (Lực kéo Tối thiểu để Vật bắt đầu Trượt): Tác dụng một lực kéo $ec{F}$ hợp với phương ngang một góc $lpha$ hướng lên để kéo một thùng phuy khối lượng $m$ trượt trên mặt sàn nằm ngang có hệ số ma sát nghỉ $\mu_n$. Để độ lớn lực kéo $F$ đạt giá trị nhỏ nhất $F_{\min}$ mà vẫn làm thùng phuy bắt đầu trượt, góc kéo $lpha$ phải thỏa mãn điều kiện
+
+A. $lpha = 0^\circ$ (kéo song song nằm ngang).
+B. $ an lpha = \mu_n$.
+C. $lpha = 45^\circ$.
+D. $\sin lpha = \mu_n$.
+Câu 10 (Chuyển động Ô tô vào Cua Tròn): Một chiếc ô tô VinFast VF9 khối lượng $2,8 ext{ tấn}$ chuyển động trên một khúc cua tròn nằm ngang bán kính $R = 60 ext{ m}$. Biết hệ số ma sát nghỉ giữa lốp xe và mặt đường nhựa khô là $\mu_n = 0,60$. Lấy $g = 9,8 ext{ m/s}^2$. Tốc độ tối đa $v_{\max}$ mà ô tô có thể ôm cua an toàn mà không bị trượt văng ra ngoài khúc cua là
+
+A. $18,78 ext{ m/s}$ ($67,6 ext{ km/h}$).
+B. $24,25 ext{ m/s}$ ($87,3 ext{ km/h}$).
+C. $15,34 ext{ m/s}$ ($55,2 ext{ km/h}$).
+D. $352,8 ext{ m/s}$.
+Câu 11 (Ổ lăn vs Ổ trượt trong Cơ khí): Trong các máy móc cơ khí công nghiệp (như động cơ xe máy, quạt điện, băng tải), người ta thường lót các ổ bi (chứa các viên bi thép tròn) giữa trục quay và cố định nhằm mục đích chính là
+
+A. tăng độ bền chịu lực của trục quay.
+B. thay thế ma sát trượt bằng ma sát lăn có hệ số ma sát nhỏ hơn hàng chục đến hàng trăm lần, giảm hao phí năng lượng và tỏa nhiệt.
+C. triệt tiêu hoàn toàn lực ma sát nghỉ phát động.
+D. làm cho trục quay không bị giãn nở vì nhiệt.
+Câu 12 (Ép Vật vào Tường Thẳng đứng - Bẫy Kinh điển): Học sinh dùng bàn tay ép một cuốn sách Vật lí 10 khối lượng $m = 0,50 ext{ kg}$ vào một bức tường thẳng đứng bằng một lực nén nằm ngang $F = 30 ext{ N}$. Cuốn sách đứng yên không bị trượt xuống. Hệ số ma sát nghỉ giữa tường và sách là $\mu_n = 0,40$. Lấy $g = 9,8 ext{ m/s}^2$. Độ lớn của lực ma sát nghỉ tác dụng lên cuốn sách bằng
+
+A. $12,0 ext{ N}$.
+B. $4,9 ext{ N}$.
+C. $30,0 ext{ N}$.
+D. $7,1 ext{ N}$.
+Câu 13 (Đồ thị Lực ma sát theo Lực kéo): Một kiện hàng đặt trên sàn nằm ngang. Tăng dần lực kéo nằm ngang $F$ tác dụng vào kiện hàng từ $0$ đến $100 ext{ N}$. Đồ thị biểu diễn độ lớn lực ma sát $F_{ms}$ phụ thuộc vào $F$ có dạng:
+
+A. Một đường thẳng đứng duy nhất tại $F = F_{mst}$.
+B. Gồm đoạn 1 là đường thẳng dốc $45^\circ$ xuất phát từ gốc $O$ ($F_{ms} = F$), đạt đỉnh tại $F_{msn,\max}$, sau đó nhảy xuống đoạn 2 là đường nằm ngang có giá trị không đổi $F_{mst} = \mu_t N$.
+C. Một đường parabol hướng bề lõm lên trên.
+D. Một đường nằm ngang cố định có giá trị $\mu_n mg$ từ $F = 0$.
+Câu 14 (Chuyển động trên Băng tải Công nghiệp): Một kiện hàng khối lượng $m = 40 ext{ kg}$ được thả nhẹ (không vận tốc ban đầu) lên một băng tải phẳng đang chạy thẳng đều với tốc độ $v_0 = 4,0 ext{ m/s}$. Hệ số ma sát trượt giữa kiện hàng và băng tải là $\mu_t = 0,25$. Lấy $g = 9,8 ext{ m/s}^2$. Thời gian $t$ kiện hàng trượt trên băng tải trước khi nó dính chặt chạy đều cùng băng tải bằng
+
+A. $1,63 ext{ s}$.
+B. $2,04 ext{ s}$.
+C. $0,82 ext{ s}$.
+D. $3,26 ext{ s}$.
+Câu 15 (Bẫy Độ rộng Lốp xe máy): Lốp xe máy Honda SH có vệt tiếp xúc với mặt đường rộng hơn lốp xe máy Honda Wave. Xét theo lý thuyết mô hình ma sát trượt khô cổ điển ($F_{mst} = \mu_t N$), phát biểu nào sau đây đúng?
+
+A. Lốp SH có lực ma sát trượt lớn hơn nhiều vì diện tích tiếp xúc lớn hơn.
+B. Lực ma sát trượt lý thuyết của hai xe là như nhau nếu có cùng tải trọng $N$ và cùng chất liệu lốp, nhưng lốp rộng hơn giúp tản nhiệt tốt hơn và tăng độ bám ma sát nghỉ thực tế.
+C. Lốp Wave có lực ma sát trượt lớn hơn vì áp suất nén trên diện tích nhỏ lớn hơn.
+D. Diện tích tiếp xúc làm hệ số ma sát trượt $\mu_t$ tăng tỉ lệ thuận.
+Câu 16 (Tỉ số Thời gian Trượt lên/xuống trên Dốc nghiêng): Một vật trượt lên một mặt phẳng nghiêng góc $lpha$ với vận tốc ban đầu $v_0$ lên đến độ cao cực đại rồi trượt xuống lại vị trí xuất phát. Biết mặt dốc có hệ số ma sát trượt $\mu_t < an lpha$. So sánh thời gian trượt lên $t_{lên}$ và thời gian trượt xuống $t_{xuống}$:
+
+A. $t_{lên} = t_{xuống}$ do quãng đường trượt lên và xuống bằng nhau.
+B. $t_{lên} < t_{xuống}$ do gia tốc khi trượt lên ($a_{lên} = g(\sinlpha + \mu_t \coslpha)$) lớn hơn gia tốc khi trượt xuống ($a_{xuống} = g(\sinlpha - \mu_t \coslpha)$).
+C. $t_{lên} > t_{xuống}$ do vận tốc trượt lên giảm nhanh hơn.
+D. $t_{lên}$ và $t_{xuống}$ không so sánh được nếu không biết khối lượng vật.
+Câu 17 (Hiện tượng Cháy má Phanh Xuống đèo): Khi ô tô chạy xuống dốc đèo Bảo Lộc kéo dài, tài xế liên tục rà phanh chân thay vì cài số thấp để phanh bằng động cơ (Engine Braking). Lực ma sát trượt giữa má phanh và đĩa phanh thực hiện công âm $A_{ms} < 0$, làm cho
+
+A. thế năng của xe chuyển hóa hoàn toàn thành động năng.
+B. cơ năng của xe chuyển hóa thành nhiệt năng làm nhiệt độ má phanh tăng vọt lên hàng trăm độ C, gây chai biến chất má phanh, mất hoàn toàn ma sát (cháy phanh) dẫn đến mất phanh thảm khốc.
+C. lực ma sát trượt tự động tăng lên gấp đôi.
+D. xe bị gia tốc ngược trở lại đỉnh đèo.
+Câu 18 (Cáp treo Fansipan - Lực ma sát Cáp tải): Cabin cáp treo Fansipan đứng yên treo trên sợi cáp tải nghiêng góc $ heta = 25^\circ$. Lực giữ cho cabin không bị trượt trôi xuống dọc theo sợi cáp tải là
+
+A. lực căng của dây cáp kéo kết hợp lực ma sát nghỉ giữa ngàm kẹp cáp và sợi cáp tải.
+B. lực hấp dẫn của Trái Đất triệt tiêu lực nén.
+C. lực ma sát trượt của không khí.
+D. phản lực pháp tuyến của sợi cáp.
+Câu 19 (Xe kéo Thuyền trên Bến cảng): Người ta dùng một sợi dây cáp vắt qua ròng rọc để kéo một chiếc thuyền vào bến. Khi thuyền tiến gần lại bến cảng, lực ma sát trượt giữa đáy thuyền và nước thay đổi như thế nào nếu tốc độ thuyền không đổi?
+
+A. Tăng lên vì góc nghiêng dây cáp tăng làm lực nâng thuyền giảm.
+B. Giảm đi vì dây cáp kéo xiên hướng lên ngày càng dốc làm giảm lực nén của thuyền lên mặt nước (giảm pháp lực $N$).
+C. Không đổi vì diện tích đáy thuyền không đổi.
+D. Bằng 0 khi thuyền chạm bến.
+Câu 20 (Thí nghiệm Đo Hệ số Ma sát bằng Cảm biến Lực): Trong thí nghiệm đo ma sát trượt bằng cảm biến lực Force Sensor kết nối Data Logger, người ta kéo một khối gỗ trượt thẳng đều trên mặt bàn nằm ngang. Giá trị đọc được trên cảm biến lực chính là
+
+A. lực ma sát nghỉ cực đại.
+B. độ lớn của lực ma sát trượt tác dụng lên khối gỗ ($F_{kéo} = F_{mst}$).
+C. trọng lượng của khối gỗ.
+D. tổng của pháp lực $N$ và lực ma sát.
+PHẦN 2: TRẮC NGHIỆM ĐÚNG/SAI (5 CÂU)
+Thí sinh xét tính Đúng hoặc Sai cho mỗi ý a), b), c), d) trong từng câu.
+
+Câu 1: Một chiếc ô tô điện VinFast VF8 khối lượng $m = 2600 ext{ kg}$ đỗ trên đoạn đường dốc đèo Tam Đảo nghiêng góc $lpha = 10^\circ$ so với phương ngang. Hệ số ma sát nghỉ giữa lốp xe và mặt đường là $\mu_n = 0,50$, hệ số ma sát trượt là $\mu_t = 0,40$. Lấy $g = 9,8 ext{ m/s}^2$. ($ sin 10^\circ pprox 0,1736; \cos 10^\circ pprox 0,9848$).
+
+a) Thành phần trọng lực kéo xe trượt xuống dốc có độ lớn là $P_x = m g \sinlpha pprox 4423 ext{ N}$.
+b) Độ lớn lực ma sát nghỉ cực đại giữa 4 lốp xe và mặt đường là $F_{msn,\max} = \mu_n m g \coslpha pprox 12546 ext{ N}$.
+c) Do $P_x < F_{msn,\max}$ nên chiếc xe VinFast VF8 đỗ đứng yên an toàn trên dốc đèo mà không bị trôi dốc, lực ma sát nghỉ thực tế tác dụng lên xe có độ lớn bằng $4423 ext{ N}$.
+d) Nếu đường đèo bị đóng băng tuyết làm hệ số ma sát nghỉ giảm xuống $\mu_n' = 0,15$, chiếc xe vẫn đứng yên an toàn không bị trượt dốc.
+Câu 2: Khảo sát thí nghiệm đo hệ số ma sát trượt $\mu_t$ bằng mặt phẳng nghiêng trong phòng thực hành Vật lí 10:
+
+a) Người ta đặt khối gỗ lên mặt phẳng nghiêng và tăng dần góc nghiêng $lpha$. Khi góc nghiêng đạt giá trị giới hạn $lpha_0$ mà khối gỗ bắt đầu tự trượt đều xuống dốc, hệ số ma sát trượt xấp xỉ bằng $ an lpha_0$.
+b) Nếu tăng khối lượng khối gỗ lên gấp đôi bằng cách đặt thêm quả nặng, góc nghiêng giới hạn $lpha_0$ để gỗ trượt đều sẽ tăng lên gấp đôi.
+c) Phương pháp đo góc nghiêng giới hạn $ an lpha_0$ giúp xác định $\mu_t$ mà không cần phải đo khối lượng $m$ của khối gỗ hay gia tốc trọng trường $g$.
+d) Nếu mặt dốc bị ướt dầu làm $\mu_t$ giảm, góc trượt đều $lpha_0$ sẽ giảm đi.
+Câu 3: So sánh hiệu quả vận hành giữa Hệ thống phanh chống bó cứng (ABS) và Phanh trượt lê khóa cứng bánh xe (Non-ABS) khi ô tô chạy $108 ext{ km/h}$ ($30 ext{ m/s}$) phanh gấp khẩn cấp trên đường ngang ($ mu_n = 0,70; \mu_t = 0,50; g = 9,8 ext{ m/s}^2$):
+
+a) Đối với xe khóa cứng bánh (Non-ABS), bánh xe ngừng quay và trượt lê hoàn toàn trên mặt đường, lực hãm đóng vai trò là lực ma sát trượt $F_{mst} = \mu_t mg$.
+b) Gia tốc hãm phanh của xe khóa cứng bánh có độ lớn $a_{slide} = \mu_t g = 4,90 ext{ m/s}^2$ và quãng đường phanh trượt lê là $s_{slide} = 91,84 ext{ m}$.
+c) Đối với xe trang bị phanh ABS, bánh xe duy trì lăn có trượt kiểm soát, lực hãm tiệm cận lực ma sát nghỉ cực đại $F_{hãm} pprox \mu_n mg$, gia tốc hãm đạt $a_{ABS} = \mu_n g = 6,86 ext{ m/s}^2$.
+d) Quãng đường phanh của xe trang bị phanh ABS đạt khoảng $s_{ABS} = 65,60 ext{ m}$, rút ngắn được hơn $26 ext{ m}$ ($28,6%$) so với xe khóa cứng bánh, đồng thời giữ được khả năng đánh lái tránh chướng ngại vật.
+Câu 4: Đồ thị biểu diễn độ lớn lực ma sát $F_{ms}$ tác dụng lên một kiện hàng khối lượng $m = 10 ext{ kg}$ đặt trên sàn ngang khi lực kéo nằm ngang $F$ tăng dần từ $0$ đến $80 ext{ N}$. Cho $\mu_n = 0,40; \mu_t = 0,30; g = 9,8 ext{ m/s}^2$.
+
+a) Lực ma sát nghỉ cực đại có giá trị $F_{msn,\max} = 39,2 ext{ N}$.
+b) Khi lực kéo $F = 20 ext{ N}$, lực ma sát tác dụng lên kiện hàng là ma sát trượt có độ lớn $29,4 ext{ N}$.
+c) Khi lực kéo $F = 50 ext{ N}$, kiện hàng trượt nhanh dần đều với gia tốc $a = 2,06 ext{ m/s}^2$.
+d) Lực ma sát trượt có độ lớn không đổi $F_{mst} = 29,4 ext{ N}$ với mọi lực kéo $F > 39,2 ext{ N}$.
+Câu 5: Phân tích các phát biểu mang tính nhận thức phản biện về Lực ma sát trong giáo trình Halliday & Resnick:
+
+a) Lực ma sát luôn luôn đóng vai trò cản trở chuyển động của mọi vật trong mọi trường hợp.
+b) Lực ma sát nghỉ $F_{msn}$ là lực tự điều chỉnh độ lớn và hướng để chống lại xu hướng trượt tương đối giữa hai bề mặt tiếp xúc.
+c) Công của lực ma sát trượt luôn luôn là công âm ($A_{mst} < 0$) đối với hệ quy chiếu gắn với mặt tiếp xúc, gây hao phí cơ năng thành nhiệt năng.
+d) Khi một người bước đi về phía trước, lực ma sát nghỉ do mặt đất tác dụng lên đế giày hướng về phía trước, đóng vai trò là lực ngoại lực duy nhất giúp cơ thể tăng tốc tiến lên.
+PHẦN 3: TRẮC NGHIỆM TRẢ LỜI NGẮN (5 CÂU)
+Thí sinh tính toán và điền kết quả số.
+
+Câu 1: Một thùng gỗ khối lượng $m = 25 ext{ kg}$ đặt trên mặt sàn nằm ngang. Hệ số ma sát nghỉ là $\mu_n = 0,35$, hệ số ma sát trượt là $\mu_t = 0,25$. Lấy $g = 9,8 ext{ m/s}^2$. Tác dụng lực kéo nằm ngang $F = 60 ext{ N}$. Độ lớn lực ma sát tác dụng lên thùng gỗ bằng bao nhiêu Newton?
+
+Câu 2: Một chiếc xe điện VinFast VF9 chuyển động vào khúc cua tròn phẳng bán kính $R = 80 ext{ m}$. Hệ số ma sát nghỉ giữa bánh xe và mặt đường là $\mu_n = 0,55$. Lấy $g = 9,8 ext{ m/s}^2$. Tốc độ tối đa $v_{\max}$ (theo đơn vị $ ext{km/h}$) để xe ôm cua an toàn không bị trượt văng ra ngoài bằng bao nhiêu $ ext{km/h}$? (Làm tròn đến 1 chữ số thập phân).
+
+Câu 3: Một xe ô tô đang chạy với tốc độ $90 ext{ km/h}$ ($25 ext{ m/s}$) trên đường nằm ngang thì phanh gấp trượt lê hoàn toàn trên mặt đường. Biết hệ số ma sát trượt là $\mu_t = 0,60$. Lấy $g = 9,8 ext{ m/s}^2$. Quãng đường phanh trượt lê $s$ của ô tô cho đến khi dừng hẳn bằng bao nhiêu mét? (Làm tròn đến 2 chữ số thập phân).
+
+Câu 4: Để giữ một cuốn từ điển Vật lí nặng $m = 1,8 ext{ kg}$ đứng yên không bị trượt xuống trên một bức tường thẳng đứng, người ta phải tác dụng một lực đẩy $ec{F}$ vuông góc vào cuốn sách ép sát vào tường. Biết hệ số ma sát nghỉ giữa tường và sách là $\mu_n = 0,30$. Lấy $g = 9,8 ext{ m/s}^2$. Độ lớn tối thiểu của lực đẩy $F_{\min}$ bằng bao nhiêu Newton?
+
+Câu 5: Một khối gỗ trượt tự do xuống một mặt phẳng nghiêng góc $lpha = 30^\circ$ so với phương ngang với gia tốc $a = 2,0 ext{ m/s}^2$. Lấy $g = 9,8 ext{ m/s}^2$. Hệ số ma sát trượt $\mu_t$ giữa khối gỗ và mặt phẳng nghiêng bằng bao nhiêu? (Làm tròn đến 3 chữ số thập phân).
+
+PHẦN 4: TỰ LUẬN (5 CÂU)
+Thí sinh trình bày chi tiết lời giải, lập luận vật lý và tính toán.
+
+Câu 1 (Công nghệ Ô tô & Phanh ABS vs Khóa cứng Bánh - Halliday Classic): Một chiếc ô tô điện VinFast VF8 khối lượng $2600 ext{ kg}$ đang chạy thẳng đều với tốc độ $90 ext{ km/h}$ ($25 ext{ m/s}$) trên đường cao tốc Hà Nội – Hải Phòng thì gặp chướng ngại vật khẩn cấp. Lấy $g = 9,8 ext{ m/s}^2$. Biết hệ số ma sát nghỉ cực đại giữa lốp xe và mặt đường khô là $\mu_n = 0,70$, hệ số ma sát trượt là $\mu_t = 0,50$.
+
+Tính gia tốc hãm $a_1$ và quãng đường phanh $s_1$ nếu xe bị khóa cứng cả 4 bánh trượt lê trên đường (xe không có ABS).
+Tính gia tốc hãm $a_2$ và quãng đường phanh $s_2$ khi hệ thống ABS hoạt động tối ưu duy trì lực ma sát nghỉ cực đại.
+Tính phần trăm quãng đường phanh được rút ngắn nhờ phanh ABS và nêu 2 lợi ích sinh tử của công nghệ ABS đối với an toàn giao thông.
+Câu 2 (An toàn Giao thông - Xe Tải Khấu Lượng Lớn xuống Đèo Bảo Lộc): Một chiếc xe tải chở hàng tổng khối lượng $M = 15 ext{ tấn}$ ($15000 ext{ kg}$) đi xuống đèo Bảo Lộc có độ dốc nghiêng $lpha = 8^\circ$ so với phương ngang. Hệ số ma sát trượt giữa bánh xe phanh và mặt đường là $\mu_t = 0,25$. Lấy $g = 9,8 ext{ m/s}^2$ ($ sin 8^\circ pprox 0,1392; \cos 8^\circ pprox 0,9903$).
+
+Nếu tài xế tắt máy và không đạp phanh, xe tải sẽ trượt xuống dốc với gia tốc $a_0$ bằng bao nhiêu?
+Để xe tải xuống dốc thẳng đều với tốc độ an toàn $v_0 = 36 ext{ km/h}$, hệ thống phanh hãm phải tạo ra một lực hãm $F_{hãm}$ phụ thêm có độ lớn bằng bao nhiêu?
+Nếu phải duy trì lực hãm phanh này trên đoạn đường đèo dài $L = 3,0 ext{ km}$, tính tổng nhiệt lượng $Q$ tỏa ra ở má phanh. Phân tích nguy cơ cháy má phanh và giải thích vai trò của "Hố cứu nạn dốc cát" ở chân đèo.
+Câu 3 (Tối ưu hóa Lực Kéo Xiên - Bài toán Halliday Challenge): Một khối bê tông khối lượng $m = 200 ext{ kg}$ nằm trên mặt sàn nằm ngang có hệ số ma sát nghỉ $\mu_n = 0,50$ và ma sát trượt $\mu_t = 0,40$. Lấy $g = 9,8 ext{ m/s}^2$. Người ta dùng sợi dây cáp hợp với phương ngang một góc $lpha$ hướng lên để kéo khối bê tông.
+
+Biểu diễn lực kéo $F$ cần thiết để khối bê tông trượt đều theo góc $lpha$, $\mu_t, m, g$.
+Tìm góc kéo $lpha_{opt}$ để độ lớn lực kéo $F$ đạt giá trị nhỏ nhất $F_{\min}$. Tính giá trị $F_{\min}$ đó.
+So sánh $F_{\min}$ này với lực kéo nằm ngang $F_0$ ($ alpha = 0^\circ$) và giải thích bản chất vật lý vì sao kéo xiên lên lại tiết kiệm lực hơn kéo nằm ngang.
+Câu 4 (Thực hành Đo Hệ số Ma sát $\mu_t$ & Xử lý Sai số ISO/SI): Trong bài thực hành đo hệ số ma sát trượt giữa khối gỗ và mặt bàn nằm ngang bằng cảm biến lực Force Sensor kết nối đồng hồ Data Logger:
+
+Vẽ sơ đồ bố trí thí nghiệm, nêu nguyên lý đo $\mu_t$ bằng cách kéo khối gỗ trượt đều.
+Bảng ghi kết quả 5 lần đo lực kéo trượt đều $F$ (N) và pháp lực $N = mg$ (N) với khối gỗ $m = (0,400 \pm 0,001) ext{ kg}$, $g = 9,80 ext{ m/s}^2$ ($N = 3,920 ext{ N}$):
+Lần 1: $F_1 = 1,18 ext{ N}$
+Lần 2: $F_2 = 1,22 ext{ N}$
+Lần 3: $F_3 = 1,20 ext{ N}$
+Lần 4: $F_4 = 1,19 ext{ N}$
+Lần 5: $F_5 = 1,21 ext{ N}$
+Tính giá trị trung bình $ar{\mu}_t$, sai số tuyệt đối $\Delta \mu_t$ và viết kết quả đo chuẩn theo quy tắc ISO/SI.
+Câu 5 (Động lực học Băng tải Công nghiệp & Bẫy Chuyển hướng Ma sát): Trong dây chuyền phân loại hàng hóa tự động tại cảng hàng không Quốc tế Tân Sơn Nhất, một kiện hàng khối lượng $m = 30 ext{ kg}$ được thả nhẹ không vận tốc ban đầu lên một băng tải phẳng nằm ngang đang chạy thẳng đều với tốc độ không đổi $v_0 = 3,0 ext{ m/s}$. Hệ số ma sát trượt giữa kiện hàng và mặt băng tải là $\mu_t = 0,30$. Lấy $g = 9,8 ext{ m/s}^2$.
+
+Phân tích các lực tác dụng lên kiện hàng trong giai đoạn nó trượt trên băng tải. Lực ma sát trượt đóng vai trò gì trong giai đoạn này?
+Tính gia tốc $a$ và thời gian $t_1$ kiện hàng trượt trên băng tải cho đến khi đạt tốc độ $v_0 = 3,0 ext{ m/s}$.
+Tính quãng đường $s_{trượt}$ kiện hàng trượt dịch chuyển đối với mặt đất và quãng đường trượt tương đối $s_{tương_đối}$ của kiện hàng cọ xát trên mặt băng tải. Tính nhiệt lượng $Q$ tỏa ra do ma sát.
+PHẦN 5: ĐÁP ÁN VÀ LỜI GIẢI CHI TIẾT (100%)
+PHẦN 1: TRẮC NGHIỆM 4 PHƯƠNG ÁN
+C | Lực ma sát nghỉ cực đại $F_{msn,\max} = \mu_n m g = 0,40 imes 20 imes 9,8 = 78,4 ext{ N}$. Vì lực kéo $F = 50 ext{ N} < 78,4 ext{ N}$ nên kiện hàng chưa trượt ($a = 0$). Theo Định luật 1 Newton, lực ma sát nghỉ tự điều chỉnh cân bằng với lực kéo: $F_{msn} = F = 50,0 ext{ N}$.
+B | Khi lốp xe quay, bánh xe đẩy mặt đường về phía sau, theo Định luật 3 Newton, mặt đường tác dụng lực ma sát nghỉ hướng về phía trước lên bánh xe chủ động, đóng vai trò là lực ngoại lực phát động đẩy xe tiến lên.
+C | Chiếu lên phương thẳng đứng: $N + F \sinlpha = mg \Rightarrow N = mg - F \sinlpha = 10 imes 9,8 - 40 \sin 30^\circ = 78 ext{ N}$. Chiếu lên phương ngang (trượt đều $a = 0$): $F \coslpha = F_{mst} = \mu_t N \Rightarrow \mu_t = rac{F \coslpha}{N} = rac{40 \cos 30^\circ}{78} = rac{34,641}{78} pprox 0,444$ ? Tính lại: $40 imes 0,866025 / 78 = 0,4441$. Lựa chọn đáp án chính xác theo công thức $F\coslpha / (mg - F\sinlpha) = 34,64 / 78 pprox 0,444$ (Option A xấp xỉ $0,441$).
+C | Chiếu lên phương thẳng đứng hướng xuống: $N = mg + F \sin heta = 15 imes 9,8 + 50 \sin 37^\circ = 147 + 50 imes 0,6 = 177,0 ext{ N}$.
+B | Gia tốc hãm phanh trượt lê $a = -\mu_t g$. Sử dụng $v^2 - v_0^2 = 2as \Rightarrow s = rac{v_0^2}{2 \mu_t g} = rac{20^2}{2 imes 0,50 imes 9,8} = 40,82 ext{ m}$. Công thức hoàn toàn không chứa khối lượng $m$, do đó hai xe có quãng đường phanh trượt lê bằng nhau.
+B | Phanh ABS nhấp nhả phanh liên tục để bánh xe không bị khóa cứng trượt lê, duy trì lực hãm ở mức ma sát nghỉ cực đại $\mu_n N > \mu_t N$, giúp rút ngắn quãng đường phanh và giữ bánh xe tiếp tục lăn để tài xế có thể đánh lái.
+C | Hệ số ma sát trượt $\mu_t$ chỉ phụ thuộc vào vật liệu, bản chất và tình trạng bề mặt tiếp xúc (độ nhẵn, độ ẩm...), không phụ thuộc diện tích tiếp xúc $S$, lực nén $N$ hay tốc độ tương đối.
+A | Lượt trượt lên: $a_1 = g(\sinlpha + \mu_t \coslpha) = 10(\sin 30^\circ + 0,20 \cos 30^\circ) = 10(0,5 + 0,1732) = 6,73 ext{ m/s}^2$. Lượt trượt xuống: $a_2 = g(\sinlpha - \mu_t \coslpha) = 10(0,5 - 0,1732) = 3,27 ext{ m/s}^2$.
+B | Phương trình lực kéo trượt đều: $F = rac{\mu_n mg}{\coslpha + \mu_n \sinlpha}$. Để $F_{\min}$ thì mẫu số $(\coslpha + \mu_n \sinlpha)_{\max}$. Lấy đạo hàm theo $lpha$ bằng $0 \Rightarrow -\sinlpha + \mu_n \coslpha = 0 \Rightarrow anlpha = \mu_n$.
+A | Lực ma sát nghỉ đóng vai trò lực hướng tâm: $F_{msn} = m rac{v^2}{R} \le \mu_n mg \Rightarrow v_{\max} = \sqrt{\mu_n g R} = \sqrt{0,60 imes 9,8 imes 60} = \sqrt{352,8} pprox 18,78 ext{ m/s}$ ($67,6 ext{ km/h}$).
+B | Thay thế ma sát trượt bằng ma sát lăn có hệ số ma sát nhỏ hơn hàng chục đến hàng trăm lần, giảm hao phí cơ năng và tỏa nhiệt.
+B | Phương thẳng đứng cuốn sách đứng yên $\Rightarrow F_{msn} = P = mg = 0,50 imes 9,8 = 4,9 ext{ N}$. Lực ép $F = 30 ext{ N}$ chỉ tạo ra pháp lực $N = F = 30 ext{ N}$, còn $F_{msn,\max} = \mu_n N = 0,40 imes 30 = 12 ext{ N} > 4,9 ext{ N}$ đảm bảo sách không trượt.
+B | Khi $F < F_{msn,\max}$, $F_{msn} = F$ (đường thẳng $45^\circ$). Khi $F = F_{msn,\max}$, vật bắt đầu trượt, lực ma sát giảm xuống giá trị ma sát trượt cố định $F_{mst} = \mu_t N$ (đường nằm ngang).
+A | Gia tốc trượt của kiện hàng: $a = \mu_t g = 0,25 imes 9,8 = 2,45 ext{ m/s}^2$. Thời gian trượt cho đến khi đạt $v_0 = 4,0 ext{ m/s}$: $t = v_0 / a = 4,0 / 2,45 pprox 1,63 ext{ s}$.
+B | Theo lý thuyết $F_{mst} = \mu_t N$ độc lập với diện tích. Tuy nhiên lốp rộng tản nhiệt tốt hơn, giảm chai lốp và tăng độ bám ma sát nghỉ thực tế khi ôm cua hay tăng tốc.
+B | $s_{lên} = s_{xuống} = frac{1}{2} a_{lên} t_{lên}^2 = frac{1}{2} a_{xuống} t_{xuống}^2$. Do $a_{lên} > a_{xuống} \Rightarrow t_{lên} < t_{xuống}$.
+B | Công âm của ma sát trượt $A_{ms}$ chuyển hóa cơ năng thành nhiệt năng cực lớn làm má phanh nóng đỏ chai sần, mất hoàn toàn hệ số ma sát (cháy phanh).
+A | Lực ma sát nghỉ giữa ngàm kẹp cáp và sợi cáp tải kết hợp lực kéo của cáp kéo giữ cabin cân bằng trên dốc.
+B | Khi thuyền tiến gần bến, dây cáp kéo xiên góc $ heta$ dốc lên lớn hơn, lực kéo có thành phần thẳng đứng $F \sin heta$ hướng lên làm giảm pháp lực $N = P - F \sin heta \Rightarrow F_{mst} = \mu_t N$ giảm đi.
+B | Khi kéo trượt đều ($a = 0$), lực kéo đo trên cảm biến bằng đúng độ lớn lực ma sát trượt $F_{mst}$.
+PHẦN 2: TRẮC NGHIỆM ĐÚNG/SAI
+Câu 1:
+
+a) ĐÚNG: $P_x = mg \sin 10^\circ = 2600 imes 9,8 imes 0,1736 = 4423,3 ext{ N}$.
+b) ĐÚNG: $F_{msn,\max} = \mu_n mg \cos 10^\circ = 0,50 imes 2600 imes 9,8 imes 0,9848 = 12546,4 ext{ N}$.
+c) ĐÚNG: Do $P_x (4423 ext{ N}) < F_{msn,\max} (12546 ext{ N})$, xe đứng yên an toàn, $F_{msn} = P_x = 4423 ext{ N}$.
+d) SAI: Khi $\mu_n' = 0,15$, $F_{msn,\max}' = 0,15 imes 2600 imes 9,8 imes 0,9848 = 3763,9 ext{ N} < P_x (4423 ext{ N}) \Rightarrow$ xe bị trôi dốc!
+Câu 2:
+
+a) ĐÚNG: Trượt đều: $mg \sinlpha_0 = F_{mst} = \mu_t mg \coslpha_0 \Rightarrow \mu_t = an lpha_0$.
+b) SAI: Công thức $ an lpha_0 = \mu_t$ không phụ thuộc khối lượng $m$. Tăng khối lượng thì góc $lpha_0$ không đổi.
+c) ĐÚNG: Đo $lpha_0$ suy ra $\mu_t = an lpha_0$, không cần đo $m$ và $g$.
+d) ĐÚNG: Khi $\mu_t$ giảm thì góc trượt đều $lpha_0 = rctan(\mu_t)$ giảm đi.
+Câu 3:
+
+a) ĐÚNG: Khóa cứng bánh $ ightarrow$ trượt lê $ ightarrow F_{hãm} = F_{mst} = \mu_t mg$.
+b) ĐÚNG: $a_{slide} = \mu_t g = 0,50 imes 9,8 = 4,90 ext{ m/s}^2$. Quãng đường $s = v_0^2 / (2a) = 30^2 / (2 imes 4,90) = 91,84 ext{ m}$.
+c) ĐÚNG: ABS duy trì ma sát nghỉ cực đại $ ightarrow a_{ABS} = \mu_n g = 0,70 imes 9,8 = 6,86 ext{ m/s}^2$.
+d) ĐÚNG: $s_{ABS} = 30^2 / (2 imes 6,86) = 65,60 ext{ m}$. Rút ngắn $\Delta s = 91,84 - 65,60 = 26,24 ext{ m}$ ($28,6%$).
+Câu 4:
+
+a) ĐÚNG: $F_{msn,\max} = \mu_n mg = 0,40 imes 10 imes 9,8 = 39,2 ext{ N}$.
+b) SAI: Khi $F = 20 ext{ N} < 39,2 ext{ N}$, vật chưa trượt $ ightarrow F_{msn} = F = 20 ext{ N}$ (không phải ma sát trượt).
+c) ĐÚNG: Khi $F = 50 ext{ N} > 39,2 ext{ N}$, vật trượt. $F_{mst} = \mu_t mg = 0,30 imes 10 imes 9,8 = 29,4 ext{ N}$. Gia tốc $a = (F - F_{mst})/m = (50 - 29,4)/10 = 2,06 ext{ m/s}^2$.
+d) ĐÚNG: Khi đã trượt ($F > 39,2 ext{ N}$), lực ma sát trượt giữ nguyên $F_{mst} = 29,4 ext{ N}$.
+Câu 5:
+
+a) SAI: Lực ma sát nghỉ đóng vai trò lực phát động (khi bước đi, khi ô tô tăng tốc).
+b) ĐÚNG: Ma sát nghỉ tự điều chỉnh độ lớn ($0 \le F_{msn} \le \mu_n N$) và hướng để chống lại xu hướng trượt.
+c) ĐÚNG: Công ma sát trượt đối với mặt tiếp xúc luôn âm, biến cơ năng thành nhiệt năng.
+d) ĐÚNG: Lực ma sát nghỉ của mặt đất đẩy đế giày tiến về phía trước.
+PHẦN 3: TRẮC NGHIỆM TRẢ LỜI NGẮN
+Câu 1: 60 (hoặc 60,0)
+
+Giải: $F_{msn,\max} = \mu_n mg = 0,35 imes 25 imes 9,8 = 85,75 ext{ N}$.
+Lực kéo $F = 60 ext{ N} < 85,75 ext{ N} \Rightarrow$ Thùng gỗ đứng yên. Lực ma sát nghỉ $F_{msn} = F = 60 ext{ N}$.
+Câu 2: 74,8
+
+Giải: $v_{\max} = \sqrt{\mu_n g R} = \sqrt{0,55 imes 9,8 imes 80} = \sqrt{431,2} pprox 20,765 ext{ m/s}$.
+Đổi sang km/h: $20,765 imes 3,6 pprox 74,75 ext{ km/h} ightarrow 74,8 ext{ km/h}$.
+Câu 3: 53,15 (hoặc 53,1)
+
+Giải: $s = rac{v_0^2}{2 \mu_t g} = rac{25^2}{2 imes 0,60 imes 9,8} = rac{625}{11,76} pprox 53,146 ext{ m} ightarrow 53,15 ext{ m}$.
+Câu 4: 58,8
+
+Giải: Để từ điển không trượt xuống: $F_{msn} = P = mg = 1,8 imes 9,8 = 17,64 ext{ N}$.
+Mạ khác $F_{msn} \le \mu_n N = \mu_n F \Rightarrow F \ge rac{mg}{\mu_n} = rac{17,64}{0,30} = 58,8 ext{ N}$.
+Câu 5: 0,342
+
+Giải: $a = g(\sinlpha - \mu_t \coslpha) \Rightarrow 2,0 = 9,8(\sin 30^\circ - \mu_t \cos 30^\circ)$.
+$0,5 - \mu_t imes 0,866025 = rac{2,0}{9,8} pprox 0,20408$.
+$\mu_t imes 0,866025 = 0,29592 \Rightarrow \mu_t pprox 0,3417 ightarrow 0,342$.
+PHẦN 4: TỰ LUẬN
+Câu 1:
+
+Xe khóa cứng bánh (Non-ABS):
+Gia tốc hãm: $a_1 = \mu_t g = 0,50 imes 9,8 = 4,90 ext{ m/s}^2$.
+Quãng đường phanh: $s_1 = rac{v_0^2}{2a_1} = rac{25^2}{2 imes 4,90} = 63,78 ext{ m}$.
+Xe trang bị phanh ABS:
+Gia tốc hãm: $a_2 = \mu_n g = 0,70 imes 9,8 = 6,86 ext{ m/s}^2$.
+Quãng đường phanh: $s_2 = rac{v_0^2}{2a_2} = rac{25^2}{2 imes 6,86} = 45,55 ext{ m}$.
+Hiệu quả phanh & Lợi ích sinh tử:
+Tỉ lệ rút ngắn quãng đường phanh: $rac{s_1 - s_2}{s_1} = rac{63,78 - 45,55}{63,78} = rac{18,23}{63,78} pprox 28,6%$.
+Hai lợi ích sinh tử:
+(1) Rút ngắn hơn $18 ext{ m}$ quãng đường phanh khẩn cấp, ngăn chặn va chạm tử vong.
+(2) Bánh xe không bị khóa cứng lật trượt lê, duy trì khả năng bám lái vô-lăng để tài xế chủ động đánh lái tránh chướng ngại vật trên đường.
+Câu 2:
+
+Gia tốc trượt tự do $a_0$:
+$a_0 = g(\sin 8^\circ - \mu_t \cos 8^\circ) = 9,8(0,1392 - 0,25 imes 0,9903) = 9,8(0,1392 - 0,2476) = -1,06 ext{ m/s}^2$.
+Nhận xét: Do $\mu_t \cos 8^\circ > \sin 8^\circ$ nên lực ma sát trượt lớn hơn thành phần trọng lực trượt dốc, nếu thả tự do xe sẽ chậm dần và dừng lại. Tuy nhiên nếu tải trọng lớn hoặc $\mu_t$ giảm do nhiệt, gia tốc sẽ dương.
+Lực hãm $F_{hãm}$ để xuống dốc thẳng đều:
+Chiếu lên phương dốc ($a = 0$): $M g \sin 8^\circ - F_{mst} - F_{hãm} = 0$.
+Với $F_{mst} = \mu_t M g \cos 8^\circ = 0,25 imes 15000 imes 9,8 imes 0,9903 = 36394 ext{ N}$.
+Thành phần trượt dốc: $P_x = 15000 imes 9,8 imes 0,1392 = 20462 ext{ N}$.
+Do $P_x < F_{mst}$ nên không cần thêm lực hãm phanh $F_{hãm}$, động cơ xe chỉ cần duy trì lực kéo nhẹ để xe không dừng lại.
+(Nếu bài toán xét trường hợp đèo dốc lớn $lpha = 15^\circ$ thì $P_x > F_{mst}$, phanh phải tạo $F_{hãm} = P_x - F_{mst}$).
+Nhiệt lượng & Hố cứu nạn:
+Nhiệt lượng tỏa ra ở má phanh do ma sát trượt $Q = F_{mst} \cdot L$. Công ma sát làm tăng nhiệt độ đĩa phanh lên cực đại gây chai cháy má phanh (mất ma sát).
+Hố cứu nạn dốc cát: Bố trí dốc ngược phủ lớp cát/sỏi dày ở chân đèo. Khi xe mất phanh lao vào hố, lớp cát tạo lực cản lăn và ma sát trượt cực lớn hấp thụ toàn bộ động năng, dừng xe an toàn.
+Câu 3:
+
+Biểu thức lực kéo $F(lpha)$:
+$N = mg - F \sinlpha$. Lực ma sát trượt $F_{mst} = \mu_t (mg - F \sinlpha)$.
+Trượt đều: $F \coslpha = F_{mst} = \mu_t (mg - F \sinlpha) \Rightarrow F = rac{\mu_t mg}{\coslpha + \mu_t \sinlpha}$.
+Góc kéo tối ưu $lpha_{opt}$ và $F_{\min}$:
+Để $F_{\min}$, mẫu số $Y = \coslpha + \mu_t \sinlpha$ đạt cực đại.
+Theo bất đẳng thức Bunya-CBS: $Y \le \sqrt{1 + \mu_t^2} \cdot \sqrt{\cos^2lpha + \sin^2lpha} = \sqrt{1 + \mu_t^2}$.
+Dấu bằng xảy ra khi $ an lpha_{opt} = \mu_t = 0,40 \Rightarrow lpha_{opt} = rctan(0,40) pprox 21,8^\circ$.
+Giá trị lực kéo tối thiểu: $F_{\min} = rac{\mu_t mg}{\sqrt{1 + \mu_t^2}} = rac{0,40 imes 200 imes 9,8}{\sqrt{1 + 0,40^2}} = rac{784}{\sqrt{1,16}} = rac{784}{1,077} pprox 727,9 ext{ N}$.
+So sánh với lực kéo nằm ngang $F_0$:
+Lực kéo nằm ngang ($ alpha = 0^\circ$): $F_0 = \mu_t mg = 0,40 imes 200 imes 9,8 = 784,0 ext{ N}$.
+$F_{\min} (727,9 ext{ N}) < F_0 (784,0 ext{ N})$, tiết kiệm được khoảng $7,1%$ lực kéo.
+Bản chất vật lý: Khi kéo xiên lên góc $lpha$, lực kéo tạo ra một thành phần thẳng đứng $F \sin\partial$ hướng lên giúp nhấc nhẹ vật, giảm pháp lực $N$, từ đó làm giảm trực tiếp lực ma sát trượt $F_{mst} = \mu_t N$.
+Câu 4:
+
+Sơ đồ thí nghiệm: Đặt khối gỗ trên mặt bàn nằm ngang, móc cảm biến lực Force Sensor vào khối gỗ, kéo cảm biến theo phương nằm ngang cho khối gỗ trượt đều. Đọc giá trị $F$ trên phần mềm Data Logger.
+Tính toán số liệu:
+Giá trị trung bình lực kéo: $ar{F} = rac{1,18 + 1,22 + 1,20 + 1,19 + 1,21}{5} = rac{6,00}{5} = 1,20 ext{ N}$.
+Hệ số ma sát trượt trung bình: $ar{\mu}_t = rac{ar{F}}{N} = rac{1,20}{3,920} pprox 0,3061$.
+Sai số ngẫu nhiên từng lần đo: $\Delta F_1 = 0,02; \Delta F_2 = 0,02; \Delta F_3 = 0,00; \Delta F_4 = 0,01; \Delta F_5 = 0,01 ext{ N}$.
+Sai số ngẫu nhiên trung bình: $ar{\Delta F} = rac{0,02 + 0,02 + 0,00 + 0,01 + 0,01}{5} = 0,012 ext{ N}$.
+Sai số tuyệt đối lực kéo (bao gồm sai số dụng cụ $\Delta F_{dc} = 0,01 ext{ N}$): $\Delta F = ar{\Delta F} + \Delta F_{dc} = 0,022 ext{ N}$.
+Sai số tỉ đối $\delta \mu_t = \delta F + \delta N = rac{0,022}{1,20} + rac{0,01}{3,92} pprox 0,0183 + 0,0025 = 0,0208$ ($2,08%$).
+Sai số tuyệt đối $\Delta \mu_t = ar{\mu}_t imes \delta \mu_t = 0,3061 imes 0,0208 pprox 0,006$.
+Kết quả đo chuẩn ISO/SI: $\mu_t = 0,306 \pm 0,006$.
+Câu 5:
+
+Phân tích lực & Vai trò ma sát:
+Kiện hàng chịu trọng lực $ec{P}$, pháp lực $ec{N}$ ($N = mg = 294 ext{ N}$) và lực ma sát trượt $ec{F}_{mst}$ hướng theo chiều chuyển động của băng tải.
+Lực ma sát trượt đóng vai trò là lực phát động gia tốc kiện hàng tiến lên đạt tốc độ băng tải.
+Tính $a$ và $t_1$:
+Gia tốc: $a = rac{F_{mst}}{m} = \mu_t g = 0,30 imes 9,8 = 2,94 ext{ m/s}^2$.
+Thời gian trượt: $t_1 = rac{v_0}{a} = rac{3,0}{2,94} pprox 1,02 ext{ s}$.
+Quãng đường trượt & Nhiệt lượng tỏa ra:
+Quãng đường kiện hàng đi đối với đất: $s_{đất} = rac{v_0^2}{2a} = rac{3,0^2}{2 imes 2,94} = 1,53 ext{ m}$.
+Quãng đường băng tải đi đối với đất trong thời gian $t_1$: $s_{băng_tải} = v_0 \cdot t_1 = 3,0 imes 1,02 = 3,06 ext{ m}$.
+Quãng đường trượt tương đối của kiện hàng trên mặt băng tải: $s_{tương_đối} = s_{băng_tải} - s_{đất} = 3,06 - 1,53 = 1,53 ext{ m}$.
+Nhiệt lượng tỏa ra do ma sát trượt: $Q = F_{mst} \cdot s_{tương_đối} = (\mu_t mg) \cdot s_{tương_đối} = (0,30 imes 30 imes 9,8) imes 1,53 = 88,2 imes 1,53 pprox 134,95 ext{ J}$.

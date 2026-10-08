@@ -17,6 +17,8 @@ def build(output_dir: Path) -> Path:
     for name in RUNTIME:
         source = ROOT / name
         files.extend(sorted(source.rglob("*")) if source.is_dir() else [source])
+    if (ROOT / "LICENSE").is_file():
+        files.append(ROOT / "LICENSE")
     with zipfile.ZipFile(output, "w", compression=zipfile.ZIP_DEFLATED) as archive:
         for source in sorted(p for p in files if p.is_file()):
             if source.is_symlink():

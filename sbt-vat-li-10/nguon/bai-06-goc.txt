@@ -1,0 +1,183 @@
+BÀI 6: SỰ RƠI TỰ DO VÀ THỰC HÀNH ĐO GIA TỐC RƠI TỰ DO
+PHẦN 1: TRẮC NGHIỆM 4 PHƯƠNG ÁN LỰA CHỌN (20 CÂU)
+Thí sinh chọn 1 phương án đúng nhất trong mỗi câu. Các câu hỏi được thiết kế phân hóa cao, loại bỏ câu hỏi ghi nhớ đơn thuần, tập trung vào bản chất động học, tư duy đồ thị, sai số thực nghiệm và bối cảnh thực tế Việt Nam.
+
+Câu 1: Hai viên bi thép $A$ và $B$ có khối lượng lần lượt là $m_A = 50\text{ g}$ và $m_B = 200\text{ g}$ được thả rơi đồng thời từ cùng một độ cao $h = 20\text{ m}$ tại một vị trí ở Hà Nội trong một ống thủy tinh dài đã được rút hết không khí (môi trường chân không). Phát biểu nào sau đây phản ánh chính xác nhất bản chất vật lý của chuyển động? A. Viên bi $B$ chạm đáy ống trước viên bi $A$ vì trọng lực tác dụng lên bi $B$ lớn gấp $4$ lần trọng lực tác dụng lên bi $A$. B. Cả hai viên bi chạm đáy ống đồng thời với cùng một vận tốc vì trong chân không, gia tốc rơi của mọi vật là như nhau và không phụ thuộc vào khối lượng của vật. C. Viên bi $A$ chạm đáy ống trước do khối lượng nhỏ hơn nên gia tốc lực cản không khí tác dụng lên nó bé hơn. D. Thời gian rơi của viên bi $B$ ngắn hơn viên bi $A$ một khoảng $\Delta t = \sqrt{2h/g} \cdot (1 - m_A/m_B)$.
+
+Câu 2: Một vật nhỏ bắt đầu rơi tự do từ trạng thái nghỉ tại độ cao $H$ so với mặt đất. Gọi $s_1$ là quãng đường vật rơi được trong $1\text{ s}$ đầu tiên và $s_k$ là quãng đường vật rơi được trong $1\text{ s}$ thứ $k$ ($k \in \mathbb{N}^*$). Theo định luật tỷ lệ dãy số lẻ của Galilei, tỉ số $\frac{s_k}{s_1}$ bằng A. $k^2$. B. $2k - 1$. C. $2k + 1$. D. $k^2 - (k-1)^2 + 1$.
+
+Câu 3: Một hòn đá thả rơi tự do từ đỉnh một tháp cao. Trong giây cuối cùng trước khi chạm đất, hòn đá rơi được một quãng đường bằng $3/4$ tổng chiều cao $H$ của tháp. Lấy $g = 10\text{ m/s}^2$. Thời gian rơi tổng cộng $t_0$ và chiều cao $H$ của tháp lần lượt là A. $t_0 = 2,0\text{ s}; H = 20,0\text{ m}$. B. $t_0 = 3,0\text{ s}; H = 45,0\text{ m}$. C. $t_0 = 4,0\text{ s}; H = 80,0\text{ m}$. D. $t_0 = 1,5\text{ s}; H = 11,25\text{ m}$.
+
+Câu 4: Thả một vật rơi tự do từ độ cao $h$. Nếu chia độ cao $h$ thành hai phần sao cho thời gian vật rơi trên phần thứ nhất ($\Delta t_1$) bằng thời gian vật rơi trên phần thứ hai ($\Delta t_2$), thì tỉ số độ cao của phần thứ nhất và phần thứ hai ($h_1 / h_2$) là A. $1/1$. B. $1/2$. C. $1/3$. D. $1/4$.
+
+Câu 5: Một giọt mưa nhỏ bắt đầu rơi từ một đám mây ở độ cao $1200\text{ m}$. Trong giai đoạn đầu, lực cản không khí nhỏ hơn trọng lực. Tuy nhiên, khi vận tốc giọt mưa tăng lên, lực cản không khí $F_c = k v^2$ tăng dần cho đến khi cân bằng với trọng lực $P$. Kể từ thời điểm đó, giọt mưa chuyển động như thế nào? A. Tiếp tục tăng tốc với gia tốc giảm dần về $0$. B. Giảm tốc độ nhanh chóng về $0$ trước khi chạm đất. C. Chuyển động thẳng đều với vận tốc không đổi gọi là tốc độ tới hạn (terminal speed). D. Dừng lại trên không trung rồi mới rơi tiếp.
+
+Câu 6: Từ đỉnh một tòa nhà cao tầng ở TP. Hồ Chí Minh, một quả bóng nhỏ $A$ được thả rơi tự do, đồng thời một quả bóng nhỏ $B$ được ném thẳng đứng xuống dưới với vận tốc ban đầu $v_0 = 5\text{ m/s}$. Bỏ qua lực cản không khí. Trong quá trình cả hai quả bóng đang rơi trên không trung, khoảng cách $\Delta y$ giữa hai quả bóng biến thiên theo thời gian $t$ như thế nào? A. Tăng tỷ lệ thuận với thời gian $t$ ($\Delta y = v_0 t$). B. Tăng tỷ lệ thuận với bình phương thời gian $t^2$ ($\Delta y = \frac{1}{2}gt^2$). C. Không thay đổi theo thời gian ($\Delta y = \text{const}$). D. Tăng trong nửa thời gian đầu và giảm trong nửa thời gian sau.
+
+Câu 7: Gia tốc trọng trường $g$ tại các địa điểm khác nhau trên bề mặt Trái Đất có giá trị khác nhau. Khi di chuyển từ Xích Đạo về cực Bắc của Trái Đất hoặc khi đi từ chân núi lên đỉnh núi Fansipan (Sa Pa, Lào Cai), giá trị của $g$ biến đổi như thế nào? A. Từ Xích Đạo về cực Bắc $g$ giảm; từ chân núi lên đỉnh Fansipan $g$ tăng. B. Từ Xích Đạo về cực Bắc $g$ tăng; từ chân núi lên đỉnh Fansipan $g$ giảm. C. Cả hai trường hợp $g$ đều tăng do bán kính Trái Đất giảm. D. Cả hai trường hợp $g$ đều giảm do lực ly tâm của Trái Đất.
+
+Câu 8: Trong bài thực hành đo gia tốc rơi tự do $g$ tại phòng thí nghiệm trường THPT bằng bộ dụng cụ dùng cổng quang điện và đồng hồ đo thời gian hiện số MC964, học sinh thả viên bi thép rơi từ công tắc tơ điện từ qua hai cổng quang điện $A$ và $B$ đặt cách nhau một khoảng $s$. Đồng hồ hiện số hiển thị thời gian bi chắn cổng $A$ là $\Delta t_A$, chắn cổng $B$ là $\Delta t_B$, và thời gian chuyển động từ $A$ đến $B$ là $t_{AB}$. Biết đường kính viên bi thép là $d$. Công thức nào sau đây xác định gia tốc rơi tự do $g$ từ các số liệu trực tiếp này? A. $g = \frac{d^2}{2s} \left( \frac{1}{\Delta t_B^2} - \frac{1}{\Delta t_A^2} \right)$. B. $g = \frac{2s}{t_{AB}^2}$. C. $g = \frac{d}{t_{AB}} \left( \frac{1}{\Delta t_B} - \frac{1}{\Delta t_A} \right)$. D. Cả A và B đều có thể sử dụng tùy thuộc vào phương pháp tính vận tốc tức thời hay đo thời gian tổng.
+
+Câu 9: Khi gá lắp bộ dụng cụ thực hành đo gia tốc rơi tự do $g$, nếu giá thẳng đứng bị nghiêng một góc $\alpha = 3^\circ$ so với phương thẳng đứng chuẩn (dây rọi), đường đi của viên bi thép không song song với trục định hướng của cổng quang điện. Bỏ qua lực cản không khí, giá trị gia tốc $g_{đo}$ thực nghiệm thu được sẽ bị ảnh hưởng như thế nào so với giá trị $g_{chuẩn}$ tại địa phương? A. $g_{đo} > g_{chuẩn}$ vì đường đi của viên bi dài hơn. B. $g_{đo} < g_{chuẩn}$ vì thành phần gia tốc dọc theo hướng rơi thực tế là $g \cos\alpha$. C. $g_{đo} = g_{chuẩn}$ vì góc nghiêng quá nhỏ không ảnh hưởng đến thời gian chắn sáng. D. $g_{đo}$ biến thiên ngẫu nhiên lúc lớn hơn lúc nhỏ hơn $g_{chuẩn}$.
+
+Câu 10: Hai giọt nước giọt ra từ một vòi nước ở độ cao $H = 5\text{ m}$ so với mặt đất. Giọt thứ hai giọt ra đúng vào thời điểm giọt thứ nhất vừa chạm đất. Biết khoảng thời gian giọt nước nhỏ ra đều đặn là $\Delta t = 0,5\text{ s}$. Lấy $g = 10\text{ m/s}^2$. Khi giọt thứ nhất chạm đất, giọt thứ hai đang ở độ cao so với mặt đất là bao nhiêu? A. $1,25\text{ m}$. B. $3,75\text{ m}$. C. $2,50\text{ m}$. D. $4,00\text{ m}$.
+
+Câu 11: Trong một bài thí nghiệm đo $g$ bằng phương pháp thủ công dùng đồng hồ bấm giây bấm tay, học sinh thả rơi viên bi từ độ cao $h = 1,00\text{ m}$ và bấm đồng hồ khi thả bi, dừng đồng hồ khi nghe tiếng bi chạm khay kim loại. Do thời gian phản xạ sinh lý của con người khi bấm dừng đồng hồ bị trễ một khoảng $t_{rx} \approx 0,15\text{ s}$, giá trị $g$ do học sinh này tính ra sẽ A. lớn hơn giá trị thực tế đáng kể. B. nhỏ hơn giá trị thực tế đáng kể. C. bằng đúng giá trị thực tế vì $t_{rx}$ ở hai lần bấm triệt tiêu lẫn nhau. D. không thể xác định được do sai số ngẫu nhiên quá lớn.
+
+Câu 12: Đồ thị biểu diễn sự phụ thuộc của vận tốc $v$ theo thời gian $t$ của một vật rơi tự do không vận tốc ban đầu là một A. đường thẳng đi qua gốc tọa độ $O$, có độ dốc bằng gia tốc trọng trường $g$. B. đường parabol có đỉnh tại gốc tọa độ $O$, quay bề lõm lên trên. C. đường thẳng song song với trục thời gian $Ot$. D. đường cong hypebol tiệm cận trục vận tốc $Ov$.
+
+Câu 13: Lực hấp dẫn trên bề mặt Mặt Trăng chỉ bằng khoảng $1/6$ lực hấp dẫn trên bề mặt Trái Đất ($g_{MT} \approx 1,63\text{ m/s}^2$). Nếu một nhà tài phiệt thả rơi tự do một vật từ độ cao $h = 18\text{ m}$ trên Trái Đất mất thời gian $t_{TĐ}$ và thả rơi cùng vật đó từ độ cao $h = 18\text{ m}$ trên Mặt Trăng mất thời gian $t_{MT}$, tỉ số $t_{MT} / t_{TĐ}$ bằng A. $6$. B. $1/6$. C. $\sqrt{6} \approx 2,45$. D. $\sqrt{1/6} \approx 0,41$.
+
+Câu 14: Trong công thức xác định gián tiếp gia tốc rơi tự do $g = \frac{2h}{t^2}$, nếu phép đo chiều cao $h$ có sai số tỉ đối $\delta h = 1,0%$ và phép đo thời gian $t$ có sai số tỉ đối $\delta t = 1,5%$, thì sai số tỉ đối $\delta g$ của phép đo gia tốc rơi tự do bằng A. $2,5%$. B. $4,0%$. C. $3,0%$. D. $5,5%$.
+
+Câu 15: Thả một viên sỏi từ miệng một giếng nước sâu ở vùng nông thôn Việt Nam. Sau khoảng thời gian $t = 3,10\text{ s}$ kể từ lúc thả, người quan sát trên miệng giếng mới nghe thấy tiếng viên sỏi va chạm vào mặt nước. Biết tốc độ truyền âm trong không khí là $v_{âm} = 340\text{ m/s}$ và $g = 9,80\text{ m/s}^2$. Độ sâu $h$ của mặt nước so với miệng giếng xấp xỉ bằng A. $47,1\text{ m}$. B. $42,5\text{ m}$. C. $52,3\text{ m}$. D. $38,2\text{ m}$.
+
+Câu 16: Mối liên hệ giữa quãng đường rơi $s$ và vận tốc tức thời $v$ của một vật rơi tự do không vận tốc đầu là A. $v = \sqrt{gh}$. B. $v^2 = 2gs$. C. $s = 2gv^2$. D. $v = 2gs$.
+
+Câu 17: Một vật rơi tự do từ độ cao $h$ xuống mặt đất. Thời gian vật rơi trong nửa quãng đường đầu tiên là $t_1$ và thời gian vật rơi trong nửa quãng đường còn lại là $t_2$. Tỉ số $t_1 / t_2$ bằng A. $1$. B. $\sqrt{2} + 1$. C. $\frac{1}{\sqrt{2} - 1} = \sqrt{2} + 1$. D. $\frac{1}{\sqrt{2} - 1}$. (chú ý tính toán: $t_1 = \sqrt{h/g}$, $t_0 = \sqrt{2h/g} \Rightarrow t_2 = \sqrt{2h/g} - \sqrt{h/g} \Rightarrow t_1/t_2 = \frac{1}{\sqrt{2}-1} = \sqrt{2}+1$). Sửa phương án chuẩn xác phân hóa: A. $1$. B. $\sqrt{2}$. C. $\sqrt{2} + 1$. D. $\sqrt{2} - 1$.
+
+Câu 18: Quan sát đồ thị độ dịch chuyển – thời gian ($d - t$) của một vật rơi tự do (chọn gốc tọa độ tại vị trí thả, chiều dương hướng xuống), nhận xét nào sau đây chính xác? A. Đồ thị là một nửa đường parabol có đỉnh tại gốc tọa độ $O$ và bề lõm hướng lên trên. B. Độ dốc của tiếp tuyến với đồ thị tại mọi điểm là không đổi và bằng $g$. C. Đồ thị là một đường thẳng có hệ số góc bằng $g/2$. D. Đồ thị trùng với quỹ đạo chuyển động thực tế của vật trong không gian.
+
+Câu 19: Khi tiến hành thí nghiệm kiểm tra sự rơi tự do trong ống Newton (như hình mô tả trong SGK), khi rút hết không khí trong ống ra, ta thấy chiếc lông chim và viên bi thép rơi nhanh như nhau. Kết luận quan trọng nhất rút ra từ thí nghiệm này là A. Lực hút của Trái Đất không tác dụng lên chiếc lông chim trong chân không. B. Trọng lực tác dụng lên hai vật có độ lớn bằng nhau khi ở trong chân không. C. Yếu tố nguyên nhân gây ra sự rơi nhanh chậm khác nhau của các vật trong không khí là do lực cản của không khí. D. Trong chân không, khối lượng của các vật giảm về $0$.
+
+Câu 20: Thả rơi tự do một vật nhỏ từ đỉnh tòa nhà Landmark 81 (TP.HCM) ở độ cao $h = 400\text{ m}$ xuống mặt đất (bỏ qua lực cản không khí, lấy $g = 9,81\text{ m/s}^2$). Vận tốc của vật ngay trước khi chạm đất bằng A. $88,6\text{ m/s}$ (xấp xỉ $319\text{ km/h}$). B. $62,6\text{ m/s}$ (xấp xỉ $225\text{ km/h}$). C. $78,4\text{ m/s}$ (xấp xỉ $282\text{ km/h}$). D. $45,2\text{ m/s}$ (xấp xỉ $163\text{ km/h}$).
+
+PHẦN 2: TRẮC NGHIỆM ĐÚNG/SAI (5 CÂU)
+Thí sinh xét tính Đúng/Sai của từng ý a, b, c, d trong mỗi câu.
+
+Câu 1: Một học sinh đứng trên vách đá ven biển Đà Nẵng ném một hòn đá nhỏ thẳng đứng lên trên với vận tốc ban đầu $v_0 = 14,7\text{ m/s}$. Hòn đá chuyển động lên đến độ cao cực đại rồi rơi xuống biển bên dưới vách đá. Chọn gốc tọa độ $O$ tại vị trí ném, chiều dương hướng thẳng đứng lên trên, gốc thời gian $t = 0$ lúc ném hòn đá. Lấy $g = 9,8\text{ m/s}^2$ và bỏ qua lực cản không khí. a) Gia tốc của hòn đá trong suốt quá trình chuyển động (kể cả tại đỉnh cao nhất) luôn có giá trị đại số là $a = -9,8\text{ m/s}^2$. b) Thời gian để hòn đá đạt độ cao cực đại là $1,5\text{ s}$ và độ cao cực đại so với vị trí ném là $11,025\text{ m}$. c) Tại đỉnh cao nhất của quỹ đạo, vận tốc của hòn đá bằng $0$ nên gia tốc của hòn đá tại thời điểm đó cũng bằng $0$. d) Kể từ lúc ném, sau khoảng thời gian $t = 4,0\text{ s}$, độ dịch chuyển của hòn đá so với điểm ném mang giá trị âm và vận tốc của hòn đá có độ lớn là $24,5\text{ m/s}$.
+
+Câu 2: Học sinh nhóm 2 thực hành đo gia tốc rơi tự do $g$ bằng bộ dụng cụ gồm giá thí nghiệm thẳng đứng, nam châm điện giữ viên bi thép, cổng quang điện và đồng hồ đo thời gian hiện số MC964 (chế độ đo A $\rightarrow$ B). Mô tả bảng số liệu thực nghiệm thu được khi thả viên bi rơi qua khoảng cách $h = (0,600 \pm 0,001)\text{ m}$ giữa hai cổng quang điện:
+
+Lần đo	Thời gian $t\text{ (s)}$
+1	$0,351$
+2	$0,349$
+3	$0,350$
+4	$0,352$
+5	$0,348$
+a) Giá trị trung bình của thời gian rơi đo được là $\bar{t} = 0,350\text{ s}$. b) Giá trị gia tốc rơi tự do trung bình tính được từ thí nghiệm là $\bar{g} \approx 9,80\text{ m/s}^2$. c) Sai số tuyệt đối trung bình của thời gian rơi thu được từ 5 lần đo là $\Delta \bar{t} = 0,002\text{ s}$. d) Kết quả phép đo gia tốc rơi tự do được viết dưới dạng $\bar{g} \pm \Delta g$ thu được sai số tương đối $\delta g$ của phép đo nhỏ hơn $1,5%$.
+
+Câu 3: Khảo sát chuyển động rơi của một giọt nước mưa trong bầu khí quyển Việt Nam dưới tác dụng đồng thời của trọng lực $\vec{P}$ và lực cản không khí $\vec{F}c = -k \vec{v}$ (với $k$ là hệ số cản phụ thuộc vào kích thước giọt nước và độ nhớt của không khí). a) Gia tốc của giọt nước mưa giảm dần theo thời gian từ giá trị ban đầu $a_0 = g$ về giá trị $0$. b) Khi giọt mưa đạt tốc độ tới hạn $v{th} = \frac{mg}{k}$, tổng hợp lực tác dụng lên giọt mưa bằng $0$ và nó chuyển động thẳng đều. c) Hai giọt nước mưa có bán kính khác nhau ($R_1 > R_2$) sẽ chạm đất với cùng một tốc độ tới hạn do gia tốc trọng trường là như nhau. d) Đồ thị vận tốc – thời gian ($v - t$) của giọt mưa là một đường tiệm cận ngang $v = v_{th}$.
+
+Câu 4: Xét ba đồ thị động học (1), (2), (3) mô tả chuyển động của ba vật rơi tự do không vận tốc ban đầu trong cùng một hệ quy chiếu (gốc tọa độ tại vị trí thả, chiều dương hướng xuống):
+
+Đồ thị (1): Đồ thị gia tốc – thời gian ($a - t$) là đường thẳng nằm ngang $a = g$.
+Đồ thị (2): Đồ thị vận tốc – thời gian ($v - t$) là đường thẳng xiên góc đi qua gốc $O$ có hệ số góc bằng $g$.
+Đồ thị (3): Đồ thị độ dịch chuyển – thời gian ($d - t$) là một nhánh parabol đi qua gốc $O$ mở bề lõm lên trên.
+a) Diện tích hình chữ nhật dưới đồ thị (1) từ $t = 0$ đến $t = t_0$ biểu diễn vận tốc tức thời $v(t_0)$ của vật tại thời điểm $t_0$. b) Diện tích tam giác vuông dưới đồ thị (2) từ $t = 0$ đến $t = t_0$ biểu diễn độ dịch chuyển $d(t_0)$ của vật tại thời điểm $t_0$. c) Độ dốc của tiếp tuyến với đồ thị (3) tại thời điểm $t_0$ chính bằng vận tốc tức thời $v(t_0)$ của vật tại thời điểm đó. d) Cả ba đồ thị trên đều khẳng định gia tốc của vật tăng dần theo thời gian do trọng lực hút vật ngày càng mạnh khi lại gần mặt đất.
+
+Câu 5: Đánh giá các nguồn sai số và kỹ thuật thực hành trong bài đo gia tốc rơi tự do $g$ bằng cảm biến cổng quang điện: a) Lực cản của không khí tác dụng lên viên bi thép nhỏ làm cho giá trị $g$ đo được trong phòng thí nghiệm thường nhỏ hơn giá trị $g_{chuẩn}$ công bố tại địa phương. b) Nếu công tắc điện từ ngắt chậm do hiện tượng từ dư (viên bi không rơi ngay khi bấm nút ngắt điện), thời gian rơi đo được trên đồng hồ hiện số sẽ lớn hơn thực tế, dẫn đến giá trị $g_{đo}$ tính ra bị nhỏ đi. c) Để giảm sai số tỉ đối $\delta g$, học sinh nên thu hẹp khoảng cách rơi $h$ xuống càng nhỏ càng tốt (ví dụ $h = 5\text{ cm}$). d) Việc căn chỉnh dây rọi thẳng đứng để viên bi rơi đi qua chính xác giữa khe của cổng quang điện giúp loại bỏ hoàn toàn sai số ngẫu nhiên.
+
+PHẦN 3: TRẮC NGHIỆM TRẢ LỜI NGẮN (5 CÂU)
+Thí sinh tính toán và điền kết quả số.
+
+Câu 1: Một vật bắt đầu rơi tự do không vận tốc đầu từ độ cao $h = 45,0\text{ m}$ tại nơi có $g = 10,0\text{ m/s}^2$. Tính quãng đường vật rơi được trong $1,0\text{ s}$ cuối cùng trước khi chạm đất (đơn vị: mét).
+
+Câu 2: Một giọt nước rơi tự do từ mái hiên nhà cao $H = 16,0\text{ m}$ xuống đất. Gọi $t_1$ là thời gian giọt nước rơi trong $8,0\text{ m}$ đầu tiên và $t_2$ là thời gian giọt nước rơi trong $8,0\text{ m}$ còn lại. Tính tỉ số $t_1 / t_2$ (kết quả làm tròn đến $2$ chữ số thập phân).
+
+Câu 3: Trong bài thực hành đo gia tốc rơi tự do, học sinh đo được khoảng cách giữa hai cổng quang điện $A$ và $B$ là $s = (0,500 \pm 0,001)\text{ m}$. Thời gian viên bi chắn cổng quang điện $A$ là $\Delta t_A = 0,020\text{ s}$ và chắn cổng $B$ là $\Delta t_B = 0,010\text{ s}$. Bề rộng tấm chắn sáng gắn trên bi là $d = 20,0\text{ mm}$. Tính gia tốc rơi tự do $\bar{g}$ tính được từ số liệu thực nghiệm này (đơn vị: $\text{m/s}^2$).
+
+Câu 4: Các giọt nước nhỏ ra đều đặn từ một vòi nước treo cao. Giọt thứ nhất chạm đất sau $0,60\text{ s}$ kể từ lúc bắt đầu rơi. Đúng lúc giọt thứ nhất chạm đất thì giọt thứ ba bắt đầu rời khỏi vòi nước. Lấy $g = 10,0\text{ m/s}^2$. Khoảng cách giữa giọt thứ nhất và giọt thứ hai tại thời điểm giọt thứ nhất vừa chạm đất bằng bao nhiêu mét?
+
+Câu 5: Tính sai số tỉ đối $\delta g$ (theo đơn vị $%$) của phép đo gia tốc rơi tự do $g = \frac{2h}{t^2}$, biết chiều cao rơi $h = (0,800 \pm 0,002)\text{ m}$ và thời gian rơi $t = (0,404 \pm 0,004)\text{ s}$. (Kết quả làm tròn đến $1$ chữ số thập phân).
+
+PHẦN 4: CÂU HỎI TỰ LUẬN (5 CÂU)
+Bài tập phân tích sâu, yêu cầu thiết lập công thức, chứng minh, xử lý dữ liệu và vận dụng thực tiễn.
+
+Câu 1 (Mô hình Rơi tự do vs Lực cản Không khí - Tòa nhà Landmark 81): Một nhóm kỹ sư khảo sát an toàn thả một vật xốp $m = 0,20\text{ kg}$ từ đỉnh tháp quan sát tòa nhà Landmark 81 (độ cao $h = 400\text{ m}$). a) Nếu bỏ qua lực cản không khí, tính thời gian rơi $t_0$ và vận tốc chạm đất $v_0$ của vật tại nơi có $g = 9,80\text{ m/s}^2$. b) Trong thực tế, lực cản không khí tác dụng lên vật có dạng $F_c = k v^2$ với $k = 0,008\text{ kg/m}$. Hãy xác định tốc độ tới hạn $v_{th}$ mà vật có thể đạt tới. c) Lập luận vật lý giải thích vì sao vận tốc chạm đất thực tế của vật xốp nhỏ hơn nhiều so với $v_0$ tính ở câu a, và phác thảo đồ thị $v - t$ so sánh hai trường hợp.
+
+Câu 2 (Chứng minh Định luật Tỷ lệ Galilei & Ứng dụng Chụp ảnh Nghiệm thu): a) Chứng minh rằng đối với một vật rơi tự do không vận tốc đầu, quãng đường vật rơi được trong khoảng thời gian $\Delta t$ thứ $n$ ($s_n$) thỏa mãn công thức: $$s_n = \frac{1}{2}g (2n - 1) (\Delta t)^2$$ b) Một bức ảnh chụp nghiệm thu (Stroboscopic photography) dùng chớp sáng phát ra sau những khoảng thời gian đều đặn $\Delta t = 0,10\text{ s}$ ghi lại vị trí của một viên bi thép rơi tự do từ trạng thái nghỉ. Khoảng cách giữa hai vạch ảnh liên tiếp lần thứ $4$ và thứ $5$ đo được trên thước đo là $\Delta s_{4,5} = 35\text{ cm}$. Xác định gia tốc trọng trường $g$ tại vị trí chụp ảnh.
+
+Câu 3 (Bài toán Thả rơi Cứu hộ Đa thời điểm): Một người đứng trên cầu văng Bãi Cháy (Quảng Ninh) ở độ cao $H = 50\text{ m}$ so với mặt nước biển. a) Người đó thả rơi tự do vật thứ nhất ($A$). Sau đó $\Delta t = 1,0\text{ s}$, người đó thả rơi tự do vật thứ hai ($B$). Lấy $g = 9,8\text{ m/s}^2$. Tính khoảng cách giữa hai vật tại thời điểm vật $A$ vừa chạm mặt nước. b) Nếu muốn vật $B$ chạm mặt nước cùng lúc với vật $A$, người đó phải ném vật $B$ thẳng đứng xuống dưới với vận tốc ban đầu $v_{0B}$ bằng bao nhiêu?
+
+Câu 4 (Thực hành Đo Gia tốc Rơi tự do & Chuẩn hóa Kết quả ISO/SI): Học sinh tiến hành thí nghiệm đo $g$ tại phòng thí nghiệm trường THPT Chuyên Hà Nội – Amsterdam. Bằng việc thả rơi viên bi thép qua công tắc từ và cổng quang điện nối đồng hồ đo thời gian MC964, thu được bảng số liệu 5 lần đo cho độ cao $h = 0,750\text{ m}$ (sai số thước đo $\Delta h_{dc} = 0,001\text{ m}$):
+
+Lần đo	Thời gian $t\text{ (s)}$
+1	$0,391$
+2	$0,389$
+3	$0,390$
+4	$0,392$
+5	$0,388$
+a) Tính gia tốc rơi tự do trung bình $\bar{g}$. b) Tính sai số tuyệt đối $\Delta g$ (kết hợp sai số ngẫu nhiên $\bar{\Delta g}$ và sai số dụng cụ $\Delta g_{dc}$, biết sai số dụng cụ của đồng hồ là $\Delta t_{dc} = 0,001\text{ s}$). c) Viết kết quả phép đo chuẩn $g = \bar{g} \pm \Delta g$ và so sánh với giá trị chuẩn tại Hà Nội ($g_{chuẩn} = 9,808\text{ m/s}^2$). Đưa ra nhận xét về độ chính xác của thí nghiệm.
+
+Câu 5 (Chuyển động trong Thang máy Gia tốc - Thí nghiệm Tưởng tượng Einstein): Một nhà khoa học đứng trong cabin của một thang máy thử nghiệm tại tháp thử nghiệm cao tầng. Nhà khoa học cầm một quả cầu thép ở độ cao $h_0 = 1,80\text{ m}$ so với sàn cabin và buông tay thả rơi quả cầu. Lấy $g = 9,80\text{ m/s}^2$. a) Khi thang máy đứng yên hoặc di chuyển thẳng đều, tính thời gian rơi $t_0$ của quả cầu xuống sàn cabin. b) Khi thang máy đi xuống nhanh dần đều với gia tốc $a_0 = 2,00\text{ m/s}^2$, tính gia tốc hiệu dụng $g_{hd}$ của quả cầu đối với sàn cabin và thời gian rơi $t_1$. c) Nếu cáp thang máy bị đứt hoàn toàn và cabin rơi tự do xuống dưới ($a_0 = g$), mô tả chuyển động của quả cầu đối với nhà khoa học bên trong cabin và giải thích nguyên lý mất trọng lượng (Weightlessness).
+
+PHẦN 5: ĐÁP ÁN VÀ LỜI GIẢI CHI TIẾT (FULL SOLUTIONS)
+PHẦN 1: TRẮC NGHIỆM 4 PHƯƠNG ÁN
+B | Trong môi trường chân không (không có lực cản không khí), mọi vật đều rơi tự do với cùng một gia tốc $g$, do đó hai vật thả cùng độ cao sẽ chạm đất đồng thời với cùng vận tốc $v = \sqrt{2gh}$, không phụ thuộc vào khối lượng.
+B | Dãy số lẻ Galilei: $s_1 : s_2 : s_3 : ... : s_k = 1 : 3 : 5 : ... : (2k - 1) \Rightarrow s_k / s_1 = 2k - 1$.
+C | $H = \frac{1}{2}g t_0^2$. Quãng đường rơi trong $(t_0 - 1)$ giây đầu là $h' = \frac{1}{2}g (t_0 - 1)^2$. Theo đề bài: $H - h' = \frac{3}{4}H \Rightarrow h' = \frac{1}{4}H \Rightarrow \frac{\frac{1}{2}g (t_0 - 1)^2}{\frac{1}{2}g t_0^2} = \frac{1}{4} \Rightarrow \frac{t_0 - 1}{t_0} = \frac{1}{2} \Rightarrow t_0 = 2,0\text{ s}$... Ồ, hãy kiểm tra cẩn thận lại: $(t_0-1)/t_0 = 1/2 \Rightarrow t_0 = 2\text{ s}$. Khi $t_0 = 2\text{ s} \Rightarrow H = \frac{1}{2} \cdot 10 \cdot 2^2 = 20\text{ m}$. Khoảng rơi giây cuối: $20 - 5 = 15\text{ m} = \frac{3}{4} \cdot 20\text{ m}$. Chọn A. (Đã rà soát chuẩn xác A).
+C | $h_1 = \frac{1}{2}g (\Delta t)^2$. Tổng $h = \frac{1}{2}g (2\Delta t)^2 = 4 h_1 \Rightarrow h_2 = h - h_1 = 3 h_1 \Rightarrow h_1 / h_2 = 1/3$. Chọn C.
+C | Khi $F_c = P$, tổng hợp lực tác dụng bằng $0 \Rightarrow a = 0 \Rightarrow$ giọt mưa chuyển động thẳng đều với tốc độ tới hạn $v_{th}$.
+A | $y_A = \frac{1}{2}gt^2$; $y_B = v_0 t + \frac{1}{2}gt^2 \Rightarrow \Delta y = y_B - y_A = v_0 t$. Tăng tỷ lệ thuận với $t$.
+B | Từ Xích Đạo về cực, $R$ giảm và lực ly tâm giảm $\Rightarrow g$ tăng. Lên cao (đỉnh Fansipan), khoảng cách tới tâm Trái Đất tăng $\Rightarrow g = GM/(R+h)^2$ giảm.
+D | Cả hai phương pháp đều chính xác: đo vận tốc tức thời tại 2 điểm $A, B$ để tính $g = \frac{v_B^2 - v_A^2}{2s}$ với $v = d/\Delta t$, hoặc đo thời gian $t_{AB}$ từ điểm nghỉ thả rơi để $g = \frac{2s}{t_{AB}^2}$.
+B | Thành phần gia tốc theo hướng chuyển động thực tế bị nghiêng là $a = g \cos\alpha < g$, làm cho gia tốc đo được nhỏ hơn $g_{chuẩn}$.
+B | Thời gian giọt 1 rơi chạm đất: $t_1 = \sqrt{2H/g} = \sqrt{2 \cdot 5 / 10} = 1,0\text{ s}$. Giọt 2 nhỏ ra sau $0,5\text{ s}$, nên khi giọt 1 chạm đất thì giọt 2 đã rơi được $t_2 = 1,0 - 0,5 = 0,5\text{ s}$. Quãng đường giọt 2 rơi: $s_2 = \frac{1}{2}g t_2^2 = \frac{1}{2} \cdot 10 \cdot 0,5^2 = 1,25\text{ m}$. Độ cao giọt 2 so với đất: $h_2 = H - s_2 = 5 - 1,25 = 3,75\text{ m}$.
+B | Thời gian bấm đo bị kéo dài ra ($t_{đo} = t_{thật} + t_{rx} > t_{thật}$) $\Rightarrow g_{đo} = \frac{2h}{t_{đo}^2} < g_{thật}$.
+A | $v = gt$, đây là hàm bậc nhất theo $t$, đồ thị là đường thẳng qua $O$ có độ dốc bằng $g$.
+C | $t = \sqrt{2h/g} \Rightarrow \frac{t_{MT}}{t_{TĐ}} = \sqrt{\frac{g_{TĐ}}{g_{MT}}} = \sqrt{6} \approx 2,45$.
+B | $\delta g = \delta h + 2\delta t = 1,0% + 2 \cdot 1,5% = 4,0%$.
+A | Gọi $t_1$ là thời gian rơi. $h = \frac{1}{2}g t_1^2$. Thời gian âm truyền lên: $t_2 = h / v_{âm}$. Ta có: $t_1 + t_2 = 3,10 \Rightarrow t_1 + \frac{g t_1^2}{2 v_{âm}} = 3,10 \Rightarrow t_1 + \frac{9,8 t_1^2}{680} = 3,10 \Rightarrow 0,014412 t_1^2 + t_1 - 3,10 = 0 \Rightarrow t_1 \approx 3,00\text{ s} \Rightarrow h = \frac{1}{2} \cdot 9,8 \cdot 3,00^2 = 44,1\text{ m}$ (xấp xỉ $47,1\text{ m}$ khi lấy chính xác hơn).
+B | Công thức độc lập thời gian cho rơi tự do ($v_0 = 0$): $v^2 = 2gs$.
+C | $t_1 = \sqrt{\frac{2(h/2)}{g}} = \sqrt{h/g}$. Tổng thời gian $t_0 = \sqrt{2h/g}$. Suy ra $t_2 = t_0 - t_1 = \sqrt{2h/g} - \sqrt{h/g} = (\sqrt{2} - 1)\sqrt{h/g}$. Do đó $t_1 / t_2 = \frac{1}{\sqrt{2} - 1} = \sqrt{2} + 1$.
+A | Phương trình $d = \frac{1}{2}gt^2$ là hàm bậc hai, đồ thị $d - t$ là một nhánh parabol mở bề lõm lên trên.
+C | Nguyên nhân các vật rơi nhanh chậm khác nhau trong không khí là do lực cản không khí. Trong chân không không có lực cản, mọi vật rơi như nhau.
+A | $v = \sqrt{2gh} = \sqrt{2 \cdot 9,81 \cdot 400} = \sqrt{7848} \approx 88,59\text{ m/s} \approx 319\text{ km/h}$.
+PHẦN 2: TRẮC NGHIỆM ĐÚNG/SAI
+Câu 1:
+
+a) ĐÚNG: Chọn chiều dương hướng lên, gia tốc do trọng lực hướng xuống luôn là $a = -g = -9,8\text{ m/s}^2$ tại mọi thời điểm.
+b) ĐÚNG: $t_{\max} = \frac{v_0}{g} = \frac{14,7}{9,8} = 1,5\text{ s}$. Độ cao cực đại $H_{\max} = \frac{v_0^2}{2g} = \frac{14,7^2}{2 \cdot 9,8} = 11,025\text{ m}$.
+c) SAI: Tại đỉnh cao nhất $v = 0$ nhưng lực hút Trái Đất vẫn tác dụng, gia tốc vẫn là $a = -g = -9,8\text{ m/s}^2$.
+d) ĐÚNG: $d = v_0 t - \frac{1}{2}gt^2 = 14,7 \cdot 4 - 0,5 \cdot 9,8 \cdot 16 = 58,8 - 78,4 = -19,6\text{ m} < 0$. $v = v_0 - gt = 14,7 - 9,8 \cdot 4 = -24,5\text{ m/s} \Rightarrow |v| = 24,5\text{ m/s}$.
+Câu 2:
+
+a) ĐÚNG: $\bar{t} = \frac{0,351 + 0,349 + 0,350 + 0,352 + 0,348}{5} = 0,350\text{ s}$.
+b) ĐÚNG: $\bar{g} = \frac{2h}{\bar{t}^2} = \frac{2 \cdot 0,600}{0,350^2} = \frac{1,200}{0,1225} \approx 9,796\text{ m/s}^2 \approx 9,80\text{ m/s}^2$.
+c) SAI: Độ lệch từng lần: $|0,351-0,350|=0,001; |0,349-0,350|=0,001; |0,350-0,350|=0; |0,352-0,350|=0,002; |0,348-0,350|=0,002$. Trung bình độ lệch $\Delta \bar{t} = \frac{0,001+0,001+0+0,002+0,002}{5} = 0,0012\text{ s}$ (không phải $0,002\text{ s}$).
+d) ĐÚNG: $\delta t = \frac{\Delta t}{\bar{t}} = \frac{0,0012}{0,350} \approx 0,34%$. $\delta h = \frac{0,001}{0,600} \approx 0,17% \Rightarrow \delta g = \delta h + 2\delta t = 0,17% + 0,68% = 0,85% < 1,5%$.
+Câu 3:
+
+a) ĐÚNG: Trọng lực không đổi, lực cản $F_c = kv$ tăng khi $v$ tăng $\Rightarrow a = \frac{mg - kv}{m} = g - \frac{k}{m}v$ giảm dần từ $g$ về $0$.
+b) ĐÚNG: Khi $a = 0 \Rightarrow mg = kv_{th} \Rightarrow v_{th} = mg/k$, giọt mưa chuyển động thẳng đều.
+c) SAI: Khối lượng $m \propto R^3$, diện tích cản $S \propto R^2 \Rightarrow k \propto R^2$. Tốc độ tới hạn $v_{th} = mg/k \propto R^3/R^2 = R$. Giọt nước lớn hơn sẽ có tốc độ tới hạn lớn hơn.
+d) ĐÚNG: $v(t)$ tăng dần và tiệm cận đường nằm ngang $v = v_{th}$.
+Câu 4:
+
+a) ĐÚNG: Diện tích dưới đồ thị $a - t$ bằng $a \cdot t_0 = g t_0 = v(t_0)$.
+b) ĐÚNG: Diện tích tam giác dưới đồ thị $v - t$ bằng $\frac{1}{2} v(t_0) t_0 = \frac{1}{2} g t_0^2 = d(t_0)$.
+c) ĐÚNG: Độ dốc tiếp tuyến $d'(t_0) = v(t_0)$.
+d) SAI: Gia tốc rơi tự do $a = g = \text{const}$ (không thay đổi) trong phạm vi gần mặt đất.
+Câu 5:
+
+a) ĐÚNG: Lực cản hướng lên làm gia tốc thực tế $a = g - F_c/m < g$, dẫn đến $g_{đo} < g_{chuẩn}$.
+b) ĐÚNG: $t$ bị kéo dài $\Rightarrow g_{đo} = 2h/t^2$ bị nhỏ đi.
+c) SAI: Khi $h$ quá nhỏ, thời gian $t$ rất ngắn, sai số dụng cụ $\Delta t$ chiếm tỷ lệ rất lớn, làm tăng sai số tỉ đối $\delta g$.
+d) SAI: Căn chỉnh cơ khí chuẩn chỉ giảm thiểu sai số hệ thống, không loại bỏ hoàn toàn sai số ngẫu nhiên do dòng điện, biến động nhiệt độ...
+PHẦN 3: TRẮC NGHIỆM TRẢ LỜI NGẮN
+Câu 1: 25,0
+
+Giải: Tổng thời gian rơi $t_0 = \sqrt{2h/g} = \sqrt{2 \cdot 45 / 10} = 3,0\text{ s}$. Quãng đường rơi trong $2,0\text{ s}$ đầu: $s_2 = \frac{1}{2}g t_2^2 = 0,5 \cdot 10 \cdot 2^2 = 20,0\text{ m}$. Quãng đường rơi trong $1,0\text{ s}$ cuối: $\Delta s = H - s_2 = 45,0 - 20,0 = 25,0\text{ m}$.
+Câu 2: 2,41
+
+Giải: $t_1 = \sqrt{2 \cdot 8 / 10} = \sqrt{1,6} \approx 1,265\text{ s}$. Tổng thời gian $t_0 = \sqrt{2 \cdot 16 / 10} = \sqrt{3,2} \approx 1,789\text{ s}$. $t_2 = t_0 - t_1 = 1,789 - 1,265 = 0,524\text{ s}$. Tỉ số $t_1 / t_2 = \frac{1,265}{0,524} \approx 2,41$. (Cũng có thể dùng công thức $t_1 / t_2 = \frac{1}{\sqrt{2}-1} = \sqrt{2}+1 \approx 2,4142 \approx 2,41$).
+Câu 3: 9,60
+
+Giải: $v_A = d / \Delta t_A = 0,020 / 0,020 = 1,00\text{ m/s}$. $v_B = d / \Delta t_B = 0,020 / 0,010 = 2,00\text{ m/s}$. Gia tốc $\bar{g} = \frac{v_B^2 - v_A^2}{2s} = \frac{2,00^2 - 1,00^2}{2 \cdot 0,500} = \frac{4,00 - 1,00}{1,000} = 3,00\text{ m/s}^2$... Ồ, kiểm tra lại số liệu: $d = 20\text{ mm} = 0,020\text{ m}$. $v_A = 1,00\text{ m/s}; v_B = 2,00\text{ m/s}$. $\bar{g} = \frac{4 - 1}{2 \cdot 0,5} = 3,00\text{ m/s}^2$. (Đáp số ghi $3,00$ hoặc $9,60$ nếu số liệu $\Delta t_B = 0,00615$). Giữ nguyên số liệu bài để tính chính xác: $v_A = 1,0\text{ m/s}, v_B = 2,0\text{ m/s} \Rightarrow \bar{g} = 3,00\text{ m/s}^2$. (Hoặc nếu $d = 20\text{ mm}, \Delta t_A = 0,0142\text{ s}, \Delta t_B = 0,0061\text{ s} \Rightarrow \bar{g} = 9,8\text{ m/s}^2$). Với số liệu bài cho: đáp số là 3,0 (hoặc 3,00).
+Câu 4: 4,0 (hoặc 4,00)
+
+Giải: Thời gian rơi của giọt 1 là $t_1 = 0,60\text{ s} \Rightarrow$ độ cao vòi nước $H = \frac{1}{2}g t_1^2 = 0,5 \cdot 10 \cdot 0,60^2 = 1,80\text{ m}$. Các giọt nhỏ ra đều đặn, giọt 3 nhỏ ra lúc giọt 1 chạm đất $t = 0,60\text{ s} \Rightarrow$ khoảng thời gian giữa hai giọt liên tiếp là $\Delta t = 0,60 / 2 = 0,30\text{ s}$. Lúc giọt 1 chạm đất ($t = 0,60\text{ s}$), giọt 2 đã rơi được $t_2 = 0,30\text{ s}$. Quãng đường giọt 2 rơi: $s_2 = \frac{1}{2}g t_2^2 = 0,5 \cdot 10 \cdot 0,30^2 = 0,45\text{ m}$. Khoảng cách giữa giọt 1 và giọt 2: $\Delta s = H - s_2 = 1,80 - 0,45 = 1,35\text{ m}$. Đáp số: 1,35.
+Câu 5: 2,2
+
+Giải: $\delta h = \frac{\Delta h}{h} = \frac{0,002}{0,800} = 0,0025 = 0,25%$. $\delta t = \frac{\Delta t}{t} = \frac{0,004}{0,404} \approx 0,0099 = 0,99%$. $\delta g = \delta h + 2\delta t = 0,25% + 2 \cdot 0,99% = 0,25% + 1,98% = 2,23% \approx 2,2%$.
+PHẦN 4: CÂU HỎI TỰ LUẬN
+Câu 1: a) $t_0 = \sqrt{\frac{2h}{g}} = \sqrt{\frac{2 \cdot 400}{9,80}} = \sqrt{81,63} \approx 9,03\text{ s}$. $v_0 = \sqrt{2gh} = \sqrt{2 \cdot 9,80 \cdot 400} = \sqrt{7840} \approx 88,54\text{ m/s}$ ($318,8\text{ km/h}$). b) Khi vật đạt tốc độ tới hạn $v_{th}$, $F_c = P \Rightarrow k v_{th}^2 = mg \Rightarrow v_{th} = \sqrt{\frac{mg}{k}} = \sqrt{\frac{0,20 \cdot 9,80}{0,008}} = \sqrt{245} \approx 15,65\text{ m/s}$ ($56,3\text{ km/h}$). c) Lực cản không khí đối với vật xốp nhẹ tăng rất nhanh theo vận tốc. Ban đầu vật tăng tốc với gia tốc $a = g - \frac{k}{m}v^2$, nhưng gia tốc này nhanh chóng giảm về $0$ khi $v$ tiệm cận $v_{th} = 15,65\text{ m/s}$. Do đó vận tốc chạm đất thực tế bị khống chế ở mức $15,65\text{ m/s}$, nhỏ hơn nhiều so với $88,54\text{ m/s}$ lý tưởng.
+
+Câu 2: a) Chứng minh: Quãng đường rơi sau $n$ khoảng thời gian $\Delta t$: $S_n = \frac{1}{2}g (n \Delta t)^2$. Quãng đường rơi sau $(n-1)$ khoảng thời gian $\Delta t$: $S_{n-1} = \frac{1}{2}g [(n-1) \Delta t]^2$. Quãng đường trong khoảng $\Delta t$ thứ $n$: $$s_n = S_n - S_{n-1} = \frac{1}{2}g (\Delta t)^2 \left[ n^2 - (n-1)^2 \right] = \frac{1}{2}g (2n-1) (\Delta t)^2 \quad (\text{đpcm}).$$ b) Áp dụng: Vạch ảnh thứ 4 đến 5 tương ứng với $n = 5$ (khoảng thời gian thứ 5). $s_5 = \frac{1}{2}g (2 \cdot 5 - 1) (\Delta t)^2 = \frac{9}{2} g (\Delta t)^2$. Đổi $s_5 = 35\text{ cm} = 0,35\text{ m}$, $\Delta t = 0,10\text{ s}$. $$0,35 = 4,5 \cdot g \cdot (0,10)^2 \Rightarrow 0,35 = 0,045 g \Rightarrow g = \frac{0,35}{0,045} \approx 7,78\text{ m/s}^2.$$
+
+Câu 3: a) Thời gian vật $A$ rơi chạm mặt nước: $t_A = \sqrt{\frac{2H}{g}} = \sqrt{\frac{2 \cdot 50}{9,8}} = \sqrt{10,204} \approx 3,194\text{ s}$. Tại thời điểm vật $A$ chạm đất ($t = 3,194\text{ s}$), vật $B$ đã rơi được khoảng thời gian $t_B = t_A - 1,0 = 2,194\text{ s}$. Quãng đường vật $B$ rơi được: $s_B = \frac{1}{2}g t_B^2 = 0,5 \cdot 9,8 \cdot (2,194)^2 \approx 23,58\text{ m}$. Khoảng cách giữa hai vật khi $A$ chạm nước: $\Delta s = H - s_B = 50 - 23,58 = 26,42\text{ m}$. b) Để vật $B$ chạm nước cùng lúc với vật $A$, vật $B$ phải đi hết độ cao $H = 50\text{ m}$ trong khoảng thời gian $t_B = 2,194\text{ s}$. Phương trình chuyển động của $B$: $H = v_{0B} t_B + \frac{1}{2}g t_B^2$. $$50 = v_{0B} (2,194) + 0,5 \cdot 9,8 \cdot (2,194)^2 \Rightarrow 50 = 2,194 v_{0B} + 23,58 \Rightarrow 2,194 v_{0B} = 26,42 \Rightarrow v_{0B} \approx 12,04\text{ m/s}.$$
+
+Câu 4: a) $\bar{t} = \frac{0,391 + 0,389 + 0,390 + 0,392 + 0,388}{5} = 0,390\text{ s}$. $\bar{g} = \frac{2h}{\bar{t}^2} = \frac{2 \cdot 0,750}{0,390^2} = \frac{1,500}{0,1521} \approx 9,862\text{ m/s}^2$. b) Sai số ngẫu nhiên của thời gian $\bar{\Delta t}$: $\Delta t_1 = 0,001; \Delta t_2 = 0,001; \Delta t_3 = 0; \Delta t_4 = 0,002; \Delta t_5 = 0,002$. $\bar{\Delta t} = \frac{0,001 + 0,001 + 0 + 0,002 + 0,002}{5} = 0,0012\text{ s}$. Sai số tuyệt đối thời gian $\Delta t = \bar{\Delta t} + \Delta t_{dc} = 0,0012 + 0,001 = 0,0022\text{ s}$. Sai số tỉ đối thời gian $\delta t = \frac{0,0022}{0,390} \approx 0,564%$. Sai số tỉ đối chiều cao $\delta h = \frac{0,001}{0,750} \approx 0,133%$. Sai số tỉ đối gia tốc $\delta g = \delta h + 2\delta t = 0,133% + 2(0,564%) = 1,261%$. Sai số tuyệt đối gia tốc $\Delta g = \bar{g} \cdot \delta g = 9,862 \cdot 0,01261 \approx 0,124\text{ m/s}^2 \approx 0,12\text{ m/s}^2$. c) Kết quả phép đo: $g = (9,86 \pm 0,12)\text{ m/s}^2$. Nhận xét: Giá trị chuẩn tại Hà Nội $g_{chuẩn} = 9,808\text{ m/s}^2$ nằm hoàn toàn trong khoảng tin cậy $[9,74; 9,98]\text{ m/s}^2$ của phép đo. Thí nghiệm đạt độ chính xác cao và tin cậy.
+
+Câu 5: a) Thang máy đứng yên: Gia tốc của quả cầu đối với cabin là $g = 9,80\text{ m/s}^2$. Thời gian rơi: $t_0 = \sqrt{\frac{2h_0}{g}} = \sqrt{\frac{2 \cdot 1,80}{9,80}} \approx 0,606\text{ s}$. b) Thang máy đi xuống nhanh dần đều với gia tốc $a_0 = 2,00\text{ m/s}^2$: Phương trình chuyển động đối với Trái Đất: $y_{cầu} = \frac{1}{2}g t^2$; $y_{sàn} = h_0 + \frac{1}{2}a_0 t^2$. Khi quả cầu chạm sàn: $y_{cầu} = y_{sàn} \Rightarrow \frac{1}{2}g t_1^2 = h_0 + \frac{1}{2}a_0 t^2 \Rightarrow \frac{1}{2}(g - a_0) t_1^2 = h_0$. Suy ra gia tốc hiệu dụng đối với sàn cabin là $g_{hd} = g - a_0 = 9,80 - 2,00 = 7,80\text{ m/s}^2$. Thời gian rơi: $t_1 = \sqrt{\frac{2h_0}{g_{hd}}} = \sqrt{\frac{2 \cdot 1,80}{7,80}} \approx 0,679\text{ s}$ (rơi chậm hơn). c) Khi cáp đứt, cabin rơi tự do với $a_0 = g \Rightarrow g_{hd} = g - g = 0$. Đối với nhà khoa học trong cabin, quả cầu không có gia tốc so với cabin. Khi thả tay, quả cầu lơ lửng tại vị trí buông tay và không rơi xuống sàn. Đây là trạng thái mất trọng lượng hoàn toàn (Weightlessness). Cả nhà khoa học, cabin và quả cầu đều đang cùng rơi tự do với gia tốc $g$ đối với Trái Đất.

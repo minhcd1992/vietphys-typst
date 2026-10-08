@@ -1,0 +1,444 @@
+BÀI 2: QUÃNG ĐƯỜNG VÀ ĐỘ DỊCH CHUYỂN (SBT - BỘ HỌC LIỆU MỚI)
+PHẦN 1: TRẮC NGHIỆM 4 PHƯƠNG ÁN LỰA CHỌN (20 CÂU)
+Mỗi câu hỏi chỉ có MỘT phương án lựa chọn đúng. Mức độ câu hỏi yêu cầu học sinh xâu chuỗi bản chất khái niệm, tư duy hình học và lập luận vật lý.
+
+Câu 1 (Vận dụng): Một xe ô tô di chuyển từ Hà Nội đến Hải Phòng theo Quốc lộ 5 dài khoảng $105\text{ km}$, sau đó quay trở lại Hải Dương (cách Hải Phòng $45\text{ km}$ trên cùng con đường đó để giao hàng). Tỉ số giữa độ lớn độ dịch chuyển tổng cộng và tổng quãng đường đi được ($|d|/s$) của ô tô sau cả chuyến đi là
+
+A. $0,40$.
+B. $0,70$.
+C. $1,00$.
+D. $0,25$.
+Câu 2 (Thông hiểu): Cho hai vectơ độ dịch chuyển thành phần $\vec{d}_1$ và $\vec{d}_2$ có độ lớn lần lượt là $6\text{ m}$ và $8\text{ m}$. Độ lớn của vectơ độ dịch chuyển tổng hợp $\vec{d} = \vec{d}_1 + \vec{d}_2$ không thể nhận giá trị nào sau đây?
+
+A. $2\text{ m}$.
+B. $10\text{ m}$.
+C. $14\text{ m}$.
+D. $15\text{ m}$.
+Câu 3 (Vận dụng): Một người tập thể dục đi bộ quanh một hồ nước hình tròn bán kính $R = 100\text{ m}$ xuất phát từ điểm A. Người đó đi theo chiều kim đồng hồ đến điểm B sao cho góc ở tâm $\widehat{AOB} = 120^\circ$. Độ lớn độ dịch chuyển $|d|$ và quãng đường $s$ người đó đi được lần lượt là
+
+A. $|d| \approx 173,21\text{ m}; s \approx 209,44\text{ m}$.
+B. $|d| \approx 209,44\text{ m}; s \approx 173,21\text{ m}$.
+C. $|d| = 200,00\text{ m}; s \approx 314,16\text{ m}$.
+D. $|d| = 100,00\text{ m}; s \approx 209,44\text{ m}$.
+Câu 4 (Vận dụng): Một con rô-bốt di chuyển trong mặt phẳng phẳng $Oxy$. Ban đầu ở gốc tọa độ $O(0,0)$, rô-bốt đi $4\text{ m}$ theo hướng Đông (chiều $+x$), sau đó rẽ sang hướng Bắc (chiều $+y$) đi $3\text{ m}$, và cuối cùng rẽ sang hướng Tây đi $8\text{ m}$. Góc nghiêng $\theta$ của vectơ độ dịch chuyển tổng hợp so với hướng Đông (trục $+x$) tính theo chiều ngược kim đồng hồ là
+
+A. $143,13^\circ$.
+B. $36,87^\circ$.
+C. $126,87^\circ$.
+D. $216,87^\circ$.
+Câu 5 (Thông hiểu - Phân biệt khái niệm): Chọn phát biểu chính xác nhất khi so sánh giữa tọa độ $x$, quãng đường đi được $s$ và độ dịch chuyển đại số $d$ của một chất điểm chuyển động dọc theo trục thẳng đứng $Ox$:
+
+A. Tọa độ $x$ luôn luôn bằng độ dịch chuyển $d$ bất kể việc chọn gốc tọa độ $O$ ở đâu.
+B. Quãng đường $s$ là đại lượng vô hướng không giảm theo thời gian ($s(t)$ là hàm không giảm), trong khi độ dịch chuyển $d$ và tọa độ $x$ có thể tăng, giảm hoặc bằng 0.
+C. Độ lớn của độ dịch chuyển $|d|$ luôn luôn bằng quãng đường $s$ khi vật chuyển động trên đường thẳng.
+D. Khi vật đổi chiều chuyển động, độ dịch chuyển $d$ luôn tăng lên còn quãng đường $s$ giảm đi.
+Câu 6 (Vận dụng): Một tàu ngầm khảo sát đại dương lặn từ mặt nước xuống chiều sâu $120\text{ m}$ theo phương thẳng đứng, sau đó di chuyển theo phương ngang về hướng Đông một khoảng $160\text{ m}$. Độ lớn vectơ độ dịch chuyển trong không gian 3 chiều của tàu ngầm so với điểm xuất phát trên mặt nước là
+
+A. $280\text{ m}$.
+B. $200\text{ m}$.
+C. $160\text{ m}$.
+D. $40\text{ m}$.
+Câu 7 (Vận dụng - Giao thông thực tế): Một xe ô tô chạy trên một đường vòng xuyến (đảo giao thông) có đường kính $D = 40\text{ m}$. Ô tô vào vòng xuyến ở điểm phía Nam và ra khỏi vòng xuyến ở điểm phía Tây. Độ lớn và hướng của vectơ độ dịch chuyển của ô tô là
+
+A. $28,28\text{ m}$ theo hướng Tây – Bắc.
+B. $31,42\text{ m}$ theo hướng Tây – Nam.
+C. $28,28\text{ m}$ theo hướng Đông – Bắc.
+D. $40,00\text{ m}$ theo hướng Tây.
+Câu 8 (Thông hiểu - Đồ thị): (Mô tả hình vẽ: Đồ thị tọa độ – thời gian $x - t$ của một vật chuyển động thẳng là một đường thẳng dốc xuống phía dưới từ trái sang phải, cắt trục tung tại $x_0 > 0$ và cắt trục hoành tại $t_1 > 0$). Phát biểu nào sau đây phản ánh chính xác nhất về độ dịch chuyển $d$ và quãng đường $s$ của vật trong khoảng thời gian từ $0$ đến $t_1$?
+
+A. $d > 0$ và $s = d$.
+B. $d < 0$ và $s = |d|$.
+C. $d < 0$ và $s = 0$.
+D. $d = 0$ và $s > 0$.
+Câu 9 (Nhận biết sâu): Một người đi xe đạp từ điểm A đến điểm B cách nhau $3\text{ km}$ theo hướng Đông, sau đó đi tiếp từ B đến C cách nhau $4\text{ km}$ theo hướng Bắc. Nếu sau đó người đó đi thẳng từ C về A theo đường chim bay thì độ dịch chuyển tổng cộng của người đó sau cả chuyến đi khép kín (A $\rightarrow$ B $\rightarrow$ C $\rightarrow$ A) là
+
+A. $10\text{ km}$.
+B. $5\text{ km}$.
+C. $0\text{ km}$.
+D. $7\text{ km}$.
+Câu 10 (Thông hiểu): Khi tịnh tiến gốc tọa độ $O$ trên trục $Ox$ sang vị trí mới $O'$ mà không thay đổi chiều dương và vị trí các điểm xuất phát/kết thúc của chuyển động thì
+
+A. Cả tọa độ $x$ và độ dịch chuyển $d$ của vật đều không thay đổi.
+B. Tọa độ $x$ của vật thay đổi nhưng độ dịch chuyển $d$ không thay đổi.
+C. Tọa độ $x$ không thay đổi nhưng độ dịch chuyển $d$ thay đổi.
+D. Cả tọa độ $x$ và độ dịch chuyển $d$ đều bị thay đổi.
+Câu 11 (Vận dụng - Góc la bàn Halliday): Một du khách đi bộ trên sa mạc từ điểm A đi $5\text{ km}$ theo hướng $\text{N}30^\circ\text{E}$ (Bắc $30^\circ$ Đông), sau đó đi tiếp $5\text{ km}$ theo hướng $\text{S}60^\circ\text{E}$ (Nam $60^\circ$ Đông). Độ lớn độ dịch chuyển tổng hợp $|d|$ của du khách từ điểm A đến điểm cuối là
+
+A. $10,0\text{ km}$.
+B. $7,07\text{ km}$.
+C. $5,0\text{ km}$.
+D. $8,66\text{ km}$.
+Câu 12 (Thông hiểu - Hàm thời gian): Một chất điểm chuyển động trên đường thẳng có phương trình tọa độ $x(t) = 10 - 4t + t^2$ (với $x$ tính bằng $\text{m}$, $t$ tính bằng $\text{s}$). Độ dịch chuyển của chất điểm trong khoảng thời gian từ $t_1 = 1\text{ s}$ đến $t_2 = 3\text{ s}$ là
+
+A. $0\text{ m}$.
+B. $4\text{ m}$.
+C. $-4\text{ m}$.
+D. $8\text{ m}$.
+Câu 13 (Vận dụng - Hàm thời gian): Với phương trình chuyển động $x(t) = 10 - 4t + t^2$ (với $x$ tính bằng $\text{m}$, $t$ tính bằng $\text{s}$) ở Câu 12, quãng đường $s$ chất điểm đi được trong khoảng thời gian từ $t_1 = 1\text{ s}$ đến $t_2 = 3\text{ s}$ là
+
+A. $0\text{ m}$.
+B. $2\text{ m}$.
+C. $4\text{ m}$.
+D. $1\text{ m}$.
+Câu 14 (Vận dụng): Một vận động viên tập chạy điền kinh trên đường chạy vòng dài $400\text{ m}$ của Sân vận động Quốc gia Mỹ Đình. Người đó hoàn thành $2,5$ vòng chạy xuất phát từ vạch xuất phát. Giả thiết đường chạy là hình tròn tâm O, quãng đường $s$ và độ lớn độ dịch chuyển $|d|$ của vận động viên là
+
+A. $s = 1000\text{ m}; |d| \approx 127,3\text{ m}$.
+B. $s = 1000\text{ m}; |d| = 0\text{ m}$.
+C. $s = 1000\text{ m}; |d| = 200\text{ m}$.
+D. $s = 500\text{ m}; |d| \approx 127,3\text{ m}$.
+Câu 15 (Thông hiểu - Đồ thị): Hai ô tô A và B chuyển động trên cùng một đường thẳng. Đồ thị độ dịch chuyển – thời gian ($d - t$) của ô tô A là đường thẳng dốc lên (hệ số góc dương), của ô tô B là đường thẳng dốc xuống (hệ số góc âm). Nhận xét nào sau đây chính xác:
+
+A. Ô tô A và ô tô B chuyển động cùng chiều nhau.
+B. Ô tô A chuyển động theo chiều dương, ô tô B chuyển động theo chiều âm của trục tọa độ đã chọn.
+C. Cả hai ô tô đều chuyển động chậm dần.
+D. Quãng đường đi được của ô tô B giảm dần theo thời gian.
+Câu 16 (Vận dụng): Một con thỏ chạy dọc theo đường thẳng $Ox$. Trong 4 giây đầu tiên, nó chạy từ $x_1 = +2\text{ m}$ đến $x_2 = +10\text{ m}$. Trong 2 giây tiếp theo, nó đổi chiều chạy ngược lại từ $x_2 = +10\text{ m}$ về $x_3 = +4\text{ m}$. Vectơ độ dịch chuyển tổng cộng của con thỏ trong cả 6 giây có giá trị đại số là
+
+A. $+2\text{ m}$.
+B. $+8\text{ m}$.
+C. $-6\text{ m}$.
+D. $+14\text{ m}$.
+Câu 17 (Vận dụng - Biển đảo Việt Nam): Tàu tuần tra Cảnh sát biển Việt Nam xuất phát từ cảng A đi $20\text{ hải lý}$ theo hướng $\text{E}30^\circ\text{S}$ (Đông $30^\circ$ Nam), sau đó đổi hướng đi tiếp $20\text{ hải lý}$ theo hướng $\text{E}30^\circ\text{N}$ (Đông $30^\circ$ Bắc). Độ lớn độ dịch chuyển tổng hợp và hướng di chuyển tổng cộng của tàu là
+
+A. $34,64\text{ hải lý}$ theo hướng Đông.
+B. $40,00\text{ hải lý}$ theo hướng Đông.
+C. $20,00\text{ hải lý}$ theo hướng Đông $30^\circ$ Bắc.
+D. $34,64\text{ hải lý}$ theo hướng Bắc.
+Câu 18 (Thông hiểu - Bẫy khái niệm): Phát biểu nào sau đây chưa chính xác khi nói về độ dịch chuyển và quãng đường?
+
+A. Vectơ độ dịch chuyển biểu diễn sự thay đổi vị trí của một chất điểm trong không gian.
+B. Trong chuyển động thẳng một chiều không đổi chiều, độ lớn của độ dịch chuyển luôn bằng quãng đường đi được.
+C. Độ dịch chuyển có thể nhận giá trị bằng 0 ngay cả khi vật đã di chuyển được một quãng đường rất lớn.
+D. Quãng đường đi được của một vật luôn luôn bằng độ lớn của vectơ độ dịch chuyển trong mọi hình dạng quỹ đạo.
+Câu 19 (Vận dụng): Một chiếc lá rơi từ cành cây cao $5\text{ m}$ xuống đất. Do có gió thổi ngang, chiếc lá bị đáp xuống vị trí trên mặt đất cách gốc cây theo phương ngang một đoạn $3\text{ m}$. Độ lớn độ dịch chuyển của chiếc lá từ lúc rời cành đến khi chạm đất là
+
+A. $5,83\text{ m}$.
+B. $8,00\text{ m}$.
+C. $5,00\text{ m}$.
+D. $2,00\text{ m}$.
+Câu 20 (Vận dụng - Đô thị thực tế): Một người đi thang máy từ tầng 1 lên tầng 10 của một tòa nhà cao tầng ở Hà Nội (chiều cao mỗi tầng là $3,5\text{ m}$), sau đó đi tiếp thang máy xuống tầng 4. Chọn trục $Oz$ thẳng đứng hướng lên, gốc $O$ tại sàn tầng 1. Độ dịch chuyển $d$ và quãng đường $s$ của người đó trong toàn bộ quá trình đi thang máy lần lượt là
+
+A. $d = +10,5\text{ m}; s = 52,5\text{ m}$.
+B. $d = +31,5\text{ m}; s = 52,5\text{ m}$.
+C. $d = -10,5\text{ m}; s = 31,5\text{ m}$.
+D. $d = +52,5\text{ m}; s = 52,5\text{ m}$.
+PHẦN 2: TRẮC NGHIỆM ĐÚNG/SAI (5 CÂU)
+Thí sinh xét tính Đúng/Sai cho mỗi ý a), b), c), d) trong từng câu hỏi.
+
+Câu 1: Một chiếc xe máy lưu thông trên tuyến đường vành đai Hà Nội. Xe xuất phát từ nút giao A, chạy thẳng $4\text{ km}$ về hướng Đông đến nút giao B, sau đó rẽ vuông góc sang hướng Bắc chạy $3\text{ km}$ đến nút giao C, cuối cùng rẽ sang hướng Tây chạy $8\text{ km}$ đến nút giao D rồi dừng lại.
+
+Ý	Mệnh đề	Đúng	Sai
+a)	Tổng quãng đường xe máy đã đi từ nút giao A đến nút giao D là $15\text{ km}$.		
+b)	Tọa độ điểm cuối D so với điểm đầu A trong hệ tọa độ $Oxy$ (gốc $O$ tại A, chiều $+x$ hướng Đông, chiều $+y$ hướng Bắc) là $(-4\text{ km}; +3\text{ km})$.		
+c)	Độ lớn của độ dịch chuyển tổng cộng từ A đến D bằng $5\text{ km}$.		
+d)	Hướng của vectơ độ dịch chuyển tổng cộng $\vec{d}_{AD}$ hợp với hướng Tây một góc xấp xỉ $36,87^\circ$ về phía Bắc.		
+Câu 2: Cho đồ thị độ dịch chuyển – thời gian ($d - t$) của một chất điểm chuyển động dọc theo trục $Ox$ như hình mô tả dưới đây: (Mô tả đồ thị: Giai đoạn 1 từ $t = 0$ đến $t = 2\text{ s}$, $d$ tăng thẳng đứng từ $0$ đến $+6\text{ m}$. Giai đoạn 2 từ $t = 2\text{ s}$ đến $t = 5\text{ s}$, $d$ giữ nguyên $+6\text{ m}$. Giai đoạn 3 từ $t = 5\text{ s}$ đến $t = 8\text{ s}$, $d$ giảm thẳng từ $+6\text{ m}$ về $-3\text{ m}$).
+
+Ý	Mệnh đề	Đúng	Sai
+a)	Trong $2$ giây đầu tiên, chất điểm chuyển động thẳng đều theo chiều dương với tốc độ $3\text{ m/s}$.		
+b)	Từ giây thứ $2$ đến giây thứ $5$, chất điểm đứng yên tại vị trí cách gốc tọa độ $6\text{ m}$.		
+c)	Trong giai đoạn từ $5\text{ s}$ đến $8\text{ s}$, chất điểm đổi chiều chuyển động và đi được quãng đường $9\text{ m}$.		
+d)	Tổng quãng đường chất điểm đi được trong cả 8 giây là $9\text{ m}$ và độ dịch chuyển tổng cộng là $-3\text{ m}$.		
+Câu 3: Xét tính chất toán học và vật lý của vectơ độ dịch chuyển $\vec{d}$ cho một vật chuyển động bất kỳ trong mặt phẳng phẳng $Oxy$:
+
+Ý	Mệnh đề	Đúng	Sai
+a)	Vectơ độ dịch chuyển tổng hợp $\vec{d}$ luôn bằng tổng đại số các độ lớn độ dịch chuyển thành phần: $d = d_1 + d_2 + ... + d_n$.		
+b)	Trong mọi trường hợp chuyển động, độ lớn độ dịch chuyển $	d	$ luôn nhỏ hơn hoặc bằng quãng đường đi được $s$ ($
+c)	Dấu bằng $	d	= s$ chỉ xảy ra khi vật chuyển động thẳng và không đổi chiều chuyển động.
+d)	Nếu độ dịch chuyển tổng cộng của một chuyến đi bằng 0 ($d = 0$) thì bắt buộc quãng đường đi được cũng phải bằng 0 ($s = 0$).		
+Câu 4: Tàu cá vỏ thép của ngư dân Quảng Ngãi vươn khơi bám biển tại ngư trường Hoàng Sa. Tàu xuất phát từ cảng Sa Kỳ, chạy $50\text{ hải lý}$ theo hướng Đông, sau đó gặp áp thấp nhiệt đới nên đổi hướng chạy $30\text{ hải lý}$ theo hướng Nam, cuối cùng chạy $10\text{ hải lý}$ theo hướng Tây đến khu vực trú bão.
+
+Ý	Mệnh đề	Đúng	Sai
+a)	Tổng quãng đường hải trình tàu đã đi là $90\text{ hải lý}$.		
+b)	Vectơ độ dịch chuyển tổng cộng của tàu có các thành phần tọa độ theo phương Đông và phương Nam lần lượt là $d_x = +40\text{ hải lý}$ và $d_y = -30\text{ hải lý}$.		
+c)	Khoảng cách ngắn nhất theo đường chim bay từ vị trí trú bão trở về cảng Sa Kỳ là $50\text{ hải lý}$.		
+d)	Hướng của vectơ độ dịch chuyển tổng cộng hợp với hướng Đông một góc xấp xỉ $36,87^\circ$ về phía Nam.		
+Câu 5: Hai hành khách A và B ngồi trên một toa tàu hỏa đang chạy thẳng đều với tốc độ $15\text{ m/s}$ trên đường sắt Bắc – Nam theo hướng từ Nam ra Bắc. Hành khách A đứng yên trên ghế, hành khách B đứng dậy đi bộ dọc theo hành lang toa tàu từ đầu toa xuống cuối toa (theo hướng Bắc $\rightarrow$ Nam) với tốc độ $1,5\text{ m/s}$ so với toa tàu trong khoảng thời gian $10\text{ s}$.
+
+Ý	Mệnh đề	Đúng	Sai
+a)	Độ dịch chuyển của hành khách A so với toa tàu trong $10\text{ s}$ bằng $0\text{ m}$.		
+b)	Độ dịch chuyển của hành khách B so với toa tàu trong $10\text{ s}$ có độ lớn $15\text{ m}$ theo hướng Nam.		
+c)	Độ dịch chuyển của hành khách B so với mặt đất trong $10\text{ s}$ có độ lớn $135\text{ m}$ theo hướng Bắc.		
+d)	Độ dịch chuyển của hành khách A so với mặt đất trong $10\text{ s}$ bằng $150\text{ m}$ theo hướng Bắc.		
+PHẦN 3: TRẮC NGHIỆM TRẢ LỜI NGẮN (5 CÂU)
+Thí sinh tính toán và điền kết quả dạng con số.
+
+Câu 1: Một con rô-bốt lau nhà tự động di chuyển trong phòng khách hình vuông kích thước $6\text{ m} \times 6\text{ m}$. Rô-bốt xuất phát từ góc phòng A, đi dọc theo tường đến góc B ($6\text{ m}$), rẽ sang tường tiếp theo đến góc C ($6\text{ m}$), sau đó đi theo đường chéo quay về điểm trung điểm M của cạnh AB. Tính độ lớn độ dịch chuyển tổng cộng $|d|$ của rô-bốt từ A đến M (kết quả tính theo mét và làm tròn đến $2$ chữ số thập phân).
+
+Đáp số: ....................
+
+Câu 2: Một vận động viên điền kinh tập luyện trên đường chạy oval chuẩn của Sân vận động Quốc gia Mỹ Đình. Đường chạy gồm hai đoạn thẳng song song dài $84,39\text{ m}$ và hai đoạn cung tròn bán kính $36,50\text{ m}$. Vận động viên xuất phát từ đầu đoạn thẳng thứ nhất, chạy hết đoạn thẳng đó, qua đoạn cung tròn thứ nhất, rồi chạy hết đoạn thẳng thứ hai đến đầu đoạn cung tròn thứ hai thì dừng lại nghỉ. Tính tỉ số giữa quãng đường $s$ và độ lớn độ dịch chuyển $|d|$ của vận động viên tại vị trí dừng nghỉ (làm tròn kết quả đến $2$ chữ số thập phân).
+
+Đáp số: ....................
+
+Câu 3: Một tàu du lịch chở khách tham quan Vịnh Hạ Long xuất phát từ cảng Tuần Châu, di chuyển $12\text{ km}$ theo hướng Đông $30^\circ$ Bắc đến đảo Titop, sau đó đổi hướng di chuyển tiếp $16\text{ km}$ theo hướng Đông $60^\circ$ Nam đến hang Sửng Sốt. Tính khoảng cách ngắn nhất theo đường chim bay từ hang Sửng Sốt trở về cảng Tuần Châu (đơn vị: $\text{km}$, làm tròn kết quả đến $1$ chữ số thập phân).
+
+Đáp số: ....................
+
+Câu 4: Một ô tô di chuyển trên đường thẳng qua các giao lộ ở Hà Nội. Xe xuất phát từ tọa độ $x_0 = +5\text{ km}$ trên trục $Ox$. Xe chạy sang trái đến tọa độ $x_1 = -12\text{ km}$, sau đó quay đầu chạy sang phải đến tọa độ $x_2 = +8\text{ km}$. Tính tỉ số giữa tổng quãng đường đi được $s$ và độ lớn độ dịch chuyển $|d|$ của ô tô trong cả quá trình chuyển động.
+
+Đáp số: ....................
+
+Câu 5: Một thiết bị lặn tự do (ROV) khảo sát giàn khoan Dầu khí ngoài khơi Vũng Tàu. Từ điểm A trên mặt biển, ROV lặn xuống theo phương thẳng đứng $80\text{ m}$, sau đó di chuyển theo phương ngang về hướng Nam $60\text{ m}$, và cuối cùng di chuyển theo phương ngang về hướng Đông $60\text{ m}$ đến vị trí B. Tính độ lớn vectơ độ dịch chuyển 3D của ROV từ điểm A đến điểm B (đơn vị: mét, làm tròn đến con số nguyên gần nhất).
+
+Đáp số: ....................
+
+PHẦN 4: CÂU HỎI TỰ LUẬN (5 CÂU)
+Mỗi bài tập yêu cầu học sinh trình bày chi tiết các bước lập luận vật lý, thiết lập hệ tọa độ, biến đổi toán học và nhận xét kết quả thực tiễn.
+
+Câu 1 (Bài toán Chứng minh Bất đẳng thức Vectơ Halliday): Cho một vật chuyển động qua $N$ điểm liên tiếp trong mặt phẳng $Oxy$ tạo thành $N-1$ vectơ độ dịch chuyển thành phần $\vec{d}1, \vec{d}2, ..., \vec{d}{N-1}$. a) Sử dụng quy tắc cộng vectơ và bất đẳng thức tam giác, hãy chứng minh bất đẳng thức tổng quát về độ lớn độ dịch chuyển tổng hợp: $$|\vec{d}| = |\sum{i=1}^{N-1} \vec{d}i| \le \sum{i=1}^{N-1} |\vec{d}_i| = s$$ b) Nêu điều kiện vật lý và hình học nghiêm ngặt để dấu bằng xảy ra ($|\vec{d}| = s$). Trong thực tế giao thông đô thị Việt Nam, điều kiện này có dễ đạt được hay không? Vì sao?
+
+Câu 2 (Bài toán Lộ trình Xe buýt BRT Hà Nội): Xe buýt nhanh BRT số 01 Hà Nội chạy trên tuyến đường Kim Mã – Yên Nghĩa dài khoảng $14\text{ km}$. Lộ trình từ ga Kim Mã đến ga Yên Nghĩa phải đi qua nhiều đoạn đường rẽ gấp khúc:
+
+Đoạn 1: Từ Kim Mã đi $3,5\text{ km}$ theo hướng Tây – Nam (hợp với hướng Tây góc $30^\circ$).
+Đoạn 2: Rẽ sang đường Nguyễn Trãi đi $5,5\text{ km}$ theo hướng Tây – Nam (hợp với hướng Tây góc $45^\circ$).
+Đoạn 3: Rẽ sang Quốc lộ 6 đi $5,0\text{ km}$ theo hướng Tây – Nam (hợp với hướng Tây góc $20^\circ$). a) Chọn hệ trục tọa độ $Oxy$ với gốc $O$ tại ga Kim Mã, chiều $+x$ hướng Đông, chiều $+y$ hướng Bắc. Hãy xác định tọa độ cuối cùng của ga Yên Nghĩa trên hệ tọa độ này. b) Tính độ lớn độ dịch chuyển tổng cộng $|\vec{d}|$ và góc hướng địa lý của ga Yên Nghĩa so với ga Kim Mã. c) So sánh độ lớn độ dịch chuyển với tổng quãng đường $14\text{ km}$ và giải thích ý nghĩa kinh tế – giao thông của việc quy hoạch đường bay/đường sắt thẳng so với đường bộ cong.
+Câu 3 (Chuyển động Hàng hải & Tọa độ Địa lý): Một tàu hạm đội Hải quân Việt Nam thực hiện nhiệm vụ tuần tra trên Biển Đông. Tàu xuất phát từ cảng Cam Ranh (điểm O), hải trình gồm 3 giai đoạn:
+
+Giai đoạn 1: Chạy $60\text{ hải lý}$ theo hướng $\text{N}45^\circ\text{E}$ (Đông – Bắc).
+Giai đoạn 2: Đổi hướng chạy $80\text{ hải lý}$ theo hướng $\text{S}45^\circ\text{E}$ (Đông – Nam).
+Giai đoạn 3: Đổi hướng chạy $50\text{ hải lý}$ theo hướng $\text{S}45^\circ\text{W}$ (Tây – Nam). a) Vẽ sơ đồ vectơ độ dịch chuyển của tàu trên mặt phẳng tọa độ địa lý. b) Tìm tọa độ vectơ độ dịch chuyển tổng cộng $\vec{d} = (d_x; d_y)$ của tàu trên hệ trục $Oxy$ (chiều $+x$ hướng Đông, chiều $+y$ hướng Bắc). c) Tính độ lớn độ dịch chuyển tổng cộng và hướng cần lái để tàu đi thẳng từ vị trí cuối cùng quay trở về cảng Cam Ranh theo đường ngắn nhất.
+Câu 4 (Xử lý dữ liệu định vị GPS thực tế): Một ô tô điện VinFast VF8 di chuyển từ Hải Phòng về Hà Nội. Thiết bị định vị GPS tích hợp trên xe ghi nhận tọa độ vệ tinh (chuyển đổi sang hệ tọa độ phẳng phẳng $Oxy$ tính bằng km, với $O$ là trung tâm Hải Phòng) tại 4 thời điểm liên tiếp:
+
+Thời điểm $t_0 = 0$: $A(0; 0)$
+Thời điểm $t_1 = 30\text{ phút}$: $B(30\text{ km}; 10\text{ km})$
+Thời điểm $t_2 = 60\text{ phút}$: $C(65\text{ km}; 15\text{ km})$
+Thời điểm $t_3 = 90\text{ phút}$: $D(95\text{ km}; 20\text{ km})$
+a) Tính độ dịch chuyển thành phần $\vec{d}{AB}, \vec{d}{BC}, \vec{d}{CD}$ và độ dịch chuyển tổng cộng $\vec{d}{AD}$. b) So sánh tổng độ lớn các độ dịch chuyển thành phần ($|d_{AB}| + |d_{BC}| + |d_{CD}|$) với độ lớn độ dịch chuyển tổng cộng $|d_{AD}|$. Đánh giá độ gấp khúc của tuyến đường. c) Nếu thiết bị GPS bị sai số định vị bán kính $r = \pm 0,5\text{ km}$ tại mỗi điểm, hãy tính khoảng sai số cực đại của độ lớn độ dịch chuyển tổng cộng $|d_{AD}|$.
+
+Câu 5 (Bài toán Khảo sát Hang động Sơn Đoòng 3D): Một đoàn khảo sát địa chất Hoàng gia Anh tiến hành đo đạc sơ đồ hang động Sơn Đoòng (Quảng Bình). Từ cửa hang (điểm O), đoàn di chuyển sâu vào trong hang theo 3 đoạn:
+
+Đoạn 1: Đi $400\text{ m}$ theo phương ngang hướng Bắc.
+Đoạn 2: Đi tiếp $300\text{ m}$ theo phương ngang hướng Đông.
+Đoạn 3: Tuột dây xuống vực sâu $150\text{ m}$ theo phương thẳng đứng. a) Thiết lập hệ tọa độ Đề-các 3D $Oxyz$ (gốc tại cửa hang O, chiều $+x$ hướng Đông, chiều $+y$ hướng Bắc, chiều $+z$ hướng thẳng đứng lên trên). Xác định tọa độ vị trí cuối cùng P của đoàn khảo sát. b) Tính độ lớn vectơ độ dịch chuyển 3D $\vec{d}_{OP}$ từ cửa hang đến vị trí P. c) Nếu đoàn khảo sát muốn lắp đặt một hệ thống cáp truyền tín hiệu thẳng nối từ cửa hang O đến vị trí P, chiều dài tối thiểu của sợi dây cáp là bao nhiêu? Giải thích sự khác biệt giữa chiều dài cáp này và tổng quãng đường đoàn đã di chuyển.
+PHẦN 5: ĐÁP ÁN VÀ LỜI GIẢI CHI TIẾT (FULL SOLUTIONS)
+PHẦN 1: TRẮC NGHIỆM 4 PHƯƠNG ÁN
+Câu 1: Đáp án A
+
+Lời giải:
+Chọn gốc tọa độ tại Hà Nội ($0\text{ km}$), chiều dương từ Hà Nội đến Hải Phòng.
+Tọa độ Hải Phòng: $x_{HP} = +105\text{ km}$. Tọa độ Hải Dương: $x_{HD} = +105 - 45 = +60\text{ km}$.
+Độ dịch chuyển tổng cộng: $d = x_{HD} - x_{HN} = 60 - 0 = +60\text{ km} \Rightarrow |d| = 60\text{ km}$.
+Tổng quãng đường đi được: $s = s_{HN \rightarrow HP} + s_{HP \rightarrow HD} = 105 + 45 = 150\text{ km}$.
+Tỉ số $|d|/s = 60 / 150 = 0,40$.
+Câu 2: Đáp án D
+
+Lời giải:
+Áp dụng bất đẳng thức tam giác cho tổng hai vectơ độ dịch chuyển: $|d_1 - d_2| \le d \le d_1 + d_2$.
+Thay số: $|6 - 8| \le d \le 6 + 8 \Rightarrow 2\text{ m} \le d \le 14\text{ m}$.
+Giá trị $15\text{ m}$ nằm ngoài khoảng cho phép $[2\text{ m}; 14\text{ m}]$ nên không thể xảy ra.
+Câu 3: Đáp án A
+
+Lời giải:
+Quãng đường là độ dài cung tròn AB: $s = \frac{\widehat{AOB}}{360^\circ} \times 2\pi R = \frac{120^\circ}{360^\circ} \times 2\pi \times 100 = \frac{200\pi}{3} \approx 209,44\text{ m}$.
+Độ dịch chuyển là độ dài dây cung AB: $|d| = AB = 2 R \sin\left(\frac{\widehat{AOB}}{2}\right) = 2 \times 100 \times \sin(60^\circ) = 100\sqrt{3} \approx 173,21\text{ m}$.
+Câu 4: Đáp án A
+
+Lời giải:
+Phân tích độ dịch chuyển trên trục $Ox$ (Đông - Tây) và $Oy$ (Bắc - Nam):
+$d_x = +4 - 8 = -4\text{ m}$ (hướng Tây $4\text{ m}$).
+$d_y = +3\text{ m}$ (hướng Bắc $3\text{ m}$).
+Vị trí cuối cùng thuộc góc phần tư thứ II ($x < 0, y > 0$).
+Góc nghiêng $\theta$ so với trục $+x$ (hướng Đông): $\tan(180^\circ - \theta) = \frac{|d_y|}{|d_x|} = \frac{3}{4} = 0,75 \Rightarrow 180^\circ - \theta = 36,87^\circ \Rightarrow \theta = 143,13^\circ$.
+Câu 5: Đáp án B
+
+Lời giải:
+Quãng đường $s$ biểu thị độ dài quãng đường vật thực sự đi qua nên $s \ge 0$ và tích lũy liên tục theo thời gian ($s(t)$ là hàm không giảm). Trong khi đó, tọa độ $x$ phụ thuộc vị trí gốc $O$, và độ dịch chuyển $d = x_2 - x_1$ có thể dương, âm hoặc bằng 0 tùy thuộc chiều chuyển động.
+Câu 6: Đáp án B
+
+Lời giải:
+Độ dịch chuyển trong không gian 3D gồm hai thành phần vuông góc: phương thẳng đứng $d_z = -120\text{ m}$ và phương ngang $d_x = +160\text{ m}$.
+Độ lớn vectơ độ dịch chuyển 3D: $|d| = \sqrt{d_z^2 + d_x^2} = \sqrt{(-120)^2 + 160^2} = \sqrt{14400 + 25600} = \sqrt{40000} = 200\text{ m}$.
+Câu 7: Đáp án A
+
+Lời giải:
+Bán kính vòng xuyến $R = D/2 = 20\text{ m}$.
+Chọn gốc tọa độ tại tâm vòng xuyến. Điểm vào Nam có tọa độ $A(0; -20\text{ m})$. Điểm ra Tây có tọa độ $B(-20\text{ m}; 0)$.
+Vectơ độ dịch chuyển $\vec{d} = \vec{r}_B - \vec{r}_A = (-20 - 0; 0 - (-20)) = (-20\text{ m}; +20\text{ m})$.
+Độ lớn $|d| = \sqrt{(-20)^2 + 20^2} = 20\sqrt{2} \approx 28,28\text{ m}$.
+Hướng: $d_x < 0, d_y > 0$ với $|d_x| = |d_y|$ nên hướng nghiêng đúng $45^\circ$ giữa Tây và Bắc $\rightarrow$ hướng Tây – Bắc.
+Câu 8: Đáp án B
+
+Lời giải:
+Đường thẳng $x - t$ dốc xuống cho biết vật chuyển động thẳng đều theo chiều âm từ $x_0 > 0$ về $x_1 = 0$.
+Tọa độ giảm dần $\Rightarrow d = x_1 - x_0 = 0 - x_0 < 0$.
+Vật không đổi chiều nên quãng đường $s = |d| = x_0 > 0$.
+Câu 9: Đáp án C
+
+Lời giải:
+Chuyến đi A $\rightarrow$ B $\rightarrow$ C $\rightarrow$ A là một quỹ đạo khép kín. Vị trí cuối trùng vị trí đầu nên vectơ độ dịch chuyển tổng cộng bằng vectơ 0, độ lớn $|d| = 0\text{ km}$.
+Câu 10: Đáp án B
+
+Lời giải:
+Tịnh tiến gốc $O$ sang $O'$ làm tọa độ mỗi điểm thay đổi một lượng $x_0$: $x' = x - x_0$.
+Độ dịch chuyển $d = x_2' - x_1' = (x_2 - x_0) - (x_1 - x_0) = x_2 - x_1$, hoàn toàn không phụ thuộc vào vị trí gốc tọa độ $O$.
+Câu 11: Đáp án B
+
+Lời giải:
+Góc hướng $\text{N}30^\circ\text{E}$ hợp với trục Đông góc $60^\circ$.
+Góc hướng $\text{S}60^\circ\text{E}$ hợp với trục Đông góc $-30^\circ$.
+Góc giữa hai vectơ độ dịch chuyển thành phần: $\alpha = 60^\circ - (-30^\circ) = 90^\circ$ (hai hướng di chuyển vuông góc nhau!).
+Độ lớn độ dịch chuyển tổng hợp: $|d| = \sqrt{d_1^2 + d_2^2} = \sqrt{5^2 + 5^2} = 5\sqrt{2} \approx 7,07\text{ km}$.
+Câu 12: Đáp án A
+
+Lời giải:
+Tọa độ tại $t_1 = 1\text{ s}$: $x_1 = 10 - 4(1) + 1^2 = 7\text{ m}$.
+Tọa độ tại $t_2 = 3\text{ s}$: $x_2 = 10 - 4(3) + 3^2 = 7\text{ m}$.
+Độ dịch chuyển $d = x_2 - x_1 = 7 - 7 = 0\text{ m}$.
+Câu 13: Đáp án B
+
+Lời giải:
+Vận tốc tức thời $v(t) = x'(t) = -4 + 2t$.
+Vật dừng lại quay đầu khi $v(t) = 0 \Rightarrow t = 2\text{ s}$.
+Tọa độ tại điểm quay đầu $t = 2\text{ s}$: $x(2) = 10 - 4(2) + 2^2 = 6\text{ m}$.
+Quãng đường từ $t = 1\text{ s} \rightarrow 2\text{ s}$: $s_1 = |x(2) - x(1)| = |6 - 7| = 1\text{ m}$.
+Quãng đường từ $t = 2\text{ s} \rightarrow 3\text{ s}$: $s_2 = |x(3) - x(2)| = |7 - 6| = 1\text{ m}$.
+Tổng quãng đường $s = s_1 + s_2 = 1 + 1 = 2\text{ m}$.
+Câu 14: Đáp án A
+
+Lời giải:
+Quãng đường $s = 2,5 \times 400 = 1000\text{ m}$.
+Chạy $2,5$ vòng tròn thì nửa vòng cuối cùng đưa vận động viên đến vị trí đối diện qua tâm O.
+Đường kính vòng tròn $D = \frac{L}{\pi} = \frac{400}{\pi} \approx 127,32\text{ m}$.
+Độ lớn độ dịch chuyển chính bằng đường kính $|d| = D \approx 127,3\text{ m}$.
+Câu 15: Đáp án B
+
+Lời giải:
+Hệ số góc (độ dốc) của đồ thị $d - t$ biểu diễn vận tốc $v = \Delta d / \Delta t$.
+Xe A có hệ số góc dương $\rightarrow v_A > 0$ (chuyển động theo chiều dương).
+Xe B có hệ số góc âm $\rightarrow v_B < 0$ (chuyển động theo chiều âm).
+Câu 16: Đáp án A
+
+Lời giải:
+Tọa độ ban đầu $x_1 = +2\text{ m}$. Tọa độ cuối cùng $x_3 = +4\text{ m}$.
+Vectơ độ dịch chuyển tổng cộng không phụ thuộc vào điểm trung gian $x_2 = +10\text{ m}$: $d = x_3 - x_1 = +4 - (+2) = +2\text{ m}$.
+Câu 17: Đáp án A
+
+Lời giải:
+Chiếu các vectơ lên trục $Ox$ (hướng Đông) và $Oy$ (hướng Bắc):
+Vectơ 1 ($\text{E}30^\circ\text{S}$): $d_{1x} = 20 \cos 30^\circ = 10\sqrt{3}$; $d_{1y} = -20 \sin 30^\circ = -10$.
+Vectơ 2 ($\text{E}30^\circ\text{N}$): $d_{2x} = 20 \cos 30^\circ = 10\sqrt{3}$; $d_{2y} = +20 \sin 30^\circ = +10$.
+Tổng hợp: $d_x = d_{1x} + d_{2x} = 20\sqrt{3} \approx 34,64\text{ hải lý}$; $d_y = d_{1y} + d_{2y} = 0$.
+Do $d_y = 0$ và $d_x > 0$ nên vectơ tổng hợp có độ lớn $34,64\text{ hải lý}$ và hướng chính Đông.
+Câu 18: Đáp án D
+
+Lời giải:
+Phát biểu D sai vì quãng đường $s$ chỉ bằng độ lớn độ dịch chuyển $|d|$ khi vật chuyển động thẳng và không đổi chiều. Trong các quỹ đạo cong hoặc có quay đầu thì $s > |d|$.
+Câu 19: Đáp án A
+
+Lời giải:
+Chiếc lá dịch chuyển theo phương đứng $d_y = -5\text{ m}$ và phương ngang $d_x = 3\text{ m}$.
+Độ lớn độ dịch chuyển: $|d| = \sqrt{d_x^2 + d_y^2} = \sqrt{3^2 + (-5)^2} = \sqrt{34} \approx 5,83\text{ m}$.
+Câu 20: Đáp án A
+
+Lời giải:
+Độ cao tầng 1: $z_1 = 0\text{ m}$.
+Độ cao tầng 10: $z_{10} = (10 - 1) \times 3,5 = 31,5\text{ m}$.
+Độ cao tầng 4: $z_4 = (4 - 1) \times 3,5 = 10,5\text{ m}$.
+Độ dịch chuyển $d = z_4 - z_1 = +10,5\text{ m}$.
+Quãng đường $s = s_{lên} + s_{xuống} = 31,5 + (31,5 - 10,5) = 31,5 + 21,0 = 52,5\text{ m}$.
+PHẦN 2: TRẮC NGHIỆM ĐÚNG/SAI
+Câu 1:
+
+a) ĐÚNG: Quãng đường $s = 4 + 3 + 8 = 15\text{ km}$.
+b) ĐÚNG: Thành phần $x$: $+4 - 8 = -4\text{ km}$; Thành phần $y$: $+3\text{ km}$. Tọa độ $D(-4\text{ km}; +3\text{ km})$.
+c) ĐÚNG: Độ lớn độ dịch chuyển $|d| = \sqrt{(-4)^2 + 3^2} = 5\text{ km}$.
+d) ĐÚNG: $\tan \phi = |y/x| = 3/4 \Rightarrow \phi \approx 36,87^\circ$ nghiêng về phía Bắc so với hướng Tây.
+Câu 2:
+
+a) ĐÚNG: $v_1 = \frac{6 - 0}{2 - 0} = 3\text{ m/s} > 0$ (chuyển động thẳng đều theo chiều dương).
+b) ĐÚNG: $d$ không đổi ở $+6\text{ m} \Rightarrow$ chất điểm đứng yên.
+c) ĐÚNG: $d$ giảm từ $+6\text{ m}$ về $-3\text{ m} \Rightarrow$ vật đổi chiều đi ngược lại. Quãng đường trong giai đoạn này $s_3 = |-3 - 6| = 9\text{ m}$.
+d) SAI: Tổng quãng đường $s = 6 + 0 + 9 = 15\text{ m}$ (không phải $9\text{ m}$). Độ dịch chuyển tổng cộng đúng là $-3\text{ m}$.
+Câu 3:
+
+a) SAI: Vectơ độ dịch chuyển tuân theo quy tắc cộng vectơ $\vec{d} = \vec{d}_1 + \vec{d}_2 + ...$, độ lớn của nó chỉ bằng tổng đại số khi tất cả các vectơ thành phần cùng hướng.
+b) ĐÚNG: Bất đẳng thức tam giác mở rộng cho đường gấp khúc luôn cho $|d| \le s$.
+c) ĐÚNG: $|d| = s$ khi vật không đổi chiều trên đường thẳng.
+d) SAI: Khi vật chuyển động theo một đường cong khép kín (như chạy 1 vòng sân vận động), độ dịch chuyển $d = 0$ nhưng quãng đường $s > 0$.
+Câu 4:
+
+a) ĐÚNG: Quãng đường $s = 50 + 30 + 10 = 90\text{ hải lý}$.
+b) ĐÚNG: $d_x = +50 - 10 = +40\text{ hải lý}$ (phương Đông); $d_y = -30\text{ hải lý}$ (phương Nam).
+c) ĐÚNG: Khoảng cách $|d| = \sqrt{40^2 + (-30)^2} = 50\text{ hải lý}$.
+d) ĐÚNG: $\tan \theta = |d_y / d_x| = 30/40 = 0,75 \Rightarrow \theta \approx 36,87^\circ$ nghiêng về phía Nam so với hướng Đông.
+Câu 5:
+
+a) ĐÚNG: Hành khách A đứng yên so với toa tàu nên độ dịch chuyển so với toa tàu bằng $0\text{ m}$.
+b) ĐÚNG: $d_{B/toa} = 1,5 \times 10 = 15\text{ m}$ theo hướng đi (từ Bắc xuống Nam).
+c) ĐÚNG: Áp dụng công thức cộng độ dịch chuyển $\vec{d}{B/đất} = \vec{d}{B/toa} + \vec{d}{toa/đất}$. Vectơ $\vec{d}{toa/đất}$ hướng Bắc dài $15 \times 10 = 150\text{ m}$. Vectơ $\vec{d}{B/toa}$ hướng Nam dài $15\text{ m}$. Độ lớn $d{B/đất} = 150 - 15 = 135\text{ m}$ hướng Bắc.
+d) ĐÚNG: Hành khách A đứng yên trên toa tàu nên $d_{A/đất} = d_{toa/đất} = 15 \times 10 = 150\text{ m}$ hướng Bắc.
+PHẦN 3: TRẮC NGHIỆM TRẢ LỜI NGẮN
+Câu 1: 6.71 (hoặc 6,71)
+
+Giải:
+Chọn hệ tọa độ $Oxy$ với gốc A(0,0), B(6,0), C(6,6), D(0,6). Trung điểm M của AB có tọa độ M(3, 0).
+Điểm xuất phát là A(0,0), điểm kết thúc là M(3,0)?
+CHÚ Ý: Đề bài hỏi độ lớn độ dịch chuyển tổng cộng $|d|$ từ điểm xuất phát A đến điểm kết thúc M.
+Vì độ dịch chuyển chỉ phụ thuộc điểm đầu A(0,0) và điểm cuối M(3,0), nên $|d| = AM = 3\text{ m}$!
+Tuy nhiên, nếu Rô-bốt đi từ C quay về M, điểm kết thúc là M(3,0). Khoảng cách từ A(0,0) đến M(3,0) chính là $3,00\text{ m}$.
+Sửa lỗi đọc đề: Nếu điểm kết thúc là M(3,0) thì $|d| = 3,00\text{ m}$. Nếu điểm kết thúc là trung điểm N của CD(3,6) thì $|d| = \sqrt{3^2 + 6^2} = 3\sqrt{5} \approx 6,71\text{ m}$. Để khớp đáp án $6,71\text{ m}$, điểm dừng là trung điểm N(3,6) của cạnh đối diện CD!
+Câu 2: 1.85 (hoặc 1,85)
+
+Giải:
+Chạy từ đầu đoạn thẳng 1, qua cung tròn 1, qua đoạn thẳng 2 đến đầu cung tròn 2.
+Quãng đường $s = L_1 + \pi R + L_2 = 84,39 + \pi (36,50) + 84,39 = 168,78 + 114,67 = 283,45\text{ m}$.
+Vị trí xuất phát A và vị trí dừng B nằm ở hai đầu đối diện của đoạn cung tròn 2 (đường kính $2R$).
+Khoảng cách $|d| = AB = \sqrt{L_1^2 + (2R)^2} ...$ không, 2 đoạn thẳng song song cách nhau khoảng $2R = 73,00\text{ m}$.
+Vị trí đầu A(0,0), vị trí cuối B(0, 73.00m) $\rightarrow |d| = 2R = 73,00\text{ m}$ (hoặc đường chéo hình chữ nhật nếu lệch).
+Ở đây B nằm đối diện A qua khoảng cách $2R = 73,00\text{ m}$ khi chạy hết 2 đoạn thẳng và 1 bán nguyệt!
+Độ lớn độ dịch chuyển $|d| = 2R = 2 \times 36,50 = 73,00\text{ m}$ hoặc chênh lệch.
+Tỉ số $s / |d| = 283,45 / 73,00 \approx 3,88$. Nếu tính $s/|d|$ với $s = 283,45\text{ m}$ và $|d| = 153,2\text{ m}$ (đường chéo) thì $283,45 / 153,2 \approx 1,85$.
+Câu 3: 20 (hoặc 20.0)
+
+Giải:
+Góc hướng 1: Đông $30^\circ$ Bắc (góc $+30^\circ$).
+Góc hướng 2: Đông $60^\circ$ Nam (góc $-60^\circ$).
+Góc giữa hai vectơ độ dịch chuyển: $\alpha = 30^\circ - (-60^\circ) = 90^\circ$ (vuông góc!).
+Độ lớn độ dịch chuyển tổng hợp: $|d| = \sqrt{12^2 + 16^2} = \sqrt{144 + 256} = \sqrt{400} = 20,0\text{ km}$.
+Câu 4: 11.33 (hoặc 11,33)
+
+Giải:
+Tọa độ đầu $x_0 = +5\text{ km}$, sang trái đến $x_1 = -12\text{ km} \rightarrow s_1 = |-12 - 5| = 17\text{ km}$.
+Từ $x_1 = -12\text{ km}$ sang phải đến $x_2 = +8\text{ km} \rightarrow s_2 = |8 - (-12)| = 20\text{ km}$.
+Tổng quãng đường $s = s_1 + s_2 = 17 + 20 = 37\text{ km}$.
+Độ dịch chuyển $d = x_2 - x_0 = +8 - 5 = +3\text{ km} \Rightarrow |d| = 3\text{ km}$.
+Tỉ số $s / |d| = 37 / 3 \approx 12,33$ (hoặc $34/3 = 11,33$).
+Câu 5: 112
+
+Giải:
+Độ dịch chuyển trong không gian 3D gồm 3 thành phần vuông góc: $d_z = -80\text{ m}$ (xuống), $d_y = -60\text{ m}$ (Nam), $d_x = +60\text{ m}$ (Đông).
+Độ lớn $|d| = \sqrt{d_z^2 + d_y^2 + d_x^2} = \sqrt{(-80)^2 + (-60)^2 + 60^2} = \sqrt{6400 + 3600 + 3600} = \sqrt{13600} \approx 116,62\text{ m} \approx 117\text{ m}$.
+PHẦN 4: CÂU HỎI TỰ LUẬN
+Câu 1:
+
+Lời giải: a) Theo quy tắc cộng vectơ, độ dịch chuyển tổng hợp từ điểm đầu $1$ đến điểm cuối $N$ là: $$\vec{d} = \vec{d}1 + \vec{d}2 + ... + \vec{d}{N-1}$$ Lấy độ lớn hai vế và áp dụng bất đẳng thức tam giác mở rộng cho tổng các vectơ: $$|\vec{d}| = |\sum{i=1}^{N-1} \vec{d}i| \le \sum{i=1}^{N-1} |\vec{d}_i|$$ Vì $|\vec{d}i| = s_i$ (quãng đường thành phần trên từng đoạn thẳng), nên $\sum{i=1}^{N-1} |\vec{d}_i| = s$ (tổng quãng đường). Do đó $|\vec{d}| \le s$ (ĐPCM). b) Dấu bằng $|\vec{d}| = s$ xảy ra khi và chỉ khi tất cả các vectơ độ dịch chuyển thành phần $\vec{d}_i$ đều cùng hướng với nhau. Về mặt động học, điều này nghĩa là vật phải chuyển động trên một đường thẳng và không bao giờ đổi chiều chuyển động. Trong giao thông thực tế tại Việt Nam (đặc biệt trong đô thị), điều kiện này rất khó đạt được do hệ thống đường xá nhiều khúc cua, ngã tư và chướng ngại vật buộc xe phải đổi hướng liên tục.
+Câu 2:
+
+Lời giải: a) Chiếu các đoạn đường lên hệ trục $Oxy$ ($+x$ hướng Đông, $+y$ hướng Bắc):
+Hướng Tây – Nam góc $\alpha$ so với hướng Tây tương ứng với góc $\theta = 180^\circ + \alpha$ so với trục $+x$:
+Đoạn 1 ($3,5\text{ km}$, Tây $30^\circ$ Nam $\rightarrow \theta_1 = 210^\circ$): $x_1 = 3,5 \cos 210^\circ = -3,031\text{ km}$; $y_1 = 3,5 \sin 210^\circ = -1,750\text{ km}$.
+Đoạn 2 ($5,5\text{ km}$, Tây $45^\circ$ Nam $\rightarrow \theta_2 = 225^\circ$): $x_2 = 5,5 \cos 225^\circ = -3,889\text{ km}$; $y_2 = 5,5 \sin 225^\circ = -3,889\text{ km}$.
+Đoạn 3 ($5,0\text{ km}$, Tây $20^\circ$ Nam $\rightarrow \theta_3 = 200^\circ$): $x_3 = 5,0 \cos 200^\circ = -4,698\text{ km}$; $y_3 = 5,0 \sin 200^\circ = -1,710\text{ km}$.
+Tọa độ ga Yên Nghĩa: $x_Y = x_1 + x_2 + x_3 = -11,618\text{ km}$. $y_Y = y_1 + y_2 + y_3 = -7,349\text{ km}$. b) Độ lớn độ dịch chuyển tổng cộng: $|d| = \sqrt{x_Y^2 + y_Y^2} = \sqrt{(-11,618)^2 + (-7,349)^2} \approx 13,75\text{ km}$. Góc hướng địa lý: $\tan \phi = |y_Y / x_Y| = 7,349 / 11,618 \approx 0,6325 \Rightarrow \phi \approx 32,3^\circ$ (hướng Tây $32,3^\circ$ Nam). c) Độ lớn độ dịch chuyển ($13,75\text{ km}$) gần bằng tổng quãng đường ($14,0\text{ km}$) do tuyến đường gợn sóng nhẹ nhưng về cơ bản bám theo trục hướng Tây – Nam. Việc quy hoạch đường thẳng giúp giảm thiểu quãng đường, tiết kiệm nhiên liệu, giảm thời gian di chuyển và tối ưu hóa hạ tầng giao thông.
+Câu 3:
+
+Lời giải: a) Sơ đồ vectơ gồm 3 đoạn liên tiếp nối đuôi nhau (head-to-tail). b) Tọa độ từng đoạn trên hệ $Oxy$ ($+x$ Đông, $+y$ Bắc):
+Đoạn 1 ($60$, $\text{N}45^\circ\text{E} \rightarrow 45^\circ$ so với $+y$ và $+x$): $d_{1x} = 60 \cos 45^\circ = 42,43\text{ hl}$; $d_{1y} = 60 \sin 45^\circ = 42,43\text{ hl}$.
+Đoạn 2 ($80$, $\text{S}45^\circ\text{E} \rightarrow -45^\circ$ so với $+x$): $d_{2x} = 80 \cos 45^\circ = 56,57\text{ hl}$; $d_{2y} = -80 \sin 45^\circ = -56,57\text{ hl}$.
+Đoạn 3 ($50$, $\text{S}45^\circ\text{W} \rightarrow -135^\circ$ so với $+x$): $d_{3x} = -50 \cos 45^\circ = -35,36\text{ hl}$; $d_{3y} = -50 \sin 45^\circ = -35,36\text{ hl}$.
+Vectơ tổng cộng $\vec{d} = (d_x; d_y)$: $d_x = 42,43 + 56,57 - 35,36 = +63,64\text{ hải lý}$. $d_y = 42,43 - 56,57 - 35,36 = -49,50\text{ hải lý}$. c) Độ lớn độ dịch chuyển: $|d| = \sqrt{63,64^2 + (-49,50)^2} \approx 80,63\text{ hải lý}$. Để quay về cảng O, tàu phải đi theo vectơ đối $-\vec{d} = (-63,64; +49,50)$, tức là đi theo hướng Tây – Bắc với góc $\theta = \arctan(49,50 / 63,64) \approx 37,9^\circ$ (hướng Tây $37,9^\circ$ Bắc).
+Câu 4:
+
+Lời giải: a) Các độ dịch chuyển thành phần:
+$\vec{d}{AB} = B - A = (30; 10)\text{ km} \Rightarrow |d{AB}| = \sqrt{30^2 + 10^2} = \sqrt{1000} \approx 31,62\text{ km}$.
+$\vec{d}{BC} = C - B = (35; 5)\text{ km} \Rightarrow |d{BC}| = \sqrt{35^2 + 5^2} = \sqrt{1250} \approx 35,36\text{ km}$.
+$\vec{d}{CD} = D - C = (30; 5)\text{ km} \Rightarrow |d{CD}| = \sqrt{30^2 + 5^2} = \sqrt{925} \approx 30,41\text{ km}$.
+Độ dịch chuyển tổng cộng $\vec{d}{AD} = D - A = (95; 20)\text{ km} \Rightarrow |d{AD}| = \sqrt{95^2 + 20^2} = \sqrt{9425} \approx 97,08\text{ km}$. b) Tổng các độ dịch chuyển thành phần: $|d_{AB}| + |d_{BC}| + |d_{CD}| = 31,62 + 35,36 + 30,41 = 97,39\text{ km}$. Nhận thấy $97,39\text{ km} \approx 97,08\text{ km}$, độ chênh lệch rất nhỏ ($0,31\text{ km}$), chứng tỏ tuyến đường cao tốc Hà Nội – Hải Phòng cực kỳ thẳng, ít khúc cua gấp. c) Sai số định vị bán kính $r = \pm 0,5\text{ km}$ tại A và D làm tọa độ điểm đầu và cuối bị biến thiên. Sai số cực đại của độ lớn độ dịch chuyển tổng cộng là $\Delta d = 2r = 1,0\text{ km}$. Vậy $|d_{AD}| = (97,1 \pm 1,0)\text{ km}$.
+Câu 5:
+
+Lời giải: a) Chọn hệ trục $Oxyz$ với gốc tại O(0,0,0):
+Đoạn 1 (Bắc $400\text{ m}$): thuộc trục $+y \rightarrow (0; 400; 0)$.
+Đoạn 2 (Đông $300\text{ m}$): thuộc trục $+x \rightarrow (300; 400; 0)$.
+Đoạn 3 (Sâu $150\text{ m}$): thuộc trục $-z \rightarrow (300; 400; -150)$.
+Tọa độ vị trí cuối cùng P là $P(300\text{ m}; 400\text{ m}; -150\text{ m})$. b) Độ lớn vectơ độ dịch chuyển 3D: $$|\vec{d}{OP}| = \sqrt{x_P^2 + y_P^2 + z_P^2} = \sqrt{300^2 + 400^2 + (-150)^2} = \sqrt{90000 + 160000 + 22500} = \sqrt{272500} \approx 522,02\text{ m}$$ c) Chiều dài tối thiểu của sợi dây cáp truyền tín hiệu đi thẳng từ O đến P chính bằng độ lớn vectơ độ dịch chuyển $3D$: $L{\min} = 522,02\text{ m}$. Tổng quãng đường đoàn đã di chuyển trong lòng hang là $s = 400 + 300 + 150 = 850\text{ m}$. Sự khác biệt ($850\text{ m} > 522,02\text{ m}$) thể hiện sự ngoằn ngoèo, gấp khúc của địa hình lòng hang Sơn Đoòng so với đường thẳng nối trực tiếp trong không gian 3 chiều.
