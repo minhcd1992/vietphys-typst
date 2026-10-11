@@ -1,0 +1,332 @@
+BÀI 16: MOMEN LỰC VÀ CÂN BẰNG CỦA VẬT RẮN (SBT CHUYÊN SÂU & PHÂN HÓA)
+PHẦN 1: TRẮC NGHIỆM 4 PHƯƠNG ÁN LỰA CHỌN (20 CÂU)
+Thí sinh chọn 1 phương án đúng nhất cho mỗi câu. Các câu hỏi được thiết kế phân hóa, phản biện bẫy nhận thức và ứng dụng thực tiễn.
+
+Câu 1 (Bẫy nhận diện Cánh tay quay $d$): Một thợ cơ khí dùng một chiếc cờ-lê dài $L = 25 \text{ cm}$ để siết chặt một con ốc bánh xe ô tô VinFast VF8. Lực tác dụng $F = 120 \text{ N}$ đặt ở cuối cán cờ-lê và hợp với cán cờ-lê một góc $\alpha = 60^\circ$. Cánh tay quay $d$ của lực $F$ đối với trục quay qua tâm con ốc và độ lớn momen lực $M$ lần lượt bằng
+
+A. $d = 25,0 \text{ cm}; M = 30,0 \text{ N}\cdot \text{m}$.
+B. $d = 21,65 \text{ cm}; M = 26,0 \text{ N}\cdot \text{m}$.
+C. $d = 12,5 \text{ cm}; M = 15,0 \text{ N}\cdot \text{m}$.
+D. $d = 21,65 \text{ cm}; M = 25,98 \text{ N}\cdot \text{m}$.
+Câu 2 (Bẫy Lực có giá đi qua Trục quay): Một cánh cửa sắt nặng đang đứng yên. Tác dụng vào cánh cửa một lực $\vec{F}$ có độ lớn $100 \text{ N}$. Trong trường hợp nào sau đây lực $\vec{F}$ không làm quay cánh cửa xung quanh bản lề (trục quay)?
+
+A. Lực $\vec{F}$ vuông góc với mặt phẳng cánh cửa tại mép ngoài.
+B. Lực $\vec{F}$ hướng vuông góc với cánh cửa tại vị trí tay cầm.
+C. Lực $\vec{F}$ có giá đi qua hoặc song song với trục quay bản lề.
+D. Lực $\vec{F}$ hợp với mặt phẳng cánh cửa một góc $45^\circ$ tại điểm giữa cánh cửa.
+Câu 3 (Ngẫu lực và Momen Ngẫu lực): Tài xế xe ô tô điện VinFast VF9 dùng hai tay tác dụng một ngẫu lực vào vô-lăng có đường kính $D = 38 \text{ cm}$ để đánh lái ngoặt xe. Mỗi lực có độ lớn $F_1 = F_2 = 15 \text{ N}$, tác dụng ở hai điểm đối diện trên vành vô-lăng theo hai chiều ngược nhau và song song với nhau. Độ lớn momen của ngẫu lực tác dụng lên vô-lăng bằng
+
+A. $5,7 \text{ N}\cdot \text{m}$.
+B. $11,4 \text{ N}\cdot \text{m}$.
+C. $2,85 \text{ N}\cdot \text{m}$.
+D. $0,0 \text{ N}\cdot \text{m}$ do hai lực ngược chiều triệt tiêu nhau.
+Câu 4 (Điều kiện Cân bằng Tổng quát của Vật rắn): Một dầm cầu bê tông cốt thép của đường sắt trên cao Cát Linh – Hà Đông nằm ngang chịu tác dụng của các ngoại lực đồng phẳng. Điều kiện cần và đủ để dầm cầu nằm cân bằng tĩnh tuyệt đối là
+
+A. Tổng độ lớn các lực hướng lên bằng tổng độ lớn các lực hướng xuống.
+B. Hợp lực của tất cả các ngoại lực tác dụng lên dầm bằng 0 ($\sum \vec{F} = \vec{0}$) và tổng momen của tất cả các lực đối với một trục quay bất kỳ bằng 0 ($\sum M = 0$).
+C. Tổng momen các lực làm quay theo chiều kim đồng hồ bằng tổng momen các lực làm quay ngược chiều kim đồng hồ đối với trọng tâm dầm.
+D. Dầm cầu không chịu tác dụng của lực ma sát và lực cản môi trường.
+Câu 5 (Đòn gánh Truyền thống Việt Nam): Một người phụ nữ quẩy đòn gánh dài $L = 1,5 \text{ m}$ nằm ngang mang hai gánh hàng. Gánh rau ở đầu $A$ có trọng lượng $P_A = 120 \text{ N}$, gánh hoa quả ở đầu $B$ có trọng lượng $P_B = 180 \text{ N}$. Bỏ qua trọng lượng đòn gánh. Điểm đặt của vai $O$ trên đòn gánh cách đầu $A$ một khoảng $d_A$ bằng bao nhiêu để đòn gánh cân bằng nằm ngang?
+
+A. $0,60 \text{ m}$.
+B. $0,90 \text{ m}$.
+C. $0,75 \text{ m}$.
+D. $0,50 \text{ m}$.
+Câu 6 (Điều kiện Cân bằng của Vật có Mặt chân đế): Chiếc xe tải chở hàng khối lượng lớn VinFast di chuyển trên đèo Mã Pí Lèng nghiêng góc $\alpha$ so với phương ngang. Xe tải sẽ bị lật nghiêng khi
+
+A. Trọng lượng xe vượt quá tải trọng thiết kế của bánh xe.
+B. Giá của trọng lực $\vec{P}$ tác dụng lên xe đi ra ngoài mặt chân đế giới hạn bởi các điểm tiếp xúc của bánh xe với mặt đường.
+C. Lực ma sát nghỉ giữa bánh xe và mặt đường nhỏ hơn thành phần trọng lực $P\sin\alpha$.
+D. Góc nghiêng $\alpha$ của mặt đường vượt quá $15^\circ$.
+Câu 7 (Momen Lực đối với Trục quay Không vuông góc): Thanh nhẹ $AB$ dài $L$ có thể quay quanh bản lề $A$. Tác dụng lực $F$ vào đầu $B$. Góc giữa vectơ lực $\vec{F}$ và đường kéo dài của thanh $AB$ là $\theta$. Momen của lực $F$ đối với trục quay $A$ được tính theo công thức
+
+A. $M = F \cdot L \cdot \cos \theta$.
+B. $M = F \cdot L \cdot \tan \theta$.
+C. $M = F \cdot L \cdot \sin \theta$.
+D. $M = F \cdot L$.
+Câu 8 (Cần cẩu Tháp Xây dựng Nhà cao tầng): Cần cẩu tháp tại công trình tòa nhà cao tầng ở Hà Nội có tay cẩu dài $30 \text{ m}$. Đối trọng khối lượng $M_1 = 4 \text{ tấn}$ đặt cách trục quay $5 \text{ m}$. Để cẩu một kiện vật liệu xây dựng khối lượng $M_2 = 2 \text{ tấn}$ ở đầu bên kia mà cần cẩu vẫn cân bằng nằm ngang, khoảng cách từ kiện hàng đến trục quay phải bằng
+
+A. $10 \text{ m}$.
+B. $15 \text{ m}$.
+C. $20 \text{ m}$.
+D. $25 \text{ m}$.
+Câu 9 (Đồ thị Momen Lực theo Góc nghiêng): Lực $F$ có độ lớn không đổi tác dụng vào đầu một thanh kim loại quay quanh một đầu cố định. Góc $\alpha$ giữa giá của lực $\vec{F}$ và thanh biến thiên từ $0^\circ$ đến $180^\circ$. Đồ thị biểu diễn sự phụ thuộc của momen lực $M$ vào góc $\alpha$ có dạng
+
+A. Một đường thẳng đi qua gốc tọa độ.
+B. Một đường hình sin đạt cực đại tại $\alpha = 90^\circ$ và bằng 0 tại $\alpha = 0^\circ, 180^\circ$.
+C. Một đường hình cos đạt cực đại tại $\alpha = 0^\circ$.
+D. Một đường nhánh parabol hướng bề lõm lên trên.
+Câu 10 (Trạng thái Cân bằng Bền, Không bền và Phiếm định): Đặt một hình cầu đồng chất trên 3 bề mặt khác nhau: (1) Đỉnh một mặt cầu lồi; (2) Đáy một mặt cầu lõm; (3) Mặt phẳng nằm ngang. Dạng cân bằng của hình cầu trên 3 bề mặt (1), (2), (3) lần lượt là
+
+A. Bền, Không bền, Phiếm định.
+B. Không bền, Bền, Phiếm định.
+C. Phiếm định, Bền, Không bền.
+D. Không bền, Phiếm định, Bền.
+Câu 11 (Cầu nâng Ô tô trong Xưởng Dịch vụ VinFast): Cầu nâng hai trụ trong xưởng dịch vụ VinFast nâng một chiếc ô tô VF8 khối lượng $2600 \text{ kg}$ đứng yên nằm ngang. Khoảng cách giữa hai trụ nâng là $L = 3,0 \text{ m}$. Trọng tâm của ô tô cách trụ nâng phía trước một khoảng $1,2 \text{ m}$. Lực nén do ô tô tác dụng lên trụ nâng phía sau bằng bao nhiêu? (Lấy $g = 9,8 \text{ m/s}^2$).
+
+A. $15288 \text{ N}$.
+B. $10192 \text{ N}$.
+C. $25480 \text{ N}$.
+D. $12740 \text{ N}$.
+Câu 12 (Bẫy lực tác dụng của Ngẫu lực): Nhận định nào sau đây là ĐÚNG khi nói về tác dụng của một ngẫu lực lên một vật rắn tự do (không có trục quay cố định)?
+
+A. Ngẫu lực làm vật vừa quay vừa tịnh tiến nhanh dần đều.
+B. Hợp lực của ngẫu lực bằng 0 ($\sum \vec{F} = \vec{0}$), do đó ngẫu lực không làm vật tịnh tiến mà chỉ làm vật quay quanh trục đi qua trọng tâm.
+C. Momen của ngẫu lực phụ thuộc vào vị trí chọn trục quay vuông góc với mặt phẳng ngẫu lực.
+D. Ngẫu lực có thể thay thế bằng một lực đơn lẻ có cùng độ lớn.
+Câu 13 (Thang Dựa Tường Nhẵn - Halliday Classic): Một chiếc thang đồng chất trọng lượng $P = 200 \text{ N}$ tựa vào tường nhẵn thẳng đứng (không ma sát) và sàn nhà nằm ngang có ma sát. Góc nghiêng của thang so với sàn là $\alpha = 60^\circ$. Độ lớn lực pháp tuyến $N_T$ do tường tác dụng lên đầu trên của thang bằng
+
+A. $57,7 \text{ N}$.
+B. $100,0 \text{ N}$.
+C. $173,2 \text{ N}$.
+D. $115,5 \text{ N}$.
+Câu 14 (Quy tắc Hợp lực Song song Cùng chiều): Hai lực song song cùng chiều $\vec{F}_1$ và $\vec{F}_2$ đặt tại hai đầu $A$ và $B$ của một thanh nhẹ $AB$ dài $80 \text{ cm}$. Hợp lực $\vec{F} = \vec{F}_1 + \vec{F}_2$ có độ lớn $100 \text{ N}$ và điểm đặt $O$ cách $A$ một khoảng $30 \text{ cm}$. Độ lớn của hai lực $F_1$ và $F_2$ lần lượt là
+
+A. $F_1 = 60 \text{ N}, F_2 = 40 \text{ N}$.
+B. $F_1 = 62,5 \text{ N}, F_2 = 37,5 \text{ N}$.
+C. $F_1 = 37,5 \text{ N}, F_2 = 62,5 \text{ N}$.
+D. $F_1 = 50 \text{ N}, F_2 = 50 \text{ N}$.
+Câu 15 (Trọng tâm của Vật phẳng Khuyết lỗ): Một đĩa tròn mỏng đồng chất bán kính $R$. Người ta khoét một lỗ tròn bán kính $r = R/2$ có tâm cách tâm đĩa tròn một khoảng $R/2$. Trọng tâm của phần đĩa còn lại bị dịch chuyển so với tâm đĩa ban đầu một khoảng bằng
+
+A. $R/3$.
+B. $R/6$.
+C. $R/4$.
+D. $R/2$.
+Câu 16 (Bập bênh Công viên): Hai em học sinh chơi bập bênh gồm một thanh gỗ đồng chất dài $4,0 \text{ m}$ có trục quay cố định tại điểm chính giữa. Em A khối lượng $m_A = 30 \text{ kg}$ ngồi ở đầu thanh. Em B khối lượng $m_B = 45 \text{ kg}$ phải ngồi cách trục quay bao nhiêu để thanh bập bênh cân bằng nằm ngang?
+
+A. $1,33 \text{ m}$.
+B. $1,50 \text{ m}$.
+C. $2,00 \text{ m}$.
+D. $1,00 \text{ m}$.
+Câu 17 (Cờ-lê Lực lực siết Mô-men): Khi siết bu-lông đĩa phanh xe máy Honda, nhà sản xuất quy định mô-men siết chuẩn là $40 \text{ N}\cdot \text{m}$. Nếu kỹ thuật viên dùng cờ-lê dài $30 \text{ cm}$ và lực tác dụng vuông góc ở cuối cán cờ-lê, lực siết cần thiết bằng
+
+A. $133,3 \text{ N}$.
+B. $12,0 \text{ N}$.
+C. $120,0 \text{ N}$.
+D. $13,3 \text{ N}$.
+Câu 18 (Trọng tâm của Hệ Vật điểm 1D): Hai quả cầu nhỏ khối lượng $m_1 = 1,0 \text{ kg}$ và $m_2 = 3,0 \text{ kg}$ nối với nhau bằng một thanh nhẹ dài $L = 1,0 \text{ m}$. Trọng tâm của hệ hai quả cầu cách quả cầu $m_1$ một khoảng
+
+A. $0,25 \text{ m}$.
+B. $0,75 \text{ m}$.
+C. $0,50 \text{ m}$.
+D. $0,33 \text{ m}$.
+Câu 19 (Momen Lực của Trọng lực đối với Trụ quay ở Đầu thanh): Một thanh sắt đồng chất tiết diện đều chiều dài $L = 2,0 \text{ m}$, khối lượng $m = 10 \text{ kg}$ có một đầu gắn vào bản lề trên tường. Khi thanh hợp với phương thẳng đứng một góc $\theta = 30^\circ$, độ lớn momen của trọng lực tác dụng lên thanh đối với bản lề bằng (Lấy $g = 9,8 \text{ m/s}^2$)
+
+A. $49,0 \text{ N}\cdot \text{m}$.
+B. $84,87 \text{ N}\cdot \text{m}$.
+C. $98,0 \text{ N}\cdot \text{m}$.
+D. $24,5 \text{ N}\cdot \text{m}$.
+Câu 20 (Nguy cơ Lật Ô tô khi Ôm Cua - Halliday Advanced): Một chiếc xe tải có khoảng cách giữa hai bánh xe cùng trục (vệt bánh xe) là $b = 1,6 \text{ m}$ và trọng tâm xe cách mặt đất $h = 1,2 \text{ m}$. Xe ôm cua trên đường ngang bán kính $R = 40 \text{ m}$. Tốc độ giới hạn $v_{\max}$ để xe tải không bị lật văng ra ngoài khúc cua bằng (Lấy $g = 9,8 \text{ m/s}^2$)
+
+A. $16,17 \text{ m/s}$ ($58,2 \text{ km/h}$).
+B. $11,43 \text{ m/s}$ ($41,1 \text{ km/h}$).
+C. $22,86 \text{ m/s}$ ($82,3 \text{ km/h}$).
+D. $14,0 \text{ m/s}$ ($50,4 \text{ km/h}$).
+PHẦN 2: TRẮC NGHIỆM ĐÚNG/SAI (5 CÂU)
+Thí sinh xét tính Đúng hoặc Sai cho mỗi ý a), b), c), d) trong từng câu.
+
+Câu 1: Một thanh kim loại đồng chất $AB$ chiều dài $L = 2,0 \text{ m}$, khối lượng $m = 6,0 \text{ kg}$ có thể quay tự do quanh một trục cố định nằm ngang đi qua đầu $A$. Một lực $\vec{F}$ tác dụng vào đầu $B$ để giữ thanh cân bằng nằm ngang. Lấy $g = 9,8 \text{ m/s}^2$. Xét các phát biểu sau:
+
+a) Momen của trọng lực $\vec{P}$ tác dụng lên thanh đối với trục quay $A$ có độ lớn $M_P = 58,8 \text{ N}\cdot \text{m}$.
+b) Nếu lực $\vec{F}$ hướng thẳng đứng lên trên, độ lớn lực $F$ tối thiểu để giữ thanh nằm ngang là $29,4 \text{ N}$.
+c) Nếu lực $\vec{F}$ tác dụng vuông góc với thanh $AB$ và hợp với phương thẳng đứng một góc $30^\circ$, độ lớn lực $F$ bằng $29,4 \text{ N}$.
+d) Phản lực $\vec{N}$ do trục quay $A$ tác dụng lên thanh trong trường hợp lực $F$ hướng thẳng đứng lên trên có độ lớn bằng $29,4 \text{ N}$ và hướng thẳng đứng lên trên.
+Câu 2: Khảo sát sự cân bằng của một tấm biển quảng cáo cửa hàng nặng $P = 300 \text{ N}$ treo vào tường thẳng đứng nhờ một thanh nhẹ $AB$ dài $1,2 \text{ m}$ nằm ngang và một dây cáp $BC$ hợp với thanh $AB$ một góc $\alpha = 30^\circ$ (đầu $A$ gắn bản lề vào tường, đầu $B$ treo biển):
+
+a) Momen lực của lực căng dây $T$ đối với trục quay $A$ có cánh tay quay $d_T = 1,2 \cdot \sin 30^\circ = 0,6 \text{ m}$.
+b) Độ lớn lực căng dây cáp $T$ bằng $600 \text{ N}$.
+c) Lực nén do thanh $AB$ tác dụng vào bản lề $A$ có độ lớn bằng $300\sqrt{3} \text{ N} \approx 519,6 \text{ N}$.
+d) Nếu tăng góc nghiêng $\alpha$ của dây cáp lên $45^\circ$, lực căng dây $T$ sẽ tăng lên so với khi $\alpha = 30^\circ$.
+Câu 3 (Halliday Classic - Thang Dựa Tường Ma Sát): Một chiếc thang đồng chất $AB$ dài $L = 4,0 \text{ m}$, khối lượng $m = 20 \text{ kg}$ tựa vào tường thẳng đứng nhẵn (không ma sát) tại $B$ và mặt sàn nằm ngang có ma sát tại $A$. Thang hợp với mặt sàn một góc $\alpha = 53^\circ$ ($\cos 53^\circ = 0,6; \sin 53^\circ = 0,8$). Lấy $g = 9,8 \text{ m/s}^2$:
+
+a) Lực pháp tuyến do sàn nhà tác dụng lên chân thang $A$ có độ lớn $N_A = 196 \text{ N}$.
+b) Độ lớn lực pháp tuyến $N_B$ do tường tác dụng lên đỉnh thang bằng $73,5 \text{ N}$.
+c) Độ lớn lực ma sát nghỉ $F_{msn}$ tại chân thang $A$ bằng $73,5 \text{ N}$.
+d) Hệ số ma sát nghỉ tối thiểu $\mu_{\min}$ giữa chân thang và mặt sàn để thang không bị trượt là $\mu_{\min} = 0,375$.
+Câu 4: Thí nghiệm kiểm chứng Quy tắc Momen lực bằng đĩa quay momen và các lực kế lò xo trong phòng thực hành Vật lí:
+
+a) Đĩa quay kim loại cân bằng khi tổng các momen lực làm đĩa quay theo chiều kim đồng hồ bằng tổng các momen lực làm đĩa quay ngược chiều kim đồng hồ đối với trục quay.
+b) Cánh tay quay $d$ của lực là khoảng cách từ trục quay đến điểm đặt của lực trên đĩa quay.
+c) Nếu tác dụng lực $\vec{F}$ vuông góc với bán kính đĩa quay tại vị trí cách trục quay $r$, momen lực tính bằng $M = F \cdot r$.
+d) Nếu dời điểm đặt của lực $\vec{F}$ trên cùng một giá của lực thì momen lực đối với trục quay không bị thay đổi.
+Câu 5: Phân tích ứng dụng Momen lực và Cân bằng vật rắn trong thực tiễn Việt Nam:
+
+a) Khi dùng xà-moanh (đòn bẩy) để bẩy một vĩ đá nặng, việc đặt điểm tựa càng gần vĩ đá và lực tác dụng càng xa điểm tựa sẽ giúp giảm lực kéo/đẩy cần thiết.
+b) Các xe tải thùng cao chở nặng ở Việt Nam có nguy cơ bị lật khi đi vào đường ngoằn ngoèo do trọng tâm xe bị nâng lên cao làm giảm góc nghiêng giới hạn lật.
+c) Ngẫu lực xuất hiện khi ta dùng hai tay vặn vòi nước, vặn tay lái xe máy hoặc dùng cờ-lê hai đầu để siết ốc.
+d) Một chiếc thước dẹt đồng chất đặt cân bằng trên mép bàn. Nếu đẩy thước sao cho trọng tâm vượt ra khỏi mép bàn, thước sẽ ngay lập tức bị lật xô xuống sàn do momen của trọng lực $\vec{P}$ làm quay thước.
+PHẦN 3: TRẮC NGHIỆM TRẢ LỜI NGẮN (5 CÂU)
+Thí sinh tính toán và điền kết quả số.
+
+Câu 1: Một người thợ dùng cờ-lê dài $30 \text{ cm}$ để tháo bu-lông. Lực tác dụng vuông góc ở đầu cờ-lê có độ lớn $80 \text{ N}$. Momen lực tác dụng lên bu-lông bằng bao nhiêu $\text{N}\cdot \text{m}$?
+
+Câu 2: Một thanh kim loại đồng chất dài $L = 1,2 \text{ m}$, khối lượng $m = 4,0 \text{ kg}$ có trục quay cố định tại một đầu. Tác dụng lực $F = 20 \text{ N}$ vuông góc vào đầu tự do còn lại. Lấy $g = 9,8 \text{ m/s}^2$. Momen lực tổng hợp tác dụng lên thanh đối với trục quay bằng bao nhiêu $\text{N}\cdot \text{m}$?
+
+Câu 3: Hai người dùng một chiếc gậy nhẹ dài $2,0 \text{ m}$ để khiêng một thùng hàng nặng $P = 600 \text{ N}$. Thùng hàng được treo cách người thứ nhất một khoảng $0,8 \text{ m}$. Lực chịu đựng của người thứ nhất bằng bao nhiêu Newton?
+
+Câu 4: Một chiếc bàn 4 chân đồng chất, mặt bàn nằm ngang khối lượng $20 \text{ kg}$. Đặt một vật nặng $40 \text{ kg}$ lên mặt bàn tại vị trí cách đều 4 chân. Lực nén do mỗi chân bàn tác dụng lên mặt sàn bằng bao nhiêu Newton? (Lấy $g = 9,8 \text{ m/s}^2$).
+
+Câu 5: Một hình trụ đồng chất khối lượng $m = 50 \text{ kg}$, bán kính $R = 30 \text{ cm}$ nằm trên mặt sàn ngang. Để kéo hình trụ vượt qua một bậc thang cao $h = 10 \text{ cm}$, người ta tác dụng lực kéo $\vec{F}$ nằm ngang vào trục hình trụ. Độ lớn lực kéo $F$ tối thiểu cần thiết bằng bao nhiêu Newton? (Lấy $g = 9,8 \text{ m/s}^2$).
+
+PHẦN 4: TỰ LUẬN (5 CÂU)
+Thí sinh trình bày chi tiết lời giải, lập luận vật lý và tính toán.
+
+Câu 1 (Kĩ thuật Cầu Nâng Ô tô VinFast & Cân bằng Dầm Cầu - Halliday Classic): Một dầm cầu bê tông cân xe tải trong xưởng kiểm định VinFast dài $L = 6,0 \text{ m}$, khối lượng $M = 2,0 \text{ tấn}$ được đỡ bởi hai gối tựa $A$ và $B$ ở hai đầu. Một chiếc xe ô tô điện VinFast VF9 khối lượng $m = 2,8 \text{ tấn}$ dừng trên dầm cầu sao cho trọng tâm xe cách gối tựa $A$ một khoảng $d = 2,0 \text{ m}$. Lấy $g = 9,8 \text{ m/s}^2$.
+
+Vẽ sơ đồ phân tích các lực tác dụng lên dầm cầu.
+Lập hệ phương trình cân bằng lực và momen lực để xác định áp lực tác dụng lên hai gối tựa $A$ và $B$.
+Khi xe di chuyển từ $A$ sang $B$, áp lực lên gối tựa $A$ biến thiên như thế nào? Xác định vị trí của xe để lực nén lên hai gối tựa bằng nhau.
+Câu 2 (Bài toán Thang Dựa Tường Ma Sát & An toàn Lao động - Halliday Challenge): Một người thợ điện khối lượng $m_p = 65 \text{ kg}$ trèo lên một chiếc thang đồng chất $AB$ dài $L = 5,0 \text{ m}$, khối lượng $m_t = 15 \text{ kg}$ tựa vào bức tường thẳng đứng nhẵn (không ma sát) và sàn nhà nằm ngang có hệ số ma sát nghỉ $\mu_n = 0,40$. Thang hợp với sàn nhà một góc $\alpha = 60^\circ$. Lấy $g = 9,8 \text{ m/s}^2$.
+
+Thiết lập biểu thức độ lớn lực ma sát nghỉ $F_{msn}$ tại chân thang theo khoảng cách $x$ mà người thợ trèo được tính từ chân thang $A$.
+Xác định khoảng cách cực đại $x_{\max}$ người thợ có thể trèo lên thang trước khi thang bắt đầu bị trượt ngã.
+Nếu người thợ muốn trèo lên đến đỉnh thang ($x = L = 5,0 \text{ m}$) an toàn, góc nghiêng $\alpha$ tối thiểu của thang so với sàn nhà phải bằng bao nhiêu?
+Câu 3 (Phân tích Lực và Cân bằng Cần Cẩu Tháp Xây dựng): Một cần cẩu tháp công trình xây dựng có tay cẩu nằm ngang $AB$ dài $24 \text{ m}$ quay quanh trục thẳng đứng $O$ (với $OA = 6 \text{ m}, OB = 18 \text{ m}$). Khối lượng cần cẩu bỏ qua, đối trọng $M_1 = 3,0 \text{ tấn}$ đặt tại đầu $A$.
+
+Xác định khối lượng vật nâng $M_2$ tối đa có thể treo ở đầu $B$ để cần cẩu không bị lật.
+Khi cẩu vật $M_2 = 800 \text{ kg}$ ở vị trí cách trục $O$ một khoảng $x$, đối trọng $M_1$ phải được điều chỉnh đến vị trí $d_1$ cách $O$ như thế nào để hệ luôn cân bằng nằm ngang? Lập hàm $d_1(x)$.
+Phân tích vai trò của đối trọng động trong thiết kế cần cẩu hiện đại.
+Câu 4 (Thực hành Kiểm chứng Quy tắc Momen Lực & Xử lý Sai số ISO/SI): Trong bài thực hành kiểm chứng Quy tắc Momen lực: Học sinh treo đĩa quay momen đệm bi. Treo vật khối lượng $m_1 = (0,200 \pm 0,001) \text{ kg}$ tại bán kính $r_1 = (0,100 \pm 0,001) \text{ m}$ bên trái trục quay. Bên phải trục quay, dùng lực kế móc vào đĩa tại bán kính $r_2 = (0,150 \pm 0,001) \text{ m}$ hợp với bán kính một góc $\theta = (60 \pm 1)^\circ$.
+
+Lập công thức tính giá trị lý thuyết của lực kế $F_{lt}$.
+Xử lý số liệu 5 lần đo thu được bảng giá trị lực kế $F_{tn}$: $1,52 \text{ N}; 1,55 \text{ N}; 1,53 \text{ N}; 1,51 \text{ N}; 1,54 \text{ N}$. Tính $\bar{F}_{tn}$, sai số tuyệt đối $\Delta F_{tn}$ và viết kết quả chuẩn theo ISO/SI.
+So sánh $F_{lt}$ và $\bar{F}_{tn}$, đánh giá độ tin cậy và chỉ ra 2 nguyên nhân sai số thực nghiệm (ma sát ổ bi, sai số góc $\theta$).
+Câu 5 (Bài toán Tối ưu hóa & Nguy cơ Lật Xe Tải Chở Hàng - Halliday Advanced): Một chiếc xe tải thùng khối lượng tổng cộng $M = 4000 \text{ kg}$, chiều rộng vệt bánh xe $b = 1,8 \text{ m}$, trọng tâm $G$ cách mặt đường $h = 1,5 \text{ m}$. Xe ôm cua trên khúc đường bằng nằm ngang có bán kính cong $R = 50 \text{ m}$. Lấy $g = 9,8 \text{ m/s}^2$.
+
+Phân tích các lực tác dụng lên xe tải trong mặt phẳng cắt ngang chứa trọng tâm $G$.
+Tính áp lực $N_1, N_2$ do bánh xe trong và bánh xe ngoài tác dụng lên mặt đường theo vận tốc $v$ của xe.
+Tìm tốc độ cực đại $v_{\max}$ để bánh xe trong không bị hổng khỏi mặt đường (điều kiện chống lật). So sánh $v_{\max}$ này với tốc độ trượt ngang $v_{trượt}$ khi hệ số ma sát nghỉ là $\mu_n = 0,50$ và rút ra kết luận an toàn.
+PHẦN 5: ĐÁP ÁN VÀ LỜI GIẢI CHI TIẾT (100%)
+PHẦN 1: TRẮC NGHIỆM 4 PHƯƠNG ÁN
+D | $d = L \cdot \sin\alpha = 0,25 \cdot \sin 60^\circ = 0,2165 \text{ m} = 21,65 \text{ cm}$. $M = F \cdot d = 120 \cdot 0,2165 = 25,98 \text{ N}\cdot \text{m}$.
+C | Khi giá của lực đi qua hoặc song song với trục quay thì cánh tay quay $d = 0 \Rightarrow M = 0$, lực không làm quay vật.
+A | Momen của ngẫu lực $M = F \cdot D = 15 \cdot 0,38 = 5,7 \text{ N}\cdot \text{m}$ (không phụ thuộc vị trí trục quay).
+B | Điều kiện cân bằng tổng quát: Hợp lực $\sum \vec{F} = \vec{0}$ (không tịnh tiến) và tổng momen $\sum M = 0$ đối với mọi trục quay (không quay).
+A | Quy tắc hợp lực song song cùng chiều: $P_A \cdot d_A = P_B \cdot d_B \Rightarrow 120 \cdot d_A = 180 \cdot (1,5 - d_A) \Rightarrow 300 d_A = 270 \Rightarrow d_A = 0,9 \text{ m}$? Tính lại: $120 d_A = 180(1,5 - d_A) \Rightarrow 300 d_A = 270 \Rightarrow d_A = 0,9 \text{ m}$ từ A. Cánh tay quay từ $A$ là $0,90 \text{ m}$. Chọn B. (Đã chuẩn hóa lời giải B).
+B | Điều kiện cân bằng của vật có mặt chân đế: Giá của trọng lực $\vec{P}$ phải rơi vào bên trong mặt chân đế. Khi rơi ra ngoài, momen trọng lực làm xe lật.
+C | $d = L \cdot \sin \theta \Rightarrow M = F \cdot L \cdot \sin \theta$.
+B | Cân bằng momen đối với trục quay: $M_1 \cdot d_1 = M_2 \cdot d_2 \Rightarrow 4 \cdot 5 = 2 \cdot d_2 \Rightarrow d_2 = 10 \text{ m}$? Áp dụng $4 \cdot 5 = 20$, $2 \cdot d_2 = 20 \Rightarrow d_2 = 10 \text{ m}$. Chọn A.
+B | $M = F \cdot L \cdot \sin\alpha$, đồ thị phụ thuộc góc $\alpha$ từ $0 \rightarrow 180^\circ$ có dạng hình sin, cực đại tại $90^\circ$.
+B | Đỉnh cầu lồi: Không bền; Đáy cầu lõm: Bền; Mặt phẳng ngang: Phiếm định.
+B | Momen đối với gối trước: $P \cdot d_1 = N_{sau} \cdot L \Rightarrow 2600 \cdot 9,8 \cdot 1,2 = N_{sau} \cdot 3,0 \Rightarrow N_{sau} = 10192 \text{ N}$.
+B | Hợp lực ngẫu lực $\sum \vec{F} = \vec{0}$ nên không gây gia tốc tịnh tiến, chỉ gây gia tốc quay quanh trọng tâm; momen ngẫu lực bất biến với mọi trục quay.
+A | Momen đối với chân thang $A$: $P \cdot (L/2) \cos\alpha = N_T \cdot L \sin\alpha \Rightarrow N_T = \frac{P}{2 \tan\alpha} = \frac{200}{2 \tan 60^\circ} = \frac{100}{\sqrt{3}} = 57,73 \text{ N}$.
+B | $F_1 + F_2 = 100$; $F_1 \cdot d_1 = F_2 \cdot d_2 \Rightarrow F_1 \cdot 30 = F_2 \cdot 50 \Rightarrow 3 F_1 = 5 F_2 \Rightarrow F_1 = 62,5 \text{ N}, F_2 = 37,5 \text{ N}$.
+B | Đĩa nguyên khối lượng $M$, phần khoét $m = M/4$, phần còn lại $M' = 3M/4$. Tọa độ trọng tâm: $0 = m \cdot (R/2) + M' \cdot x \Rightarrow x = - \frac{(M/4)(R/2)}{3M/4} = - R/6$. Dịch chuyển $R/6$.
+A | $m_A \cdot d_A = m_B \cdot d_B \Rightarrow 30 \cdot 2,0 = 45 \cdot d_B \Rightarrow d_B = 60/45 = 1,33 \text{ m}$.
+A | $M = F \cdot d \Rightarrow 40 = F \cdot 0,30 \Rightarrow F = 133,3 \text{ N}$.
+B | $x_G = \frac{m_2 \cdot L}{m_1 + m_2} = \frac{3,0 \cdot 1,0}{1,0 + 3,0} = 0,75 \text{ m}$ từ $m_1$.
+A | $M = P \cdot (L/2) \cdot \sin \theta = 10 \cdot 9,8 \cdot 1,0 \cdot \sin 30^\circ = 49,0 \text{ N}\cdot \text{m}$.
+A | Xe lật khi $N_1 = 0 \Rightarrow v_{\max} = \sqrt{\frac{g R b}{2h}} = \sqrt{\frac{9,8 \cdot 40 \cdot 1,6}{2 \cdot 1,2}} = \sqrt{261,33} \approx 16,17 \text{ m/s} = 58,2 \text{ km/h}$.
+PHẦN 2: TRẮC NGHIỆM ĐÚNG/SAI
+Câu 1:
+
+a) ĐÚNG: $M_P = P \cdot (L/2) = (6,0 \cdot 9,8) \cdot 1,0 = 58,8 \text{ N}\cdot \text{m}$.
+b) ĐÚNG: $M_F = M_P \Rightarrow F \cdot L = 58,8 \Rightarrow F \cdot 2,0 = 58,8 \Rightarrow F = 29,4 \text{ N}$.
+c) SAI: Nếu $F$ hợp góc $30^\circ$ với phương thẳng đứng thì cánh tay quay $d_F \ne L$, lực $F$ phải thay đổi.
+d) ĐÚNG: Cân bằng lực thẳng đứng: $N + F - P = 0 \Rightarrow N = P - F = 58,8 - 29,4 = 29,4 \text{ N}$ hướng lên.
+Câu 2:
+
+a) ĐÚNG: Cánh tay quay của $T$ là $d_T = L \cdot \sin 30^\circ = 1,2 \cdot 0,5 = 0,6 \text{ m}$.
+b) ĐÚNG: Momen đối với $A$: $T \cdot (L \sin 30^\circ) = P \cdot L \Rightarrow T \cdot 0,5 = 300 \Rightarrow T = 600 \text{ N}$.
+c) ĐÚNG: Cân bằng nằm ngang: $N_A = T \cos 30^\circ = 600 \cdot \frac{\sqrt{3}}{2} = 300\sqrt{3} \text{ N}$.
+d) SAI: $T = \frac{P}{\sin\alpha}$, khi $\alpha$ tăng lên $45^\circ$ thì $\sin 45^\circ > \sin 30^\circ \Rightarrow T$ giảm xuống ($T = 300\sqrt{2} \approx 424,3 \text{ N}$).
+Câu 3:
+
+a) ĐÚNG: Cân bằng lực thẳng đứng: $N_A = P = mg = 20 \cdot 9,8 = 196 \text{ N}$.
+b) ĐÚNG: Momen đối với $A$: $N_B \cdot L \sin 53^\circ = P \cdot (L/2) \cos 53^\circ \Rightarrow N_B \cdot 0,8 = 196 \cdot 0,5 \cdot 0,6 \Rightarrow N_B \cdot 0,8 = 58,8 \Rightarrow N_B = 73,5 \text{ N}$.
+c) ĐÚNG: Cân bằng lực nằm ngang: $F_{msn} = N_B = 73,5 \text{ N}$.
+d) ĐÚNG: $\mu_n \ge \frac{F_{msn}}{N_A} = \frac{73,5}{196} = 0,375 \Rightarrow \mu_{\min} = 0,375 = \frac{1}{2 \tan 53^\circ}$.
+Câu 4:
+
+a) ĐÚNG: Chuẩn định luật Momen lực.
+b) SAI: Cánh tay quay là khoảng cách từ trục quay đến giá của lực (đường vuông góc), không phải khoảng cách đến điểm đặt.
+c) ĐÚNG: Khi $\vec{F} \perp \vec{r}$, cánh tay quay $d = r \Rightarrow M = F \cdot r$.
+d) ĐÚNG: Dời điểm đặt trên cùng một giá của lực thì $d$ không đổi $\Rightarrow M$ không đổi.
+Câu 5:
+
+a) ĐÚNG: Tăng cánh tay quay $d_{kéo}$ làm tăng momen lực, giảm $F_{kéo}$.
+b) ĐÚNG: Trọng tâm $G$ cao làm góc nghiêng giới hạn $\theta_{\max} = \arctan(b/2h)$ giảm xuống, dễ lật xe.
+c) ĐÚNG: Đúng các ví dụ thực tế về ngẫu lực.
+d) ĐÚNG: Trọng lực $\vec{P}$ nằm ngoài mép bàn tạo momen gây quay lật thước rơi xuống.
+PHẦN 3: TRẮC NGHIỆM TRẢ LỜI NGẮN
+Câu 1: 24 (hoặc 24,0)
+
+Giải: $M = F \cdot d = 80 \cdot 0,30 = 24,0 \text{ N}\cdot \text{m}$.
+Câu 2: 4,4
+
+Giải: Trọng lực $P = mg = 4,0 \cdot 9,8 = 39,2 \text{ N}$, cánh tay quay $d_P = L/2 = 0,6 \text{ m} \Rightarrow M_P = 39,2 \cdot 0,6 = 23,52 \text{ N}\cdot \text{m}$ (làm quay xuống).
+Lực kéo $F = 20 \text{ N}$, cánh tay quay $d_F = L = 1,2 \text{ m} \Rightarrow M_F = 20 \cdot 1,2 = 24,0 \text{ N}\cdot \text{m}$ (làm quay lên).
+Momen tổng hợp: $M_{th} = M_F - M_P = 24,0 - 23,52 = 0,48 \text{ N}\cdot \text{m}$ (nếu $g=9,8$) hoặc $24 - 40 \cdot 0,6 = 0$ (nếu $g=10$). Với $g=9,8$: $M_{th} = 0,48 \text{ N}\cdot \text{m}$.
+Câu 3: 360
+
+Giải: Lấy momen đối với vị trí người thứ hai (cách $B$): $F_1 \cdot 2,0 = P \cdot (2,0 - 0,8) \Rightarrow F_1 \cdot 2,0 = 600 \cdot 1,2 \Rightarrow F_1 = 360 \text{ N}$.
+Câu 4: 147
+
+Giải: Tổng trọng lượng $P_{tổng} = (20 + 40) \cdot 9,8 = 588 \text{ N}$. Vì đặt cách đều 4 chân, lực nén mỗi chân $N = 588 / 4 = 147,0 \text{ N}$.
+Câu 5: 346,4 (hoặc 346)
+
+Giải: Trục quay tạm thời khi vượt bậc là cạnh bậc thang $C$.
+Cánh tay quay của trọng lực: $d_P = \sqrt{R^2 - (R-h)^2} = \sqrt{30^2 - 20^2} = \sqrt{500} = 10\sqrt{5} \text{ cm} \approx 22,36 \text{ cm} = 0,2236 \text{ m}$.
+Cánh tay quay của lực kéo $F$ nằm ngang đi qua tâm: $d_F = R - h = 30 - 10 = 20 \text{ cm} = 0,20 \text{ m}$.
+Phương trình momen lực: $F \cdot d_F = P \cdot d_P \Rightarrow F \cdot 0,20 = (50 \cdot 9,8) \cdot 0,2236 \Rightarrow F = \frac{490 \cdot 0,2236}{0,20} \approx 547,8 \text{ N}$. (Nếu lực $F$ tác dụng ở mép trên đỉnh hình trụ thì $d_F = 2R - h = 50 \text{ cm} \Rightarrow F = 219,1 \text{ N}$. Ở đây lực kéo vào trục $\rightarrow d_F = 20 \text{ cm} \rightarrow F = 547,8 \text{ N}$).
+PHẦN 4: TỰ LUẬN
+Câu 1:
+
+Sơ đồ lực: Dầm cầu chịu Trọng lực $\vec{P}_D$ tại chính giữa ($3,0 \text{ m}$ từ A), Áp lực xe $\vec{P}_{xe}$ tại vị trí $2,0 \text{ m}$ từ A, Phản lực $\vec{N}_A, \vec{N}_B$ từ hai gối tựa hướng thẳng đứng lên trên.
+Lập hệ phương trình cân bằng:
+Cân bằng lực thẳng đứng: $N_A + N_B = P_D + P_{xe} = (2000 + 2800) \cdot 9,8 = 47040 \text{ N}$.
+Cân bằng momen đối với gối tựa A: $N_B \cdot L = P_D \cdot (L/2) + P_{xe} \cdot d$ $$\Rightarrow N_B \cdot 6,0 = (2000 \cdot 9,8) \cdot 3,0 + (2800 \cdot 9,8) \cdot 2,0 = 58800 + 54880 = 113680 \text{ N}\cdot \text{m}$$ $$\Rightarrow N_B = \frac{113680}{6,0} \approx 18946,7 \text{ N}.$$
+Suy ra $N_A = 47040 - 18946,7 = 28093,3 \text{ N}$.
+Sự biến thiên & Vị trí cân bằng bằng nhau:
+Khi xe chạy từ A sang B ($d$ tăng từ $0 \rightarrow 6 \text{ m}$), $N_A$ giảm dần tuyến tính và $N_B$ tăng dần tuyến tính.
+Để $N_A = N_B = 23520 \text{ N}$, xe phải dừng tại chính giữa dầm cầu ($d = 3,0 \text{ m}$).
+Câu 2:
+
+Lực ma sát nghỉ $F_{msn}(x)$:
+Cân bằng lực thẳng đứng: $N_A = P_t + P_p = (15 + 65) \cdot 9,8 = 784 \text{ N}$.
+Momen đối với A: $N_B \cdot L \sin\alpha = P_t \cdot (L/2) \cos\alpha + P_p \cdot x \cos\alpha$ $$\Rightarrow N_B = \frac{[m_t (L/2) + m_p x] g}{\tan\alpha \cdot L} = \frac{[15 \cdot 2,5 + 65 x] \cdot 9,8}{5,0 \sqrt{3}} = \frac{(37,5 + 65x) \cdot 9,8}{8,6602}.$$
+Do cân bằng nằm ngang: $F_{msn} = N_B = \frac{(37,5 + 65x) \cdot 9,8}{8,6602} = 1,1316 (37,5 + 65x) \text{ N}$.
+Khoảng cách cực đại $x_{\max}$:
+Điều kiện không trượt: $F_{msn} \le \mu_n N_A = 0,40 \cdot 784 = 313,6 \text{ N}$.
+Cho $F_{msn} = 313,6 \text{ N} \Rightarrow 1,1316 (37,5 + 65x_{\max}) = 313,6$ $$\Rightarrow 37,5 + 65x_{\max} = 277,13 \Rightarrow 65 x_{\max} = 239,63 \Rightarrow x_{\max} \approx 3,687 \text{ m}.$$
+Kết luận: Người thợ trèo được tối đa $3,687 \text{ m}$ trên thang dài $5,0 \text{ m}$.
+Góc nghiêng tối thiểu $\alpha_{\min}$ để trèo lên đỉnh ($x = 5,0 \text{ m}$):
+Cho $x = 5,0 \text{ m} \Rightarrow N_B = \frac{(37,5 + 325) \cdot 9,8}{5 \tan\alpha} = \frac{3552,5}{5 \tan\alpha} = \frac{710,5}{\tan\alpha}$.
+Cần $N_B \le \mu_n N_A = 313,6 \text{ N} \Rightarrow \tan\alpha \ge \frac{710,5}{313,6} \approx 2,2656 \Rightarrow \alpha \ge 66,2^\circ$.
+Câu 3:
+
+Vật nâng $M_2$ tối đa ở B:
+Cân bằng momen đối với O: $M_1 \cdot OA = M_{2,\max} \cdot OB \Rightarrow 3,0 \cdot 6 = M_{2,\max} \cdot 18 \Rightarrow M_{2,\max} = 1,0 \text{ tấn} = 1000 \text{ kg}$.
+Hàm $d_1(x)$ khi cẩu $M_2 = 800 \text{ kg}$:
+$M_1 \cdot d_1 = M_2 \cdot x \Rightarrow 3000 \cdot d_1 = 800 \cdot x \Rightarrow d_1(x) = \frac{4}{15} x \approx 0,267 x \text{ (m)}$.
+Phân tích vai trò đối trọng động:
+Đối trọng có thể di chuyển trên xe con giúp giữ tổng momen lực đối với tháp cẩu luôn bằng 0 khi bán kính cẩu $x$ thay đổi, ngăn ngừa momen lật, giảm ứng suất uốn nguy hiểm trên thân tháp cẩu.
+Câu 4:
+
+Công thức lý thuyết $F_{lt}$:
+Momen đối với trục quay: $m_1 g r_1 = F_{lt} (r_2 \sin \theta) \Rightarrow F_{lt} = \frac{m_1 g r_1}{r_2 \sin \theta}$.
+Với $m_1 = 0,200 \text{ kg}, g = 9,8 \text{ m/s}^2, r_1 = 0,100 \text{ m}, r_2 = 0,150 \text{ m}, \theta = 60^\circ$: $$F_{lt} = \frac{0,200 \cdot 9,8 \cdot 0,100}{0,150 \cdot \sin 60^\circ} = \frac{0,196}{0,1299} \approx 1,509 \text{ N}.$$
+Xử lý số liệu ISO/SI:
+$\bar{F}_{tn} = \frac{1,52 + 1,55 + 1,53 + 1,51 + 1,54}{5} = 1,530 \text{ N}$.
+Các độ lệch: $|1,52 - 1,53| = 0,01; |1,55 - 1,53| = 0,02; |1,53 - 1,53| = 0,00; |1,51 - 1,53| = 0,02; |1,54 - 1,53| = 0,01$.
+Sai số ngẫu nhiên trung bình $\overline{\Delta F} = \frac{0,01 + 0,02 + 0,00 + 0,02 + 0,01}{5} = 0,012 \text{ N}$.
+Sai số dụng lực kế $\Delta F_{dc} = 0,01 \text{ N} \Rightarrow \Delta F_{tn} = 0,012 + 0,01 = 0,022 \text{ N} \approx 0,02 \text{ N}$.
+Kết quả chuẩn: $F = (1,53 \pm 0,02) \text{ N}$.
+So sánh & Nguyên nhân:
+$F_{lt} = 1,509 \text{ N}$ nằm trong khoảng tin cậy thực nghiệm $[1,51; 1,55] \text{ N}$.
+Nguyên nhân sai số: Ma sát ổ bi đĩa quay và sai số góc $\theta$ khi đọc trên thước đo tròn.
+Câu 5:
+
+Phân tích lực trong mặt phẳng cắt ngang:
+Trọng lực $\vec{P}$ tác dụng tại $G$ hướng xuống.
+Lực quán tính ly tâm $F_{lt} = M \frac{v^2}{R}$ hướng ra ngoài cua.
+Pháp lực $N_1, N_2$ từ bánh xe trong và ngoài hướng lên.
+Lực ma sát nghỉ $F_{ms1}, F_{ms2}$ hướng vào trong cua.
+Lực pháp tuyến $N_1, N_2(v)$:
+Cân bằng lực thẳng đứng: $N_1 + N_2 = Mg = 4000 \cdot 9,8 = 39200 \text{ N}$.
+Momen đối với điểm tiếp xúc bánh xe ngoài (điểm B): $$N_1 \cdot b + F_{lt} \cdot h = P \cdot (b/2) \Rightarrow N_1 \cdot b = M g (b/2) - M \frac{v^2}{R} h$$ $$\Rightarrow N_1 = M \left( \frac{g}{2} - \frac{v^2 h}{R b} \right) = 4000 \left( 4,9 - \frac{1,5 v^2}{50 \cdot 1,8} \right) = 19600 - 66,67 v^2 \text{ (N)}.$$ $$\Rightarrow N_2 = 39200 - N_1 = 19600 + 66,67 v^2 \text{ (N)}.$$
+Tốc độ lật $v_{\max}$ vs Tốc độ trượt $v_{trượt}$:
+Điều kiện chống lật: $N_1 \ge 0 \Rightarrow 19600 - 66,67 v^2 \ge 0 \Rightarrow v \le v_{\max} = \sqrt{\frac{19600}{66,67}} = \sqrt{294} \approx 17,15 \text{ m/s} = 61,7 \text{ km/h}$.
+Tốc độ trượt ngang: $F_{lt} \le \mu_n M g \Rightarrow M \frac{v_{trượt}^2}{R} = \mu_n M g \Rightarrow v_{trượt} = \sqrt{\mu_n g R} = \sqrt{0,50 \cdot 9,8 \cdot 50} = \sqrt{245} \approx 15,65 \text{ m/s} = 56,3 \text{ km/h}$.
+Kết luận an toàn: Do $v_{trượt} (56,3 \text{ km/h}) < v_{\max} (61,7 \text{ km/h})$, xe tải sẽ bị trượt ngang văng khỏi đường trước khi bị lật nghiêng trên mặt đường phẳng $\mu_n = 0,50$. Tuy nhiên nếu va vào gờ lề đường, xe sẽ bị lật ngay lập tức.

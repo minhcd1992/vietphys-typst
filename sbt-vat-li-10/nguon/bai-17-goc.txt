@@ -1,0 +1,352 @@
+BÀI 17: NĂNG LƯỢNG VÀ CÔNG CƠ HỌC (SBT CHUYÊN SÂU & PHÂN HÓA)
+PHẦN 1: TRẮC NGHIỆM 4 PHƯƠNG ÁN LỰA CHỌN (20 CÂU)
+Thí sinh chọn 1 phương án đúng nhất cho mỗi câu. Các câu hỏi được thiết kế phân hóa, phản biện bẫy nhận thức và ứng dụng thực tiễn.
+
+Câu 1 (Bẫy góc giữa Lực và Độ dịch chuyển): Một kỹ sư dùng dây cáp kéo một kiện hàng khối lượng $m = 100\text{ kg}$ trượt thẳng đều một đoạn $s = 20\text{ m}$ trên sàn nhà nằm ngang. Lực kéo của dây cáp có độ lớn $F = 300\text{ N}$ và hợp với phương chuyển động một góc $\alpha = 60^\circ$. Công của lực kéo $F$ thực hiện trên đoạn đường này bằng
+
+A. $6000\text{ J}$.
+B. $3000\text{ J}$.
+C. $5196\text{ J}$.
+D. $0\text{ J}$.
+Câu 2 (Bẫy Lực không thực hiện công): Trong các trường hợp sau đây, trường hợp nào lực tác dụng không thực hiện công cơ học ($A = 0$)?
+
+A. Lực ma sát trượt tác dụng lên bánh xe ô tô khi phanh gấp trượt lê trên đường.
+B. Trọng lực tác dụng lên vệ tinh nhân tạo đang chuyển động tròn đều xung quanh Trái Đất.
+C. Lực kéo của động cơ ô tô VinFast VF8 khi xe bắt đầu tăng tốc trên đường thẳng nằm ngang.
+D. Lực cản của không khí tác dụng lên vận động viên nhảy dù đang rơi thẳng đều.
+Câu 3 (Bẫy Công âm / Công cản): Một ô tô VinFast VF9 khối lượng $2800\text{ kg}$ đang chạy với tốc độ $90\text{ km/h}$ trên cao tốc Hà Nội – Hải Phòng thì tài xế hãm phanh. Xe trượt một đoạn $s = 40\text{ m}$ thì dừng lại hoàn toàn. Công của lực ma sát trượt tác dụng lên ô tô trong quá trình hãm phanh có giá trị là
+
+A. $-875000\text{ J}$.
+B. $+875000\text{ J}$.
+C. $-1750000\text{ J}$.
+D. $-700000\text{ J}$.
+Câu 4 (Đơn vị Năng lượng & Đổi đơn vị Chuẩn): Một gia đình tại Hà Nội sử dụng một thiết bị điện có công suất $1\text{ kW}$ liên tục trong $1\text{ giờ}$. Số năng lượng điện tiêu thụ này tương ứng với $1\text{ kWh}$. Giá trị của $1\text{ kWh}$ khi quy đổi ra đơn vị Chuẩn Joule ($J$) trong hệ SI bằng
+
+A. $1000\text{ J}$.
+B. $3600\text{ J}$.
+C. $3,6 \times 10^5\text{ J}$.
+D. $3,6 \times 10^6\text{ J}$.
+Câu 5 (Bẫy nhận thức Công trong Cuộc sống vs Vật lí): Một công nhân xây dựng bê một thùng sơn nặng $200\text{ N}$ và đứng yên chờ đồng nghiệp ở tầng 2 trong thời gian $5\text{ phút}$. Phát biểu nào sau đây đúng về mặt Vật lí?
+
+A. Công nhân thực hiện một công cơ học $A = 1000\text{ J}$.
+B. Công nhân thực hiện một công cơ học $A = 60000\text{ J}$.
+C. Công của trọng lực tác dụng lên thùng sơn bằng $0\text{ J}$ và công của lực nâng do tay người tác dụng cũng bằng $0\text{ J}$.
+D. Công nhân không tốn năng lượng sinh học vì không có độ dịch chuyển.
+Câu 6 (Công của Trọng lực trên Dốc Nghiêng): Một khối gỗ khối lượng $m = 5,0\text{ kg}$ trượt từ đỉnh một mặt phẳng nghiêng dài $L = 10\text{ m}$, góc nghiêng $\beta = 30^\circ$ so với phương ngang xuống chân dốc. Lấy $g = 9,8\text{ m/s}^2$. Công của trọng lực tác dụng lên khối gỗ trong cả quá trình trượt bằng
+
+A. $+245\text{ J}$.
+B. $-245\text{ J}$.
+C. $+424,35\text{ J}$.
+D. $+490\text{ J}$.
+Câu 7 (Lực Thế vs Lực Không Bảo Toàn): Lực nào sau đây có công chỉ phụ thuộc vào vị trí điểm đầu và điểm cuối, không phụ thuộc vào hình dạng đường đi của vật?
+
+A. Lực ma sát trượt.
+B. Lực cản của không khí.
+C. Trọng lực.
+D. Lực ma sát nghỉ.
+Câu 8 (Đồ thị Lực - Độ dịch chuyển $F(x)$): Một vật chuyển động dọc theo trục $Ox$ dưới tác dụng của một lực $F_x$ biến thiên theo tọa độ $x$ được thể hiện qua đồ thị là một đoạn thẳng đi từ điểm $(0\text{ m}; 10\text{ N})$ đến điểm $(4\text{ m}; 30\text{ N})$. Công của lực $F_x$ thực hiện khi vật dịch chuyển từ $x = 0$ đến $x = 4\text{ m}$ bằng
+
+A. $40\text{ J}$.
+B. $80\text{ J}$.
+C. $120\text{ J}$.
+D. $160\text{ J}$.
+Câu 9 (Công của Lực Kéo Xiên Hướng Xuống): Một người dùng dây thừng đẩy/kéo một chiếc xe nôi trẻ em bằng một lực $F = 50\text{ N}$ hướng chếch xuống dưới hợp với phương ngang một góc $\alpha = 30^\circ$. Chiếc xe di chuyển thẳng đều trên đường nằm ngang được quãng đường $s = 10\text{ m}$. Công của lực $F$ thực hiện bằng
+
+A. $+433\text{ J}$.
+B. $-433\text{ J}$.
+C. $+250\text{ J}$.
+D. $0\text{ J}$.
+Câu 10 (Công của Lực Hướng Tâm): Một hòn đá khối lượng $m$ được buộc vào đầu một sợi dây nhẹ dài $R$ và quay tròn đều trong mặt phẳng nằm ngang với tốc độ góc $\omega$. Công của lực căng dây thực hiện sau khi hòn đá quay được đúng một nửa vòng ($180^\circ$) bằng
+
+A. $m \omega^2 R^2 \pi$.
+B. $2 m \omega^2 R^2$.
+C. $0\text{ J}$.
+D. $m g \pi R$.
+Câu 11 (Công của Trọng lực trên Đường cong Kín): Một vận động viên leo núi leo từ chân núi lên đỉnh núi cao $H = 1000\text{ m}$, sau đó đi theo một con đường mòn zic-zac khác để quay trở về đúng vị trí chân núi ban đầu. Tổng công của trọng lực tác dụng lên vận động viên trong cả chuyến đi khép kín này bằng
+
+A. $+2 m g H$.
+B. $-2 m g H$.
+C. $0\text{ J}$.
+D. $m g H$.
+Câu 12 (Công của Lực Ma sát trên Đường cong Kín): Trong câu 11 trên, tổng công của lực ma sát tác dụng lên đế giày của vận động viên trong cả chuyến đi khép kín đó có giá trị
+
+A. bằng $0\text{ J}$.
+B. luôn mang giá trị âm ($A_{ms} < 0$).
+C. luôn mang giá trị dương ($A_{ms} > 0$).
+D. có thể bằng 0 nếu đường đi đối xứng.
+Câu 13 (Công của Lực Nâng Cần Cẩu): Một cần cẩu tại Cảng Hải Phòng nâng một container khối lượng $M = 10\text{ tấn}$ từ mặt đất lên độ cao $h = 12\text{ m}$ với gia tốc không đổi $a = 1,0\text{ m/s}^2$. Lấy $g = 9,8\text{ m/s}^2$. Công của lực nâng do dây cáp cần cẩu thực hiện bằng
+
+A. $1176\text{ kJ}$.
+B. $1296\text{ kJ}$.
+C. $1080\text{ kJ}$.
+D. $120\text{ kJ}$.
+Câu 14 (Công của Lực Kéo Tàu Xà Lan Sông Hồng): Hai chiếc tàu kéo dùng dây cáp kéo một chiếc xà lan chở cát di chuyển thẳng đều trên sông Hồng. Lực kéo của mỗi tàu có độ lớn $F_1 = F_2 = 5000\text{ N}$, hai dây cáp hợp với nhau một góc $60^\circ$ (mỗi dây hợp với phương chuyển động góc $30^\circ$). Công của tổng hợp lực kéo thực hiện khi xà lan di chuyển được $s = 200\text{ m}$ bằng
+
+A. $1000\text{ kJ}$.
+B. $1732\text{ kJ}$.
+C. $2000\text{ kJ}$.
+D. $866\text{ kJ}$.
+Câu 15 (Động năng & Định lý Động năng cơ bản): Một ô tô VinFast VF8 khối lượng $2600\text{ kg}$ tăng tốc thẳng đều từ trạng thái nghỉ $v_1 = 0$ lên tốc độ $v_2 = 72\text{ km/h}$ ($20\text{ m/s}$) trên quãng đường thẳng nằm ngang $s = 100\text{ m}$. Tổng công của tất cả các lực tác dụng lên ô tô bằng
+
+A. $520\text{ kJ}$.
+B. $1040\text{ kJ}$.
+C. $260\text{ kJ}$.
+D. $187,2\text{ kJ}$.
+Câu 16 (Bẫy Công của Lực Ma sát Nghỉ): Một người đứng yên trên băng tải chuyển động nằm ngang đang tăng tốc trong sân bay Nội Bài. Lực ma sát nghỉ do mặt băng tải tác dụng lên đế giày người đó
+
+A. thực hiện công dương ($A_{msn} > 0$) làm tăng động năng của người.
+B. không thực hiện công ($A_{msn} = 0$) vì là ma sát nghỉ.
+C. thực hiện công âm ($A_{msn} < 0$) chống lại chuyển động của băng tải.
+D. thực hiện công bằng công của trọng lực.
+Câu 17 (Công trong Hệ quy chiếu khác nhau): Một hành khách ngồi trên con tàu hỏa Express SE1 đang chạy thẳng đều với tốc độ $80\text{ km/h}$. Người đó cầm một cuốn sách khối lượng $0,5\text{ kg}$ và di chuyển cuốn sách về phía đầu toa tàu một khoảng $1,0\text{ m}$. Công của lực tay tác dụng lên cuốn sách xét trong hệ quy chiếu gắn với toa tàu là $A_1$, xét trong hệ quy chiếu gắn với mặt đất là $A_2$. Kết luận nào sau đây đúng?
+
+A. $A_1 = A_2$.
+B. $A_1 \ne A_2$ vì độ dịch chuyển của sách trong hai hệ quy chiếu khác nhau.
+C. $A_1 > A_2$.
+D. $A_1 = 0$ và $A_2 = 0$.
+Câu 18 (Công của Lực Đàn hồi Lò xo): Tác dụng một lực $F$ biến thiên để nén một lò xo nhẹ có độ cứng $k = 100\text{ N/m}$ chậm đều từ trạng thái không biến dạng đến khi biến dạng một đoạn $x = 0,1\text{ m}$. Công của lực đàn hồi do lò xo tác dụng trở lại tay người bằng
+
+A. $+0,5\text{ J}$.
+B. $-0,5\text{ J}$.
+C. $+1,0\text{ J}$.
+D. $-1,0\text{ J}$.
+Câu 19 (So sánh Công của các Lực tác dụng lên Vật trượt): Một thùng hàng trượt có ma sát xuống một mặt dốc nghiêng góc $\beta$. Trong các lực tác dụng lên thùng hàng (Trọng lực $\vec{P}$, Pháp lực $\vec{N}$, Lực ma sát trượt $\vec{F}_{mst}$), lực nào thực hiện công dương, lực nào thực hiện công âm, lực nào không thực hiện công?
+
+A. $\vec{P}$ thực hiện công dương, $\vec{F}_{mst}$ thực hiện công âm, $\vec{N}$ không thực hiện công.
+B. $\vec{P}$ thực hiện công âm, $\vec{F}_{mst}$ thực hiện công dương, $\vec{N}$ không thực hiện công.
+C. Cả 3 lực đều thực hiện công dương.
+D. $\vec{P}$ và $\vec{N}$ không thực hiện công, $\vec{F}_{mst}$ thực hiện công âm.
+Câu 20 (Công của Lực cản Bùn Lầy): Một viên đạn đất sét khối lượng $m = 50\text{ g}$ chuyển động với vận tốc $v_0 = 100\text{ m/s}$ găm vào một bao cát nằm ngang và chui sâu vào bao cát một đoạn $s = 10\text{ cm}$ thì dừng lại. Độ lớn lực cản trung bình của cát tác dụng lên viên đạn bằng
+
+A. $2500\text{ N}$.
+B. $5000\text{ N}$.
+C. $25000\text{ N}$.
+D. $1250\text{ N}$.
+PHẦN 2: TRẮC NGHIỆM ĐÚNG/SAI (5 CÂU)
+Thí sinh xét tính Đúng hoặc Sai cho mỗi ý a), b), c), d) trong từng câu.
+
+Câu 1: Khảo sát quá trình di chuyển của xe điện VinFast VF8 khối lượng $m = 2600\text{ kg}$ trên một đoạn đường thẳng nằm ngang:
+
+a) Khi xe tăng tốc đều từ $0$ đến $72\text{ km/h}$, công của lực kéo do động cơ phát ra đúng bằng độ biến thiên động năng của xe (nếu bỏ qua ma sát và lực cản).
+b) Khi xe chuyển động thẳng đều với tốc độ $90\text{ km/h}$, hợp lực tác dụng lên xe bằng $0$ nên tổng công của tất cả các lực tác dụng lên xe trong khoảng thời gian $\Delta t$ cũng bằng $0\text{ J}$.
+c) Trọng lực tác dụng lên xe luôn thực hiện công dương vì xe di chuyển quãng đường dài trên mặt đất.
+d) Khi tài xế đạp phanh làm xe trượt lê một đoạn $s$ cho đến khi dừng lại, công của lực ma sát trượt mang giá trị âm ($A_{ms} < 0$) và toàn bộ động năng ban đầu của xe được chuyển hóa thành nhiệt năng làm nóng lốp xe và mặt đường.
+Câu 2: Phân biệt bản chất Vật lý giữa Lực Bảo Toàn (Lực Thế) và Lực Không Bảo Toàn (Lực Phát Tán):
+
+a) Trọng lực và lực đàn hồi của lò xo là các lực bảo toàn, công của chúng trên một đường cong kín bất kỳ luôn bằng $0\text{ J}$.
+b) Công của lực ma sát trượt phụ thuộc vào hình dạng đường đi và độ dài quãng đường trượt, do đó lực ma sát trượt là lực không bảo toàn.
+c) Khi chỉ có các lực bảo toàn tác dụng lên hệ, cơ năng của hệ được bảo toàn.
+d) Trong một chu trình kín, công của lực ma sát trượt luôn bằng $0\text{ J}$ vì điểm đầu và điểm cuối trùng nhau.
+Câu 3: Khảo sát đồ thị lực $F(x)$ phụ thuộc tọa độ $x$ tác dụng lên một con trượt đệm khí $0,5\text{ kg}$:
+
+a) Diện tích hình phẳng giới hạn bởi đường biểu diễn $F(x)$, trục hoành $Ox$ và hai đường dựng đứng $x = x_1, x = x_2$ có giá trị đại số bằng công $A$ của lực $F$ trên đoạn $[x_1; x_2]$.
+b) Nếu đồ thị $F(x)$ là một đường nằm ngang song song với trục $Ox$ thì công $A = F \cdot (x_2 - x_1)$.
+c) Nếu lực $F(x) = k \cdot x$ (lực đàn hồi lò xo), đồ thị $F(x)$ là đường thẳng qua gốc tọa độ, công khi biến dạng từ $0$ đến $x$ bằng $A = \frac{1}{2} k x^2$.
+d) Đơn vị của diện tích dưới đồ thị $F(x)$ trên mặt phẳng tọa độ $F - x$ là Newton trên mét (N/m).
+Câu 4: Khái niệm Công trong đời sống thường nhật và Công cơ học trong Vật lý 10:
+
+a) Một vệ tinh viễn thông VINASAT-1 nặng $2,8\text{ tấn}$ chuyển động tròn đều xung quanh Trái Đất thực hiện một công cơ học cực kỳ lớn sau mỗi chu kỳ quay.
+b) Một lực tác dụng lên vật nhưng độ dịch chuyển của vật bằng $0$ thì lực đó không thực hiện công cơ học nào.
+c) Khi góc hợp bởi vectơ lực $\vec{F}$ và vectơ độ dịch chuyển $\vec{d}$ là góc tù ($90^\circ < \alpha \le 180^\circ$), công của lực mang giá trị âm ($A < 0$), gọi là công cản.
+d) Một người gánh hai thùng nước đi thẳng đều trên đường nằm ngang, lực nâng của vai người tác dụng lên đòn gánh thực hiện công dương đẩy người tiến về phía trước.
+Câu 5: Phân tích phản biện theo giáo trình Fundamentals of Physics (Halliday & Resnick) về Định lý Động năng và Công:
+
+a) Công của hợp lực tác dụng lên một chất điểm bằng độ biến thiên động năng của chất điểm đó: $A_{hl} = \Delta E_đ = \frac{1}{2}m v_2^2 - \frac{1}{2}m v_1^2$.
+b) Nếu hợp lực thực hiện công dương ($A_{hl} > 0$), động năng của vật tăng ($v_2 > v_1$).
+c) Định lý động năng chỉ đúng trong Hệ quy chiếu quán tính (IRF).
+d) Định lý động năng không áp dụng được khi lực tác dụng biến thiên theo thời gian hoặc vị trí.
+PHẦN 3: TRẮC NGHIỆM TRẢ LỜI NGẮN (5 CÂU)
+Thí sinh tính toán và điền kết quả số.
+
+Câu 1: Một ô tô VinFast VF8 được kéo bởi một xe cứu hộ bằng dây cáp nghiêng $30^\circ$ so với phương ngang. Lực kéo của dây cáp có độ lớn $F = 2000\text{ N}$. Công của lực kéo thực hiện khi ô tô dịch chuyển được quãng đường $s = 50\text{ m}$ là bao nhiêu kilôjoule ($ ext{kJ}$)? (Làm tròn đến 1 chữ số thập phân).
+
+Câu 2: Một thùng hàng khối lượng $m = 20\text{ kg}$ trượt từ đỉnh một dốc nghiêng dài $L = 5,0\text{ m}$, nghiêng góc $\beta = 30^\circ$ so với phương ngang xuống chân dốc. Lấy $g = 9,8\text{ m/s}^2$. Công của trọng lực tác dụng lên thùng hàng bằng bao nhiêu Joule ($ ext{J}$)?
+
+Câu 3: Xe máy điện VinFast Feliz S khối lượng tổng cộng (người và xe) $m = 180\text{ kg}$ đang chạy với tốc độ $54\text{ km/h}$ ($15\text{ m/s}$) thì phanh gấp trượt lê trên đường nhựa. Hệ số ma sát trượt giữa lốp xe và mặt đường là $\mu_t = 0,50$. Lấy $g = 9,8\text{ m/s}^2$. Độ lớn công của lực ma sát trượt thực hiện từ lúc phanh đến khi xe dừng hẳn bằng bao nhiêu Joule ($ ext{J}$)?
+
+Câu 4: Một hộ gia đình sử dụng một máy bơm nước có công suất tiêu thụ điện $1,5\text{ kW}$ trong thời gian $2\text{ giờ } 30\text{ phút}$ mỗi ngày. Tổng năng lượng điện mà máy bơm tiêu thụ trong một tháng ($30\text{ ngày}$) bằng bao nhiêu kilowatt-giờ ($ ext{kWh}$)?
+
+Câu 5: Một lực $F_x$ tác dụng lên một vật biến thiên theo vị trí $x$ theo công thức $F_x(x) = 10 + 2x$ (trong đó $F_x$ tính bằng $\text{N}$, $x$ tính bằng $\text{m}$). Công của lực $F_x$ khi vật dịch chuyển từ $x_1 = 0\text{ m}$ đến $x_2 = 5,0\text{ m}$ bằng bao nhiêu Joule ($ ext{J}$)?
+
+PHẦN 4: TỰ LUẬN (5 CÂU)
+Thí sinh trình bày chi tiết lời giải, lập luận vật lý và tính toán.
+
+Câu 1 (Kĩ thuật Ô tô & Công Động cơ VinFast): Một chiếc ô tô điện VinFast VF8 khối lượng $m = 2600\text{ kg}$ tăng tốc thẳng đều từ trạng thái nghỉ $v_0 = 0$ lên tốc độ $v = 108\text{ km/h}$ ($30\text{ m/s}$) trên đường thử nằm ngang trong khoảng thời gian $\Delta t = 6,0\text{ s}$. Hệ số ma sát trượt và cản tổng cộng giữa lốp xe với mặt đường là $\mu = 0,05$. Lấy $g = 9,8\text{ m/s}^2$.
+
+Tính gia tốc $a$ và quãng đường $s$ ô tô đi được trong $6,0\text{ s}$ tăng tốc.
+Tính độ lớn lực kéo $F_k$ do động cơ điện tạo ra và công $A_k$ do lực kéo này thực hiện.
+Tính công của lực ma sát $A_{ms}$ và chứng minh tổng công hợp lực $A_{hl} = A_k + A_{ms}$ đúng bằng độ biến thiên động năng $\Delta E_đ$ của ô tô.
+Câu 2 (Bài toán Lực Thế & Lực Ma Sát trên Dốc Nghiêng - Halliday Classic): Một khối gỗ khối lượng $m = 4,0\text{ kg}$ được thả trượt không vận tốc ban đầu từ đỉnh $A$ của một mặt phẳng nghiêng $AB$ dài $L = 8,0\text{ m}$, hợp với phương ngang góc $\beta = 30^\circ$. Hệ số ma sát trượt trên mặt dốc là $\mu_1 = 0,20$. Sau khi đến chân dốc $B$, khối gỗ tiếp tục trượt trên mặt phẳng nằm ngang $BC$ với hệ số ma sát trượt $\mu_2 = 0,25$ rồi dừng lại tại $C$. Lấy $g = 9,8\text{ m/s}^2$.
+
+Tính công của trọng lực $A_P$ và công của lực ma sát $A_{ms1}$ trên đoạn dốc $AB$.
+Sử dụng Định lý Động năng để tính vận tốc $v_B$ của khối gỗ tại chân dốc $B$.
+Tính công của lực ma sát $A_{ms2}$ trên đoạn nằm ngang $BC$ và quãng đường $s_{BC}$ khối gỗ trượt được cho đến khi dừng hẳn.
+Câu 3 (Đồ thị Lực Biến Thiên $F(x)$ & Tích phân Công - Halliday Challenge): Một con trượt khối lượng $m = 2,0\text{ kg}$ chuyển động dọc theo trục $Ox$ trên đệm khí không ma sát. Con trượt chịu tác dụng của một lực biến thiên theo vị trí $x$ có biểu thức $F_x(x) = (20 - 4x)\text{ N}$ (với $x$ tính bằng $\text{m}$).
+
+Vẽ đồ thị lực $F_x$ phụ thuộc vào tọa độ $x$ từ $x = 0$ đến $x = 5,0\text{ m}$.
+Tính công của lực $F_x$ khi con trượt dịch chuyển từ $x_1 = 0$ đến $x_2 = 5,0\text{ m}$ bằng phương pháp hình học (diện tích đồ thị) và phương pháp tích phân.
+Nếu tại $x_1 = 0$, con trượt có vận tốc ban đầu $v_1 = 2,0\text{ m/s}$, hãy tìm vận tốc $v_2$ của con trượt khi nó đến vị trí $x_2 = 5,0\text{ m}$.
+Câu 4 (Thực hành - Đo Công & Xử lý Sai số ISO/SI): Một nhóm học sinh thực hiện bài thực hành đo công của lực kéo một khối gỗ trượt thẳng đều trên mặt bàn nằm ngang bằng lực kế lò xo và thước đo.
+
+Mô tả sơ đồ thí nghiệm, các dụng cụ cần thiết và quy trình tiến hành để đảm bảo lực kéo $F$ song song với mặt bàn và khối gỗ trượt thẳng đều.
+Bảng kết quả 5 lần đo lực kéo $F$ (N) và quãng đường $s$ (m) thu được như sau:
+Lần 1: $F_1 = 2,10\text{ N}$; $s_1 = 0,500\text{ m}$
+Lần 2: $F_2 = 2,05\text{ N}$; $s_2 = 0,502\text{ m}$
+Lần 3: $F_3 = 2,15\text{ N}$; $s_3 = 0,498\text{ m}$
+Lần 4: $F_4 = 2,08\text{ N}$; $s_4 = 0,500\text{ m}$
+Lần 5: $F_5 = 2,12\text{ N}$; $s_5 = 0,500\text{ m}$
+Hãy tính giá trị trung bình $\bar{F}, \bar{s}$, tính công trung bình $\bar{A}$, tính sai số tuyệt đối $\Delta A$ và viết kết quả đo công $A$ theo chuẩn quốc tế ISO/SI ($A = \bar{A} \pm \Delta A$).
+Câu 5 (Bài toán Tối ưu hóa & Công Cần Cẩu Nâng Hàng Cảng Hải Phòng - Halliday Advanced): Một cần cẩu tại Cảng Hải Phòng cần nâng một thùng hàng khối lượng $M = 2000\text{ kg}$ từ mặt đất lên độ cao $h = 15\text{ m}$. Lấy $g = 9,8\text{ m/s}^2$.
+
+Tính công tối thiểu $A_{\min}$ của lực nâng do cần cẩu thực hiện khi nâng thùng hàng lên đều.
+Thực tế, để tiết kiệm thời gian, cần cẩu nâng thùng hàng qua 3 giai đoạn:
+Giai đoạn 1: Tăng tốc đều với gia tốc $a_1 = 1,2\text{ m/s}^2$ trên quãng đường $h_1 = 3,0\text{ m}$.
+Giai đoạn 2: Chuyển động đều trên quãng đường $h_2 = 9,0\text{ m}$.
+Giai đoạn 3: Hãm chậm dần đều với gia tốc $a_3 = -1,2\text{ m/s}^2$ trên quãng đường $h_3 = 3,0\text{ m}$ để dừng lại ở độ cao $15\text{ m}$. Tính tổng công $A_{tổng}$ do lực nâng cáp cần cẩu thực hiện trong cả 3 giai đoạn và so sánh với $A_{\min}$.
+Giải thích tại sao công tổng cộng trong trường hợp nâng 3 giai đoạn lại đúng bằng công nâng đều tối thiểu $A_{\min}$, thể hiện bản chất của công trọng lực và định lý động năng.
+PHẦN 5: ĐÁP ÁN VÀ LỜI GIẢI CHI TIẾT (100%)
+PHẦN 1: TRẮC NGHIỆM 4 PHƯƠNG ÁN
+B | $A = F \cdot s \cdot \cos\alpha = 300 \times 20 \times \cos 60^\circ = 3000\text{ J}$.
+B | Vệ tinh chuyển động tròn đều $\rightarrow$ Trọng lực đóng vai trò lực hướng tâm $\vec{P} \perp \vec{v} \rightarrow \alpha = 90^\circ \rightarrow A = 0\text{ J}$.
+A | $v_0 = 90\text{ km/h} = 25\text{ m/s}$. Sử dụng Định lý động năng: $A_{ms} = \Delta E_đ = 0 - \frac{1}{2} m v_0^2 = - \frac{1}{2} \times 2800 \times 25^2 = -875000\text{ J}$.
+D | $1\text{ kWh} = 1000\text{ W} \times 3600\text{ s} = 3,6 \times 10^6\text{ J} = 3,6\text{ MJ}$.
+C | Độ dịch chuyển $s = 0 \rightarrow A = F \cdot 0 = 0\text{ J}$. Trọng lực và lực nâng đều không thực hiện công cơ học.
+A | Độ cao dốc $h = L \cdot \sin\beta = 10 \times \sin 30^\circ = 5,0\text{ m}$. Công trọng lực $A_P = +m g h = 5,0 \times 9,8 \times 5,0 = +245\text{ J}$.
+C | Trọng lực là lực thế (lực bảo toàn), công chỉ phụ thuộc vị trí đầu và cuối ($A_P = mgh_1 - mgh_2$).
+B | Đồ thị $F(x)$ dạng hình thang vuông. Diện tích $S = \frac{(F_1 + F_2) \cdot \Delta x}{2} = \frac{(10 + 30) \times 4}{2} = 80\text{ J}$.
+A | $A = F \cdot s \cdot \cos\alpha = 50 \times 10 \times \cos 30^\circ = 500 \times \frac{\sqrt{3}}{2} \approx 433\text{ J}$.
+C | Lực căng dây luôn vuông góc với vận tốc tức thời (phương tiếp tuyến) $\rightarrow \alpha = 90^\circ \rightarrow A = 0\text{ J}$.
+C | Trọng lực là lực bảo toàn, trên một đường cong kín ($h_1 = h_2$) công $A_P = mgh_1 - mgh_2 = 0\text{ J}$.
+B | Lực ma sát là lực không bảo toàn, vectơ lực ma sát luôn ngược chiều vận tốc tức thời nên công ma sát trên từng vi phân $dA = -F_{ms} ds < 0 \rightarrow \sum A_{ms} < 0$.
+B | Lực nâng cáp $F = m(g + a) = 10000 \times (9,8 + 1,0) = 108000\text{ N}$. Công $A = F \cdot h = 108000 \times 12 = 1296000\text{ J} = 1296\text{ kJ}$.
+B | Hợp lực $F_{hl} = 2 F_1 \cos 30^\circ = 2 \times 5000 \times \frac{\sqrt{3}}{2} = 5000\sqrt{3}\text{ N}$. Công $A = F_{hl} \cdot s = 5000\sqrt{3} \times 200 = 1000000\sqrt{3}\text{ J} \approx 1732\text{ kJ}$.
+A | Theo Định lý Động năng: $A_{hl} = \Delta E_đ = \frac{1}{2} m v_2^2 - 0 = \frac{1}{2} \times 2600 \times 20^2 = 520000\text{ J} = 520\text{ kJ}$.
+A | Băng tải tăng tốc làm người gia tốc theo. Lực ma sát nghỉ do băng tải tác dụng hướng cùng chiều chuyển động $\rightarrow \alpha = 0^\circ \rightarrow A_{msn} > 0$.
+B | Công phụ thuộc độ dịch chuyển $s$. Độ dịch chuyển xét trong HQC đất lớn hơn nhiều so với HQC toa tàu $\rightarrow A_1 \ne A_2$.
+B | Lực đàn hồi ngược chiều biến dạng nén $\rightarrow A_{đh} = -\frac{1}{2} k x^2 = -\frac{1}{2} \times 100 \times 0,1^2 = -0,5\text{ J}$.
+A | Trọng lực hướng xuống làm vật đi xuống ($\alpha_P < 90^\circ \rightarrow A_P > 0$). Lực ma sát ngược chiều trượt ($\alpha_{ms} = 180^\circ \rightarrow A_{ms} < 0$). Pháp lực $\vec{N} \perp \vec{v} \rightarrow A_N = 0$.
+C | $A_{cản} = 0 - \frac{1}{2} m v_0^2 = - \frac{1}{2} \times 0,05 \times 100^2 = -250\text{ J}$. Độ lớn lực cản $F_{cản} = |A_{cản}| / s = 250 / 0,10 = 25000\text{ N}$.
+PHẦN 2: TRẮC NGHIỆM ĐÚNG/SAI
+Câu 1:
+
+a) ĐÚNG: Bỏ qua ma sát, $A_{hl} = A_k = \Delta E_đ$.
+b) ĐÚNG: Chuyển động thẳng đều $\rightarrow \sum F = 0 \rightarrow A_{hl} = 0\text{ J}$.
+c) SAI: Xe di chuyển nằm ngang, $\vec{P} \perp \vec{v} \rightarrow A_P = 0\text{ J}$.
+d) ĐÚNG: Khi phanh trượt lê, $A_{ms} = - \frac{1}{2} m v^2 < 0$, cơ năng chuyển hóa hoàn toàn thành nhiệt năng.
+Câu 2:
+
+a) ĐÚNG: Lực bảo toàn có công trên chu trình kín bằng $0$.
+b) ĐÚNG: Lực ma sát phụ thuộc đường đi $\rightarrow$ lực không bảo toàn.
+c) ĐÚNG: Chỉ có lực bảo toàn $\rightarrow$ Cơ năng bảo toàn ($W = \text{const}$).
+d) SAI: Lực ma sát trượt luôn ngược chiều chuyển động nên công trên chu trình kín luôn âm, không bằng $0$.
+Câu 3:
+
+a) ĐÚNG: Ý nghĩa đại số của diện tích dưới đồ thị $F(x)$ là công $A$.
+b) ĐÚNG: $F = \text{const} \rightarrow A = F \cdot \Delta x$.
+c) ĐÚNG: $A = \int_0^x k x dx = \frac{1}{2} k x^2$ (diện tích tam giác vuông).
+d) SAI: Đơn vị diện tích $F \times x$ là $\text{N} \cdot \text{m} = \text{Joule (J)}$.
+Câu 4:
+
+a) SAI: Vệ tinh chuyển động tròn đều $\vec{P} \perp \vec{v} \rightarrow A = 0\text{ J}$.
+b) ĐÚNG: $s = 0 \rightarrow A = F \cdot 0 = 0\text{ J}$.
+c) ĐÚNG: Góc tù $\cos\alpha < 0 \rightarrow A < 0$ (công cản).
+d) SAI: Lực nâng $\vec{N}$ hướng thẳng đứng lên, người đi ngang $\rightarrow \vec{N} \perp \vec{v} \rightarrow A_N = 0\text{ J}$.
+Câu 5:
+
+a) ĐÚNG: Định lý Động năng tổng quát $A_{hl} = \Delta E_đ$.
+b) ĐÚNG: $A_{hl} > 0 \rightarrow \Delta E_đ > 0 \rightarrow v_2 > v_1$.
+c) ĐÚNG: Định lý động năng chỉ áp dụng trong HQC quán tính.
+d) SAI: Định lý động năng áp dụng cho mọi loại lực (hằng số hay biến thiên) bằng công tích phân $A = \int F dx$.
+PHẦN 3: TRẮC NGHIỆM TRẢ LỜI NGẮN
+Câu 1: 86,6
+
+Giải: $A = F \cdot s \cdot \cos\alpha = 2000 \times 50 \times \cos 30^\circ = 100000 \times \frac{\sqrt{3}}{2} \approx 86602,5\text{ J} \approx 86,6\text{ kJ}$.
+Câu 2: 490 (hoặc 490,0)
+
+Giải: Độ cao dốc $h = L \cdot \sin 30^\circ = 5,0 \times 0,5 = 2,5\text{ m}$.
+$A_P = m g h = 20 \times 9,8 \times 2,5 = 490\text{ J}$.
+Câu 3: 20250
+
+Giải: Áp dụng Định lý Động năng: $A_{ms} = 0 - \frac{1}{2} m v^2 = - \frac{1}{2} \times 180 \times 15^2 = -20250\text{ J}$.
+Độ lớn công $|A_{ms}| = 20250\text{ J}$.
+Câu 4: 112,5
+
+Giải: Điện năng tiêu thụ 1 ngày: $W_1 = 1,5\text{ kW} \times 2,5\text{ h} = 3,75\text{ kWh}$.
+Tổng điện năng 30 ngày: $W = 3,75 \times 30 = 112,5\text{ kWh}$.
+Câu 5: 75 (hoặc 75,0)
+
+Giải: Lực tại $x_1 = 0$ là $F_1 = 10\text{ N}$. Lực tại $x_2 = 5\text{ m}$ là $F_2 = 10 + 2(5) = 20\text{ N}$.
+Hình dạng đồ thị là hình thang vuông $\rightarrow A = \frac{(F_1 + F_2) \cdot (x_2 - x_1)}{2} = \frac{(10 + 20) \times 5}{2} = 75\text{ J}$.
+PHẦN 4: TỰ LUẬN
+Câu 1:
+
+Gia tốc và quãng đường:
+$v = 30\text{ m/s}, \Delta t = 6,0\text{ s} \rightarrow a = \frac{v - v_0}{\Delta t} = \frac{30 - 0}{6,0} = 5,0\text{ m/s}^2$.
+Quãng đường $s = \frac{1}{2} a t^2 = \frac{1}{2} \times 5,0 \times 6,0^2 = 90\text{ m}$.
+Lực kéo và công lực kéo:
+Lực ma sát $F_{ms} = \mu m g = 0,05 \times 2600 \times 9,8 = 1274\text{ N}$.
+Phương trình Newton 2: $F_k - F_{ms} = m a \rightarrow F_k = m a + F_{ms} = 2600 \times 5,0 + 1274 = 14274\text{ N}$.
+Công lực kéo $A_k = F_k \cdot s = 14274 \times 90 = 1284660\text{ J} \approx 1284,7\text{ kJ}$.
+Công lực ma sát và kiểm chứng định lý động năng:
+Công lực ma sát $A_{ms} = - F_{ms} \cdot s = -1274 \times 90 = -114660\text{ J} \approx -114,7\text{ kJ}$.
+Tổng công hợp lực $A_{hl} = A_k + A_{ms} = 1284660 - 114660 = 1170000\text{ J} = 1170\text{ kJ}$.
+Độ biến thiên động năng $\Delta E_đ = \frac{1}{2} m v^2 - 0 = \frac{1}{2} \times 2600 \times 30^2 = 1170000\text{ J} = 1170\text{ kJ}$.
+Nhận xét: $A_{hl} = \Delta E_đ = 1170\text{ kJ}$ (Định lý động năng được chứng minh hoàn toàn).
+Câu 2:
+
+Công trên đoạn dốc $AB$:
+Độ cao dốc $h = L \cdot \sin 30^\circ = 8,0 \times 0,5 = 4,0\text{ m}$.
+Công trọng lực $A_P = m g h = 4,0 \times 9,8 \times 4,0 = 156,8\text{ J}$.
+Pháp lực $N_1 = m g \cos 30^\circ = 4,0 \times 9,8 \times 0,866 = 33,95\text{ N}$.
+Lực ma sát $F_{ms1} = \mu_1 N_1 = 0,20 \times 33,95 = 6,79\text{ N}$.
+Công ma sát $A_{ms1} = - F_{ms1} \cdot L = -6,79 \times 8,0 = -54,32\text{ J}$.
+Vận tốc tại chân dốc $B$:
+Định lý động năng trên $AB$: $A_P + A_{ms1} = \frac{1}{2} m v_B^2 - 0$.
+$156,8 - 54,32 = \frac{1}{2} \times 4,0 \times v_B^2 \rightarrow 102,48 = 2,0 v_B^2 \rightarrow v_B = \sqrt{51,24} \approx 7,16\text{ m/s}$.
+Đoạn nằm ngang $BC$:
+Định lý động năng trên $BC$: $A_{ms2} = 0 - \frac{1}{2} m v_B^2 = -102,48\text{ J}$.
+Lực ma sát $F_{ms2} = \mu_2 m g = 0,25 \times 4,0 \times 9,8 = 9,8\text{ N}$.
+Quãng đường $s_{BC} = \frac{|A_{ms2}|}{F_{ms2}} = \frac{102,48}{9,8} = 10,46\text{ m}$.
+Câu 3:
+
+Đồ thị $F_x(x)$:
+Tại $x = 0 \rightarrow F_x = 20\text{ N}$.
+Tại $x = 5,0\text{ m} \rightarrow F_x = 20 - 4(5) = 0\text{ N}$.
+Đồ thị là đoạn thẳng nối điểm $(0; 20)$ và $(5,0; 0)$ tạo thành tam giác vuông trên hệ tọa độ $F - x$.
+Tính công $A$:
+Phương pháp hình học: $A = S_{\Delta} = \frac{1}{2} \times 20 \times 5,0 = 50\text{ J}$.
+Phương pháp tích phân: $A = \int_0^5 (20 - 4x) dx = \left[ 20x - 2x^2 \right]_0^5 = 20(5) - 2(25) = 100 - 50 = 50\text{ J}$.
+Tìm vận tốc $v_2$:
+Định lý động năng: $A = \frac{1}{2} m v_2^2 - \frac{1}{2} m v_1^2$.
+$50 = \frac{1}{2} \times 2,0 \times v_2^2 - \frac{1}{2} \times 2,0 \times 2,0^2 \rightarrow 50 = v_2^2 - 4 \rightarrow v_2^2 = 54 \rightarrow v_2 = \sqrt{54} \approx 7,35\text{ m/s}$.
+Câu 4:
+
+Sơ đồ & Quy trình:
+Đặt khối gỗ trên mặt bàn phẳng nằm ngang. Nối lực kế lò xo với khối gỗ sao cho dây kéo nằm ngang.
+Dùng tay kéo nhẹ lực kế tăng dần cho đến khi khối gỗ trượt thẳng đều. Đọc giá trị lực kéo $F$ trên lực kế trong quá trình trượt đều.
+Dùng thước đo chiều dài quãng đường $s$ khối gỗ dịch chuyển.
+Xử lý số liệu:
+Giá trị trung bình lực kéo: $\bar{F} = \frac{2,10 + 2,05 + 2,15 + 2,08 + 2,12}{5} = 2,10\text{ N}$.
+Giá trị trung bình quãng đường: $\bar{s} = \frac{0,500 + 0,502 + 0,498 + 0,500 + 0,500}{5} = 0,500\text{ m}$.
+Công trung bình: $\bar{A} = \bar{F} \cdot \bar{s} = 2,10 \times 0,500 = 1,050\text{ J}$.
+Tính sai số và viết kết quả chuẩn ISO/SI:
+Sai số ngẫu nhiên lực kéo $\Delta F$: $|2,10-2,10|=0$; $|2,05-2,10|=0,05$; $|2,15-2,10|=0,05$; $|2,08-2,10|=0,02$; $|2,12-2,10|=0,02$.
+$\overline{\Delta F} = \frac{0 + 0,05 + 0,05 + 0,02 + 0,02}{5} = 0,028\text{ N} \approx 0,03\text{ N} \rightarrow \delta F = \frac{0,03}{2,10} \approx 1,43%$.
+Sai số ngẫu nhiên quãng đường $\Delta s$: $\overline{\Delta s} = \frac{0 + 0,002 + 0,002 + 0 + 0}{5} = 0,0008\text{ m} \approx 0,001\text{ m} \rightarrow \delta s = \frac{0,001}{0,500} = 0,20%$.
+Sai số tương đối công $\delta A = \delta F + \delta s = 1,43% + 0,20% = 1,63%$.
+Sai số tuyệt đối công $\Delta A = \bar{A} \cdot \delta A = 1,050 \times 1,63% = 0,0171\text{ J} \approx 0,02\text{ J}$.
+Viết kết quả đo chuẩn ISO/SI: $A = (1,05 \pm 0,02)\text{ J}$.
+Câu 5:
+
+Công nâng đều tối thiểu $A_{\min}$:
+$A_{\min} = M g h = 2000 \times 9,8 \times 15 = 294000\text{ J} = 294\text{ kJ}$.
+Tính công trong 3 giai đoạn:
+Giai đoạn 1 ($h_1 = 3,0\text{ m}, a_1 = 1,2\text{ m/s}^2$): Lực nâng $F_1 = M(g + a_1) = 2000 \times (9,8 + 1,2) = 22000\text{ N}$. Công $A_1 = F_1 \cdot h_1 = 22000 \times 3,0 = 66000\text{ J} = 66\text{ kJ}$.
+Giai đoạn 2 ($h_2 = 9,0\text{ m}, a_2 = 0$): Lực nâng $F_2 = M g = 2000 \times 9,8 = 19600\text{ N}$. Công $A_2 = F_2 \cdot h_2 = 19600 \times 9,0 = 176400\text{ J} = 176,4\text{ kJ}$.
+Giai đoạn 3 ($h_3 = 3,0\text{ m}, a_3 = -1,2\text{ m/s}^2$): Lực nâng $F_3 = M(g + a_3) = 2000 \times (9,8 - 1,2) = 17200\text{ N}$. Công $A_3 = F_3 \cdot h_3 = 17200 \times 3,0 = 51600\text{ J} = 51,6\text{ kJ}$.
+Tổng công cả 3 giai đoạn: $A_{tổng} = A_1 + A_2 + A_3 = 66000 + 176400 + 51600 = 294000\text{ J} = 294\text{ kJ}$.
+So sánh: $A_{tổng} = A_{\min} = 294\text{ kJ}$.
+Giải thích vật lý:
+Trong giai đoạn 1, lực nâng $F_1 > Mg$ thực hiện công lớn hơn $A_{P1}$ để tích lũy động năng cho thùng hàng ($E_đ = M a_1 h_1 = 2000 \times 1,2 \times 3 = 7200\text{ J}$).
+Trong giai đoạn 3, khi hãm phanh chậm dần, lực nâng $F_3 < Mg$ giảm xuống, thùng hàng sinh công giải phóng toàn bộ động năng $7200\text{ J}$ đó để tiếp tục đi lên độ cao còn lại.
+Do vận tốc ban đầu và vận tốc cuối đều bằng $0$ ($v_0 = 0, v_{cuối} = 0 \rightarrow \Delta E_đ = 0$), theo Định lý Động năng $A_{tổng} + A_P = 0 \rightarrow A_{tổng} = -A_P = Mgh = 294\text{ kJ}$. Điều này khẳng định công tổng cộng của ngoại lực nâng chỉ phụ thuộc vào độ chênh lệch độ cao ban đầu và cuối, hoàn toàn độc lập với vận tốc hay gia tốc ở các giai đoạn trung gian!
