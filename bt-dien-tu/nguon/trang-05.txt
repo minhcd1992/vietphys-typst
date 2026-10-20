@@ -1,0 +1,52 @@
+Điện từ học                                 Phạm Nguyễn Thành Vinh – Trương Đặng Hoài Thu
+b) Hỏi với khoảng cách r bằng bao nhiêu thì bắt đầu xem 1q như điện tích điểm, cách 2q một khoảng
+
+r mà sai số không vượt quá 1%.
+
+Bài 1.16 Một bán cầu kim loại, bán kính R, tích điện đều với mật độ
+
+điện mặt σ > 0. Tại đỉnh của bán cầu treo một sợi dây tơ mảnh, chiều dài
+
+R. Đầu dưới của sợi dây treo một quả cầu nhỏ khối lượng m, tích điện
+
+Q > 0. Biết rằng điện tích của quả cầu không làm ảnh hưởng đến sự phân
+
+bố điện tích trên bề mặt bán cầu, bỏ qua tác dụng của trọng lực.
+
+a) Tìm độ lớn lực căng dây khi quả cầu ở vị trí cân bằng.
+
+b) Cho quả cầu dao động với biên độ nhỏ, khi đó xem như lực mà bán cầu tác dụng lên quả cầu không
+
+thay đổi phương, chiều và độ lớn. Tìm chu kì dao động của quả cầu.
+
+Bài 1.17 Một thanh thẳng chiều dài  l tích điện đều với mật độ điện dài
+ và điện tích tổng cộng Q , nằm dọc theo trục x như hình. Xác định
+cường độ điện trường tại điểm P nằm ngoài trục của thanh và cách thanh
+một khoảng y.
+
+Bài 1.18 Hai quả cầu nhỏ có khối lượng m = 15.0 g được treo bởi hai sợi tơ có chiều dài L = 1.20m tại
+một điểm chung (Hình vẽ). Khi hai quả cầu được tích cùng một lượng điện tích âm q1 = q2 = q , mỗi sợi
+tơ tạo một góc = 25.0o so với phương thẳng đứng.
+
+a) Vẽ hình vẽ miêu tả lực tác dụng trên mỗi quả cầu, xem quả cầu như là điện tích
+điểm.
+
+b) Xác định độ lớn của q .
+
+c) Mỗi sợi tơ được cắt ngắn còn lại L = 0.600 m , trong khi đó điện tích trên hai quả
+
+cầu không đổi. Góc tạo bởi mỗi sợi tơ so với phương thẳng đứng mới là bao nhiêu?
+
+Bài 1.19 Tại một điểm người ta treo hai quả cầu nhỏ giống nhau có khối lượng riêng 1 bằng những sợi
+
+dây mảnh có độ dài bằng nhau. Khi hai quả cầu nhiễm điện bằng nhau về độ lớn và cùng dấu chúng đẩy
+nhau và dây treo hợp với nhau một góc.1 Nhúng hệ thống vào một chất lỏng đồng chất không dẫn điện
+có khối lượng riêng ,2 hằng số điện môi  thì thấy góc này nhỏ đi và bằng .2
+
+a) Xác định biểu thức tính hằng số điện môi ε.
+
+b) Tính ε cho trường hợp chất lỏng là dầu hoả có =2  800kg / m 3 , khối lượng riêng của quả cầu là
+=1  2,55  10 3 kg / m 3 , góc =1  60 0 , =2  54 0 .
+
+
+                                            4

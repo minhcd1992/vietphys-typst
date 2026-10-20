@@ -1,0 +1,56 @@
+Điện từ học                                 Phạm Nguyễn Thành Vinh – Trương Đặng Hoài Thu
+
+3. Định luật Gauss
+
+Bài 3.1 Cho bốn mặt kín và các điện tích −2Q , Q , −Q như hình (các đường
+
+màu là các đường giao của các mặt kín với mặt phẳng chứa các điện tích). Tìm
+
+điện thông qua mỗi mặt kín trên.
+
+Bài 3.2 Xét một điện tích dương +Q đặt tại tâm của một hình lập phương cạnh
+
+2l. Hãy dùng định nghĩa điện thông để tính giá trị điện thông của điện trường do
+
+điện tích dương này gây ra xuyên qua hình lập phương.
+
+Bài 3.3 Một điện tích q = +5.80μC nằm ở tâm của một tứ diện đều (có 4 mặt)
+
+như hình.
+
+a) Tính tổng điện thông qua tất cả các mặt của tứ diện.
+
+b) Điện thông qua một mặt của tứ diện.
+
+Bài 3.4 Các tế bào thần kinh con người mang điện tích âm và được làm từ các
+chất dẫn điện tốt. Giả sử tế bào lớn điện tích −8.65 pC , tìm độ lớn và hướng (hướng ra hay hướng vào)
+
+của điện thông qua tế bào.
+
+Bài 3.5 Một tấm phẳng hình chữ nhật có chiều rộng là
+0.400 m và chiều dài là 0.600 m . Tấm phẳng được
+
+đặt trong điện trường đều có độ lớn là 75 V/m và hợp
+với tấm phẳng một góc 20(như trong hình). Tính điện thông qua tấm phẳng.
+
+                                      
+Bài 3.6 Điện trường của một điểm nằm ngoài một dây dẫn thẳng dài vô hạn có độ lớn là E =            .
+                                                                      2 0 r
+Giả sử có một hình trụ bán kính r = 0.025 m và chiều dài l = 0.400 m được đặt đồng trục với dây dẫn
+
+trên. Biết dây dẫn tích điện đều với mật độ điện dài = 3.00 C/m .
+
+a) Tính điện thông qua hình trụ.
+
+b) Tính điện thông qua hình trụ khi bán kính hình trụ là r = 0.500 m .
+
+c) Tính điện thông qua dây khi chiều dài hình trụ là l = 0.800 m .
+
+Bài 3.7 Một hình trụ đặc dài vô hạn có bán kính R tích điện đều với mật độ điện khối  0 .
+
+a) Tìm biểu thức tính điện trường bên trong hình trụ theo mật độ điện khối  và khoảng cách r tính từ
+
+trục của hình trụ.
+
+
+                                            11

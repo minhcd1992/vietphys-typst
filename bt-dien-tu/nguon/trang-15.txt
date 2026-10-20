@@ -1,0 +1,54 @@
+Điện từ học                                 Phạm Nguyễn Thành Vinh – Trương Đặng Hoài Thu
+
+4. Tụ điện – điện môi
+
+Bài 4.1 Xem bề mặt Trái Đất và một đám mây trên cao 800m so với mặt đất là hai bản của tụ điện phẳng
+
+song song.
+
+a) Nếu tiết diện đám mây là 1.0km 2 = 1.0  10 6 m 2 , hãy tính điện dung của tụ điện trên.
+
+b) Biết rằng, không khí bị đánh thủng khi điện trường giữa mặt đất và đám mây có cường độ lớn hơn
+3.0  10 6 V/m . Hãy xác định điện tích tối đa mà đám mây có thể chứa?
+
+Bài 4.2 Một con chip lưu trữ thông tin trong máy tính được cấu tạo từ các tụ điện có điện dung tổng
+cộng của mỗi tụ là 60.0  10 −15 F . Mỗi bản của các tụ điện trên có tiết diện là 21.0  10 −12 m 2 (Giả sử
+
+các bản có dạng phẳng và đặt song song với nhau). Xác định khoảng cách giữa các bản, biết rằng khoảng
+
+                                                                −10cách giữa các bản kim loại là khoảng angstroms 1A = 10 m .
+
+Bài 4.3 Điện dung của dao động ký điện tử: Hệ thống lái tia của dao động ký điện tử gồm các tấm kim
+
+loại song song (còn gọi là tấm lệch) để làm lệch chùm tia electron. Thông thường, các tấm lệch có dạng
+
+hình vuông cạnh 3.0cm được đặt cách nhau 5.0mm và ở giữa chúng là chân không. Xác định điện dung
+
+của các tấm lệch trong dao động ký điện tử. (Lưu ý: điện dung này đôi khi ảnh hưởng đến mạch và phải
+
+được xem xét khi tính toán.)
+
+Bài 4.4 Màng tế bào (bao xung quanh một tế bào) thường dày
+khoảng 7.5 nm , có tính bán thấm nghĩa là cho các vật liệu nhiễm
+điện đi vào hoặc đi ra khỏi tế bào nếu cần thiết. Mặt trong và mặt
+ngoài của màng tế bào có mật độ điện tích bằng nhau nhưng trái
+dấu, và những điện tích này sẽ ngăn chặn các điện tích thêm vào
+muốn đi qua thành tế bào. Chúng ta có thể mô hình hóa màng tế bào
+như là một tụ điện hai bản song song, biết rằng màng có chứa các protein được nhúng trong vật liệu hữu
+cơ, do đó màng có hằng số điện môi khoảng bằng 10.
+
+a) Hãy tính điện dung trên một centimet vuông thành tế bào.
+
+b) Ở trạng thái nghỉ bình thường, tế bào có một hiệu điện thế là 85 mV trên màng của nó. Hỏi điện
+
+trường bên trong màng tế bào là bao nhiêu.
+
+Bài 4.5 Mô hình của một tế bào hồng cầu được mô tả như một tụ điện cầu, một quả cầu chất lỏng tích
+điện dương trên bề mặt có diện tích A được ngăn cách với chất lỏng tích điện âm bởi một màng tế bào
+có độ dày t . Những điện cực nhỏ được đưa vào bên trong của tế bào cho thấy điện thế chênh lệch hai
+
+bên màng tế bào là 100mV. Màng tế bào có bề dày được ước tính khoảng 100nm và có hằng số điện môi
+5.00.
+
+
+                                            14

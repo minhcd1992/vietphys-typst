@@ -1,0 +1,57 @@
+Điện từ học                                 Phạm Nguyễn Thành Vinh – Trương Đặng Hoài Thu
+c) Nếu electron bắt đầu chuyển động tại z = 4 d , tìm vận tốc của electron tại vị trí z = 3d .
+
+Bài 2.10 Đồng vị không bền  92236 U  có thể xem  là một quả cầu  tích điện đều có bán kính
+
+R = 7.4  10 −15 m. Trong phản ứng phân hạch, một hạt nhân có thể tách thành hai hạt nhân con có điện
+
+tích và thể tích bằng một nửa hạt nhân ban đầu. Đây là một phản ứng xảy ra trong quả bom nguyên tử
+
+đã nổ vào tháng 8/1945 tại Hiroshima, Nhật Bản.
+
+a) Tìm bán kính của hai hạt nhân con.
+
+b) Trong một mô hình đơn giản của quá trình phân hạch, ngay sau khi phản ứng xảy ra, hai hạt nhân con
+
+đều ở trạng thái nghỉ và tiếp xúc nhau như hình vẽ. Hãy tính động năng của mỗi hạt nhân con khi chúng
+
+ở rất xa nhau.
+
+c) Trong mô hình trên, kết quả động năng được tính ở câu b) chính là năng
+
+lượng được giải phóng bởi phản ứng phân hạch một hạt nhân 236U . Hãy tính
+
+năng lượng giải phóng bởi phản ứng phân hạch của 10.0 kg  236U và biểu
+
+diễn kết quả theo cả hai đơn vị J và ktTNT.
+
+Biết rằng: khối lượng 236U  là 236 u , với 1u = 1.66  10 −24 g và 1ktTNT khi nổ có thể giải phóng
+
+4.18  1012 J .
+
+Bài 2.11 Điện thế của điện trường gây bởi một hệ điện tích có dạng = a x 2 + y 2 + bz 2 trong đó                                                                                     (         )
+
+a  0, b  0 .
+
+a) Tìm vector cường độ điện trường E và module E của nó.
+
+b) Những mặt đẳng thế có dạng như thế nào?
+
+c) Những mặt ứng với E = const có dạng như thế nào?
+
+Bài 2.12 Cho hai bản kim loại hình vuông cạnh 3.0cm đặt song song cách nhau 5.0mm , mang cùng
+
+một độ lớn điện tích nhưng trái dấu nhau. Hiệu điện thế giữa hai bản là 25.0V . Hai bản được đặt rất
+
+gần nhau nên ta có thể bỏ qua hiệu ứng mép.
+
+a) Mỗi bản có điện tích là bao nhiêu?
+
+b) Cường độ điện trường giữa hai bản là bao nhiêu?
+
+c) Giả sử có một electron bắt đầu di chuyển từ trạng thái nghỉ từ bản âm. Hỏi electron sẽ đạt được tốc
+
+độ bao nhiêu khi nó di chuyển đến bản dương.
+
+
+                                            7

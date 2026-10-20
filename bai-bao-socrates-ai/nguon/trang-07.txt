@@ -1,0 +1,11 @@
+FIG. 2.
+Critical-thinking rubric scores across groups and kinematics problems. (a) Total critical-thinking rubric scores for the six
+groups in Activity 1 (A1; teacher-guided Socratic dialogue) and Activity 2 (A2; teacher-guided Socratic dialogue mediated by
+generative artificial intelligence); values above each pair of bars indicate the change in total score from A1 to A2. (b) Problem-level
+critical-thinking rubric scores for the same six groups across five kinematics problems (P1–P5) under A1 and A2. Color intensity
+represents score magnitude from lower (cool colors) to higher values (warm colors), enabling visual comparison across groups,
+problems, and instructional conditions. The visualization is descriptive, and the scores should be interpreted in light of the fixed-order
+preexperimental design.
+EFFECTS OF GENERATIVE AI-MEDIATED …
+PHYS. REV. PHYS. EDUC. RES. 22, 020134 (2026)
+020134-7

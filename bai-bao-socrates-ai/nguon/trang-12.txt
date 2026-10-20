@@ -1,0 +1,111 @@
+in Problems 1 and 4, along with positive trends in the
+remaining problems analyzed. These results suggest that
+GAI can enrich Socratic dialogue by supporting concep-
+tual accuracy, inferential elaboration, and metacognitive
+revision. The absence of negative performance impacts,
+together with the overall improvement observed, supports
+the pedagogical feasibility and potential benefits of inte-
+grating GAI tools within this disciplinary context.
+Analysis of the secondary research questions further
+revealed that GAI mediation positively influenced stu-
+dents’ perceptions of learning. Significant increases were
+observed in kinematics self-efficacy and intrinsic motiva-
+tion among prospective teachers, who evaluated the role of
+GAI in their learning process favorably. These subjective
+gains were consistent with the objective improvements in
+performance. Cognitive load, however, exhibited a more
+complex pattern. While GAI facilitated access to informa-
+tion and conceptual clarification, it also required students
+to engage in monitoring and quality control of generated
+responses. This finding underscores the importance of
+pedagogical designs that integrate GAI as a teacher-
+supervised cognitive scaffold rather than as an answer-
+providing tool.
+Within the conditions examined in this study, the
+SOCRATIC-IA model provides a preliminary instructional
+framework for integrating teacher-guided Socratic dia-
+logue and generative AI in kinematics problem solving.
+The findings support further investigation of its feasibility
+and pedagogical value, but they do not establish its
+effectiveness beyond the present sample and instructional
+context. Further research using larger samples, controlled
+or counterbalanced designs, equivalent nonidentical tasks,
+and measures of retention and transfer is needed to
+determine whether the observed patterns can be replicated
+and attributed more specifically to GAI-mediated Socratic
+support.
+By integrating Socratic dialogue with the adaptive
+and feedback capabilities of GAI, this approach not only
+enhances conceptual and numerical problem solving in
+translational kinematics but also fosters self-efficacy and
+intrinsic motivation—key factors for autonomous and
+lifelong learning. More broadly, this research opens
+avenues
+for
+exploring
+how
+pedagogically
+grounded
+applications of generative AI can transform STEAM
+learning environments by cultivating deeper, more trans-
+ferable forms of reasoning.
+APPENDIX: SUPPLEMENTARY MATERIALS
+The supplementary materials for this article are avail-
+able as open online resources in Figshare and document
+the instructional, assessment, and AI-mediated compo-
+nents of the intervention. Supplementary Material S1:
+Kinematics Problem Set presents the conceptual and
+quantitative kinematics problems used during the learning
+activities, including tasks on average speed, average
+velocity, acceleration, graphical interpretation, and relative
+motion
+(https://doi.org/10.6084/m9.figshare.32733156).
+Supplementary Material S2: Socratic Questions provides
+the teacher-designed Socratic prompts aligned with the
+analytic rubric, showing how students’ reasoning was
+guided across conceptual understanding, argumentation,
+examples, error correction, and clarity of response (https://
+doi.org/10.6084/m9.figshare.32733849).
+Supplementary
+Material S3: Analytic Rubric contains the scoring instru-
+ment used to evaluate discipline-specific critical thinking
+in kinematics through five criteria and four performance
+levels
+(https://doi.org/10.6084/m9.figshare.32735553).
+Supplementary Material S4: Prompt Structure describes
+the role, context, instructions, and output format used
+during the generative AI-mediated phase, as well as the
+boundaries of teacher supervision and conceptual valida-
+tion
+(https://doi.org/10.6084/m9.figshare.32735838.v1).
+Finally, Solution to Problem 1 provides a worked example
+of a student-group response on average speed and average
+velocity in circular motion, illustrating the type of reason-
+ing, mathematical justification, and AI-supported Socratic
+reflection analyzed in the study (https://doi.org/10.6084/
+m9.figshare.32751666.v1).
+DATA AVAILABILITY
+There are no publicly available research data or software
+supporting this manuscript. Requests for further informa-
+tion or data should be sent to the authors.
+[1]
+J. L. Docktor, N. E. Strand, J´e P. Mestre, and B. H. Ross,
+Conceptual problem solving in high school physics,
+Phys. Rev. ST Phys. Educ. Res. 11, 020106 (2015).
+[2]
+I. Sánchez Soto, M. A. Moreira, and C. Caballero
+Sahelices, Implementation of a proposal for meaningful
+learning of kinematics through problem solving, Ingeniare
+17, 27 (2009).
+[3]
+B. Mitrevski, Teaching critical thinking and problem
+solving in physics, AIP Conf. Proc. 2075, 180001
+(2019).
+[4]
+M. Ubaidillah, H. Hartono, P. Marwoto, W. Wiyanto, and
+B. Subali, How to improve critical thinking in physics
+learning? A systematic literature review, J. Educ. Cultural
+Psychol. Stud. 161 (2023).
+MARCOS GUERRERO-ZAMBRANO et al.
+PHYS. REV. PHYS. EDUC. RES. 22, 020134 (2026)
+020134-12

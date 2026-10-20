@@ -1,0 +1,55 @@
+Điện từ học                                 Phạm Nguyễn Thành Vinh – Trương Đặng Hoài Thu
+Bài 2.18 Người ta đặt một hiệu điện thế U = 450V giữa hai hình trụ dài đồng trục bằng kim loại mỏng
+bán kính r1 = 3cm và r2 = 10cm . Hãy tính:
+
+a) Điện tích trên một đơn vị dài của hình trụ.
+
+b) Mật độ điện mặt trên mỗi hình trụ.
+
+c) Cường độ điện trường tại một điểm ở gần sát mặt trụ trong, ở trung điểm của khoảng cách giữa hai
+
+hình trụ và ở gần sát mặt hình trụ ngoài.
+
+Bài 2.19 Máy đếm Geiger có thể phát hiện bức xạ như là
+
+các hạt alpha bằng cách vận dụng hiệu ứng ion hóa không
+
+khí trong quá trình dịch chuyển của chúng. Một sợi dây
+
+điện mỏng nằm trên trục của một ống kim loại hình trụ
+
+rỗng và được cách điện với ống trụ (hình). Đặt một hiệu
+
+điện thế lớn vào giữa sợi dây và vỏ ngoài hình trụ, sợi dây
+
+có điện thế lớn hơn, gây ra một điện trường mạnh hướng theo phương bán kính và đi ra ngoài. Khi bức
+
+xạ ion hóa đi vào thiết bị, nó sẽ ion hóa một vài phân tử khí. Các electron tự do sinh ra sẽ được gia tốc
+
+bởi điện trường và di chuyển về hướng sợi dây, trên đường di chuyển, chúng sẽ ion hóa nhiều phân tử
+
+khí khác. Từ đó tạo thành các xung điện, chúng sẽ được đo và chuyển thành tiếng “click” bởi một mạch
+điện thích hợp. Giả sử bán kính của sợi dây điện là 145 m và bán kính của trụ rỗng là 1.80cm. Hiệu
+
+điện thế đặt vào là bao nhiêu nếu điện trường tại một điểm cách trục sợi dây 1.20cm có độ lớn là
+2.00  10 4 V/m? (Giả sử ống trụ và sợi dây rất dài so với bán kính của chúng).
+
+Bài 2.20 Hai vỏ cầu kim loại đồng tâm có bán kính trong R1 = 3.00 cm và bán kính ngoài R2 = 5.00 cm
+. Biết ở mặt cầu bên trong mang điện tích q1 = +6.00 nC phân bố đều trên mặt cầu và ở mặt cầu bên
+ngoài là q2 = −9.00 nC . Chọn gốc thế năng ở vô cùng.
+
+a) Tính điện thế tại điểm cách tâm của 2 vỏ cầu một đoạn r = 0 , r = 4.00 cm , r = 6.00 cm .
+
+b) Tính độ lớn độ chênh lệch điện thế trên bề mặt của hai vỏ cầu. Cho biết tại vỏ cầu nào có điện thế lớn
+
+hơn?
+
+Bài 2.21 Hai quả cầu bằng loại có kích thước khác nhau được tích điện sao cho điện thế có giá
+trị như nhau tại bề mặt mỗi quả cầu. Cho Q A , E A và QB , E B lần lượt là điện tích và cường độ
+điện trường tại bề mặt của hai quả cầu. Biết rằng bán kính của quả cầu A gấp ba lần bán kính
+quả cầu B . Hãy tính:
+
+     QB                                    E Ba) Tỉ số                                                 b) Tỉ số
+     Q A                                    E A
+
+                                            9

@@ -1,0 +1,130 @@
+work [39]. Along similar lines, multiple studies have
+shown that AI-supported Socratic dialogues can foster
+reasoning and critical-thinking processes by sustaining
+probing questions, demanding justification, and encour-
+aging argumentative revision [40,41]. Evidence from
+mathematics education further supports this mechanism:
+when dialogical exchanges are structurally constrained, AI
+tools can promote deeper thinking and autonomous dis-
+covery rather than mechanical response generation [42].
+The contribution of the present work becomes more
+meaningful when situated against a long-standing diffi-
+culty in the teaching of kinematics: the tendency to
+prioritize algorithmic procedures and data substitution
+over modeling, variable interpretation, and metacognitive
+reflection
+[1,2].
+Research
+on
+active
+methodologies
+in science education suggests that critical thinking is
+strengthened when shared argumentation, conceptual
+analysis, and guided inquiry are emphasized rather than
+mere repetition of procedures [3,4,43]. In translational
+kinematics specifically, learning requires the construction
+of mental models, the interpretation of relationships
+between quantities, and abstract reasoning—competencies
+that are central to the professional formation of future
+physics teachers. Within this framework, the Socratic
+method provides a plausible pathway for sustaining expla-
+nations grounded in reasons rather than results, and its
+articulation with GAI may expand opportunities for feed-
+back and error reconstruction, provided that interaction
+remains reflective and pedagogically supervised [6].
+Within physics education, emerging studies already
+report uses of ChatGPT aimed at strengthening teachers’
+dialogical skills and exploring customizable Socratic
+tutors, with the potential to foster active reflection and
+adaptive scaffolding [44,45]. Complementary work has
+shown that GAI can support conceptual understanding
+and learning efficiency by offering immediate feedback,
+alternative solution pathways, and opportunities for self-
+correction [46]. It is also relevant that comparisons
+between student-generated solutions and AI-generated
+responses allow the identification of both strengths and
+blind spots in each mode of reasoning, opening space for
+instructional practices centered on contrast, justification,
+and critical evaluation [47].
+From
+the
+participants’
+perspective,
+the
+observed
+increase in self-efficacy and intrinsic motivation aligns
+with studies reporting positive effects of GAI on engage-
+ment and learning perceptions, although such effects
+are contingent on task characteristics and the quality of
+pedagogical guidance [48]. At the same time, the liter-
+ature cautions that unguided use of chatbots may lead to
+poorly structured interactions, superficial reflection, and
+even reduced performance, particularly when argumenta-
+tion and metacognitive control are not explicitly required
+[39]. In this sense, the practical contribution of the
+SOCRATIC-IA approach does not lie in “using AI” per se
+but in framing its participation as a cognitive scaffold:
+prompting explanations, contrasting assumptions, request-
+ing evidence, checking dimensional and conceptual con-
+sistency, and enforcing reasoning traceability before
+accepting a response.
+Nevertheless, the methodological limitations identified
+call for a cautious interpretation of the findings. The
+preexperimental design, fixed sequence of conditions,
+and repeated use of the same problems across phases
+introduce strong threats to internal validity, including
+practice effects, familiarity, and potential carryover.
+Additionally, the small sample size and the mixture
+of
+analytical
+units—group-level
+performance
+versus
+individual-level
+perceptions—constrain
+the
+scope
+of
+inference. For a high editorial standard, it also remains
+necessary to report the reliability of the scoring process
+more explicitly, for instance, through interrater consis-
+tency, and to complement statistical significance with
+effect sizes and confidence intervals so that the magnitude
+of change is as transparent as its statistical support.
+Taken together, the study is best interpreted as situated
+and preliminary evidence. It suggests that Socratic media-
+tion can be strengthened through GAI when interaction is
+deliberately designed to demand higher-order thinking and
+when the teacher retains the role of epistemic regulator of
+the dialogue. Future research should incorporate counter-
+balancing or crossover designs, truly isomorphic tasks,
+larger samples, and assessments of retention and transfer.
+In addition, deeper qualitative analyses of the dialogues
+themselves—such as question quality, justification pat-
+terns, and mechanisms of self-correction—would help
+disentangle more precisely which aspects of change can
+be attributed to the Socratic strategy, which to GAI
+mediation, and which to accumulated practice.
+V. CONCLUSIONS
+This study compared the traditional Socratic method
+with a Socratic approach mediated by GAI to enhance
+critical thinking in prospective physics teachers during the
+resolution of conceptual and numerical problems in trans-
+lational kinematics. The preexperimental mixed-methods
+design contributes to physics education research and
+related STEAM disciplines by providing empirical evi-
+dence of the role of GAI as a catalyst for deep learning and
+the development of higher-order cognitive skills.
+The findings indicate that higher critical-thinking scores
+were observed during the second, GAI-mediated Socratic
+dialogue condition. Although this pattern was consistent
+across the participating groups, the fixed sequential design
+does not allow the observed differences to be attributed
+independently to GAI mediation, because practice, accu-
+mulated learning, familiarity, and carryover effects cannot
+be excluded. Specifically, statistically significant within-
+sample differences were observed in the quality of
+responses for both conceptual and numerical questions
+EFFECTS OF GENERATIVE AI-MEDIATED …
+PHYS. REV. PHYS. EDUC. RES. 22, 020134 (2026)
+020134-11

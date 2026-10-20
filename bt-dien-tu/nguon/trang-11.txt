@@ -1,0 +1,19 @@
+Điện từ học                                 Phạm Nguyễn Thành Vinh – Trương Đặng Hoài Thu
+
+                                                      r 
+                                               0  1 −      , r  R        3Q                                                                                                                 làBài 2.22 Trong hệ tọa độ cầu, cho phân bố điện tích ( r ) =      R                , với 0 =      3                                      R                                                                                              0                 , r  R                                               
+
+hằng số dương.
+
+a) Tìm biểu thức E do phân bố điện tích trên gây ra trong các vùng r  R và r  R .
+
+b) Chứng minh rằng khi r  R , điện thế của phân bố điện tích đó giống như điện thế của một điện tích
+điểm Q gây ra. Lấy V ( =)  0 .
+
+c) Xác định biểu thức điện thế trong vùng r  R .
+
+
+
+
+
+                                            10

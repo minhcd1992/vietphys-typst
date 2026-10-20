@@ -1,0 +1,56 @@
+Điện từ học                                 Phạm Nguyễn Thành Vinh – Trương Đặng Hoài Thu
+
+Bài 1.10 Xét hai điện tích có độ lớn lần lượt là 2.50μC và
+−3.50μC , chúng lần lượt được đặt cố định tại gốc tọa độ và
+x = 0.600m như hình vẽ. Xác định vị trí trên trục x sao cho lực tác
+
+dụng lên điện tích +q bằng không.
+
+Bài 1.11 Một dây dẫn bằng nhựa có độ dài 8.5cm có mật độ điện dài là +175nC/m phân bố đều trên
+
+sợi dây. Sợi dây được đặt trên một mặt phẳng nằm ngang.
+
+a) Xác định vecto điện trường tại điểm nằm trên đường trung trực của dây cách dây 6cm.
+
+b) Nếu sợi dây bị uốn thành vòng tròn, hãy tính độ lớn cường độ điện tại một điểm nằm trên trục của
+
+vòng dây cách tâm một đoạn 6cm.
+
+Bài 1.12 Một thanh tích điện đều dương Q nằm dọc theo chiều dương
+của trục Oy ở giữa hai điểm y=0 và y=a. Một điện tích âm –q nằm trên
+chiều dương của trục Ox, cách O một đoạn là x.
+
+a) Tìm vector cường độ điện trường tạo bởi thanh Q tại các điểm nằm
+trên chiều dương của trục Ox.
+
+b) Tìm vecto lực do thanh Q tác dụng lên q.
+
+                            −Qq         + Qqa
+c) Chứng minh rằng khi x   a , Fx          2  và Fy          3 . Giải thích tại sao lại thu được kết quả
+                              40 x         80 x
+
+trên.
+
+Bài 1.13 Một hình bán nguyệt có bán kính a, nằm trong góc phần tư thứ nhất và thứ hai, với gốc tọa độ
+đặt tại tâm. Điện tích dương Q được phân bố đều ở nửa bên trái của hình, và điện tích âm −Q được phân
+
+bố đều ở nửa còn lại. Xác định vector cường độ điện trường tại tâm của hình do các phân bố điện tích
+gây ra.
+
+Bài 1.14 Một thanh không dẫn điện dài L có điện tích –q phân bố đều theo chiều dài.
+
+a) Tính mật độ điện tích dài của thanh.
+
+b) Tính điện trường ở điểm P cách một đầu của thanh một khoảng a.
+
+c) Chứng minh rằng, nếu P ở rất xa thanh so với L, tác dụng của thanh có thể xem như của một điện tích
+
+điểm.
+
+Bài 1.15 Điện tích q1 = 3,5  10 −8 C phân bố đều trên một thanh kim loại mảnh dài l = 8cm , tác dụng
+một lực F = 1,2  10 −4 N lên một điện tích điểm 2q . Điện tích 2q đặt trên đường thẳng kéo dài của
+thanh kim loại, cách trung điểm của thanh một đoạn r = 6cm
+
+a) Xác định độ lớn của điện tích điểm 2q .
+
+                                            3

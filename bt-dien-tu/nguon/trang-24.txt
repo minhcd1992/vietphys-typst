@@ -1,0 +1,56 @@
+Điện từ học                                 Phạm Nguyễn Thành Vinh – Trương Đặng Hoài Thu
+
+a) Bán kính quỹ đạo của electron.
+
+b) Chu kì quay của electron trên quỹ đạo.
+
+c) Moment động lượng của electron đối với tâm quỹ đạo.
+
+Bài 3.16 Một hạt α có động năng 500 eV bay theo hướng vuông góc với đường sức của một từ trường
+đều có cảm ứng từ B = 0.1T . Biết rằng hạt α có điện tích bằng +2e. Tìm:
+
+a) Lực tác dụng lên hạt α.
+
+b) Bán kính quỹ đạo của hạt.
+
+c) Chu kì quay của hạt trên quỹ đạo.
+
+Bài 3.17 Một electron chuyển động trong một từ trường đều cảm ứng từ B = 5  10 −3 T theo hướng hợp
+
+với đường sức từ trường một góc α = 600. Năng lượng của electron bằng W = 1.64  10 −16 J . Trong trường
+
+hợp này quỹ đạo của electron là một đường đinh ốc. Biết khối lượng của electron m = 9.1  10 −31 kg , điện
+
+tích của electron e = −1.6  10 −19 C . Tìm:
+
+a) Vận tốc của electron.
+
+b) Bán kính của vòng đinh ốc và chu kì quay của electron trên quỹ đạo.
+
+c) Bước của đường đinh ốc đó.
+
+Bài 3.18 Một electron được gia tốc bằng một hiệu điện thế U = 6000V bay vào một từ trường đều có
+
+cảm ứng từ B = 1.3  10 −2 T . Hướng bay của electron hợp với đường sức từ một góc α = 300. Quỹ đạo
+
+của electron khi đó là một đường đinh ốc. Tìm:
+
+a) Bán kính của một vòng đinh ốc.
+
+b) Bước của đường đinh ốc.
+
+Bài 3.19 Một electron chuyển động trong một từ trường đều có cảm ứng từ B = 2  10 −3 T . Quỹ đạo của
+electron là một đường đinh ốc có bán kính R = 2cm và có bước h = 5cm. Xác định vận tốc của electron.
+
+Bài 3.20 Một electron có năng lượng W = 103 eV bay vào một điện trường đều có cường độ điện trường
+E = 800V / cm theo hướng vuông góc với đường sức điện trường. Hỏi phải đặt một từ trường có phương
+
+chiều và cảm ứng từ như thế nào để chuyển động của electron không bị lệch phương.
+
+Bài 3.21 Một electron sau khi được tăng tốc bởi hiệu điện thế 40 V bay vào trong vùng từ trường đều
+được giới hạn bởi hai đường thẳng cách nhau d, cảm ứng từ 2.10-4 T . Vận tốc của electron vuông góc
+
+với cảm ứng từ B lẫn hai biên của vùng. Cho biết tỷ số độ lớn điện tích và khối lượng của electron là
+
+
+                                            23

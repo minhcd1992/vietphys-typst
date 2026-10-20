@@ -1,0 +1,886 @@
+PHYSICAL REVIEW PHYSICS EDUCATION RESEARCH 22, 020134 (2026)
+Ảnh hưởng của đối thoại Socrates có AI tạo sinh làm 
+trung gian đối với tư duy phản biện của sinh viên sư 
+phạm Vật lí trong động học
+Marcos Guerrero-Zambrano1,*, Bryan Valarezo-Chamba1,†,
+Leonor Sanchez-Alvarado1,‡ và Erick Lamilla-Rubio1,2,§
+1 Khoa Giáo dục, Universidad Estatal de Milagro (UNEMI),
+Cdla. Universitaria Km, 1.5 vía Km. 26, 091050, Milagro, Ecuador.
+2 Bộ môn Vật lí, Escuela Superior Politécnica del Litoral (ESPOL),
+Campus Gustavo Galindo, Km 30.5, 090150, Guayaquil, Ecuador.
+Nhận bài: 12/02/2026 · Chấp nhận: 04/08/2026 · Công bố: 25/09/2026
+DOI: 10.1103/x7vq-17rq
+Tóm tắt
+Trong đào tạo ban đầu cho giáo viên Vật lí, việc giải bài tập động học thường được tiếp cận như một 
+hoạt động thực hiện quy trình, còn ít chú trọng đến suy luận khái niệm, lập luận và điều chỉnh siêu nhận 
+thức. Nghiên cứu này xem xét ảnh hưởng của đối thoại Socrates có trí tuệ nhân tạo tạo sinh (GAI) làm 
+trung gian, so với đối thoại Socrates chỉ do giảng viên hướng dẫn, đối với tư duy phản biện (CT) đặc 
+thù môn học trong động học một chiều. Nghiên cứu sử dụng thiết kế tiền thực nghiệm trong cùng một 
+nhóm, kết hợp đồng thời phương pháp định tính và định lượng, với 18 sinh viên sư phạm Vật lí làm 
+việc theo nhóm nhỏ qua hai giai đoạn nối tiếp, sử dụng các bộ bài tập động học song song. Do các điều 
+kiện dạy học được triển khai theo một thứ tự cố định, không thể tách biệt những khác biệt quan sát được 
+khỏi các ảnh hưởng có thể có của luyện tập, học tập và sự chuyển tiếp ảnh hưởng từ giai đoạn trước. 
+Ở giai đoạn thứ nhất, sinh viên tham gia đối thoại Socrates do giảng viên hướng dẫn; ở giai đoạn thứ 
+hai, cấu trúc ấy được giữ nguyên, đồng thời bổ sung hỗ trợ đối thoại Socrates qua GAI dưới sự giám sát 
+của giảng viên. Tư duy phản biện được đánh giá bằng bảng tiêu chí phân tích áp dụng cho bài giải viết 
+của nhóm, kết hợp với khảo sát theo thang Likert và câu trả lời mở. Điểm theo bảng tiêu chí tăng nhất 
+quán ở tất cả các nhóm trong giai đoạn có GAI làm trung gian, không ghi nhận trường hợp suy giảm. 
+Sinh viên cũng cho biết niềm tin vào năng lực bản thân và động cơ nội tại cao hơn, trong khi tải nhận 
+thức có những biến đổi không đồng nhất, gắn với nhu cầu kiểm chứng và kiểm soát quá trình nhận thức 
+khi tương tác với GAI. Các kết quả này gợi ý rằng việc tích hợp AI tạo sinh vào khuôn khổ đối thoại 
+Socrates do giảng viên điều phối có thể hỗ trợ tư duy phản biện trong động học; tuy nhiên, thiết kế tiền 
+thực nghiệm theo trình tự đòi hỏi phải diễn giải thận trọng.
+Liên hệ tác giả: * mguerreroz@unemi.edu.ec; † bvalarezoc@unemi.edu.ec; ‡ lsancheza4@unemi.edu.ec; § ealamill@espol.edu.ec, 
+elamillar2@unemi.edu.ec.
+Thông tin bản dịch: Dịch từ bài “Effects of generative AI-mediated socratic dialogue on preservice physics teachers’ critical thinking in 
+kinematics”, do American Physical Society xuất bản theo giấy phép Creative Commons Attribution 4.0 International (CC BY 4.0). Khi phân 
+phối lại, phải giữ thông tin tác giả, nhan đề bài gốc, trích dẫn tạp chí và DOI. Bản tiếng Việt này là bản dịch; hình được cắt từ PDF gốc, bảng 
+được dàn lại bằng tiếng Việt và giữ nguyên số liệu. Nhãn tiếng Anh trong hình và thông tin thư mục được giữ để đối chiếu.
+I. Mở đầu
+Phát triển tư duy phản biện (CT) trong đào tạo ban đầu cho giáo viên vẫn là một thách thức dai dẳng, đặc 
+biệt ở môn Vật lí, nơi việc hiểu khái niệm phải vượt ra ngoài sự vận dụng công thức một cách máy móc. Tại 
+phần lớn khu vực Mỹ Latinh, dạy học động học một chiều theo truyền thống nhấn mạnh các quy trình thuật 
+toán; điều này hạn chế sự phát triển của năng lực suy ngẫm, phân tích và siêu nhận thức vốn cần thiết để diễn 
+giải các hiện tượng vật lí ở mức sâu hơn việc tính toán số học [1,2]. Cách dạy học ấy cho thấy khoảng cách 
+đáng kể giữa thực hành phổ biến trên lớp và những yêu cầu về nhận thức trong đào tạo giáo viên Vật lí, nơi 
+suy luận, diễn giải dựa trên mô hình và biện minh cho lập luận giữ vai trò cốt lõi trong năng lực chuyên môn.
+Guerrero-Zambrano và cộng sự · PRPER 22, 020134 (2026)
+1
+
+ĐỐI THOẠI SOCRATES VÀ AI TẠO SINH
+BẢN DỊCH TIẾNG VIỆT
+Các nghiên cứu quốc tế đã xác định tìm tòi có hướng dẫn, lập luận hợp tác và phân tích khái niệm là những 
+cách tiếp cận dạy học phù hợp để hỗ trợ tư duy phản biện trong giáo dục khoa học [3,4]. Trong giáo dục Vật 
+lí, động học đặt ra những yêu cầu nhận thức đặc biệt cao, bởi người học phải xây dựng mô hình tư duy, diễn 
+giải quan hệ giữa các biến và thực hiện suy luận trừu tượng — những năng lực cốt lõi trong quá trình hình 
+thành năng lực nghề nghiệp của giáo viên Vật lí [5].
+Các công trình gần đây còn gợi ý rằng đối thoại Socrates có thể được mở rộng một cách hiệu quả nhờ trí 
+tuệ nhân tạo tạo sinh (GAI) làm trung gian, qua đó tăng chiều sâu của hoạt động siêu nhận thức và làm cho 
+lập luận dựa trên bằng chứng trở nên tường minh hơn [6]. Hình thức trung gian này mở ra những khả năng 
+mới về phản hồi cá nhân hóa, đối thoại suy ngẫm và điều chỉnh có hướng dẫn đối với những hiểu sai về khái 
+niệm. Mặc dù các nghiên cứu mới cho thấy cả gia sư con người lẫn hệ thống dựa trên GAI đều có thể hỗ trợ 
+tư duy phản biện, bằng chứng thực nghiệm trong giáo dục Vật lí vẫn còn hạn chế. Khoảng trống ấy đặc biệt 
+rõ ở những lĩnh vực như động học một chiều, nơi suy luận về chuyển động, các cách biểu diễn và quan hệ 
+nhân quả vừa mang tính nền tảng vừa luôn đặt ra nhiều khó khăn [7,8].
+Xét từ góc độ nhận thức, GAI có thể được hiểu không chỉ là một công cụ dạy học, mà còn là một hình thức 
+trung gian định hình cách người học tạo lập bằng chứng, biện minh cho suy luận và điều chỉnh quá trình suy 
+nghĩ của chính mình. Khi được lồng ghép vào đối thoại Socrates, GAI có thể đóng vai trò giàn giáo nhận 
+thức bằng cách gợi mở những cách giải thích khác, phản ví dụ và nhiều hướng giải, qua đó hỗ trợ việc giám 
+sát siêu nhận thức và kiến tạo ý nghĩa. Tuy nhiên, hình thức trung gian này đòi hỏi thiết kế sư phạm cẩn 
+trọng để bảo đảm quyền chủ động trong nhận thức vẫn thuộc về người học, thay vì được chuyển giao cho 
+công nghệ [9]. Các nghiên cứu gần đây nhấn mạnh tầm quan trọng của việc duy trì trách nhiệm, năng lực 
+phán đoán và sự kiểm soát thông qua suy ngẫm khi sử dụng hệ thống AI trong giáo dục [10–12]. Theo đó, 
+nghiên cứu này quan niệm GAI là một giàn giáo nhận thức có giám sát, nhằm hỗ trợ tư duy phản biện và 
+điều chỉnh siêu nhận thức, chứ không thay thế hiểu biết chuyên môn [13].
+Những lập luận trên đặt nghiên cứu này trong cách nhìn về giải bài tập Vật lí vượt ra ngoài việc thực hiện 
+quy trình, hướng đến suy luận, diễn giải và kiến tạo ý nghĩa thông qua lập luận. Thay vì xem động học là bài 
+tập thay số vào công thức, cách nhìn này nhấn mạnh việc xem xét các giả định, phối hợp các cách biểu diễn 
+và sử dụng đối thoại để hỗ trợ phát triển tư duy phản biện. Trong khuôn khổ ấy, đối thoại Socrates được AI 
+tạo sinh hỗ trợ đem lại một phương thức mở rộng hoạt động suy luận và siêu nhận thức của sinh viên, thông 
+qua việc khuyến khích những cách giải thích khác, đối chiếu khái niệm và tự sửa sai có suy ngẫm.
+Từ quan điểm đó, nghiên cứu so sánh đối thoại Socrates do giảng viên hướng dẫn với một điều kiện triển 
+khai sau đó, trong đó cùng cấu trúc đối thoại được AI tạo sinh hỗ trợ. Vì vậy, nghiên cứu đặt ra các câu hỏi: 
+có những khác biệt nào về biểu hiện tư duy phản biện đặc thù môn học giữa hai điều kiện dạy học; cảm nhận 
+của người tham gia về niềm tin vào năng lực bản thân trong động học (KSE), tải nhận thức (CL) và động cơ 
+nội tại (IM) khác nhau ra sao giữa hai giai đoạn; và những phản tư định tính của họ thống nhất với, hoặc bổ 
+sung sắc thái cho, các kết quả định lượng như thế nào. Do hai điều kiện được triển khai nối tiếp theo một 
+thứ tự cố định, các câu hỏi này liên quan đến những khác biệt trong phạm vi mẫu và các mô thức hội tụ, 
+chứ không nhằm xác định tác động nhân quả độc lập của việc sử dụng GAI làm trung gian. Theo đó, câu 
+hỏi nghiên cứu được đặt ra là: khi sinh viên sư phạm Vật lí giải các bài tập động học một chiều, biểu hiện 
+tư duy phản biện được đánh giá bằng bảng tiêu chí và đặc điểm suy luận thể hiện qua dữ liệu định tính khác 
+nhau như thế nào giữa đối thoại Socrates chỉ do giảng viên hướng dẫn và cùng cấu trúc đối thoại ấy có GAI 
+hỗ trợ?
+Phần còn lại của bài báo được tổ chức như sau. Mục II trình bày thiết kế tiền thực nghiệm kết hợp phương 
+pháp định tính và định lượng, người tham gia, khuôn khổ dạy học SOCRATIC-IA, công cụ nghiên cứu và 
+quy trình phân tích dữ liệu. Mục III báo cáo các kết quả định lượng và định tính về biểu hiện tư duy phản 
+biện và cảm nhận của người tham gia trong hai điều kiện dạy học. Mục IV thảo luận kết quả trong mối liên 
+hệ với các nghiên cứu trước đây về giáo dục Vật lí và học tập có AI hỗ trợ; Mục V trình bày kết luận.
+II. Phương pháp nghiên cứu
+A. Thiết kế nghiên cứu
+Nghiên cứu được thực hiện theo cách tiếp cận hỗn hợp, chú trọng định tính và định hướng diễn giải, nhằm 
+xem xét sự phát triển tư duy phản biện của sinh viên trong giai đoạn đào tạo ban đầu cho giáo viên Vật lí 
+Guerrero-Zambrano và cộng sự · PRPER 22, 020134 (2026)
+2
+
+ĐỐI THOẠI SOCRATES VÀ AI TẠO SINH
+BẢN DỊCH TIẾNG VIỆT
+khi tham gia đối thoại Socrates để giải các bài tập định tính và định lượng về động học một chiều trong hai 
+điều kiện trung gian: (1) đối thoại do giảng viên hướng dẫn, không có GAI và (2) đối thoại do giảng viên 
+hướng dẫn, có GAI hỗ trợ. Trọng tâm định tính này được bổ sung bằng hợp phần định lượng mô tả và suy 
+luận, nhằm ước lượng mức độ và chiều hướng thay đổi của kết quả thực hiện nhiệm vụ cũng như cảm nhận 
+về học tập giữa các điều kiện, phù hợp với các thiết kế tích hợp đồng thời phương pháp định tính và định 
+lượng được mô tả trong tài liệu phương pháp luận [14,15].
+Một thiết kế nghiên cứu thực chứng mang tính ứng dụng được sử dụng để khảo sát biện pháp can thiệp dạy 
+học do nhóm nghiên cứu xây dựng. Phân tích tập trung vào cả kết quả thực hiện nhiệm vụ và cảm nhận học 
+tập của sinh viên gắn với chiến lược trung gian bằng đối thoại Socrates, được triển khai riêng hoặc kết hợp 
+với AI tạo sinh trong bối cảnh đào tạo ban đầu cho giáo viên Vật lí. Nghiên cứu có định hướng so sánh và 
+giải thích, chú trọng thực tiễn: đối chiếu hai điều kiện dạy học trong cùng một nhóm người tham gia và diễn 
+giải những thay đổi quan sát được dựa trên bằng chứng định tính và định lượng, không đưa ra các khẳng 
+định nhân quả mạnh như ở thiết kế thực nghiệm ngẫu nhiên hoặc có kiểm soát đầy đủ. Nghiên cứu sử dụng 
+thiết kế tiền thực nghiệm đo lặp trong cùng một nhóm, với hai giai đoạn nối tiếp sử dụng các nhiệm vụ đẳng 
+cấu, tức có cấu trúc tương đương. Ở giai đoạn thứ nhất, người tham gia giải bài tập động học thông qua đối 
+thoại Socrates do giảng viên hướng dẫn. Ở giai đoạn thứ hai, cấu trúc đối thoại Socrates được giữ nguyên, 
+đồng thời đưa GAI vào như một nguồn lực trung gian bổ sung. Thiết kế này giữ nguyên nội dung chuyên 
+môn và trình tự thực hiện, cho phép khảo sát sự thay đổi kết quả giữa hai hình thức trung gian. Tuy nhiên, 
+do các giai đoạn diễn ra theo thứ tự cố định, ảnh hưởng có thể có của luyện tập và sự chuyển tiếp ảnh hưởng 
+được thừa nhận là những yếu tố đe dọa giá trị nội tại. Vì vậy, khác biệt giữa các giai đoạn được diễn giải 
+như bằng chứng về mối liên hệ phù hợp với việc bổ sung GAI, thay vì bằng chứng xác định về tác động 
+nhân quả, nhất quán với những phân tích kinh điển về giới hạn suy luận nhân quả trong các thiết kế không 
+có đối chứng.
+Về mặt thao tác hóa, biến độc lập là hình thức trung gian trong đối thoại Socrates, đối chiếu đối thoại do 
+giảng viên hướng dẫn không có GAI với đối thoại do giảng viên hướng dẫn có GAI hỗ trợ. Biến phụ thuộc 
+là mức độ tư duy phản biện thể hiện khi giải bài tập động học một chiều, được thao tác hóa bằng một bảng 
+tiêu chí phân tích duy nhất, được thiết kế và áp dụng nhất quán trong cả hai giai đoạn. Bảng tiêu chí đánh 
+giá khả năng hiểu bài toán và các nguyên lí; suy luận logic và cấu trúc lập luận [16,17]; sử dụng phản ví dụ 
+[18]; nhận diện và sửa chữa sai lầm về khái niệm [16,19]; cùng sự rõ ràng và cách tổ chức câu trả lời viết 
+[18]. Hợp phần định lượng phân tích biến thiên điểm số giữa các giai đoạn bằng thống kê mô tả và các kiểm 
+định suy luận cho những mẫu có liên hệ, được lựa chọn theo đặc điểm phân phối của điểm chênh lệch và đi 
+kèm các ước lượng cỡ ảnh hưởng, như khuyến nghị đối với thiết kế trong cùng đối tượng [20,21].
+Một khảo sát cảm nhận được thực hiện vào cuối mỗi giai đoạn như phép đo bổ sung. Ở điều kiện do giảng 
+viên hướng dẫn, khảo sát đánh giá niềm tin vào năng lực bản thân trong động học, tải nhận thức, động cơ 
+nội tại, tương tác Socrates (SI) và tư duy phản biện tự cảm nhận; đồng thời có một câu hỏi mở nhằm thu 
+thập bằng chứng định tính về những điều học được qua đối thoại. Ở điều kiện giảng viên–GAI, khảo sát đo 
+lường niềm tin vào năng lực bản thân trong động học, tải nhận thức và động cơ nội tại, cùng với tính hữu ích 
+cảm nhận của GAI (PU-GAI), niềm tin vào AI trong giáo dục (TE-AI) và sự tích hợp các nguồn lực (RI). 
+Khảo sát cũng có một câu hỏi mở tập trung vào tính hữu ích cảm nhận, sự rõ ràng và những nguồn gây nhầm 
+lẫn có thể phát sinh khi giải bài tập với AI hỗ trợ. Do không phải mọi phương diện đều được đo ở cả hai 
+giai đoạn, các so sánh suy luận giữa hai điều kiện chỉ giới hạn ở những cấu trúc chung; còn các phương diện 
+riêng của từng giai đoạn được báo cáo theo hướng mô tả và diễn giải định tính, phù hợp với nguyên tắc bảo 
+đảm khả năng so sánh của phép đo và cách xử lí thận trọng đối với thang đo lặp [20,22].
+Cuối cùng, hợp phần định tính xem xét bản chất suy luận của người tham gia qua câu trả lời mở và, khi phù 
+hợp, qua bằng chứng từ đối thoại và bài giải viết. Phân tích nhằm nhận diện các mô thức biện minh, giám 
+sát sai sót, sử dụng phép tương tự hoặc phản ví dụ, và tổ chức lập luận. Sau đó, kết quả định tính được tích 
+hợp với kết quả định lượng theo chiến lược hỗn hợp hội tụ: bằng chứng số liệu cho biết chiều hướng và mức 
+độ thay đổi, còn bằng chứng định tính làm sáng tỏ hình thức và điều kiện xuất hiện những thay đổi đó, phù 
+hợp với các nguyên tắc tích hợp phương pháp hỗn hợp đã được xác lập [14].
+Do số người tham gia ít và sáu nhóm hợp tác được dùng làm đơn vị phân tích kết quả theo bảng tiêu chí, 
+hợp phần định lượng được xem là có tính thăm dò và bổ sung. Mục đích của hợp phần này không phải là 
+Guerrero-Zambrano và cộng sự · PRPER 22, 020134 (2026)
+3
+
+ĐỐI THOẠI SOCRATES VÀ AI TẠO SINH
+BẢN DỊCH TIẾNG VIỆT
+đưa ra ước lượng ở cấp tổng thể hay xác lập tác động nhân quả, mà là mô tả chiều hướng, tính nhất quán và 
+mức độ gần đúng của những thay đổi trong mẫu giữa hai điều kiện dạy học. Vì thế, các kiểm định suy luận 
+được diễn giải thận trọng và tích hợp với bằng chứng định tính thông qua phân tích hội tụ của phương pháp 
+hỗn hợp.
+Do quy trình chấm tạo ra một điểm đồng thuận duy nhất cho mỗi sản phẩm, thay vì các điểm chấm độc lập 
+của từng người đánh giá, không thể tính hệ số tương quan nội lớp (ICC). Đối với chỉ số giá trị nội dung 
+(CVI), chúng tôi làm rõ rằng giá trị cuối cùng CVI = 1.00 chỉ đạt được sau quy trình đánh giá lặp qua hai 
+vòng chuyên gia. Ở vòng thứ nhất, bảng tiêu chí phân tích đạt CVI tổng thể là 0.944, còn bộ bài tập và 
+câu hỏi Socrates đạt CVI tổng thể là 0.886. Sau khi chỉnh sửa, vòng thẩm định thứ hai cho CVI tổng thể 
+bằng 1.00.
+B. Người tham gia và bối cảnh đào tạo giáo viên
+Nghiên cứu được tiến hành trong một chương trình đào tạo ban đầu cho giáo viên Vật lí tại một trường đại 
+học công lập ở Ecuador. Tổng thể tiềm năng gồm 97 sinh viên đã hoàn thành học phần về động học một 
+chiều. Việc tham gia dựa trên đăng kí tự nguyện và sự phù hợp với hoạt động dạy học, tạo nên một nhóm 
+không chỉ được lựa chọn về mặt mẫu mà còn là một cộng đồng thích hợp để tham gia đối thoại Socrates và 
+khảo sát sự phát triển tư duy phản biện trong bối cảnh đào tạo giáo viên thực tế. Tổng cộng 18 sinh viên 
+hoàn thành toàn bộ các buổi can thiệp trực tiếp, tương ứng tỉ lệ tham gia 18.6%. Người tham gia đang học 
+từ học kì thứ ba đến học kì thứ tám của chương trình, có độ tuổi từ 18 đến 25. Để hỗ trợ học tập hợp tác và 
+phục vụ phân tích so sánh, sinh viên được chia thành sáu nhóm, mỗi nhóm ba người. Kết quả ở cấp nhóm 
+là đơn vị phân tích điểm tư duy phản biện, trong khi đóng góp cá nhân vẫn được giữ lại thông qua quá trình 
+đối thoại và cùng viết bài giải.
+Người tham gia đã có kinh nghiệm sử dụng công cụ AI tạo sinh trên lớp. Trước đó, việc sử dụng của họ được 
+giảng viên hướng dẫn thông qua những câu lệnh có cấu trúc dành cho hoạt động học tập. Trong các buổi học 
+trước, sinh viên được hướng dẫn xây dựng câu lệnh với bốn thành phần: vai trò, bối cảnh, yêu cầu và định 
+dạng đầu ra mong muốn. Ở nghiên cứu này, cấu trúc ấy được ôn lại trước giai đoạn có GAI làm trung gian 
+và được áp dụng cụ thể vào việc giải bài tập động học một chiều.
+C. Mô hình học tập Socrates SOCRATIC-IA
+Biện pháp can thiệp dạy học được triển khai thông qua mô hình học tập Socrates SOCRATIC-IA, một khuôn 
+khổ do các tác giả xây dựng để thúc đẩy tư duy phản biện đặc thù môn học trong quá trình giải bài tập định 
+tính và định lượng về động học một chiều. Mô hình tích hợp ba thành phần dạy học: (i) khơi gợi kiến thức 
+khái niệm, (ii) đối thoại Socrates do giảng viên hướng dẫn và (iii) đối thoại Socrates do giảng viên hướng 
+dẫn, có GAI làm trung gian. Cấu trúc này cho phép khảo sát sự phát triển của lập luận và suy luận siêu nhận 
+thức của sinh viên ở hai mức độ hỗ trợ trung gian về nhận thức, trong khi vẫn giữ nguyên nội dung chuyên 
+môn và trình tự giải bài tập.
+Toàn bộ tiến trình dạy học được tổ chức thành ba giai đoạn, triển khai trong 10 giờ. Giai đoạn đầu kéo dài 2 
+giờ, dành cho việc khơi gợi các khái niệm động học nền tảng và thống nhất cách hiểu khái niệm giữa những 
+người tham gia. Tiếp đó là hai giai đoạn, mỗi giai đoạn 4 giờ, trong đó sinh viên giải bài tập theo cấu trúc 
+đối thoại Socrates: trước hết chỉ có giảng viên làm trung gian, sau đó giảng viên làm trung gian với sự hỗ 
+trợ của GAI. Bảng I tóm tắt cấu trúc dạy học của mô hình SOCRATIC-IA, nêu ba giai đoạn can thiệp, mục 
+đích sư phạm, hoạt động học tập cốt lõi và chiến lược đánh giá tương ứng ở mỗi giai đoạn.
+Giai đoạn
+Mục đích
+Hoạt động cốt lõi
+Đánh giá
+Giai đoạn 1: Khơi gợi 
+kiến thức khái niệm
+Thiết lập nền tảng khái niệm 
+chung về động học
+Câu hỏi ôn tập về vận tốc, gia tốc và các cách 
+biểu diễn chuyển động
+Không
+Giai đoạn 2: Đối thoại 
+Socrates do giảng viên 
+hướng dẫn
+Phát triển tư duy phản biện qua 
+câu hỏi Socrates do con người 
+dẫn dắt
+Cá nhân đề xuất giả thuyết, thảo luận nhóm, 
+giảng viên đặt câu hỏi Socrates và viết câu trả 
+lời đồng thuận
+Bảng tiêu chí; 
+khảo sát
+Giai đoạn 3: Đối thoại 
+Socrates có GAI làm 
+trung gian
+Mở rộng suy luận thông qua vai 
+trò trung gian nhận thức kết hợp 
+con người–AI
+Khảo sát cùng các câu hỏi Socrates với sự hỗ 
+trợ của GAI dưới sự giám sát của giảng viên
+Bảng tiêu chí; 
+khảo sát
+Bảng I: Các giai đoạn dạy học của SOCRATIC-IA.
+Guerrero-Zambrano và cộng sự · PRPER 22, 020134 (2026)
+4
+
+ĐỐI THOẠI SOCRATES VÀ AI TẠO SINH
+BẢN DỊCH TIẾNG VIỆT
+Phiếu bài tập gồm các nhiệm vụ định tính và định lượng được thiết kế nhằm gợi mở việc diễn giải, biện 
+minh, so sánh những cách giải thích khác nhau và kiểm chứng tường minh các nguyên lí vật lí liên quan. 
+Chẳng hạn, trong một nhiệm vụ tiêu biểu, người tham gia phải xác định các nguyên lí động học phù hợp, 
+giải thích quan hệ giữa các biến, biện minh cho hướng giải đã chọn và đánh giá tính nhất quán về khái niệm 
+của câu trả lời cuối cùng. Đề bài đầy đủ, hình kèm theo và các câu hỏi gợi mở Socrates được cung cấp trong 
+tài liệu bổ sung nêu ở Phụ lục.
+Như thể hiện trong Bảng I, ở cả giai đoạn 2 và giai đoạn 3, sinh viên thực hiện cùng một trình tự hoạt động 
+— cá nhân khơi gợi kiến thức đã có, đối thoại hợp tác, đặt câu hỏi Socrates và xây dựng câu trả lời đồng 
+thuận — rồi được đánh giá suy luận theo bảng tiêu chí phân tích. Điểm khác biệt duy nhất giữa hai giai đoạn 
+là có hay không có GAI trong tương tác Socrates, cho phép khảo sát ảnh hưởng của hình thức trung gian chỉ 
+có con người và hình thức kết hợp con người–AI trong điều kiện quy trình được kiểm soát.
+Hình 1 biểu diễn bằng sơ đồ tiến trình dạy học SOCRATIC-IA. Phần trên của sơ đồ thể hiện tiến trình từ 
+khơi gợi kiến thức khái niệm đến đánh giá tư duy phản biện; phần dưới mô tả hai nhánh trung gian song 
+song được triển khai trong nghiên cứu: đối thoại Socrates do giảng viên hướng dẫn (giai đoạn 2) và đối thoại 
+Socrates do giảng viên hướng dẫn, có AI tạo sinh hỗ trợ (giai đoạn 3). Bằng cách đặt chồng hai nhánh vào 
+cùng một khuôn khổ cấu trúc, hình minh họa việc can thiệp giữ nguyên các bước nhận thức và chỉ thay đổi 
+hình thức trung gian.
+Hình 1: Sơ đồ tiến trình các giai đoạn dạy học SOCRATIC-IA. Phần dưới của hình thể hiện hai nhánh trung gian song song 
+được triển khai trong nghiên cứu: đối thoại Socrates do giảng viên hướng dẫn (giai đoạn 2) và đối thoại Socrates do giảng viên 
+hướng dẫn, có AI tạo sinh hỗ trợ (giai đoạn 3). Ở cả hai giai đoạn, trình tự thực hiện được giữ nguyên, cho phép so sánh ảnh 
+hưởng của hình thức trung gian chỉ có con người và hình thức kết hợp con người–AI trong các điều kiện được kiểm soát.
+Đối chiếu nhãn Hình 1: Conceptual activation = khơi gợi kiến thức khái niệm; Individual hypothesis = giả thuyết cá nhân; 
+Collaborative dialogue = đối thoại hợp tác; Teacher-provided Socratic questions = câu hỏi Socrates do giảng viên đưa ra; Consensus 
+writing = viết câu trả lời đồng thuận; Assessment = đánh giá; Gemini support (supervised scaffold) = hỗ trợ từ Gemini (giàn giáo có 
+giám sát); Teacher supervision and epistemic regulation = giảng viên giám sát và điều tiết quá trình nhận thức. A1: nhánh do giảng 
+viên hướng dẫn; A2: cùng cấu trúc Socrates, có Gemini hỗ trợ. Các màu lần lượt biểu thị hoạt động do giảng viên dẫn dắt, suy luận/
+viết của sinh viên, hỗ trợ qua GAI và đánh giá.
+D. Các vấn đề đạo đức và giá trị của mô hình SOCRATIC-IA
+Nghiên cứu được thực hiện theo các nguyên tắc đạo đức của Tuyên bố Helsinki [23]. Tất cả người tham gia 
+đều có văn bản đồng thuận sau khi được cung cấp thông tin về mục tiêu nghiên cứu, tính tự nguyện của việc 
+tham gia, quyền rút lui bất cứ lúc nào và các quy trình bảo đảm tính bảo mật, bảo vệ dữ liệu. Những biện 
+pháp này đặc biệt quan trọng đối với nghiên cứu giáo dục có sử dụng công nghệ mới, nơi tính minh bạch và 
+việc bảo vệ quyền của người tham gia là thiết yếu [24].
+Để bảo đảm chất lượng phương pháp luận của các công cụ, quá trình xây dựng tuân theo quy trình thẩm 
+định hai giai đoạn. Ở giai đoạn thứ nhất, nhóm nghiên cứu thiết kế phiếu bài tập, bộ câu hỏi Socrates, bảng 
+tiêu chí phân tích và hai phiếu khảo sát cảm nhận. Ở giai đoạn thứ hai, các công cụ được thẩm định bằng ý 
+kiến chuyên gia: ba chuyên gia về giáo dục Vật lí và sư phạm đánh giá bộ bài tập, câu hỏi Socrates và bảng 
+tiêu chí phân tích; ba chuyên gia thống kê xem xét các công cụ khảo sát. Dựa trên đánh giá của họ, giá trị 
+Guerrero-Zambrano và cộng sự · PRPER 22, 020134 (2026)
+5
+
+ĐỐI THOẠI SOCRATES VÀ AI TẠO SINH
+BẢN DỊCH TIẾNG VIỆT
+nội dung được xác định bằng CVI. Tất cả công cụ đều đạt CVI bằng 1.00, cho thấy sự đồng thuận hoàn toàn 
+về độ rõ ràng, tính phù hợp và tính đại diện của các mục, tương ứng với mức giá trị nội dung xuất sắc theo 
+các chuẩn phương pháp luận đã được xác lập.
+III. Ảnh hưởng của đối thoại Socrates và đối thoại có AI làm trung gian đối với 
+tư duy phản biện trong động học
+A. Kết quả giải bài tập định tính và định lượng về động học
+Phân tích so sánh sáu nhóm cho thấy một mô thức nhất quán: trong mọi tình huống được đánh giá, hình thức 
+trung gian bằng đối thoại Socrates có GAI hỗ trợ gắn với sự cải thiện có hệ thống về chất lượng câu trả lời 
+cho cả bài tập định tính và định lượng về động học. Việc sử dụng cùng năm bài tập trong cả hai điều kiện 
+dạy học cho phép so sánh trực tiếp kết quả trên cùng nền tảng khái niệm. Tuy vậy, vì các câu hỏi giống hệt 
+nhau được sử dụng lại, nghiên cứu thừa nhận khả năng có ảnh hưởng của luyện tập; do đó, kết quả được diễn 
+giải như bằng chứng về sự cải thiện ở điều kiện thứ hai, thay vì bằng chứng mạnh về tác động nhân quả.
+Trước khi thực hiện các so sánh suy luận, nghiên cứu kiểm tra những giả định về phân phối của điểm chênh 
+lệch. Kiểm định Shapiro–Wilk, được khuyến nghị cho mẫu nhỏ, cho thấy điểm chênh lệch tổng thể không 
+phù hợp với phân phối chuẩn (𝑊= 0.736, 𝑝= 0.0148, 𝛼= 0.05) [25]. Kết quả này, cùng bản chất thứ bậc 
+của bảng tiêu chí phân tích, là cơ sở để sử dụng phương pháp phi tham số trong bối cảnh mẫu nhỏ, phù hợp 
+với hướng dẫn phương pháp luận trong nghiên cứu giáo dục và khuyến nghị diễn giải thận trọng các kiểm 
+định tính chuẩn khi dữ liệu hạn chế [26]. Theo đó, tác động tổng thể của can thiệp được đánh giá bằng kiểm 
+định hạng có dấu Wilcoxon một phía, dựa trên giả thuyết có hướng được xác lập từ trước rằng GAI làm 
+trung gian sẽ không làm giảm kết quả, mà sẽ dẫn đến cải thiện hoặc không thay đổi. Việc sử dụng kiểm định 
+một phía được quy định tường minh để tránh sai lệch suy luận do lựa chọn sau khi đã xem dữ liệu [27–29].
+Về hình thức, giả thuyết không tổng thể 𝐻0𝐺 phát biểu rằng trung vị của điểm chênh lệch giữa hai điều kiện 
+nhỏ hơn hoặc bằng không; nghĩa là Hoạt động 2 (A2) không có tổng điểm cao hơn Hoạt động 1 (A1). Giả 
+thuyết đối tổng thể 𝐻1𝐺 phát biểu rằng trung vị chênh lệch lớn hơn không, tức A2 có điểm cao hơn A1. Kết 
+quả ủng hộ dự đoán này: 𝐻0𝐺 bị bác bỏ theo hướng chấp nhận 𝐻1𝐺, với thống kê hạng có dấu Wilcoxon 
+bằng 0 và 𝑝= 0.0312 tại 𝛼= 0.05. Mức tăng trung bình 8.3 điểm mỗi nhóm gợi ý một ảnh hưởng nhất quán 
+của hình thức trung gian kết hợp giảng viên–GAI, mặc dù cần báo cáo cỡ ảnh hưởng tương ứng để hoàn 
+thiện việc trình bày thống kê theo chuẩn [29].
+Ngoài phân tích tổng thể, nghiên cứu còn xem xét cấu trúc của điểm chênh lệch ở cấp từng bài tập. Như 
+Bảng II cho thấy, các kiểm định Shapiro–Wilk áp dụng cho điểm chênh lệch của từng bài không chỉ ra sự 
+lệch đáng kể khỏi phân phối chuẩn ở Bài 1 (P1), Bài 3 (P3) và Bài 5 (P5), trong khi có bằng chứng về phân 
+phối không chuẩn ở Bài 2 (P2) và Bài 4 (P4). Với cỡ mẫu nhỏ (𝑁= 6) và bản chất thứ bậc của điểm theo 
+bảng tiêu chí, cách tiếp cận phi tham số được giữ lại cho tất cả phép so sánh ở cấp bài tập, nhằm tránh những 
+lựa chọn phân tích thiếu ổn định dựa trên các kiểm định tính chuẩn có lực kiểm định thấp [26].
+Bài
+𝑊 
+(Shapiro–
+Wilk)
+Giá trị 𝑝
+Diễn giải (𝛼= 0.05)
+1
+1.0000
+1.0000
+Không bác bỏ giả thuyết không; phân phối phù hợp với tính chuẩn
+2
+0.7501
+0.0200
+Bác bỏ giả thuyết không; có bằng chứng lệch khỏi phân phối chuẩn
+3
+0.8269
+0.1012
+Không bác bỏ giả thuyết không
+4
+0.7596
+0.0247
+Bác bỏ giả thuyết không; lệch đáng kể khỏi phân phối chuẩn
+5
+0.9076
+0.4207
+Không bác bỏ giả thuyết không
+Bảng II: Kiểm định Shapiro–Wilk đối với điểm chênh lệch ở cấp bài tập.
+Tiếp đó, các kiểm định hạng có dấu Wilcoxon hai phía được áp dụng riêng cho từng bài tập, như tóm tắt 
+trong Bảng III. Phân tích này cho phép so sánh ghép cặp điểm ở Hoạt động 1 (A1) và Hoạt động 2 (A2) theo 
+từng bài, đồng thời báo cáo trung vị ở mỗi điều kiện và trung vị của điểm chênh lệch (A2 − A1). Xét về mô 
+tả, có một mô thức nhất quán về chiều hướng: ở cả năm bài, trung vị điểm A2 đều cao hơn A1, với trung vị 
+chênh lệch từ 1.0 đến 3.5 điểm. Xét về suy luận, tại 𝛼= 0.05, khác biệt có ý nghĩa thống kê được xác định 
+Guerrero-Zambrano và cộng sự · PRPER 22, 020134 (2026)
+6
+
+ĐỐI THOẠI SOCRATES VÀ AI TẠO SINH
+BẢN DỊCH TIẾNG VIỆT
+ở Bài 1 (P1) và Bài 4 (P4); còn Bài 2 (P2), Bài 3 (P3) và Bài 5 (P5) chưa đạt ngưỡng ý nghĩa thống kê, dù 
+cùng thể hiện chiều hướng cải thiện.
+Bài
+𝑁 chênh lệch ≠
+0
+Trung vị A1
+Trung vị A2
+Trung vị chênh lệch 
+(A2 − A1)
+𝑊
+𝑝 (hai phía)
+1
+6
+10.0
+11.0
+1.0
+0
+0.03125
+2
+5
+9.0
+11.5
+2.5
+0
+0.06250
+3
+5
+9.0
+11.0
+2.0
+0
+0.06250
+4
+6
+6.5
+10.0
+3.5
+0
+0.03125
+5
+4
+8.5
+9.5
+1.0
+0
+0.12500
+Bảng III: So sánh điểm giữa hai hoạt động theo từng bài bằng kiểm định hạng có dấu Wilcoxon.
+Với mỗi bài 𝑘, giả thuyết cho kiểm định hai phía được xây dựng như sau. Giả thuyết không 𝐻0𝑘 phát biểu 
+rằng trung vị của điểm chênh lệch giữa A2 và A1 bằng không, nghĩa là không có thay đổi có hệ thống giữa 
+hai điều kiện. Giả thuyết đối 𝐻1𝑘 phát biểu rằng trung vị chênh lệch khác không, nghĩa là có thay đổi có hệ 
+thống giữa hai điều kiện. Lựa chọn kiểm định hai phía ở cấp bài tập được biện minh như một cách tiếp cận 
+bảo thủ về phương pháp luận, phù hợp với thực hành báo cáo chuẩn khi tiến hành nhiều phép so sánh và khi 
+cần tránh kiểm định có hướng không có căn cứ, tức không dựa trên một ràng buộc lí thuyết chặt chẽ được 
+tuyên bố rõ từ trước — một cách làm đã được tài liệu phương pháp luận nhiều lần cảnh báo vì có thể làm 
+sai lệch suy luận [28,29].
+Tuy nhiên, khi khuôn khổ lí thuyết xác định từ trước một kì vọng có hướng rõ ràng — cụ thể là hình thức 
+trung gian có AI tạo sinh hỗ trợ không làm suy giảm kết quả và mọi thay đổi quan sát được, nếu có, đều theo 
+hướng cải thiện — thì việc sử dụng kiểm định một phía có thể được bảo vệ, miễn là hướng kiểm định được 
+tuyên bố trước khi xem dữ liệu và được báo cáo minh bạch. Trong điều kiện đó, với mỗi bài 𝑘, giả thuyết 
+không 𝐻0𝑘 được xác định là trung vị điểm chênh lệch nhỏ hơn hoặc bằng không, còn giả thuyết đối 𝐻1𝑘 là 
+trung vị lớn hơn không. Cách xây dựng này tập trung suy luận vào chiều hướng thay đổi có ý nghĩa về lí 
+thuyết, đồng thời giảm nguy cơ diễn giải lại kết quả một cách cơ hội [27–29].
+Hình 2 trình bày bản đồ nhiệt thể hiện sự phân bố lại điểm tư duy phản biện của sáu nhóm qua năm bài tập 
+động học, so sánh Hoạt động 1 (A1), triển khai bằng đối thoại Socrates truyền thống do giảng viên hướng 
+dẫn, với Hoạt động 2 (A2), triển khai theo cùng cách tiếp cận Socrates nhưng có AI tạo sinh làm trung gian, 
+theo cùng thứ tự bài tập. Cách trực quan hóa bằng ma trận này giúp nhận diện các mô thức và sự tương phản 
+giữa hai điều kiện dạy học, bằng cách biểu diễn độ lớn số liệu qua các mức chuyển màu và cho phép đối 
+chiếu nhanh theo hàng, cột [30].
+Việc sử dụng thang màu từ lạnh đến nóng để biểu diễn điểm từ thấp đến cao làm nổi bật cả chiều hướng lẫn 
+mức độ thay đổi, dựa trên sự tương ứng trong tri giác giữa thứ tự độ lớn và thứ tự thị giác. Cách tiếp cận 
+này giúp phân biệt rõ hơn sự tăng, giảm điểm giữa hai điều kiện và hỗ trợ suy luận trực quan hiệu quả về sự 
+thay đổi kết quả giữa các bài và các nhóm [31,32].
+Guerrero-Zambrano và cộng sự · PRPER 22, 020134 (2026)
+7
+
+ĐỐI THOẠI SOCRATES VÀ AI TẠO SINH
+BẢN DỊCH TIẾNG VIỆT
+Hình 2: Điểm tư duy phản biện theo bảng tiêu chí ở các nhóm và các bài tập động học. (a) Tổng điểm tư duy phản biện của 
+sáu nhóm ở Hoạt động 1 (A1; đối thoại Socrates do giảng viên hướng dẫn) và Hoạt động 2 (A2; đối thoại Socrates do giảng 
+viên hướng dẫn, có AI tạo sinh làm trung gian); các số phía trên mỗi cặp cột biểu thị mức thay đổi tổng điểm từ A1 sang A2. 
+(b) Điểm tư duy phản biện theo từng bài của cùng sáu nhóm qua năm bài tập động học (P1–P5) ở A1 và A2. Cường độ màu 
+biểu thị độ lớn của điểm, từ thấp (màu lạnh) đến cao (màu nóng), giúp so sánh trực quan giữa các nhóm, các bài và hai điều 
+kiện dạy học. Hình có tính mô tả; cần diễn giải điểm số trong bối cảnh thiết kế tiền thực nghiệm có thứ tự cố định.
+Đối chiếu nhãn Hình 2: G1–G6 = nhóm 1–6; P1–P5 = bài 1–5; Total rubric score = tổng điểm theo bảng tiêu chí; Group = nhóm; 
+Group and condition = nhóm và điều kiện; Kinematics problem = bài tập động học; Score = điểm; A1 without GAI = A1 không có 
+GAI; A2 with Gemini = A2 có Gemini.
+Nhìn chung, các kết quả tạo nên một bức tranh bằng chứng thực nghiệm mạch lạc và hội tụ giữa các cấp 
+phân tích. Ở cấp tổng thể, giả thuyết đối 𝐻1𝐺 được thống kê ủng hộ, cho thấy kết quả cải thiện có ý nghĩa 
+khi dạy học Socrates kết hợp GAI làm trung gian. Ở cấp bài tập, giả thuyết đối 𝐻1𝑘 được ủng hộ ở hai trong 
+năm bài, còn ba bài kia cùng thể hiện một chiều hướng thuận lợi cho Hoạt động 2 (A2). Trong nghiên cứu 
+có mẫu nhỏ, mô thức này cung cấp thông tin có ý nghĩa về phương pháp luận: chiều hướng nhất quán qua 
+nhiều phép so sánh có thể phù hợp với một ảnh hưởng nền ổn định, ngay cả khi không phải mọi so sánh 
+riêng lẻ đều đạt ý nghĩa thống kê, đặc biệt khi lực kiểm định hạn chế và chiến lược kiểm định ở cấp bài tập 
+mang tính bảo thủ [26,29].
+Ngoài ra, không ghi nhận thay đổi âm ở bất kì nhóm hay bài tập nào, gợi ý rằng việc đưa GAI vào không 
+làm suy giảm kết quả theo những gì quan sát được trong khuôn khổ khảo sát. Tuy nhiên, cần diễn giải thận 
+Guerrero-Zambrano và cộng sự · PRPER 22, 020134 (2026)
+8
+
+ĐỐI THOẠI SOCRATES VÀ AI TẠO SINH
+BẢN DỊCH TIẾNG VIỆT
+trọng sự vắng mặt của các trường hợp giảm điểm: đây không phải là bằng chứng suy luận về việc “không 
+gây hại”, mà chỉ cho thấy không quan sát được sự suy giảm có hệ thống trong mẫu và các điều kiện hiện tại.
+Tổng hợp lại, bằng chứng từ Bảng III, Bảng IV và Hình 2 ủng hộ nhận định rằng hình thức trung gian kết 
+hợp con người–AI có thể tăng cường các quá trình gắn với tư duy phản biện khi giải bài tập, đặc biệt bằng 
+cách thúc đẩy cách giải thích chính xác hơn, kiểm chứng tường minh các giả định và tự điều chỉnh siêu nhận 
+thức trong quá trình suy luận, với điều kiện vẫn duy trì sự giám sát của giảng viên và các tiêu chí tường minh 
+để kiểm chứng câu trả lời [33,34].
+B. Phân tích định lượng các phương diện cảm nhận chung giữa hai điều kiện dạy học
+Để mô tả trải nghiệm học tập trong cả hai hình thức dạy học Socrates — do giảng viên hướng dẫn và do 
+giảng viên–GAI làm trung gian — các khảo sát cảm nhận được tiến hành để đánh giá những phương diện 
+chung của Hoạt động 1 (A1) và Hoạt động 2 (A2). Các phương diện được đánh giá gồm KSE, CL và IM. 
+So sánh những phương diện chung này cho thấy sự chuyển sang hình thức trung gian kết hợp giảng viên–
+GAI không đơn thuần là thay đổi công cụ, mà còn làm thay đổi cách sinh viên sư phạm Vật lí trải nghiệm 
+nhiệm vụ.
+Đối với KSE, mức tăng rõ rệt đã được ghi nhận. Tỉ lệ đồng ý tổng thể tăng từ 84.7% lên 94.4%; không còn 
+câu trả lời ở mức “Không đồng ý”, còn tỉ lệ “Hoàn toàn đồng ý” tăng từ 26.4% lên 37.5%. Mô thức này gợi 
+ý rằng sinh viên tự tin hơn vào khả năng hiểu và giải bài tập động học trong điều kiện có GAI làm trung 
+gian. Với CL, câu trả lời không đồng nhất hơn. Tỉ lệ đồng ý tổng thể tăng nhẹ từ 59.7% lên 65.3%, nhưng 
+một số mục có biểu hiện phân cực, với câu trả lời tập trung ở những phía đối lập. Điều này cho thấy ở một số 
+mục, một bộ phận người tham gia cảm thấy yêu cầu về trí lực cao hơn, trong khi những người khác cho biết 
+nỗ lực cảm nhận không tăng, thậm chí giảm. Chẳng hạn, tỉ lệ đồng ý ở mục CL1 tăng từ 77.8% lên 88.9%, 
+cho thấy một số người tham gia cảm nhận rằng họ phải nỗ lực tập trung chú ý nhiều hơn. Đồng thời, những 
+người khác mô tả sự phân bổ lại nỗ lực, gắn với hoạt động kiểm chứng và kiểm soát chất lượng các câu trả 
+lời do GAI tạo ra. Cuối cùng, IM thể hiện ảnh hưởng rõ nét nhất: tỉ lệ đồng ý ở A2 đạt 100%, so với mức 
+ban đầu 87.5%, không còn bất kì câu trả lời trung lập hay không đồng ý nào.
+Tóm lại, hình thức trung gian kết hợp giảng viên–GAI củng cố niềm tin vào năng lực bản thân và động cơ 
+nội tại, trong khi tải nhận thức biến đổi theo những cách khác nhau, phản ánh hai mặt của công cụ: vừa tạo 
+thuận lợi, vừa đặt ra yêu cầu giám sát có phê phán. Hình 3 minh họa sự thay đổi điểm trung bình theo từng 
+mục khảo sát, cho phép đưa ra kết luận thận trọng: mặc dù các nhóm nhỏ phân theo tuổi có quy mô hạn chế, 
+KSE và IM hội tụ về mức cao ở A2, còn CL vẫn là phương diện biến thiên nhiều nhất. Từ góc độ sư phạm, 
+lợi ích cảm nhận của GAI về năng lực và động cơ dường như phân bố khá rộng; tuy nhiên, trải nghiệm về 
+nỗ lực trí óc có vẻ chịu ảnh hưởng của những khác biệt cá nhân, như kinh nghiệm trước đó, thói quen học 
+tập, khả năng đặt câu hỏi hiệu quả, mức chấp nhận sự không chắc chắn và nhu cầu kiểm chứng — một mô 
+thức cũng được báo cáo trong các nghiên cứu gần đây về những yếu tố chi phối việc sử dụng ChatGPT và 
+các công cụ tương tự trong giáo dục [35].
+Guerrero-Zambrano và cộng sự · PRPER 22, 020134 (2026)
+9
+
+ĐỐI THOẠI SOCRATES VÀ AI TẠO SINH
+BẢN DỊCH TIẾNG VIỆT
+Hình 3: Điểm trả lời trung bình theo từng mục khảo sát ở Hoạt động 1 (A1; đối thoại Socrates do giảng viên hướng dẫn) và 
+Hoạt động 2 (A2; đối thoại Socrates do giảng viên hướng dẫn, có AI tạo sinh làm trung gian). Các mục tương ứng với những 
+phương diện cảm nhận chung — KSE, CL và IM. Hình minh họa xu hướng tăng tổng thể của KSE và IM trong điều kiện có 
+GAI làm trung gian, trong khi tải nhận thức biến thiên nhiều hơn giữa các mục.
+Đối chiếu nhãn Hình 3: Mean response score = điểm trả lời trung bình; Activity = hoạt động; KSE = niềm tin vào năng lực bản 
+thân trong động học; CL = tải nhận thức; IM = động cơ nội tại. P1–P4 sau mỗi mã thang đo chỉ các mục khảo sát trong hình này; 
+P1–P5 ở Hình 2 chỉ các bài tập động học.
+C. Phân tích định lượng các phương diện cảm nhận riêng của từng hoạt động
+Khi phân tích cảm nhận ở những phương diện không dùng chung giữa hai hoạt động, có thể thấy xu hướng 
+đánh giá rất tích cực, đi kèm những khác biệt tinh tế liên quan đến độ phức tạp nhận thức. Trong Hoạt động 
+1 (A1), SI luôn đạt mức đồng ý cao ở mọi chỉ báo, từ 88.9% đến 100%, với tỉ lệ trung lập rất thấp (0%–
+5.6%) và không có ý kiến không đồng ý. Trong khi đó, CT cũng chủ yếu được đánh giá thuận lợi nhưng 
+phân tán hơn: mức đồng ý từ 77.8% đến 94.4%, tỉ lệ trung lập cao hơn (5.6%–22.2%) và xuất hiện một số 
+trường hợp không đồng ý ở mức nhẹ (5.6%).
+Trong Hoạt động 2 (A2), PU-GAI nhận được sự tán thành nhất trí ở mọi chỉ báo (100% đồng ý), củng cố 
+vai trò hỗ trợ học tập của GAI. Các mô thức ở TE-AI và RI có nhiều sắc thái hơn. Mặc dù tỉ lệ đồng ý tổng 
+thể vẫn cao (88.9%–100%), tỉ lệ trung lập lên đến 11.1% đối với TE-AI và 16.7% đối với RI, cùng một số 
+trường hợp không đồng ý ở mức nhẹ đối với RI (5.6%). Những mô thức này làm cho kết quả có cơ sở thực 
+tế hơn: sinh viên khẳng định tính hữu ích của GAI, đồng thời nhận diện các điều kiện để sử dụng hiệu quả, 
+như nhu cầu kiểm chứng, độ nhạy đối với cách diễn đạt câu lệnh và nhận thức về những sai sót có thể xảy 
+ra — những đặc điểm phù hợp với cách tham gia có suy ngẫm và tự điều chỉnh nhiều hơn.
+Tóm lại, hai hoạt động dạy học tạo nên một bức tranh hội tụ, đặc trưng bởi mức chấp nhận cao đối với cả 
+tương tác Socrates lẫn vai trò trung gian của GAI. Trong bức tranh đó, các lợi ích trực tiếp hơn — như tính 
+hữu ích cảm nhận, sự rõ ràng và tính định hướng — gần như nhận được sự đồng thuận tuyệt đối; còn những 
+cấu trúc phức tạp hơn, như tư duy phản biện, và những phương diện liên quan đến tiêu chí sử dụng và độ tin 
+cậy — như niềm tin vào AI trong giáo dục và sự tích hợp các nguồn lực — có tỉ lệ trung lập cao hơn và đôi 
+khi có ý kiến không đồng ý. Những mô thức trả lời này phù hợp với quá trình học sâu và sự phát triển dần 
+của năng lực suy luận.
+D. Phân tích định tính các phản tư của sinh viên qua hai điều kiện dạy học
+Nghiên cứu sử dụng phân tích chủ đề phù hợp với mẫu nhỏ, theo khuôn khổ do Braun và Clarke đề xuất 
+[36], nhằm xem xét những trải nghiệm nằm sau các câu trả lời mở. Ở Hoạt động 1 (A1), sinh viên được hỏi: 
+“Bạn đã học được điều gì từ các câu hỏi Socrates của giảng viên?” Phân tích 18 câu trả lời cho thấy ba chủ 
+Guerrero-Zambrano và cộng sự · PRPER 22, 020134 (2026)
+10
+
+ĐỐI THOẠI SOCRATES VÀ AI TẠO SINH
+BẢN DỊCH TIẾNG VIỆT
+đề nổi bật. Chủ đề xuất hiện nhiều nhất là làm rõ và đào sâu khái niệm (44%), nhấn mạnh vai trò của việc 
+đặt câu hỏi có hướng dẫn trong việc tinh chỉnh hiểu biết về các khái niệm động học. Tiếp theo là tư duy phản 
+biện và ý thức siêu nhận thức (39%); ở đây sinh viên nhấn mạnh việc suy ngẫm về các giả định, quá trình 
+suy luận và phát hiện sai sót. Chủ đề thứ ba liên quan đến cấu trúc hóa suy luận (28%), với các ý kiến cho 
+biết cách giải thích khi giải bài tập được tổ chức tốt hơn và mạch lạc hơn.
+Ở Hoạt động 2 (A2), sinh viên trả lời câu hỏi: “AI tạo sinh hữu ích hoặc gây nhầm lẫn ở những khía cạnh 
+nào?” Phân bố chủ đề thay đổi nhưng vẫn có sự tiếp nối với A1. Tính hữu ích và sự rõ ràng về khái niệm 
+tiếp tục là chủ đề nổi bật (44%), cho thấy GAI được nhìn nhận là giúp củng cố hiểu biết. Một tỉ lệ đáng kể 
+câu trả lời nhấn mạnh việc sử dụng có phê phán và kiểm chứng (33%), phản ánh nhận thức của sinh viên 
+về sự cần thiết phải đánh giá, đối chiếu và xác thực đầu ra do AI tạo ra. Các chủ đề khác gồm cấu trúc hóa 
+suy luận (17%) và hiệu quả sử dụng công cụ (17%); chủ đề sau gắn với khả năng khảo sát nhanh hơn những 
+hướng giải và cách giải thích khác nhau. Bên cạnh các lợi ích, sinh viên nêu rõ những hạn chế: sự phụ thuộc 
+vào câu lệnh (22%) và những điểm thiếu chính xác về toán học (28%), đòi hỏi phải kiểm chứng liên tục. 
+Các hạn chế ấy dường như đã khuyến khích sinh viên tham gia vào quá trình giải bài tập một cách có chủ 
+đích, có suy ngẫm và tự điều chỉnh hơn, thay vì làm giảm giá trị dạy học của GAI.
+E. Diễn giải hội tụ kết quả học tập theo phương pháp hỗn hợp
+Để tích hợp bằng chứng từ kết quả thực hiện nhiệm vụ (bảng tiêu chí tư duy phản biện), cảm nhận (dữ 
+liệu khảo sát) và trải nghiệm được thuật lại (câu trả lời mở), nghiên cứu sử dụng ma trận hội tụ định tính–
+định lượng như trình bày ở Bảng IV. Cách tiếp cận tích hợp này cho phép đối chiếu có hệ thống các phát 
+hiện và nhận diện những mô thức nhất quán giữa các nguồn dữ liệu, đồng thời tránh lặp lại khi báo cáo kết 
+quả [37,38].
+Phát hiện
+Bằng chứng định lượng
+Chủ đề định tính
+Hội tụ
+Tổng hợp tích hợp
+Cải thiện tổng thể 
+khi có GAI
+Wilcoxon (tổng thể): 
+𝑊= 0.0000, 𝑝=
+0.03120
+Sự rõ ràng/tính hữu ích 
+về khái niệm (44%); 
+cấu trúc suy luận (17%)
+Thống nhất
+Mức tăng kết quả phù hợp với 
+phản hồi về sự rõ ràng hơn và suy 
+luận được tổ chức tốt hơn.
+Cải thiện ở P1 và 
+P4
+P1, P4: 𝑝= 0.03125; 
+trung vị P4: 6.5 →10.0
+Sử dụng có phê phán/
+kiểm chứng (33%)
+Một phần
+Những mức tăng lớn nhất đi cùng 
+sự kiểm chứng và kiểm soát có 
+phê phán mạnh hơn.
+Xu hướng tích cực 
+(P2, P3), chưa có ý 
+nghĩa thống kê
+P2, P3: 𝑝= 0.06250
+Không có chủ đề riêng 
+theo bài tập
+Không có 
+dữ liệu đối 
+ứng
+Có mức tăng vừa phải nhưng 
+không có dấu hiệu định tính riêng 
+biệt theo bài tập.
+Tính hữu ích cảm 
+nhận của GAI
+PU-GAI: 100% đồng ý
+Sự rõ ràng/tính hữu ích 
+về khái niệm (44%)
+Thống nhất
+Tính hữu ích cảm nhận phù hợp 
+với phản hồi về hỗ trợ và làm rõ 
+khái niệm.
+Các sắc thái về 
+niềm tin và tích 
+hợp
+TE-AI, RI: tỉ lệ đồng ý 
+cao; có trung lập và một 
+số ý kiến không đồng ý
+Phụ thuộc câu lệnh 
+(22%); thiếu chính xác 
+về toán học (28%)
+Thống nhất
+Sự dè dặt phù hợp với lưu ý về 
+các giới hạn và nhu cầu kiểm 
+chứng.
+Cấu trúc hóa/siêu 
+nhận thức
+A1: CT phân tán/có trung 
+lập; A2: các đánh giá hội 
+tụ ở mức cao
+A1: CT + siêu nhận 
+thức (39%); A2: cấu 
+trúc suy luận
+Một phần
+Phản hồi về siêu nhận thức/cấu 
+trúc hóa phù hợp với mô thức 
+tổng thể, nhưng chưa tách riêng 
+từng phương diện.
+Bảng IV: Đối chiếu kiểm chứng kết quả định lượng và định tính bằng ma trận hội tụ.
+Trong hợp phần định lượng, so sánh tổng thể giữa hai hoạt động cho thấy điểm cao hơn ở điều kiện có GAI 
+làm trung gian (A2), với thống kê Wilcoxon 𝑊= 0.0000 và giá trị 𝑝= 0.03120. Ở cấp bài tập, khác biệt 
+có ý nghĩa thống kê được xác định ở Bài 1 (P1) và Bài 4 (P4), đều có 𝑝= 0.03125. Đặc biệt, P4 có mức 
+tăng trung vị rõ rệt, từ 6.5 ở A1 lên 10.0 ở A2. P2 và P3 có xu hướng thuận lợi cho A2 (𝑝= 0.06250), dù 
+chưa đạt ngưỡng ý nghĩa thông thường 𝛼= 0.05. Cuối cùng, P5 có thay đổi vừa phải hơn, với 𝑝= 0.12500. 
+Về bằng chứng cảm nhận, nghiên cứu ghi nhận đánh giá rất tích cực. Ở A2, PU-GAI đạt 100% đồng ý. Các 
+phương diện gắn với độ tin cậy và tiêu chí sử dụng, như TE-AI và RI, duy trì mức đồng ý cao, dù tỉ lệ trung 
+lập lần lượt lên tới 11.1% và 16.7%, cùng một trường hợp không đồng ý (5.6%) ở RI. Nhìn chung, các kết 
+quả này cho thấy mức chấp nhận cao đi kèm sự cân nhắc thận trọng.
+Phân tích định tính xác định những chủ đề cốt lõi bổ sung cho các mô thức định lượng quan sát được. Ở A2, 
+tính hữu ích và sự rõ ràng về khái niệm xuất hiện trong 44% câu trả lời, sử dụng có phê phán và kiểm chứng 
+Guerrero-Zambrano và cộng sự · PRPER 22, 020134 (2026)
+11
+
+ĐỐI THOẠI SOCRATES VÀ AI TẠO SINH
+BẢN DỊCH TIẾNG VIỆT
+trong 33%, còn cấu trúc hóa suy luận trong 17%. Các hạn chế được nêu gồm những điểm thiếu chính xác 
+về toán học (28%) và sự phụ thuộc vào câu lệnh (22%).
+Nhìn chung, bằng chứng được đối chiếu kiểm chứng chủ yếu cho thấy sự hội tụ giữa mức tăng kết quả và 
+tính hữu ích cảm nhận cao, được củng cố bằng các lời thuật lại nhấn mạnh sự rõ ràng và vai trò giàn giáo 
+hỗ trợ học tập. Ngoài ra, có sự thống nhất một phần ở những phương diện liên quan đến niềm tin và sự tích 
+hợp các nguồn lực: mức chấp nhận trong dữ liệu định lượng cùng tồn tại với các lưu ý định tính về nhu cầu 
+kiểm chứng và độ nhạy đối với cách diễn đạt câu lệnh.
+IV. Thảo luận
+Nghiên cứu này so sánh hai hình thức trung gian trong đối thoại Socrates khi giải bài tập định tính và bài 
+tập tính toán về động học chuyển động tịnh tiến trong đào tạo ban đầu cho giáo viên Vật lí: một hình thức 
+chỉ do giảng viên hướng dẫn, hình thức kia có GAI hỗ trợ. Toàn bộ kết quả cho thấy một mô thức nhất quán. 
+Kết quả được đánh giá bằng bảng tiêu chí tư duy phản biện và một số cảm nhận liên quan đến học tập có xu 
+hướng cải thiện khi đối thoại Socrates được bổ sung GAI; trong khi đó, tải nhận thức không thay đổi theo 
+một chiều hướng đồng nhất mà dường như chịu ảnh hưởng của nỗ lực bổ sung dành cho việc kiểm chứng 
+và kiểm soát chất lượng các câu trả lời do AI tạo ra.
+Xét về kết quả thực hiện nhiệm vụ, sự cải thiện tổng thể quan sát được phù hợp với các báo cáo gần đây 
+xem gia sư dựa trên AI là nguồn hỗ trợ có khả năng nâng cao việc học trong bối cảnh giáo dục thực tế, bao 
+gồm cả Vật lí, khi được tích hợp với chủ đích sư phạm rõ ràng thay vì dùng để thay thế hoạt động trí tuệ của 
+sinh viên [39]. Tương tự, nhiều nghiên cứu đã cho thấy đối thoại Socrates có AI hỗ trợ có thể thúc đẩy suy 
+luận và tư duy phản biện bằng cách duy trì các câu hỏi đào sâu, yêu cầu biện minh và khuyến khích xem 
+xét, chỉnh sửa lập luận [40,41]. Bằng chứng từ giáo dục Toán học tiếp tục củng cố cơ chế này: khi các lượt 
+trao đổi đối thoại được định hướng bằng những ràng buộc cấu trúc, công cụ AI có thể thúc đẩy suy nghĩ sâu 
+và khám phá tự chủ, thay vì tạo câu trả lời một cách máy móc [42].
+Đóng góp của công trình này trở nên có ý nghĩa hơn khi đặt cạnh một khó khăn lâu nay trong dạy học động 
+học: xu hướng ưu tiên quy trình thuật toán và thay số hơn là mô hình hóa, diễn giải các biến và suy ngẫm 
+siêu nhận thức [1,2]. Nghiên cứu về các phương pháp dạy học tích cực trong giáo dục khoa học cho thấy tư 
+duy phản biện được củng cố khi chú trọng cùng xây dựng lập luận, phân tích khái niệm và tìm tòi có hướng 
+dẫn, thay vì chỉ lặp lại quy trình [3,4,43]. Riêng trong động học chuyển động tịnh tiến, việc học đòi hỏi xây 
+dựng mô hình tư duy, diễn giải quan hệ giữa các đại lượng và suy luận trừu tượng — những năng lực cốt 
+lõi trong quá trình hình thành năng lực nghề nghiệp của giáo viên Vật lí tương lai. Trong khuôn khổ này, 
+phương pháp Socrates cung cấp một hướng đi khả thi để duy trì các cách giải thích dựa trên lí lẽ chứ không 
+chỉ dựa trên kết quả; việc kết hợp với GAI có thể mở rộng cơ hội phản hồi và điều chỉnh sai lầm, với điều 
+kiện tương tác vẫn mang tính suy ngẫm và được giám sát về mặt sư phạm [6].
+Trong giáo dục Vật lí, các nghiên cứu mới đã báo cáo việc sử dụng ChatGPT nhằm tăng cường kĩ năng đối 
+thoại của giáo viên và khảo sát các gia sư Socrates có thể tùy chỉnh, với tiềm năng thúc đẩy suy ngẫm chủ 
+động và hỗ trợ giàn giáo thích ứng [44,45]. Những công trình bổ sung cho thấy GAI có thể hỗ trợ hiểu biết 
+khái niệm và hiệu quả học tập thông qua phản hồi tức thời, các hướng giải khác nhau và cơ hội tự sửa sai 
+[46]. Một điểm cũng đáng quan tâm là so sánh bài giải do sinh viên tạo ra với câu trả lời do AI tạo ra giúp 
+nhận diện cả điểm mạnh lẫn điểm mù của từng cách suy luận, mở ra khả năng tổ chức dạy học lấy việc đối 
+chiếu, biện minh và đánh giá có phê phán làm trọng tâm [47].
+Từ góc nhìn người tham gia, mức tăng niềm tin vào năng lực bản thân và động cơ nội tại quan sát được phù 
+hợp với các nghiên cứu báo cáo ảnh hưởng tích cực của GAI đối với sự tham gia và cảm nhận học tập, dù 
+những ảnh hưởng này phụ thuộc vào đặc điểm nhiệm vụ và chất lượng hướng dẫn sư phạm [48]. Đồng thời, 
+tài liệu nghiên cứu cảnh báo rằng sử dụng chatbot không có hướng dẫn có thể dẫn đến tương tác thiếu cấu 
+trúc, suy ngẫm hời hợt và thậm chí làm giảm kết quả, đặc biệt khi không có yêu cầu tường minh về lập luận 
+và kiểm soát siêu nhận thức [39]. Theo nghĩa đó, đóng góp thực tiễn của cách tiếp cận SOCRATIC-IA không 
+nằm ở bản thân việc “sử dụng AI”, mà ở cách xác lập vai trò tham gia của AI như một giàn giáo nhận thức: 
+gợi mở giải thích, đối chiếu giả định, yêu cầu bằng chứng, kiểm tra tính nhất quán về thứ nguyên và khái 
+niệm, đồng thời đòi hỏi quá trình suy luận phải có thể được lần theo trước khi chấp nhận câu trả lời.
+Guerrero-Zambrano và cộng sự · PRPER 22, 020134 (2026)
+12
+
+ĐỐI THOẠI SOCRATES VÀ AI TẠO SINH
+BẢN DỊCH TIẾNG VIỆT
+Tuy nhiên, những hạn chế phương pháp luận đã xác định đòi hỏi phải diễn giải kết quả một cách thận trọng. 
+Thiết kế tiền thực nghiệm, trình tự cố định của các điều kiện và việc dùng lại cùng các bài tập giữa các giai 
+đoạn tạo ra những đe dọa lớn đối với giá trị nội tại, bao gồm ảnh hưởng của luyện tập, sự quen thuộc và 
+khả năng chuyển tiếp ảnh hưởng. Ngoài ra, cỡ mẫu nhỏ và sự kết hợp các đơn vị phân tích — kết quả ở cấp 
+nhóm so với cảm nhận ở cấp cá nhân — giới hạn phạm vi suy luận. Để đáp ứng tiêu chuẩn biên tập cao, vẫn 
+cần báo cáo rõ hơn độ tin cậy của quá trình chấm, chẳng hạn qua mức nhất quán giữa những người đánh giá, 
+và bổ sung cỡ ảnh hưởng cùng khoảng tin cậy bên cạnh ý nghĩa thống kê, để mức độ thay đổi được trình 
+bày minh bạch như cơ sở thống kê của nó.
+Tổng hợp lại, nghiên cứu nên được hiểu là bằng chứng bước đầu, gắn với bối cảnh cụ thể. Nghiên cứu gợi ý 
+rằng hình thức trung gian bằng đối thoại Socrates có thể được tăng cường nhờ GAI khi tương tác được thiết 
+kế có chủ đích để đòi hỏi tư duy bậc cao và khi giảng viên vẫn giữ vai trò điều tiết quá trình nhận thức trong 
+đối thoại. Nghiên cứu tương lai nên đưa vào thiết kế cân bằng thứ tự hoặc bắt chéo, sử dụng các nhiệm vụ 
+thực sự đẳng cấu, mở rộng cỡ mẫu và đánh giá khả năng duy trì cũng như chuyển giao kiến thức. Bên cạnh 
+đó, phân tích định tính sâu hơn chính các cuộc đối thoại — như chất lượng câu hỏi, mô thức biện minh và 
+cơ chế tự sửa sai — sẽ giúp phân định chính xác hơn những khía cạnh thay đổi nào có thể quy cho chiến 
+lược Socrates, cho vai trò trung gian của GAI, và cho sự tích lũy qua luyện tập.
+V. Kết luận
+Nghiên cứu này so sánh phương pháp Socrates truyền thống với cách tiếp cận Socrates có GAI làm trung 
+gian nhằm tăng cường tư duy phản biện của sinh viên sư phạm Vật lí trong quá trình giải bài tập định tính 
+và bài tập tính toán về động học chuyển động tịnh tiến. Thiết kế tiền thực nghiệm kết hợp phương pháp định 
+tính và định lượng đóng góp cho nghiên cứu giáo dục Vật lí và các lĩnh vực STEAM liên quan bằng cách 
+cung cấp bằng chứng thực nghiệm về vai trò của GAI như một chất xúc tác cho học sâu và phát triển các kĩ 
+năng nhận thức bậc cao.
+Kết quả cho thấy điểm tư duy phản biện cao hơn được ghi nhận ở điều kiện thứ hai, tức đối thoại Socrates 
+có GAI làm trung gian. Mặc dù mô thức này nhất quán giữa các nhóm tham gia, thiết kế với trình tự cố định 
+không cho phép quy riêng những khác biệt quan sát được cho vai trò trung gian của GAI, bởi không thể loại 
+trừ ảnh hưởng của luyện tập, học tập tích lũy, sự quen thuộc và sự chuyển tiếp ảnh hưởng. Cụ thể, khác biệt 
+có ý nghĩa thống kê trong phạm vi mẫu được ghi nhận về chất lượng câu trả lời cho cả câu hỏi định tính 
+lẫn tính toán ở Bài 1 và Bài 4, cùng với xu hướng tích cực ở những bài còn lại. Các kết quả này gợi ý rằng 
+GAI có thể làm phong phú đối thoại Socrates bằng cách hỗ trợ độ chính xác về khái niệm, sự triển khai suy 
+luận và việc xem xét, điều chỉnh ở bình diện siêu nhận thức. Việc không ghi nhận ảnh hưởng tiêu cực đến 
+kết quả, cùng sự cải thiện tổng thể quan sát được, ủng hộ tính khả thi về mặt sư phạm và những lợi ích tiềm 
+năng của việc tích hợp công cụ GAI trong bối cảnh môn học này.
+Phân tích các câu hỏi nghiên cứu phụ còn cho thấy vai trò trung gian của GAI ảnh hưởng tích cực đến cảm 
+nhận học tập của sinh viên. Mức tăng đáng kể về niềm tin vào năng lực bản thân trong động học và động 
+cơ nội tại được ghi nhận ở các giáo viên tương lai, những người đánh giá thuận lợi vai trò của GAI trong 
+quá trình học. Những cải thiện chủ quan này phù hợp với sự cải thiện khách quan về kết quả. Tuy nhiên, tải 
+nhận thức thể hiện mô thức phức tạp hơn. Trong khi GAI tạo thuận lợi cho việc tiếp cận thông tin và làm rõ 
+khái niệm, công cụ cũng đòi hỏi sinh viên giám sát và kiểm soát chất lượng các câu trả lời được tạo ra. Phát 
+hiện này nhấn mạnh tầm quan trọng của những thiết kế sư phạm tích hợp GAI như một giàn giáo nhận thức 
+dưới sự giám sát của giảng viên, thay vì như công cụ cung cấp đáp án.
+Trong các điều kiện được khảo sát, mô hình SOCRATIC-IA cung cấp một khuôn khổ dạy học bước đầu để 
+tích hợp đối thoại Socrates do giảng viên hướng dẫn với AI tạo sinh trong giải bài tập động học. Kết quả ủng 
+hộ việc tiếp tục nghiên cứu tính khả thi và giá trị sư phạm của mô hình, nhưng chưa xác lập hiệu quả của 
+nó ngoài mẫu và bối cảnh dạy học hiện tại. Cần có thêm nghiên cứu với mẫu lớn hơn, thiết kế có đối chứng 
+hoặc cân bằng thứ tự, các nhiệm vụ tương đương nhưng không giống hệt nhau, cùng phép đo về khả năng 
+duy trì và chuyển giao kiến thức, để xác định liệu những mô thức quan sát được có thể được tái lập và quy 
+cụ thể hơn cho hỗ trợ Socrates có GAI làm trung gian hay không.
+Bằng cách tích hợp đối thoại Socrates với khả năng thích ứng và phản hồi của GAI, cách tiếp cận này không 
+chỉ nâng cao việc giải bài tập định tính và tính toán trong động học chuyển động tịnh tiến, mà còn thúc đẩy 
+Guerrero-Zambrano và cộng sự · PRPER 22, 020134 (2026)
+13
+
+ĐỐI THOẠI SOCRATES VÀ AI TẠO SINH
+BẢN DỊCH TIẾNG VIỆT
+niềm tin vào năng lực bản thân và động cơ nội tại — những yếu tố then chốt đối với học tập tự chủ và suốt 
+đời. Ở phạm vi rộng hơn, nghiên cứu mở ra hướng khảo sát cách những ứng dụng AI tạo sinh có nền tảng sư 
+phạm có thể làm chuyển biến môi trường học tập STEAM thông qua việc phát triển các hình thức suy luận 
+sâu hơn và có khả năng chuyển giao tốt hơn.
+Phụ lục: Tài liệu bổ sung
+Tài liệu bổ sung của bài báo được cung cấp dưới dạng tài nguyên trực tuyến mở trên Figshare, ghi lại các 
+thành phần dạy học, đánh giá và sử dụng AI làm trung gian trong can thiệp. Tài liệu bổ sung S1: Bộ bài tập 
+động học trình bày các bài tập định tính và định lượng được sử dụng trong hoạt động học tập, bao gồm nhiệm 
+vụ về tốc độ trung bình, vận tốc trung bình, gia tốc, diễn giải đồ thị và chuyển động tương đối (doi:10.6084/
+m9.figshare.32733156). Tài liệu bổ sung S2: Câu hỏi Socrates cung cấp các câu hỏi gợi mở do giảng viên 
+thiết kế, phù hợp với bảng tiêu chí phân tích, cho thấy suy luận của sinh viên được định hướng như thế 
+nào qua các phương diện hiểu khái niệm, lập luận, ví dụ, sửa sai và sự rõ ràng của câu trả lời (doi:10.6084/
+m9.figshare.32733849). Tài liệu bổ sung S3: Bảng tiêu chí phân tích chứa công cụ chấm điểm dùng để 
+đánh giá tư duy phản biện đặc thù môn học trong động học thông qua năm tiêu chí và bốn mức độ thực hiện 
+(doi:10.6084/m9.figshare.32735553). Tài liệu bổ sung S4: Cấu trúc câu lệnh mô tả vai trò, bối cảnh, yêu 
+cầu và định dạng đầu ra được dùng trong giai đoạn có AI tạo sinh làm trung gian, cũng như phạm vi giám sát 
+của giảng viên và kiểm chứng về khái niệm (doi:10.6084/m9.figshare.32735838.v1). Cuối cùng, Lời giải 
+Bài 1 cung cấp một ví dụ bài giải chi tiết của một nhóm sinh viên về tốc độ trung bình và vận tốc trung 
+bình trong chuyển động tròn, minh họa kiểu suy luận, biện minh toán học và suy ngẫm theo phương pháp 
+Socrates có AI hỗ trợ được phân tích trong nghiên cứu (doi:10.6084/m9.figshare.32751666.v1).
+Khả năng tiếp cận dữ liệu
+Không có dữ liệu nghiên cứu hoặc phần mềm hỗ trợ bản thảo này được công khai. Các yêu cầu cung cấp 
+thêm thông tin hoặc dữ liệu cần được gửi đến các tác giả.
+Tài liệu tham khảo
+Giữ nguyên tên tác giả, nhan đề và thông tin xuất bản theo bản gốc để thuận tiện tra cứu.
+[1]
+J. L. Docktor, N. E. Strand, Jé P. Mestre, and B. H. Ross, Conceptual problem solving in high school physics, Phys. 
+Rev. ST Phys. Educ. Res. 11, 020106 (2015).
+[2]
+I. Sánchez Soto, M. A. Moreira, and C. Caballero Sahelices, Implementation of a proposal for meaningful learning of 
+kinematics through problem solving, Ingeniare 17, 27 (2009).
+[3]
+B. Mitrevski, Teaching critical thinking and problem solving in physics, AIP Conf. Proc. 2075, 180001 (2019).
+[4]
+M. Ubaidillah, H. Hartono, P. Marwoto, W. Wiyanto, and B. Subali, How to improve critical thinking in physics 
+learning? A systematic literature review, J. Educ. Cultural Psychol. Stud. 161 (2023).
+[5]
+L. Møller Haase, J. Egelund Holgaard, and A. Kolmos, The complexity of engineering education in a mission driven 
+PBL university, Transforming Engineering Education, OA ed. (Aalborg Universitetsforlag, 2023), pp. 172–177.
+[6]
+Y.-R. Ho, B.-Y. Chen, and C.-M. Li, Thinking more wisely: Using the socratic method to develop critical thinking skills 
+amongst healthcare students, BMC Med. Educ. 23, 173 (2023).
+[7]
+S. Küchemann, S. Steinert, N. Revenga, M. Schweinberger, Y. Dinc, K. E. Avila, and J. Kuhn, Can ChatGPT support 
+prospective teachers in physics task development?, Phys. Rev. Phys. Educ. Res. 19, 020128 (2023).
+[8]
+N. H. Pulungan, M. Sirait, and E. M. Ginting, Analysis of linear motion kinematics on student’s critical thinking skills 
+based on scientific inquiry, J. Phys.: Conf. Ser. 1811, 012006 (2021).
+[9]
+J. D. Quiceno Osorio, La inteligencia artificial y el riesgo de una analogía invertida, Sophia Colección de Filosofía de la 
+Educación 39, 315 (2025).
+[10] A. Recio Sastre, La pregunta por la enseñanza de la ética como límite de la inteligencia artificial, Sophia, Colección de 
+Filosofía de la Educación 39, 53 (2025).
+[11] H. Barrios Tao, Configuración de subjetividades mediante sistemas de inteligencia artificial, Sophia, Colección de 
+Filosofía de la Educación 39, 83 (2025).
+[12] R. A. Reza Flores, R. M. Vicari, C. Galafassi, and M. Usart Rodríguez, Percepción del docente sobre la otredad en la era 
+de la inteligencia artificial, Sophia, Colección de Filosofía de la Educación 39, 281 (2025).
+[13] N. A. Zambrano-González and J. Vallverdú Segura, Retos del aprendizaje en la era de las heurísticas artificiales, Sophia, 
+Colección de Filosofía de la Educación 39, 167 (2025).
+[14] J. W. Creswell and V. L. Plano Clark, Designing and Conducting Mixed Methods Research, 3rd ed. (SAGE 
+Publications, Thousand Oaks, CA, USA, 2017).
+[15] J. W. Creswell and J. D. Creswell, Research Design: Qualitative, Quantitative, and Mixed Methods Approaches, 5th ed. 
+(SAGE Publications, Thousand Oaks, CA, USA, 2017).
+[16] R. H. Ennis, Ideal critical thinkers are disposed to, Inquiry 26, 4 (2011).
+Guerrero-Zambrano và cộng sự · PRPER 22, 020134 (2026)
+14
+
+ĐỐI THOẠI SOCRATES VÀ AI TẠO SINH
+BẢN DỊCH TIẾNG VIỆT
+[17] D. F. Halpern, Thought and Knowledge: An Introduction to Critical Thinking, 5th ed. (Psychology Press, Taylor & 
+Francis Group, New York London, 2014).
+[18] R. Paul and L. Elder, The Miniature Guide to Critical Thinking Concepts and Tools (Bloomsbury Publishing PLC, 
+London, UK, 2019).
+[19] P. A. Facione, Critical Thinking: What it Is and Why it Counts, (Insight Assessment, 2023), https://insightassessment.
+com/iaresource/critical-thinking-what-it-is-and-why-it-counts/.
+[20] A. Field, Discovering Statistics Using IBM SPSS Statistics, 5th ed. (SAGE Publications Ltd, London, UK, 2018), Vol. 
+1.
+[21] D. C. Howell, Statistical Methods for Psychology (Cengage Learning, Belmont, CA, USA, 2009).
+[22] F. J. Gravetter and L. B. Wallnau, Statistics for the behavioral sciences, 10th ed. (Cengage Learning, Boston, MA 02210 
+USA, 2017). Vol. 1.
+[23] World Medical Association, World medical association declaration of Helsinki: ethical principles for medical research 
+involving human subjects, Jama, J Am Med Assoc 310, 2191 (2013).
+[24] E. A. Buchanan and M. Zimmer, Internet research ethics, The Stanford Encyclopedia of Philosophy Fall, 2025 Ed. 
+(2012).
+[25] N. Mohd Razali and Y. Bee Wah, Power comparisons of shapiro-wilk, Kolmogorov-smirnov, lilliefors and Anderson-
+darling tests (2, 21 (2011).
+[26] B. W. Yap and C. H. Sim, Comparisons of various types of normality tests, J. Stat. Comput. Simul. 81, 2141 (2011).
+[27] H. D. Kimmel, Three criteria for the use of one-tailed tests, Psychol. Bull. 54, 351 (1957).
+[28] C. M. Lombardi and S. H. Hurlbert, Misprescription and misuse of one-tailed tests, Austral Ecol. 34, 447 (2009).
+[29] G. D. Ruxton and M. Neuhäuser, When should we use one-tailed hypothesis testing?, Methods Ecol. Evol. 1, 114 
+(2010).
+[30] L. Wilkinson and M. Friendly, The History of the Cluster Heat Map, Am. Stat. 63, 179 (2009).
+[31] C. Ware, Information Visualization, 3rd ed. (Data Visualization Research Lab, University of New Hampshire, Durham, 
+USA, 2012), Vol. 1.
+[32] B. Rogowitz and L. Treinish, Data visualization: The end of the rainbow, IEEE Spectrum 35, 52 (1998).
+[33] E. Kasneci et al., ChatGPT for good? On opportunities and challenges of large language models for education, Learn. 
+Individ. Differ. 103, 102274 (2023).
+[34] W. Holmes and I. Tuomi, State of the art and practice in AI in education, Eur. J. Educ. 57, 542 (2022).
+[35] A. M. Al-Abdullatif and M. A. Alsubaie, ChatGPT in learning: Assessing students’ use intentions through the lens of 
+perceived value and the influence of AI literacy, Behav. Sci. 14, 845 (2024).
+[36] V. Braun and V. Clarke, Conceptual and design thinking for thematic analysis, Qualitative Psychol. 9, 3 (2022).
+[37] A. Killett, P. E. Langdon, H. Ryan, C. Shiggins, R. Heywood, O. F. Jimoh, M. Redley, and K. Bunning, Inclusion of 
+adults with conditions that have the potential to affect capacity and or communication in research: triangulation from a 
+mixed-methods study of current practice and values across multiple stakeholders, BMJ Open 13, e068366 (2023).
+[38] S. Tonkin-Crine, S. Anthierens, K. Hood, L. Yardley, J. W. L. Cals, N. A. Francis, S. Coenen, A. W. van der Velden, M. 
+Godycki-Cwirko, C. Llor, C. C. Butler, T. J. M. Verheij, H. Goossens, and P. Little and on behalf of the GRACE IN 
+TRO/CHAMP consortium, Discrepancies between qualitative and quantitative evaluation of randomised controlled trial 
+results: Achieving clarity through mixed methods triangulation, Implementation Sci. 11, 66 (2016).
+[39] G. Kestin, K. Miller, A. Klales, T. Milbourne, and G. Ponti, AI tutoring outperforms in-class active learning: An RCT 
+introducing a novel research-based design in an authentic educational setting, Sci Rep 15, 17458 (2025).
+[40] H. Fakour and M. Imani, Socratic wisdom in the age of AI: A comparative study of ChatGPT and human tutors in 
+enhancing critical thinking skills, Front. Educ. 10, 1528603 (2025).
+[41] J. Jabbour, K. Kleinbard, O. Miller, R. Haussman, and V. J. Reddi, SocratiQ: A generative AI-powered learning 
+companion for personalized education and broader accessibility, in Proceedings of the Workshop on Computer 
+Architecture Education (ACM, Tokyo Japan, 2025), pp. 1–10.
+[42] Y. Ding, H. Hu, J. Zhou, Q. Chen, B. Jiang, and L. He, Boosting large language models with Socratic method for 
+conversational mathematics teaching, in Proceedings of the 33rd ACM International Conference on Information and 
+Knowledge Management, CIKM ’24 (Association for Computing Machinery, New York, NY, USA, 2024), pp. 3730–
+3735.
+[43] Y. P. Chavesta Incio and M. d. l. Sánchez Trujillo, El pensamiento crítico en los estudiantes de una Escuela Nacional 
+Superior de Arte, Revista de Estudios y Experiencias en Educación 22, 65 (2023).
+[44] B. Gregorcic, G. Polverini, and A. Sarlah, ChatGPT as a tool for honing teachers’ Socratic dialogue skills, Phys. Educ. 
+59, 045005 (2024).
+[45] E. Tufino and B. Gregorcic, Creating a customisable Socratic AI physics tutor, Phys. Educ. 60, 065037 (2025).
+[46] E. M. Torralba, Generative AI scaffolding in physics education: A phenomenological analysis of its role and 
+implications in STEM learning, Schrödinger 6, 175 (2025).
+[47] A. Sirnoorkar, D. Zollman, J. T. Laverty, A. J. Magana, N. S. Rebello, and L. A. Bryan, Student and AI responses to 
+physics problems examined through the lenses of sensemaking and mechanistic reasoning, Comput. Educ. 7, 100318 
+(2024).
+[48] N. A. F. Shukor and K. Osman, The Role of artificial intelligence in developing critical thinking among science 
+students: A systematic literature review, Int. J. Acad. Res. Prog. Educ. Dev. 14, 164 (2025)..
+Guerrero-Zambrano và cộng sự · PRPER 22, 020134 (2026)
+15

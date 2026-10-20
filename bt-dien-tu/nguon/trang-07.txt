@@ -1,0 +1,56 @@
+Điện từ học                                 Phạm Nguyễn Thành Vinh – Trương Đặng Hoài Thu
+
+Bài 2.4 ABC là một tam giác vuông góc tại A được đặt trong điện
+
+trường đều E . Biết = ABC = 60 0 , BC=6cm, UBC=120V
+
+ a) Tìm UAC, UBA và độ lớn E .
+
+ b) Đặt thêm ở C một điện tích q = 9.10-10 C.Tính vector cường độ
+
+điện trường tổng hợp tại A.
+
+Bài 2.5 Hai bản kim loại phẳng song song mang điện tích trái dấu đặt cách nhau 2cm. Cường độ điện
+
+trường giữa hai bản là E = 3000V/m. Sát bản mang điện dương, ta đặt một hạt mang điện dương không
+vận tốc đầu, có khối lượng m = 4,5.10-6 g và có điện tích q = 1,5.10-2 C. Tính
+
+ a) Công của lực điện trường khi hạt mang điện chuyển động từ bản dương sang bản âm.
+
+ b) Vận tốc của hạt mang điện khi nó đập vào bản âm.
+
+Bài 2.6 Trong thí nghiệm tán xạ nổi tiếng của Rutherford hình
+
+thành mẫu hành tinh nguyên tử hay còn gọi là mô hình nguyên
+
+tử Rutherford, các hạt alpha (điện tích +2e, khối lượng
+6.64  10 −27 kg ) được bắn vào hạt nhân vàng có điện tích
+
++79e. Một hạt alpha ban đầu ở rất xa được gia tốc đến vận tốc
+2.00  10 7 m/ s tới va chạm với hạt nhân vàng (xem hình vẽ). Xác định khoảng cách gần nhất giữa hai
+
+hạt nhân trước khi hạt alpha bị dội ngược trở lại. Giả sử hạt nhân vàng
+
+đứng yên trong toàn bộ quá trình.
+
+Bài 2.7 Xét một vành tròn có bán kính R tích điện đều với mật độ
+điện dài . Xác định điện thế tại một điểm nằm trên trục đi qua tâm
+và vuông góc với vành tròn, cách tâm vành tròn một khoảng z. Xét
+trường hợp z  R .
+
+Bài 2.8 Xét một đĩa tròn nằm trong mặt phẳng Oxy, đĩa tròn có bán kính R
+tích điện đều với mật độ điện mặt . Xác định điện thế tại một điểm nằm
+trên trục đi qua tâm vuông góc với đĩa tròn và cách đĩa một khoảng z. Xét
+trường hợp  z  R .
+
+Bài 2.9 Một thanh mỏng nằm dọc theo trục z từ z = − d đến z = d . Thanh
+mang điện tích dương Q phân bố dọc theo chiều dài 2d của thanh với mật độ điện dài = Q / 2 d .
+
+Chọn gốc thế năng ở vô cùng.
+
+a) Tính điện thế tại điểm nằm trên trục z với z  d .
+
+b) Thế năng tĩnh điện sẽ thay đổi thế nào nếu có một electron di chuyển từ z = 4 d về z = 3d .
+
+
+                                            6

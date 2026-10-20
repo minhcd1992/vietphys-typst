@@ -51,7 +51,8 @@
       arrow((0, 0), (2.3, -2.3 * calc.tan(30deg)), [$bold(F)_2$], anchor: "west")
       content((1.05, 0.28), [30°])
       content((1.05, -0.28), [30°])
-      arrow((-0.3, -1.9), (2.3, -1.9), [Chiều chuyển động], anchor: "north", color: black)
+      line((-0.3, -1.9), (2.3, -1.9), stroke: 1pt, mark: (end: ">"))
+      content((1, -2.15), [Chiều chuyển động], anchor: "north")
       content((0.6, 1.95), [Hình nhìn từ trên xuống])
     } else if id == "doc-ngang" {
       line((0, 2), (3.464, 0), (6.8, 0), stroke: 1pt)

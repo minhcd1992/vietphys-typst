@@ -1,0 +1,25 @@
+Điện từ học                                 Phạm Nguyễn Thành Vinh – Trương Đặng Hoài Thu
+
+1,76.1011 C/kg. Bỏ qua lực cản và trọng lực. Để electron không bay ra ngoài vùng từ trường thì giá trị
+
+nhỏ nhắt của d là bao nhiêu?
+
+
+
+
+
+Bài 3.22 Một êlectron đang chuyển động với vận tốc v0 = 6.107 m/s thì bay vào một miền có từ trường
+
+đều, phương vuông góc với các đường sức từ. Vector vận tốc v0 nằm trong mặt phẳng hình vẽ và có
+chiều hướng từ trái sang phải (Hình bài 3.22). Cho biết B = 0,005 T, me=9,1.10-31 kg , điện tích của
+electron bằng e = -1,6.10-19 C . Bỏ qua trọng lượng của electron. Biết miền từ trường được giới hạn giữa
+
+hai đường thẳng song song, cách nhau một khoảng d = 5,91 cm. Thời gian chuyển động của electron
+
+trong từ trường là bao nhiêu?
+
+
+
+
+
+                                            24

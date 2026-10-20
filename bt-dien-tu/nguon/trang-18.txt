@@ -1,0 +1,36 @@
+Điện từ học                                 Phạm Nguyễn Thành Vinh – Trương Đặng Hoài Thu
+
+
+
+
+
+Bài 2.5 Cho mạch điện có sơ đồ như hình vẽ: =1  12V , =2  6V , r1 = r2 = 1 , R1 = 2 , R2 = 6 
+, R3 = 4  đèn loại 6V − 6W , R4 là biến trở, điện trở volt kế vô cùng lớn, điện trở ampere kế và dây
+
+nối không đáng kể. Xác định trị số biến trở để đèn sáng bình thường. Khi đó volt kế và ampere kế chỉ
+
+bao nhiêu?
+
+
+
+
+
+Bài 2.6 Cho mạch điện như dưới: E = 24V; r = 1; R1 = 3; R2 = R3 = R4 = 6; R A = 0. Tìm số chỉ
+
+của ampe kế.
+
+
+
+
+
+Bài 2.7 Cho mạch điện như hình vẽ E1 = 12V, r1 = r2 = 3, R1 = 6  là bình điện phân dung dịch
+
+(CuSO4/Cu), R2 là bóng đèn ghi (6V – 6W), R3 = 6Ω. Biết khối lượng đồng thu được sau 16ph5s là
+
+0,192g (A = 64, n = 2).
+
+
+
+
+
+                                            17

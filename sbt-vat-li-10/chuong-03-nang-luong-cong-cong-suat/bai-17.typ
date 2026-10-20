@@ -256,17 +256,17 @@
 
 // TF-03
 #vp-question(
-  [Một con trượt $"0,5" thin "kg"$ chuyển động dọc $O x$. Xét đồ thị thành phần lực $F_x(x)$, với $x_2>x_1$.],
+  [Một con trượt $"0,5" thin "kg"$ chuyển động dọc $O x$. Xét đồ thị thành phần lực $F_(x) (x)$, với $x_2>x_1$.],
   type: "tf",
   statements: (
-    [Công từ $x_1$ đến $x_2$ bằng diện tích đại số dưới đồ thị $F_x(x)$: phần dưới trục hoành mang dấu âm.],
-    [Nếu $F_x$ không đổi thì $A=F_x(x_2-x_1)$.],
+    [Công từ $x_1$ đến $x_2$ bằng diện tích đại số dưới đồ thị $F_(x) (x)$: phần dưới trục hoành mang dấu âm.],
+    [Nếu $F_x$ không đổi thì $A=F_x times (x_2-x_1)$.],
     [Lực đàn hồi $F_x=-k x$ với $k>0$ sinh công $A=frac(1, 2)k x^2>0$ khi vật đi từ vị trí lò xo tự nhiên $x=0$ đến $x>0$.],
     [Đơn vị của diện tích trên đồ thị lực–tọa độ là N/m.],
   ),
   ans-tf: ("Đ", "Đ", "S", "S"),
-  sol: [a) $A=∫_(x_1)^(x_2) F_x(x) dif x$ là diện tích đại số.
-    #parbreak() b) Với lực không đổi, tích phân bằng $F_x(x_2-x_1)$.
+  sol: [a) $A=∫_(x_1)^(x_2) F_(x) (x) dif x$ là diện tích đại số.
+    #parbreak() b) Với lực không đổi, tích phân bằng $F_x times (x_2-x_1)$.
     #parbreak() c) Lực đàn hồi chống lại sự tăng biến dạng: $A_("đh")=-frac(1, 2)k x^2$. Lực kéo ngoài $F_x=k x$ mới có công dương tương ứng.
     #parbreak() d) Đơn vị là $"N" dot "m" = "J"$.],
 )
@@ -338,7 +338,7 @@
 
 // SHORT-05
 #vp-question(
-  [Lực có thành phần $F_x(x)=10+2x$, với $F_x$ tính bằng N, $x$ bằng m. Công khi vật đi từ $x=0$ đến $x="5,0" thin "m"$ bằng bao nhiêu J?],
+  [Lực có thành phần $F_(x) (x)=10+2x$, với $F_x$ tính bằng N, $x$ bằng m. Công khi vật đi từ $x=0$ đến $x="5,0" thin "m"$ bằng bao nhiêu J?],
   type: "short", ans: "75", short-boxes: 2,
   sol: [Đồ thị nối $(0;10)$ và $(5;20)$. Công bằng diện tích hình thang:
     $ A=frac(10+20, 2) times 5=75 thin "J". $
@@ -387,8 +387,8 @@
 
 // ESSAY-03
 #vp-question(
-  [Con trượt $m="2,0" thin "kg"$ chuyển động trên đệm khí ngang không ma sát. Lực theo phương ngang có thành phần $F_x(x)=20-4x$, với $F_x$ bằng N, $x$ bằng m.
-    #parbreak() a) Vẽ đồ thị $F_x(x)$ trên đoạn $0<=x<=5 thin "m"$.
+  [Con trượt $m="2,0" thin "kg"$ chuyển động trên đệm khí ngang không ma sát. Lực theo phương ngang có thành phần $F_(x) (x)=20-4x$, với $F_x$ bằng N, $x$ bằng m.
+    #parbreak() a) Vẽ đồ thị $F_(x) (x)$ trên đoạn $0<=x<=5 thin "m"$.
     #parbreak() b) Tính công từ $x=0$ đến $x=5 thin "m"$ bằng diện tích đồ thị và bằng tích phân.
     #parbreak() c) Tại $x=0$, vận tốc $v_1="2,0" thin "m/s"$ theo chiều dương. Tính vận tốc khi vật đến $x=5 thin "m"$.],
   type: "essay", lines: 12,

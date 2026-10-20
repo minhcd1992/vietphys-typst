@@ -1,0 +1,29 @@
+PASS coverage: 113 source exercises, 113 converted entries
+PASS P1-1.1 tension N: 0.1152886
+PASS P1-1.2 drop radius m: 7.628167411e-05
+PASS P1-1.8 target range m: 0.00127
+PASS P1-1.9 electron endpoint m: 0.005001303656
+PASS P1-2.13 closed-loop work: -1.32348898e-23
+PASS P1-2.22 E=-dV/dr: 1.0693
+PASS P1-3.14 surface continuity: 1
+PASS P1-3.14 E maximum: 1.333333333
+PASS P2-2.4a equivalent ohm: 15
+PASS P2-2.4b equivalent ohm: 5
+PASS P2-2.7 node A residual: 0
+PASS P2-2.7 node B residual: 2.220446049e-16
+PASS P2-2.8 KCL residual: -2.775557562e-16
+PASS P2-2.8 power balance W: 74
+PASS P2-2.9 open-circuit residual: 0
+PASS P2-2.11 floating charge uC: 0
+PASS P3-3.6 field T: 0.000481293712
+PASS P3-3.9 field T: 8.881261172e-06
+PASS P3-3.10 square-axis limit: 1.13137085e-06
+PASS P3-3.22 time s: 1.190979454e-09
+PASS P4-4.6 emf peak V: 0.007853981634
+PASS P4-4.7 emf V: 78.53981634
+PASS P4-4.9 KVL at tau: 2.4
+PASS P4-4.10 terminal voltage V: -491.2384518
+PASS compile: bt-dien-tu-loi-giai.pdf
+PASS Vietphys store, numbering, solution visibility: bt-dien-tu-loi-giai.pdf
+PASS compile: bt-dien-tu-de-bai.pdf
+PASS Vietphys store, numbering, solution visibility: bt-dien-tu-de-bai.pdf

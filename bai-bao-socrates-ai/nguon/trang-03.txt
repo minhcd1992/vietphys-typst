@@ -1,0 +1,115 @@
+through teacher-guided Socratic dialogue. In the second
+stage, the same Socratic structure was preserved while
+GAI was introduced as an additional mediating resource.
+This design held the disciplinary content and procedural
+sequence constant, allowing changes in performance to
+be examined across two forms of mediation. However,
+because the phases followed a fixed order, potential
+practice and carryover effects are recognized as threats
+to internal validity. Consequently, differences between
+stages are interpreted as evidence of association compat-
+ible with the introduction of GAI rather than as definitive
+causal effects, consistent with classical analyses of causal
+inference limitations in uncontrolled designs.
+Operationally, the independent variable was the form of
+Socratic mediation, contrasting teacher-guided dialogue
+without GAI with teacher-guided dialogue supported
+by GAI. The dependent variable was the level of critical
+thinking demonstrated in the solution of one-dimensional
+kinematics problems, operationalized through a single
+analytic rubric designed and applied consistently across
+both phases. The rubric assessed problem and principle
+comprehension,
+logical
+reasoning
+and
+argumentative
+structure [16,17], counterexamples [18], recognition and
+correction of conceptual errors [16,19], and clarity and
+organization of the written response [18]. The quanti-
+tative component analyzed score variations between
+stages using descriptive statistics and inferential tests
+for related samples, selected according to the distributional
+properties of the difference scores and accompanied by
+effect size estimates, as recommended for within-subject
+designs [20,21].
+As a complementary measure, a perception survey was
+administered at the end of each phase. In the teacher-
+guided condition, the survey assessed kinematics self-
+efficacy, cognitive load, intrinsic motivation, Socratic
+interaction (SI), and perceived critical thinking, together
+with an open-ended item designed to elicit qualitative
+evidence about learning derived from the dialogue. In the
+teacher-GAI condition, the survey measured kinematics
+self-efficacy, cognitive load, and intrinsic motivation,
+along with perceived usefulness of GAI (PU-GAI), trust
+in educational AI (TE-AI), and resource integration (RI),
+and included an open-ended item focused on perceived
+usefulness, clarity, and potential sources of confusion
+associated with AI-supported problem solving. Because
+not all dimensions were common across stages, inferential
+comparisons between conditions were restricted to the
+shared constructs, whereas phase-specific dimensions
+were reported descriptively and interpreted qualitatively,
+in accordance with principles of measurement comparabil-
+ity and the cautious treatment of repeated-measures
+scales [20,22].
+Finally, the qualitative component examined the nature
+of the reasoning displayed by participants through their
+open-ended responses and, when applicable, through
+evidence drawn from dialogue and written problem sol-
+utions. This analysis was aimed at identifying patterns of
+justification, error monitoring, use of analogies or counter-
+examples, and argumentative organization. The qualitative
+findings were then integrated with the quantitative results
+through a convergent mixed-methods strategy, in which
+numerical evidence indicates the direction and magni-
+tude of change, while qualitative evidence elucidates the
+form and conditions under which those changes occurred,
+in line with established principles for mixed-methods
+integration [14].
+Given the small number of participants and the use of
+six collaborative groups as the unit of analysis for rubric-
+based performance, the quantitative component was
+treated as exploratory and complementary. Its purpose
+was not to generate population-level estimates or establish
+causal effects but to describe the direction, consistency,
+and approximate magnitude of within-sample changes
+across the two instructional conditions. Inferential tests
+were therefore interpreted cautiously and were integrated
+with qualitative evidence through the mixed-methods
+convergence analysis.
+Because the process produced a single consensus score
+for each product instead of independent ratings from each
+evaluator, an intraclass correlation coefficient (ICC) could
+not be calculated. Regarding the content validity index
+(CVI), we clarified that the final CVI ¼ 1.00 was obtained
+only after an iterative two-round expert review. In the first
+round, the analytic rubric obtained a global CVI of 0.944,
+and the problem-Socratic question set obtained a global
+CVI of 0.886. After revisions, the second validation round
+produced a global CVI of 1.00.
+B. Participants and teacher education context
+The study was conducted within an initial physics
+teacher training program at a public university in
+Ecuador. The potential population consisted of 97 students
+who had previously completed coursework in one-
+dimensional kinematics. Participation was based on vol-
+untary enrollment and instructional relevance, yielding a
+group that was not merely selected but represented an
+appropriate community for engaging in Socratic dialogue
+and examining the development of critical thinking in an
+authentic teacher education setting. A total of 18 students
+completed all in-person sessions of the intervention,
+corresponding to a participation rate of 18.6%. Participants
+were enrolled between the third and eighth semesters of
+their program and ranged in age from 18 to 25 years. To
+support collaborative work and enable comparative analy-
+sis, students were organized into six groups of three.
+Group-level performance served as the unit of analysis for
+critical-thinking scores, while individual contributions
+were preserved through the dialogic and collaborative
+writing processes.
+EFFECTS OF GENERATIVE AI-MEDIATED …
+PHYS. REV. PHYS. EDUC. RES. 22, 020134 (2026)
+020134-3

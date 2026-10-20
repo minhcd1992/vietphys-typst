@@ -1,0 +1,41 @@
+[
+  {
+    "file": "hinh-01.png",
+    "source_page": 5,
+    "crop_points": [
+      52,
+      43,
+      560,
+      243
+    ],
+    "dpi": 400,
+    "width": 2824,
+    "height": 1112
+  },
+  {
+    "file": "hinh-02.png",
+    "source_page": 7,
+    "crop_points": [
+      52,
+      43,
+      560,
+      613
+    ],
+    "dpi": 400,
+    "width": 2824,
+    "height": 3168
+  },
+  {
+    "file": "hinh-03.png",
+    "source_page": 9,
+    "crop_points": [
+      52,
+      43,
+      560,
+      326
+    ],
+    "dpi": 400,
+    "width": 2824,
+    "height": 1574
+  }
+]

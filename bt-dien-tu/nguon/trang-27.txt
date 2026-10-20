@@ -1,0 +1,50 @@
+Điện từ học                                 Phạm Nguyễn Thành Vinh – Trương Đặng Hoài Thu
+
+
+
+Bài 4.4 Hãy xác định các cực của nam châm trong các trường hợp sau :
+
+a)                         b)                          c)                         d)
+
+
+
+
+
+e)                               f)                         g)                         h)
+
+
+
+
+
+Bài 4.5 Cho một ống dây thẳng gồm N = 800 vòng. Tính:
+
+a) Hệ số tự cảm của ống dây biết rằng khi có dòng điện tốc độ biến thiên 50 A/s chạy trong ống dây thì
+
+suất điện động tự cảm trong ống bằng 0,16V.
+
+b) Từ thông qua tiết diện thẳng của ống dây khi cuộn dây có dòng điện I = 2A chạy qua.
+
+c) Năng lượng từ trường trong cuộn dây.
+
+Bài 4.6 Một khung hình vuông làm bằng dây đồng tiết diện S 0 = 1mm 2 được đặt trong một từ trường có
+cảm ứng từ biến đổi theo định luật B = B0 sin t , trong đó B0 = 0.01 T , = 2/T , T = 0.02 s . Diện tích
+
+của khung S = 25cm 2 . Mặt phẳng của khung vuông góc với đường sức từ trường. Tìm sự phụ thuộc vào
+
+thời gian và độ lớn cực đại của các đại lượng sau:
+
+a) Từ thông gửi qua khung.
+
+b) Suất điện động cảm ứng xuất hiện trong khung.
+
+c) Cường độ dòng điện chạy trong khung.
+
+Bài 4.7 Một ống dây dẫn thẳng gồm N = 500 vòng được đặt trong một từ trường có đường sức từ trường
+song song với trục của ống dây. Đường kính của ống dây d = 10cm . Tìm độ lớn suất điện động cảm
+
+ứng trung bình xuất hiện trong ống dây nếu trong khoảng thời gian =t   0.1s người ta cho cảm ứng từ
+
+thay đổi từ 0 đến 2 T.
+
+
+                                            26

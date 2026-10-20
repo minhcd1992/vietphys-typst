@@ -1,0 +1,125 @@
+Recent work further suggests that Socratic dialogue can
+be productively extended through the mediation of gen-
+erative artificial intelligence (GAI), enabling richer meta-
+cognitive engagement and more explicit, evidence-based
+argumentation [6]. Such mediation opens new possibilities
+for personalized feedback, reflective dialogue, and guided
+reconstruction of conceptual errors. While emerging stud-
+ies indicate that both human tutors and GAI-based systems
+can support critical thinking, empirical evidence within
+physics education remains limited. This gap is especially
+visible in domains such as one-dimensional kinematics,
+where reasoning about motion, representation, and cau-
+sality is foundational yet persistently challenging [7,8].
+From an epistemic standpoint, GAI can be understood
+not merely as an instructional tool but as a form of media-
+tion that shapes how learners generate evidence, justify
+inferences, and regulate their own reasoning. When
+embedded within Socratic dialogue, GAI can function
+as an epistemic scaffold by prompting alternative explan-
+ations, counterexamples, and multiple solution pathways,
+thereby supporting metacognitive monitoring and sense-
+making. However, this form of mediation requires careful
+pedagogical design to ensure that epistemic agency
+remains with the learner rather than being transferred
+to the technology itself [9]. Recent scholarship has
+emphasized the importance of preserving responsibility,
+judgment, and reflective control when AI systems are used
+in educational settings [10–12]. Accordingly, the present
+study conceptualizes GAI as a supervised epistemic
+scaffold intended to support critical thinking and meta-
+cognitive regulation, rather than as a replacement for
+disciplinary understanding [13].
+The preceding discussion situates this study within a
+view of physics problem solving that moves beyond
+procedural execution toward reasoning, interpretation,
+and argumentative sensemaking. Rather than treating
+kinematics as an exercise in formula substitution, this
+perspective emphasizes the examination of assumptions,
+the coordination of representations, and the use of dialogue
+to support the development of critical thinking. Within this
+framework, Socratic dialogue, when supported by gener-
+ative artificial intelligence, offers a means of extending
+students’ inferential and metacognitive activity by encour-
+aging alternative explanations, conceptual contrasts, and
+reflective self-correction.
+Guided by this perspective, the present study compares
+teacher-guided Socratic dialogue with a subsequent con-
+dition in which the same dialogical structure is supported
+by generative artificial intelligence. The study therefore
+asks
+what
+differences
+in
+discipline-specific
+critical-
+thinking performance are observed between these two
+instructional conditions; how participants’ perceptions of
+kinematics self-efficacy (KSE), cognitive load (CL), and
+intrinsic motivation (IM) differ across the two phases; and
+how their qualitative reflections converge with or qualify
+the quantitative findings. Because the two conditions were
+implemented sequentially in a fixed order, these questions
+concern within-sample differences and patterns of con-
+vergence rather than the independent causal effect of GAI
+mediation. Consequently, this study addresses the follow-
+ing research question: what differences emerge in rubric-
+assessed critical-thinking performance and qualitative
+reasoning when preservice physics teachers solve one-
+dimensional kinematics problems through teacher-guided
+Socratic dialogue alone, compared with the same dialogue
+structure supported by GAI?
+The remainder of the paper is organized as follows.
+Section II presents the mixed-methods preexperimental
+design, participants, SOCRATIC-IA instructional frame-
+work,
+instruments,
+and
+data-analysis
+procedures.
+Section III reports the quantitative and qualitative findings
+concerning critical-thinking performance and participant
+perceptions
+under
+the
+two
+instructional
+conditions.
+Section IV discusses the findings in relation to previous
+research in physics education and AI-supported learning,
+and Sec. V presents the conclusions.
+II. METHODOLOGY
+A. Design study
+The present study was conducted using a mixed-
+methods approach with a qualitative emphasis and an
+interpretive orientation, aimed at examining how critical
+thinking develops in initial physics teachers as they engage
+in Socratic dialogue while solving conceptual and quanti-
+tative problems in one-dimensional kinematics under two
+mediation conditions: (1) teacher-guided dialogue without
+GAI and (2) teacher-guided dialogue supported by GAI.
+This qualitative focus was complemented by a descriptive
+and inferential quantitative component that estimated the
+magnitude and direction of changes in performance and
+learning perceptions across conditions, consistent with
+concurrent mixed-methods integration designs described
+in the methodological literature [14,15].
+An applied empirical design was used to examine
+a researcher-developed instructional intervention. The
+analysis focuses on both student performance and learning
+perceptions associated with a Socratic mediation strategy
+implemented either alone or in combination with gener-
+ative artificial intelligence within an initial physics teacher
+training context. The research adopts a comparative and
+explanatory orientation with a practical focus, as it con-
+trasts two instructional conditions within the same par-
+ticipant group and seeks to interpret observed changes
+using qualitative and quantitative evidence, without assert-
+ing the strong causal claims associated with randomized or
+fully controlled experimental designs. The study employed
+a within-group preexperimental repeated-measures design
+with two sequential stages using isomorphic tasks. In
+the first stage, participants solved kinematics problems
+MARCOS GUERRERO-ZAMBRANO et al.
+PHYS. REV. PHYS. EDUC. RES. 22, 020134 (2026)
+020134-2

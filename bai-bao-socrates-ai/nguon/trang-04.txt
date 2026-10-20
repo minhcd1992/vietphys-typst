@@ -1,0 +1,122 @@
+Participants had previous classroom experience using
+generative AI tools. Their prior use was guided by the
+instructor through structured prompts designed for aca-
+demic activities. In previous classes, students had been
+instructed to formulate prompts using four components:
+role, context, instruction, and expected output format. For
+the present study, this structure was reviewed before the
+GAI-mediated phase and applied specifically to the sol-
+ution of one-dimensional kinematics problems.
+C. The SOCRATIC-IA socratic learning model
+The instructional intervention was implemented through
+the SOCRATIC-IA Socratic learning model, a framework
+developed by the authors to promote discipline-specific
+critical thinking during the solution of conceptual and
+quantitative problems in one-dimensional kinematics. The
+model integrates three instructional components: (i) con-
+ceptual activation, (ii) teacher-guided Socratic dialogue,
+and (iii) teacher-guided Socratic dialogue mediated by
+GAI. This structure allows the evolution of students’
+argumentative and metacognitive reasoning to be exam-
+ined under two levels of epistemic mediation while
+keeping the disciplinary content and problem-solving
+sequence constant.
+The complete instructional sequence was organized into
+three stages and implemented over 10 h. A 2-h initial stage
+was devoted to activating foundational kinematics con-
+cepts and aligning conceptual criteria across participants.
+This was followed by two 4-h stages in which students
+engaged in structured Socratic problem solving, first with
+teacher mediation alone and then with teacher mediation
+supported by GAI. Table I summarizes the instructional
+structure of the SOCRATIC-IA model, outlining the three
+stages of the intervention, their pedagogical purposes, the
+core learning activities, and the corresponding assessment
+strategies used in each stage.
+The problem worksheets included conceptual and quan-
+titative tasks designed to elicit interpretation, justification,
+comparison of alternative explanations, and explicit veri-
+fication of the physical principles involved. As a repre-
+sentative example, participants were asked to solve the
+task, which required students to identify the relevant
+kinematic principles, explain the relationships among
+the variables, justify the selected solution pathway, and
+evaluate the conceptual consistency of the final response.
+The complete problem statement, accompanying figure,
+and Socratic prompts are provided in Appendix in
+Supplementary Material.
+As shown in Table I, in both Stage 2 and Stage 3,
+students engaged in the same sequence of activities—
+individual
+activation
+of
+prior
+knowledge,
+collabo-
+rative dialogue, Socratic questioning, and consensus
+construction—followed by analytic assessment of their
+reasoning. The only difference between the two stages was
+the presence or absence of GAI within the Socratic
+interaction, allowing the effects of human-only versus
+hybrid human-AI mediation to be examined under con-
+trolled procedural conditions.
+Figure 1 provides a graphical representation of the
+SOCRATIC-IA instructional flow. The upper portion of the
+diagram shows the progression from conceptual activation
+to critical-thinking assessment, while the lower portion
+depicts the two parallel mediation pathways implemented
+in the study: teacher-guided Socratic dialogue (Stage 2)
+and teacher-guided Socratic dialogue supported by gen-
+erative artificial intelligence (Stage 3). By superimposing
+these two pathways within the same structural framework,
+the figure illustrates how the intervention maintained
+identical epistemic steps while varying only the form of
+mediation.
+D. Ethical considerations and validity
+of the SOCRATIC-IA model
+The present study was conducted in accordance with the
+ethical principles of the Declaration of Helsinki [23]. All
+participants provided written informed consent after being
+informed about the objectives of the study, the voluntary
+nature of participation, their right to withdraw at any time,
+and the procedures used to ensure confidentiality and data
+protection. These safeguards are particularly important in
+educational research involving emerging technologies,
+where transparency and the protection of participants’
+rights are essential [24].
+To ensure the methodological quality of the instruments,
+their development followed a two-stage validation process.
+In the first stage, the research team designed the problem
+TABLE I.
+SOCRATIC-IA instructional stages.
+Stage
+Purpose
+Core activities
+Assessment
+Stage 1: Conceptual
+activation
+Establish a shared conceptual baseline in
+kinematics
+Review questions targeting velocity,
+acceleration, and motion representations
+None
+Stage 2: Teacher-guided
+Socratic dialogue
+Develop critical thinking through human-
+guided Socratic questioning
+Individual hypothesis generation, group
+discussion, teacher Socratic questioning,
+and consensus writing
+Rubric;
+survey
+Stage 3: GAI-mediated
+Socratic dialogue
+Extend reasoning through hybrid human-AI
+epistemic mediation
+Same Socratic questions explored with GAI
+support under teacher supervision
+Rubric;
+survey
+MARCOS GUERRERO-ZAMBRANO et al.
+PHYS. REV. PHYS. EDUC. RES. 22, 020134 (2026)
+020134-4

@@ -1,0 +1,48 @@
+Điện từ học                                 Phạm Nguyễn Thành Vinh – Trương Đặng Hoài Thu
+
+tích chứa trong vòng tròn trên gây ra bằng một nửa cường độ điện trường toàn phần. Xác định r ứng với
+giá trị a đó và góc  tạo bởi r và b.
+
+Bài 3.14 Một vùng phân bố đối xứng cầu tích điện không đồng nhất với mật độ điện tích khối có dạng:
+
+                         ( r ) = o (1 − r / R )  khi r  R                                                 
+                                    r ) = 0            khi r  R                                                 (
+
+             3Q
+Trong đó, o =      3  là một hằng số dương.      R
+
+a) Chứng minh rằng tổng điện tích trong phân bố nói trên là Q .
+
+b) Chứng minh rằng cường độ điện trường trong miền r  R tương tự với cường độ điện trường gây ra
+bởi điện tích Q đặt tại r = 0 .
+
+c) Xác định biểu thức cường độ điện trường trong miền r  R .
+
+d) Xác định giá trị của r mà tại đó cường độ điện trường cực đại, và tìm giá trị cực đại đó.
+
+Bài 3.15 Một quả cầu bán kính R = 0.160 m có vỏ cách điện và điện tích phân bố đều với mật độ điện
+
+                        −9       3                                                                               −6khối = +7.20  10 C/m  . Một vật nhỏ được xem là điện tích điểm (điện tích q = 3.40  10 C )
+
+được thả cho chuyển động tự do ngay tại bề mặt quả cầu. Công mà lực điện trường của quả cầu thực
+
+hiện để di chuyển vật ra xa quả cầu là bao nhiêu?
+
+Bài 3.16 Một quả cầu kim loại bán kính R1 tích điện đều với điện tích q = −nC,2    được đặt đồng tâm với
+
+một vỏ cầu kim loại có bán kính trong R2, bán kính ngoài R3, điện tích vỏ cầu
+
+là Q = 3 nC như hình vẽ.
+                                                        O
+                                                                                        R2a. Xác định cường độ điện trường tại 1 điểm cách tâm O một khoảng r, với:          R1
+r  R1 ; R1  r  R2 ; R2  r  R3 ; r  R3 .
+                                                                                  R3
+b. Xác định sự phân bố điện tích của quả cầu kim loại bán kính R1, vỏ cầu bán
+
+kính R2 và vỏ cầu bán kính R3.
+
+
+
+
+
+                                            13

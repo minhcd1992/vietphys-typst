@@ -1,0 +1,74 @@
+worksheets, Socratic question sets, analytic rubric, and the
+two perception surveys. In the second stage, these instru-
+ments were reviewed through expert judgment: three
+specialists in physics education and pedagogy evaluated
+the problem sets, Socratic questions, and analytic rubric,
+while three experts in statistics reviewed the survey
+instruments. Based on their evaluations, content validity
+was assessed using the CVI. All instruments achieved
+a CVI of 1.00, indicating complete agreement regarding
+the clarity, relevance, and representativeness of the items,
+which corresponds to an excellent level of content validity
+according to established methodological standards.
+III. EFFECTS OF SOCRATIC AND AI-MEDIATED
+DIALOGUE ON CRITICAL THINKING IN
+KINEMATICS
+A. Performance on conceptual and quantitative
+kinematics problems
+The comparative analysis of the six groups revealed a
+consistent pattern: across all evaluated situations, Socratic
+mediation supported by GAI was associated with system-
+atic improvements in response quality for both conceptual
+and quantitative kinematics problems. The use of the same
+five problems under both instructional conditions enabled
+a direct and conceptually aligned comparison of perfor-
+mance. Nevertheless, because identical items were reused,
+potential practice effects are acknowledged, and the results
+are therefore interpreted as evidence of improvement
+under the second condition rather than as strong causal
+effects.
+Before conducting inferential comparisons, the distri-
+butional assumptions of the score differences were
+examined. A Shapiro–Wilk test, recommended for small
+samples, indicated that the overall difference scores were
+not compatible with normality (W ¼ 0.736, p ¼ 0.0148,
+α ¼ 0.05) [25]. This result, together with the ordinal
+nature of the analytic rubric, supported the use of non-
+parametric methods in a small-sample context, consistent
+with methodological guidance in educational research and
+recommendations for cautious interpretation of normality
+tests with limited data [26]. Accordingly, the overall
+impact of the intervention was evaluated using a one-
+tailed Wilcoxon signed-rank test, justified by the a priori
+directional hypothesis that GAI mediation would not
+reduce performance but would instead produce either
+improvement or no change. The use of a one-tailed
+test was explicitly specified to avoid post hoc inferential
+bias [27–29].
+Formally, the global null hypothesis H0G stated that the
+median of the difference scores between conditions was
+less than or equal to zero, that is, that Activity 2 (A2) did
+not outperform Activity 1 (A1) in total score. The global
+alternative hypothesis H1G stated that the median differ-
+ence was greater than zero, indicating that A2 produced
+higher scores than A1. The results supported this predic-
+tion: H0G was rejected in favor of H1G, with a Wilcoxon
+signed-rank statistic of 0 and p ¼ 0.0312 at α ¼ 0.05. The
+mean improvement of 8.3 points per group suggests a
+consistent effect of the hybrid teacher-GAI mediation,
+although reporting the corresponding effect size is rec-
+ommended to complete standard statistical reporting [29].
+Beyond the global analysis, the structure of score
+differences was examined at the problem level. As shown
+in Table II, Shapiro–Wilk tests applied to the problem-
+specific differences did not indicate significant departures
+from normality for Problem 1 (P1), Problem 3 (P3), and
+Problem 5 (P5), whereas evidence of non-normality was
+FIG. 1.
+Process diagram of the SOCRATIC-IA instructional stages. The lower portion of the figure shows the two parallel mediation
+pathways implemented in the study: teacher-guided Socratic dialogue (Stage 2) and teacher-guided Socratic dialogue supported by
+generative artificial intelligence (Stage 3). In both stages, the same procedural sequence is preserved, allowing the effects of human-
+only and hybrid human-AI mediation to be compared under controlled conditions.
+EFFECTS OF GENERATIVE AI-MEDIATED …
+PHYS. REV. PHYS. EDUC. RES. 22, 020134 (2026)
+020134-5

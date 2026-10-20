@@ -1,0 +1,55 @@
+Điện từ học                                 Phạm Nguyễn Thành Vinh – Trương Đặng Hoài Thu
+
+
+                 PHẦN 1. TĨNH ĐIỆN HỌC
+
+1. Định luật Coulomb – điện trường
+
+Bài 1.1 Một quả cầu nhỏ có khối lượng m = 7.5g và có điện tích q1 = 32nC nối với
+1 lò xò và treo thẳng đứng như hình. Quả cầu thứ hai có cùng khối lượng và có điện
+tích q2 = −58nC nằm phía dưới cách quả cầu thứ nhất một khoảng d = 2cm .
+
+a) Tìm lực kéo của lò xo.
+
+b) Nếu lò xo chịu được lực kéo cực đại là 0.18N , xác định giá trị tối thiểu của d để lò xo còn tuân theo
+
+định luạt Hooke.
+
+Bài 1.2 Có hai giọt nước giống nhau, mỗi giọt có thừa một electron. Cho rằng các giọt nước hình cầu và
+
+biết rằng lực đẩy tĩnh điện tác dụng lên mỗi giọt nước cân bằng với lực hấp dẫn giữa chúng. Tính bán
+
+kính a của mỗi giọt nước.
+
+Bài 1.3 Một electron điện tích e, khối lượng m chuyển động đều trên một quỹ đạo tròn bán kính r quanh
+
+hạt nhân nguyên  tử Hidro. Xác định vận  tốc chuyển động của  electron  trên quỹ đạo. Cho
+
+e = −1,6  10 −19 C, m = 9,1  10 −28 g , khoảng cách trung bình từ electron đến hạt nhân là r = 10 −8 cm.
+
+Bài 1.4
+
+1) Một phân tử DNA (axit deoxyribonucleic) có chiều dài là 2.17μm . Phần đuôi của phân tử bị ion hóa
+đơn lẻ thành một đầu mang điện tích âm ( − e ) , đầu còn lại mang điện tích dương. Phân tử xoắn ốc hoạt
+
+động như một lò xo và nén 1% sau khi bị tích điện. Xác định “độ cứng k” của phân
+tử.
+
+2) Ba điện tích điểm nằm ở ba góc của tam giác đều như hình.
+
+a. Tìm cường độ và hướng của điện trường ở điểm có điện tích 2μC.
+
+b. Điện trường sẽ bị ảnh hưởng như thế nào điện tích ở điểm đó tăng lên gấp đôi?
+
+Bài 1.5 Đường sức điện của hai điện tích điểm q1, q2 được biểu diễn như hình sau.
+
+a) Xác định dấu của q1 và q2.
+
+              q1b) Xác định tỉ lệ      .
+              q 2
+
+
+
+
+
+                                            1

@@ -1,0 +1,37 @@
+Điện từ học                                 Phạm Nguyễn Thành Vinh – Trương Đặng Hoài Thu
+
+
+              PHẦN 2. DÒNG ĐIỆN KHÔNG ĐỔI
+
+Bài 2.1 Cho mạch điện như hình trên. Biết R1 = 12; R2 = 15; R3 = 5cường;      độ dòng điện mạch
+chính I = 2A. Tìm cường độ dòng điện qua từng điện trở.
+
+
+
+
+
+Bài 2.2 Cho mạch điện như hình dưới. Biết R1 = 10; R2 = 6 R3 = 2; R4 = 3; R5 = 4. Dòng
+điện qua R3 là 0,5A. Tìm cường độ dòng điện qua từng điện trở và U AB .
+
+
+
+
+
+Bài 2.3 Cho mạch điện có sơ đồ như hình vẽ, trong đó nguồn có suất điện động = 8,2V , điện trở
+trong r = 0,5 ; R 1= R2 = R3 = 3 , R4 = 6 ; điện trở của ampere kế và dây nối không đáng kể.
+
+a) Tính số chỉ ampere kế. Nói rõ chiều dòng điện qua ampere kế.
+
+b) Thay ampere kế bằng volt kế có điện trở rất lớn thì vôn kế chỉ bao nhiêu? Cực (+) của volt kế nối vào
+
+điểm M hay N?
+
+
+
+
+
+Bài 2.4 Cho hai mạch điện (a) và (b) như hình. Trong mỗi sơ đồ, hiệu điện thế U luôn không đổi, điện
+trở của ampere kế và dây nối không đáng kể, r = 5 3 . Tính R để khi K1 đóng K 2 mở; hoặc khi K1
+mở K 2 đóng thì số chỉ của ampere kế trong mỗi sơ đồ không thay đổi.
+
+                                            16

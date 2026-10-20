@@ -1,0 +1,143 @@
+observed for Problem 2 (P2) and Problem 4 (P4).
+Given the small sample size (N ¼ 6) and the ordinal
+nature of the rubric scores, a nonparametric approach
+was retained for all problem-level contrasts in order to
+avoid unstable analytical decisions based on low-power
+normality tests [26].
+Subsequently, Wilcoxon signed-rank tests with two-
+tailed contrasts were applied separately for each problem,
+as summarized in Table III. This analysis enabled paired
+comparisons of scores obtained in Activity 1 (A1) and
+Activity 2 (A2) at the problem level, reporting the medians
+for each condition as well as the median of the difference
+scores (A2 −A1). From a descriptive perspective, a con-
+sistent directional pattern is observed: across all five
+problems, the median score in A2 exceeds that in A1,
+with median differences ranging from 1.0 to 3.5 points.
+From an inferential standpoint, at α ¼ 0.05, statistically
+significant differences were identified for Problems 1 (P1)
+and 4 (P4), whereas for Problems 2 (P2), 3 (P3), and 5
+(P5), the results did not reach the threshold for statistical
+significance, despite exhibiting the same direction of
+improvement.
+For each problem k, hypotheses were formulated as
+follows for the two-tailed tests. The null hypothesis H0k
+stated that the median of the score differences between A2
+and A1 was equal to zero, indicating no systematic change
+between conditions. The alternative hypothesis H1k stated
+that the median difference was different from zero,
+indicating a systematic change between conditions. The
+choice of a two-tailed contrast at the problem level is
+justified as a methodologically conservative approach and
+is aligned with standard reporting practices when multiple
+comparisons are conducted and when unwarranted direc-
+tional testing without a strict and explicitly declared a priori
+theoretical constraint is to be avoided—a practice widely
+cautioned against in the methodological literature due to its
+potential to bias inference [28,29].
+However, when the theoretical framework specifies
+a priori a clear directional expectation—namely, that
+mediation supported by generative artificial intelligence
+should not result in performance detriment and that any
+observable change, if present, would be in the direction
+of improvement—the use of a one-tailed contrast can be
+defended, provided that this directionality is declared
+before data inspection and reported transparently. Under
+this condition, for each problem k, the null hypothesis H0k
+is defined as the median of the difference scores being less
+than or equal to zero, whereas the alternative hypothesis
+H1k is defined as the median being greater than zero. This
+formulation focuses inference on the theoretically relevant
+direction of change while reducing the risk of opportun-
+istic reinterpretation of results [27–29].
+Figure 2 presents a heatmap visualization of the redis-
+tribution of critical-thinking scores for six groups across
+five kinematics problems, comparing Activity 1 (A1),
+implemented through traditional teacher-guided Socratic
+dialogue, with Activity 2 (A2), implemented through the
+same Socratic approach but mediated by generative arti-
+ficial intelligence, following the same problem order. This
+matrix-based visualization facilitates the identification of
+patterns and contrasts between instructional conditions
+by representing numerical magnitudes through color gra-
+dients and enabling rapid comparative reading across rows
+and columns [30].
+The use of a cold-to-warm color scale to represent lower
+to higher scores makes both the direction and intensity of
+changes visually salient, leveraging the perceptual corre-
+spondence between magnitude ordering and visual order-
+ing. This approach enhances the discrimination of score
+increases and decreases between conditions and supports
+TABLE II.
+Shapiro–Wilk tests for problem-level score differences.
+Problem
+W (Shapiro–Wilk)
+p value
+Interpretation (α ¼ 0.05)
+1
+1.0000
+1.0000
+Fail to reject the null hypothesis; distribution compatible with normality
+2
+0.7501
+0.0200
+Reject the null hypothesis; evidence of deviation from normality
+3
+0.8269
+0.1012
+Fail to reject the null hypothesis
+4
+0.7596
+0.0247
+Reject the null hypothesis; significant deviation from normality
+5
+0.9076
+0.4207
+Fail to reject the null hypothesis
+TABLE III.
+Problem-level comparison of scores between activities using the Wilcoxon signed-rank test.
+Problem
+N diffs ≠0
+Median Activity 1
+Median Activity 2
+Median diff. (A2–A1)
+W
+p value (two-tailed)
+1
+6
+10.0
+11.0
+1.0
+0
+0.03125
+2
+5
+9.0
+11.5
+2.5
+0
+0.06250
+3
+5
+9.0
+11.0
+2.0
+0
+0.06250
+4
+6
+6.5
+10.0
+3.5
+0
+0.03125
+5
+4
+8.5
+9.5
+1.0
+0
+0.12500
+MARCOS GUERRERO-ZAMBRANO et al.
+PHYS. REV. PHYS. EDUC. RES. 22, 020134 (2026)
+020134-6

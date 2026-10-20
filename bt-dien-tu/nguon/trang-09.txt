@@ -1,0 +1,57 @@
+Điện từ học                                 Phạm Nguyễn Thành Vinh – Trương Đặng Hoài Thu
+
+Bài 2.13 Cho 3 điểm M, N, P không thẳng hàng ở cách điện tích điểm q = 1.5  10 −8 C các khoảng cách
+
+tương ứng bằng 10cm, 5cm, 15cm.
+
+a) Tính công của lực điện trường thực hiện khi dịch chuyển điện tích q0 = 2  10 −10 C trên các đoạn MN,
+
+NP, PM và theo đường kín MNPM.
+
+b) Nếu ba điểm đó nằm trên một đường thẳng thì các kết quả câu a có thay đổi không?
+
+Bài 2.14 Chọn gốc điện thế tại vô cực.
+
+a) Hãy tính điện thế ở điểm P do điện tích Q gây ra ở cách nó một khoảng R.
+
+b) Điện tích Q được trải đều ra trên một cung tròn bán kính R với góc ở tâm là . Hãy tính điện thế ở
+
+điểm P là tâm của cung tròn đó.
+
+c) Điện tích Q được trải đều ra trên một đường tròn bán kính R. Hãy tính điện thế ở P là tâm của đường
+
+tròn.
+
+Bài 2.15 Một dây mảnh, dài l = 10cm mang điện đều, mật độ điện dài = 10 −8 C / m .
+
+a) Tìm biểu thức tính điện thế V ( r ) tại một điểm M nằm trên đường kéo dài của dây, cách trung điểm
+
+của dây một đoạn r.
+
+b) Dựa vào kết quả câu a, hãy tìm cường độ điện trường E ( r ) tại M. Cho M cách tâm sợi dây một
+
+khoảng r = 1.5l , hãy tính độ lớn của E M .
+
+c) Tính công A của lực điện trường thực hiện khi dịch chuyển điện tích q = 3  10 −12 C dọc theo đường
+
+thẳng kéo dài của dây từ điểm M đến điểm N, cách trung điểm của dây những khoảng Mr = 1.5l và
+Nr = 2.5l .
+
+Bài 2.16 Một vòng dây có bán kính a = 4cm, tích điện đều với điện tích q = 5  10 −8 C . Tính điện thế V
+
+tại:
+
+a) điểm M trên trục vòng dây, cách tâm một khoảng h = 3cm.
+
+b) tâm vòng dây.
+
+Bài 2.17 Một đĩa nhựa được tích điện với mật độ điện tích mặt đều  sau đó ba phần tư của đĩa được cắt
+
+bỏ. Với V = 0 ở vô cực, hãy tính điện thế do phần tư còn lại gây ra ở điểm P nằm trên trục qua tâm của
+
+đĩa ban đầu và cách tâm ban đầu một khoảng z.
+
+
+
+
+                                            8

@@ -1,0 +1,73 @@
+Effects of generative AI-mediated socratic dialogue on preservice physics teachers’
+critical thinking in kinematics
+Marcos Guerrero-Zambrano ,* Bryan Valarezo-Chamba,† and Leonor Sanchez-Alvarado‡
+UNEMI Facultad de Educación, Universidad Estatal de Milagro,
+Cdla. Universitaria Km, 1.5 vía Km. 26, 091050, Milagro, Ecuador
+Erick Lamilla-Rubio
+§
+UNEMI Facultad de Educación, Universidad Estatal de Milagro, Cdla. Universitaria Km,
+1.5 vía Km. 26, 091050, Milagro, Ecuador
+and ESPOL Departamento de Física, Escuela Superior Polit´ecnica del Litoral,
+Campus Gustavo Galindo, Km 30.5, 090150, Guayaquil, Ecuador
+(Received 12 February 2026; accepted 4 August 2026; published 25 September 2026)
+Initial physics teacher education frequently approaches kinematics problem solving as a procedural
+activity, with limited engagement in conceptual reasoning, argumentation, and metacognitive regulation.
+This study examines the effects of Socratic dialogue mediated by generative artificial intelligence (GAI),
+compared with teacher-guided Socratic dialogue alone, on discipline-specific critical thinking (CT) in
+one-dimensional kinematics. A concurrent mixed-methods, within-group preexperimental design was
+implemented with 18 preservice physics teachers working in small groups across two sequential phases
+using parallel kinematics problem sets. Because the instructional conditions were implemented in a fixed
+order, the observed differences cannot be disentangled from possible practice, learning, and carryover
+effects. In the first stage, students engaged in instructor-guided Socratic dialogue; in the second stage, the
+same structure was maintained while incorporating GAI-mediated Socratic support under instructor
+supervision. Critical thinking was assessed through an analytic rubric applied to written group solutions
+and complemented by Likert-scale surveys and open-ended responses. Rubric scores showed consistent
+improvement during the GAI-mediated phase across all groups, with no observed declines. Students also
+reported higher self-efficacy and intrinsic motivation, while cognitive load exhibited heterogeneous
+responses associated with the need for verification and epistemic control when interacting with GAI.
+These results suggest that integrating generative AI into a teacher-mediated Socratic framework can
+support critical thinking in kinematics, although the sequential preexperimental design requires cautious
+interpretation.
+DOI: 10.1103/x7vq-17rq
+I. INTRODUCTION
+The development of critical thinking (CT) in initial
+teacher training remains a persistent challenge, particu-
+larly in physics, where conceptual understanding must
+extend beyond the mechanical application of formulas. In
+much of Latin America, instruction in one-dimensional
+kinematics
+has
+traditionally
+emphasized
+algorithmic
+procedures, thereby constraining the development of reflec-
+tive, analytical, and metacognitive competencies required
+for interpreting physical phenomena beyond numerical
+computation [1,2]. This instructional pattern reveals a
+substantial gap between prevailing classroom practices
+and the epistemic demands of physics teacher preparation,
+where reasoning, model-based interpretation, and justifica-
+tion are central to disciplinary expertise.
+International research has identified guided inquiry,
+collaborative argumentation, and conceptual analysis as
+relevant instructional approaches for supporting critical
+thinking in science education. [3,4]. In physics education,
+kinematics occupies a particularly demanding epistemic
+space, as it requires learners to construct mental models,
+interpret variable relationships, and engage in abstract
+reasoning—capacities that are central to the professional
+formation of physics teachers [5].
+*Contact author: mguerreroz@unemi.edu.ec
+†Contact author: bvalarezoc@unemi.edu.ec
+‡Contact author: lsancheza4@unemi.edu.ec
+§Contact author: ealamill@espol.edu.ec, elamillar2@unemi.e
+du.ec
+Published by the American Physical Society under the terms of
+the Creative Commons Attribution 4.0 International license.
+Further distribution of this work must maintain attribution to the
+author(s) and the published article's title, journal citation, and
+DOI.
+PHYSICAL REVIEW PHYSICS EDUCATION RESEARCH 22, 020134 (2026)
+2469-9896=26=22(2)=020134(14)
+020134-1
+Published by the American Physical Society

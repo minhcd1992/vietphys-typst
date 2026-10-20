@@ -6,3 +6,10 @@ __pycache__/
 Thumbs.db
 dist/
 .typst-packages/
+
+# Temporary render checks; source images remain tracked.
+.kiem-tra/
+/bt-dien-tu/xuat/*.png
+/bai-bao-socrates-ai/kiem-tra/*.png
+/examples/review-hierarchy-*.png
+/examples/academic-*.png

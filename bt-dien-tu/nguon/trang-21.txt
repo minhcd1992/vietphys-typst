@@ -1,0 +1,53 @@
+Điện từ học                                 Phạm Nguyễn Thành Vinh – Trương Đặng Hoài Thu
+
+
+                  PHẦN 3. TỪ TRƯỜNG
+
+Bài 3.1 Một dây dẫn AB chiều dài L có dòng điện I chảy qua. Tìm vector cảm ứng từ tại điểm M nằm
+trên trục của dây, cách dây một đoạn h. Xét trường hợp khi L →.
+
+Bài 3.2 Một dòng điện có cường độ I = 1,00A chạy trong một vòng dây tròn có bán kính R = 100mm .
+
+Tìm cảm ứng từ B ở tâm của vòng dây; và ở một điểm trên trục của vòng dây cách tâm vòng dây một
+khoảng b = 100mm.
+
+Bài 3.3 Hai dây dẫn thẳng dài vô hạn vuông góc với nhau và nằm
+
+trong hai mặt phẳng vuông góc. Trên các dây dẫn có các dòng điện
+ I1 = 2A và  I 2 = 3A chạy qua. Xác định vector cảm ứng từ tại các
+
+điểm M1 và M2. Cho biết khoảng cách giữa hai dây dẫn AB = 2cm ,
+AM1 = AM 2 = 1cm.
+
+Bài 3.4 Hình vẽ thể hiện mặt cắt vuông góc của hai dòng điện
+
+thẳng song song dài vô hạn ngược chiều nhau. Khoảng cách
+giữa hai dòng điện AB = 10cm. Cường độ của các dòng điện
+lần lượt bằng I1 = 20A , I 2 = 30A . Xác định vector cảm ứng từ
+tổng hợp tại các điểm M1, M2, M3. Cho biết AM1 = 2cm , AM 2 = 4cm , BM 3 = 3cm.
+
+Bài 3.5 Hình vẽ biểu diễn tiết diện của ba dòng điện thẳng song
+
+song dài vô hạn. Cường độ các dòng điện lần lượt bằng
+ I1 = I 2 = I ;  I 3 = 2 I . Biết AB = BC = 5cm . Tìm trên đoạn AC
+
+điểm có cảm ứng từ tổng hợp bằng không.
+
+Bài 3.6 Một dây dẫn dài vô hạn được uốn thành một góc 560.
+Cường độ dòng điện chạy qua dây dẫn I = 30A . Tìm vector cảm
+
+ứng từ tại điểm A nằm trên phân giác của góc và cách đỉnh góc
+một đoạn a = 5cm.
+
+Bài 3.7 Một khung dây hình vuông, cạnh a mang dòng điện I. Hãy tính vector cảm ứng từ do dòng điện
+
+sinh ra tại tâm O của khung dây.
+
+Bài 3.8 Tìm cảm ứng từ gây ra tại tâm một khung dây hình chữ nhật chiều dài L, chiều rộng W, mang
+
+dòng điện I. Nhận xét kết quả khi L >> W.
+
+
+
+
+                                            20

@@ -1,0 +1,51 @@
+Điện từ học                                 Phạm Nguyễn Thành Vinh – Trương Đặng Hoài Thu
+c) Trong thí nghiệm tương tự, với hai quả cầu làm bằng một chất có khối lượng riêng x người ta thấy
+1 = 2 . Cho rằng đã biết ε và ρ của chất lỏng, hãy xác định .x
+
+Bài 1.20 Một không gian mang điện với mật độ điện khối = 0 e −r 3 với và0   là hằng số dương.
+Tìm độ lớn của vecto cường độ điện trường theo r. Khảo sát biểu thức cường độ điện trường ứng với
+r 3   1 và r 3   1 .
+
+Bài 1.21 Bên trong một quả cầu mang điện với mật độ điện khối không đổi , có một hốc nhỏ hình cầu
+
+không chứa điện tích. Tâm của hốc cách tâm quả cầu một khoảng a . Tìm vecto cường độ điện trường
+E của một điểm nằm trong hốc. Xét trường hợp a = 0 .
+
+                                                                                         rBài 1.22 Một quả cầu rắn bán kính R tích điện không đều với mật độ điện khối = s     , trong đó s
+                                                        R
+
+là một hằng số và r là khoảng cách tính đến tâm của quả cầu. Tính:
+
+a) điện tích toàn phần trên quả cầu?
+
+b) cường độ điện trường bên trong và bên ngoài quả cầu?
+
+2. Điện thế
+
+Bài 2.1 Độ chênh lệch điện thế giữa mặt trong và mặt ngoài của màng tế bào là 90mV . Biết mặt trong
+
+mang điện âm, mặt ngoài mang điện dương. Tính công thực hiện để đưa một ion Na+ từ bên trong ra
+
+ngoài màng tế bào.
+
+Bài 2.2 Một điện tích điểm q =+40.0μC di chuyển từ A đến B cách nhau
+một khoảng d =0.180m trong một điện trường E có cường độ 275V/m
+
+hướng về bên phải như hình.
+
+a) Tính lực điện tác dụng lên điện tích.
+
+b) Tính công thực hiện bởi lực điện tác dụng lên điện tích trong quá trình nó dịch chuyển từ A đến B.
+
+c) Tính độ biến thiên thế năng tĩnh điện của điện tích trong quá trình trên.
+
+Bài 2.3 Một electron chuyển động dọc theo đường sức của một điện trường đều. Cường độ điện trường
+
+E = 100V/m. Vận tốc ban đầu của electron bằng 300 km/s. Hỏi electron chuyển động được quãng đường
+dài bao nhiêu thì vận tốc của nó bằng không? Cho biết khối lượng electron m = 9,1.10-31kg.
+
+
+
+
+
+                                            5

@@ -1,0 +1,46 @@
+Điện từ học                                 Phạm Nguyễn Thành Vinh – Trương Đặng Hoài Thu
+a) Cho biết một tế bào hồng cầu trung bình có khối lượng là 1.00  10 −12 kg , hãy ước tính thể tích của
+
+tế bào hồng cầu và từ đó suy ra diện tích bề mặt của nó. Cho mật độ khối lượng máu là 1100 kg/m 3 .
+
+b) Hãy tính điện dung của tế bào bằng cách xem xét bề mặt màng tế bào như một tấm phẳng.
+
+c) Tính điện tích có trên bề mặt của màng tế bào. Hỏi lượng điện tích của màng tương đương với bao
+
+nhiêu điện tích nguyên tố?
+
+Bài 4.6 Một quả cầu kim loại bán kính R = 1m mang điện tích q = 10 −6 C . Hãy tính:
+
+a) Điện dung của quả cầu.
+
+b) Điện thế của quả cầu.
+
+c) Năng lượng trường tĩnh điện của quả cầu.
+
+Bài 4.7 Một điện tích q phân bố đều trong thể tích hình cầu bán kính R. Biết hằng số điện môi bên trong
+và bên ngoài quả cầu là 0. Hãy xác định:
+
+a) Năng lượng điện trường bên trong.
+
+b) Năng lượng bên ngoài quả cầu và năng lượng toàn phần.
+
+Bài 4.8 Một tụ điện phẳng chứa dầy không khí gồm hai tấm kim loại đặt
+song song và cách nhau một khoảng d có điện dung C 0 . Một tấm điện
+môi có hằng số điện môi và dày d / 3 được thêm vào giữa các tấm
+phẳng như hình bên. Hãy chứng minh rằng điện dung tương tương của
+                              3  hệ tụ trên có biểu thức là C =                                    C0 .                             2+ 1 
+
+Bài 4.9 Một quả cầu dẫn điện có bán kính trong a, bán kính ngoài c. Lấp đầy các
+chất điện môi có hằng số điện môi 1và 2 lần lượt vào khoảng không gian
+a  r  b và b  r  c bên trong quả cầu (như hình vẽ). Hãy tính điện dung của
+hệ trên.
+Bài 4.10 Hai chất điện môi có hằng số điện môi là 1 và 2 lần lượt lấp
+đầy một nửa không gian giữa hai bản tụ phẳng đặt song song như hình
+vẽ. Mỗi bản tụ đều có tiết diện A và đặt cách nhau một khoảng d . Hãy
+tính điện dung của hệ.
+
+
+
+
+
+                                            15

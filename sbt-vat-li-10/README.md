@@ -2,13 +2,16 @@
 
 Bộ khung dùng gói `vietphys` tại `../vietphys.typ`: 6 chương, 27 bài,
 mỗi bài 20 câu A–D, 5 câu đúng/sai (mỗi câu 4 phát biểu),
-5 câu trả lời ngắn và 5 câu tự luận. Tổng cộng **945 câu**, gồm 490 câu đã nhập ở Bài 1–14 và 455 câu mẫu.
+5 câu trả lời ngắn và 5 câu tự luận. Tổng cộng **945 câu**, gồm **595 câu đã nhập ở Bài 1–17** và **350 câu mẫu ở Bài 18–27**.
 
-**Bài 1–14 đã nhập đủ đề, đáp án và lời giải từ nội dung cung cấp; các bài còn lại vẫn là câu mẫu.**
+**Tiến độ cập nhật ngày 20/10/2026: đã nhập 17/27 bài (khoảng 63%).**
+Chương I và II đã nhập đủ; Chương III đã nhập Bài 17. Bài tiếp theo là **Bài 18: Công suất**.
+**Bài 1–17 đã nhập đủ đề, đáp án và lời giải từ nội dung cung cấp; Bài 18–27 vẫn là câu mẫu.**
 Đáp án và lời giải được lưu trong nguồn, ẩn trên bản học sinh. Các bài đã được rút gọn
 diễn đạt và sửa các lỗi đáp án; xem nhật kí hiệu đính
 [Bài 1](nguon/bai-01-ghi-chu.md), [Bài 2](nguon/bai-02-ghi-chu.md), [Bài 3](nguon/bai-03-ghi-chu.md), [Bài 4](nguon/bai-04-ghi-chu.md), [Bài 5](nguon/bai-05-ghi-chu.md), [Bài 6](nguon/bai-06-ghi-chu.md), [Bài 7](nguon/bai-07-ghi-chu.md), [Bài 8](nguon/bai-08-ghi-chu.md), [Bài 9](nguon/bai-09-ghi-chu.md), [Bài 10](nguon/bai-10-ghi-chu.md), [Bài 11](nguon/bai-11-ghi-chu.md), [Bài 12](nguon/bai-12-ghi-chu.md), [Bài 13](nguon/bai-13-ghi-chu.md) và [Bài 14](nguon/bai-14-ghi-chu.md).
-Các bài đã soạn SGK & SBT nhưng chưa nhập vào khung được ghi nhận trong bảng dưới.
+Nhật kí các bài mới: [Bài 15](nguon/bai-15-ghi-chu.md), [Bài 16](nguon/bai-16-ghi-chu.md), [Bài 17](nguon/bai-17-ghi-chu.md).
+Bảng cuối trang ghi trạng thái nội dung đã có trong dự án, không suy đoán tiến độ soạn ở nơi khác.
 
 ## Các tệp cần làm việc
 
@@ -26,6 +29,8 @@ Các bài đã soạn SGK & SBT nhưng chưa nhập vào khung được ghi nh�
 - `chuong-02-dong-luc-hoc/images/bai-12-hinh.typ`: 18 hình CeTZ về dây treo, con lắc, ròng rọc và lực căng; 3 hình chỉ dùng trong lời giải.
 - `chuong-02-dong-luc-hoc/images/bai-13-hinh.typ`: sơ đồ kéo/đẩy xiên, dốc, băng tải và đồ thị ma sát CeTZ; 5 ID hình chỉ dùng trong lời giải.
 - `chuong-02-dong-luc-hoc/images/bai-14-hinh.typ`: các đồ thị lựa chọn vận tốc/gia tốc và hình lực CeTZ; 5 ID thuộc lời giải được ẩn.
+- `chuong-02-dong-luc-hoc/images/bai-15-hinh.typ` và `bai-16-hinh.typ`: hình CeTZ cho bài toán động lực học và cân bằng vật rắn.
+- `chuong-03-nang-luong-cong-cong-suat/images/bai-17-hinh.typ`: 7 hình CeTZ về công; 3 hình trong đề, 4 hình chỉ hiện trong lời giải.
 - `sbt-vat-li-10.pdf`: bản PDF được biên dịch từ khung hiện tại.
 
 Mỗi chương và mỗi bài đều bắt đầu ở trang mới, kể cả bài đầu chương.
@@ -141,9 +146,9 @@ Số bài được ghi tường minh để giữ đúng thứ tự 1–27 xuyên
 | 12 | [Trọng lực và Lực căng](chuong-02-dong-luc-hoc/bai-12.typ) | 17 | Đã nhập và hiệu đính 35 câu cùng lời giải, hình CeTZ |
 | 13 | [Lực ma sát](chuong-02-dong-luc-hoc/bai-13.typ) | 18 | Đã nhập và hiệu đính 35 câu cùng lời giải, hình CeTZ |
 | 14 | [Lực cản và Lực nâng](chuong-02-dong-luc-hoc/bai-14.typ) | 19 | Đã nhập và hiệu đính 35 câu cùng lời giải, hình CeTZ |
-| 15 | [Phương pháp giải các bài toán Động lực học](chuong-02-dong-luc-hoc/bai-15.typ) | 20 | Chưa cập nhật |
-| 16 | [Momen lực và Cân bằng của vật rắn](chuong-02-dong-luc-hoc/bai-16.typ) | 21 | Chưa cập nhật |
-| 17 | [Năng lượng và Công cơ học](chuong-03-nang-luong-cong-cong-suat/bai-17.typ) | 23 | Chưa cập nhật |
+| 15 | [Phương pháp giải các bài toán Động lực học](chuong-02-dong-luc-hoc/bai-15.typ) | 20 | Đã nhập và hiệu đính 35 câu cùng lời giải, hình CeTZ |
+| 16 | [Momen lực và Cân bằng của vật rắn](chuong-02-dong-luc-hoc/bai-16.typ) | 21 | Đã nhập và hiệu đính 35 câu cùng lời giải, hình CeTZ |
+| 17 | [Năng lượng và Công cơ học](chuong-03-nang-luong-cong-cong-suat/bai-17.typ) | 23 | Đã nhập và hiệu đính 35 câu cùng lời giải, hình CeTZ |
 | 18 | [Công suất](chuong-03-nang-luong-cong-cong-suat/bai-18.typ) | 24 | Chưa cập nhật |
 | 19 | [Động năng và Thế năng](chuong-03-nang-luong-cong-cong-suat/bai-19.typ) | 25 | Chưa cập nhật |
 | 20 | [Cơ năng và Định luật bảo toàn cơ năng](chuong-03-nang-luong-cong-cong-suat/bai-20.typ) | 26 | Chưa cập nhật |

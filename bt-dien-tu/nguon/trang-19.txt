@@ -1,0 +1,41 @@
+Điện từ học                                 Phạm Nguyễn Thành Vinh – Trương Đặng Hoài Thu
+
+
+
+
+
+a) Lượng đồng thu được bám vào cực nào? Tại sao?
+
+b) Tìm dòng điện qua bình điện phân
+
+c) Đèn sáng thế nào? Tại sao?
+
+d) Tìm E2.
+
+e) Mắc vào 2 điểm M, N một ampere kế (RA ≈ 0). Tìm số chỉ ampere kế.
+
+Bài 2.8 Cho mạch điện như hình vẽ: E1 = 12V ; E2 = 9V ; E3 = 3V ; r1 = r2 = r3 = 1 , các điện trở
+R1 = R2 = R3 = 2 . Tính U AB và cường độ dòng điện qua các nhánh.
+
+
+
+
+
+Bài 2.9 Cho mạch như hình vẽ: E1 = 24V ; E2 = 6V ; r1 = r2 = 1 ; R1 = 5 ; R2 = 2 ; R là biến
+
+trở. Với giá trị nào của biến trở thì công suất trên R đạt cực đại, tìm giá trị cực đại đó.
+
+
+
+
+
+Bài 2.10 Cho mạch điện có sơ đồ như hình vẽ: 1 = 2 = 1,5V ; r1 = 0,2 ; r2 = 0,3 ; C1 = 0,3μF ;
+C 2 = 0,6μF ; R = 0,5 Tính.     cường độ dòng điện qua điện trở R , điện tích và hiệu điện thế của mỗi
+
+tụ khi K đóng và khi K mở.
+
+
+
+
+
+                                            18

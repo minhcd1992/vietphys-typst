@@ -1,0 +1,14 @@
+Điện từ học                                 Phạm Nguyễn Thành Vinh – Trương Đặng Hoài Thu
+
+
+
+
+
+Bài 2.11 Cho mạch điện có sơ đồ như hình vẽ: C1 = 2μF ; C2 = 3μF ; C3 = 1μF ; R1 = 30 ; R2 = 10 ;
+= 2V ; r = 0 . Xác định điện tích trên mỗi tụ.
+
+
+
+
+
+                                            19

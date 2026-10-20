@@ -1,0 +1,33 @@
+Điện từ học                                 Phạm Nguyễn Thành Vinh – Trương Đặng Hoài Thu
+
+Bài 4.8 Một cuộn dây dẫn gồm N = 100 vòng được quay trong từ trường đều với tốc độ góc không đổi
+
+là = 5 vòng/giây. Biết độ lớn cảm ứng từ B = 0.1T và tiết diện ngang của ống dây S = 100cm 2 . Trục
+
+quay vuông góc với trục của ống dây và vuông góc với đường sức từ trường. Tìm biểu thức suất điện
+
+động xuất hiện trong cuộn dây và độ lớn cực đại của nó.
+
+Bài 4.9 Cho mạch như hình vẽ, R = 0.30 . Khóa S được đóng tại thời
+điểm t = 0 . Hằng số thời gian của mạch là 0.25 s , và cường độ dòng điện
+cực đại qua mạch là 8.0 A .
+
+a) Tìm suất điện động của pin.
+
+b) Tính độ tự cảm của cuộn dây.
+
+c) Tính cường độ dòng điện chạy trong mạch, điện áp trên điện trở và cuộn
+cảm sau một khoảng thời gian bằng một hằng số thời gian.
+
+Bài 4.10 Cho mạch điện như hình vẽ. Trong đó ống dây có độ tự cảm L = 6H , điện
+
+trở R = 200  mắc song song với điện trở R1 = 1000 . Hiệu điện thế U = 120V ; K
+
+là cái ngắt điện. Tìm hiệu điện thế giữa các điểm A và B sau khi mở khoá K một thời
+gian  = 0,001 giây.
+
+
+
+
+
+                                            27

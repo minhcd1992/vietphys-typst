@@ -1,0 +1,52 @@
+Điện từ học                                 Phạm Nguyễn Thành Vinh – Trương Đặng Hoài Thu
+
+Bài 1.6 Trong thí nghiệm giọt dầu Millikan được minh họa
+như hình, một máy phun được sử dụng để bắn nhiều giọt nhỏ
+của dầu giữa hai đĩa kim loại song song tích điện trái dấu
+nhau. Một vài giọt bắn có thể chứa các electron thừa. Sự tích
+điện trên hai đĩa được điều chỉnh để lực điện tác dụng lên
+những điện tử thừa cân bằng với trọng lực của giọt dầu. Ý
+tưởng được đề ra là để tìm kiếm một giọt dầu chịu lực điện
+nhỏ nhất (giả sử nó chỉ chứa một electron). Biết độ lớn cường độ điện trường giữa hai đĩa 3.10 4 V/m ,
+độ lớn điện tích của một electron là 1,6.10 −19 C . Hãy ước tính bán kính của một giọt dầu có khối lượng
+
+riêng 858kg/m 3 mà trọng lực của nó cân bằng với lực điện.
+
+Bài 1.7 Trên quả cầu tích điện của máy phát điện Van de Graaff, người ta đặt một proton. Proton này
+được tăng tốc với gia tốc a = 1.52  1012 m/s 2 .
+
+a) Tìm độ lớn lực điện lên proton ngay lúc đó.
+
+b) Tìm cường độ và hướng của điện trường ở bề mặt quả cầu.
+
+Bài 1.8 Một chùm proton chuyển động với tốc độ ban đầu
+ov = 9550m/s được chiếu tới một vùng điện trường đều có độ lớn
+E = 720N/C , vecto vận tốc hợp với phương ngang góc . Chùm
+
+proton đập vào mục tiêu cách vị trí ban đầu 1,27 mm. Hãy xác định:
+
+a) Các góc  sao cho chùm photon đến điểm mục tiêu nói trên.
+
+b) Thời gian chuyển động đối với từng góc chiếu nói trên.
+
+Bài 1.9 Một electron chuyển động với tố độ ban đầu là v0 = 1.6  10 6 m/s bay
+vào hai tấm bảng, ở giữa là điện trường hướng từ trên xuống (như hình) và bên
+ngoài tấm bảng điện trường bằng 0. Electron xuất phát tại vị trí chính giữa 2
+tấm bảng.
+
+a) Nếu electron di chuyển đến vị trí mép ngoài của tấm bảng phía trên, hãy tính độ lớn cường độ điện
+trường
+
+b) Giả sử thay thế electron bằng proton với cùng tốc độ ban đầu là 0v . Proton có va chạm với 1 trong 2
+tấm bảng hay không? Nếu proton không va chạm với tấm bảng, hãy xác định quãng đường dịch chuyển
+và hướng chuyển động trên phương thẳng đúng của proton trước khi ra khỏi tấm bảng.
+
+c) So sánh quỹ đạo chuyển động của electron và proton sau đó giải thích sự khác biệt đó.
+
+d) Trong trường hợp này, ta có thể bỏ qua sự ảnh hưởng của trọng lực tác dụng lên từng hạt hay không?
+
+
+
+
+
+                                            2

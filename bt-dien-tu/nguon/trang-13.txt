@@ -1,0 +1,55 @@
+Điện từ học                                 Phạm Nguyễn Thành Vinh – Trương Đặng Hoài Thu
+b) Tính điện trường tại một điểm bên ngoài của hình trụ theo mật độ điện dài của hình trụ.
+
+c) So sánh kết quả của câu a và câu b với r = R .
+
+Bài 3.8 Một đĩa tròn bán kính a = 8cm tích điện đều với mặt độ điện mặt  = 10 −3 C / m 2 .
+
+a) Xác định cường độ điện trường tại một điểm trên trục của đĩa và cách tâm đĩa một đoạn b = 6cm.
+
+b) Chứng minh rằng nếu b → 0 thì biểu thức thu được sẽ chuyển thành biểu thức tính cường độ điện
+
+trường gây bởi một mặt phẳng vô hạn mang điện đều.
+
+c) Chứng minh rằng nếu b >> a thì biểu thức thu được chuyển thành biểu thức tính cường độ điện trường
+
+gây ra bởi một điện tích điểm.
+
+Bài 3.9 Một vỏ cầu gồm phần rỗng không tích điện bán kính a và phần đặc được tích điện đều với mật
+độ điện khối bán kính b. Hãy tính và biểu diễn bằng đồ thị cường độ điện trường E do vỏ cầu này tạo
+ra ở các khoảng cách r cách tâm của quả cầu từ 0 đến 30cm. Biết rằng = 10 −6 C / m 3 , a = 10cm và
+
+b = 20cm.
+
+                                                                                     r
+Bài 3.10 Một quả cầu rắn bán kính R tích điện không đều với mật độ điện khối = s     , trong đó s
+                                                      R
+
+là một hằng số và r là khoảng cách tính đến tâm của quả cầu. Tính:
+
+a) điện tích toàn phần trên quả cầu?
+
+b) cường độ điện trường bên trong và bên ngoài quả cầu?
+
+Bài 3.11 Một quả cầu tích điện đều với mật độ điện khối .
+
+a) Tính cường độ điện trường tại một điểm nằm bên trong quả cầu.
+
+b) Một hốc cầu được khoét bên trong quả cầu. Chứng minh rằng điện trường ở tất cả các điểm trong hốc
+
+là đều.
+
+Bài 3.12 Hai ống trụ dài, mỏng đồng trục với bán kính 1R và R2 ( R1  R2 ) được tích điện bằng nhau
+
+với mật độ điện dài lần lượt là -và . Hãy tìm cường độ điện trường tại r  R1 ; R1  r  R2 và r  R2
+                                  với r là khoảng cách theo đường bán kính tính từ trục của các hình trụ.
+
+Bài 3.13 Biết rằng từ định lý Gauss dễ dàng thu được biểu thức E = / 20 của                                                                                                       r                                                                      a
+cường độ điện trường trong chân không gây bởi một mặt phẳng vô hạn mang điện                                                   
+                                                                      P
+đều. Lấy một điểm P, ở cách xa mặt phẳng một khoảng b (hình vẽ). Lấy chân của         b
+đường thẳng vuông góc hạ từ điểm P xuống mặt phẳng làm tâm, vẽ một vòng tròn
+
+bán kính a. Tìm giá trị của a khi giá trị của cường độ điện trường P do các điện
+
+                                            12

@@ -1,0 +1,41 @@
+Điện từ học                                 Phạm Nguyễn Thành Vinh – Trương Đặng Hoài Thu
+Bài 3.9 Một dòng điện có cường độ  i = 6,28A chạy trên chu vi của một            A
+
+hình thang cân. Tỷ số giữa các cạnh đáy của hình thang bằng 2,00. Đáy nhỏ                            b
+                                                                                                                                                                                           i
+của hình thang là l = 100mm , khoảng cách b = 50,0mm. Tính cảm ứng từ
+
+tại điểm A.
+
+Bài 3.10
+
+a) Một khung dây hình vuông cạnh a mang dòng điện I. Hãy tìm cảm ứng từ tại một điểm trên trục của
+
+khung và cách tâm một khoảng x.
+
+b) Hãy tìm cảm ứng từ tại điểm P như hình vẽ.
+
+
+
+
+
+Bài 3.11 Hai vòng dây dẫn giống nhau bán kính r0 = 10cm được đặt song song, trục trùng nhau và mặt
+phẳng của chúng cách nhau một đoạn a = 20cm. Tìm cảm ứng từ tại tâm của mỗi vòng dây và tại điểm
+
+giữa của đoạn thẳng nối tâm của chúng trong hai trường hợp:
+
+a) các dòng điện chạy trên các vòng dây bằng nhau và cùng chiều.
+
+b) các dòng điện chạy trên các vòng dây bằng nhau nhưng ngược chiều nhau.
+
+Bài 3.12 Tính tốc độ của electron sau khi được gia tốc bởi hiệu điện thế U bằng 100V và 100kV từ trạng
+
+thái nghỉ.
+
+Bài 3.13 Hãy áp dụng quy tắc bàn tay trái để xác định các đại lượng còn thiếu trong các hình vẽ sau đây:
+
+
+
+
+
+                                            21

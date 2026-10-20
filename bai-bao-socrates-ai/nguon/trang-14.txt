@@ -1,0 +1,50 @@
+[41]
+J. Jabbour, K. Kleinbard, O. Miller, R. Haussman, and V. J.
+Reddi, SocratiQ: A generative AI-powered learning
+companion
+for
+personalized
+education
+and
+broader
+accessibility, in Proceedings of the Workshop on Com-
+puter Architecture Education (ACM, Tokyo Japan, 2025),
+pp. 1–10.
+[42]
+Y. Ding, H. Hu, J. Zhou, Q. Chen, B. Jiang, and L. He,
+Boosting large language models with Socratic method for
+conversational mathematics teaching, in Proceedings of
+the 33rd ACM International Conference on Information
+and Knowledge Management, CIKM ’24 (Association for
+Computing Machinery, New York, NY, USA, 2024),
+pp. 3730–3735.
+[43]
+Y. P. Chavesta Incio and M. d. l. Sánchez Trujillo, El
+pensamiento crítico en los estudiantes de una Escuela
+Nacional Superior de Arte, Revista de Estudios y Expe-
+riencias en Educación 22, 65 (2023).
+[44]
+B. Gregorcic, G. Polverini, and A. Sarlah, ChatGPT as a
+tool for honing teachers’ Socratic dialogue skills, Phys.
+Educ. 59, 045005 (2024).
+[45]
+E. Tufino and B. Gregorcic, Creating a customisable
+Socratic AI physics tutor, Phys. Educ. 60, 065037 (2025).
+[46]
+E. M. Torralba, Generative AI scaffolding in physics edu-
+cation: A phenomenological analysis of its role and impli-
+cations in STEM learning, Schrödinger 6, 175 (2025).
+[47]
+A. Sirnoorkar, D. Zollman, J. T. Laverty, A. J. Magana,
+N. S. Rebello, and L. A. Bryan, Student and AI responses
+to physics problems examined through the lenses of
+sensemaking and mechanistic reasoning, Comput. Educ.
+7, 100318 (2024).
+[48]
+N. A. F. Shukor and K. Osman, The Role of artificial
+intelligence in developing critical thinking among science
+students: A systematic literature review, Int. J. Acad. Res.
+Prog. Educ. Dev. 14, 164 (2025)..
+MARCOS GUERRERO-ZAMBRANO et al.
+PHYS. REV. PHYS. EDUC. RES. 22, 020134 (2026)
+020134-14

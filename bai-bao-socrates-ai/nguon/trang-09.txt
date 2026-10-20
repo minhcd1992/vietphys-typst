@@ -1,0 +1,64 @@
+In summary, hybrid teacher-GAI mediation strength-
+ened self-efficacy and intrinsic motivation, whereas cog-
+nitive load displayed a differentiated response, reflecting
+the dual nature of the tool as both a facilitator and a source
+of demands for critical supervision. Figure 3 illustrates the
+evolution of mean scores by item, allowing for a cautious
+conclusion: although age-based subgroups are small, KSE
+and IM converge toward high levels in A2, while CL
+remains the most variable dimension. From a pedagogical
+standpoint, the perceptual benefits of GAI appear to be
+broadly distributed in terms of competence and motiva-
+tion; however, the experience of mental effort seems to be
+modulated by individual differences such as prior expe-
+rience, study habits, ability to formulate effective queries,
+tolerance for uncertainty, and the need for validation—a
+pattern also reported in recent studies on factors condi-
+tioning the educational use of ChatGPT and related
+tools [35].
+C. Quantitative analysis of activity-specific
+perception dimension
+In the perceptual analysis of dimensions not shared
+between the two activities, a highly positive evaluation
+pattern emerges, with nuanced differences associated with
+cognitive complexity. In Activity 1 (A1), SI consistently
+reached high levels of agreement across all indicators,
+ranging from 88.9% to 100%, with minimal neutrality
+(0%–5.6%) and no disagreement. In contrast, CT was also
+predominantly evaluated favorably but exhibited greater
+dispersion, with agreement levels ranging from 77.8% to
+94.4%, increased neutrality (5.6%–22.2%), and isolated
+instances of mild disagreement (5.6%).
+In Activity 2 (A2), PU-GAI achieved unanimous appro-
+val across all indicators (100% agreement), corroborating
+the role of GAI as a learning support. More nuanced
+patterns emerged for TE-AI and RI. Although overall
+agreement
+remained
+high
+(88.9%–100%),
+neutrality
+reached up to 11.1% for TE-AI and up to 16.7% for RI,
+along with isolated instances of mild disagreement for RI
+(5.6%). Rather than weakening the findings, these patterns
+ground them: students confirm the usefulness of GAI
+while simultaneously identifying conditions for its effec-
+tive use, such as the need for verification, sensitivity to
+prompt formulation, and awareness of potential errors—
+features consistent with a more reflective and self-
+regulated mode of engagement.
+In summary, the two instructional activities define a
+convergent profile characterized by high acceptance of
+both Socratic interaction and GAI mediation. Within
+this profile, more immediate benefits—such as perceived
+usefulness, clarity, and guidance—are nearly unanimous,
+whereas more complex constructs, such as critical think-
+ing, and dimensions related to criteria and reliability of
+FIG. 3.
+Mean response scores by survey item for Activity 1 (A1; teacher-guided Socratic dialogue) and Activity 2 (A2; teacher-guided
+Socratic dialogue mediated by generative artificial intelligence). Items correspond to shared perception dimensions—KSE, CL, and
+IM. The figure illustrates the overall increase in KSE and IM under the GAI-mediated condition, while cognitive load exhibits greater
+variability across items.
+EFFECTS OF GENERATIVE AI-MEDIATED …
+PHYS. REV. PHYS. EDUC. RES. 22, 020134 (2026)
+020134-9

@@ -1,0 +1,109 @@
+use—such as trust in educational AI and resource
+integration—exhibit higher levels of neutrality and occa-
+sional disagreement. These response patterns are consis-
+tent with processes of deep learning and the progressive
+development of reasoning.
+D. Qualitative analysis of student reflections across
+instructional conditions
+A thematic analysis suitable for small samples, follow-
+ing the framework proposed by Braun and Clarke [36],
+was conducted to examine the underlying experiences
+reflected in the open-ended responses. In Activity 1 (A1),
+students were asked, “What did you learn from the
+teacher’s Socratic questions?” Analysis of the 18 res-
+ponses revealed three dominant themes. The most fre-
+quently reported theme was conceptual clarification and
+deepening (44%), highlighting the role of guided ques-
+tioning in refining understanding of kinematics concepts.
+This was followed by critical thinking and metacognitive
+awareness (39%), where students emphasized reflection on
+assumptions, reasoning processes, and error detection. A
+third theme concerned the structuring of reasoning (28%),
+with respondents noting improved organization and coher-
+ence in their problem-solving explanations.
+In Activity 2 (A2), students responded to the question,
+“In which aspects was generative AI useful or confusing?”
+The thematic distribution shifted while preserving con-
+tinuity with A1. Conceptual usefulness and clarity again
+emerged as a dominant theme (44%), indicating that GAI
+was perceived as reinforcing understanding. A substantial
+proportion of responses emphasized critical use and
+verification (33%), reflecting students’ awareness of the
+need to evaluate, contrast, and validate AI-generated
+outputs. Additional themes included structuring of reason-
+ing (17%) and instrumental efficiency (17%), the latter
+associated with faster exploration of solution pathways and
+alternative explanations. Alongside these benefits, stu-
+dents explicitly identified limitations: prompt dependence
+(22%) and mathematical inaccuracies (28%), which
+required continuous verification. Rather than undermining
+the instructional value of GAI, these limitations appear
+to have fostered more deliberate, reflective, and self-
+regulated engagement with the problem-solving process.
+E. Convergent mixed-methods interpretation
+of learning outcomes
+To integrate evidence from performance outcomes
+(critical-thinking rubric), perceptions (survey data), and
+reported experiences (open-ended responses), a qualitative-
+quantitative convergence matrix was employed, as pre-
+sented in Table IV. This integrative approach enables
+systematic comparison of findings and the identification
+of coherent patterns across data sources without redun-
+dancy in result reporting [37,38].
+Within the quantitative component, the global compari-
+son between activities showed higher scores under the
+GAI-mediated condition (A2), with a Wilcoxon statistic of
+W ¼ 0.0000 and a p value of 0.03120. At the problem
+level, statistically significant differences were identified
+for Problems 1 (P1) and 4 (P4), both with p ¼ 0.03125. In
+particular, P4 exhibited a marked median increase, from
+6.5 in A1 to 10.0 in A2. For P2 and P3, a favorable trend
+toward A2 was observed (p ¼ 0.06250), although the
+conventional significance threshold of α ¼ 0.05 was not
+reached. Finally, P5 showed a more moderate change, with
+p ¼ 0.12500. Regarding perceptual evidence, a highly
+favorable evaluation was identified. In A2, PU-GAI
+reached 100% agreement. Dimensions associated with
+reliability and criteria of use, such as TE-AI and RI,
+maintained high levels of agreement, although with neu-
+trality levels of up to 11.1% and 16.7%, respectively, and
+an isolated instance of disagreement (5.6%) for RI. Taken
+together, these results indicate high acceptance accompa-
+nied by cautious appraisal.
+The qualitative analysis revealed thematic cores that
+complement the observed quantitative patterns. In A2,
+conceptual usefulness and clarity emerged in 44% of
+responses, critical use and verification in 33%, and
+structuring of reasoning in 17%. Reported limitations
+included mathematical inaccuracies (28%) and prompt
+dependence (22%).
+Overall, the triangulated evidence primarily indicates
+convergence between performance gains and high per-
+ceived usefulness, reinforced by narratives emphasizing
+clarity and instructional scaffolding. In addition, partial
+agreement is observed for dimensions related to trust and
+resource integration, where quantitative acceptance coex-
+ists with qualitative cautions highlighting the need for
+verification and sensitivity to prompt formulation.
+IV. DISCUSSION
+This study compared two forms of Socratic mediation in
+the resolution of conceptual and numerical problems in
+translational kinematics within initial physics teacher
+training: one guided exclusively by the instructor and
+another supported by GAI. Across the full set of findings, a
+consistent pattern emerges. Performance assessed through
+a critical-thinking rubric and several learning-related
+perceptions tended to improve when Socratic dialogue
+was complemented by GAI, whereas cognitive load did not
+follow a uniform trajectory and appeared to be modulated
+by the additional effort required for verification and quality
+control of AI-generated responses.
+From a performance perspective, the observed global
+improvement is consistent with recent reports positioning
+AI-based tutors as supports capable of enhancing learning
+in authentic educational contexts, including physics, when
+they are integrated with clear pedagogical intent rather
+than deployed as substitutes for students’ intellectual
+MARCOS GUERRERO-ZAMBRANO et al.
+PHYS. REV. PHYS. EDUC. RES. 22, 020134 (2026)
+020134-10
