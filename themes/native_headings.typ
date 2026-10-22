@@ -4,7 +4,7 @@
 #let vp-heading-theme-native(paragraph-indent: 1.5em, heading-leading: 0.55em, numbering: "1.1.1.1", body) = {
   set par(first-line-indent: (amount: paragraph-indent, all: true))
   show figure.caption: set par(first-line-indent: 0pt)
-  show raw: set par(first-line-indent: 0pt)
+  show raw.where(block: true): set par(first-line-indent: 0pt)
   show table: set par(first-line-indent: 0pt)
   context {
     // Capture body size before Typst applies its own heading text styles.

@@ -256,9 +256,20 @@ ghi đè nó.
   [Chapter], [chap_modern; chap_hexagon; default],
   [Lesson], [less_modern; less_ribbon; less_star; less_default / default],
   [Heading], [modern, theme 01, native, academic paper/thesis],
+  [Preset SBT], [vp-workbook-chapter (chap_hexagon); vp-workbook-lesson (less_modern, new-page: true, tab-text: "BÀI")],
 )
 Đổi mẫu chỉ đổi hình thức. Cấp heading, bộ đếm, mục lục và tham chiếu giữ
-cùng quy tắc. vp-lesson-title là tên tương thích của vp-lesson(style: "less_star").
+cùng quy tắc. vp-lesson-star và vp-lesson-title là tên tương thích của vp-lesson(style: "less_star").
+
+#table(columns: (27%, 33%, 40%), inset: 6pt,
+  [*Hàm*], [*Tham số chính*], [*Mặc định & Ghi chú*],
+  [vp-chapter], [num, title, style, color, font, label], [num: auto, style: "chap_modern", color: auto, font: auto (Rounded Mplus 1c, Arial)],
+  [vp-lesson], [num, title, subtitle, style, color, font, tab-text, new-page, label], [num: auto, style: "less_modern", tab-text: "BÀI HỌC", new-page: auto],
+  [vp-heading-theme-modern], [color, font, paragraph-indent, numbering], [paragraph-indent: 1.5em, numbering: "1.1.1.1", trang trí cấp 1–3],
+  [vp-heading-theme-01], [color, bg-color, numbering, paragraph-indent], [paragraph-indent: 1.5em, numbering: "1.1.1.1", trang trí cấp 1–4],
+  [vp-heading-theme-native], [paragraph-indent, heading-leading, numbering], [paragraph-indent: 1.5em, heading-leading: 0.55em, dùng khi heading-theme: none],
+  [vp-heading-theme-academic], [variant, font, color, numbering, chapter-pagebreak, body-size, body-leading, heading-before, heading-after, paragraph-indent], [variant: "paper" (11pt) hoặc "thesis" (12pt, cấp 1 in hoa căn giữa)],
+)
 
 ```typst
 // Mục lớn 1., mục con 1.1, mục nhỏ 1.1.1
@@ -360,12 +371,16 @@ nó cho nhãn hướng dẫn, phần nhận xét hoặc tiêu đề nhóm trình
 
 #table(columns: (1fr, 1.5fr), inset: 6pt,
   [*Mục đích*], [*File*],
-  [API, số chương/bài, chuyển trang], [`components/hierarchy.typ`],
-  [Phân cấp ngữ nghĩa và số mục], [`components/hierarchy_rules.typ`],
-  [Khung chapter/lesson], [`components/headings/basic.typ`, `modern.typ`],
-  [Heading theme 01 / modern], [`themes/heading_theme.typ`, `modern_headings.typ`],
-  [Heading native / học thuật], [`themes/native_headings.typ`, `academic_headings.typ`],
-  [Font và cấu hình trang], [`layout/page_setup.typ`],
+  [API, số chương/bài, chuyển trang], [components/hierarchy.typ],
+  [Phân cấp ngữ nghĩa và số mục], [components/hierarchy_rules.typ],
+  [Khung chapter/lesson], [components/headings/basic.typ, modern.typ],
+  [Heading theme 01 / modern], [themes/heading_theme.typ, modern_headings.typ],
+  [Heading native / học thuật], [themes/native_headings.typ, academic_headings.typ],
+  [Font và cấu hình trang], [layout/page_setup.typ],
+  [Mục lục sách và nội dung chương], [components/book_contents.typ],
+  [Nhãn phần trình bày vp-section], [components/section.typ],
+  [Preset chương/bài sách bài tập], [layout/workbook.typ],
+  [State phân cấp và truy vấn tiêu đề], [components/document_state.typ],
 )
 
 ```sh
@@ -392,7 +407,7 @@ lục hay bookmark. Dùng =, ==, === cho các mục cần phân cấp.
   [*Tham số*], [*Mặc định*], [*Ý nghĩa*],
   [title], [Bắt buộc], [Nội dung tiêu đề; có thể truyền bằng ngoặc vuông],
   [size], [16pt], [Cỡ chữ],
-  [color], [`#174B78`], [Màu chữ],
+  [color], [\#174B78], [Màu chữ],
   [font], [auto], [Kế thừa font nội dung],
   [before / after], [16pt / 9pt], [Khoảng cách trước / sau],
 )
@@ -468,3 +483,95 @@ Tính quãng đường từ vận tốc và thời gian.
 Phụ đề của = vẫn thuộc nội dung heading, nên cũng có thể xuất hiện trong mục
 lục. Trong file thật chỉ có bài lẻ, không cần các lệnh reset và vp-hierarchy
 của scope demo; chúng chỉ giúp các ví dụ trong manual không ảnh hưởng nhau.
+
+#pagebreak()
+#vp-section[13. Mục lục sách bài tập (vp-book-outline, vp-chapter-outline) — mã và sản phẩm]
+Bên cạnh outline() chuẩn của Typst, Vietphys cung cấp hai hàm mục lục chuyên dụng
+cho sách nhiều chương/bài: vp-book-outline (mục lục tổng hợp toàn sách) và
+vp-chapter-outline (trang tổng quan các bài trong chương hiện tại). Hai hàm tự
+động truy vấn tên, số thứ tự và số trang từ heading chương/bài, tạo liên kết đến
+đúng trang đích mà vẫn giữ nguyên cây bookmark PDF gốc.
+
+Khi dùng mẫu sách bài tập vp-workbook, gói cung cấp sẵn hai preset:
+- vp-workbook-chapter: tương đương vp-chapter.with(style: "chap_hexagon", font: ("Rounded Mplus 1c", "Arial")).
+- vp-workbook-lesson: tương đương vp-lesson.with(style: "less_modern", font: ("Rounded Mplus 1c", "Arial"), new-page: true, tab-text: "BÀI") (luôn sang trang mới kể cả bài đầu chương để dành trang mở đầu chương cho vp-chapter-outline).
+
+#table(columns: (24%, 26%, 50%), inset: 6pt,
+  [*Hàm / Tham số*], [*Mặc định*], [*Ý nghĩa*],
+  [vp-book-outline], [], [Đặt ở đầu sách, trước các chương],
+  [title / subtitle], [\[MỤC LỤC\] / none], [Tiêu đề chính và tiêu đề phụ phía trên],
+  [intro], [none], [Đoạn giới thiệu ngắn ở trang mục lục đầu tiên],
+  [break-before], [()], [Mảng số thứ tự chương bắt đầu trang mục lục mới, ví dụ (3, 5)],
+  [vp-chapter-outline], [], [Đặt ngay sau vp-chapter / vp-workbook-chapter],
+  [title / summary], [\[NỘI DUNG CHƯƠNG\] / none], [Tiêu đề khối và ghi chú tóm tắt cuối danh sách bài],
+  [color / font], [auto / "Arial"], [Màu chủ đạo (theo theme) và font danh sách bài],
+  [title-font], [("Rounded Mplus 1c", "Arial")], [Font của tiêu đề lớn và số bài],
+  [lesson-size / row-padding], [11pt–12pt / 6pt–8pt], [Cỡ chữ tên bài và khoảng đệm dọc mỗi dòng],
+)
+
+*Mã sử dụng:*
+```typst
+#import "../vietphys.typ": *
+#show: vp-workbook.with(title: "BÀI TẬP VẬT LÍ 10")
+
+// 1. Mục lục tổng hợp đầu sách (tự động lấy mọi chương và bài):
+#vp-book-outline(
+  subtitle: [SÁCH BÀI TẬP VẬT LÍ 10],
+  intro: [Nhấn vào tên chương hoặc bài để chuyển nhanh đến trang tương ứng.],
+  break-before: (4,),
+)
+
+// 2. Mở đầu chương kèm bảng nội dung chương tự động:
+#vp-workbook-chapter(num: "III", title: "Năng lượng, Công, Công suất")
+#vp-chapter-outline(summary: [Mỗi bài gồm bốn phần luyện tập từ cơ bản đến vận dụng cao.])
+
+// 3. Các bài học trong chương:
+#vp-workbook-lesson(num: 17, title: "Công và công suất")
+= Phần I. Trắc nghiệm khách quan
+#vp-workbook-lesson(num: 18, title: "Động năng và thế năng. Định luật bảo toàn cơ năng")
+= Phần I. Trắc nghiệm khách quan
+```
+
+*Sản phẩm (vp-workbook-chapter + vp-chapter-outline + các bài trong chương):*
+#[
+  #show: vp-hierarchy.with(mode: "book")
+  #show: vp-heading-theme-modern
+  #set par(leading: 0.55em)
+  #vp-workbook-chapter(num: "III", title: "Năng lượng, Công, Công suất")
+  #vp-chapter-outline(summary: [Mỗi bài gồm bốn phần luyện tập từ cơ bản đến vận dụng cao.])
+  #vp-workbook-lesson(num: 17, title: "Công và công suất", new-page: false)
+  = Phần I. Trắc nghiệm khách quan
+  Nội dung luyện tập của Bài 17.
+  #vp-workbook-lesson(num: 18, title: "Động năng và thế năng. Định luật bảo toàn cơ năng", new-page: false)
+  = Phần I. Trắc nghiệm khách quan
+  Nội dung luyện tập của Bài 18.
+]
+
+#pagebreak()
+#vp-section[14. Truy vấn phân cấp trên Header và Widget tiêu đề]
+Hệ thống phân cấp tự động phát metadata \<vp-chapter-mark\>, \<vp-chapter-info\>
+và \<vp-lesson-title\> để đồng bộ với đầu trang (header):
+- vp-page-setup tự động ẩn header trên trang có banner chương (vp-chapter / vp-workbook-chapter) để tránh chồng lên banner.
+- vp-manual-header-fancy tự động đọc số chương hiện tại để hiển thị huy hiệu CHƯƠNG ... ở góc phải (chapter-label: auto); có thể tắt bằng chapter-label: none hoặc thay bằng nội dung tùy ý.
+- Các widget header truy vấn tiêu đề theo cấp nội dung độc lập với offset:
+  - vp-widget-heading(level: 1): lấy tiêu đề = hiện hành trên trang (hoặc gần nhất trước đó), tự bỏ qua heading Chương/Bài.
+  - vp-widget-smart-heading(): tự lấy tiêu đề mục gần nhất trên trang.
+  - vp-set-part("Tên phần") (alias vp-part) kết hợp vp-widget-part(): đánh dấu và hiển thị tên phần trên header.
+
+```typst
+// Header tự động hiển thị số chương từ vp-chapter / vp-workbook-chapter:
+#show: vp-page-setup.with(
+  header: vp-manual-header-fancy(
+    title: "BÀI TẬP VẬT LÍ", subtitle: "LUYỆN TẬP",
+    icon: "atom", compact: true, chapter-label: auto,
+  ),
+)
+
+// Hoặc gắn widget tiêu đề mục = vào các mẫu header 01–15:
+#show: vp-page-setup.with(
+  header: vp-header-theme-01(
+    title: "VẬT LÍ 12", subtitle: "Dao động cơ",
+    right-content: vp-widget-heading(level: 1),
+  ),
+)
+```

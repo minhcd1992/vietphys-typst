@@ -233,6 +233,7 @@
 }
 
 #let _render-mcq-marker(char, is-correct, shape, mark-bg, mark-border, mark-width, ans-text-color, opt-color, opt-bg, opt-border, opt-radius) = {
+  set par(first-line-indent: 0pt, hanging-indent: 0pt)
   let r = if shape == "square" { 0% } else if shape == "round-rect" or shape == "rounded" { 2.5pt } else { 50% }
   let fill-val = if mark-bg == auto or mark-bg == none { none } else { mark-bg }
   let stroke-val = if mark-border == auto or mark-border == none { 0.8pt + black } else if type(mark-border) == stroke { mark-border } else { mark-width + mark-border }

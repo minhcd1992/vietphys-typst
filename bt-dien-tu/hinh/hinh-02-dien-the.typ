@@ -31,7 +31,7 @@
 
   // Mũi tên đo chênh lệch điện thế
   line((w + 0.3, y-trong), (w + 0.3, y-ngoai), stroke: 0.6pt + rgb("#475569"), mark: (start: "stealth", end: "stealth", fill: rgb("#475569"), length: 0.12cm, width: 0.07cm))
-  content((w + 0.95, (y-trong + y-ngoai) / 2), text(size: 7.5pt, fill: rgb("#334155"), weight: "bold", $Delta V = 90 thin "mV"$))
+  content((w + 0.5, (y-trong + y-ngoai) / 2), text(size: 7.5pt, fill: rgb("#334155"), weight: "bold", $Delta V = 90 thin "mV"$), anchor: "west")
 
   // Chú thích màng tế bào
   content((-w - 0.05, 0), text(size: 7pt, fill: rgb("#b45309"), [Màng\ tế bào]), anchor: "east")
@@ -42,7 +42,7 @@
 
   // Mũi tên định hướng dịch chuyển
   line((0, y-trong + 0.65), (0, y-ngoai - 0.35), stroke: (paint: rgb("#059669"), thickness: 1.2pt), mark: (end: "stealth", fill: rgb("#059669"), length: 0.15cm, width: 0.08cm))
-  content((0.45, 0), text(size: 7pt, fill: rgb("#059669"), weight: "bold", [Dịch chuyển]))
+  content((0.25, 0), text(size: 7pt, fill: rgb("#059669"), weight: "bold", [Dịch chuyển]), anchor: "west")
 })
 
 // Hình giải: Thể hiện điện trường màng E, lực điện F_dien và ngoại lực F_ngoai
@@ -74,11 +74,11 @@
   content(ion, text(size: 6.5pt, fill: rgb("#b45309"), weight: "bold", $"Na"^+$))
 
   // Vector lực điện F_dien hướng xuống (cùng chiều E)
-  line(ion, (0, -0.75), stroke: (paint: rgb("#2563eb"), thickness: 1.2pt), mark: (end: "stealth", fill: rgb("#2563eb"), length: 0.13cm, width: 0.07cm))
+  line((0, -0.2), (0, -0.75), stroke: (paint: rgb("#2563eb"), thickness: 1.2pt), mark: (end: "stealth", fill: rgb("#2563eb"), length: 0.13cm, width: 0.07cm))
   content((0.45, -0.55), text(size: 7pt, fill: rgb("#2563eb"), weight: "bold", $arrow(F)_("điện")$))
 
   // Vector ngoại lực F_ngoai hướng lên (đưa ion ra ngoài màng)
-  line(ion, (0, 0.75), stroke: (paint: rgb("#dc2626"), thickness: 1.2pt), mark: (end: "stealth", fill: rgb("#dc2626"), length: 0.13cm, width: 0.07cm))
+  line((0, 0.2), (0, 0.75), stroke: (paint: rgb("#dc2626"), thickness: 1.2pt), mark: (end: "stealth", fill: rgb("#dc2626"), length: 0.13cm, width: 0.07cm))
   content((0.50, 0.55), text(size: 7pt, fill: rgb("#dc2626"), weight: "bold", $arrow(F)_("ngoài")$))
 })
 
@@ -155,7 +155,7 @@
   content((xb + 0.18, y0 - 0.15), text(size: 7.5pt, weight: "bold", $B$))
 
   // Chú thích chiều thế năng
-  content(((xa + xb) / 2, -0.55), text(size: 7pt, fill: rgb("#475569"), [$V_A > V_B thin arrow.r thin W_A > W_B$]))
+  content(((xa + xb) / 2, -1.2), text(size: 7pt, fill: rgb("#475569"), [$V_A > V_B thin arrow.r thin W_A > W_B$]))
 })
 
 // --------------------------------------------------------------------------
@@ -212,7 +212,7 @@
 
   // Vị trí dừng (v = 0)
   circle((x1, y0), radius: 0.12, stroke: (paint: rgb("#2563eb"), thickness: 0.8pt, dash: "dashed"), fill: white)
-  content((x1, y0), text(size: 6pt, fill: rgb("#64748b"), [dừng]))
+  content((x1 + 0.25, y0), text(size: 6pt, fill: rgb("#64748b"), [dừng]), anchor: "west")
   content((x1, y0 + 0.28), text(size: 7pt, fill: rgb("#64748b"), $v = 0$))
 
   // Mũi tên đo quãng đường hãm s
@@ -261,7 +261,7 @@
   content((cx + 0.18, cy + 0.12), text(size: 8pt, weight: "bold", $C$))
 
   // Nhãn cạnh BC = 6 cm
-  content(((bx + cx) / 2 - 0.25, (by + cy) / 2 + 0.15), text(size: 7.5pt, fill: rgb("#1e293b"), [6 cm]))
+  content(((bx + cx) / 2 - 0.3, (by + cy) / 2 + 0.4), text(size: 7.5pt, fill: rgb("#1e293b"), [6 cm]), anchor: "east")
 })
 
 // Hình giải: Thể hiện U_AC = 0 (AC vuông góc E) và tổng hợp trường tại A khi có q ở C
@@ -344,7 +344,7 @@
   // Hạt q sát bản dương
   circle((xa + 0.2, 0), radius: 0.13, fill: rgb("#fef3c7"), stroke: 0.8pt + rgb("#d97706"))
   content((xa + 0.2, 0), text(size: 6.5pt, fill: rgb("#b45309"), weight: "bold", $q$))
-  content((xa + 0.2, -0.32), text(size: 6.5pt, fill: rgb("#b45309"), [$v_0 = 0$]))
+  content((xa + 0.2, -0.32), text(size: 6.5pt, fill: rgb("#b45309"), [$v_0 = 0$]), anchor: "west")
 
   // Khoảng cách d
   line((xa, -h - 0.25), (xb, -h - 0.25), stroke: 0.6pt + rgb("#1e293b"), mark: (start: "stealth", end: "stealth", fill: rgb("#1e293b"), length: 0.12cm, width: 0.07cm))
@@ -383,8 +383,8 @@
   content((xb + 0.25, 0.22), text(size: 7pt, fill: rgb("#059669"), weight: "bold", $arrow(v)$))
 
   // Hiệu điện thế U = Ed
-  content((0, -0.55), text(size: 7pt, fill: rgb("#475569"), [$U = E d = 60 thin "V"$]))
-  content((0, -0.82), text(size: 7pt, fill: rgb("#059669"), weight: "bold", [$A = q U = (m v^2)/2$]))
+  content((0, -h - 0.3), text(size: 7pt, fill: rgb("#475569"), [$U = E d = 60 thin "V"$]))
+  content((0, -h - 0.8), text(size: 7pt, fill: rgb("#059669"), weight: "bold", [$A = q U = (m v^2)/2$]))
 })
 
 // --------------------------------------------------------------------------
@@ -404,7 +404,7 @@
 
   // Hạt alpha (+2e) ban đầu ở xa
   circle((x-alpha, 0), radius: 0.16, fill: rgb("#fee2e2"), stroke: 0.9pt + rgb("#ef4444"))
-  content((x-alpha, 0), text(size: 6.5pt, fill: rgb("#dc2626"), weight: "bold", [$+2e$]))
+  content((x-alpha, -0.32), text(size: 6.5pt, fill: rgb("#dc2626"), weight: "bold", [$+2e$]))
   content((x-alpha, 0.36), text(size: 7.5pt, fill: rgb("#dc2626"), weight: "bold", [Hạt $alpha$]))
 
   // Vector vận tốc ban đầu v0 hướng tới Au
@@ -429,12 +429,12 @@
 
   // Hạt alpha tại điểm gần nhất r_min (v = 0)
   circle((x-stop, 0), radius: 0.14, fill: rgb("#fee2e2"), stroke: 0.9pt + rgb("#ef4444"))
-  content((x-stop, 0), text(size: 6pt, fill: rgb("#dc2626"), weight: "bold", [$+2e$]))
-  content((x-stop, 0.32), text(size: 6.5pt, fill: rgb("#64748b"), [$v = 0$]))
+  content((x-stop, 0.3), text(size: 6pt, fill: rgb("#dc2626"), weight: "bold", [$+2e$]))
+  content((x-stop, 0.65), text(size: 6.5pt, fill: rgb("#64748b"), [$v = 0$]))
 
   // Lực đẩy Coulomb F_C cực đại hướng sang trái
-  line((x-stop, 0), (x-stop - 0.75, 0), stroke: (paint: rgb("#dc2626"), thickness: 1.4pt), mark: (end: "stealth", fill: rgb("#dc2626"), length: 0.14cm, width: 0.08cm))
-  content((x-stop - 0.40, 0.22), text(size: 7.5pt, fill: rgb("#dc2626"), weight: "bold", $arrow(F)_C$))
+  line((x-stop - 0.14, 0), (x-stop - 0.75, 0), stroke: (paint: rgb("#dc2626"), thickness: 1.4pt), mark: (end: "stealth", fill: rgb("#dc2626"), length: 0.14cm, width: 0.08cm))
+  content((x-stop - 0.65, 0.25), text(size: 7.5pt, fill: rgb("#dc2626"), weight: "bold", $arrow(F)_C$), anchor: "east")
 
   // Mũi tên quỹ đạo quay ngược (u-turn)
   arc((x-stop, 0), start: 90deg, delta: 180deg, radius: 0.18, stroke: (paint: rgb("#059669"), thickness: 0.8pt, dash: "dotted"))
@@ -517,7 +517,7 @@
 
   // Cạnh huyền r = sqrt(R^2 + z^2)
   line((rx, 0), (0, z), stroke: (paint: rgb("#dc2626"), thickness: 1.0pt))
-  content((rx / 2 + 0.35, z / 2 + 0.1), text(size: 6.5pt, fill: rgb("#dc2626"), weight: "bold", $r = sqrt(R^2 + z^2)$))
+  content((rx / 2 + 0.2, z / 2 + 0.3), text(size: 6.5pt, fill: rgb("#dc2626"), weight: "bold", $r = sqrt(R^2 + z^2)$), anchor: "west")
 
   // Tâm O và góc vuông
   circle((0, 0), radius: 0.03, fill: black)
@@ -525,7 +525,7 @@
   rect((0, 0), (0.16, 0.16), stroke: 0.4pt + rgb("#1e293b"))
 
   // Công thức điện thế
-  content((0.7, -0.65), text(size: 7pt, fill: rgb("#2563eb"), weight: "bold", $V(z) = (2 pi k R lambda)/sqrt(R^2 + z^2)$))
+  content((0, -1.0), text(size: 7pt, fill: rgb("#2563eb"), weight: "bold", $V(z) = (2 pi k R lambda)/sqrt(R^2 + z^2)$))
 })
 
 // --------------------------------------------------------------------------
@@ -546,7 +546,8 @@
   circle((0, 0), radius: (rx, ry), fill: rgb("#e0f2fe"), stroke: 1.1pt + rgb("#0284c7"))
 
   // Các dấu + trên bề mặt đĩa
-  for (px, py) in ((-0.9, -0.1), (-0.4, 0.2), (0.5, 0.15), (1.0, -0.1), (0.1, -0.3)) {
+  // Chừa khoảng trống quanh bán kính R và nhãn của nó.
+  for (px, py) in ((-0.9, -0.1), (-0.4, 0.2), (0.5, 0.25), (1.1, 0.25), (0.1, -0.3)) {
     content((px, py), text(size: 6.5pt, fill: rgb("#0369a1"), weight: "bold", $+$))
   }
 
@@ -587,7 +588,8 @@
   let s-rx = 0.95
   let s-ry = 0.33
   circle((0, 0), radius: (s-rx, s-ry), stroke: 1.0pt + rgb("#f97316"), fill: none)
-  content((s-rx + 0.35, 0.05), text(size: 6.5pt, fill: rgb("#c2410c"), weight: "bold", [vành $s, thin dif s$]))
+  line((s-rx, 0), (rx + 0.15, 0.25), stroke: 0.4pt + rgb("#c2410c"))
+  content((rx + 0.25, 0.25), text(size: 6.5pt, fill: rgb("#c2410c"), weight: "bold", [vành $s, thin dif s$]), anchor: "west")
 
   // Trục z
   line((0, 0), (0, z + 0.4), stroke: 0.5pt + rgb("#64748b"))
@@ -601,14 +603,14 @@
   content((s-rx / 2, -0.14), text(size: 6.5pt, fill: rgb("#c2410c"), $s$))
 
   line((s-rx, 0), (0, z), stroke: (paint: rgb("#dc2626"), thickness: 0.9pt, dash: "dotted"))
-  content((s-rx / 2 + 0.35, z / 2 + 0.1), text(size: 6.5pt, fill: rgb("#dc2626"), $sqrt(s^2 + z^2)$))
+  content((s-rx / 2 + 0.25, z / 2 + 0.25), text(size: 6.5pt, fill: rgb("#dc2626"), $sqrt(s^2 + z^2)$), anchor: "west")
 
   // Tâm O
   circle((0, 0), radius: 0.03, fill: black)
   content((-0.14, -0.1), text(size: 7pt, $O$))
 
   // Kết quả điện thế
-  content((0, -0.65), text(size: 7pt, fill: rgb("#0284c7"), weight: "bold", $V(z) = 2 pi k sigma (sqrt(R^2 + z^2) - abs(z))$))
+  content((0, -1.0), text(size: 7pt, fill: rgb("#0284c7"), weight: "bold", $V(z) = 2 pi k sigma (sqrt(R^2 + z^2) - abs(z))$))
 })
 
 // --------------------------------------------------------------------------
@@ -653,7 +655,7 @@
 
   // Mũi tên dịch chuyển từ 4d về 3d
   line((-0.18, z4 - 0.08), (-0.18, z3 + 0.08), stroke: (paint: rgb("#059669"), thickness: 1.2pt), mark: (end: "stealth", fill: rgb("#059669"), length: 0.13cm, width: 0.07cm))
-  content((-0.45, (z3 + z4) / 2), text(size: 6.5pt, fill: rgb("#059669"), [dịch\ chuyển]))
+  content((-0.4, (z3 + z4) / 2), text(size: 6.5pt, fill: rgb("#059669"), [dịch\ chuyển]), anchor: "east")
 })
 
 // Hình giải: Phần tử vi phân ds, lực hút điện kéo electron từ 4d về 3d
@@ -682,13 +684,13 @@
 
   // Khoảng cách z - s
   line((0.12, s), (0.12, z-xet), stroke: 0.5pt + rgb("#7c3aed"), mark: (start: "stealth", end: "stealth", fill: rgb("#7c3aed"), length: 0.1cm, width: 0.05cm))
-  content((0.38, (s + z-xet) / 2), text(size: 6.5pt, fill: rgb("#7c3aed"), $z - s$))
+  content((0.3, (s + z-xet) / 2), text(size: 6.5pt, fill: rgb("#7c3aed"), $z - s$), anchor: "west")
 
   // Electron tại 4d và lực hút hướng xuống
   circle((0, z4), radius: 0.11, fill: rgb("#fee2e2"), stroke: 0.7pt + rgb("#ef4444"))
   content((0, z4), text(size: 6pt, fill: rgb("#dc2626"), weight: "bold", $-$))
   line((0, z4 - 0.13), (0, z4 - 0.55), stroke: (paint: rgb("#dc2626"), thickness: 1.2pt), mark: (end: "stealth", fill: rgb("#dc2626"), length: 0.12cm, width: 0.06cm))
-  content((-0.25, z4 - 0.35), text(size: 6.5pt, fill: rgb("#dc2626"), weight: "bold", $arrow(F)_("điện")$))
+  content((-0.2, z4 - 0.35), text(size: 6.5pt, fill: rgb("#dc2626"), weight: "bold", $arrow(F)_("điện")$), anchor: "east")
 
   // Điểm 3d có vận tốc v
   circle((0, z3), radius: 0.035, fill: black)
@@ -804,10 +806,10 @@
 
   // 2 elip đẳng thế
   circle((0, 0), radius: (0.9, 0.6), stroke: 0.8pt + rgb("#60a5fa"), fill: none)
-  content((0.95, 0.22), text(size: 6pt, fill: rgb("#2563eb"), [$V_1$]))
+  content((0.55, -0.65), text(size: 6pt, fill: rgb("#2563eb"), [$V_1$]))
 
   circle((0, 0), radius: (1.5, 1.0), stroke: 0.9pt + rgb("#2563eb"), fill: none)
-  content((1.55, 0.22), text(size: 6pt, fill: rgb("#1d4ed8"), [$V_2$]))
+  content((1.6, 0.3), text(size: 6pt, fill: rgb("#1d4ed8"), [$V_2$]), anchor: "west")
 
   // Các vector điện trường E = -grad V vuông góc với mặt đẳng thế, hướng vào tâm (nếu a,b > 0)
   // Tại điểm (1.5, 0): E hướng vào trong (-x)
@@ -820,7 +822,7 @@
   circle((px, pz), radius: 0.035, fill: rgb("#7c3aed"))
   // Vector pháp tuyến grad V ~ (2a px, 2b pz), E ngược lại
   line((px, pz), (px - 0.42, pz - 0.35), stroke: (paint: rgb("#dc2626"), thickness: 1.3pt), mark: (end: "stealth", fill: rgb("#dc2626"), length: 0.13cm, width: 0.07cm))
-  content((px - 0.25, pz - 0.52), text(size: 7pt, fill: rgb("#dc2626"), weight: "bold", $arrow(E)$))
+  content((0.45, 0.3), text(size: 7pt, fill: rgb("#dc2626"), weight: "bold", $arrow(E)$))
 
   content((0, -1.5), text(size: 6.5pt, fill: rgb("#475569"), [$arrow(E) = -nabla V thin bot thin$ mặt đẳng thế]))
 })
@@ -850,7 +852,7 @@
 
   // Cạnh a = 3 cm
   line((d / 2 + tilt + 0.15, -s / 2 + tilt), (d / 2 + tilt + 0.15, s / 2 + tilt), stroke: 0.5pt + rgb("#475569"), mark: (start: "stealth", end: "stealth", fill: rgb("#475569"), length: 0.1cm, width: 0.05cm))
-  content((d / 2 + tilt + 0.55, tilt), text(size: 6.5pt, fill: rgb("#475569"), [$a = 3 thin "cm"$]))
+  content((d / 2 + tilt + 0.35, tilt), text(size: 6.5pt, fill: rgb("#475569"), [$a = 3 thin "cm"$]), anchor: "west")
 
   // Hiệu điện thế U
   content((0, s / 2 + tilt + 0.25), text(size: 7.5pt, fill: rgb("#dc2626"), weight: "bold", [$U = 25 thin "V"$]))
@@ -890,7 +892,8 @@
   line((d / 2 - 0.12, 0), (d / 2 + 0.45, 0), stroke: (paint: rgb("#059669"), thickness: 1.2pt), mark: (end: "stealth", fill: rgb("#059669"), length: 0.12cm, width: 0.06cm))
   content((d / 2 + 0.25, 0.22), text(size: 7pt, fill: rgb("#059669"), weight: "bold", $arrow(v)$))
 
-  content((0, -0.65), text(size: 6.5pt, fill: rgb("#475569"), [$E = U/d, thin abs(Q) = epsilon_0 E A$]))
+  // Công thức nằm ngoài hai bản và các đường sức.
+  content((0, -h - 0.4), text(size: 6.5pt, fill: rgb("#475569"), [$E = U/d, thin abs(Q) = epsilon_0 E A$]))
 })
 
 // --------------------------------------------------------------------------
@@ -942,12 +945,13 @@
 
   // Đoạn nối từ O và nhãn bán kính
   line((0, 0), (nx, ny), stroke: 0.4pt + luma(60%))
-  content((nx / 2 - 0.18, ny / 2), text(size: 6pt, fill: rgb("#475569"), [5 cm]))
+  // Nhãn khoảng cách đặt dưới hình, tránh các đường tròn và đoạn nối.
+  content((-1.5, -r-p - 0.3), text(size: 6pt, fill: rgb("#475569"), [Đến $N$: 5 cm]))
 
-  content((mx / 2, -0.16), text(size: 6pt, fill: rgb("#475569"), [10 cm]))
+  content((0, -r-p - 0.3), text(size: 6pt, fill: rgb("#475569"), [Đến $M$: 10 cm]))
 
   line((0, 0), (px, py), stroke: 0.4pt + luma(60%))
-  content((px / 2 - 0.18, py / 2 - 0.1), text(size: 6pt, fill: rgb("#475569"), [15 cm]))
+  content((1.5, -r-p - 0.3), text(size: 6pt, fill: rgb("#475569"), [Đến $P$: 15 cm]))
 })
 
 // Hình giải: Thể hiện công phụ thuộc hiệu điện thế V_M, V_N, V_P và bảo toàn công chu trình kín
@@ -994,8 +998,8 @@
   content((px - 0.14, py + 0.12), text(size: 7pt, weight: "bold", $P$))
 
   // Ghi chú công thức
-  content((0, -0.65), text(size: 6.5pt, fill: rgb("#1e293b"), [$A_(A B) = q_0 (V_A - V_B)$]))
-  content((0, -0.92), text(size: 6.5pt, fill: rgb("#16a34a"), weight: "bold", [$integral.cont_("MNPM") arrow(F) dif arrow(s) = 0$]))
+  content((0, -1.05), text(size: 6.5pt, fill: rgb("#1e293b"), [$A_(A B) = q_0 (V_A - V_B)$]))
+  content((0, -1.55), text(size: 6.5pt, fill: rgb("#16a34a"), weight: "bold", [$integral.cont_("MNPM") arrow(F) dif arrow(s) = 0$]))
 })
 
 // --------------------------------------------------------------------------
@@ -1012,7 +1016,7 @@
   circle((x-a, 0), radius: 0.04, fill: rgb("#dc2626"))
   content((x-a - 0.15, 0), text(size: 7pt, fill: rgb("#dc2626"), weight: "bold", $P$))
   circle((x-a + r, 0), radius: 0.08, fill: rgb("#fee2e2"), stroke: 0.8pt + rgb("#ef4444"))
-  content((x-a + r, 0), text(size: 5.5pt, fill: rgb("#dc2626"), weight: "bold", $Q$))
+  content((x-a + r, 0.22), text(size: 5.5pt, fill: rgb("#dc2626"), weight: "bold", $Q$))
   line((x-a, 0), (x-a + r, 0), stroke: 0.5pt + rgb("#64748b"))
   content((x-a + r / 2, -0.16), text(size: 6pt, fill: rgb("#64748b"), $R$))
   content((x-a + r / 2, 0.45), text(size: 6.5pt, fill: rgb("#1e293b"), weight: "bold", [(a)]))
@@ -1027,7 +1031,7 @@
   arc((x-b, 0), start: -45deg, delta: 90deg, radius: 0.3, stroke: 0.5pt + rgb("#0284c7"))
   content((x-b + 0.42, 0), text(size: 5.5pt, fill: rgb("#0284c7"), $alpha$))
   content((x-b + r + 0.18, 0), text(size: 6.5pt, fill: rgb("#0284c7"), weight: "bold", $Q$))
-  content((x-b + 0.4, 0.55), text(size: 6.5pt, fill: rgb("#1e293b"), weight: "bold", [(b)]))
+  content((x-b + 0.4, 1.4), text(size: 6.5pt, fill: rgb("#1e293b"), weight: "bold", [(b)]))
 
   // Cấu hình (c): Vòng tròn cả bán kính R
   let x-c = 2.1
@@ -1035,7 +1039,7 @@
   content((x-c, -0.2), text(size: 7pt, fill: rgb("#dc2626"), weight: "bold", $P$))
   circle((x-c, 0), radius: r, stroke: 1.2pt + rgb("#2563eb"), fill: none)
   line((x-c, 0), (x-c + r * calc.cos(30deg), r * calc.sin(30deg)), stroke: 0.5pt + rgb("#2563eb"))
-  content((x-c + 0.4, 0.35), text(size: 6pt, fill: rgb("#2563eb"), $R$))
+  content((x-c + 0.28, 0.42), text(size: 6pt, fill: rgb("#2563eb"), $R$))
   content((x-c + r + 0.18, 0), text(size: 6.5pt, fill: rgb("#2563eb"), weight: "bold", $Q$))
   content((x-c, r + 0.25), text(size: 6.5pt, fill: rgb("#1e293b"), weight: "bold", [(c)]))
 })
@@ -1178,7 +1182,7 @@
 
   // Đoạn đo h
   line((-0.5, 0), (-0.5, h), stroke: 0.5pt + rgb("#1e293b"), mark: (start: "stealth", end: "stealth", fill: rgb("#1e293b"), length: 0.11cm, width: 0.06cm))
-  content((-0.82, h / 2), text(size: 6.5pt, fill: rgb("#1e293b"), [$h = 3 thin "cm"$]))
+  content((-0.7, h / 2), text(size: 6.5pt, fill: rgb("#1e293b"), [$h = 3 thin "cm"$]), anchor: "east")
 
   // Cạnh huyền r = 5 cm
   line((a, 0), (0, h), stroke: (paint: rgb("#dc2626"), thickness: 0.9pt, dash: "dashed"))
@@ -1202,7 +1206,7 @@
   // Điểm O: E = 0, V_O = kq/a
   circle((0, 0), radius: 0.035, fill: black)
   content((-0.18, -0.12), text(size: 7pt, $O$))
-  content((0.7, -0.45), text(size: 6.5pt, fill: rgb("#0284c7"), weight: "bold", [$arrow(E)_O = arrow(0), thin V_O = (k q)/a$]))
+  content((0, -0.85), text(size: 6.5pt, fill: rgb("#0284c7"), weight: "bold", [$arrow(E)_O = arrow(0), thin V_O = (k q)/a$]))
 
   // Điểm M: E_z hướng lên, V_M = kq / sqrt(a^2 + h^2)
   circle((0, h), radius: 0.04, fill: rgb("#dc2626"))
@@ -1275,7 +1279,7 @@
   let s-rx = 0.95
   let s-ry = 0.38
   arc((0, 0), start: 0deg, delta: 90deg, radius: (s-rx, s-ry), stroke: 1.1pt + rgb("#f97316"), fill: none)
-  content((s-rx + 0.3, s-ry * 0.6), text(size: 6pt, fill: rgb("#c2410c"), weight: "bold", [cung $s, thin dif s$]))
+  content((-0.2, -0.3), text(size: 6pt, fill: rgb("#c2410c"), weight: "bold", [cung $s, thin dif s$]), anchor: "east")
 
   // Điểm P
   circle((0, z), radius: 0.04, fill: rgb("#dc2626"))
@@ -1283,7 +1287,7 @@
 
   // Cạnh huyền
   line((s-rx, 0), (0, z), stroke: (paint: rgb("#dc2626"), thickness: 0.9pt, dash: "dotted"))
-  content((s-rx / 2 + 0.35, z / 2 + 0.08), text(size: 6pt, fill: rgb("#dc2626"), $sqrt(s^2 + z^2)$))
+  content((s-rx / 2 + 0.25, z / 2 + 0.25), text(size: 6pt, fill: rgb("#dc2626"), $sqrt(s^2 + z^2)$), anchor: "west")
 
   // Công thức
   content((0.7, -0.65), text(size: 6.5pt, fill: rgb("#0284c7"), weight: "bold", $V(z) = 1/4 V_("đĩa") = (pi k sigma)/2 (sqrt(R^2+z^2) - abs(z))$))
@@ -1345,7 +1349,8 @@
   // Mặt Gauss bán kính r ở giữa
   let rg = (r1 + r2) / 2
   circle((0, 0), radius: rg, stroke: (paint: rgb("#f59e0b"), thickness: 0.7pt, dash: "dashed"))
-  content((rg * calc.cos(60deg) + 0.35, rg * calc.sin(60deg)), text(size: 6pt, fill: rgb("#b45309"), weight: "bold", [Mặt Gauss $r$]))
+  line((rg * calc.cos(45deg), rg * calc.sin(45deg)), (1.8, 1.45), stroke: 0.4pt + rgb("#b45309"))
+  content((1.9, 1.45), text(size: 6pt, fill: rgb("#b45309"), weight: "bold", [Mặt Gauss $r$]), anchor: "west")
 
   // Các vector điện trường E hướng ra ngoài
   for ang in (0deg, 90deg, 180deg, 270deg) {
@@ -1373,7 +1378,7 @@
 
   // Ống ngoài hình trụ (mặt cắt)
   circle((0, 0), radius: rb, stroke: 1.3pt + rgb("#475569"), fill: rgb("#f1f5f9"))
-  content((rb * calc.cos(135deg) - 0.25, rb * calc.sin(135deg) + 0.2), text(size: 6.5pt, fill: rgb("#475569"), weight: "bold", [Vỏ ngoài ($b$)]))
+  content((0, rb + 0.3), text(size: 6.5pt, fill: rgb("#475569"), weight: "bold", [Vỏ ngoài ($b$)]))
 
   // Dây trục ở tâm (anode +)
   circle((0, 0), radius: ra, fill: rgb("#dc2626"), stroke: 0.6pt + rgb("#b91c1c"))
@@ -1404,7 +1409,8 @@
 
   // Vùng thác tuyết ion hóa sát dây (hình tròn vàng nhạt)
   circle((0, 0), radius: 0.45, fill: rgb("#fef3c7"), stroke: (paint: rgb("#f59e0b"), thickness: 0.6pt, dash: "dotted"))
-  content((0, 0.62), text(size: 6pt, fill: rgb("#b45309"), weight: "bold", [vùng ion hóa]))
+  content((0, rb + 0.3), text(size: 6pt, fill: rgb("#b45309"), weight: "bold", [vùng ion hóa]))
+  line((0, rb + 0.12), (0, 0.45), stroke: 0.4pt + rgb("#b45309"))
 
   // Dây trục tâm
   circle((0, 0), radius: 0.06, fill: rgb("#dc2626"))
@@ -1434,15 +1440,15 @@
 
   // Vỏ ngoài R2
   circle((0, 0), radius: r2, stroke: 1.1pt + rgb("#2563eb"), fill: rgb("#eff6ff").transparentize(40%))
-  content((r2 * calc.cos(40deg) + 0.35, r2 * calc.sin(40deg)), text(size: 6.5pt, fill: rgb("#1d4ed8"), weight: "bold", [$R_2, q_2$]))
+  content((r2 * calc.cos(40deg) + 0.22, r2 * calc.sin(40deg) + 0.12), text(size: 6.5pt, fill: rgb("#1d4ed8"), weight: "bold", [$R_2, q_2$]), anchor: "west")
 
   // Vỏ trong R1
   circle((0, 0), radius: r1, stroke: 1.1pt + rgb("#dc2626"), fill: rgb("#fee2e2").transparentize(40%))
-  content((r1 * calc.cos(140deg) - 0.35, r1 * calc.sin(140deg)), text(size: 6.5pt, fill: rgb("#dc2626"), weight: "bold", [$R_1, q_1$]))
+  content((0, 0.55), text(size: 6.5pt, fill: rgb("#dc2626"), weight: "bold", [$R_1, q_1$]))
 
   // Tâm r = 0
   circle((0, 0), radius: 0.04, fill: black)
-  content((0.15, -0.15), text(size: 6.5pt, weight: "bold", [$r=0$]))
+  content((0.15, -0.25), text(size: 6.5pt, weight: "bold", [$r=0$]))
 
   // Điểm r = 4 cm (ở giữa)
   let r-mid = (r1 + r2) / 2
@@ -1461,7 +1467,7 @@
 
   // Hệ trục tọa độ đồ thị V theo r
   line((0, -1.2), (0, 1.2), stroke: 0.6pt + rgb("#64748b"), mark: (end: "stealth", fill: rgb("#64748b"), length: 0.11cm, width: 0.06cm))
-  content((0.2, 1.15), text(size: 7pt, fill: rgb("#64748b"), weight: "bold", $V(r)$))
+  content((0, 1.5), text(size: 7pt, fill: rgb("#64748b"), weight: "bold", $V(r)$))
 
   line((-0.2, 0), (2.4, 0), stroke: 0.6pt + rgb("#64748b"), mark: (end: "stealth", fill: rgb("#64748b"), length: 0.11cm, width: 0.06cm))
   content((2.35, -0.2), text(size: 7pt, fill: rgb("#64748b"), weight: "bold", $r$))
@@ -1515,8 +1521,8 @@
   let xb = 1.4
   circle((xb, 0), radius: r-b, fill: rgb("#e0f2fe"), stroke: 1.1pt + rgb("#0284c7"))
   content((xb, 0.15), text(size: 7pt, fill: rgb("#0369a1"), weight: "bold", [B]))
-  content((xb, -0.15), text(size: 6.5pt, fill: rgb("#0369a1"), [$R_B = R$]))
-  content((xb, -r-b - 0.25), text(size: 7pt, fill: rgb("#1e293b"), weight: "bold", [$V_B = V_0$]))
+  content((xb, -r-b - 0.25), text(size: 6.5pt, fill: rgb("#0369a1"), [$R_B = R$]))
+  content((xb, -r-b - 0.65), text(size: 7pt, fill: rgb("#1e293b"), weight: "bold", [$V_B = V_0$]))
 })
 
 // Hình giải: Quả cầu nhỏ B có mật độ điện tích và điện trường bề mặt gấp 3 lần quả A
@@ -1553,7 +1559,7 @@
   content((xb + r-b + 0.65, 0.2), text(size: 6.5pt, fill: rgb("#dc2626"), weight: "bold", $arrow(E)_B$))
 
   // Kết luận
-  content((0, -1.6), text(size: 6.5pt, fill: rgb("#1e293b"), weight: "bold", [$Q_B / Q_A = 1/3, quad E_B / E_A = 3$ (hiệu ứng mũi nhọn)]))
+  content((0, -2.0), text(size: 6.5pt, fill: rgb("#1e293b"), weight: "bold", [$Q_B / Q_A = 1/3, quad E_B / E_A = 3$ (hiệu ứng mũi nhọn)]))
 })
 
 // --------------------------------------------------------------------------
@@ -1589,7 +1595,7 @@
 
   // Hệ trục đồ thị
   line((0, 0), (0, 1.8), stroke: 0.6pt + rgb("#64748b"), mark: (end: "stealth", fill: rgb("#64748b"), length: 0.11cm, width: 0.06cm))
-  content((0.2, 1.75), text(size: 6.5pt, fill: rgb("#64748b"), weight: "bold", $V, E$))
+  content((0, 2.15), text(size: 6.5pt, fill: rgb("#64748b"), weight: "bold", $V, E$))
 
   line((0, 0), (2.5, 0), stroke: 0.6pt + rgb("#64748b"), mark: (end: "stealth", fill: rgb("#64748b"), length: 0.11cm, width: 0.06cm))
   content((2.45, -0.2), text(size: 6.5pt, fill: rgb("#64748b"), weight: "bold", $r$))
@@ -1601,12 +1607,12 @@
   // Đường cong điện thế V(r) (màu xanh dương)
   line((0, 1.5), (0.3, 1.45), (0.6, 1.25), (0.9, 0.95), (xr, 0.75), stroke: (paint: rgb("#0284c7"), thickness: 1.3pt))
   line((xr, 0.75), (1.5, 0.55), (1.9, 0.43), (2.3, 0.35), stroke: (paint: rgb("#0284c7"), thickness: 1.3pt))
-  content((0.45, 1.6), text(size: 6pt, fill: rgb("#0284c7"), weight: "bold", $V(r)$))
+  content((0.55, 1.75), text(size: 6pt, fill: rgb("#0284c7"), weight: "bold", $V(r)$))
 
   // Đường cong điện trường E(r) (màu đỏ)
   line((0, 0), (0.4, 0.45), (0.8, 0.7), (xr, 0.65), stroke: (paint: rgb("#dc2626"), thickness: 1.1pt, dash: "dashed"))
   line((xr, 0.65), (1.5, 0.35), (1.9, 0.22), (2.3, 0.15), stroke: (paint: rgb("#dc2626"), thickness: 1.1pt, dash: "dashed"))
-  content((1.25, 0.82), text(size: 6pt, fill: rgb("#dc2626"), weight: "bold", $E(r)$))
+  content((1.8, 0.95), text(size: 6pt, fill: rgb("#dc2626"), weight: "bold", $E(r)$))
 
   // Nhãn giá trị tâm
   content((-0.45, 1.5), text(size: 5.5pt, fill: rgb("#0284c7"), [$2 (k Q)/R$]))

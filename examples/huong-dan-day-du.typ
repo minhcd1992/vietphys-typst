@@ -1,21 +1,25 @@
-﻿#import "../vietphys.typ": *
-#show: vp-page-setup.with(heading-theme: none, margin: (x: 2cm, y: 2cm))
+#import "../vietphys.typ": *
+#show: vp-page-setup.with(hierarchy: "standalone", heading-theme: none, margin: (x: 2cm, y: 2cm))
 #set text(font: "Arial", size: 10pt, lang: "vi")
 #set heading(numbering: "1.1")
 #set page(header: vp-header(left-text: "VIETPHYS 0.1.0", right-text: "HƯỚNG DẪN SỬ DỤNG"), footer: vp-footer(center-text: context counter(page).display("1")))
 #show raw.where(block: true): it => block(width: 100%, fill: rgb("#F4F6FA"), inset: 8pt, radius: 4pt, breakable: true, text(size: 8pt, it))
 #let product(body) = block(width: 100%, stroke: 0.5pt + rgb("#CAD5E2"), inset: 12pt, radius: 4pt, breakable: true, body)
+#let demo-keep-counter(sub, body) = {
+  body
+  counter(heading).update((5, sub))
+}
 #align(center)[#text(size: 25pt, weight: "bold", fill: rgb("#184C99"))[CẨM NANG VIETPHYS]
 #v(8pt)
 Code mẫu • Sản phẩm thực tế • Tra cứu đầy đủ tham số]
-#outline(title: [Mục lục], depth: 1)
+#outline(title: [Mục lục], depth: 1, target: heading.where(supplement: [Mục], outlined: true))
 
 #pagebreak()
 = Bắt đầu và cấu hình trang
 
 Tài liệu cho Vietphys 0.1.0 trong repo này. Mỗi ví dụ có code và sản phẩm dựng từ đoạn code đó. Thêm import khi chép code sang tài liệu mới. File đặt trong examples dùng `#import "../vietphys.typ": *`; file đặt cạnh entry point dùng `#import "vietphys.typ": *`. Import từ Universe chỉ dùng sau khi gói được phát hành.
 
-`vp-page-setup` mặc định dùng A4, Arial 11pt, căn đều và heading modern. `heading-theme: none` giữ heading Typst. `header: none`/`footer: none` bỏ đầu/chân trang. Màu dùng `rgb("#RRGGBB")`, viền dùng `1pt + rgb("#RRGGBB")`; none không vẽ, auto lấy cấu hình. `[Nội dung]` chứa định dạng/công thức/ảnh; `(a, b)` là mảng, mảng một phần tử cần dấu phẩy cuối.
+`vp-page-setup` mặc định dùng A4, Times New Roman 13pt, căn đều, `leading: 1.2em`, phân cấp tự động (`hierarchy: auto`) và heading modern (`vp-heading-theme-modern`). `heading-theme: none` dùng `vp-heading-theme-native` (giao diện Typst đơn giản, dòng tiêu đề tiếp theo căn lề chỉ số). `header: none`/`footer: none` bỏ đầu/chân trang. Màu dùng `rgb("#RRGGBB")`, viền dùng `1pt + rgb("#RRGGBB")`; none không vẽ, auto lấy cấu hình. `[Nội dung]` chứa định dạng/công thức/ảnh; `(a, b)` là mảng, mảng một phần tử cần dấu phẩy cuối.
 
 
 ```typst
@@ -192,7 +196,7 @@ Dùng type: "mcq", "tf", "short" hoặc "essay". MCQ/TF nhận tối đa bốn p
 ]
 
 == Trả lời ngắn và tự luận
-Short luôn có bốn ô; chuỗi dài hơn bốn ký tự bị cắt trong phần ô hiển thị. Essay nhận `listEs` để đánh số a), b)… và `points` để thêm điểm. Hiện points chỉ hiển thị ở nhánh nhãn cùng dòng đề bài, khi không có level/source đang hiện.
+Short mặc định có bốn ô (`short-boxes: 4`); truyền `short-boxes: 5` (hoặc số nguyên dương bất kỳ) khi kết quả dài hơn bốn ký tự. Nếu cần điền nhiều đại lượng trong cùng một câu, truyền `short-fields` gồm các dictionary `(label: [...], ans: "...", boxes: 4)`. Essay nhận `listEs` để đánh số a), b)… và `points` để thêm điểm (hiển thị khi ẩn level và source).
 
 *Code:*
 ```typst
@@ -201,6 +205,11 @@ Short luôn có bốn ô; chuỗi dài hơn bốn ký tự bị cắt trong ph�
   short-bg: rgb("#FEF3C7"), short-border: rgb("#D97706"), ans-color: rgb("#B45309"))
 #vp-question([Ghi đáp án và trình bày cách giải.], type: "essay", points: "2 điểm", lines: 2,
   listEs: ([Ghi đáp án và trình bày cách giải.], [Ghi đáp án và trình bày cách giải.]), ans: [$s = 24$ m])
+#vp-question([Điền hai kết quả đo.], type: "short", ans: "9,79; 0,70",
+  short-fields: (
+    (label: [Gia tốc trung bình $overline(g)$ (m/s²):], ans: "9,79", boxes: 4),
+    (label: [Sai số tỉ đối $delta g$ (%):], ans: "0,70", boxes: 4),
+  ))
 #vp-show-ans.update(false)
 ```
 
@@ -211,6 +220,11 @@ Short luôn có bốn ô; chuỗi dài hơn bốn ký tự bị cắt trong ph�
   short-bg: rgb("#FEF3C7"), short-border: rgb("#D97706"), ans-color: rgb("#B45309"))
 #vp-question([Ghi đáp án và trình bày cách giải.], type: "essay", points: "2 điểm", lines: 2,
   listEs: ([Ghi đáp án và trình bày cách giải.], [Ghi đáp án và trình bày cách giải.]), ans: [$s = 24$ m])
+#vp-question([Điền hai kết quả đo.], type: "short", ans: "9,79; 0,70",
+  short-fields: (
+    (label: [Gia tốc trung bình $overline(g)$ (m/s²):], ans: "9,79", boxes: 4),
+    (label: [Sai số tỉ đối $delta g$ (%):], ans: "0,70", boxes: 4),
+  ))
 #vp-show-ans.update(false)
 ]
 
@@ -329,7 +343,7 @@ Definition: viền đầy đủ; theorem: nền và chữ nghiêng; note: viền
 ```typst
 #vp-set-theme(preset: "violet")
 #for kind in ("definition", "theorem", "warning", "note") [
-  #vp-knowledge-box(type: kind, title: "Minh họa" + kind, content: [Định luật II Newton: $F = m a$.])
+  #vp-knowledge-box(type: kind, title: "Minh họa " + kind, content: [Định luật II Newton: $F = m a$.])
   #v(8pt)
 ]
 #vp-set-theme(color: "#0369A1")
@@ -341,7 +355,7 @@ Definition: viền đầy đủ; theorem: nền và chữ nghiêng; note: viền
 #product[
 #vp-set-theme(preset: "violet")
 #for kind in ("definition", "theorem", "warning", "note") [
-  #vp-knowledge-box(type: kind, title: "Minh họa" + kind, content: [Định luật II Newton: $F = m a$.])
+  #vp-knowledge-box(type: kind, title: "Minh họa " + kind, content: [Định luật II Newton: $F = m a$.])
   #v(8pt)
 ]
 #vp-set-theme(color: "#0369A1")
@@ -369,7 +383,7 @@ Definition: viền đầy đủ; theorem: nền và chữ nghiêng; note: viền
 ]
 
 = Chương, bài học và heading
-Chapter hỗ trợ chap_modern (mặc định), chap_hexagon, default; lesson hỗ trợ less_modern (mặc định), less_ribbon, default. Chapter bắt đầu trang mới; lesson modern từ bài thứ hai bắt đầu trang mới. `num/title/subtitle/color/font` tùy chỉnh nội dung và giao diện theo chữ ký hàm.
+Chapter hỗ trợ `chap_modern` (mặc định), `chap_hexagon`, `default`; lesson hỗ trợ `less_modern` (mặc định), `less_ribbon`, `less_star` (alias `vp-lesson-star`, `vp-lesson-title`), `less_default` / `default`. Hệ thống tự động nhận diện phân cấp Chương → Bài → Mục (`=`, `==`, `===`), tự tăng bộ đếm chương/bài và reset số mục nội dung về 1 ở mỗi bài mới. `num/title/subtitle/color/font/tab-text/new-page/label` tùy chỉnh nội dung, ngắt trang và tham chiếu `@label`.
 
 == Chương default
 
@@ -379,7 +393,9 @@ Chapter hỗ trợ chap_modern (mặc định), chap_hexagon, default; lesson h�
 ```
 
 *Sản phẩm thực tế:*
-#vp-chapter(num: "2", title: "ĐỘNG LỰC HỌC", style: "default", color: rgb("#184C99"), font: "Arial")
+#demo-keep-counter(1)[
+  #vp-chapter(num: "2", title: "ĐỘNG LỰC HỌC", style: "default", color: rgb("#184C99"), font: "Arial")
+]
 
 == Chương chap_hexagon
 
@@ -389,7 +405,9 @@ Chapter hỗ trợ chap_modern (mặc định), chap_hexagon, default; lesson h�
 ```
 
 *Sản phẩm thực tế:*
-#vp-chapter(num: "2", title: "ĐỘNG LỰC HỌC", style: "chap_hexagon", color: rgb("#184C99"), font: "Arial")
+#demo-keep-counter(2)[
+  #vp-chapter(num: "2", title: "ĐỘNG LỰC HỌC", style: "chap_hexagon", color: rgb("#184C99"), font: "Arial")
+]
 
 == Chương chap_modern
 
@@ -399,7 +417,9 @@ Chapter hỗ trợ chap_modern (mặc định), chap_hexagon, default; lesson h�
 ```
 
 *Sản phẩm thực tế:*
-#vp-chapter(num: "2", title: "ĐỘNG LỰC HỌC", style: "chap_modern", color: rgb("#184C99"), font: "Arial")
+#demo-keep-counter(3)[
+  #vp-chapter(num: "2", title: "ĐỘNG LỰC HỌC", style: "chap_modern", color: rgb("#184C99"), font: "Arial")
+]
 
 == Bài default
 
@@ -409,7 +429,9 @@ Chapter hỗ trợ chap_modern (mặc định), chap_hexagon, default; lesson h�
 ```
 
 *Sản phẩm thực tế:*
-#vp-lesson(num: "1", title: "Định luật Newton", subtitle: "Kiến thức và bài tập", style: "default", color: rgb("#7C3AED"), font: "Arial")
+#demo-keep-counter(4)[
+  #vp-lesson(num: "1", title: "Định luật Newton", subtitle: "Kiến thức và bài tập", style: "default", color: rgb("#7C3AED"), font: "Arial")
+]
 
 == Bài less_ribbon
 
@@ -419,7 +441,9 @@ Chapter hỗ trợ chap_modern (mặc định), chap_hexagon, default; lesson h�
 ```
 
 *Sản phẩm thực tế:*
-#vp-lesson(num: "1", title: "Định luật Newton", subtitle: "Kiến thức và bài tập", style: "less_ribbon", color: rgb("#7C3AED"), font: "Arial")
+#demo-keep-counter(5)[
+  #vp-lesson(num: "1", title: "Định luật Newton", subtitle: "Kiến thức và bài tập", style: "less_ribbon", color: rgb("#7C3AED"), font: "Arial")
+]
 
 == Bài less_modern
 
@@ -429,20 +453,24 @@ Chapter hỗ trợ chap_modern (mặc định), chap_hexagon, default; lesson h�
 ```
 
 *Sản phẩm thực tế:*
-#vp-lesson(num: "1", title: "Định luật Newton", subtitle: "Kiến thức và bài tập", style: "less_modern", color: rgb("#7C3AED"), font: "Arial")
+#demo-keep-counter(6)[
+  #vp-lesson(num: "1", title: "Định luật Newton", subtitle: "Kiến thức và bài tập", style: "less_modern", color: rgb("#7C3AED"), font: "Arial")
+]
 
-== Mục và tiêu đề bài
+== Bài less_star (`vp-lesson-star` / `vp-lesson-title`) và `vp-section`
 
 *Code:*
 ```typst
-=== KIẾN THỨC CẦN NHỚ
-#vp-lesson-title(num: "3", title: "CÔNG VÀ CÔNG SUẤT", color: rgb("#15803D"))
+#vp-lesson(num: "3", title: "CÔNG VÀ CÔNG SUẤT", subtitle: "Kiến thức trọng tâm", style: "less_star", color: rgb("#15803D"))
+#vp-section(size: 14pt, color: rgb("#184C99"))[Hướng dẫn giải bài tập]
 ```
 
 *Sản phẩm thực tế:*
 #product[
-=== KIẾN THỨC CẦN NHỚ
-#vp-lesson-title(num: "3", title: "CÔNG VÀ CÔNG SUẤT", color: rgb("#15803D"), new-page: false)
+#demo-keep-counter(7)[
+  #vp-lesson(num: "3", title: "CÔNG VÀ CÔNG SUẤT", subtitle: "Kiến thức trọng tâm", style: "less_star", color: rgb("#15803D"), new-page: false)
+  #vp-section(size: 14pt, color: rgb("#184C99"))[Hướng dẫn giải bài tập]
+]
 ]
 
 == Heading vp-heading-theme-modern
@@ -462,7 +490,9 @@ Chapter hỗ trợ chap_modern (mặc định), chap_hexagon, default; lesson h�
 
 *Sản phẩm thực tế:*
 #product[
-#[
+#demo-keep-counter(8)[
+  #set heading(outlined: false, bookmarked: false)
+  #counter(heading).update(0)
   #show: vp-heading-theme-modern.with(font: "Arial")
   = Kiến thức trọng tâm
   Nội dung cấp một.
@@ -490,7 +520,9 @@ Chapter hỗ trợ chap_modern (mặc định), chap_hexagon, default; lesson h�
 
 *Sản phẩm thực tế:*
 #product[
-#[
+#demo-keep-counter(9)[
+  #set heading(outlined: false, bookmarked: false)
+  #counter(heading).update(0)
   #show: vp-heading-theme-01
   = Kiến thức trọng tâm
   Nội dung cấp một.
@@ -498,6 +530,38 @@ Chapter hỗ trợ chap_modern (mặc định), chap_hexagon, default; lesson h�
   Nội dung cấp hai.
   === Công thức
   Nội dung cấp ba.
+]
+]
+
+== Heading vp-heading-theme-academic và vp-heading-theme-native
+
+`vp-heading-theme-academic` có hai biến thể `"paper"` (mặc định) và `"thesis"` (cấp 1 in hoa, căn giữa). `vp-heading-theme-native` giữ giao diện tối giản với dòng tiêu đề tiếp theo căn thẳng lề trái của chỉ số.
+
+*Code:*
+```typst
+#[
+  #show: vp-heading-theme-academic.with(variant: "thesis", chapter-pagebreak: false)
+  = Cơ sở lý thuyết
+  Nội dung chương nghiên cứu.
+  == Phương pháp thực nghiệm
+  Nội dung mục con.
+  === Bố trí thí nghiệm
+  Nội dung mục nhỏ.
+]
+```
+
+*Sản phẩm thực tế:*
+#product[
+#demo-keep-counter(10)[
+  #set heading(outlined: false, bookmarked: false)
+  #counter(heading).update(0)
+  #show: vp-heading-theme-academic.with(variant: "thesis", chapter-pagebreak: false)
+  = Cơ sở lý thuyết
+  Nội dung chương nghiên cứu.
+  == Phương pháp thực nghiệm
+  Nội dung mục con.
+  === Bố trí thí nghiệm
+  Nội dung mục nhỏ.
 ]
 ]
 
@@ -940,6 +1004,18 @@ Các mẫu logo/icon và toàn bộ 35 preset nét cọ dưới đây có code v
 #vp-physics-enso-icon()[Vật lí]
 ]
 
+== vp-icon-atom
+
+*Code:*
+```typst
+#vp-icon-atom(color: rgb("#184C99"), size: 28pt)
+```
+
+*Sản phẩm thực tế:*
+#product[
+#vp-icon-atom(color: rgb("#184C99"), size: 28pt)
+]
+
 == Nét cọ enso-badge
 
 *Code:*
@@ -1374,6 +1450,7 @@ Bảng tổng hợp chứa các câu trước vị trí gọi lệnh, kể cả 
 
 *Sản phẩm thực tế:*
 #product[
+#set heading(outlined: false, numbering: none)
 #vp-print-keys(title: "ĐÁP ÁN CÁC VÍ DỤ")
 #vp-print-solutions(title: "LỜI GIẢI CHƯA HIỆN TRỰC TIẾP")
 ]
@@ -1393,481 +1470,6 @@ Chữ ký dưới đây lấy trực tiếp từ mã nguồn hiện tại, gồm
 }
 ```
 
-== themes/heading_theme.typ
-
-```typst
-#let vp-lesson-title(
-  num: "1",
-  title: "Tên bài học",
-  color: auto // Màu mặc định theo ảnh mẫu
-```
-
-```typst
-#let vp-heading-theme-01(
-  color: auto,
-  bg-color: auto,
-  numbering: "1.1.1.1",
-  body
-```
-
-```typst
-```
-
-== themes/modern_headings.typ
-
-```typst
-```
-
-== themes/theme_colors.typ
-
-```typst
-```
-
-```typst
-```
-
-```typst
-```
-
-```typst
-```
-
-```typst
-vp-theme-color = state("vp-theme-color", vp-theme-presets.ocean)
-```
-
-== layout/additional_styles.typ
-
-```typst
-```
-
-```typst
-#let vp-header-theme-03(
-  title: "TÀI LIỆU HỌC TẬP",
-  subtitle: "Chinh phục tri thức",
-  color: rgb("#E67E22"),
-  icon: none,
-  date: "Ngày: 24/07/2026",
-  right-content: none,
-  font: "Times New Roman",
-```
-
-```typst
-#let vp-header-theme-05(
-  title: "TÀI LIỆU HỌC TẬP",
-  subtitle: "Học để hiểu – Hiểu để hành động",
-  color: rgb("#722ED1"),
-  icon: "book-open",
-  date: "Ngày: 24/07/2026",
-  right-content: none,
-  font: "Times New Roman",
-```
-
-```typst
-#let vp-header-theme-06(
-  title: "TÀI LIỆU HỌC TẬP",
-  subtitle: "Đơn giản – Hiệu quả – Bền vững",
-  color: rgb("#1E3A8A"),
-  icon: none,
-  date: "Ngày: 24/07/2026",
-  right-content: none,
-  font: "Times New Roman",
-```
-
-```typst
-#let vp-header-theme-07(
-  title: "TÀI LIỆU HỌC TẬP",
-  subtitle: "Tập trung – Tư duy – Bứt phá",
-  color: rgb("#D32F2F"),
-  icon: "bullseye",
-  date: "Ngày: 24/07/2026",
-  right-content: none,
-  font: "Times New Roman",
-```
-
-```typst
-#let vp-header-theme-08(
-  title: "TÀI LIỆU HỌC TẬP",
-  subtitle: "Tri thức xanh – Tương lai xanh",
-  color: rgb("#5F9E31"),
-  icon: "seedling",
-  date: "Ngày: 24/07/2026",
-  right-content: none,
-  font: "Times New Roman",
-```
-
-```typst
-#let vp-header-theme-09(
-  title: "TÀI LIỆU HỌC TẬP",
-  subtitle: "Ước mơ – Nỗ lực – Thành công",
-  color: rgb("#1D3B7A"),
-  icon: "star",
-  date: "Ngày: 24/07/2026",
-  right-content: none,
-  font: "Times New Roman",
-```
-
-```typst
-#let vp-header-theme-10(
-  title: "TÀI LIỆU HỌC TẬP",
-  subtitle: "Nền tảng vững chắc – Tương lai rộng mở",
-  color: rgb("#795548"),
-  icon: "landmark",
-  date: "Ngày: 24/07/2026",
-  right-content: none,
-  font: "Times New Roman",
-```
-
-```typst
-#let vp-header-theme-11(
-  title: "TÀI LIỆU HỌC TẬP",
-  subtitle: "Tư duy khác biệt – Kết quả khác biệt",
-  color: rgb("#008080"),
-  icon: none,
-  date: "Ngày: 24/07/2026",
-  right-content: none,
-  font: "Times New Roman",
-```
-
-```typst
-#let vp-header-theme-12(
-  title: "TÀI LIỆU HỌC TẬP",
-  subtitle: "Kiến tạo giá trị – Dẫn lối thành công",
-  color: rgb("#D35400"),
-  icon: none,
-  date: "Ngày: 24/07/2026",
-  right-content: none,
-  font: "Times New Roman",
-```
-
-```typst
-#let vp-header-theme-13(
-  title: "TÀI LIỆU HỌC TẬP",
-  subtitle: "Công nghệ – Kết nối – Phát triển",
-  color: rgb("#0288D1"),
-  icon: none,
-  date: "Ngày: 24/07/2026",
-  right-content: none,
-  font: "Times New Roman",
-```
-
-```typst
-#let vp-header-theme-14(
-  title: "TÀI LIỆU HỌC TẬP",
-  subtitle: "Sáng tạo không giới hạn",
-  color: rgb("#8E44AD"),
-  icon: none,
-  date: "Ngày: 24/07/2026",
-  right-content: none,
-  font: "Times New Roman",
-```
-
-```typst
-#let vp-header-theme-15(
-  title: "TÀI LIỆU HỌC TẬP",
-  subtitle: "Hành trình học tập – Hành trình trưởng thành",
-  color: rgb("#2E7D32"),
-  icon: none,
-  date: "Ngày: 24/07/2026",
-  right-content: none,
-  font: "Times New Roman",
-```
-
-```typst
-#let vp-footer-kage-enso(
-  title: "Học Kage",
-  slogan: "Level Up Your Knowledge",
-  color: auto,
-  accent-color: auto,
-  icon: "kunai", // "kunai", "shuriken", "logo", or custom content / none
-  enso-style: "zen", // "zen", "grunge", "ring-09", "ring-01", "ring-10"
-  divider: "line", // "line", "brush", "none"
-  page-format: "1", // "1" or "1 / total"
-```
-
-```typst
-```
-
-```typst
-#let vp-manual-header-logo(
-  title: "VIETPHYS PACKAGE",
-  subtitle: "CẨM NANG HƯỚNG DẪN SỬ DỤNG",
-  date: none,
-  right-content: none,
-  color: auto,
-```
-
-```typst
-```
-
-```typst
-#let vp-manual-header-fancy(
-  title: "VIETPHYS PACKAGE",
-  subtitle: "CẨM NANG HƯỚNG DẪN SỬ DỤNG",
-  color: rgb("#1D3B7A"),
-  icon: auto, compact: false, font: auto,
-  title-size: auto, subtitle-size: auto, chapter-size: auto,
-  icon-size: auto, title-gap: auto, column-gap: auto,
-  bottom-padding: auto, chapter-inset: auto, divider-thickness: auto,
-  chapter-label: auto,
-```
-
-```typst
-#let vp-manual-footer-fancy(
-  slogan: "Vietphys Typst Engine • Sách & Đề Thi Chuẩn Quốc Gia",
-  color: rgb("#1D3B7A"),
-```
-
-Alias:
-```typst
-vp-footer-kage-brush = vp-footer-kage-enso
-vp-footer-ninja-enso = vp-footer-kage-enso
-```
-
-== layout/header_footer.typ
-
-```typst
-#let vp-header(
-  left-text: "",
-  center-text: "",
-  right-text: "",
-  color: rgb("#000000"),
-  line-width: 1pt
-```
-
-```typst
-#let vp-header-theme-01(
-  title: "TÀI LIỆU VẬT LÍ 12",
-  subtitle: "Chuyên đề: Động lực học - Vượt chướng ngại vật",
-  color: auto,
-  icon: "bolt",
-  date: none,
-  right-content: none
-```
-
-```typst
-#let vp-header-theme-02(
-  title: "TÀI LIỆU HỌC TẬP",
-  subtitle: "Học hôm nay - Thành công ngày mai",
-  color: auto,
-  icon: "book-open",
-  right-content: none
-```
-
-```typst
-#let vp-footer(
-  left-text: "",
-  center-text: "",
-  right-text: "",
-  color: rgb("#000000"),
-  line-width: 1pt
-```
-
-```typst
-#let vp-footer-kage(
-  color: rgb("#FF3D00"),
-  kunai-path: "kunai.svg",
-  slogan: "Level Up Your Knowledge"
-```
-
-== layout/header_widgets.typ
-
-```typst
-```
-
-```typst
-```
-
-```typst
-#let vp-widget-smart-heading(
-  title: none,
-  icon: "hashtag",
-  color: rgb("#1890FF"),
-  bg: none,
-  font: "Times New Roman",
-```
-
-```typst
-#let vp-widget-part(
-  title: none,
-  icon: "bookmark",
-  color: rgb("#1890FF"),
-  bg: none,
-  font: "Times New Roman",
-```
-
-```typst
-#let vp-widget-heading(
-  level: 1,
-  icon: "hashtag",
-  color: rgb("#1890FF"),
-  bg: none,
-  font: "Times New Roman",
-```
-
-```typst
-#let vp-widget-date(
-  date: "24/07/2026",
-  icon: "calendar-days",
-  color: rgb("#1890FF"),
-  bg: none,
-  font: "Times New Roman",
-```
-
-```typst
-#let vp-widget-author(
-  name: "Thầy Minh",
-  role: "GV",
-  icon: "chalkboard-user",
-  color: rgb("#1890FF"),
-  bg: none,
-  font: "Times New Roman",
-```
-
-```typst
-#let vp-widget-school(
-  school: "THPT Chuyên",
-  class-name: "Lớp 12",
-  icon: "school",
-  color: rgb("#1890FF"),
-  bg: none,
-  font: "Times New Roman",
-```
-
-```typst
-#let vp-widget-exam(
-  code: "MÃ ĐỀ 101",
-  time: "50 phút",
-  color: rgb("#D32F2F"),
-  font: "Times New Roman",
-```
-
-```typst
-#let vp-widget-target(
-  target: "9+",
-  slogan: "Chinh phục điểm 10",
-  icon: "bullseye",
-  color: rgb("#D35400"),
-  font: "Times New Roman",
-```
-
-```typst
-#let vp-widget-pill(
-  content,
-  icon: none,
-  color: rgb("#1890FF"),
-  bg: none,
-  radius: 4pt,
-  font: "Times New Roman",
-```
-
-```typst
-#let vp-widget-stack(
-  ..widgets,
-  spacing: 5pt,
-```
-
-Alias:
-```typst
-vp-part = vp-set-part // Alias tiện dụng
-```
-
-```typst
-vp-current-part = state("vp-current-part", "")
-```
-
-== layout/heading_widgets.typ
-
-```typst
-#let vp-brush(
-  name,
-  color: auto,
-  width: auto,
-  height: auto,
-  flip-x: false,
-  flip-y: false,
-```
-
-```typst
-```
-
-```typst
-#let vp-icon-kunai(
-  color: auto,
-  accent: none,
-  size: auto,
-  width: auto,
-  height: auto,
-  angle: 0deg
-```
-
-```typst
-```
-
-```typst
-```
-
-```typst
-#let vp-physics-enso-icon(
-  body,
-  num: "1",
-  title: "ĐỘNG HỌC",
-  desc: "Chuyển động thẳng, cong, vận tốc, gia tốc",
-  color: auto,
-  size: 65pt,
-```
-
-```typst
-#let vp-logo-hockage(
-  primary: auto,
-  accent: auto,
-  size: 60pt,
-  width: auto,
-  height: auto,
-```
-
-```typst
-#let vp-ninja-scholar-logo(
-  primary: auto,
-  accent: auto,
-  size: 60pt,
-  width: auto,
-  height: auto,
-```
-
-Alias:
-```typst
-vp-hockage-logo = vp-logo-hockage
-```
-
-== layout/modern_layout.typ
-
-```typst
-#let vp-header-theme-04(
-  title: "TÀI LIỆU HỌC TẬP",
-  subtitle: "Khoa học – Logic – Sáng tạo",
-  color: rgb("#259697"),
-  icon: none,
-  date: "Ngày: 24/07/2026",
-  right-content: none,
-  font: "Times New Roman",
-```
-
-```typst
-#let vp-footer-shuriken(
-  title: "Học Kage",
-  slogan: "Level Up Your Knowledge",
-  color: auto,
-  accent-color: auto,
-  icon: "kunai", // "kunai", "shuriken", "logo", or custom content / none
-  divider: "line", // "line", "brush", "none"
-  page-format: "1", // "1" or "1 / total"
-  compact: false, font: auto,
-  title-size: auto, slogan-size: auto, page-size: auto,
-  badge-size: auto, page-radius: auto, icon-size: auto, column-gap: auto,
-  divider-gap: auto,
-```
-
 == layout/page_setup.typ
 
 ```typst
@@ -1878,13 +1480,550 @@ vp-hockage-logo = vp-logo-hockage
   theme-preset: none,
   header: auto,
   footer: auto,
-  header-ascent: auto, footer-descent: auto, leading: 1.2em,
-  font: vp-settings.base-font, font-size: vp-settings.base-size,
+  header-ascent: auto,
+  footer-descent: auto,
+  leading: 1.2em,
+  font: vp-settings.base-font,
+  font-size: vp-settings.base-size,
   heading-theme: vp-heading-theme-modern,
-  body
+  hierarchy: auto,
+  body,
+)
 ```
 
-== components/boxes.typ
+== layout/workbook.typ
+
+```typst
+#let vp-workbook(
+  body,
+  title: "SÁCH BÀI TẬP",
+  subtitle: "LUYỆN TẬP THEO CHỦ ĐỀ",
+  page: (:),
+  questions: (:),
+  header: auto,
+  footer: auto,
+)
+
+#let vp-workbook-chapter = vp-chapter.with(
+  style: "chap_hexagon",
+  font: ("Rounded Mplus 1c", "Arial"),
+)
+
+#let vp-workbook-lesson = vp-lesson.with(
+  style: "less_modern",
+  font: ("Rounded Mplus 1c", "Arial"),
+  new-page: true,
+  tab-text: "BÀI",
+)
+```
+
+== components/hierarchy.typ & components/hierarchy_rules.typ
+
+```typst
+#let vp-chapter(
+  num: auto,
+  title: "TÊN CHƯƠNG",
+  style: "chap_modern", // "chap_modern", "chap_hexagon", "default"
+  color: auto,
+  font: auto,
+  label: none,
+)
+
+#let vp-lesson(
+  num: auto,
+  title: "TÊN BÀI HỌC",
+  subtitle: none,
+  style: "less_modern", // "less_modern", "less_ribbon", "less_star", "less_default", "default"
+  color: auto,
+  font: auto,
+  tab-text: "BÀI HỌC",
+  new-page: auto,
+  label: none,
+)
+
+#let vp-lesson-star = vp-lesson.with(style: "less_star")
+#let vp-lesson-title = vp-lesson-star
+
+#let vp-hierarchy(
+  mode: auto, // auto, "book", "lesson", "standalone"
+  body,
+)
+
+#let vp-chapter-counter = counter("vp-chapter")
+#let vp-lesson-counter = counter("vp-lesson")
+```
+
+== components/book_contents.typ & components/section.typ
+
+```typst
+#let vp-book-outline(
+  title: [MỤC LỤC],
+  subtitle: none,
+  intro: none,
+  break-before: (),
+  color: auto,
+  font: "Arial",
+  title-font: ("Rounded Mplus 1c", "Arial"),
+  lesson-size: 11pt,
+  row-padding: 6pt,
+)
+
+#let vp-chapter-outline(
+  title: [NỘI DUNG CHƯƠNG],
+  summary: none,
+  color: auto,
+  font: "Arial",
+  title-font: ("Rounded Mplus 1c", "Arial"),
+  lesson-size: 12pt,
+  row-padding: 8pt,
+)
+
+#let vp-section(
+  title,
+  size: 16pt,
+  color: rgb("#174B78"),
+  font: auto,
+  before: 16pt,
+  after: 9pt,
+)
+```
+
+== themes/modern_headings.typ, heading_theme.typ, academic_headings.typ, native_headings.typ
+
+```typst
+#let vp-heading-theme-modern(
+  color: auto,
+  font: ("Rounded Mplus 1c", "Arial"),
+  paragraph-indent: 1.5em,
+  numbering: "1.1.1.1",
+  body,
+)
+
+#let vp-heading-theme-01(
+  color: auto,
+  bg-color: auto,
+  numbering: "1.1.1.1",
+  paragraph-indent: 1.5em,
+  body,
+)
+
+#let vp-heading-theme-academic(
+  variant: "paper", // "paper" or "thesis"
+  font: "Times New Roman",
+  color: rgb("#222222"),
+  numbering: "1.1.1.1",
+  chapter-pagebreak: false,
+  heading-leading: 0.55em,
+  heading-before: auto,
+  heading-after: auto,
+  body-size: auto,
+  body-leading: auto,
+  paragraph-indent: 1.5em,
+  body,
+)
+
+#let vp-heading-theme-native(
+  paragraph-indent: 1.5em,
+  heading-leading: 0.55em,
+  numbering: "1.1.1.1",
+  body,
+)
+```
+
+== themes/theme_colors.typ
+
+```typst
+#let vp-set-theme(color: auto, preset: none)
+#let vp-make-palette(base-color)
+#let vp-resolve-color(custom-color)
+#let vp-resolve-palette(custom-color: auto)
+#let vp-theme-color = state("vp-theme-color", vp-theme-presets.ocean)
+```
+
+== layout/headers.typ
+
+```typst
+#let vp-header(
+  left-text: "",
+  center-text: "",
+  right-text: "",
+  color: rgb("#000000"),
+  line-width: 1pt,
+)
+
+#let vp-header-theme-01(
+  title: "TÀI LIỆU VẬT LÍ 12",
+  subtitle: "Chuyên đề: Động lực học - Vượt chướng ngại vật",
+  color: auto,
+  icon: "bolt",
+  date: none,
+  right-content: none,
+)
+
+#let vp-header-theme-02(
+  title: "TÀI LIỆU HỌC TẬP",
+  subtitle: "Học hôm nay - Thành công ngày mai",
+  color: auto,
+  icon: "book-open",
+  right-content: none,
+)
+
+#let vp-header-theme-03(
+  title: "TÀI LIỆU HỌC TẬP",
+  subtitle: "Chinh phục tri thức",
+  color: rgb("#E67E22"),
+  icon: none,
+  date: "Ngày: 24/07/2026",
+  right-content: none,
+  font: "Times New Roman",
+)
+
+#let vp-header-theme-04(
+  title: "TÀI LIỆU HỌC TẬP",
+  subtitle: "Khoa học – Logic – Sáng tạo",
+  color: rgb("#259697"),
+  icon: none,
+  date: "Ngày: 24/07/2026",
+  right-content: none,
+  font: "Times New Roman",
+)
+
+#let vp-header-theme-05(
+  title: "TÀI LIỆU HỌC TẬP",
+  subtitle: "Học để hiểu – Hiểu để hành động",
+  color: rgb("#722ED1"),
+  icon: "book-open",
+  date: "Ngày: 24/07/2026",
+  right-content: none,
+  font: "Times New Roman",
+)
+
+#let vp-header-theme-06(
+  title: "TÀI LIỆU HỌC TẬP",
+  subtitle: "Đơn giản – Hiệu quả – Bền vững",
+  color: rgb("#1E3A8A"),
+  icon: none,
+  date: "Ngày: 24/07/2026",
+  right-content: none,
+  font: "Times New Roman",
+)
+
+#let vp-header-theme-07(
+  title: "TÀI LIỆU HỌC TẬP",
+  subtitle: "Tập trung – Tư duy – Bứt phá",
+  color: rgb("#D32F2F"),
+  icon: "bullseye",
+  date: "Ngày: 24/07/2026",
+  right-content: none,
+  font: "Times New Roman",
+)
+
+#let vp-header-theme-08(
+  title: "TÀI LIỆU HỌC TẬP",
+  subtitle: "Tri thức xanh – Tương lai xanh",
+  color: rgb("#5F9E31"),
+  icon: "seedling",
+  date: "Ngày: 24/07/2026",
+  right-content: none,
+  font: "Times New Roman",
+)
+
+#let vp-header-theme-09(
+  title: "TÀI LIỆU HỌC TẬP",
+  subtitle: "Ước mơ – Nỗ lực – Thành công",
+  color: rgb("#1D3B7A"),
+  icon: "star",
+  date: "Ngày: 24/07/2026",
+  right-content: none,
+  font: "Times New Roman",
+)
+
+#let vp-header-theme-10(
+  title: "TÀI LIỆU HỌC TẬP",
+  subtitle: "Nền tảng vững chắc – Tương lai rộng mở",
+  color: rgb("#795548"),
+  icon: "landmark",
+  date: "Ngày: 24/07/2026",
+  right-content: none,
+  font: "Times New Roman",
+)
+
+#let vp-header-theme-11(
+  title: "TÀI LIỆU HỌC TẬP",
+  subtitle: "Tư duy khác biệt – Kết quả khác biệt",
+  color: rgb("#008080"),
+  icon: none,
+  date: "Ngày: 24/07/2026",
+  right-content: none,
+  font: "Times New Roman",
+)
+
+#let vp-header-theme-12(
+  title: "TÀI LIỆU HỌC TẬP",
+  subtitle: "Kiến tạo giá trị – Dẫn lối thành công",
+  color: rgb("#D35400"),
+  icon: none,
+  date: "Ngày: 24/07/2026",
+  right-content: none,
+  font: "Times New Roman",
+)
+
+#let vp-header-theme-13(
+  title: "TÀI LIỆU HỌC TẬP",
+  subtitle: "Công nghệ – Kết nối – Phát triển",
+  color: rgb("#0288D1"),
+  icon: none,
+  date: "Ngày: 24/07/2026",
+  right-content: none,
+  font: "Times New Roman",
+)
+
+#let vp-header-theme-14(
+  title: "TÀI LIỆU HỌC TẬP",
+  subtitle: "Sáng tạo không giới hạn",
+  color: rgb("#8E44AD"),
+  icon: none,
+  date: "Ngày: 24/07/2026",
+  right-content: none,
+  font: "Times New Roman",
+)
+
+#let vp-header-theme-15(
+  title: "TÀI LIỆU HỌC TẬP",
+  subtitle: "Hành trình học tập – Hành trình trưởng thành",
+  color: rgb("#2E7D32"),
+  icon: none,
+  date: "Ngày: 24/07/2026",
+  right-content: none,
+  font: "Times New Roman",
+)
+
+#let vp-manual-header-standard()
+
+#let vp-manual-header-logo(
+  title: "VIETPHYS PACKAGE",
+  subtitle: "CẨM NANG HƯỚNG DẪN SỬ DỤNG",
+  date: none,
+  right-content: none,
+  color: auto,
+)
+
+#let vp-manual-header-fancy(
+  title: "VIETPHYS PACKAGE",
+  subtitle: "CẨM NANG HƯỚNG DẪN SỬ DỤNG",
+  color: rgb("#1D3B7A"),
+  icon: auto, // auto/"logo", "atom", none, or custom content
+  compact: false,
+  font: auto,
+  title-size: auto, subtitle-size: auto, chapter-size: auto,
+  icon-size: auto, title-gap: auto, column-gap: auto,
+  bottom-padding: auto, chapter-inset: auto, divider-thickness: auto,
+  chapter-label: auto, // auto: current chapter number; none: hide badge
+)
+```
+
+== layout/footers.typ
+
+```typst
+#let vp-footer(
+  left-text: "",
+  center-text: "",
+  right-text: "",
+  color: rgb("#000000"),
+  line-width: 1pt,
+)
+
+#let vp-footer-kage(
+  color: rgb("#FF3D00"),
+  kunai-path: "kunai.svg",
+  slogan: "Level Up Your Knowledge",
+)
+
+#let vp-footer-shuriken(
+  title: "Học Kage",
+  slogan: "Level Up Your Knowledge",
+  color: auto,
+  accent-color: auto,
+  icon: "kunai", // "kunai", "shuriken", "logo", or custom content / none
+  divider: "line", // "line", "brush", "none"
+  page-format: "1", // "1" or "1 / total"
+  compact: false,
+  font: auto,
+  title-size: auto, slogan-size: auto, page-size: auto,
+  badge-size: auto, page-radius: auto, icon-size: auto, column-gap: auto,
+  divider-gap: auto,
+)
+
+#let vp-footer-kage-enso(
+  title: "Học Kage",
+  slogan: "Level Up Your Knowledge",
+  color: auto,
+  accent-color: auto,
+  icon: "kunai", // "kunai", "shuriken", "logo", or custom content / none
+  enso-style: "zen", // "zen", "grunge", "ring-09", "ring-01", "ring-10"
+  divider: "line", // "line", "brush", "none"
+  page-format: "1", // "1" or "1 / total"
+)
+
+#let vp-manual-footer-standard()
+
+#let vp-manual-footer-fancy(
+  slogan: "Vietphys Typst Engine • Sách & Đề Thi Chuẩn Quốc Gia",
+  color: rgb("#1D3B7A"),
+)
+
+// Alias:
+#let vp-footer-kage-brush = vp-footer-kage-enso
+#let vp-footer-ninja-enso = vp-footer-kage-enso
+```
+
+== layout/header_widgets.typ & components/document_state.typ
+
+```typst
+#let vp-set-part(title)
+#let vp-part = vp-set-part
+#let vp-part-marker(title)
+#let vp-current-part = state("vp-current-part", "")
+#let vp-is-first-lesson = state("vp-is-first-lesson", true)
+
+#let vp-widget-smart-heading(
+  title: none,
+  icon: "hashtag",
+  color: rgb("#1890FF"),
+  bg: none,
+  font: "Times New Roman",
+)
+
+#let vp-widget-part(
+  title: none,
+  icon: "bookmark",
+  color: rgb("#1890FF"),
+  bg: none,
+  font: "Times New Roman",
+)
+
+#let vp-widget-heading(
+  level: 1,
+  icon: "hashtag",
+  color: rgb("#1890FF"),
+  bg: none,
+  font: "Times New Roman",
+)
+
+#let vp-widget-date(
+  date: "24/07/2026",
+  icon: "calendar-days",
+  color: rgb("#1890FF"),
+  bg: none,
+  font: "Times New Roman",
+)
+
+#let vp-widget-author(
+  name: "Thầy Minh",
+  role: "GV",
+  icon: "chalkboard-user",
+  color: rgb("#1890FF"),
+  bg: none,
+  font: "Times New Roman",
+)
+
+#let vp-widget-school(
+  school: "THPT Chuyên",
+  class-name: "Lớp 12",
+  icon: "school",
+  color: rgb("#1890FF"),
+  bg: none,
+  font: "Times New Roman",
+)
+
+#let vp-widget-exam(
+  code: "MÃ ĐỀ 101",
+  time: "50 phút",
+  color: rgb("#D32F2F"),
+  font: "Times New Roman",
+)
+
+#let vp-widget-target(
+  target: "9+",
+  slogan: "Chinh phục điểm 10",
+  icon: "bullseye",
+  color: rgb("#D35400"),
+  font: "Times New Roman",
+)
+
+#let vp-widget-pill(
+  content,
+  icon: none,
+  color: rgb("#1890FF"),
+  bg: none,
+  radius: 4pt,
+  font: "Times New Roman",
+)
+
+#let vp-widget-stack(
+  ..widgets,
+  spacing: 5pt,
+)
+```
+
+== layout/graphics.typ
+
+```typst
+#let vp-icon-atom(color: auto, size: 18pt)
+
+#let vp-brush(
+  name,
+  color: auto,
+  width: auto,
+  height: auto,
+  flip-x: false,
+  flip-y: false,
+)
+
+#let vp-icon-shuriken(color: auto, size: 12pt)
+
+#let vp-icon-kunai(
+  color: auto,
+  accent: none,
+  size: auto,
+  width: auto,
+  height: auto,
+  angle: 0deg,
+)
+
+#let vp-icon-cloud(color: auto, size: 16pt)
+#let vp-icon-ninja-silhouette(color: auto, size: 30pt)
+
+#let vp-physics-enso-icon(
+  body,
+  num: "1",
+  title: "ĐỘNG HỌC",
+  desc: "Chuyển động thẳng, cong, vận tốc, gia tốc",
+  color: auto,
+  size: 65pt,
+)
+
+#let vp-logo-hockage(
+  primary: auto,
+  accent: auto,
+  size: 60pt,
+  width: auto,
+  height: auto,
+)
+#let vp-hockage-logo = vp-logo-hockage
+
+#let vp-ninja-scholar-logo(
+  primary: auto,
+  accent: auto,
+  size: 60pt,
+  width: auto,
+  height: auto,
+)
+
+#let vp-logo-colored(color: blue, width: 40pt)
+```
+
+== components/boxes.typ, knowledge_box.typ, media.typ, quantities.typ
 
 ```typst
 #let vp-note(
@@ -1892,98 +2031,61 @@ vp-hockage-logo = vp-logo-hockage
   icon: "logo",
   color: rgb("#5F9E31"),
   bg-color: rgb("#FEE57E"),
-  body
-```
+  body,
+)
 
-== components/hierarchy.typ
-
-```typst
-```
-
-```typst
-#let vp-lesson(num: "1", title: "TÊN BÀI HỌC", subtitle: none, style: "less_modern",
-  color: auto, font: auto, tab-text: "BÀI HỌC") = { /* nội dung hàm */ }
-```
-
-== components/knowledge_box.typ
-
-```typst
 #let vp-knowledge-box(
   title: "",
   content: [],
-  type: "definition", // Hỗ trợ: definition, theorem, warning, note
-  color: auto
-```
+  type: "definition", // "definition", "theorem", "warning", "note"
+  color: auto,
+)
 
-== components/media.typ
-
-```typst
 #let vp-image(
-  path, // Đổi src: "" thành tham số vị trí bắt buộc
+  path,
   caption: "",
   width: 80%,
-  align-pos: center
-```
+  align-pos: center,
+)
 
-```typst
 #let vp-formula(
   eq: "",
-  numbered: false
-```
+  numbered: false,
+)
 
-```typst
 #let vp-logo(
   color: rgb("#1D3B7A"),
-  color2: rgb("#C09153"), // Màu vàng đất mặc định
-  height: 2cm
-```
+  color2: rgb("#C09153"),
+  height: 2cm,
+)
 
-== components/modern_hierarchy.typ
-
-```typst
-#let vp-chapter-modern(
-  num: "1",
-  title: "TÊN CHƯƠNG",
-  style: "chap_hexagon", // Keep parameter for backward compatibility
-  color: auto,
-  font: "Arial",
-```
-
-```typst
-#let vp-lesson-modern(
-  num: "1",
-  title: "TÊN BÀI HỌC",
-  subtitle: none,
-  style: "less_modern",
-  color: auto,
-  font: "Rounded Mplus 1c",
-  tab-text: "BÀI HỌC",
-```
-
-```typst
-vp-is-first-lesson = state("vp-is-first-lesson", true)
-```
-
-== components/quantities.typ
-
-```typst
-```
-
-```typst
+#let vp-unit(unit)
+#let vp-qty(val, unit)
 ```
 
 == components/question_bank.typ
 
 ```typst
+#let vp-exercise-layout(
+  body,
+  ..settings, // q-spacing, stem-spacing, line-spacing, lines-above, keep-first-line, keep-together, tf-inset, instruction-gap, show-answers, show-solutions, show-levels, show-sources
+)
+
+#let vp-instructions(
+  body,
+  gap: auto,
+  sticky: true,
+  reset: false,
+)
+
 #let vp-set-ans-style(
   shape: auto,
   border: auto,
   bg: auto,
   width: auto,
   text-color: auto,
-```
+)
 
-```typst
 #let vp-set-question-style(
   num-style: auto,
   lines: auto,
@@ -2008,24 +2110,79 @@ vp-is-first-lesson = state("vp-is-first-lesson", true)
   q-border: auto,
   q-radius: auto,
   q-padding: auto,
-```
+)
 
-```typst
 #let vp-question(
-  stem, listEs: (), num-style: auto, type: "mcq", options: (), statements: (), ans: none, ans-tf: (), sol: none, level: none, source: none, stem2: none, image-scope: "stem",
-  prefix: auto, points: none,
+  stem,
+  listEs: (),
+  num-style: auto,
+  type: "mcq", // "mcq", "tf", "short", "essay"
+  options: (),
+  statements: (),
+  ans: none,
+  ans-tf: (),
+  sol: none,
+  level: none,
+  source: none,
+  stem2: none,
+  image-scope: "stem",
+  prefix: auto,
+  points: none,
+  q-spacing: auto,
+  stem-spacing: auto,
+  keep-first-line: auto,
+  line-spacing: auto,
+  lines-above: auto,
+  tf-inset: auto,
+  breakable: auto,
+  short-boxes: 4,
+  short-fields: (),
+  lines: auto,
+  q-bg: auto,
+  q-border: auto,
+  tf-header-bg: auto,
+  ans-color: auto,
+  tf-correct-color: auto,
+  tf-wrong-color: auto,
+  ans-shape: auto,
+  ans-mark-bg: auto,
+  ans-mark-border: auto,
+  ans-mark-width: auto,
+  ans-text-color: auto,
+  level-color: auto,
+  source-color: auto,
+  q-radius: auto,
+  q-padding: auto,
+  q-margin: 6pt,
+  lbl-color: auto,
+  lbl-bg: none,
+  lbl-border: none,
+  lbl-radius: 0pt,
+  lbl-padding: 0pt,
+  icon-before: none,
+  icon-after: none,
+  opt-color: auto,
+  opt-bg: none,
+  opt-border: none,
+  opt-radius: 0pt,
+  opt-padding: 0pt,
+  tf-style: "table",
+  tf-header-color: white,
+  tf-border: rgb("#E8E8E8"),
+  tf-row-bg: none,
+  short-border: rgb("#333333"),
+  short-bg: none,
+  image: none,
+  image-ratio: 0.65,
+  image-gap: 4%,
+  image-side: "right",
+  image-valign: top,
+)
 
-  lines: auto, q-bg: auto, q-border: auto, tf-header-bg: auto, ans-color: auto, tf-correct-color: auto, tf-wrong-color: auto, ans-shape: auto, ans-mark-bg: auto, ans-mark-border: auto, ans-mark-width: auto, ans-text-color: auto, level-color: auto, source-color: auto,
-  q-radius: auto, q-padding: auto, q-margin: 6pt, lbl-color: auto, lbl-bg: none, lbl-border: none, lbl-radius: 0pt, lbl-padding: 0pt, icon-before: none, icon-after: none, opt-color: auto, opt-bg: none, opt-border: none, opt-radius: 0pt, opt-padding: 0pt, tf-style: "table", tf-header-color: white, tf-border: rgb("#E8E8E8"), tf-row-bg: none, short-border: rgb("#333333"), short-bg: none, image: none, image-ratio: 0.65, image-gap: 4%, image-side: "right", image-valign: top,
-```
+#let vp-print-keys(title: "BẢNG ĐÁP ÁN NHANH")
+#let vp-print-solutions(title: "HƯỚNG DẪN GIẢI CHI TIẾT")
 
-```typst
-```
-
-```typst
-```
-
-```typst
+// Counter & State:
 vp-q-counter = counter("vp-question")
 vp-show-ans = state("vp-show-ans", false)
 vp-show-sol = state("vp-show-sol", false)
@@ -2089,18 +2246,35 @@ vp-theme-state = state("vp-theme-state", vp-question-theme)
 ```typst
 #let vp-settings = (
   base-font: "Times New Roman",
-  base-size: 12pt,
+  base-size: 13pt,
   line-height: 1.2
 )
 ```
 
-== Dữ liệu vp-question-theme
+== Dữ liệu vp-question-theme & vp-workbook-defaults
 ```typst
 #let vp-question-theme = (
   mcq: (bg: none, border: none, lines: 0, ans-color: vp-colors.danger, ans-shape: "circle", ans-mark-bg: none, ans-mark-border: rgb("#333"), ans-mark-width: 0.8pt, ans-text-color: rgb("#333"), level-color: vp-colors.primary, source-color: vp-colors.text-muted),
   tf: (bg: none, border: none, lines: 0, tf-header: rgb("#1A73E8"), tf-correct-color: vp-colors.success, tf-wrong-color: vp-colors.danger, ans-mark-bg: none, ans-mark-border: rgb("#333"), ans-mark-width: 0.8pt, level-color: vp-colors.primary, source-color: vp-colors.text-muted),
   short: (bg: none, border: none, lines: 0, ans-color: vp-colors.danger, level-color: vp-colors.primary, source-color: vp-colors.text-muted),
   essay: (bg: none, border: none, lines: 5, ans-color: vp-colors.danger, level-color: vp-colors.primary, source-color: vp-colors.text-muted),
+)
+
+#let vp-workbook-defaults = (
+  page: (
+    paper: "a4", margin: (x: 2cm, top: 2cm, bottom: 1.6cm),
+    font: "Times New Roman", font-size: 14pt, leading: 0.55em,
+    header-ascent: 23pt, footer-descent: 6pt,
+    theme-preset: "ocean", hierarchy: "book",
+    heading-theme: vp-heading-theme-modern.with(font: "Arial", paragraph-indent: 0pt,
+      numbering: (..nums) => numbering("I", nums.pos().first())),
+  ),
+  questions: (
+    q-spacing: 6pt, stem-spacing: 7pt, line-spacing: 1.8em, lines-above: 16pt,
+    instruction-gap: 14pt, tf-inset: (x: 5pt, y: 7pt),
+    keep-first-line: true, keep-together: ("short",),
+    show-answers: false, show-solutions: false, show-levels: false, show-sources: false,
+  ),
 )
 ```
 
@@ -2198,12 +2372,15 @@ Không gọi lệnh in bảng đáp án nếu chỉ cần bản học sinh.
 ```
 
 Ví dụ hiển thị với khoảng cách 14pt sau hướng dẫn và 16pt trước dòng kẻ:
-#vp-exercise-layout(q-spacing: 6pt, instruction-gap: 14pt,
-  line-spacing: 1.8em, lines-above: 16pt, keep-first-line: true,
-  show-answers: false, show-solutions: false)[
-  #vp-instructions[Trình bày lập luận, công thức và kết luận.]
-  #vp-question([Một người đi thẳng 30 m rồi quay lại 10 m.
-    Tính quãng đường và độ lớn độ dịch chuyển.], type: "essay", lines: 3)
+
+#product[
+  #vp-exercise-layout(q-spacing: 6pt, instruction-gap: 14pt,
+    line-spacing: 1.8em, lines-above: 16pt, keep-first-line: true,
+    show-answers: false, show-solutions: false)[
+    #vp-instructions[Trình bày lập luận, công thức và kết luận.]
+    #vp-question([Một người đi thẳng 30 m rồi quay lại 10 m.
+      Tính quãng đường và độ lớn độ dịch chuyển.], type: "essay", lines: 3)
+  ]
 ]
 
 == Tinh chỉnh header và footer qua tham số

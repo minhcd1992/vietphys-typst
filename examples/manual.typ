@@ -500,7 +500,7 @@ Trong các sách giáo khoa, đôi khi một câu hỏi (bao gồm cả khung vi
   #v(15pt)
 ]
 
-Dạng câu hỏi Trả lời ngắn (`type: "short"`) tự động tạo ra các ô vuông (tối đa 4 ô) để điền đáp án ở góc phải theo đúng chuẩn cấu trúc đề thi mới. Hệ thống hỗ trợ hiển thị đáp án trực tiếp vào ô, tạo dòng kẻ nháp và tùy biến màu sắc linh hoạt.
+Dạng câu hỏi Trả lời ngắn (`type: "short"`) tự động tạo ra các ô vuông (mặc định 4 ô, có thể tùy chỉnh bằng `short-boxes` hoặc tách nhiều trường kết quả bằng `short-fields`) để điền đáp án ở góc phải theo chuẩn cấu trúc đề thi mới. Hệ thống hỗ trợ hiển thị đáp án trực tiếp vào ô, tạo dòng kẻ nháp và tùy biến màu sắc linh hoạt.
 
 #v(10pt)
 // ==========================================
@@ -604,6 +604,62 @@ Thầy có thể thay chữ "Câu" thành "Bài", thêm icon cây bút, đồng 
 // ==========================================
 // PHẦN IV: TỰ LUẬN (ESSAY) VÀ XUẤT KẾT QUẢ
 // ==========================================
+// ==========================================
+// TÍNH NĂNG 3 (SHORT-BOXES & SHORT-FIELDS)
+// ==========================================
+#v(15pt)
+= Tùy chỉnh Số lượng Ô (`short-boxes`) và Nhiều trường trả lời (`short-fields`)
+
+Mặc định câu trả lời ngắn có 4 ô (`short-boxes: 4`). Khi kết quả có nhiều chữ số hơn (kể cả dấu âm và dấu phẩy thập phân), truyền `short-boxes: 5` hoặc `6`. Nếu một câu hỏi yêu cầu điền nhiều đại lượng, dùng `short-fields` gồm danh sách các dictionary `(label: [...], ans: "...", boxes: 4)` — mỗi đại lượng có nhãn và hàng ô riêng, vẫn tự động ẩn/hiện theo `vp-show-ans`.
+
+*Mã lệnh (Code):*
+```typst
+#vp-show-ans.update(true)
+
+// 1. Tăng số ô lên 5 bằng short-boxes
+#vp-question(
+  [Tính chu kì dao động (s) của con lắc đơn chiều dài $l = 1,60 "m"$ tại nơi có $g = 9,80 "m/s"^2$ (làm tròn 3 chữ số thập phân).],
+  type: "short",
+  ans: "2,539",
+  short-boxes: 5,
+)
+
+// 2. Nhiều trường kết quả trong cùng một câu bằng short-fields
+#vp-question(
+  [Trong thí nghiệm đo gia tốc rơi tự do, học sinh thu được kết quả trung bình và sai số tỉ đối như sau. Hãy điền các giá trị vào ô tương ứng:],
+  type: "short",
+  ans: "9,79; 0,70", // Lưu chuỗi tổng hợp cho bảng đáp án cuối bài
+  short-fields: (
+    (label: [Gia tốc trung bình $overline(g)$ ($"m/s"^2$):], ans: "9,79", boxes: 4),
+    (label: [Sai số tỉ đối $delta g$ (%):], ans: "0,70", boxes: 4),
+  ),
+)
+```
+
+*Kết quả hiển thị thực tế:*
+#block(breakable: true, width: 100%, stroke: 0.8pt + rgb("#D9D9D9"), inset: 15pt, radius: 4pt)[
+  #vp-show-ans.update(true)
+  #vp-question(
+    [Tính chu kì dao động (s) của con lắc đơn chiều dài $l = 1,60 "m"$ tại nơi có $g = 9,80 "m/s"^2$ (làm tròn 3 chữ số thập phân).],
+    type: "short",
+    ans: "2,539",
+    short-boxes: 5,
+  )
+  #vp-question(
+    [Trong thí nghiệm đo gia tốc rơi tự do, học sinh thu được kết quả trung bình và sai số tỉ đối như sau. Hãy điền các giá trị vào ô tương ứng:],
+    type: "short",
+    ans: "9,79; 0,70",
+    short-fields: (
+      (label: [Gia tốc trung bình $overline(g)$ ($"m/s"^2$):], ans: "9,79", boxes: 4),
+      (label: [Sai số tỉ đối $delta g$ (%):], ans: "0,70", boxes: 4),
+    ),
+  )
+  #vp-show-ans.update(false)
+]
+
+// ==========================================
+// PHẦN IV: TỰ LUẬN (ESSAY) VÀ XUẤT KẾT QUẢ
+// ==========================================
 #current-part.update("Phần IV - Tự luận")
 #pagebreak()
 #align(center)[
@@ -664,6 +720,46 @@ Khi chế độ Đề thi được kích hoạt (Tắt hiển thị Level và Ng
 ]
 
 // ==========================================
+// ==========================================
+// TÍNH NĂNG: Ý NHỎ TỰ LUẬN (listEs) VÀ ĐÁP SỐ (ans)
+// ==========================================
+#v(15pt)
+= Câu Tự luận Nhiều ý nhỏ (`listEs`) và Đáp số (`ans`)
+
+Với các bài toán tự luận gồm nhiều câu hỏi nhỏ `a)`, `b)`, `c)`..., truyền mảng nội dung vào tham số `listEs`. Nếu truyền thêm `ans`, khi bật `vp-show-ans`, hệ thống sẽ in dòng *➜ Đáp số:* nổi bật bên dưới câu hỏi và lưu vào bảng đáp án tổng hợp.
+
+*Mã lệnh (Code):*
+```typst
+#vp-show-ans.update(true)
+#vp-question(
+  [Một vật có khối lượng $m = 2 "kg"$ bắt đầu trượt trên mặt phẳng ngang dưới tác dụng của lực kéo $F = 10 "N"$ theo phương ngang, hệ số ma sát trượt $mu = 0,2$, lấy $g = 10 "m/s"^2$.],
+  type: "essay",
+  listEs: (
+    [Tính gia tốc chuyển động của vật.],
+    [Tính vận tốc và quãng đường vật đi được sau $4 "s"$ đầu tiên.],
+  ),
+  ans: [a) $3 "m/s"^2$; b) $12 "m/s"$ và $24 "m"$],
+  lines: 3,
+)
+#vp-show-ans.update(false)
+```
+
+*Kết quả hiển thị thực tế:*
+#block(breakable: true, width: 100%, stroke: 0.8pt + rgb("#D9D9D9"), inset: 15pt, radius: 4pt)[
+  #vp-show-ans.update(true)
+  #vp-question(
+    [Một vật có khối lượng $m = 2 "kg"$ bắt đầu trượt trên mặt phẳng ngang dưới tác dụng của lực kéo $F = 10 "N"$ theo phương ngang, hệ số ma sát trượt $mu = 0,2$, lấy $g = 10 "m/s"^2$.],
+    type: "essay",
+    listEs: (
+      [Tính gia tốc chuyển động của vật.],
+      [Tính vận tốc và quãng đường vật đi được sau $4 "s"$ đầu tiên.],
+    ),
+    ans: [a) $3 "m/s"^2$; b) $12 "m/s"$ và $24 "m"$],
+    lines: 3,
+  )
+  #vp-show-ans.update(false)
+]
+
 // TÍNH NĂNG BỔ SUNG: TÙY BIẾN NHÃN CÂU & HIỂN THỊ ĐƠN VỊ VẬT LÝ
 // ==========================================
 #v(15pt)
@@ -733,6 +829,137 @@ Mọi câu hỏi được định nghĩa bằng lệnh `#vp-question` trong toà
 
 #pagebreak()
 // =====================================
+// ==========================================
+// PHẦN V: BỐ CỤC BÀI TẬP, ĐƠN VỊ & HỘP KIẾN THỨC
+// ==========================================
+#current-part.update("Phần V - Mở rộng")
+#align(center)[
+  #text(size: 16pt, weight: "bold")[PHẦN V: BỐ CỤC BÀI TẬP, ĐƠN VỊ VẬT LÍ & HỘP KIẾN THỨC]
+  #v(15pt)
+]
+
+Ngoài bốn dạng câu hỏi cốt lõi, Vietphys cung cấp bộ công cụ quản lý bố cục bài tập theo vùng (`vp-exercise-layout`, `vp-instructions`), định dạng đại lượng Vật lí tự động (`vp-qty`, `vp-unit`, `vp-formula`), hộp kiến thức (`vp-knowledge-box`, `vp-note`) và mẫu sách bài tập hoàn chỉnh (`vp-workbook`).
+
+#v(10pt)
+= Câu hướng dẫn (`vp-instructions`) và Bố cục theo vùng (`vp-exercise-layout`)
+
+Hàm `vp-instructions(reset: true)[...]` đặt câu hướng dẫn dính liền với câu hỏi đầu tiên của phần (không bị rớt dòng lẻ loi ở cuối trang) và tùy chọn reset số thứ tự câu về 1. Hàm `vp-exercise-layout` cho phép cấu hình khoảng cách câu, dòng kẻ, độ đệm bảng Đúng/Sai và trạng thái ẩn/hiện đáp án cho toàn tài liệu hoặc chỉ trong một đoạn được bọc (tự động khôi phục khi ra khỏi đoạn).
+
+*Mã lệnh (Code):*
+```typst
+// Bọc một vùng bài tập với khoảng cách và chế độ hiển thị riêng:
+#vp-exercise-layout(
+  q-spacing: 6pt, stem-spacing: 7pt,
+  line-spacing: 1.8em, lines-above: 14pt,
+  instruction-gap: 12pt, tf-inset: (x: 5pt, y: 7pt),
+  keep-first-line: true, keep-together: ("short",),
+  show-answers: true, show-solutions: false,
+  show-levels: false, show-sources: false,
+)[
+  #vp-instructions(reset: true)[*Phần luyện tập nhanh:* Chọn phương án đúng và trình bày ngắn gọn.]
+  #vp-question(
+    [Đơn vị của công cơ học trong hệ SI là gì?],
+    options: ([#vp-unit("J")], [#vp-unit("W")], [#vp-unit("N")], [#vp-unit("Pa")]),
+    ans: "A",
+  )
+  #vp-question(
+    [Nêu định nghĩa công suất và ý nghĩa vật lí của nó.],
+    type: "essay", lines: 2,
+  )
+]
+```
+
+*Kết quả hiển thị thực tế:*
+#block(breakable: true, width: 100%, stroke: 0.8pt + rgb("#D9D9D9"), inset: 15pt, radius: 4pt)[
+  #vp-exercise-layout(
+    q-spacing: 6pt, stem-spacing: 7pt,
+    line-spacing: 1.8em, lines-above: 14pt,
+    instruction-gap: 12pt, tf-inset: (x: 5pt, y: 7pt),
+    keep-first-line: true, keep-together: ("short",),
+    show-answers: true, show-solutions: false,
+    show-levels: false, show-sources: false,
+  )[
+    #vp-instructions(reset: true)[*Phần luyện tập nhanh:* Chọn phương án đúng và trình bày ngắn gọn.]
+    #vp-question(
+      [Đơn vị của công cơ học trong hệ SI là gì?],
+      options: ([#vp-unit("J")], [#vp-unit("W")], [#vp-unit("N")], [#vp-unit("Pa")]),
+      ans: "A",
+    )
+    #vp-question(
+      [Nêu định nghĩa công suất và ý nghĩa vật lí của nó.],
+      type: "essay", lines: 2,
+    )
+  ]
+]
+
+#v(15pt)
+= Đại lượng Vật lí (`vp-qty`, `vp-unit`), Công thức (`vp-formula`) và Hộp kiến thức
+
+- `vp-unit("kg.m/s^2")` tự động in đứng tên đơn vị, chuyển dấu chấm thành dấu nhân giữa, hỗ trợ mũ âm/dương và các ký hiệu `um`, `uC`, `uF`, `us`, `ohm`, `degC`, `Angstrom`.
+- `vp-qty("3.4e7", "N/m^2")` tự động chuyển dấu chấm thập phân thành dấu phẩy chuẩn tiếng Việt và đổi `e`/`E` sang dạng $times 10^n$.
+- `vp-formula(eq: "...", numbered: true)` tạo phương trình độc lập có đánh số `(1)`, `(2)`...
+- `vp-knowledge-box` có 4 kiểu (`"definition"`, `"theorem"`, `"warning"`, `"note"`) và `vp-note` tạo hộp ghi chú gấp góc.
+
+*Mã lệnh (Code):*
+```typst
+// 1. Đại lượng, đơn vị và công thức đánh số:
+Áp suất khí quyển cỡ #vp-qty("1.013e5", "Pa"), điện dung #vp-qty("4.7", "uF"),
+điện trở #vp-qty("220", "ohm") ở nhiệt độ #vp-qty("27.5", "degC").
+#vp-formula(eq: "p V = n R T", numbered: true)
+
+// 2. Hộp kiến thức và hộp ghi chú gấp góc:
+#vp-knowledge-box(
+  type: "definition",
+  title: "Định luật I Nhiệt động lực học",
+  content: [Độ biến thiên nội năng của hệ bằng tổng công và nhiệt lượng mà hệ nhận được: $Delta U = A + Q$.],
+)
+#v(12pt)
+#vp-note(title: "Quy ước dấu", icon: "lightbulb")[
+  Hệ nhận nhiệt lượng: $Q > 0$; hệ truyền nhiệt lượng: $Q < 0$.
+]
+```
+
+*Kết quả hiển thị thực tế:*
+#block(breakable: true, width: 100%, stroke: 0.8pt + rgb("#D9D9D9"), inset: 15pt, radius: 4pt)[
+  Áp suất khí quyển cỡ #vp-qty("1.013e5", "Pa"), điện dung #vp-qty("4.7", "uF"),
+  điện trở #vp-qty("220", "ohm") ở nhiệt độ #vp-qty("27.5", "degC").
+  #vp-formula(eq: "p V = n R T", numbered: true)
+  #vp-knowledge-box(
+    type: "definition",
+    title: "Định luật I Nhiệt động lực học",
+    content: [Độ biến thiên nội năng của hệ bằng tổng công và nhiệt lượng mà hệ nhận được: $Delta U = A + Q$.],
+  )
+  #v(12pt)
+  #vp-note(title: "Quy ước dấu", icon: "lightbulb")[
+    Hệ nhận nhiệt lượng: $Q > 0$; hệ truyền nhiệt lượng: $Q < 0$.
+  ]
+]
+
+#v(15pt)
+= Mẫu Sách bài tập (`vp-workbook`) và Tài liệu tra cứu chuyên sâu
+
+Để biên soạn sách bài tập nhiều chương và bài học đồng bộ (tự động tạo mục lục sách `vp-book-outline`, nội dung chương `vp-chapter-outline`, header nguyên tử hiển thị số chương, footer Học Kage và quy tắc ngắt trang câu hỏi chuẩn), sử dụng trực tiếp mẫu `vp-workbook`:
+
+```typst
+#import "../vietphys.typ": *
+#show: vp-workbook.with(title: "BÀI TẬP VẬT LÍ 10")
+
+#vp-book-outline(subtitle: [SÁCH BÀI TẬP VẬT LÍ 10])
+#vp-workbook-chapter(num: "I", title: "Động học")
+#vp-chapter-outline(summary: [Mỗi bài gồm bốn phần luyện tập.])
+
+#vp-workbook-lesson(num: 1, title: "Quãng đường và độ dịch chuyển")
+= Phần I. Trắc nghiệm khách quan
+#vp-instructions(reset: true)[Chọn một phương án đúng.]
+#vp-question([Tốc độ trung bình có đơn vị SI là gì?],
+  options: ([#vp-unit("m/s")], [#vp-unit("m")], [#vp-unit("s")], [#vp-unit("m/s^2")]), ans: "A")
+```
+
+Xem thêm:
+- Phân cấp Chương / Bài / Mục, đánh số và mục lục: `examples/manual-hierarchy.typ`.
+- Bộ sưu tập đầy đủ 15 mẫu Header, 6 mẫu Footer, 35 nét cọ, Logo/Widget và Bảng tra cứu toàn bộ chữ ký API: `examples/huong-dan-day-du.typ`.
+
+#pagebreak()
 // TIÊU ĐỀ BÀI BÁO (1 CỘT)
 // =====================================
 #align(center)[

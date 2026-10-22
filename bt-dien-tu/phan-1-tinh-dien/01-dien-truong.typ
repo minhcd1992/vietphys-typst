@@ -88,11 +88,11 @@
       [
         Đổi đơn vị: $m = 9.1 times 10^(-31) thin "kg"$, $r = 10^(-8) thin "cm" = 10^(-10) thin "m"$.
 
-        Lực hút tĩnh điện Coulomb giữa hạt nhân proton ($+e$) và electron ($-e$) đóng vai trò là lực hướng tâm giữ electron chuyển động tròn đều:
-        $ arrow(F)_đ = arrow(F)_("ht") => (k e^2)/r^2 = (m v^2)/r. $
+        Đề dùng $e < 0$ cho điện tích electron; đặt $e_0 = abs(e)$ để tránh nhầm dấu. Proton mang điện tích $+e_0$, electron mang điện tích $-e_0$. Lực hút Coulomb đóng vai trò lực hướng tâm:
+        $ (k e_0^2)/r^2 = (m v^2)/r. $
         Suy ra tốc độ chuyển động của electron:
         $
-          v = sqrt((k e^2)/(m r)) = sqrt((8.99 times 10^9 times (1.6 times 10^(-19))^2)/(9.1 times 10^(-31) times 10^(-10))) approx 1.59 times 10^6 thin "m/s".
+          v = sqrt((k e_0^2)/(m r)) = sqrt((8.99 times 10^9 times (1.6 times 10^(-19))^2)/(9.1 times 10^(-31) times 10^(-10))) approx 1.59 times 10^6 thin "m/s".
         $
         Đây là kết quả trong mô hình quỹ đạo cổ điển mà đề bài giả định.
       ],
@@ -228,7 +228,7 @@
 
         (b) Proton mang điện tích dương $q = +e = 1.602 times 10^(-19) thin "C"$. Cường độ điện trường tại bề mặt quả cầu:
         $ E = F / e = (2.54 times 10^(-15)) / (1.602 times 10^(-19)) approx 1.59 times 10^4 thin "V/m". $
-        Vì proton bị đẩy ra với gia tốc $arrow(a)$ hướng ra ngoài, lực điện $arrow(F)_đ = e arrow(E)$ cùng hướng với gia tốc $arrow(a)$, nên vecto cường độ điện trường $arrow(E)$ tại bề mặt quả cầu có phương bán kính và hướng vuông góc ra phía ngoài bề mặt quả cầu.
+        Vì proton mang điện dương, $arrow(E)$ cùng chiều gia tốc $arrow(a)$. Đề chỉ cho độ lớn $a$, nên chưa đủ để kết luận chiều điện trường. Nếu proton bị đẩy ra như hình minh họa, $arrow(E)$ hướng theo bán kính ra ngoài; nếu proton bị hút vào, $arrow(E)$ hướng vào tâm.
       ],
       figure(scale(85%, reflow: true, ve-van-de-graaff-1-7(hien-luc: true)), caption: [Sơ đồ lực], kind: image, numbering: none, supplement: none),
     )
@@ -293,7 +293,7 @@
         $ abs(y_p)=e E t^2/(2m_p)=(m_e/m_p)d/2 approx 2.72 thin "μm"<d/2. $
         Proton không chạm bản. $v_(y,p)=-e E t/m_p approx -436 thin "m/s"$, góc lệch xuống $arctan(abs(v_(y,p))/v_0) approx 0.0156 degree$.
 
-        (c) Trong điện trường, cả hai quỹ đạo là parabol; electron cong lên, proton cong xuống với độ cong nhỏ hơn $m_p/m_e approx 1837$ lần. Sau khi ra khỏi vùng trường, chúng chuyển động thẳng theo tiếp tuyến nếu bỏ qua trọng lực; electron lý tưởng đi sát mép bản.
+        (c) Trong điện trường, cả hai quỹ đạo là parabol: $y = (q E_y)/(2 m v_0^2) x^2$. Electron lệch lên, proton lệch xuống; tại cùng $x$, độ lệch của proton nhỏ hơn $m_p/m_e approx 1837$ lần. Sau khi ra khỏi vùng trường, chúng chuyển động thẳng theo tiếp tuyến nếu bỏ qua trọng lực; electron lý tưởng đi sát mép bản.
 
         (d) $a_e=6.40 times 10^13 thin "m/s"^2$, $a_p approx 3.49 times 10^10 thin "m/s"^2$, đều lớn hơn $g$ rất nhiều. Bỏ qua trọng lực trong thời gian xét là phù hợp.
       ],
@@ -416,7 +416,7 @@
       columns: (1fr, auto),
       gutter: 12pt,
       [
-        Hiểu “hình bán nguyệt” là dây cung nửa đường tròn; mỗi nửa cung dài $pi a / 2$, nên $abs(lambda) = (2 Q)/(pi a)$.
+        Hiểu “hình bán nguyệt” là dây mảnh uốn thành nửa đường tròn; mỗi nửa cung dài $pi a / 2$, nên $abs(lambda) = (2 Q)/(pi a)$.
 
         Hai phần tử vi phân đối xứng qua trục $O y$ gây các thành phần đứng đối nhau nên triệt tiêu ($E_y = 0$), còn các thành phần ngang cùng hướng sang phải ($+x$).
 
@@ -456,7 +456,7 @@
       [
         (a) $lambda = - q / L$.
 
-        (b) Chọn trục $s$ từ đầu gần tới $P$. Phần tử cách đầu gần $s$ nằm cách $P$ một đoạn $a + s$:
+        (b) Chọn chiều $+x$ dọc thanh, từ đầu gần hướng tới $P$. Gọi $s in [0, L]$ là khoảng cách từ đầu gần đến phần tử nằm về phía trong thanh; phần tử này cách $P$ một đoạn $a + s$:
         $ E_x = - (k q)/L integral_0^L 1/(a + s)^2 dif s = - (k q)/(a (a + L)). $
         Dấu âm cho thấy điện trường $arrow(E)$ hướng dọc theo trục về phía thanh (hút vì thanh tích điện âm).
 
@@ -486,7 +486,7 @@
       columns: (1fr, auto),
       gutter: 14pt,
       [
-        (a) Khoảng cách từ điểm xét đến hai đầu thanh lần lượt là $r - l/2$ và $r + l/2$. Điện trường do thanh $q_1$ gây ra tại vị trí đặt $q_2$:
+        (a) Dùng giả thiết điện tích phân bố đều mà đề đã cho, bỏ qua sự phân bố lại điện tích trên thanh kim loại. Khoảng cách từ điểm xét đến hai đầu thanh lần lượt là $r - l/2$ và $r + l/2$. Điện trường do thanh $q_1$ gây ra tại vị trí đặt $q_2$:
         $ E = integral_(-l/2)^(l/2) (k dif q_1)/(r - x)^2 = (k q_1)/(r^2 - l^2/4). $
         #block(breakable: false)[
           Từ $F = abs(q_2) E$, độ lớn của điện tích điểm $q_2$:
@@ -522,7 +522,7 @@
       columns: (1fr, auto),
       gutter: 14pt,
       [
-        Ở vị trí cân bằng, quả cầu nằm tại tâm bán cầu. Do đối xứng trục quanh phương đứng, điện trường nằm ngang triệt tiêu.
+        Dùng mô hình lớp mặt bán cầu có mật độ $sigma$ cố định theo đề, bỏ qua sự phân bố lại điện tích trên kim loại. Ở vị trí cân bằng, quả cầu nằm tại tâm bán cầu. Do đối xứng trục quanh phương đứng, các thành phần điện trường nằm ngang triệt tiêu.
 
         Chia bán cầu thành các vành vi phân ở góc cực $theta$. Diện tích vành: $dif S = 2 pi R^2 sin theta dif theta$, điện tích $dif q = sigma dif S$. Điện trường thẳng đứng:
         $ E = integral_0^(pi/2) (k dif q cos theta)/R^2 = 2 pi k sigma integral_0^(pi/2) sin theta cos theta dif theta = pi k sigma = sigma/(4 epsilon_0). $
@@ -530,7 +530,7 @@
         (a) Cân bằng lực điện $arrow(F)_e$ (hướng xuống) và lực căng dây $arrow(T)$ (hướng lên):
         $ T = F_e = Q E = (Q sigma)/(4 epsilon_0). $
 
-        (b) Khi dao động góc bé $theta$, lực điện đóng vai trò trọng lực hiệu dụng $m g_("eff") = Q E$. Phương trình tiếp tuyến $m R theta'' approx - Q E theta$ cho chu kì:
+        (b) Theo giả thiết của câu hỏi, coi $arrow(F)_e$ không đổi khi quả cầu lệch khỏi vị trí cân bằng. Gọi $phi$ là góc lệch của dây; lực điện đóng vai trò trọng lực hiệu dụng $m g_("eff") = Q E$. Phương trình tiếp tuyến $m R phi'' = - Q E sin phi approx - Q E phi$ cho chu kì:
         $ T_("dao") = 2 pi sqrt((m R)/(Q E)) = 4 pi sqrt((epsilon_0 m R)/(Q sigma)). $
       ],
       figure(scale(72%, reflow: true, ve-giai-ban-cau-1-16), caption: [Vành vi phân và cân bằng lực], kind: image, numbering: none, supplement: none),
@@ -639,8 +639,6 @@
   ],
 )
 
-#pagebreak(weak: true)
-
 // source-id: P1/1.20; pdf: 6
 #vp-question(
   [
@@ -676,8 +674,6 @@
   ],
 )
 
-#if sys.inputs.at("loi-giai", default: "co") != "khong" { pagebreak() }
-
 // source-id: P1/1.21; pdf: 6
 #vp-question(
   [
@@ -689,14 +685,14 @@
   image: figure(scale(65%, reflow: true, ve-de-cau-hoc-1-21), kind: image, numbering: none, supplement: none),
   image-side: "right",
   sol: [
+    1. _Trường bên trong quả cầu đặc đồng chất:_
+    Chia quả cầu tâm $O$ thành các lớp vỏ cầu mỏng đồng tâm. Tại điểm cách tâm $r$, các lớp vỏ ngoài ($s > r$) triệt tiêu trường; phần cầu bên trong mang điện tích $q(r) = rho dot 4/3 pi r^3$ tác dụng như điện tích điểm tại tâm:
+    $ arrow(E)_1 = (q(r))/(4 pi epsilon_0 r^2) arrow(r)/r = (rho arrow(r))/(3 epsilon_0). $
+
     #grid(
       columns: (1fr, auto),
       gutter: 14pt,
       [
-        1. _Trường bên trong quả cầu đặc đồng chất:_
-        Chia quả cầu tâm $O$ thành các lớp vỏ cầu mỏng đồng tâm. Tại điểm cách tâm $r$, các lớp vỏ ngoài ($s > r$) triệt tiêu trường; phần cầu bên trong mang điện tích $q(r) = rho dot 4/3 pi r^3$ tác dụng như điện tích điểm tại tâm:
-        $ arrow(E)_1 = (q(r))/(4 pi epsilon_0 r^2) arrow(r)/r = (rho arrow(r))/(3 epsilon_0). $
-
         2. _Nguyên lý chồng chất áp dụng cho hốc rỗng:_
         Xem hốc rỗng như quả cầu lớn mật độ $+rho$ (tâm $O$) chồng chất với quả cầu bù mật độ $-rho$ lấp đầy hốc (tâm $O'$).
         
@@ -710,8 +706,6 @@
     )
   ],
 )
-
-#if sys.inputs.at("loi-giai", default: "co") != "khong" { pagebreak() }
 
 // source-id: P1/1.22; pdf: 6
 #vp-question(
@@ -735,13 +729,13 @@
         (a) Lấy lớp vỏ cầu vi phân bán kính $s$, bề dày $dif s$: $dif q = rho_s (s/R) 4 pi s^2 dif s = (4 pi rho_s)/R s^3 dif s$. Điện tích toàn phần:
         $ Q = (4 pi rho_s)/R integral_0^R s^3 dif s = pi rho_s R^3. $
 
-        (b) Dùng định lý vỏ cầu (nguyên lý chồng chất Coulomb vi phân):
+        (b) Đề không quy định dấu của $rho_s$. Gọi $E_r$ là thành phần điện trường theo chiều bán kính ra ngoài, $arrow(E) = E_r arrow(e)_r$ với $r > 0$. Dùng định lý vỏ cầu:
         - Với $r <= R$: các lớp vỏ $s > r$ không gây trường tại $r$; chỉ các lớp vỏ $s in [0, r]$ đóng góp tương đương điện tích tập trung tại tâm:
-        $ E(r) = 1/(4 pi epsilon_0 r^2) integral_0^r dif q(s) = (rho_s)/(epsilon_0 R r^2) integral_0^r s^3 dif s = (rho_s r^2)/(4 epsilon_0 R). $
+        $ E_r(r) = 1/(4 pi epsilon_0 r^2) integral_0^r dif q(s) = (rho_s)/(epsilon_0 R r^2) integral_0^r s^3 dif s = (rho_s r^2)/(4 epsilon_0 R). $
         - Với $r >= R$: toàn bộ quả cầu ($s in [0, R]$) nằm trong khoảng cách $r$, tương đương điện tích toàn phần $Q$ đặt tại tâm:
-        $ E(r) = Q/(4 pi epsilon_0 r^2) = (rho_s R^3)/(4 epsilon_0 r^2). $
+        $ E_r(r) = Q/(4 pi epsilon_0 r^2) = (rho_s R^3)/(4 epsilon_0 r^2). $
         
-        Hai biểu thức liên tục tại $r = R$ ($E(R) = (rho_s R)/(4 epsilon_0)$); tại tâm $E(0) = 0$.
+        Hai biểu thức liên tục tại $r = R$. Độ lớn $E = abs(E_r)$; trường hướng ra ngoài khi $rho_s > 0$, hướng vào tâm khi $rho_s < 0$. Tại tâm $arrow(E)(0) = arrow(0)$. Nếu $rho_s = 0$, điện trường bằng không ở mọi điểm.
       ],
       figure(scale(70%, reflow: true, ve-giai-do-thi-1-22), caption: [Đồ thị hàm $E(r)$ theo $r$], kind: image, numbering: none, supplement: none),
     )

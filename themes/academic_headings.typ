@@ -24,7 +24,7 @@
   } else { body-leading }, spacing: 0.6em,
     first-line-indent: (amount: paragraph-indent, all: true))
   show figure.caption: set par(first-line-indent: 0pt)
-  show raw: set par(first-line-indent: 0pt)
+  show raw.where(block: true): set par(first-line-indent: 0pt)
   show table: set par(first-line-indent: 0pt)
   context {
     set heading(numbering: _vp-heading-numbering(numbering, offset: heading.offset), supplement: [Mục])

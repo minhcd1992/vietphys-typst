@@ -23,7 +23,6 @@ Chuyển soạn từ *Bài tập học phần Điện từ học*, Khoa Vật l�
 = Phần 1. Tĩnh điện học
 == 1. Định luật Coulomb — Điện trường
 #include "phan-1-tinh-dien/01-dien-truong.typ"
-#pagebreak()
 == 2. Điện thế
 #include "phan-1-tinh-dien/02-dien-the.typ"
 #pagebreak()
