@@ -1,7 +1,6 @@
 // Slide thuyết trình: Từ khung lí thuyết đến câu hỏi nghiên cứu
-// Ảnh trong hinh/ được cắt từ ../bai-bao-goc-danh-dau.pdf bằng ../danh-dau-bai-bao.py
-// Biên dịch (tại gốc dự án):
-//   typst compile bai-bao-socrates-ai/slide-khung-li-thuyet/slide.typ bai-bao-socrates-ai/slide-khung-li-thuyet/slide-khung-li-thuyet-den-cau-hoi.pdf
+// Phân tích bài báo: Effects of generative AI-mediated socratic dialogue on preservice physics teachers' critical thinking in kinematics (PRPER 2026)
+// Biên dịch: typst compile bai-bao-socrates-ai/slide-khung-li-thuyet/slide.typ bai-bao-socrates-ai/slide-khung-li-thuyet/slide-khung-li-thuyet-den-cau-hoi.pdf
 
 #let navy = rgb("#1d2b4f")
 #let accent = rgb("#c0392b")
@@ -13,6 +12,7 @@
 #let c-ml = rgb("#94148a")
 #let c-c = rgb("#b81a14")
 #let c-g = rgb("#856b00")
+
 #let p-ss = rgb("#cc0000")
 #let p-dl = rgb("#0040d9")
 #let p-pt = rgb("#008026")
@@ -20,450 +20,365 @@
 #let p-pv = rgb("#f27300")
 
 #set document(title: "Từ khung lí thuyết đến câu hỏi nghiên cứu", author: "Phân tích bài báo PRPER 22, 020134 (2026)")
-#set text(font: "Segoe UI", size: 13pt, lang: "vi")
-#set par(justify: false, leading: 0.5em, spacing: 0.7em)
+#set text(font: "Segoe UI", size: 12.5pt, lang: "vi")
+#set par(justify: false, leading: 0.52em, spacing: 0.65em)
 #set list(spacing: 0.55em, indent: 2pt)
 #set table(inset: 5pt, stroke: 0.5pt + luma(200))
 #set page(
   paper: "presentation-16-9",
-  margin: (x: 1.0cm, top: 0.75cm, bottom: 0.95cm),
+  margin: (x: 1.0cm, top: 0.72cm, bottom: 0.85cm),
   footer: context {
     let n = counter(page).get().first()
     if n > 1 {
       set text(8.5pt, fill: luma(130))
       [Từ khung lí thuyết đến câu hỏi nghiên cứu · Guerrero-Zambrano và cs. (2026), _Phys. Rev. Phys. Educ. Res._ 22, 020134]
       h(1fr)
-      [#n]
+      [#n / 8]
     }
   },
 )
 
-#let slide(title, tag: "2.3", body) = {
+#let slide(title, tag: "Nội dung 4", body) = {
   pagebreak(weak: true)
   grid(
     columns: (1fr, auto),
     align: (left + horizon, right + horizon),
-    text(21pt, weight: "bold", fill: navy, title),
-    if tag != none { box(fill: accent, inset: (x: 7pt, y: 3pt), radius: 3pt, text(10pt, weight: "bold", fill: white, tag)) },
+    text(20pt, weight: "bold", fill: navy, title),
+    if tag != none { box(fill: accent, inset: (x: 7pt, y: 3pt), radius: 3pt, text(9.5pt, weight: "bold", fill: white, tag)) },
   )
-  v(-7pt)
+  v(-6pt)
   line(length: 100%, stroke: 1.5pt + navy)
-  v(2pt)
+  v(3pt)
   body
 }
 
-#let chip(c, t, size: 11pt) = box(
-  fill: c.lighten(88%), stroke: 0.8pt + c, inset: (x: 5pt, y: 2.5pt), radius: 3pt,
+#let chip(c, t, size: 10.5pt) = box(
+  fill: c.lighten(88%), stroke: 0.8pt + c, inset: (x: 5pt, y: 2pt), radius: 3pt,
   text(size, fill: c, weight: "bold", t),
 )
 #let card(c, title, body, fill: auto) = block(
-  width: 100%, fill: if fill == auto { c.lighten(92%) } else { fill },
-  stroke: (left: 4pt + c), inset: (x: 8pt, y: 6pt), radius: 3pt, spacing: 6pt,
+  width: 100%, fill: if fill == auto { c.lighten(93%) } else { fill },
+  stroke: (left: 3.5pt + c), inset: (x: 8pt, y: 5.5pt), radius: 3pt, spacing: 5pt,
 )[#if title != none [#text(fill: c, weight: "bold", title) \ ]#body]
-#let ul(c, t) = underline(stroke: 1.8pt + c, offset: 2.5pt, evade: false, t)
+
+#let ul(c, t) = underline(stroke: 1.8pt + c, offset: 2.2pt, evade: false, t)
 #let shot(path, width: 100%, cap: none) = figure(
   box(stroke: 0.6pt + luma(170), radius: 2pt, clip: true, image(path, width: width)),
-  caption: if cap != none { text(9pt, fill: luma(110), cap) },
-  gap: 3pt, supplement: none, numbering: none,
+  caption: if cap != none { text(8.5pt, fill: luma(110), cap) },
+  gap: 2pt, supplement: none, numbering: none,
 )
-#let src(t) = text(9.5pt, fill: luma(110), t)
-#let arr = text(fill: accent, size: 15pt, weight: "bold", sym.arrow.r)
-#let darr = align(center, text(fill: accent, size: 13pt, weight: "bold", sym.arrow.b))
-#let node(c, body) = block(width: 100%, fill: c.lighten(90%), stroke: 1pt + c, inset: 6pt, radius: 4pt, spacing: 3pt, align(center, body))
+#let src(t) = text(9pt, fill: luma(110), t)
+#let arr = text(fill: accent, size: 14pt, weight: "bold", sym.arrow.r)
+#let node(c, body) = block(width: 100%, fill: c.lighten(92%), stroke: 0.9pt + c, inset: 5pt, radius: 4pt, spacing: 3pt, align(center, body))
 
-// ===================== 1. Trang bìa =====================
+// ===================== SLIDE 1: TRANG BÌA =====================
 #page(margin: 0pt, footer: none)[
-  #block(width: 100%, height: 100%, fill: navy, inset: (x: 1.6cm, y: 1.2cm))[
+  #block(width: 100%, height: 100%, fill: navy, inset: (x: 1.5cm, y: 1.2cm))[
     #set text(fill: white)
-    #text(11.5pt, fill: rgb("#f4c7c3"), weight: "bold", tracking: 0.5pt)[NỘI DUNG 2.2 – 2.3 · PHÂN TÍCH MỘT BÀI BÁO KHOA HỌC]
-    #v(6pt)
-    #text(34pt, weight: "bold")[Từ khung lí thuyết \ đến câu hỏi nghiên cứu]
-    #v(2pt)
-    #line(length: 28%, stroke: 3pt + accent)
+    #text(11pt, fill: rgb("#f4c7c3"), weight: "bold", tracking: 0.5pt)[PHÂN TÍCH BÀI BÁO KHOA HỌC TRONG GIÁO DỤC VẬT LÍ]
     #v(8pt)
-    #text(14pt)[Bài báo: _Effects of generative AI-mediated socratic dialogue on preservice physics teachers’ critical thinking in kinematics_]
+    #text(32pt, weight: "bold")[Từ Khung Lí Thuyết \ Đến Câu Hỏi Nghiên Cứu]
+    #v(3pt)
+    #line(length: 26%, stroke: 3pt + accent)
+    #v(10pt)
+    #text(13.5pt)[Bài báo phân tích: _Effects of generative AI-mediated socratic dialogue on preservice physics teachers' critical thinking in kinematics_]
     #v(2pt)
-    #text(11pt, fill: luma(215))[M. Guerrero-Zambrano, B. Valarezo-Chamba, L. Sanchez-Alvarado, E. Lamilla-Rubio · _Physical Review Physics Education Research_ 22, 020134 (2026) · DOI: 10.1103/x7vq-17rq]
+    #text(10.5pt, fill: luma(215))[M. Guerrero-Zambrano, B. Valarezo-Chamba, L. Sanchez-Alvarado, E. Lamilla-Rubio · _Phys. Rev. Phys. Educ. Res._ 22, 020134 (2026)]
     #v(1fr)
     #set text(10.5pt)
     #let wchip(c, t) = box(fill: white, inset: (x: 6pt, y: 3pt), radius: 3pt, text(fill: c, weight: "bold", t))
-    Kí hiệu đánh dấu trong bài gốc: #h(4pt)
-    #wchip(c-kn)[KN Khái niệm công cụ] #wchip(c-lt)[LT Lí thuyết nền] #wchip(c-ml)[ML Mối liên hệ]
-    #wchip(c-c)[C Câu hỏi NC] #wchip(c-g)[G Giả thuyết NC]
+    *Trọng tâm trình bày:* #h(4pt)
+    #wchip(navy)[Ảnh câu hỏi đã đánh dấu]
+    #wchip(c-lt)[Lí giải khung lí thuyết nền tảng]
+    #wchip(c-kn)[Thao tác hóa khái niệm]
+    #wchip(c-ml)[Mối liên hệ & cơ chế trả lời]
   ]
 ]
 
-// ===================== 2. Mạch logic =====================
-#slide([Vị trí của khung lí thuyết và câu hỏi trong mạch nghiên cứu], tag: "2.1 → 2.3")[
-  #v(4pt)
-  #let step(c, t, codes, strong: false) = block(
-    width: 100%, height: 62pt, fill: if strong { c.lighten(85%) } else { luma(245) },
-    stroke: (if strong { 1.8pt } else { 0.8pt }) + c, radius: 4pt, inset: 5pt,
-    align(center + horizon)[#text(12pt, weight: "bold", fill: c, t) \ #text(9.5pt, fill: luma(90), codes)],
-  )
-  #grid(
-    columns: (1fr, auto, 1fr, auto, 1fr, auto, 1.25fr, auto, 1fr, auto, 1fr),
-    column-gutter: 3pt, align: horizon,
-    step(c-d, [Sự kiện \ khoa học], [D1–D6]), arr,
-    step(c-v, [Vấn đề \ nghiên cứu], [V1–V2]), arr,
-    step(c-m, [Mục tiêu \ nghiên cứu], [M1–M4]), arr,
-    step(c-kn, [Khung lí thuyết], [KN · LT · ML], strong: true), arr,
-    step(c-c, [Câu hỏi \ nghiên cứu], [C, C1–C3], strong: true), arr,
-    step(c-g, [Giả thuyết \ nghiên cứu], [G1–G5], strong: true),
-  )
-  #v(8pt)
-  #grid(
-    columns: (1fr, 1fr), column-gutter: 12pt,
-    card(c-v, [Khoảng trống câu hỏi phải chạm tới (V2, tr. 2)])[
-      Bằng chứng thực nghiệm về việc GAI hỗ trợ tư duy phản biện (TDPB) trong giáo dục Vật lí *còn hạn chế*, rõ nhất ở *động học một chiều* [7,8].
-    ],
-    card(c-m, [Mục tiêu nghiên cứu (M2, tr. 2)])[
-      So sánh đối thoại Socrates *do GV dẫn dắt* với điều kiện tiếp theo có *cùng cấu trúc đối thoại được GAI hỗ trợ*.
-    ],
-  )
-  #v(4pt)
-  #card(navy, none, fill: luma(245))[
-    *Khung lí thuyết (cơ sở lí luận):* hệ thống các yếu tố của luận cứ lí thuyết được sắp xếp trong mối liên hệ biện chứng #src[(Vũ Cao Đàm, 2018)]. \
-    Gồm ba thành phần: #chip(c-kn)[Khái niệm công cụ] #chip(c-lt)[Lí thuyết nền] #chip(c-ml)[Mối liên hệ]
+// ===================== SLIDE 2: KHUNG LÍ THUYẾT CỦA BÀI BÁO =====================
+#slide([Khung lí thuyết của bài báo: Ba thành phần], tag: "Khung lí thuyết")[
+  #card(navy, none, fill: luma(247))[
+    #set text(11.5pt)
+    *Khung lí thuyết (cơ sở lí luận):* hệ thống các yếu tố của luận cứ lí thuyết được sắp xếp trong mối liên hệ biện chứng #src[(Vũ Cao Đàm, 2018)]. Bao gồm ba thành phần cấu thành:
   ]
-]
-
-// ===================== 3. Ba thành phần =====================
-#slide([Khung lí thuyết của bài báo: ba thành phần])[
-  #set text(11.5pt)
+  #v(2pt)
+  #set text(11pt)
   #table(
-    columns: (128pt, 1fr, 92pt),
+    columns: (120pt, 1fr, 85pt),
     align: (center + horizon, left + horizon, center + horizon),
-    fill: (x, y) => if y == 0 { navy } else if x == 0 { (c-kn, c-lt, c-ml).at(y - 1) } else if calc.even(y) { luma(247) },
+    fill: (x, y) => if y == 0 { navy } else if x == 0 { (c-lt, c-kn, c-ml).at(y - 1) } else if calc.even(y) { luma(248) },
     table.header(
       text(fill: white, weight: "bold")[Thành phần],
-      text(fill: white, weight: "bold")[Nội dung trong bài báo],
-      text(fill: white, weight: "bold")[Đánh dấu],
+      text(fill: white, weight: "bold")[Nội dung tác giả xây dựng trong bài báo],
+      text(fill: white, weight: "bold")[Vị trí / Mã],
     ),
-    text(fill: white, weight: "bold", 13pt)[Khái niệm \ công cụ],
+    text(fill: white, weight: "bold", 12pt)[Lí thuyết nền \ #text(9pt)[(Foundation)]],
     [
-      - *TDPB đặc thù môn học* – đo bằng rubric 5 tiêu chí
-      - *Đối thoại Socrates do GV dẫn dắt* (cùng một trình tự hoạt động)
-      - *GAI = giàn giáo nhận thức có giám sát*, không thay thế hiểu biết chuyên môn [13]
-      - *KSE* (niềm tin năng lực động học), *CL* (tải nhận thức), *IM* (động cơ nội tại)
+      - *Trung gian nhận thức (Epistemic Mediation):* GAI định hình cách người học tạo lập bằng chứng, biện minh và tự điều chỉnh suy luận.
+      - *Giàn giáo & Quyền chủ động nhận thức (Scaffold & Agency):* GAI là giàn giáo gợi mở; quyền phán đoán, phản tư vẫn ở người học [9--12].
+      - *Bản chất giải bài tập Vật lí:* Là quá trình lập luận, diễn giải và kiến tạo ý nghĩa, không phải thay số cơ học vào công thức.
     ],
-    [#chip(c-kn)[KN1–KN3] \ #src[tr. 2–3]],
-    text(fill: white, weight: "bold", 13pt)[Lí thuyết nền],
+    [#chip(c-lt)[LT1--LT3] \ #src[tr. 2]],
+
+    text(fill: white, weight: "bold", 12pt)[Khái niệm \ công cụ \ #text(9pt)[(Concepts)]],
     [
-      - *Trung gian nhận thức:* GAI định hình cách người học tạo bằng chứng, biện minh, tự điều chỉnh; là *giàn giáo nhận thức* trong đối thoại Socrates
-      - *Quyền chủ động nhận thức* phải ở người học, không chuyển cho công nghệ [9–12]
-      - *Giải bài tập Vật lí là lập luận, diễn giải, kiến tạo ý nghĩa*, không phải thay số vào công thức
+      - *GAI trong đối thoại Socrates:* Giàn giáo nhận thức có giám sát [13].
+      - *Tư duy phản biện (TDPB) đặc thù môn học:* Thao tác hóa thành Rubric 5 tiêu chí (hiểu nguyên lí, lập luận, phản ví dụ, sửa lỗi sai, tổ chức).
+      - *Các biến cảm nhận:* KSE (niềm tin năng lực), CL (tải nhận thức), IM (động cơ).
     ],
-    [#chip(c-lt)[LT1–LT3] \ #src[tr. 2]],
-    text(fill: white, weight: "bold", 13pt)[Mối liên hệ],
+    [#chip(c-kn)[KN1--KN3] \ #src[tr. 2, 3]],
+
+    text(fill: white, weight: "bold", 12pt)[Mối liên hệ \ #text(9pt)[(Relations)]],
     [
-      Đối thoại Socrates + GAI #sym.arrow.r gợi giải thích thay thế, đối chiếu khái niệm, tự sửa sai #sym.arrow.r mở rộng *suy luận và siêu nhận thức* #sym.arrow.r *TDPB*. \
-      Hiện thực hóa bằng *mô hình SOCRATIC-IA*: giữ nguyên trình tự, chỉ đổi mức trung gian.
+      - Đối thoại Socrates + GAI #sym.arrow.r gợi phản ví dụ, đối chiếu khái niệm, tự sửa sai #sym.arrow.r mở rộng *suy luận và siêu nhận thức* #sym.arrow.r nâng cao *TDPB*.
+      - Hiện thực hóa thành *mô hình SOCRATIC-IA*: Giữ nguyên trình tự, chỉ đổi mức trung gian.
     ],
-    [#chip(c-ml)[ML1–ML3] \ #src[tr. 2, 4, 11]],
+    [#chip(c-ml)[ML1--ML3] \ #src[tr. 2, 4, 11]],
   )
 ]
 
-// ===================== 4. Lí thuyết nền =====================
-#slide([Lí thuyết nền: GAI là trung gian và giàn giáo nhận thức])[
+// ===================== SLIDE 3: ẢNH CÂU HỎI & PHÂN TÍCH CẤU TRÚC =====================
+#slide([Câu hỏi nghiên cứu chính: Hình ảnh & Cấu trúc], tag: "Câu hỏi NC")[
   #grid(
-    columns: (1.12fr, 1fr), column-gutter: 12pt,
-    shot("hinh/lt-nen.png", cap: [Đoạn LT1–LT2, trang 2 bài gốc]),
+    columns: (1.25fr, 1fr), column-gutter: 12pt,
     [
-      #set text(12pt)
-      #card(c-lt, [LT1 – Quan điểm trung gian nhận thức])[
-        GAI không chỉ là công cụ mà là *hình thức trung gian*: định hình cách người học tạo bằng chứng, biện minh suy luận, tự điều chỉnh. Trong đối thoại Socrates, GAI là *giàn giáo nhận thức*: gợi giải thích thay thế, phản ví dụ, nhiều cách giải.
-      ]
-      #card(c-lt, [LT2 – Nguyên tắc quyền chủ động nhận thức])[
-        Cần thiết kế sư phạm để quyền chủ động nhận thức *ở lại với người học* [9]; giữ trách nhiệm, phán đoán, kiểm soát phản tư khi dùng AI [10–12].
-      ]
-      #card(accent, [Vai trò trong bài], fill: rgb("#fdf1f0"))[
-        Lí thuyết nền #sym.arrow.r *căn cứ để dự đoán*: GAI hỗ trợ chứ không thay thế, nên được kì vọng *không làm giảm* kết quả (G1, G4).
-      ]
-    ],
-  )
-  #src[Ghi chú: LT1 là lập luận của tác giả, không kèm trích dẫn trực tiếp; LT2 dựa trên tài liệu [9–12]. LT3 (giải bài Vật lí là lập luận) xem ở slide Mối liên hệ.]
-]
-
-// ===================== 5. Khái niệm công cụ =====================
-#slide([Khái niệm công cụ: định nghĩa rõ rồi chuyển thành biến đo được])[
-  #grid(
-    columns: (0.95fr, 1.05fr), column-gutter: 12pt,
-    [
-      #shot("hinh/kn-dinh-nghia.png", cap: [KN1 – định nghĩa GAI dùng thống nhất (tr. 2)])
-      #v(2pt)
-      #shot("hinh/kn-bien.png", cap: [KN2 – thao tác hóa thành biến độc lập, biến phụ thuộc (tr. 3)])
-    ],
-    [
-      #set text(10.5pt)
-      #table(
-        columns: (0.9fr, 1.5fr, 1fr),
-        fill: (x, y) => if y == 0 { c-kn } else if calc.even(y) { luma(247) },
-        table.header(
-          text(fill: white, weight: "bold")[Khái niệm],
-          text(fill: white, weight: "bold")[Định nghĩa / thao tác hóa],
-          text(fill: white, weight: "bold")[Biến, cách đo],
-        ),
-        [*GAI, hình thức trung gian Socrates*],
-        [Giàn giáo nhận thức có giám sát (KN1). Cùng trình tự: giả thuyết cá nhân → thảo luận nhóm → câu hỏi Socrates → viết đồng thuận],
-        [*Biến độc lập*: A1 (chỉ GV) / A2 (GV + GAI)],
-        [*TDPB đặc thù môn học*],
-        [Rubric 5 tiêu chí: hiểu vấn đề và nguyên lí; lập luận; phản ví dụ; nhận ra, sửa lỗi khái niệm; rõ ràng [16–19] (KN2)],
-        [*Biến phụ thuộc*: điểm rubric, CVI = 1.00, đơn vị là nhóm],
-        [*KSE, CL, IM*],
-        [Khảo sát cảm nhận cuối mỗi giai đoạn (KN3); SI chỉ ở A1, PU-GAI, TE-AI, RI chỉ ở A2],
-        [Thang Likert, cá nhân; chỉ so sánh cấu trúc chung],
-      )
-      #card(accent, none, fill: rgb("#fdf1f0"))[
-        #set text(11.5pt)
-        *Vai trò:* khái niệm công cụ #sym.arrow.r *xác định biến, đối tượng cần đo* trong câu hỏi nghiên cứu.
-      ]
-    ],
-  )
-]
-
-// ===================== 6. Mối liên hệ =====================
-#slide([Mối liên hệ: gắn khái niệm và lí thuyết thành một hệ thống])[
-  #grid(
-    columns: (1.1fr, 1fr), column-gutter: 14pt,
-    [
-      #shot("hinh/lt3-ml1.png", cap: [LT3 (lí thuyết nền) và ML1 (mối liên hệ), trang 2 bài gốc])
-      #v(2pt)
-      #card(c-ml, [ML2 – Hiện thực hóa bằng mô hình SOCRATIC-IA (tr. 4)])[
-        #set text(11.5pt)
-        Kích hoạt khái niệm → đối thoại Socrates do GV dẫn dắt → đối thoại có GAI. Giữ nguyên nội dung và trình tự, *chỉ thay đổi mức trung gian* #sym.arrow.r tạo ra phép so sánh A1/A2.
-      ]
-    ],
-    [
-      #set text(11.5pt)
-      #node(c-lt)[*Lí thuyết nền:* giải bài Vật lí là lập luận (LT3); GAI là trung gian nhận thức (LT1)]
-      #darr
-      #node(c-kn)[*Đối thoại Socrates do GV dẫn dắt* + *GAI là giàn giáo có giám sát* (KN1)]
-      #align(center, text(10pt, fill: luma(90))[#sym.arrow.b gợi giải thích thay thế, đối chiếu khái niệm, tự sửa sai])
-      #node(c-ml)[Mở rộng hoạt động *suy luận* và *siêu nhận thức* (ML1)]
-      #darr
-      #node(c-kn)[*TDPB đặc thù môn học*, đo bằng rubric (KN2)]
+      #shot("hinh/cau-hoi-chinh.png", cap: [Đoạn câu hỏi nghiên cứu chính (C) và phạm vi (PV) được đánh dấu ở trang 2 bài gốc])
       #v(3pt)
-      #block(width: 100%, stroke: (dash: "dashed", paint: c-lt, thickness: 1pt), inset: 5pt, radius: 3pt)[
-        #set text(10.5pt)
-        *Điều kiện:* người học giữ quyền chủ động nhận thức; GV giám sát (LT2)
+      #card(c-c, [Phát biểu tiếng Việt hoàn chỉnh], fill: rgb("#fff5f4"))[
+        #set text(11pt)
+        #set par(leading: 0.6em)
+        Những #ul(p-ss)[khác biệt nào] xuất hiện trong #ul(p-pt)[kết quả TDPB (đánh giá bằng rubric) và lập luận định tính] khi #ul(p-kt)[sinh viên sư phạm Vật lí] #ul(p-pv)[giải các bài toán động học một chiều] thông qua #ul(p-dl)[đối thoại Socrates chỉ do GV dẫn dắt], #ul(p-ss)[so với] khi #ul(p-dl)[cùng cấu trúc đối thoại đó được GAI hỗ trợ]?
       ]
     ],
-  )
-]
-
-// ===================== 7. Vai trò =====================
-#slide([Vai trò của khung lí thuyết trong bài báo])[
-  #v(2pt)
-  #let role(t) = block(width: 100%, height: 50pt, fill: rgb("#5b7d3a"), radius: 4pt, inset: 6pt,
-    align(center + horizon, text(12.5pt, fill: white, weight: "bold", t)))
-  #let inbai(t) = block(width: 100%, height: 50pt, fill: luma(245), stroke: 0.8pt + luma(190), radius: 4pt, inset: 6pt,
-    align(left + horizon, text(11.5pt, t)))
-  #grid(
-    columns: (200pt, 26pt, 1fr), row-gutter: 6pt, align: horizon,
-    role[Cơ sở đầu tiên về lí thuyết], align(center, arr),
-    inbai[#chip(c-kn, size: 10pt)[KN] Khái niệm công cụ → biến: *hình thức trung gian* (độc lập); *điểm TDPB, KSE, CL, IM* (phụ thuộc)],
-    role[Căn cứ để dự đoán], align(center, arr),
-    inbai[#chip(c-lt, size: 10pt)[LT] GAI là giàn giáo có giám sát → kì vọng có hướng: *không làm giảm, nếu thay đổi thì cải thiện* (G1, G4)],
-    role[Nhận dạng nội dung \ cần xử lí tiếp], align(center, arr),
-    inbai[#chip(c-v, size: 10pt)[V2] Khoảng trống: *thiếu bằng chứng* trong giáo dục Vật lí, *động học một chiều* → câu hỏi nghiên cứu],
-    role[Bổ sung tri thức khoa học], align(center, arr),
-    inbai[#chip(c-ml, size: 10pt)[ML] *Mô hình SOCRATIC-IA*: khung dạy học sơ bộ tích hợp đối thoại Socrates và GAI (kết luận, tr. 12)],
-  )
-  #v(6pt)
-  #card(navy, none, fill: luma(245))[
-    Giả thuyết phải *“phù hợp với khung lí thuyết tác giả sử dụng”*. Khung lí thuyết là *“cơ sở đầu tiên để chứng minh giả thuyết”*.
-  ]
-]
-
-// ===================== 8. Mạch dẫn tới câu hỏi =====================
-#slide([Từ khung lí thuyết đến câu hỏi: mỗi thành phần đóng góp gì?])[
-  #set text(11.5pt)
-  #let from(c, t) = block(width: 100%, height: 52pt, fill: c.lighten(88%), stroke: 1pt + c, radius: 4pt, inset: 6pt, align(left + horizon, t))
-  #let to(c, t) = block(width: 100%, height: 52pt, fill: white, stroke: (left: 4pt + c, rest: 0.6pt + luma(190)), radius: 3pt, inset: 6pt, align(left + horizon, t))
-  #grid(
-    columns: (1fr, 24pt, 1.15fr), row-gutter: 6pt, align: horizon,
-    text(10pt, weight: "bold", fill: luma(100))[NGUỒN TRONG KHUNG / VẤN ĐỀ], [], text(10pt, weight: "bold", fill: luma(100))[THÀNH PHẦN TƯƠNG ỨNG TRONG CÂU HỎI],
-    from(c-kn)[*KN:* TDPB → rubric; hình thức trung gian → A1/A2], align(center, arr),
-    to(p-pt)[#ul(p-pt)[Biến phụ thuộc]: “rubric-assessed critical-thinking performance” \ #ul(p-dl)[Biến độc lập]: đối thoại chỉ GV ↔ có GAI],
-    from(c-ml)[*ML:* Socrates + GAI → suy luận, siêu nhận thức → TDPB], align(center, arr),
-    to(p-ss)[#ul(p-ss)[Quan hệ / so sánh]: “what differences emerge … compared with”],
-    from(c-v)[*V2:* thiếu bằng chứng trong giáo dục Vật lí, động học một chiều], align(center, arr),
-    to(p-kt)[#ul(p-kt)[Khách thể]: “preservice physics teachers” · #ul(p-pv)[Phạm vi]: “one-dimensional kinematics problems” · câu trả lời *chưa biết trước*],
-    from(c-c)[*Thiết kế:* hai điều kiện theo trình tự cố định (PV)], align(center, arr),
-    to(c-c)[Giới hạn: hỏi *khác biệt trong mẫu*, không hỏi tác động nhân quả của GAI],
-  )
-]
-
-// ===================== 9. Cấu trúc câu hỏi chính =====================
-#slide([Câu hỏi nghiên cứu chính: phân tích cấu trúc])[
-  #grid(
-    columns: (1.2fr, 1fr), column-gutter: 12pt,
-    shot("hinh/cau-hoi-chinh.png", cap: [Câu hỏi chính (C) và phạm vi câu hỏi (PV), trang 2 bài gốc]),
     [
       #set text(11pt)
-      #set par(spacing: 0.75em)
-      #ul(p-ss)[*So sánh / quan hệ*]: “what differences emerge … compared with” #sym.arrow.r câu hỏi so sánh hai điều kiện
+      #card(navy, [Phân tích cấu trúc 5 thành phần:])[
+        #set par(spacing: 0.55em)
+        #ul(p-ss)[*1. Quan hệ / So sánh*]:
+        _"what differences emerge ... compared with"_
+        #sym.arrow.r So sánh 2 điều kiện can thiệp trên cùng 1 nhóm.
 
-      #ul(p-dl)[*Biến độc lập (2 mức)*]: “teacher-guided Socratic dialogue alone” ↔ “the same dialogue structure supported by GAI”
+        #ul(p-dl)[*2. Biến độc lập (2 mức)*]:
+        _"teacher-guided Socratic dialogue alone"_ đối chiếu với _"the same dialogue structure supported by GAI"_.
 
-      #ul(p-pt)[*Biến phụ thuộc*]: “rubric-assessed critical-thinking performance and qualitative reasoning”
+        #ul(p-pt)[*3. Biến phụ thuộc*]:
+        _"rubric-assessed critical-thinking performance and qualitative reasoning"_ (TDPB theo rubric & lập luận).
 
-      #ul(p-kt)[*Khách thể*]: “preservice physics teachers”
+        #ul(p-kt)[*4. Khách thể nghiên cứu*]:
+        _"preservice physics teachers"_ (18 sinh viên sư phạm Vật lí, chia 6 nhóm).
 
-      #ul(p-pv)[*Phạm vi*]: “solve one-dimensional kinematics problems”
+        #ul(p-pv)[*5. Phạm vi nghiên cứu*]:
+        _"solve one-dimensional kinematics problems"_ (nội dung Động học một chiều).
+      ]
+      #v(2pt)
+      #card(c-c, [Phạm vi suy luận (PV, tr. 2)], fill: luma(250))[
+        #set text(9.5pt)
+        Vì thiết kế tiền thực nghiệm trình tự cố định, câu hỏi chỉ hướng tới *khác biệt trong mẫu*, không khẳng định quan hệ nhân quả độc lập của GAI.
+      ]
+    ],
+  )
+]
+
+// ===================== SLIDE 4: CÁC CÂU HỎI NGHIÊN CỨU PHỤ =====================
+#slide([Các câu hỏi nghiên cứu phụ: Phân rã từ Khung lí thuyết], tag: "Câu hỏi phụ")[
+  #grid(
+    columns: (1.05fr, 1.25fr), column-gutter: 12pt,
+    [
+      #shot("hinh/cau-hoi-phu.png", cap: [Đoạn 3 câu hỏi phụ (C1, C2, C3) được đánh dấu ở trang 2 bài gốc])
+      #v(2pt)
+      #card(navy, [Vai trò phân rã câu hỏi trong nghiên cứu])[
+        #set text(10.5pt)
+        - *Câu hỏi chính:* Đặt bài toán so sánh tổng thể giữa 2 điều kiện can thiệp (đối thoại chỉ có GV vs. có thêm GAI).
+        - *Các câu hỏi phụ (C1--C3):* Phân rã câu hỏi chính thành *3 khía cạnh đo lường cụ thể*, tương ứng trực tiếp với các biến đã xác lập trong Khung lí thuyết:
+          + *Hành vi & Năng lực (C1)*: Điểm Rubric TDPB.
+          + *Trạng thái tâm lí nhận thức (C2)*: Niềm tin, tải nhận thức, động cơ.
+          + *Cơ chế giải thích sâu (C3)*: Sự hội tụ định tính -- định lượng.
+      ]
+    ],
+    [
+      #set text(10.5pt)
+      #card(c-c, [C1 · Đo lường Tư duy phản biện (Biến phụ thuộc cốt lõi)])[
+        #set text(10pt)
+        - *Nội dung:* Có sự khác biệt ý nghĩa về kết quả TDPB (đánh giá bằng Rubric) giữa hai điều kiện đối thoại không?
+        - *Khung lí thuyết dẫn tới C1:* Khung định nghĩa TDPB môn Vật lí là năng lực thao tác hóa được #arr xây dựng *Rubric 5 tiêu chí* (KN2) để đo lường định lượng sự tiến bộ.
+      ]
+      #v(1.5pt)
+      #card(c-kn, [C2 · Nhận thức, Tải nhận thức & Động cơ (Biến tâm lí)])[
+        #set text(10pt)
+        - *Nội dung:* Sinh viên cảm nhận thế nào về niềm tin năng lực (KSE), tải nhận thức (CL) và động cơ nội tại (IM) giữa 2 điều kiện?
+        - *Khung lí thuyết dẫn tới C2:* Khung nhận thức chỉ ra GAI tác động đến tâm lí người học #arr đo lường để chứng minh GAI giảm tải nhận thức ngoại lai, không làm suy giảm niềm tin tự chủ (KN3).
+      ]
+      #v(1.5pt)
+      #card(c-ml, [C3 · Hội tụ định tính & Cơ chế giải thích (Mixed-Methods)])[
+        #set text(10pt)
+        - *Nội dung:* Phản tư định tính của sinh viên hội tụ hoặc giải thích điểm số rubric và khảo sát nhận thức đến mức độ nào?
+        - *Khung lí thuyết dẫn tới C3:* Khung lí thuyết về *giàn giáo nhận thức* (LT1, LT2) cần minh chứng người học thực sự hiểu bản chất và tự điều chỉnh suy luận (ML1), không chỉ là điểm số cơ học.
+      ]
     ],
   )
   #v(2pt)
-  #card(c-c, [Phát biểu tiếng Việt], fill: rgb("#fff5f4"))[
-    #set text(12pt)
-    #set par(leading: 0.75em)
-    Những #ul(p-ss)[khác biệt nào] xuất hiện trong #ul(p-pt)[kết quả TDPB (đánh giá bằng rubric) và lập luận định tính] khi #ul(p-kt)[sinh viên sư phạm Vật lí] #ul(p-pv)[giải các bài toán động học một chiều] thông qua #ul(p-dl)[đối thoại Socrates chỉ do GV dẫn dắt], #ul(p-ss)[so với] khi #ul(p-dl)[cùng cấu trúc đối thoại đó được GAI hỗ trợ]?
+  #card(rgb("#2e7d32"), none, fill: rgb("#f1f8f3"))[
+    #set text(10pt)
+    #sym.arrow.r *Ý nghĩa phương pháp luận:* Việc chia nhỏ thành C1, C2, C3 giúp đề tài kiểm chứng toàn diện Khung lí thuyết theo thiết kế nghiên cứu hỗn hợp (*Mixed-Methods Triangulation*), tăng tính thuyết phục của câu trả lời.
   ]
 ]
 
-// ===================== 10. Năm điều kiện =====================
-#slide([Câu hỏi chính có đạt 5 điều kiện của một câu hỏi nghiên cứu?])[
-  #set text(10.5pt)
-  #let ok = text(fill: c-m, weight: "bold")[Đạt]
-  #table(
-    columns: (20pt, 1.05fr, 1.75fr, 1.1fr),
-    align: (center + horizon, left + horizon, left + horizon, left + horizon),
-    fill: (x, y) => if y == 0 { rgb("#5b7d3a") } else if calc.even(y) { luma(247) },
-    table.header(
-      [], text(fill: white, weight: "bold")[Điều kiện],
-      text(fill: white, weight: "bold")[Bằng chứng trong bài báo], text(fill: white, weight: "bold")[Nhận xét],
-    ),
-    [*1*], [Trả lời được bằng dữ liệu thu trong nghiên cứu],
-    [Điểm rubric bài giải nhóm (6 nhóm × 5 bài × 2 điều kiện); khảo sát Likert; câu trả lời mở của 18 SV],
-    [#ok],
-    [*2*], [Dùng khái niệm trong khung, đã thành biến đo được],
-    [TDPB → rubric 5 tiêu chí (CVI = 1.00); hình thức trung gian → A1/A2 (KN2)],
-    [#ok; riêng “lập luận định tính” chưa có tiêu chí đo rõ như rubric],
-    [*3*], [Chỉ rõ quan hệ / so sánh],
-    [So sánh hai điều kiện trong cùng một nhóm: “what differences … compared with”],
-    [#ok; chỉ là khác biệt trong mẫu (PV), không tách được tác động của GAI],
-    [*4*], [Có khách thể, phạm vi đủ hẹp để làm được],
-    [SV sư phạm Vật lí (18 SV, 6 nhóm, một trường ĐH công lập ở Ecuador); động học một chiều; 5 bài toán],
-    [#ok],
-    [*5*], [Câu trả lời chưa biết trước – chạm đúng khoảng trống],
-    [V2: bằng chứng thực nghiệm trong giáo dục Vật lí còn hạn chế, đặc biệt ở động học một chiều],
-    [#ok],
-  )
-]
-
-// ===================== 11. Câu hỏi phụ =====================
-#slide([Các câu hỏi phụ và phạm vi của câu hỏi])[
+// ===================== SLIDE 5: LÍ GIẢI KHUNG LÍ THUYẾT NÀO TRẢ LỜI CÂU HỎI (P1: LÍ THUYẾT NỀN) =====================
+#slide([Khung lí thuyết nào được sử dụng để trả lời câu hỏi? (1)], tag: "Lí thuyết nền")[
+  #text(12pt)[
+    Để trả lời câu hỏi: _"Sự khác biệt nào xuất hiện khi có thêm GAI hỗ trợ đối thoại Socrates?"_, bài báo dựa trên *3 luận điểm lí thuyết nền tảng*:
+  ]
+  #v(2pt)
   #grid(
-    columns: (1fr, 1.15fr), column-gutter: 12pt,
-    [
-      #shot("hinh/cau-hoi-phu.png", cap: [C1–C3, cuối cột trái trang 2 (C3 kết thúc ở đầu cột phải)])
-      #v(2pt)
-      #card(c-c, [Phạm vi câu hỏi (PV, tr. 2)])[
-        #set text(11pt)
-        Vì hai điều kiện thực hiện theo *trình tự cố định*, các câu hỏi chỉ hướng tới *khác biệt trong mẫu* và *sự hội tụ dữ liệu*, không hỏi tác động nhân quả độc lập của GAI.
-      ]
-    ],
-    [
+    columns: (1fr, 1fr, 1fr), column-gutter: 8pt,
+    card(c-lt, [1. Trung gian nhận thức \ (Epistemic Mediation)])[
       #set text(10.5pt)
-      #table(
-        columns: (26pt, 1.5fr, 1fr, 0.75fr),
-        align: (center + horizon, left + horizon, left + horizon, left + horizon),
-        fill: (x, y) => if y == 0 { c-c } else if calc.even(y) { luma(247) },
-        table.header(
-          [], text(fill: white, weight: "bold")[Câu hỏi], text(fill: white, weight: "bold")[Khái niệm / dữ liệu],
-          text(fill: white, weight: "bold")[Dạng],
-        ),
-        [*C1*], [Khác biệt về kết quả TDPB đặc thù môn học giữa hai điều kiện là gì?], [TDPB · điểm rubric nhóm], [So sánh],
-        [*C2*], [KSE, CL, IM khác nhau thế nào giữa hai giai đoạn?], [KSE, CL, IM · khảo sát Likert], [So sánh],
-        [*C3*], [Phản tư định tính hội tụ với hay làm rõ, giới hạn kết quả định lượng thế nào?], [Câu trả lời mở · ma trận hội tụ], [Mô tả, tích hợp],
-      )
-      #src[Câu hỏi chính bao trùm C1 (TDPB theo rubric) và phần định tính (C3). Tác giả gọi C2 là câu hỏi thứ cấp (secondary research questions, tr. 12).]
+      - *Luận điểm:* GAI không chỉ là máy tính hay nguồn tra cứu dữ liệu, mà đóng vai trò *trung gian nhận thức* (LT1).
+      - *Cơ chế:* GAI định hình cách người học tạo lập bằng chứng, lập luận phản biện, rà soát tính nhất quán và tự điều chỉnh tư duy.
+      - *Ý nghĩa trả lời:* Giải thích *tại sao* tương tác với GAI lại tác động trực tiếp đến năng lực tư duy phản biện.
+    ],
+    card(c-lt, [2. Giàn giáo & Quyền chủ động \ (Scaffolding & Agency)])[
+      #set text(10.5pt)
+      - *Luận điểm:* GAI là "giàn giáo nhận thức có giám sát" (KN1), nhưng *quyền chủ động nhận thức* phải thuộc về người học (LT2) [9--12].
+      - *Cơ chế:* GAI gợi ý các góc nhìn, giải pháp thay thế; người học phải chịu trách nhiệm phán đoán và phê phán câu trả lời của AI.
+      - *Ý nghĩa trả lời:* Giải thích *vì sao* học sinh không bị ỷ lại vào AI mà ngược lại còn nâng cao năng lực phản tư.
+    ],
+    card(c-lt, [3. Dạy học Vật lí theo mô hình \ (Model-based Physics)])[
+      #set text(10.5pt)
+      - *Luận điểm:* Giải bài toán động học là quá trình *xây dựng mô hình, suy luận và lập luận khoa học*, không phải thay số vào công thức (LT3) [1,2].
+      - *Cơ chế:* Đối thoại Socrates thúc đẩy xem xét giả định và biểu diễn đa phương thức.
+      - *Ý nghĩa trả lời:* Định vị *tiêu chí đo lường* sự tiến bộ: đo năng lực lập luận và hiểu bản chất hiện tượng.
     ],
   )
+  #v(3pt)
+  #card(accent, [Vai trò cốt lõi của Lí thuyết nền], fill: rgb("#fdf2f1"))[
+    #set text(11pt)
+    Lí thuyết nền cung cấp *căn cứ lí luận để dự đoán* (kì vọng có hướng: GAI được giám sát sẽ làm tăng hoặc giữ nguyên kết quả, không gây suy giảm) và *giải thích cơ chế sâu xa* của sự tiến bộ khi trả lời câu hỏi nghiên cứu.
+  ]
 ]
 
-// ===================== 12. Khung -> giả thuyết =====================
-#slide([Từ khung lí thuyết đến giả thuyết nghiên cứu])[
+// ===================== SLIDE 6: LÍ GIẢI KHUNG LÍ THUYẾT NÀO TRẢ LỜI CÂU HỎI (P2: KHÁI NIỆM & MỐI LIÊN HỆ) =====================
+#slide([Khung lí thuyết nào được sử dụng để trả lời câu hỏi? (2)], tag: "Khái niệm & Mối liên hệ")[
   #grid(
-    columns: (1.05fr, 1fr), column-gutter: 14pt,
+    columns: (1.1fr, 1fr), column-gutter: 12pt,
     [
-      #shot("hinh/gia-thuyet-khung.png", cap: [G4 (khung lí thuyết → kì vọng có hướng) và G5, trang 6 bài gốc])
-      #v(2pt)
-      #card(navy, none, fill: luma(245))[
+      #card(c-kn, [Khái niệm công cụ: Thao tác hóa để trả lời câu hỏi])[
         #set text(10.5pt)
-        *Giả thuyết:* “kết luận giả định do nhà nghiên cứu đặt ra để theo dõi, xem xét, phân tích, kiểm chứng” #src[(Vũ Cao Đàm, 2018)] – là *câu trả lời tạm thời* cho câu hỏi NC, phải *kiểm chứng được*.
+        Để đo lường và trả lời khách quan các vế trong câu hỏi:
+        - *Biến độc lập (Hình thức can thiệp):* Chuẩn hóa đối thoại Socrates thành quy trình 4 bước: _giả thuyết cá nhân #sym.arrow.r thảo luận nhóm #sym.arrow.r câu hỏi Socrates #sym.arrow.r viết đồng thuận_. Hai điều kiện chỉ khác nhau ở việc có/không có GAI tham gia hỗ trợ (KN2).
+        - *Biến phụ thuộc (TDPB đặc thù môn học):* Thao tác hóa thành *Rubric 5 tiêu chí* (KN2):
+          1. Hiểu vấn đề và nguyên lí vật lí [16,17]
+          2. Cấu trúc lập luận logic và biện minh [16,17]
+          3. Sử dụng phản ví dụ [18]
+          4. Nhận diện và sửa chữa sai lầm khái niệm [16,19]
+          5. Tổ chức và diễn đạt bài giải rõ ràng [18]
+        - *Độ tin cậy:* Rubric đạt chỉ số giá trị nội dung CVI = 1.00 qua 2 vòng chuyên gia đánh giá.
       ]
     ],
     [
-      #set text(11.5pt)
-      #node(c-lt)[*Lí thuyết nền* (LT1, LT2, KN1): GAI là giàn giáo nhận thức *có giám sát*, không thay thế người học]
-      #darr
-      #node(c-g)[*Kì vọng có hướng* (G4, tr. 6): GAI không gây thiệt hại; nếu có thay đổi thì *theo hướng cải thiện*]
-      #darr
-      #node(c-g)[*Giả thuyết Ha có định hướng* (G1, tr. 5): trung gian GAI không làm giảm kết quả, mà tăng hoặc không đổi]
-      #darr
-      #node(navy)[*Kiểm chứng:* Wilcoxon dấu-hạng *một phía*, hướng được khai báo trước khi xem dữ liệu]
-    ],
-  )
-]
-
-// ===================== 13. Ba dạng giả thuyết =====================
-#slide([Ba dạng giả thuyết trong bài báo])[
-  #grid(
-    columns: (0.78fr, 1.22fr), column-gutter: 12pt,
-    [
-      #shot("hinh/gia-thuyet-p5.png", cap: [G1–G2: giả thuyết toàn cục, trang 5])
-      #v(1pt)
-      #shot("hinh/gia-thuyet-hai-phia.png", cap: [G3: giả thuyết hai phía theo từng bài, trang 6])
-    ],
-    [
-      #set text(10.5pt)
-      #table(
-        columns: (0.95fr, 1.6fr, 1fr),
-        align: (left + horizon, left + horizon, left + horizon),
-        fill: (x, y) => if y == 0 { navy } else if x == 0 { (luma(110), luma(110), accent, accent).at(y - 1) } else if calc.even(y) { luma(247) },
-        table.header(text(fill: white, weight: "bold")[Dạng], text(fill: white, weight: "bold")[Phát biểu trong bài], text(fill: white, weight: "bold")[Kết quả]),
-        text(fill: white, weight: "bold")[Câu hỏi NC],
-        [Điểm TDPB (rubric) của 6 nhóm khi có GAI (A2) có khác / cao hơn khi chỉ có GV (A1) không?], [],
-        text(fill: white, weight: "bold")[H0: không có nghĩa],
-        [Toàn cục *H0G*: Md(A2 − A1) ≤ 0 \ Từng bài *H0k*: Md(A2 − A1) = 0], [],
-        text(fill: white, weight: "bold")[Ha: có nghĩa, có định hướng],
-        [*H1G*: Md(A2 − A1) > 0 (một phía, G2) \ *H1k*: Md > 0 khi khung lí thuyết cho kì vọng có hướng (G5)],
-        [Bác bỏ H0G: W = 0, p = 0.0312],
-        text(fill: white, weight: "bold")[Ha: có nghĩa, không định hướng],
-        [*H1k*: Md(A2 − A1) ≠ 0 (hai phía, từng bài, G3)],
-        [Có ý nghĩa ở P1, P4 (p = 0.03125); P2, P3, P5 chưa đạt],
-      )
-      #card(c-g, none, fill: rgb("#fffbe6"))[
-        #set text(11pt)
-        *Cách kiểm chứng:* so sánh *cùng 6 nhóm* ở A1 và A2 · đo *điểm rubric TDPB* · kiểm định Wilcoxon dấu-hạng (α = 0.05).
+      #card(c-ml, [Mối liên hệ: Cơ chế trả lời câu hỏi (Mô hình SOCRATIC-IA)])[
+        #set text(10.5pt)
+        Mối liên hệ biện chứng giữa các thành phần được thể hiện qua mô hình *SOCRATIC-IA* (ML1, ML2, tr. 4):
+        #v(2pt)
+        #node(c-lt)[*Lí thuyết nền:* GAI là giàn giáo nhận thức (LT1) dưới sự giám sát của GV (LT2)]
+        #align(center, text(9.5pt, fill: luma(100))[#sym.arrow.b thúc đẩy tương tác])
+        #node(c-ml)[*Tác động nhận thức:* Gợi phản ví dụ, kích hoạt đối chiếu giả định, buộc tự kiểm tra sai số toán học]
+        #align(center, text(9.5pt, fill: luma(100))[#sym.arrow.b thể hiện qua sản phẩm bài làm])
+        #node(c-kn)[*Câu trả lời thực nghiệm:* Điểm Rubric TDPB tăng trung bình 8.3 điểm/nhóm (toàn bộ 6 nhóm đều tăng)]
       ]
-    ],
-  )
-]
-
-// ===================== 14. Nhận xét =====================
-#slide([Nhận xét về mạch từ khung lí thuyết đến câu hỏi], tag: "Tổng kết")[
-  #grid(
-    columns: (1fr, 1fr), column-gutter: 12pt,
-    card(c-m, [Điểm mạnh])[
-      #set text(11.5pt)
-      - Mạch logic rõ: khoảng trống (V2) → khung (KN, LT, ML) → câu hỏi so sánh → giả thuyết có hướng.
-      - Khái niệm then chốt được định nghĩa thống nhất (GAI là giàn giáo có giám sát) và thao tác hóa thành biến (rubric, CVI = 1.00).
-      - Tác giả tự nêu phạm vi câu hỏi (PV), tránh suy diễn nhân quả quá mức.
-    ],
-    card(accent, [Hạn chế cần lưu ý])[
-      #set text(11.5pt)
-      - Không có mục giả thuyết riêng ở phần mở đầu; giả thuyết chỉ xuất hiện dưới dạng *giả thuyết thống kê* ở mục kết quả.
-      - Câu hỏi so sánh nhưng thiết kế tiền thực nghiệm, trình tự cố định, dùng lại cùng bài: chỉ trả lời được *khác biệt trong mẫu*.
-      - “Lập luận định tính” chưa có tiêu chí đo rõ; LT1 ít dẫn nguồn.
     ],
   )
   #v(2pt)
-  #card(c-g, [Gợi ý: phát biểu giả thuyết ngay sau câu hỏi (đề xuất của nhóm trình bày, không có trong bài)], fill: rgb("#fffbe6"))[
+  #card(navy, none, fill: luma(248))[
+    #set text(10.5pt)
+    #sym.arrow.r *Khung lí thuyết trả lời câu hỏi ở cả hai mặt:* Cung cấp *công cụ đo lường* (rubric 5 tiêu chí để trả lời định lượng) và cung cấp *mô hình cơ chế* (giàn giáo nhận thức + điều chỉnh siêu nhận thức để trả lời định tính).
+  ]
+]
+
+// ===================== SLIDE 7: ĐỐI CHIẾU 5 ĐIỀU KIỆN CÂU HỎI NGHIÊN CỨU =====================
+#slide([Câu hỏi chính đáp ứng 5 điều kiện của Câu hỏi nghiên cứu], tag: "Tiêu chuẩn câu hỏi")[
+  #set text(10.5pt)
+  #let ok = text(fill: c-m, weight: "bold")[#sym.checkmark Đạt]
+  #table(
+    columns: (22pt, 1.15fr, 1.75fr, 1.1fr),
+    align: (center + horizon, left + horizon, left + horizon, left + horizon),
+    fill: (x, y) => if y == 0 { rgb("#5b7d3a") } else if calc.even(y) { luma(248) },
+    table.header(
+      [], text(fill: white, weight: "bold")[5 Điều kiện cần đạt],
+      text(fill: white, weight: "bold")[Minh chứng trong bài báo (dựa vào Khung lí thuyết)],
+      text(fill: white, weight: "bold")[Đánh giá],
+    ),
+    [*1*], [Trả lời được bằng dữ liệu thu trong nghiên cứu],
+    [Thu thập điểm rubric bài giải của 6 nhóm qua 5 bài tập $times$ 2 giai đoạn, cùng khảo sát Likert và 18 bản phản tư tự do.],
+    [#ok (Dữ liệu hỗn hợp định lượng & định tính)],
+
+    [*2*], [Dùng khái niệm trong khung, đã thành biến đo được],
+    [TDPB được đo lường chuẩn xác bằng Rubric 5 tiêu chí (CVI = 1.00); Hình thức trung gian thành 2 điều kiện can thiệp A1 và A2.],
+    [#ok (Thao tác hóa khái niệm chặt chẽ)],
+
+    [*3*], [Chỉ rõ quan hệ / so sánh],
+    [Câu hỏi chỉ rõ phép so sánh hiệu quả giữa 2 điều kiện: đối thoại chỉ có GV _so với_ đối thoại có thêm GAI.],
+    [#ok (Câu hỏi so sánh thực nghiệm)],
+
+    [*4*], [Có khách thể, phạm vi đủ hẹp để làm được],
+    [Khách thể: 18 SV sư phạm Vật lí (6 nhóm); Phạm vi: giải 5 bài toán động học chuyển động thẳng một chiều.],
+    [#ok (Quy mô vừa sức, khả thi)],
+
+    [*5*], [Câu trả lời chưa biết trước -- chạm đúng khoảng trống],
+    [Chạm đúng khoảng trống V2: chưa có bằng chứng thực nghiệm rõ ràng về GAI hỗ trợ TDPB trong dạy học Động học Vật lí.],
+    [#ok (Đóng góp tri thức mới)],
+  )
+  #v(2pt)
+  #card(navy, none, fill: luma(248))[
+    #set text(10.5pt)
+    *Nhận xét:* Nhờ có khung lí thuyết vững chắc (định nghĩa rõ biến và phương pháp đo), câu hỏi nghiên cứu của bài báo đáp ứng trọn vẹn cả 5 tiêu chuẩn khắt khe của một câu hỏi nghiên cứu khoa học giáo dục.
+  ]
+]
+
+// ===================== SLIDE 8: TỔNG KẾT MẠCH LOGIC =====================
+#slide([Tổng kết: Mạch logic từ Khung lí thuyết đến Câu trả lời], tag: "Tổng kết")[
+  #v(2pt)
+  #grid(
+    columns: (1fr, auto, 1fr, auto, 1fr),
+    column-gutter: 6pt, align: horizon,
+    node(c-lt)[
+      #text(11pt, weight: "bold", fill: c-lt)[1. KHUNG LÍ THUYẾT] \
+      #v(2pt)
+      #align(left)[
+        #set text(9.5pt)
+        - *Lí thuyết nền:* GAI là giàn giáo nhận thức có giám sát; giải bài là lập luận.
+        - *Khái niệm công cụ:* Rubric TDPB 5 tiêu chí; 2 mức can thiệp A1/A2.
+        - *Mối liên hệ:* Mô hình SOCRATIC-IA tích hợp đối thoại + GAI.
+      ]
+    ],
+    arr,
+    node(c-c)[
+      #text(11pt, weight: "bold", fill: c-c)[2. CÂU HỎI NGHIÊN CỨU] \
+      #v(2pt)
+      #align(left)[
+        #set text(9.5pt)
+        - *Cấu trúc:* So sánh khác biệt về điểm rubric TDPB & lập luận giữa A1 và A2 trên SV sư phạm Vật lí giải bài động học.
+        - *Phạm vi:* So sánh nội bộ mẫu, đo lường sự tiến bộ và tính khả thi sư phạm.
+      ]
+    ],
+    arr,
+    node(c-m)[
+      #text(11pt, weight: "bold", fill: c-m)[3. CÂU TRẢ LỜI ĐẠT ĐƯỢC] \
+      #v(2pt)
+      #align(left)[
+        #set text(9.5pt)
+        - *Định lượng:* Điểm rubric tăng ở cả 6 nhóm (trung bình $+8.3$ điểm, $p = 0.0312$).
+        - *Định tính:* SV tăng năng lực rà soát phản ví dụ, phát hiện lỗi sai khái niệm.
+        - *Đóng góp:* Khẳng định tính khả thi của mô hình SOCRATIC-IA.
+      ]
+    ],
+  )
+  #v(8pt)
+  #card(c-m, [Kết luận cho bài thuyết trình], fill: rgb("#f2f8f2"))[
     #set text(11.5pt)
-    *Ha (có định hướng):* Điểm TDPB (rubric) của sinh viên sư phạm Vật lí khi giải bài động học một chiều qua đối thoại Socrates *có GAI hỗ trợ cao hơn* khi chỉ có GV dẫn dắt. \
-    *H0:* Không có khác biệt (hoặc thấp hơn) về điểm TDPB giữa hai điều kiện.
+    Khung lí thuyết không chỉ là cơ sở lí luận hình thức, mà là *kim chỉ nam trực tiếp*:
+    + *Khai sinh ra câu hỏi nghiên cứu:* Từ khoảng trống tri thức và cơ chế giàn giáo nhận thức.
+    + *Định hình cấu trúc câu hỏi:* Cung cấp biến độc lập, biến phụ thuộc và phương thức so sánh.
+    + *Cung cấp công cụ & cơ chế để trả lời câu hỏi:* Rubric 5 tiêu chí giúp đo lường sự khác biệt, và các nguyên tắc nhận thức giúp lí giải thuyết phục kết quả thực nghiệm.
   ]
 ]
