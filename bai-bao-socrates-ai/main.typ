@@ -19,7 +19,7 @@
     [Guerrero-Zambrano và cộng sự · PRPER 22, 020134 (2026) #h(1fr) #counter(page).display("1")]
   },
 )
-#set text(font: "Times New Roman", size: 11pt, lang: "vi")
+#set text(font: "Times New Roman", size: 12.1pt, lang: "vi")
 #set par(justify: true, leading: 0.64em, spacing: 0.7em)
 #set heading(numbering: none)
 #show heading.where(level: 1): set text(size: 14pt, fill: blue)
