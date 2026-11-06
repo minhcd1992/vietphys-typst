@@ -1953,6 +1953,227 @@
 
 #pagebreak()
 
+= Bài tập chương 5
+
+#bai("5.1")[
+  Số hạt bụi mịn trung bình trong 1 lít không khí ở một phòng thí nghiệm là 50 hạt. Không biết gì thêm về phân phối của số hạt bụi, hãy đánh giá xác suất để trong 1 lít không khí lấy ngẫu nhiên có từ 200 hạt bụi trở lên.
+]
+#giai[
+  Gọi $X$ là số hạt bụi trong 1 lít không khí. $X >= 0$ và $E(X) = 50$. Vì chỉ biết kì vọng, ta dùng bất đẳng thức Markov:
+  $ P(X >= a) <= frac(E(X), a) => P(X >= 200) <= frac(50, 200) = 0","25. $
+  Vậy xác suất có từ 200 hạt bụi trở lên *không vượt quá 25%*.
+  _(Bất đẳng thức Markov chỉ cho một chặn trên; xác suất thực tế thường nhỏ hơn nhiều.)_
+]
+
+#bai("5.2")[
+  Điện áp $X$ (V) của lưới điện tại một phòng thí nghiệm có kì vọng $E(X) = 220$ V và độ lệch tiêu chuẩn $sigma = 4$ V.
+  #y[a) Dùng bất đẳng thức Chebyshev, hãy đánh giá xác suất để điện áp nằm trong khoảng $(210; 230)$ V.]
+  #y[b) Nếu biết thêm $X$ có phân phối chuẩn thì xác suất trên chính xác bằng bao nhiêu? So sánh.]
+]
+#giai[
+  *a)* Khoảng $(210; 230)$ đối xứng quanh $mu = 220$ với $epsilon = 10$. Theo bất đẳng thức Chebyshev:
+  $ P(|X - mu| < epsilon) >= 1 - frac(sigma^2, epsilon^2) = 1 - frac(16, 100) = 0","84. $
+  Vậy xác suất điện áp nằm trong khoảng $(210; 230)$ V *ít nhất là 84%*.
+
+  *b)* Nếu $X tilde N(220, 4^2)$:
+  $ P(|X - 220| < 10) = 2 Phi(frac(10, 4)) = 2 Phi(2","5) = 2 dot 0","4938 = 0","9876. $
+  _Nhận xét:_ Chặn Chebyshev ($0","84$) đúng với mọi phân phối nên "thận trọng" hơn nhiều so với giá trị thực $0","9876$ khi biết phân phối là chuẩn.
+]
+
+#bai("5.3")[
+  Đo chiều dài $mu$ của một thanh kim loại bằng một dụng cụ có sai số ngẫu nhiên; mỗi lần đo cho kết quả $X_i$ với $E(X_i) = mu$ và độ lệch tiêu chuẩn $sigma = 0","5$ mm. Các lần đo độc lập. Lấy trung bình $overline(X)$ của $n$ lần đo làm kết quả. Cần đo ít nhất bao nhiêu lần để với xác suất không nhỏ hơn 0,95, sai lệch $|overline(X) - mu|$ nhỏ hơn 0,2 mm:
+  #y[a) theo bất đẳng thức Chebyshev (luật số lớn);]
+  #y[b) theo định lý giới hạn trung tâm?]
+]
+#giai[
+  Ta có $E(overline(X)) = mu$, $V(overline(X)) = frac(sigma^2, n) = frac(0","25, n)$.
+
+  *a)* Áp dụng bất đẳng thức Chebyshev cho $overline(X)$ với $epsilon = 0","2$:
+  $ P(|overline(X) - mu| < 0","2) >= 1 - frac(sigma^2, n epsilon^2) = 1 - frac(0","25, 0","04 n). $
+  Yêu cầu $1 - frac(0","25, 0","04 n) >= 0","95 <=> frac(0","25, 0","04 n) <= 0","05 <=> n >= frac(0","25, 0","04 dot 0","05) = 125$.
+  Vậy cần đo *ít nhất 125 lần*.
+
+  *b)* Theo định lý giới hạn trung tâm, $overline(X) approx N(mu, sigma^2 / n)$:
+  $ P(|overline(X) - mu| < epsilon) approx 2 Phi(frac(epsilon sqrt(n), sigma)) >= 0","95 <=> frac(epsilon sqrt(n), sigma) >= 1","96. $
+  $ n >= (frac(1","96 dot 0","5, 0","2))^2 = 4","9^2 = 24","01 => n = 25 thin "lần". $
+  _Nhận xét:_ Định lý giới hạn trung tâm cho số lần đo ít hơn nhiều vì dùng thêm thông tin về dạng phân phối (xấp xỉ chuẩn).
+]
+
+#bai("5.4")[
+  Một bộ đếm Geiger ghi nhận mỗi hạt bay tới với xác suất $p$ chưa biết. Người ta dùng tần suất $f = m/n$ ($m$ là số hạt được ghi nhận trong $n$ hạt bay tới) để ước lượng $p$. Cần ít nhất bao nhiêu hạt để với xác suất không nhỏ hơn 0,9 thì $|f - p| < 0","05$:
+  #y[a) theo luật số lớn Bernoulli (bất đẳng thức Chebyshev);]
+  #y[b) theo định lý Moivre -- Laplace?]
+]
+#giai[
+  Số hạt được ghi nhận $m tilde B(n, p)$, nên $E(f) = p$ và $V(f) = frac(p q, n)$ với $q = 1 - p$. Vì $p$ chưa biết, ta dùng đánh giá $p q <= 1/4$.
+
+  *a)* Theo bất đẳng thức Chebyshev:
+  $ P(|f - p| < epsilon) >= 1 - frac(p q, n epsilon^2) >= 1 - frac(1, 4 n epsilon^2). $
+  Yêu cầu $frac(1, 4 n dot 0","05^2) <= 0","1 <=> n >= frac(1, 4 dot 0","0025 dot 0","1) = 1000$. Vậy cần *ít nhất 1000 hạt*.
+
+  *b)* Theo định lý Moivre -- Laplace:
+  $ P(|f - p| < epsilon) approx 2 Phi(epsilon sqrt(frac(n, p q))) >= 2 Phi(2 epsilon sqrt(n)) >= 0","9 <=> 2 epsilon sqrt(n) >= 1","645. $
+  $ sqrt(n) >= frac(1","645, 0","1) = 16","45 => n >= 270","6 => n = 271 thin "hạt". $
+]
+
+#bai("5.5")[
+  Một mẫu chất phóng xạ có 400 hạt nhân; mỗi hạt nhân phân rã trong khoảng thời gian quan sát với xác suất 0,2, độc lập với nhau. Dùng định lý giới hạn địa phương Moivre -- Laplace, tính gần đúng xác suất để có:
+  #y[a) đúng 80 hạt nhân phân rã;]
+  #y[b) đúng 90 hạt nhân phân rã.]
+]
+#giai[
+  Gọi $X$ là số hạt nhân phân rã: $X tilde B(400; 0","2)$, $n p = 80$, $n p q = 400 dot 0","2 dot 0","8 = 64 => sqrt(n p q) = 8$.
+  Định lý giới hạn địa phương:
+  $ P(X = k) approx frac(1, sqrt(n p q)) thin phi(frac(k - n p, sqrt(n p q))), quad phi(x) = frac(1, sqrt(2 pi)) e^(-x^2 / 2). $
+
+  *a)* $k = 80 => x = 0$, $phi(0) = 0","3989$:
+  $ P(X = 80) approx frac(0","3989, 8) approx 0","0499. $
+
+  *b)* $k = 90 => x = frac(90 - 80, 8) = 1","25$, $phi(1","25) approx 0","1826$:
+  $ P(X = 90) approx frac(0","1826, 8) approx 0","0228. $
+  _(Giá trị chính xác theo nhị thức: $0","0498$ và $0","0224$ -- xấp xỉ rất tốt.)_
+]
+
+#bai("5.6")[
+  Tỉ lệ linh kiện bán dẫn bị lỗi của một dây chuyền là 10%. Kiểm tra ngẫu nhiên 400 linh kiện. Tính gần đúng xác suất:
+  #y[a) số linh kiện lỗi từ 30 đến 50;]
+  #y[b) số linh kiện lỗi từ 50 trở lên.]
+]
+#giai[
+  Gọi $X$ là số linh kiện lỗi: $X tilde B(400; 0","1)$ với $n p = 40$, $n q = 360$ đều lớn hơn 5 nên dùng định lý tích phân Moivre -- Laplace: $X approx N(40; 36)$, $sqrt(n p q) = 6$.
+  $ P(k_1 <= X <= k_2) approx Phi(frac(k_2 - n p, sqrt(n p q))) - Phi(frac(k_1 - n p, sqrt(n p q))). $
+
+  *a)*
+  $ P(30 <= X <= 50) approx Phi(frac(50 - 40, 6)) - Phi(frac(30 - 40, 6)) = 2 Phi(1","67) = 2 dot 0","4525 = 0","9050. $
+
+  *b)*
+  $ P(X >= 50) approx 0","5 - Phi(frac(50 - 40, 6)) = 0","5 - Phi(1","67) = 0","5 - 0","4525 = 0","0475. $
+  _(Ghi chú: Nếu dùng hiệu chỉnh liên tục thì $P(30 <= X <= 50) approx 2 Phi(10","5 / 6) = 2 Phi(1","75) = 0","9198$, sát với giá trị chính xác $0","9207$.)_
+]
+
+#bai("5.7")[
+  Một thang máy có tải trọng an toàn 1000 kg. Khối lượng mỗi người đi thang là biến ngẫu nhiên độc lập có kì vọng 65 kg và độ lệch tiêu chuẩn 10 kg. Tính gần đúng xác suất để khi có 15 người vào thang máy thì tổng khối lượng vượt quá tải trọng an toàn.
+]
+#giai[
+  Gọi $X_i$ là khối lượng người thứ $i$ và $S = X_1 + dots + X_(15)$. Ta có:
+  $ E(S) = 15 dot 65 = 975 thin "kg"; quad V(S) = 15 dot 10^2 = 1500 => sigma(S) = sqrt(1500) approx 38","73 thin "kg". $
+  Theo định lý giới hạn trung tâm, $S approx N(975; 1500)$:
+  $ P(S > 1000) approx 0","5 - Phi(frac(1000 - 975, 38","73)) = 0","5 - Phi(0","65) = 0","5 - 0","2422 = 0","2578. $
+  Vậy xác suất quá tải khoảng *25,8%*.
+]
+
+#bai("5.8")[
+  Khi cộng 100 số thực, mỗi số được làm tròn đến hàng đơn vị. Giả sử sai số làm tròn của mỗi số là các biến ngẫu nhiên độc lập có phân phối đều trên $[-0","5; 0","5]$. Tính gần đúng xác suất để sai số của tổng có trị tuyệt đối nhỏ hơn 3.
+]
+#giai[
+  Sai số làm tròn $X_i tilde U(-0","5; 0","5)$ có $E(X_i) = 0$, $V(X_i) = frac((b - a)^2, 12) = frac(1, 12)$.
+  Sai số của tổng $S = sum_(i=1)^(100) X_i$ có $E(S) = 0$, $V(S) = frac(100, 12)$, $sigma(S) = sqrt(100 / 12) approx 2","887$.
+  Theo định lý giới hạn trung tâm:
+  $ P(|S| < 3) approx 2 Phi(frac(3, 2","887)) = 2 Phi(1","04) = 2 dot 0","3508 = 0","7016. $
+]
+
+#bai("5.9")[
+  Một detector đếm photon; số photon ghi được trong mỗi giây là biến ngẫu nhiên có phân phối Poisson với trung bình 4 photon/giây, các giây độc lập nhau. Tính gần đúng xác suất để trong 100 giây tổng số photon đếm được nằm trong khoảng từ 380 đến 420.
+]
+#giai[
+  Gọi $X_i tilde P(4)$ là số photon trong giây thứ $i$: $E(X_i) = V(X_i) = 4$. Tổng $S = sum_(i=1)^(100) X_i$ có:
+  $ E(S) = 400; quad V(S) = 400 => sigma(S) = 20. $
+  Theo định lý giới hạn trung tâm (tổng của 100 biến độc lập cùng phân phối), $S approx N(400; 20^2)$:
+  $ P(380 <= S <= 420) approx 2 Phi(frac(20, 20)) = 2 Phi(1) = 2 dot 0","3413 = 0","6826. $
+]
+
+#bai("5.10")[
+  Cần khảo sát bao nhiêu sinh viên để ước lượng tỉ lệ $p$ sinh viên thích học Vật lí với sai lệch $|f - p| < 0","03$ và xác suất không nhỏ hơn 0,95, khi chưa có thông tin gì về $p$:
+  #y[a) theo bất đẳng thức Chebyshev;]
+  #y[b) theo định lý Moivre -- Laplace?]
+]
+#giai[
+  Vì chưa biết $p$, dùng $p q <= 0","25$.
+
+  *a)* $1 - frac(1, 4 n epsilon^2) >= 0","95 <=> n >= frac(1, 4 dot 0","03^2 dot 0","05) approx 5555","6 => n = 5556$ sinh viên.
+
+  *b)* $2 Phi(2 epsilon sqrt(n)) >= 0","95 <=> 2 epsilon sqrt(n) >= 1","96 <=> n >= frac(1","96^2 dot 0","25, 0","03^2) approx 1067","1 => n = 1068$ sinh viên.
+]
+
+#bai("5.11")[
+  Biến ngẫu nhiên rời rạc $X$ có bảng phân phối:
+  #align(center)[
+    #v(3pt)
+    #table(
+      columns: (1.5cm, 1.5cm, 1.5cm, 1.5cm, 1.5cm, 1.5cm),
+      align: center + horizon,
+      stroke: 0.4pt,
+      [$X$], [1], [2], [3], [4], [5],
+      [$P$], [0,1], [0,2], [0,4], [0,2], [0,1],
+    )
+  ]
+  Dùng bất đẳng thức Chebyshev đánh giá $P(|X - E(X)| < 2)$, rồi so sánh với giá trị đúng.
+]
+#giai[
+  $ E(X) = 1(0","1) + 2(0","2) + 3(0","4) + 4(0","2) + 5(0","1) = 3. $
+  $ V(X) = sum (x_i - 3)^2 p_i = 4(0","1) + 1(0","2) + 0(0","4) + 1(0","2) + 4(0","1) = 1","2. $
+  Theo bất đẳng thức Chebyshev với $epsilon = 2$:
+  $ P(|X - 3| < 2) >= 1 - frac(1","2, 4) = 0","7. $
+  Giá trị đúng: $P(|X - 3| < 2) = P(2 <= X <= 4) = 0","2 + 0","4 + 0","2 = 0","8 >= 0","7$ (thỏa mãn đánh giá).
+]
+
+#bai("5.12*")[
+  (Bước ngẫu nhiên -- mô hình khuếch tán) Một phân tử thực hiện $n = 10 thin 000$ bước dịch chuyển dọc trục $O x$; mỗi bước dài 1 nm, sang phải hoặc sang trái với xác suất như nhau, các bước độc lập. Tính gần đúng xác suất để sau $n$ bước, phân tử cách vị trí ban đầu:
+  #y[a) không quá 100 nm;]
+  #y[b) không quá 200 nm.]
+]
+#giai[
+  Gọi $X_i = plus.minus 1$ (nm) là bước thứ $i$: $E(X_i) = 0$, $V(X_i) = E(X_i^2) = 1$. Vị trí sau $n$ bước $S = sum X_i$ có $E(S) = 0$, $V(S) = n = 10 thin 000$, $sigma(S) = 100$ nm.
+  Theo định lý giới hạn trung tâm, $S approx N(0; 100^2)$:
+
+  *a)* $P(|S| <= 100) approx 2 Phi(1) = 0","6826$.
+
+  *b)* $P(|S| <= 200) approx 2 Phi(2) = 2 dot 0","4772 = 0","9544$.
+
+  _Ý nghĩa vật lí:_ độ dịch chuyển điển hình tăng theo $sqrt(n)$ (không phải theo $n$) -- đây là cơ sở của định luật khuếch tán $chevron.l x^2 chevron.r prop t$.
+]
+
+#pagebreak()
+
+== Tóm tắt kiến thức sử dụng trong chương 5
+
+#block(
+  width: 100%,
+  stroke: 0.5pt + rgb("cbd5e1"),
+  fill: rgb("f8fafc"),
+  inset: 12pt,
+  radius: 4pt,
+)[
+  *1. Bất đẳng thức Markov và Chebyshev*
+  - *Markov:* Nếu $X >= 0$ và $a > 0$ thì $P(X >= a) <= frac(E(X), a)$.
+  - *Chebyshev:* Với mọi $epsilon > 0$:
+    $ P(|X - E(X)| >= epsilon) <= frac(V(X), epsilon^2) quad <=> quad P(|X - E(X)| < epsilon) >= 1 - frac(V(X), epsilon^2). $
+  - Dùng khi *chỉ biết* kì vọng (Markov) hoặc kì vọng và phương sai (Chebyshev), không biết phân phối.
+
+  *2. Luật số lớn*
+  - *Luật số lớn Chebyshev:* $X_1, ..., X_n$ độc lập, cùng kì vọng $mu$, phương sai bị chặn ($V(X_i) <= C$). Khi đó $overline(X) = frac(1, n) sum X_i$ hội tụ theo xác suất về $mu$:
+    $ P(|overline(X) - mu| < epsilon) >= 1 - frac(sigma^2, n epsilon^2) -> 1 quad (n -> infinity). $
+  - *Luật số lớn Bernoulli:* Tần suất $f = m / n$ trong $n$ phép thử Bernoulli hội tụ theo xác suất về $p$:
+    $ P(|f - p| < epsilon) >= 1 - frac(p q, n epsilon^2) >= 1 - frac(1, 4 n epsilon^2). $
+
+  *3. Định lý giới hạn trung tâm (Lindeberg -- Lévy)*
+  - $X_1, ..., X_n$ độc lập, cùng phân phối, $E(X_i) = mu$, $V(X_i) = sigma^2$. Khi $n$ đủ lớn ($n >= 30$):
+    $ S_n = sum X_i approx N(n mu, n sigma^2); quad overline(X) approx N(mu, frac(sigma^2, n)); quad P(a <= S_n <= b) approx Phi(frac(b - n mu, sigma sqrt(n))) - Phi(frac(a - n mu, sigma sqrt(n))). $
+
+  *4. Định lý Moivre -- Laplace (xấp xỉ nhị thức bằng chuẩn)* -- $X tilde B(n, p)$, $n$ lớn, $n p >= 5$ và $n q >= 5$:
+  - *Địa phương:* $P(X = k) approx frac(1, sqrt(n p q)) phi(frac(k - n p, sqrt(n p q)))$ với $phi(x) = frac(1, sqrt(2 pi)) e^(-x^2/2)$, $phi(-x) = phi(x)$.
+  - *Tích phân:* $P(k_1 <= X <= k_2) approx Phi(frac(k_2 - n p, sqrt(n p q))) - Phi(frac(k_1 - n p, sqrt(n p q)))$.
+  - *Hiệu chỉnh liên tục (chính xác hơn):* thay $k_1 -> k_1 - 0","5$, $k_2 -> k_2 + 0","5$.
+
+  *5. Chọn công cụ xấp xỉ*
+  - $n$ lớn, $p$ nhỏ ($n p < 5$): Poisson $P(lambda = n p)$. $n$ lớn, $n p >= 5, n q >= 5$: Moivre -- Laplace.
+  - Tổng / trung bình nhiều biến độc lập cùng phân phối: định lý giới hạn trung tâm.
+  - Chỉ biết $E$, $V$, đề hỏi "đánh giá", "ít nhất", "không vượt quá": Chebyshev / Markov.
+]
+
+
+#pagebreak()
+
 = Bài tập chương 6
 
 #bai("6.1")[

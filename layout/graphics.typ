@@ -182,48 +182,6 @@
   ]
 }
 
-#let _vp-enso-brush-heading-svg(color) = {
-  let c = color.to-hex()
-  "<svg viewBox=\"0 0 130 130\" xmlns=\"http://www.w3.org/2000/svg\">
-    <path d=\"M110 24 C86 16, 42 22, 22 46 C4 68, 4 98, 22 118 C40 136, 76 136, 108 122 C114 119, 112 114, 106 116 C80 126, 48 124, 32 108 C16 92, 16 68, 30 50 C44 32, 78 26, 106 32 C112 34, 114 26, 110 24 Z\" fill=\"" + c + "\"/>
-    <path d=\"M92 14 C62 10, 26 24, 10 48 C-6 72, -4 104, 14 126 C16 129, 20 127, 18 123 C4 103, 3 75, 16 54 C28 33, 58 20, 92 18 C98 18, 98 14, 92 14 Z\" fill=\"" + c + "\" opacity=\"0.85\"/>
-    <path d=\"M24 34 C12 50, 8 74, 14 96 C16 100, 20 98, 18 94 C13 75, 16 54, 27 40 C30 36, 27 31, 24 34 Z\" fill=\"" + c + "\" opacity=\"0.95\"/>
-    <path d=\"M104 124 C112 119, 120 110, 124 98 C126 94, 122 92, 120 95 C116 104, 108 111, 100 116 C96 118, 98 123, 104 124 Z\" fill=\"" + c + "\" opacity=\"0.9\"/>
-    <path d=\"M14 42 C11 38, 9 36, 8 39 C7 42, 10 45, 12 47 C14 50, 16 46, 14 42 Z\" fill=\"" + c + "\" opacity=\"0.6\"/>
-    <path d=\"M6 70 C4 66, 2 68, 3 73 C4 78, 7 80, 7 76 C7 72, 8 74, 6 70 Z\" fill=\"" + c + "\" opacity=\"0.5\"/>
-  </svg>"
-}
-
-#let _vp-stroke-top-heading-brush(color) = {
-  let c = color.to-hex()
-  "<svg viewBox=\"0 0 800 16\" preserveAspectRatio=\"none\" xmlns=\"http://www.w3.org/2000/svg\">
-    <path d=\"M0 8 C100 2, 280 1.5, 520 4.5 C660 6, 740 7.8, 800 8 C750 9.8, 670 12, 530 13.5 C290 16, 110 15, 0 8 Z\" fill=\"" + c + "\"/>
-    <path d=\"M5 7 C140 2.2, 350 2, 580 5.5 C680 7, 760 8, 800 8 C770 8.8, 700 10.5, 600 11.8 C360 14, 150 13.5, 5 9.5 Z\" fill=\"" + c + "\"/>
-  </svg>"
-}
-
-#let _vp-stroke-bot-heading-brush(color) = {
-  let c = color.to-hex()
-  "<svg viewBox=\"0 0 800 16\" preserveAspectRatio=\"none\" xmlns=\"http://www.w3.org/2000/svg\">
-    <path d=\"M0 8 C120 1.8, 320 1.5, 560 4.2 C680 5.8, 750 7.5, 800 8 C760 9.5, 680 11.5, 560 13 C320 15.5, 120 15, 0 8 Z\" fill=\"" + c + "\"/>
-    <path d=\"M10 7.5 C160 2.5, 400 2.2, 640 5.8 C720 7.2, 775 8, 800 8 C780 8.6, 720 10.2, 630 11.5 C380 13.5, 170 13.2, 10 9 Z\" fill=\"" + c + "\"/>
-  </svg>"
-}
-
-#let _vp-shuriken-gold-heading-svg(color) = {
-  let c = color.to-hex()
-  let light = color.lighten(35%).to-hex()
-  let dark = color.darken(30%).to-hex()
-  "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\">
-    <path d=\"M50 2 L57 36 L92 20 L64 50 L98 50 L64 57 L92 80 L57 64 L50 98 L43 64 L8 80 L36 57 L2 50 L36 50 L8 20 L43 36 Z\" fill=\"" + c + "\"/>
-    <polygon points=\"50,2 57,36 50,50\" fill=\"" + light + "\" opacity=\"0.6\"/>
-    <polygon points=\"98,50 64,57 50,50\" fill=\"" + light + "\" opacity=\"0.6\"/>
-    <polygon points=\"50,98 43,64 50,50\" fill=\"" + light + "\" opacity=\"0.6\"/>
-    <polygon points=\"2,50 36,43 50,50\" fill=\"" + light + "\" opacity=\"0.6\"/>
-    <circle cx=\"50\" cy=\"50\" r=\"8\" fill=\"#FFFFFF\" stroke=\"" + dark + "\" stroke-width=\"1.5\"/>
-  </svg>"
-}
-
 #let vp-logo-hockage(
   primary: auto,
   accent: auto,

@@ -1,12 +1,26 @@
 // Render physics quantities with upright units and Vietnamese decimals.
+// Word aliases: exact words, micro prefixes (u, mu, micro) and ohm/Omega suffixes.
+#let _vp-unit-words = (
+  degree: "°", degC: "°C", degF: "°F", deg: "°",
+  Angstrom: "Å", angstrom: "Å", pi: "π", mu: "μ", micro: "μ",
+)
+#let _vp-micro-units = ("m", "C", "F", "s", "A", "V", "g", "L", "H", "T", "W", "J", "N", "Pa", "mol", "Wb", "Hz")
+#let _vp-unit-word(word) = {
+  if word in _vp-unit-words { return _vp-unit-words.at(word) }
+  for suffix in ("ohm", "Omega") {
+    if word.ends-with(suffix) { return word.slice(0, word.len() - suffix.len()) + "Ω" }
+  }
+  for prefix in ("micro", "mu") {
+    if word.starts-with(prefix) { return "μ" + word.slice(prefix.len()) }
+  }
+  if word.starts-with("u") and word.slice(1) in _vp-micro-units { return "μ" + word.slice(1) }
+  word
+}
+
 #let vp-unit(unit) = {
   if type(unit) != str { return unit }
-  let source = unit.replace("ohm", "Ω")
-    .replace("um", "μm").replace("uC", "μC")
-    .replace("uF", "μF").replace("us", "μs")
-  source = source.replace("Omega", "Ω").replace("micro", "μ").replace("mu", "μ")
-    .replace("degree", "°").replace("degC", "°C").replace("degF", "°F").replace("deg", "°")
-    .replace("Angstrom", "Å").replace("angstrom", "Å").replace("pi", "π")
+  // Rewrite whole ASCII words only, so "lumen" or "bus" keep their letters.
+  let source = unit.replace(regex("[A-Za-z]+"), m => _vp-unit-word(m.text))
     .replace("/", "\\/")
     .replace(regex("\\^([+-]?[0-9]+(?:\\.[0-9]+)?)"), exponent => "^(" + exponent.captures.first() + ")")
   source = source.replace(regex("[0-9]+\\.[0-9]+"), token => token.text.replace(".", "§"))

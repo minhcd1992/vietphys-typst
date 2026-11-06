@@ -15,7 +15,7 @@
   type: "essay",
   num-style: _ => "1.1",
   source: [PDF gốc, trang 2],
-  image: figure(ve-lo-xo-1-1(hien-luc: false), kind: image, numbering: none, supplement: none),
+  image: fig(ve-lo-xo-1-1(hien-luc: false)),
   image-side: "right",
   sol: [
     #grid(
@@ -38,7 +38,7 @@
         $ => d >= sqrt((k abs(q_1 q_2))/(F_("đh,max") - m g)) = 0.0125 thin "m" = 1.25 thin "cm". $
         Vậy khoảng cách nhỏ nhất giữa hai quả cầu là $d_("min") = 1.25 thin "cm"$.
       ],
-      figure(ve-lo-xo-1-1(hien-luc: true), caption: [Sơ đồ lực], kind: image, numbering: none, supplement: none),
+      fig(ve-lo-xo-1-1(hien-luc: true), caption: [Sơ đồ lực]),
     )
   ],
 )
@@ -55,18 +55,12 @@
   sol: [
     Mỗi giọt nước tích điện $q = -e$ và có khối lượng $m$. Hai giọt nước chịu tác dụng của lực đẩy tĩnh điện $arrow(F)_đ$ và lực hút hấp dẫn $arrow(F)_("hd")$.
 
-    #align(center, figure(
-      ve-hai-giot-nuoc-1-2,
-      caption: [Sơ đồ cân bằng lực giữa hai giọt nước.],
-      kind: image,
-      numbering: none,
-      supplement: none,
-    ))
+    #align(center, fig(ve-hai-giot-nuoc-1-2, caption: [Sơ đồ cân bằng lực giữa hai giọt nước.]))
 
     Điều kiện cân bằng giữa lực đẩy tĩnh điện và lực hấp dẫn:
     $ F_đ = F_("hd") <=> (k e^2)/r^2 = (G m^2)/r^2 => m = e sqrt(k/G). $
     Khối lượng của mỗi giọt nước hình cầu bán kính $a$ là $m = rho V = rho dot 4/3 pi a^3$. Do đó:
-    $ a = ((3 m)/(4 pi rho))^(1/3) = ((3 e)/(4 pi rho) sqrt(k/G))^(1/3). $
+    $ a = ((3 m)/(4 pi rho))^(1\/3) = ((3 e)/(4 pi rho) sqrt(k/G))^(1\/3). $
     Với $G = 6.674 times 10^(-11) thin "N" dot "m"^2/"kg"^2$, $k approx 8.99 times 10^9 thin "N" dot "m"^2/"C"^2$, $e = 1.602 times 10^(-19) thin "C"$ và $rho = 1000 thin "kg/m"^3$:
     $ a approx 7.63 times 10^(-5) thin "m" = 76.3 thin "μm". $
     Khoảng cách $r$ giữa hai giọt nước triệt tiêu vì cả hai lực đều tỉ lệ nghịch với $r^2$.
@@ -96,7 +90,7 @@
         $
         Đây là kết quả trong mô hình quỹ đạo cổ điển mà đề bài giả định.
       ],
-      figure(ve-nguyen-tu-1-3, caption: [Quỹ đạo electron], kind: image, numbering: none, supplement: none),
+      fig(ve-nguyen-tu-1-3, caption: [Quỹ đạo electron]),
     )
   ],
 )
@@ -114,20 +108,14 @@
   type: "essay",
   num-style: _ => "1.4",
   source: [PDF gốc, trang 2],
-  image: figure(scale(80%, reflow: true, ve-tam-giac-1-4), kind: image, numbering: none, supplement: none),
+  image: fig(ve-tam-giac-1-4),
   image-side: "right",
   sol: [
     (1) Độ co $Delta L=0.01L$, khoảng cách hai điện tích sau co là $0.99L$. Cân bằng lực đàn hồi và lực hút tĩnh điện giữa hai đầu:
     $ k_s Delta L=(k e^2)/(0.99L)^2 => k_s approx 2.30 times 10^(-9) thin "N/m". $
     Nếu lấy khoảng cách gần đúng bằng $L$, được $2.26 times 10^(-9) thin "N/m"$.
 
-    #align(center, figure(
-      ve-dna-1-4,
-      caption: [Sơ đồ cân bằng lực trên phân tử DNA.],
-      kind: image,
-      numbering: none,
-      supplement: none,
-    ))
+    #align(center, fig(ve-dna-1-4, caption: [Sơ đồ cân bằng lực trên phân tử DNA.]))
 
     #grid(
       columns: (1fr, auto),
@@ -146,13 +134,7 @@
 
         (2b) Điện trường ngoài không phụ thuộc vào điện tích thử $q_1$ nên $arrow(E)$ giữ nguyên; lực tác dụng lên điện tích thử $arrow(F) = q_1 arrow(E)$ tăng gấp đôi.
       ],
-      figure(
-        ve-luc-tam-giac-1-4,
-        caption: [Sơ đồ lực tác dụng lên $q_1$],
-        kind: image,
-        numbering: none,
-        supplement: none,
-      ),
+      fig(ve-luc-tam-giac-1-4, caption: [Sơ đồ lực tác dụng lên $q_1$]),
     )
   ],
 )
@@ -168,7 +150,7 @@
   type: "essay",
   num-style: _ => "1.5",
   source: [PDF gốc, trang 2],
-  image: figure(ve-duong-suc-1-5, kind: image, numbering: none, supplement: none),
+  image: fig(ve-duong-suc-1-5),
   image-side: "right",
   sol: [
     Đường sức đi ra khỏi điện tích dương và đi vào điện tích âm. Các mũi tên đi từ $q_2$ đến $q_1$, nên $q_1<0$, $q_2>0$. Đếm hình: có 6 đường đi vào $q_1$, tổng cộng 18 đường đi ra từ $q_2$ (12 đường đi ra vô cực). Số đường tỉ lệ với độ lớn điện tích, do đó $q_1/q_2=-6/18=-1/3$.
@@ -183,7 +165,7 @@
   type: "essay",
   num-style: _ => "1.6",
   source: [PDF gốc, trang 3],
-  image: figure(scale(85%, reflow: true, ve-thi-nghiem-millikan-1-6), kind: image, numbering: none, supplement: none),
+  image: fig(ve-thi-nghiem-millikan-1-6),
   image-side: "right",
   sol: [
     #grid(
@@ -197,9 +179,9 @@
         Điều kiện cân bằng lực:
         $ F_đ = P <=> e E = m g = rho (4/3 pi a^3) g. $
         Suy ra bán kính giọt dầu:
-        $ a = ((3 e E)/(4 pi rho g))^(1/3) approx 5.15 times 10^(-7) thin "m" = 0.515 thin "μm". $
+        $ a = ((3 e E)/(4 pi rho g))^(1\/3) approx 5.15 times 10^(-7) thin "m" = 0.515 thin "μm". $
       ],
-      figure(ve-can-bang-millikan-1-6, caption: [Sơ đồ lực], kind: image, numbering: none, supplement: none),
+      fig(ve-can-bang-millikan-1-6, caption: [Sơ đồ lực]),
     )
   ],
 )
@@ -215,7 +197,7 @@
   type: "essay",
   num-style: _ => "1.7",
   source: [PDF gốc, trang 3],
-  image: figure(scale(85%, reflow: true, ve-van-de-graaff-1-7(hien-luc: false)), kind: image, numbering: none, supplement: none),
+  image: fig(ve-van-de-graaff-1-7(hien-luc: false)),
   image-side: "right",
   sol: [
     #grid(
@@ -230,7 +212,7 @@
         $ E = F / e = (2.54 times 10^(-15)) / (1.602 times 10^(-19)) approx 1.59 times 10^4 thin "V/m". $
         Vì proton mang điện dương, $arrow(E)$ cùng chiều gia tốc $arrow(a)$. Đề chỉ cho độ lớn $a$, nên chưa đủ để kết luận chiều điện trường. Nếu proton bị đẩy ra như hình minh họa, $arrow(E)$ hướng theo bán kính ra ngoài; nếu proton bị hút vào, $arrow(E)$ hướng vào tâm.
       ],
-      figure(scale(85%, reflow: true, ve-van-de-graaff-1-7(hien-luc: true)), caption: [Sơ đồ lực], kind: image, numbering: none, supplement: none),
+      fig(ve-van-de-graaff-1-7(hien-luc: true), caption: [Sơ đồ lực]),
     )
   ],
 )
@@ -243,7 +225,7 @@
   type: "essay",
   num-style: _ => "1.8",
   source: [PDF gốc, trang 3],
-  image: figure(scale(85%, reflow: true, ve-nem-proton-1-8), kind: image, numbering: none, supplement: none),
+  image: fig(ve-nem-proton-1-8),
   image-side: "right",
   listEs: (
     [Các góc $theta$ sao cho chùm proton đến điểm mục tiêu nói trên.],
@@ -254,13 +236,13 @@
       columns: (1fr, auto),
       gutter: 14pt,
       [
-        Gia tốc xuống là $a=e E/m_p=6.89 times 10^10 thin "m/s"^2$. Phương trình chuyển động:
+        Gia tốc hướng xuống $a=(e E)/m_p=6.89 times 10^10 thin "m/s"^2$. Phương trình chuyển động:
         $ x=v_0 cos theta t, quad y=v_0 sin theta t-a t^2/2. $
-        Cho $y=0$ ở lần trở lại: $t=2v_0 sin theta/a$, nên $D=v_0^2 sin(2theta)/a$.
+        Cho $y=0$ ở lần trở lại: $t=(2 v_0 sin theta)/a$, nên $D=(v_0^2 sin 2theta)/a$.
         $ sin(2theta)=a D/v_0^2 approx 0.960, quad theta_1 approx 36.9 degree, quad theta_2 approx 53.1 degree. $
         Từ $t=D/(v_0 cos theta)$, được $t_1 approx 1.66 times 10^(-7) thin "s"$ và $t_2 approx 2.22 times 10^(-7) thin "s"$. Chữ “photon” trong ý (a) của nguồn được hiểu là proton theo toàn bộ dữ kiện.
       ],
-      figure(scale(85%, reflow: true, ve-giai-nem-proton-1-8), caption: [Hai quỹ đạo tới mục tiêu], kind: image, numbering: none, supplement: none),
+      fig(ve-giai-nem-proton-1-8, caption: [Hai quỹ đạo tới mục tiêu]),
     )
   ],
 )
@@ -273,7 +255,7 @@
   type: "essay",
   num-style: _ => "1.9",
   source: [PDF gốc, trang 3],
-  image: figure(scale(82%, reflow: true, ve-hai-ban-1-9), kind: image, numbering: none, supplement: none),
+  image: fig(ve-hai-ban-1-9),
   image-side: "right",
   listEs: (
     [Nếu electron di chuyển đến vị trí mép ngoài của tấm bảng phía trên, hãy tính độ lớn cường độ điện trường.],
@@ -286,18 +268,19 @@
       columns: (1fr, auto),
       gutter: 14pt,
       [
-        (a) Thời gian trong bản $t=L/v_0=1.25 times 10^(-8) thin "s"$. Electron gia tốc lên; $d/2=e E t^2/(2m_e)$, nên
-        $ E=(m_e d v_0^2)/(e L^2) approx 364 thin "V/m". $
+        (a) Thời gian trong bản $t=L/v_0=1.25 times 10^(-8) thin "s"$. Electron gia tốc hướng lên; khi tới mép bản trên:
+        $ d/2=(e E t^2)/(2 m_e) quad => quad
+        E=(m_e d v_0^2)/(e L^2) approx 364 thin "V/m". $
 
         (b) Proton gia tốc xuống. Độ lệch khi ra khỏi bản:
-        $ abs(y_p)=e E t^2/(2m_p)=(m_e/m_p)d/2 approx 2.72 thin "μm"<d/2. $
-        Proton không chạm bản. $v_(y,p)=-e E t/m_p approx -436 thin "m/s"$, góc lệch xuống $arctan(abs(v_(y,p))/v_0) approx 0.0156 degree$.
+        $ abs(y_p)=(e E t^2)/(2 m_p)=m_e/m_p dot d/2 approx 2.72 thin "μm"<d/2. $
+        Proton không chạm bản. $v_(y,p)=-(e E t)/m_p approx -436 thin "m/s"$, hướng chuyển động lệch xuống dưới phương ngang góc $arctan(abs(v_(y,p))\/v_0) approx 0.0156 degree$.
 
         (c) Trong điện trường, cả hai quỹ đạo là parabol: $y = (q E_y)/(2 m v_0^2) x^2$. Electron lệch lên, proton lệch xuống; tại cùng $x$, độ lệch của proton nhỏ hơn $m_p/m_e approx 1837$ lần. Sau khi ra khỏi vùng trường, chúng chuyển động thẳng theo tiếp tuyến nếu bỏ qua trọng lực; electron lý tưởng đi sát mép bản.
 
         (d) $a_e=6.40 times 10^13 thin "m/s"^2$, $a_p approx 3.49 times 10^10 thin "m/s"^2$, đều lớn hơn $g$ rất nhiều. Bỏ qua trọng lực trong thời gian xét là phù hợp.
       ],
-      figure(scale(82%, reflow: true, ve-giai-hai-ban-1-9), caption: [So sánh quỹ đạo], kind: image, numbering: none, supplement: none),
+      fig(ve-giai-hai-ban-1-9, caption: [So sánh quỹ đạo]),
     )
   ],
 )
@@ -310,20 +293,14 @@
   type: "essay",
   num-style: _ => "1.10",
   source: [PDF gốc, trang 4],
-  image: figure(scale(82%, reflow: true, ve-dien-tich-truc-x-1-10), kind: image, numbering: none, supplement: none),
+  image: fig(ve-dien-tich-truc-x-1-10),
   image-side: "right",
   sol: [
     Giữa hai điện tích, hai điện trường cùng chiều nên không triệt tiêu. Phía phải điện tích âm, trường của điện tích âm vừa gần hơn vừa mạnh hơn nên cũng không thể triệt tiêu. Đặt điểm cần tìm ở $x=-s$, $s>0$:
     $ k 2.50/s^2=k 3.50/(s+0.600)^2 => s=0.600/(sqrt(3.50/2.50)-1)=3.27 thin "m". $
     Vậy $x=-3.27 thin "m"$.
 
-    #align(center, figure(
-      scale(80%, reflow: true, ve-giai-dien-tich-truc-x-1-10),
-      caption: [Sơ đồ vị trí cân bằng và các vecto điện trường trên trục $x$.],
-      kind: image,
-      numbering: none,
-      supplement: none,
-    ))
+    #align(center, fig(ve-giai-dien-tich-truc-x-1-10, caption: [Sơ đồ vị trí cân bằng và các vecto điện trường trên trục $x$.]))
   ],
 )
 
@@ -335,7 +312,7 @@
   type: "essay",
   num-style: _ => "1.11",
   source: [PDF gốc, trang 4],
-  image: figure(scale(80%, reflow: true, ve-de-day-dan-1-11), kind: image, numbering: none, supplement: none),
+  image: fig(ve-de-day-dan-1-11),
   image-side: "right",
   listEs: (
     [Xác định vecto điện trường tại điểm nằm trên đường trung trực của dây cách dây $6 thin "cm"$.],
@@ -346,13 +323,13 @@
       columns: (1fr, auto),
       gutter: 12pt,
       [
-        (a) Với $d q=lambda d x$, hai phần tử đối xứng triệt tiêu thành phần song song dây. Thành phần vuông góc:
+        (a) Với $dif q=lambda dif x$, hai phần tử đối xứng triệt tiêu thành phần song song dây. Thành phần vuông góc:
         $
-          E_y=k lambda integral_(-L/2)^(L/2) y/(x^2+y^2)^(3/2) dif x=(k lambda L)/(y sqrt(y^2+(L/2)^2)) approx 3.03 times 10^4 thin "N/C".
+          E_y=k lambda integral_(-L\/2)^(L\/2) y/(x^2+y^2)^(3\/2) dif x=(k lambda L)/(y sqrt(y^2+(L/2)^2)) approx 3.03 times 10^4 thin "N/C".
         $
         Vector hướng từ trung điểm dây tới điểm xét.
       ],
-      figure(scale(80%, reflow: true, ve-giai-day-thang-1-11), caption: [Điện trường của dây thẳng], kind: image, numbering: none, supplement: none),
+      fig(ve-giai-day-thang-1-11, caption: [Điện trường của dây thẳng]),
     )
 
     #grid(
@@ -360,10 +337,10 @@
       gutter: 12pt,
       [
         (b) $Q=lambda L=1.4875 times 10^(-8) thin "C"$, $R=L/(2 pi)$. Các thành phần ngang trục triệt tiêu:
-        $ E_z=(k Q z)/(R^2+z^2)^(3/2) approx 3.45 times 10^4 thin "N/C". $
+        $ E_z=(k Q z)/(R^2+z^2)^(3\/2) approx 3.45 times 10^4 thin "N/C". $
         Trường hướng dọc trục ra xa vòng tích điện dương.
       ],
-      figure(scale(80%, reflow: true, ve-giai-vong-day-1-11), caption: [Điện trường của vòng dây], kind: image, numbering: none, supplement: none),
+      fig(ve-giai-vong-day-1-11, caption: [Điện trường của vòng dây]),
     )
   ],
 )
@@ -381,22 +358,22 @@
     [Tìm vecto lực do thanh $Q$ tác dụng lên $q$.],
     [Chứng minh rằng khi $x >> a$, $F_x approx - (Q q)/(4 pi epsilon_0 x^2)$ và $F_y approx + (Q q a)/(8 pi epsilon_0 x^3)$. Giải thích tại sao lại thu được kết quả trên.],
   ),
-  image: figure(scale(82%, reflow: true, ve-de-thanh-1-12), kind: image, numbering: none, supplement: none),
+  image: fig(ve-de-thanh-1-12),
   image-side: "right",
   sol: [
     #grid(
       columns: (1fr, auto),
       gutter: 14pt,
       [
-        Phần tử tại $(0, y)$ mang điện tích $dif q = (Q/a) dif y$ gây trường $dif arrow(E) = k (Q/a) dif y (x arrow(i) - y arrow(j))/(x^2 + y^2)^(3/2)$. Lấy tích phân $0$ đến $a$:
+        Phần tử tại $(0, y)$ mang điện tích $dif q = (Q/a) dif y$ gây trường $dif arrow(E) = k (Q/a) dif y (x arrow(i) - y arrow(j))/(x^2 + y^2)^(3\/2)$. Lấy tích phân $0$ đến $a$:
         $ E_x = (k Q)/(x sqrt(x^2 + a^2)), quad E_y = (k Q)/a (1/sqrt(x^2 + a^2) - 1/x). $
         Vậy $F_x = -q E_x < 0$, $F_y = -q E_y > 0$: vector lực $arrow(F) = -q arrow(E)$ hướng về phía thanh.
 
-        Khi $a/x$ nhỏ, $(1 + a^2/x^2)^(-1/2) approx 1 - a^2/(2 x^2)$, nên
+        Khi $a/x$ nhỏ, $(1 + a^2/x^2)^(-1\/2) approx 1 - a^2/(2 x^2)$, nên
         $ F_x approx - (k Q q)/x^2, quad F_y approx (k Q q a)/(2 x^3). $
-        Ở xa, thanh gần tương đương điện tích $Q$ tại trung điểm $(0, a/2)$; thành phần ngang là bậc $x^(-2)$, thành phần đứng nhỏ hơn một thừa số $a/(2 x)$.
+        Ở xa, thanh gần tương đương điện tích $Q$ tại trung điểm $(0, a\/2)$; thành phần ngang là bậc $x^(-2)$, thành phần đứng nhỏ hơn một thừa số $a/(2 x)$.
       ],
-      figure(scale(76%, reflow: true, ve-giai-thanh-1-12), caption: [Phân tích trường và lực], kind: image, numbering: none, supplement: none),
+      fig(ve-giai-thanh-1-12, caption: [Phân tích trường và lực]),
     )
   ],
 )
@@ -409,22 +386,22 @@
   type: "essay",
   num-style: _ => "1.13",
   source: [PDF gốc, trang 4],
-  image: figure(scale(76%, reflow: true, ve-de-ban-nguyet-1-13), kind: image, numbering: none, supplement: none),
+  image: fig(ve-de-ban-nguyet-1-13),
   image-side: "right",
   sol: [
     #grid(
       columns: (1fr, auto),
       gutter: 12pt,
       [
-        Hiểu “hình bán nguyệt” là dây mảnh uốn thành nửa đường tròn; mỗi nửa cung dài $pi a / 2$, nên $abs(lambda) = (2 Q)/(pi a)$.
+        Hiểu “hình bán nguyệt” là dây mảnh uốn thành nửa đường tròn; mỗi nửa cung dài $pi a\/2$, nên $abs(lambda) = (2 Q)/(pi a)$.
 
         Hai phần tử vi phân đối xứng qua trục $O y$ gây các thành phần đứng đối nhau nên triệt tiêu ($E_y = 0$), còn các thành phần ngang cùng hướng sang phải ($+x$).
 
         Với góc $theta$ tính từ chiều dương trục $O x$:
-        $ E_x = 2 integral_0^(pi/2) k/a^2 (2 Q / pi) cos theta dif theta = (4 k Q)/(pi a^2). $
+        $ E_x = 2 integral_0^(pi\/2) k/a^2 (2 Q / pi) cos theta dif theta = (4 k Q)/(pi a^2). $
         Vector điện trường tổng hợp tại tâm $O$: $arrow(E) = (4 k Q)/(pi a^2) arrow(i)$.
       ],
-      figure(scale(76%, reflow: true, ve-giai-ban-nguyet-1-13), caption: [Đối xứng triệt tiêu và tổng hợp], kind: image, numbering: none, supplement: none),
+      fig(ve-giai-ban-nguyet-1-13, caption: [Đối xứng triệt tiêu và tổng hợp]),
     )
   ],
 )
@@ -442,7 +419,7 @@
     [Tính điện trường ở điểm $P$ cách một đầu của thanh một khoảng $a$.],
     [Chứng minh rằng, nếu $P$ ở rất xa thanh so với $L$, tác dụng của thanh có thể xem như của một điện tích điểm.],
   ),
-  image: figure(scale(82%, reflow: true, ve-de-thanh-1-14), kind: image, numbering: none, supplement: none),
+  image: fig(ve-de-thanh-1-14),
   image-side: "right",
   sol: [
     #vp-knowledge-box(
@@ -462,7 +439,7 @@
 
         (c) Với $a >> L$, $a (a + L) approx a^2$, do đó độ lớn $E approx (k q)/a^2$, bằng trường của điện tích điểm $-q$ đến bậc gần đúng đầu tiên.
       ],
-      figure(scale(80%, reflow: true, ve-giai-thanh-1-14), caption: [Điện trường trên trục thanh], kind: image, numbering: none, supplement: none),
+      fig(ve-giai-thanh-1-14, caption: [Điện trường trên trục thanh]),
     )
   ],
 )
@@ -479,7 +456,7 @@
     [Xác định độ lớn của điện tích điểm $q_2$.],
     [Hỏi với khoảng cách $r$ bằng bao nhiêu thì bắt đầu xem $q_1$ như điện tích điểm, cách $q_2$ một khoảng $r$ mà sai số không vượt quá $1%$.],
   ),
-  image: figure(scale(82%, reflow: true, ve-de-thanh-1-15), kind: image, numbering: none, supplement: none),
+  image: fig(ve-de-thanh-1-15),
   image-side: "right",
   sol: [
     #grid(
@@ -487,7 +464,7 @@
       gutter: 14pt,
       [
         (a) Dùng giả thiết điện tích phân bố đều mà đề đã cho, bỏ qua sự phân bố lại điện tích trên thanh kim loại. Khoảng cách từ điểm xét đến hai đầu thanh lần lượt là $r - l/2$ và $r + l/2$. Điện trường do thanh $q_1$ gây ra tại vị trí đặt $q_2$:
-        $ E = integral_(-l/2)^(l/2) (k dif q_1)/(r - x)^2 = (k q_1)/(r^2 - l^2/4). $
+        $ E = integral_(-l\/2)^(l\/2) (k dif q_1)/(r - x)^2 = (k q_1)/(r^2 - l^2/4). $
         #block(breakable: false)[
           Từ $F = abs(q_2) E$, độ lớn của điện tích điểm $q_2$:
           $ abs(q_2) = (F (r^2 - l^2/4))/(k q_1) approx 7.63 times 10^(-10) thin "C". $
@@ -498,7 +475,7 @@
         $ (E - E_0)/E = l^2/(4 r^2) <= 0.01 => r >= 5 l = 40 thin "cm". $
         (Nếu so với $E_0$, điều kiện là $r >= sqrt(101) l / 2 approx 40.2 thin "cm"$).
       ],
-      figure(scale(80%, reflow: true, ve-giai-thanh-1-15), caption: [Phân tích khoảng cách đến hai đầu], kind: image, numbering: none, supplement: none),
+      fig(ve-giai-thanh-1-15, caption: [Phân tích khoảng cách đến hai đầu]),
     )
   ],
 )
@@ -515,7 +492,7 @@
     [Tìm độ lớn lực căng dây khi quả cầu ở vị trí cân bằng.],
     [Cho quả cầu dao động với biên độ nhỏ, khi đó xem như lực mà bán cầu tác dụng lên quả cầu không thay đổi phương, chiều và độ lớn. Tìm chu kì dao động của quả cầu.],
   ),
-  image: figure(scale(80%, reflow: true, ve-de-ban-cau-1-16), kind: image, numbering: none, supplement: none),
+  image: fig(ve-de-ban-cau-1-16),
   image-side: "right",
   sol: [
     #grid(
@@ -525,7 +502,7 @@
         Dùng mô hình lớp mặt bán cầu có mật độ $sigma$ cố định theo đề, bỏ qua sự phân bố lại điện tích trên kim loại. Ở vị trí cân bằng, quả cầu nằm tại tâm bán cầu. Do đối xứng trục quanh phương đứng, các thành phần điện trường nằm ngang triệt tiêu.
 
         Chia bán cầu thành các vành vi phân ở góc cực $theta$. Diện tích vành: $dif S = 2 pi R^2 sin theta dif theta$, điện tích $dif q = sigma dif S$. Điện trường thẳng đứng:
-        $ E = integral_0^(pi/2) (k dif q cos theta)/R^2 = 2 pi k sigma integral_0^(pi/2) sin theta cos theta dif theta = pi k sigma = sigma/(4 epsilon_0). $
+        $ E = integral_0^(pi\/2) (k dif q cos theta)/R^2 = 2 pi k sigma integral_0^(pi\/2) sin theta cos theta dif theta = pi k sigma = sigma/(4 epsilon_0). $
 
         (a) Cân bằng lực điện $arrow(F)_e$ (hướng xuống) và lực căng dây $arrow(T)$ (hướng lên):
         $ T = F_e = Q E = (Q sigma)/(4 epsilon_0). $
@@ -533,7 +510,7 @@
         (b) Theo giả thiết của câu hỏi, coi $arrow(F)_e$ không đổi khi quả cầu lệch khỏi vị trí cân bằng. Gọi $phi$ là góc lệch của dây; lực điện đóng vai trò trọng lực hiệu dụng $m g_("eff") = Q E$. Phương trình tiếp tuyến $m R phi'' = - Q E sin phi approx - Q E phi$ cho chu kì:
         $ T_("dao") = 2 pi sqrt((m R)/(Q E)) = 4 pi sqrt((epsilon_0 m R)/(Q sigma)). $
       ],
-      figure(scale(72%, reflow: true, ve-giai-ban-cau-1-16), caption: [Vành vi phân và cân bằng lực], kind: image, numbering: none, supplement: none),
+      fig(ve-giai-ban-cau-1-16, caption: [Vành vi phân và cân bằng lực]),
     )
   ],
 )
@@ -546,7 +523,7 @@
   type: "essay",
   num-style: _ => "1.17",
   source: [PDF gốc, trang 5],
-  image: figure(scale(65%, reflow: true, ve-de-thanh-1-17), kind: image, numbering: none, supplement: none),
+  image: fig(ve-de-thanh-1-17),
   image-side: "right",
   sol: [
     #grid(
@@ -554,15 +531,15 @@
       gutter: 14pt,
       [
         Phần tử vi phân $dif q = lambda dif x$ tại tọa độ $x$ trên thanh gây ra tại điểm $P(0, y)$ cường độ điện trường vi phân:
-        $ dif arrow(E) = (k lambda dif x)/(x^2 + y^2)^(3/2) (- x arrow(i) + y arrow(j)). $
+        $ dif arrow(E) = (k lambda dif x)/(x^2 + y^2)^(3\/2) (- x arrow(i) + y arrow(j)). $
         Tích phân dọc theo thanh từ $x_1$ đến $x_2$:
-        $ E_x = - k lambda integral_(x_1)^(x_2) x/(x^2 + y^2)^(3/2) dif x = k lambda (1/sqrt(x_2^2 + y^2) - 1/sqrt(x_1^2 + y^2)), \
-          E_y = k lambda y integral_(x_1)^(x_2) 1/(x^2 + y^2)^(3/2) dif x = (k lambda)/y (x_2/sqrt(x_2^2 + y^2) - x_1/sqrt(x_1^2 + y^2)). $
+        $ E_x = - k lambda integral_(x_1)^(x_2) x/(x^2 + y^2)^(3\/2) dif x = k lambda (1/sqrt(x_2^2 + y^2) - 1/sqrt(x_1^2 + y^2)), \
+          E_y = k lambda y integral_(x_1)^(x_2) 1/(x^2 + y^2)^(3\/2) dif x = (k lambda)/y (x_2/sqrt(x_2^2 + y^2) - x_1/sqrt(x_1^2 + y^2)). $
         Vector cường độ điện trường tổng hợp tại $P$: $arrow(E) = E_x arrow(i) + E_y arrow(j)$.
 
-        _Trường hợp riêng:_ Nếu thanh đặt đối xứng qua trục $y$ ($x_1 = - l/2, x_2 = l/2$), ta nhận lại $E_x = 0$ và $E_y$ đúng bằng kết quả trên đường trung trực ở Bài 1.11.
+        _Trường hợp riêng:_ Nếu thanh đặt đối xứng qua trục $y$ ($x_1 = -l\/2$, $x_2 = l\/2$), ta nhận lại $E_x = 0$ và $E_y$ đúng bằng kết quả trên đường trung trực ở Bài 1.11.
       ],
-      figure(scale(68%, reflow: true, ve-giai-thanh-1-17), caption: [Phân tích trường vi phân tại $P$], kind: image, numbering: none, supplement: none),
+      fig(ve-giai-thanh-1-17, caption: [Phân tích trường vi phân tại $P$]),
     )
   ],
 )
@@ -580,7 +557,7 @@
     [Xác định độ lớn của $q$.],
     [Mỗi sợi tơ được cắt ngắn còn lại $L = 0.600 thin "m"$, trong khi đó điện tích trên hai quả cầu không đổi. Góc tạo bởi mỗi sợi tơ so với phương thẳng đứng mới là bao nhiêu?],
   ),
-  image: figure(scale(65%, reflow: true, ve-de-hai-cau-1-18), kind: image, numbering: none, supplement: none),
+  image: fig(ve-de-hai-cau-1-18),
   image-side: "right",
   sol: [
     (a) Sơ đồ lực lên mỗi quả cầu (đối xứng): trọng lực $m arrow(g)$ (hướng xuống), lực đẩy tĩnh điện Coulomb $arrow(F)_e$ (nằm ngang hướng ra xa) và lực căng dây $arrow(T)$ (dọc dây về điểm treo).
@@ -596,7 +573,7 @@
         $ sin^2 theta' tan theta' = (L/L')^2 sin^2 theta tan theta = 4 sin^2(25 degree) tan(25 degree). $
         Vế trái đồng biến trên $(0, 90 degree)$; giải số cho $theta' approx 39.5 degree$.
       ],
-      figure(scale(66%, reflow: true, ve-giai-hai-cau-1-18), caption: [Sơ đồ hệ lực cân bằng], kind: image, numbering: none, supplement: none),
+      fig(ve-giai-hai-cau-1-18, caption: [Sơ đồ hệ lực cân bằng]),
     )
   ],
 )
@@ -614,7 +591,7 @@
     [Tính $epsilon$ cho trường hợp chất lỏng là dầu hỏa có $rho_2 = 800 thin "kg/m"^3$, khối lượng riêng của quả cầu là $rho_1 = 2.55 times 10^3 thin "kg/m"^3$, góc $alpha_1 = 60 degree$, $alpha_2 = 54 degree$.],
     [Trong thí nghiệm tương tự, với hai quả cầu làm bằng một chất có khối lượng riêng $rho_x$ người ta thấy $alpha_1 = alpha_2$. Cho rằng đã biết $epsilon$ và $rho$ của chất lỏng, hãy xác định $rho_x$.],
   ),
-  image: figure(scale(65%, reflow: true, ve-de-hai-cau-1-19), kind: image, numbering: none, supplement: none),
+  image: fig(ve-de-hai-cau-1-19),
   image-side: "right",
   sol: [
     #grid(
@@ -626,7 +603,7 @@
         - Trong chất lỏng: chịu thêm lực đẩy Archimedes $F_A = rho_2 V g$, trọng lượng biểu kiến $P' = P - F_A = (rho_1 - rho_2) V g$. Lực tĩnh điện:
         $ F_2 = (rho_1 - rho_2) V g tan theta_2. $
 
-        (a) Vì $r_i = 2 L sin theta_i$, tỉ số lực Coulomb $F_2 / F_1 = sin^2 theta_1 / (epsilon sin^2 theta_2)$. Suy ra:
+        (a) Vì $r_i = 2 L sin theta_i$, tỉ số lực Coulomb $F_2 / F_1 = (sin^2 theta_1)/(epsilon sin^2 theta_2)$. Suy ra:
         $ epsilon = rho_1/(rho_1 - rho_2) (tan theta_1)/(tan theta_2) (sin^2 theta_1)/(sin^2 theta_2). $
 
         (b) Thay số $rho_1 = 2.55 times 10^3 thin "kg/m"^3$, $rho_2 = 800 thin "kg/m"^3$, $alpha_1 = 60 degree$, $alpha_2 = 54 degree$:
@@ -634,7 +611,7 @@
 
         (c) Khi $theta_1 = theta_2$, ta có $epsilon = rho_x / (rho_x - rho_2)$, suy ra $rho_x = (epsilon rho_2) / (epsilon - 1)$ (với điều kiện $rho_x > rho_2$ để dây chúc xuống).
       ],
-      figure(scale(70%, reflow: true, ve-giai-hai-cau-1-19), caption: [Cân bằng lực trong chất lỏng], kind: image, numbering: none, supplement: none),
+      fig(ve-giai-hai-cau-1-19, caption: [Cân bằng lực trong chất lỏng]),
     )
   ],
 )
@@ -647,7 +624,7 @@
   type: "essay",
   num-style: _ => "1.20",
   source: [PDF gốc, trang 6],
-  image: figure(scale(65%, reflow: true, ve-de-mat-gauss-1-20), kind: image, numbering: none, supplement: none),
+  image: fig(ve-de-mat-cau-1-20),
   image-side: "right",
   sol: [
     #grid(
@@ -669,7 +646,7 @@
         - Khi $alpha r^3 << 1$: khai triển $1 - e^(-alpha r^3) approx alpha r^3$, ta được $E approx (rho_0 r)/(3 epsilon_0)$ (tăng tuyến tính).
         - Khi $alpha r^3 >> 1$: $e^(-alpha r^3) approx 0$, ta được $E approx rho_0/(3 epsilon_0 alpha r^2) = (k Q_("tot"))/r^2$ với điện tích tổng cộng $Q_("tot") = (4 pi rho_0)/(3 alpha)$.
       ],
-      figure(scale(72%, reflow: true, ve-giai-do-thi-1-20), caption: [Đồ thị hàm $E(r)$ theo $r$], kind: image, numbering: none, supplement: none),
+      fig(ve-giai-do-thi-1-20, caption: [Đồ thị hàm $E(r)$ theo $r$]),
     )
   ],
 )
@@ -682,7 +659,7 @@
   type: "essay",
   num-style: _ => "1.21",
   source: [PDF gốc, trang 6],
-  image: figure(scale(65%, reflow: true, ve-de-cau-hoc-1-21), kind: image, numbering: none, supplement: none),
+  image: fig(ve-de-cau-hoc-1-21),
   image-side: "right",
   sol: [
     1. _Trường bên trong quả cầu đặc đồng chất:_
@@ -702,7 +679,7 @@
         $ arrow(E) = (rho arrow(a))/(3 epsilon_0). $
         Điện trường trong hốc là *điện trường đều*, cùng hướng $arrow(a)$ (khi $rho > 0$). Khi hốc đồng tâm ($a = 0$), $arrow(E) = arrow(0)$.
       ],
-      figure(scale(85%, reflow: true, ve-giai-cau-hoc-1-21), caption: [Chồng chất điện trường đều trong hốc], kind: image, numbering: none, supplement: none),
+      fig(ve-giai-cau-hoc-1-21, caption: [Chồng chất điện trường đều trong hốc]),
     )
   ],
 )
@@ -719,7 +696,7 @@
     [Điện tích toàn phần trên quả cầu?],
     [Cường độ điện trường bên trong và bên ngoài quả cầu?],
   ),
-  image: figure(scale(65%, reflow: true, ve-de-qua-cau-1-22), kind: image, numbering: none, supplement: none),
+  image: fig(ve-de-qua-cau-1-22),
   image-side: "right",
   sol: [
     #grid(
@@ -731,13 +708,13 @@
 
         (b) Đề không quy định dấu của $rho_s$. Gọi $E_r$ là thành phần điện trường theo chiều bán kính ra ngoài, $arrow(E) = E_r arrow(e)_r$ với $r > 0$. Dùng định lý vỏ cầu:
         - Với $r <= R$: các lớp vỏ $s > r$ không gây trường tại $r$; chỉ các lớp vỏ $s in [0, r]$ đóng góp tương đương điện tích tập trung tại tâm:
-        $ E_r(r) = 1/(4 pi epsilon_0 r^2) integral_0^r dif q(s) = (rho_s)/(epsilon_0 R r^2) integral_0^r s^3 dif s = (rho_s r^2)/(4 epsilon_0 R). $
+        $ E_r (r) = 1/(4 pi epsilon_0 r^2) integral_0^r dif q(s) = (rho_s)/(epsilon_0 R r^2) integral_0^r s^3 dif s = (rho_s r^2)/(4 epsilon_0 R). $
         - Với $r >= R$: toàn bộ quả cầu ($s in [0, R]$) nằm trong khoảng cách $r$, tương đương điện tích toàn phần $Q$ đặt tại tâm:
-        $ E_r(r) = Q/(4 pi epsilon_0 r^2) = (rho_s R^3)/(4 epsilon_0 r^2). $
+        $ E_r (r) = Q/(4 pi epsilon_0 r^2) = (rho_s R^3)/(4 epsilon_0 r^2). $
         
         Hai biểu thức liên tục tại $r = R$. Độ lớn $E = abs(E_r)$; trường hướng ra ngoài khi $rho_s > 0$, hướng vào tâm khi $rho_s < 0$. Tại tâm $arrow(E)(0) = arrow(0)$. Nếu $rho_s = 0$, điện trường bằng không ở mọi điểm.
       ],
-      figure(scale(70%, reflow: true, ve-giai-do-thi-1-22), caption: [Đồ thị hàm $E(r)$ theo $r$], kind: image, numbering: none, supplement: none),
+      fig(ve-giai-do-thi-1-22, caption: [Đồ thị hàm $E(r)$ theo $r$]),
     )
   ],
 )

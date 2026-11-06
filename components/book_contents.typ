@@ -4,7 +4,9 @@
   numbering(item.numbering, ..counter(heading).at(item.location()))
 }
 #let _vp-book-page(item) = context { counter(page).at(item.location()).first() }
-#let _vp-book-entries() = query(heading).filter(h => h.outlined and h.offset == 0 and h.level <= 2)
+// Only the structural headings created by vp-chapter/vp-lesson; ordinary = / == headings never count as lessons.
+#let _vp-book-entries() = query(heading).filter(h => h.outlined and h.offset == 0 and h.level <= 2
+  and h.supplement in ([Chương], [Bài]))
 
 // Dedicated contents pages; original headings still own PDF bookmarks and references.
 #let vp-book-outline(

@@ -20,6 +20,10 @@
 
 #import "components/question_bank.typ": *
 
+// Thư viện hình vẽ CeTZ: dùng `import vp-draw: *` bên trong canvas.
+#import "components/drawing/lib.typ" as vp-draw
+#import "components/drawing/core.typ": vp-canvas, vp-figure
+
 #import "layout/header_widgets.typ": *
 #import "layout/graphics.typ": *
 #import "components/boxes.typ": *

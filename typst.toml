@@ -6,4 +6,4 @@ authors = ["Chung Diệu Minh"]
 license = "MIT"
 description = "Create Vietnamese physics lessons and question sheets."
 compiler = "0.15.1"
-exclude = ["/examples/", "/sbt-vat-li-10/", "/tests/", "/scripts/", "/dist/", "/.github/", "/.typst-packages/", "/.git/", "/.gitignore", "/.gitattributes"]
+exclude = ["/examples/", "/sbt-vat-li-10/", "/tests/", "/scripts/", "/dist/", "/.github/", "/.typst-packages/", "/.git/", "/.gitignore", "/.gitattributes", "/.kiem-tra/", "/bt-*/", "/bai-bao-socrates-ai/", "/Web_dddh/", "/GEMINI.md", "/vietphys-typst.code-workspace"]

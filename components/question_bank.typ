@@ -8,6 +8,48 @@
 #let vp-show-source = state("vp-show-source", true)
 #let vp-sol-store = state("vp-sol-store", ())
 
+// Visible wording. Defaults reproduce the original Vietnamese output exactly.
+#let vp-default-labels = (
+  statement: "Phát biểu", tf-true: "Đ", tf-false: "S",
+  solution: "Lời giải:", answer: "➜ Đáp số:",
+  keys-title: "BẢNG ĐÁP ÁN NHANH", solutions-title: "HƯỚNG DẪN GIẢI CHI TIẾT",
+  keys-mcq: "PHẦN I. TRẮC NGHIỆM NHIỀU PHƯƠNG ÁN",
+  keys-tf: "PHẦN II. TRẮC NGHIỆM ĐÚNG/SAI",
+  keys-short: "PHẦN III. TRẢ LỜI NGẮN & TỰ LUẬN",
+  keys-question: "Câu",
+)
+#let vp-labels = state("vp-labels", vp-default-labels)
+
+#let _vp-check-keys(given, allowed, what) = {
+  for key in given.keys() {
+    assert(key in allowed, message: "vietphys: " + what + " không có khóa '" + key
+      + "'. Các khóa hợp lệ: " + allowed.keys().join(", "))
+  }
+}
+
+// Change any label for the following content: #vp-set-labels(solution: "Solution:").
+#let vp-set-labels(..labels) = {
+  assert(labels.pos().len() == 0, message: "vietphys: vp-set-labels chỉ nhận tham số có tên")
+  _vp-check-keys(labels.named(), vp-default-labels, "vp-set-labels")
+  vp-labels.update(old => old + labels.named())
+}
+
+// User question types: each renderer receives one dictionary (see vp-register-question-type).
+#let _vp-builtin-types = ("mcq", "tf", "short", "essay")
+#let vp-question-types = state("vp-question-types", (:))
+#let vp-register-question-type(name, render, keys: "short") = {
+  assert(type(name) == str and name not in _vp-builtin-types,
+    message: "vietphys: tên loại câu phải là chuỗi khác mcq, tf, short, essay")
+  assert(type(render) == function, message: "vietphys: render phải là một hàm")
+  assert(keys in ("mcq", "short", none), message: "vietphys: keys phải là \"mcq\", \"short\" hoặc none")
+  vp-question-types.update(old => old + ((name): (render: render, keys: keys)))
+}
+
+// Each vp-print-keys(scope: "batch") call closes a batch: the next one prints only newer questions.
+#let _vp-keys-batch = counter("vp-keys-batch")
+// Separate counters: printing keys must not empty the next solution batch.
+#let _vp-sol-batch = counter("vp-sol-batch")
+
 // Scoped layout settings. Existing vp-question calls keep their original defaults.
 #let _vp-exercise-defaults = (
   q-spacing: auto, stem-spacing: 12pt, line-spacing: 1.2em, lines-above: 8pt,
@@ -135,6 +177,29 @@
   if q-padding != auto { vp-q-padding.update(q-padding) }
 }
 
+#let _vp-style-states = (
+  num-style: vp-q-num-style, lines: vp-q-lines, prefix: vp-q-prefix,
+  icon-before: vp-q-icon-before, icon-after: vp-q-icon-after,
+  lbl-color: vp-q-lbl-color, lbl-bg: vp-q-lbl-bg, lbl-border: vp-q-lbl-border,
+  lbl-radius: vp-q-lbl-radius, lbl-padding: vp-q-lbl-padding,
+  opt-color: vp-opt-color, opt-bg: vp-opt-bg, opt-border: vp-opt-border, opt-radius: vp-opt-radius,
+  ans-shape: vp-ans-shape, ans-mark-border: vp-ans-mark-border, ans-mark-bg: vp-ans-mark-bg,
+  ans-mark-width: vp-ans-mark-width, ans-text-color: vp-ans-text-color,
+  q-bg: vp-q-bg, q-border: vp-q-border, q-radius: vp-q-radius, q-padding: vp-q-padding,
+)
+
+// Scoped form of vp-set-question-style: settings apply to body only.
+// #show: vp-question-style.with(prefix: "Ví dụ") or #vp-question-style(prefix: "Bài")[...]
+#let vp-question-style(body, ..settings) = context {
+  assert(settings.pos().len() == 0, message: "vietphys: vp-question-style chỉ nhận tham số có tên")
+  let named = settings.named()
+  _vp-check-keys(named, _vp-style-states, "vp-question-style")
+  let previous = named.keys().map(key => (key, _vp-style-states.at(key).get()))
+  vp-set-question-style(..named)
+  body
+  for (key, old) in previous { _vp-style-states.at(key).update(old) }
+}
+
 #let vp-question-theme = (
   mcq: (bg: none, border: none, lines: 0, ans-color: vp-colors.danger, ans-shape: "circle", ans-mark-bg: none, ans-mark-border: rgb("#333"), ans-mark-width: 0.8pt, ans-text-color: rgb("#333"), level-color: vp-colors.primary, source-color: vp-colors.text-muted),
   tf: (bg: none, border: none, lines: 0, tf-header: rgb("#1A73E8"), tf-correct-color: vp-colors.success, tf-wrong-color: vp-colors.danger, ans-mark-bg: none, ans-mark-border: rgb("#333"), ans-mark-width: 0.8pt, level-color: vp-colors.primary, source-color: vp-colors.text-muted),
@@ -177,7 +242,32 @@
 
 #let bg-color-or(c) = if _typst-type(c) == color { c.lighten(85%) } else { rgb("#FFF1F0") }
 
-#let _render-tf(statements, style, header-bg, header-color, border-color, row-bg, ans-tf, show-ans, correct-color, wrong-color, box-bg, box-border, box-width, inset: auto) = {
+// Option letters A, B, ..., Z, AA ... and statement letters a, b, c, ...
+#let _vp-opt-letter(i) = numbering("A", i + 1)
+#let _vp-tf-letter(i) = numbering("a", i + 1)
+
+// Canonical answers: "A".."Z" for mcq and "Đ"/"S" for true/false items.
+#let _vp-normalize-mcq-ans(ans, count) = {
+  if ans == none or count == 0 { return ans }
+  let a = if _typst-type(ans) == int and ans >= 1 { _vp-opt-letter(ans - 1) } else { ans }
+  assert(_typst-type(a) == str, message: "vietphys: ans của câu mcq phải là chữ cái như \"B\"")
+  a = upper(a.trim())
+  let valid = range(count).map(_vp-opt-letter)
+  assert(a in valid, message: "vietphys: ans \"" + a + "\" không khớp phương án nào ("
+    + valid.join(", ") + ")")
+  a
+}
+#let _vp-normalize-tf-ans(ans-tf) = {
+  assert(_typst-type(ans-tf) == array, message: "vietphys: ans-tf phải là mảng, ví dụ (\"Đ\", \"S\")")
+  ans-tf.map(a => {
+    if a == true or a in ("Đ", "đ", "D", "d") { "Đ" }
+    else if a == false or a in ("S", "s") { "S" }
+    else if a == none or a == "" { "" }
+    else { panic("vietphys: mỗi phần tử ans-tf phải là \"Đ\", \"S\", true hoặc false, không phải " + repr(a)) }
+  })
+}
+
+#let _render-tf(statements, style, header-bg, header-color, border-color, row-bg, ans-tf, show-ans, correct-color, wrong-color, box-bg, box-border, box-width, inset: auto, labels: vp-default-labels) = {
   if statements.len() > 0 {
     v(8pt)
     let fill-val = if box-bg == auto or box-bg == none { none } else { box-bg }
@@ -202,9 +292,9 @@
         ..(if inset == auto { (:) } else { (inset: inset) }),
         columns: (1fr, 35pt, 35pt), align: (left+horizon, center+horizon, center+horizon), stroke: table-stroke,
         table.header(repeat: true,
-          table.cell(fill: header-bg, align: center, text(fill: final-header-color, weight: "bold")[Phát biểu]),
-          table.cell(fill: header-bg, align: center, text(fill: final-header-color, weight: "bold")[Đ]),
-          table.cell(fill: header-bg, align: center, text(fill: final-header-color, weight: "bold")[S]),
+          table.cell(fill: header-bg, align: center, text(fill: final-header-color, weight: "bold")[#labels.statement]),
+          table.cell(fill: header-bg, align: center, text(fill: final-header-color, weight: "bold")[#labels.tf-true]),
+          table.cell(fill: header-bg, align: center, text(fill: final-header-color, weight: "bold")[#labels.tf-false]),
         ),
         ..statements.enumerate().map(((i, s)) => {
           let is-d = show-ans and ans-tf.len() > i and ans-tf.at(i) == "Đ"
@@ -212,7 +302,7 @@
           (
             table.cell(fill: row-bg, align: left, [
               #show math.equation.where(block: false): it => box(inset: (y: 6pt), it)
-              *#("abcd".at(i)))* #s
+              *#_vp-tf-letter(i))* #s
             ]),
             table.cell(fill: if is-d { bg-color-or(correct-color) } else { row-bg })[#if is-d { text(fill: correct-color, weight: "bold")[✓] } else { empty-box }],
             table.cell(fill: if is-s { bg-color-or(wrong-color) } else { row-bg })[#if is-s { text(fill: wrong-color, weight: "bold")[✗] } else { empty-box }],
@@ -221,10 +311,10 @@
       )
     } else {
       for (i, s) in statements.enumerate() [
-        *#("abcd".at(i)))*
-        #if show-ans and ans-tf.len() > i [
+        *#_vp-tf-letter(i))*
+        #if show-ans and ans-tf.len() > i and ans-tf.at(i) != "" [
           #let correct = ans-tf.at(i) == "Đ"
-          #text(fill: if correct { correct-color } else { wrong-color }, weight: "bold")[ (#if correct [✓ Đ] else [✗ S])]
+          #text(fill: if correct { correct-color } else { wrong-color }, weight: "bold")[ (#if correct [✓ #labels.tf-true] else [✗ #labels.tf-false])]
         ]
         #s \ #v(4pt)
       ]
@@ -270,25 +360,34 @@
   }
 }
 
-#let _render-essay-answer(ans, show-ans, ans-color) = {
+#let _render-essay-answer(ans, show-ans, ans-color, labels: vp-default-labels) = {
   if show-ans and ans != none {
     v(8pt)
-    text(fill: ans-color, weight: "bold")[➜ Đáp số: #ans]
+    text(fill: ans-color, weight: "bold")[#labels.answer #ans]
   }
 }
 
 #let vp-question(
-  stem, listEs: (), num-style: auto, type: "mcq", options: (), statements: (), ans: none, ans-tf: (), sol: none, level: none, source: none, stem2: none, image-scope: "stem",
-  prefix: auto, points: none,
+  stem, listEs: (), items: none, num-style: auto, type: "mcq", options: (), statements: (), ans: none, ans-tf: (), sol: none, level: none, source: none, stem2: none, image-scope: "stem",
+  prefix: auto, points: none, data: none,
   q-spacing: auto, stem-spacing: auto, keep-first-line: auto,
   line-spacing: auto, lines-above: auto, tf-inset: auto, breakable: auto,
   short-boxes: 4, short-fields: (),
 
   lines: auto, q-bg: auto, q-border: auto, tf-header-bg: auto, ans-color: auto, tf-correct-color: auto, tf-wrong-color: auto, ans-shape: auto, ans-mark-bg: auto, ans-mark-border: auto, ans-mark-width: auto, ans-text-color: auto, level-color: auto, source-color: auto,
-  q-radius: auto, q-padding: auto, q-margin: 6pt, lbl-color: auto, lbl-bg: none, lbl-border: none, lbl-radius: 0pt, lbl-padding: 0pt, icon-before: none, icon-after: none, opt-color: auto, opt-bg: none, opt-border: none, opt-radius: 0pt, opt-padding: 0pt, tf-style: "table", tf-header-color: white, tf-border: rgb("#E8E8E8"), tf-row-bg: none, short-border: rgb("#333333"), short-bg: none, image: none, image-ratio: 0.65, image-gap: 4%, image-side: "right", image-valign: top,
+  q-radius: auto, q-padding: auto, q-margin: 6pt, lbl-color: auto, lbl-bg: auto, lbl-border: auto, lbl-radius: auto, lbl-padding: auto, icon-before: auto, icon-after: auto, opt-color: auto, opt-bg: auto, opt-border: auto, opt-radius: auto, opt-padding: 0pt, tf-style: "table", tf-header-color: white, tf-border: rgb("#E8E8E8"), tf-row-bg: none, short-border: rgb("#333333"), short-bg: none, image: none, image-ratio: 0.65, image-gap: 4%, image-side: "right", image-valign: top,
 ) = {
+  let listEs = if items != none { items } else { listEs }
+  let ans-tf = _vp-normalize-tf-ans(ans-tf)
+  let ans = if type == "mcq" { _vp-normalize-mcq-ans(ans, options.len()) } else { ans }
   vp-q-counter.step()
   context {
+    let custom-types = vp-question-types.get()
+    assert(type in _vp-builtin-types or type in custom-types,
+      message: "vietphys: loại câu " + repr(type) + " chưa được hỗ trợ. Dùng mcq, tf, short, essay"
+        + if custom-types.len() > 0 { " hoặc " + custom-types.keys().join(", ") } else { "" }
+        + ", hoặc đăng ký bằng vp-register-question-type.")
+    let labels = vp-labels.get()
     let layout-style = _vp-exercise-style.get()
     let q-spacing = if q-spacing == auto { layout-style.q-spacing } else { q-spacing }
     // Set only when requested: do not alter spacing in existing documents.
@@ -347,39 +446,43 @@
     let g-opt-radius = vp-opt-radius.get()
 
     let final-opt-color = if opt-color != auto { opt-color } else if g-opt-color != auto { g-opt-color } else { rgb("#333333") }
-    let final-opt-bg = if opt-bg != none { opt-bg } else if g-opt-bg != auto { g-opt-bg } else { none }
-    let final-opt-border = if opt-border != none { opt-border } else if g-opt-border != auto { g-opt-border } else { none }
-    let final-opt-radius = if opt-radius != 0pt { opt-radius } else if g-opt-radius != auto { g-opt-radius } else { 0pt }
+    let final-opt-bg = if opt-bg != auto { opt-bg } else if g-opt-bg != auto { g-opt-bg } else { none }
+    let final-opt-border = if opt-border != auto { opt-border } else if g-opt-border != auto { g-opt-border } else { none }
+    let final-opt-radius = if opt-radius != auto { opt-radius } else if g-opt-radius != auto { g-opt-radius } else { 0pt }
 
     let g-prefix = vp-q-prefix.get()
     let final-prefix = if prefix != auto { prefix } else if g-prefix != auto { g-prefix } else { "Câu" }
 
     let g-icon-before = vp-q-icon-before.get()
-    let final-icon-before = if icon-before != none { icon-before } else { g-icon-before }
+    let final-icon-before = if icon-before != auto { icon-before } else { g-icon-before }
 
     let g-icon-after = vp-q-icon-after.get()
-    let final-icon-after = if icon-after != none { icon-after } else { g-icon-after }
+    let final-icon-after = if icon-after != auto { icon-after } else { g-icon-after }
 
     let g-lbl-color = vp-q-lbl-color.get()
     let final-lbl-color = if lbl-color != auto { lbl-color } else if g-lbl-color != auto { g-lbl-color } else { pal.dark }
 
     let g-lbl-bg = vp-q-lbl-bg.get()
-    let final-lbl-bg = if lbl-bg != none { lbl-bg } else if g-lbl-bg != auto { g-lbl-bg } else { none }
+    let final-lbl-bg = if lbl-bg != auto { lbl-bg } else if g-lbl-bg != auto { g-lbl-bg } else { none }
 
     let g-lbl-border = vp-q-lbl-border.get()
-    let final-lbl-border = if lbl-border != none { lbl-border } else if g-lbl-border != auto { g-lbl-border } else { none }
+    let final-lbl-border = if lbl-border != auto { lbl-border } else if g-lbl-border != auto { g-lbl-border } else { none }
 
     let g-lbl-radius = vp-q-lbl-radius.get()
-    let final-lbl-radius = if lbl-radius != 0pt { lbl-radius } else if g-lbl-radius != auto { g-lbl-radius } else { 0pt }
+    let final-lbl-radius = if lbl-radius != auto { lbl-radius } else if g-lbl-radius != auto { g-lbl-radius } else { 0pt }
 
     let g-lbl-padding = vp-q-lbl-padding.get()
-    let final-lbl-padding = if lbl-padding != 0pt { lbl-padding } else if g-lbl-padding != auto { g-lbl-padding } else { 0pt }
+    let final-lbl-padding = if lbl-padding != auto { lbl-padding } else if g-lbl-padding != auto { g-lbl-padding } else { 0pt }
 
     let final-level-color = if level-color == auto { theme.at("level-color", default: pal.primary) } else { level-color }
     let final-source-color = if source-color == auto { theme.at("source-color", default: vp-colors.text-muted) } else { source-color }
 
+    let entry = (num: num, display-num: display-num, type: type, ans: ans, ans-tf: ans-tf, sol: sol, shown_inline: is-sol, prefix: final-prefix,
+      chapter: counter("vp-chapter").get().first(), lesson: counter("vp-lesson").get().first(),
+      batch: _vp-keys-batch.get().first(), sol-batch: _vp-sol-batch.get().first(),
+      keys: if type in custom-types { custom-types.at(type).keys } else { auto })
     vp-sol-store.update(arr => {
-      arr.push((num: num, display-num: display-num, type: type, ans: ans, ans-tf: ans-tf, sol: sol, shown_inline: is-sol, prefix: final-prefix))
+      arr.push(entry)
       arr
     })
 
@@ -431,8 +534,8 @@
 
       let col-width = (avail-w - (cols-count - 1) * 12pt) / cols-count
       let cells = options.enumerate().map(((i, opt)) => {
-          let is-correct = is-ans and ans == str("ABCD".at(i))
-          let char = str("ABCD".at(i))
+          let char = _vp-opt-letter(i)
+          let is-correct = is-ans and ans == char
 
           let marker = _render-mcq-marker(
             char,
@@ -471,7 +574,7 @@
           par(first-line-indent: 0pt, hanging-indent: 0pt)[#row.join(h(12pt))]),
       )
     }) } else if type == "tf" [
-      #_render-tf(statements, tf-style, final-tf-header, tf-header-color, tf-border, tf-row-bg, ans-tf, is-ans, final-tf-correct, final-tf-wrong, final-ans-mark-bg, final-ans-mark-border, final-ans-mark-width, inset: tf-inset)
+      #_render-tf(statements, tf-style, final-tf-header, tf-header-color, tf-border, tf-row-bg, ans-tf, is-ans, final-tf-correct, final-tf-wrong, final-ans-mark-bg, final-ans-mark-border, final-ans-mark-width, inset: tf-inset, labels: labels)
     ] else if type == "short" [
       #if short-fields.len() == 0 {
         _render-short-boxes(short-border, short-bg, ans, is-ans, final-ans-color, count: short-boxes)
@@ -485,8 +588,14 @@
         }
       }
     ] else if type == "essay" [
-      #_render-essay-answer(ans, is-ans, final-ans-color)
-    ]
+      #_render-essay-answer(ans, is-ans, final-ans-color, labels: labels)
+    ] else if type in custom-types {
+      (custom-types.at(type).render)((
+        num: num, display-num: display-num, options: options, statements: statements,
+        ans: ans, ans-tf: ans-tf, show-ans: is-ans, ans-color: final-ans-color,
+        palette: pal, labels: labels, data: data,
+      ))
+    }
 
     let content-with-image = if image != none {
       if image-side == "bottom" {
@@ -535,7 +644,7 @@
         #let sol-stroke = pal.primary
         #let sol-title = pal.dark
         #block(fill: sol-bg, stroke: (left: 3pt + sol-stroke), radius: (right: 4pt), inset: 12pt, width: 100%, breakable: true)[
-          #text(fill: sol-title, weight: "bold")[Lời giải:] \ #v(4pt) #sol
+          #text(fill: sol-title, weight: "bold")[#labels.solution] \ #v(4pt) #sol
         ]
       ]
     ]
@@ -545,60 +654,108 @@
   }
 }
 
-#let vp-print-solutions(title: "HƯỚNG DẪN GIẢI CHI TIẾT") = {
+// scope: "all" (default), "chapter", "lesson", "batch" (since the previous batch call)
+// or a function item => bool. groups: true prefixes numbers after each counter reset.
+#let _vp-select-items(store, scope, batch) = {
+  if scope == "all" { return store }
+  if type(scope) == function { return store.filter(scope) }
+  assert(scope in ("chapter", "lesson", "batch"),
+    message: "vietphys: scope phải là \"all\", \"chapter\", \"lesson\", \"batch\" hoặc một hàm")
+  let chapter = counter("vp-chapter").get().first()
+  let lesson = counter("vp-lesson").get().first()
+  if scope == "chapter" { store.filter(x => x.at("chapter", default: 0) == chapter) }
+  else if scope == "lesson" {
+    store.filter(x => x.at("chapter", default: 0) == chapter and x.at("lesson", default: 0) == lesson)
+  } else { store.filter(x => x.at(batch.key, default: 0) == batch.value) }
+}
+
+#let _vp-with-groups(items, groups, group-numbering) = {
+  let group = 0
+  let previous = none
+  let result = ()
+  for item in items {
+    if previous != none and item.num <= previous { group += 1 }
+    previous = item.num
+    result.push(item + (group: group))
+  }
+  let label-of = if groups and group > 0 {
+    it => numbering(group-numbering, it.group + 1) + "." + str(it.at("display-num", default: it.num))
+  } else {
+    it => it.at("display-num", default: it.num)
+  }
+  (result, label-of)
+}
+
+#let vp-print-solutions(title: auto, scope: "all", groups: false, group-numbering: "I") = {
   context {
-    let arr = vp-sol-store.get().filter(item => item.sol != none and not item.shown_inline)
+    let labels = vp-labels.get()
+    let store = _vp-select-items(vp-sol-store.get(), scope,
+      (key: "sol-batch", value: _vp-sol-batch.get().first()))
+    let (store, label-of) = _vp-with-groups(store, groups, group-numbering)
+    let arr = store.filter(item => item.sol != none and not item.shown_inline)
     if arr.len() > 0 {
       let pal = vp-resolve-palette()
       let c-success = pal.primary
-      heading(level: 1)[#text(fill: c-success)[#title]]
+      let title = if title == auto { labels.solutions-title } else { title }
+      if title != none { heading(level: 1)[#text(fill: c-success)[#title]] }
       for item in arr {
         let p = item.at("prefix", default: "Câu")
         block(fill: pal.bg, stroke: 1pt + c-success, radius: 4pt, inset: 12pt, width: 100%, breakable: true)[
-          *#p #(item.at("display-num", default: item.num)):* \ #v(4pt) #item.sol
+          *#p #label-of(item):* \ #v(4pt) #item.sol
         ]
         v(10pt)
       }
     }
   }
+  // Only batch mode adds a marker, so default calls leave layout untouched.
+  if scope == "batch" { _vp-sol-batch.step() }
 }
 
-#let vp-print-keys(title: "BẢNG ĐÁP ÁN NHANH") = {
+#let vp-print-keys(title: auto, scope: "all", groups: false, group-numbering: "I",
+  accent: auto, mcq-columns: 5, short-columns: 4) = {
   context {
-    let store = vp-sol-store.get()
-    let mcqs = store.filter(x => x.type == "mcq" and x.ans != none)
+    let labels = vp-labels.get()
+    let store = _vp-select-items(vp-sol-store.get(), scope,
+      (key: "batch", value: _vp-keys-batch.get().first()))
+    let (store, label-of) = _vp-with-groups(store, groups, group-numbering)
+    let kind(x) = x.at("keys", default: auto)
+    let mcqs = store.filter(x => (x.type == "mcq" or kind(x) == "mcq") and x.ans != none)
     let tfs = store.filter(x => x.type == "tf" and x.ans-tf != ())
-    let shorts = store.filter(x => (x.type == "short" or x.type == "essay") and x.ans != none)
+    let shorts = store.filter(x => (x.type == "short" or x.type == "essay" or kind(x) == "short") and x.ans != none)
 
     let c-border = vp-colors.at("border", default: rgb("#E8E8E8"))
-    let c-danger = vp-colors.at("danger", default: rgb("#FF4D4F"))
+    let c-danger = if accent == auto { vp-colors.at("danger", default: rgb("#FF4D4F")) } else { accent }
     let c-primary = vp-colors.at("primary", default: rgb("#1890FF"))
     let c-success = vp-colors.at("success", default: rgb("#52C41A"))
     let table-stroke = 0.5pt + c-border
 
     if store.len() > 0 {
-      heading(level: 1)[#text(fill: c-danger)[#title]]
+      let title = if title == auto { labels.keys-title } else { title }
+      if title != none { heading(level: 1)[#text(fill: c-danger)[#title]] }
 
       if mcqs.len() > 0 {
-        heading(level: 2)[PHẦN I. TRẮC NGHIỆM NHIỀU PHƯƠNG ÁN]
+        heading(level: 2)[#labels.keys-mcq]
         table(
-          columns: (1fr,) * 5, stroke: table-stroke, align: center + horizon,
-          ..mcqs.map(it => [ *#(it.at("display-num", default: it.num)).* #text(fill: c-danger, weight: "bold")[#it.ans] ])
+          columns: (1fr,) * mcq-columns, stroke: table-stroke, align: center + horizon,
+          ..mcqs.map(it => [ *#label-of(it).* #text(fill: c-danger, weight: "bold")[#it.ans] ])
         )
       }
 
       if tfs.len() > 0 {
-        heading(level: 2)[PHẦN II. TRẮC NGHIỆM ĐÚNG/SAI]
+        let n = calc.max(4, ..tfs.map(it => it.ans-tf.len()))
+        heading(level: 2)[#labels.keys-tf]
         table(
-          columns: (auto, 1fr, 1fr, 1fr, 1fr), stroke: table-stroke, align: center + horizon,
-          table.cell(fill: rgb("#FAFAFA"))[*Câu*], table.cell(fill: rgb("#FAFAFA"))[*a)*], table.cell(fill: rgb("#FAFAFA"))[*b)*], table.cell(fill: rgb("#FAFAFA"))[*c)*], table.cell(fill: rgb("#FAFAFA"))[*d)*],
+          columns: (auto,) + (1fr,) * n, stroke: table-stroke, align: center + horizon,
+          table.cell(fill: rgb("#FAFAFA"))[*#labels.keys-question*],
+          ..range(n).map(i => table.cell(fill: rgb("#FAFAFA"))[*#_vp-tf-letter(i))*]),
           ..tfs.map(it => {
-            let cells = (table.cell(fill: rgb("#FAFAFA"))[*#(it.at("display-num", default: it.num))*],)
+            let cells = (table.cell(fill: rgb("#FAFAFA"))[*#label-of(it)*],)
             let ans = it.ans-tf
-            while ans.len() < 4 { ans.push("") }
-            for a in ans.slice(0, 4) {
+            while ans.len() < n { ans.push("") }
+            for a in ans.slice(0, n) {
               let c = if a == "Đ" { c-success } else if a == "S" { c-danger } else { black }
-              cells.push(text(fill: c, weight: "bold")[#a])
+              let shown = if a == "Đ" { labels.tf-true } else if a == "S" { labels.tf-false } else { a }
+              cells.push(text(fill: c, weight: "bold")[#shown])
             }
             cells
           }).flatten()
@@ -606,12 +763,14 @@
       }
 
       if shorts.len() > 0 {
-        heading(level: 2)[PHẦN III. TRẢ LỜI NGẮN & TỰ LUẬN]
+        heading(level: 2)[#labels.keys-short]
         table(
-          columns: (1fr,) * 4, stroke: table-stroke, align: center + horizon,
-          ..shorts.map(it => [ *#(it.at("display-num", default: it.num)).* #text(fill: c-danger, weight: "bold")[#it.ans] ])
+          columns: (1fr,) * short-columns, stroke: table-stroke, align: center + horizon,
+          ..shorts.map(it => [ *#label-of(it).* #text(fill: c-danger, weight: "bold")[#it.ans] ])
         )
       }
     }
   }
+  // Only batch mode adds a marker, so default calls leave layout untouched.
+  if scope == "batch" { _vp-keys-batch.step() }
 }

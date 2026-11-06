@@ -1,2419 +1,281 @@
 #import "../vietphys.typ": *
-#show: vp-page-setup.with(hierarchy: "standalone", heading-theme: none, margin: (x: 2cm, y: 2cm))
-#set text(font: "Arial", size: 10pt, lang: "vi")
-#set heading(numbering: "1.1")
-#set page(header: vp-header(left-text: "VIETPHYS 0.1.0", right-text: "HƯỚNG DẪN SỬ DỤNG"), footer: vp-footer(center-text: context counter(page).display("1")))
-#show raw.where(block: true): it => block(width: 100%, fill: rgb("#F4F6FA"), inset: 8pt, radius: 4pt, breakable: true, text(size: 8pt, it))
-#let product(body) = block(width: 100%, stroke: 0.5pt + rgb("#CAD5E2"), inset: 12pt, radius: 4pt, breakable: true, body)
-#let demo-keep-counter(sub, body) = {
-  body
-  counter(heading).update((5, sub))
-}
-#align(center)[#text(size: 25pt, weight: "bold", fill: rgb("#184C99"))[CẨM NANG VIETPHYS]
-#v(8pt)
-Code mẫu • Sản phẩm thực tế • Tra cứu đầy đủ tham số]
-#outline(title: [Mục lục], depth: 1, target: heading.where(supplement: [Mục], outlined: true))
+#import "../vietphys.typ" as vm
 
-#pagebreak()
-= Bắt đầu và cấu hình trang
+// ============================================================================
+// CẨM NANG VIETPHYS — xây dựng lại theo từng phần.
+// Phần 1: khai báo tài liệu và danh mục mọi mẫu header, footer của gói.
+// ============================================================================
 
-Tài liệu cho Vietphys 0.1.0 trong repo này. Mỗi ví dụ có code và sản phẩm dựng từ đoạn code đó. Thêm import khi chép code sang tài liệu mới. File đặt trong examples dùng `#import "../vietphys.typ": *`; file đặt cạnh entry point dùng `#import "vietphys.typ": *`. Import từ Universe chỉ dùng sau khi gói được phát hành.
-
-`vp-page-setup` mặc định dùng A4, Times New Roman 13pt, căn đều, `leading: 1.2em`, phân cấp tự động (`hierarchy: auto`) và heading modern (`vp-heading-theme-modern`). `heading-theme: none` dùng `vp-heading-theme-native` (giao diện Typst đơn giản, dòng tiêu đề tiếp theo căn lề chỉ số). `header: none`/`footer: none` bỏ đầu/chân trang. Màu dùng `rgb("#RRGGBB")`, viền dùng `1pt + rgb("#RRGGBB")`; none không vẽ, auto lấy cấu hình. `[Nội dung]` chứa định dạng/công thức/ảnh; `(a, b)` là mảng, mảng một phần tử cần dấu phẩy cuối.
-
-
-```typst
-#import "../vietphys.typ": *
+#let mau-chinh = rgb("#184C99")
 #show: vp-page-setup.with(
-  paper: "a4", margin: (x: 2cm, y: 2.5cm),
-  theme-preset: "ocean",
-  header: vp-header(left-text: "VẬT LÍ 12", right-text: "Minh họa"),
-  footer: vp-footer(center-text: context counter(page).display()),
+  margin: (x: 2cm, top: 2.6cm, bottom: 2.4cm),
+  theme-color: mau-chinh,
+  font: "Arial", font-size: 10pt, leading: 0.75em,
+  heading-theme: vp-heading-theme-modern.with(font: "Arial"),
+  header: vp-header-modern(title: "VIETPHYS 0.1.0", subtitle: "Cẩm nang hướng dẫn sử dụng",
+    icon: "book-open", color: mau-chinh),
+  footer: vp-footer-kage-enso(title: "VIETPHYS", slogan: "Soạn tài liệu Vật lí bằng Typst",
+    color: mau-chinh, icon: "shuriken", divider: "line", page-format: "1 / total"),
 )
-#set text(font: "Times New Roman", size: 12pt)
-#vp-question([Nội dung minh họa.], options: ("N", "J", "W", "Pa"), ans: "A")
-```
-
-```text
-typst compile examples/huong-dan-day-du.typ dist/huong-dan-day-du.pdf --root .
-```
-*Sản phẩm mẫu khởi đầu:*
-#product[
-#vp-question([Đơn vị của lực là gì?], options: ("N", "J", "W", "Pa"), ans: "A")
-]
-
-= Câu hỏi và đáp án
-Dùng type: "mcq", "tf", "short" hoặc "essay". MCQ/TF nhận tối đa bốn phương án/phát biểu. Bộ đếm tự tăng; `#vp-q-counter.update(0)` làm câu tiếp theo bắt đầu từ 1. MCQ tự chia 4, 2 hoặc 1 cột theo độ dài phương án và chiều rộng vùng chứa; không có option ép số cột.
-
-== Trắc nghiệm, mức độ và nguồn
-`ans` nhận chữ hoa A/B/C/D. `level` và `source` là nhãn tùy chọn. Dùng `vp-show-level.update(false)` và `vp-show-source.update(false)` để ẩn; dùng `level-color` và `source-color` để đổi màu.
-
-*Code:*
-```typst
-#vp-question([Đơn vị của gia tốc là gì?], type: "mcq",
-  options: ([#vp-unit("m/s^2")], [#vp-unit("m/s")], [#vp-unit("N")], [#vp-unit("J")]),
-  ans: "A", level: "Nhận biết", source: "Minh họa",
-  sol: [Gia tốc là độ biến thiên vận tốc trong một đơn vị thời gian, đơn vị m/s².])
-```
-
-*Sản phẩm thực tế:*
-#product[
-#vp-question([Đơn vị của gia tốc là gì?], type: "mcq",
-  options: ([#vp-unit("m/s^2")], [#vp-unit("m/s")], [#vp-unit("N")], [#vp-unit("J")]),
-  ans: "A", level: "Nhận biết", source: "Minh họa",
-  sol: [Gia tốc là độ biến thiên vận tốc trong một đơn vị thời gian, đơn vị m/s².])
-]
-
-== Đổi màu chữ Câu và khung câu hỏi
-`lbl-color` đổi màu chữ Câu và số; `lbl-bg/border/radius/padding` trang trí nhãn. `q-bg/border/radius/padding` trang trí toàn câu. `q-margin` mở rộng khung ra ngoài khi có nền hoặc viền. `prefix`, `num-style`, `icon-before/after` đổi tên, kiểu số và icon.
-
-*Code:*
-```typst
-#vp-question([Tính lực khi khối lượng 2 kg và gia tốc 3 m/s².],
-  prefix: "Bài", num-style: "01", icon-before: [★], icon-after: [◆],
-  lbl-color: rgb("#9D174D"), lbl-bg: rgb("#FCE7F3"),
-  lbl-border: 0.7pt + rgb("#DB2777"), lbl-radius: 4pt, lbl-padding: (x: 7pt, y: 3pt),
-  q-bg: rgb("#F8FAFC"), q-border: 0.7pt + rgb("#94A3B8"),
-  q-radius: 6pt, q-padding: 12pt, q-margin: 0pt,
-  options: ("6 N", "3 N", "2 N", "1 N"), ans: "A")
-```
-
-*Sản phẩm thực tế:*
-#product[
-#vp-question([Tính lực khi khối lượng 2 kg và gia tốc 3 m/s².],
-  prefix: "Bài", num-style: "01", icon-before: [★], icon-after: [◆],
-  lbl-color: rgb("#9D174D"), lbl-bg: rgb("#FCE7F3"),
-  lbl-border: 0.7pt + rgb("#DB2777"), lbl-radius: 4pt, lbl-padding: (x: 7pt, y: 3pt),
-  q-bg: rgb("#F8FAFC"), q-border: 0.7pt + rgb("#94A3B8"),
-  q-radius: 6pt, q-padding: 12pt, q-margin: 0pt,
-  options: ("6 N", "3 N", "2 N", "1 N"), ans: "A")
-]
-
-== Đổi màu A, B, C, D và đáp án đúng
-`opt-color/bg/border/radius` đổi nhãn A–D, không đổi nền hay màu chữ toàn phương án. `ans-text-color` đổi nhãn và nội dung phương án đúng khi bật đáp án. `ans-mark-bg/border/width` đổi nền, viền và độ dày dấu khoanh. `ans-color` dùng cho short/essay, không đổi chữ đáp án MCQ.
-
-*Code:*
-```typst
-#vp-show-ans.update(true)
-#vp-question([Đơn vị của lực là gì?], options: ("N", "J", "W", "Pa"), ans: "A",
-  opt-color: rgb("#6D28D9"), opt-bg: rgb("#EDE9FE"),
-  opt-border: 0.7pt + rgb("#A78BFA"), opt-radius: 3pt,
-  ans-shape: "square", ans-mark-bg: rgb("#DCFCE7"),
-  ans-mark-border: rgb("#15803D"), ans-mark-width: 1.2pt,
-  ans-text-color: rgb("#166534"))
-#vp-show-ans.update(false)
-```
-
-*Sản phẩm thực tế:*
-#product[
-#vp-show-ans.update(true)
-#vp-question([Đơn vị của lực là gì?], options: ("N", "J", "W", "Pa"), ans: "A",
-  opt-color: rgb("#6D28D9"), opt-bg: rgb("#EDE9FE"),
-  opt-border: 0.7pt + rgb("#A78BFA"), opt-radius: 3pt,
-  ans-shape: "square", ans-mark-bg: rgb("#DCFCE7"),
-  ans-mark-border: rgb("#15803D"), ans-mark-width: 1.2pt,
-  ans-text-color: rgb("#166534"))
-#vp-show-ans.update(false)
-]
-
-== Các hình đánh dấu đáp án
-`ans-shape` nhận circle, square, round-rect (alias rounded), none. Khi chọn none, chữ đáp án đúng vẫn được tô màu nếu bật đáp án.
-
-*Code:*
-```typst
-#vp-show-ans.update(true)
-#for shape in ("circle", "square", "round-rect", "none") [
-  #vp-question([Nội dung minh họa.], options: ("N", "J", "W", "Pa"), ans: "B",
-    ans-shape: shape, ans-text-color: rgb("#DC2626"))
-]
-#vp-show-ans.update(false)
-```
-
-*Sản phẩm thực tế:*
-#product[
-#vp-show-ans.update(true)
-#for shape in ("circle", "square", "round-rect", "none") [
-  #vp-question([Nội dung minh họa.], options: ("N", "J", "W", "Pa"), ans: "B",
-    ans-shape: shape, ans-text-color: rgb("#DC2626"))
-]
-#vp-show-ans.update(false)
-]
-
-== Đổi màu toàn bảng đúng/sai
-`tf-header-bg/color`: nền/chữ tiêu đề; `tf-row-bg`: nền thân bảng; `tf-border`: viền bảng; `tf-correct-color/wrong-color`: màu dấu Đ/S và nền nhạt của ô được đánh dấu. `ans-mark-...` trang trí ô trống. `ans-tf` dùng đúng ký tự "Đ" hoặc "S".
-
-*Code:*
-```typst
-#vp-show-ans.update(true)
-#vp-question([Xét các phát biểu về chuyển động thẳng đều.], type: "tf", tf-style: "table",
-  statements: ([Xét các phát biểu về chuyển động thẳng đều.], [Xét các phát biểu về chuyển động thẳng đều.],
-    [Xét các phát biểu về chuyển động thẳng đều.], [Xét các phát biểu về chuyển động thẳng đều.]),
-  ans-tf: ("Đ", "Đ", "Đ", "S"),
-  tf-header-bg: rgb("#6D28D9"), tf-header-color: white,
-  tf-row-bg: rgb("#FAF5FF"), tf-border: 0.8pt + rgb("#C4B5FD"),
-  tf-correct-color: rgb("#15803D"), tf-wrong-color: rgb("#DC2626"),
-  ans-mark-bg: rgb("#FFF7ED"), ans-mark-border: rgb("#EA580C"), ans-mark-width: 1pt)
-#vp-show-ans.update(false)
-```
-
-*Sản phẩm thực tế:*
-#product[
-#vp-show-ans.update(true)
-#vp-question([Xét các phát biểu về chuyển động thẳng đều.], type: "tf", tf-style: "table",
-  statements: ([Xét các phát biểu về chuyển động thẳng đều.], [Xét các phát biểu về chuyển động thẳng đều.],
-    [Xét các phát biểu về chuyển động thẳng đều.], [Xét các phát biểu về chuyển động thẳng đều.]),
-  ans-tf: ("Đ", "Đ", "Đ", "S"),
-  tf-header-bg: rgb("#6D28D9"), tf-header-color: white,
-  tf-row-bg: rgb("#FAF5FF"), tf-border: 0.8pt + rgb("#C4B5FD"),
-  tf-correct-color: rgb("#15803D"), tf-wrong-color: rgb("#DC2626"),
-  ans-mark-bg: rgb("#FFF7ED"), ans-mark-border: rgb("#EA580C"), ans-mark-width: 1pt)
-#vp-show-ans.update(false)
-]
-
-== Đúng/sai dạng danh sách và đề học sinh
-`tf-style` nhận table hoặc list. Khi tắt đáp án, list chỉ còn a), b)…; table vẫn có ô trống cho học sinh đánh dấu.
-
-*Code:*
-```typst
-#vp-show-ans.update(true)
-#vp-question([Nội dung minh họa.], type: "tf", tf-style: "list",
-  statements: ([Lực có đơn vị N.], [Công có đơn vị W.]), ans-tf: ("Đ", "S"),
-  tf-correct-color: rgb("#15803D"), tf-wrong-color: rgb("#BE123C"))
-#vp-show-ans.update(false)
-#vp-question([Nội dung minh họa.], type: "tf", tf-style: "table",
-  statements: ([Lực có đơn vị N.], [Công có đơn vị W.]), ans-tf: ("Đ", "S"))
-```
-
-*Sản phẩm thực tế:*
-#product[
-#vp-show-ans.update(true)
-#vp-question([Nội dung minh họa.], type: "tf", tf-style: "list",
-  statements: ([Lực có đơn vị N.], [Công có đơn vị W.]), ans-tf: ("Đ", "S"),
-  tf-correct-color: rgb("#15803D"), tf-wrong-color: rgb("#BE123C"))
-#vp-show-ans.update(false)
-#vp-question([Nội dung minh họa.], type: "tf", tf-style: "table",
-  statements: ([Lực có đơn vị N.], [Công có đơn vị W.]), ans-tf: ("Đ", "S"))
-]
-
-== Trả lời ngắn và tự luận
-Short mặc định có bốn ô (`short-boxes: 4`); truyền `short-boxes: 5` (hoặc số nguyên dương bất kỳ) khi kết quả dài hơn bốn ký tự. Nếu cần điền nhiều đại lượng trong cùng một câu, truyền `short-fields` gồm các dictionary `(label: [...], ans: "...", boxes: 4)`. Essay nhận `listEs` để đánh số a), b)… và `points` để thêm điểm (hiển thị khi ẩn level và source).
-
-*Code:*
-```typst
-#vp-show-ans.update(true)
-#vp-question([Ghi đáp án và trình bày cách giải.], type: "short", ans: "-1,5",
-  short-bg: rgb("#FEF3C7"), short-border: rgb("#D97706"), ans-color: rgb("#B45309"))
-#vp-question([Ghi đáp án và trình bày cách giải.], type: "essay", points: "2 điểm", lines: 2,
-  listEs: ([Ghi đáp án và trình bày cách giải.], [Ghi đáp án và trình bày cách giải.]), ans: [$s = 24$ m])
-#vp-question([Điền hai kết quả đo.], type: "short", ans: "9,79; 0,70",
-  short-fields: (
-    (label: [Gia tốc trung bình $overline(g)$ (m/s²):], ans: "9,79", boxes: 4),
-    (label: [Sai số tỉ đối $delta g$ (%):], ans: "0,70", boxes: 4),
-  ))
-#vp-show-ans.update(false)
-```
-
-*Sản phẩm thực tế:*
-#product[
-#vp-show-ans.update(true)
-#vp-question([Ghi đáp án và trình bày cách giải.], type: "short", ans: "-1,5",
-  short-bg: rgb("#FEF3C7"), short-border: rgb("#D97706"), ans-color: rgb("#B45309"))
-#vp-question([Ghi đáp án và trình bày cách giải.], type: "essay", points: "2 điểm", lines: 2,
-  listEs: ([Ghi đáp án và trình bày cách giải.], [Ghi đáp án và trình bày cách giải.]), ans: [$s = 24$ m])
-#vp-question([Điền hai kết quả đo.], type: "short", ans: "9,79; 0,70",
-  short-fields: (
-    (label: [Gia tốc trung bình $overline(g)$ (m/s²):], ans: "9,79", boxes: 4),
-    (label: [Sai số tỉ đối $delta g$ (%):], ans: "0,70", boxes: 4),
-  ))
-#vp-show-ans.update(false)
-]
-
-== Lời giải và dòng viết
-`vp-show-ans` và `vp-show-sol` bật/tắt độc lập. `lines` là số dòng viết; khi có lời giải trực tiếp, dòng viết bị ẩn. `vp-print-solutions` chỉ in lời giải chưa hiện trực tiếp. Gọi lệnh tổng hợp sau các câu.
-
-*Code:*
-```typst
-#vp-show-sol.update(true)
-#vp-question([Nội dung minh họa.], type: "essay",
-  ans: "6 J", sol: [$A = F s = 6$ J.], lines: 3)
-#vp-show-sol.update(false)
-#vp-question([Nội dung minh họa.], type: "essay", lines: 2,
-  sol: [$P = A / t$.])
-```
-
-*Sản phẩm thực tế:*
-#product[
-#vp-show-sol.update(true)
-#vp-question([Nội dung minh họa.], type: "essay",
-  ans: "6 J", sol: [$A = F s = 6$ J.], lines: 3)
-#vp-show-sol.update(false)
-#vp-question([Nội dung minh họa.], type: "essay", lines: 2,
-  sol: [$P = A / t$.])
-]
-
-== Thiết lập chung cho những câu sau
-State có hiệu lực theo vị trí tài liệu và không tự khôi phục khi đóng block. Setter chỉ cập nhật tham số khác auto; muốn trả về auto, dùng state.update(auto). Một số giá trị none/0pt trên từng câu được hiểu là kế thừa, nên không dùng để xóa kiểu chung. `vp-sol-store.update(())` xóa kho đáp án; reset bộ đếm không xóa kho.
-
-*Code:*
-```typst
-#vp-set-question-style(prefix: "Ví dụ", lbl-color: rgb("#0369A1"),
-  opt-color: rgb("#7C3AED"), num-style: "1")
-#vp-set-ans-style(shape: "round-rect", bg: rgb("#DCFCE7"),
-  border: rgb("#15803D"), text-color: rgb("#166534"))
-#vp-show-ans.update(true)
-#vp-question([Nội dung minh họa.], options: ("N", "J", "W", "Pa"), ans: "A")
-#vp-show-ans.update(false)
-#vp-q-prefix.update("Câu")
-#vp-q-lbl-color.update(auto)
-#vp-opt-color.update(auto)
-#vp-ans-shape.update(auto)
-#vp-ans-mark-bg.update(auto)
-#vp-ans-mark-border.update(auto)
-#vp-ans-text-color.update(auto)
-```
-
-*Sản phẩm thực tế:*
-#product[
-#vp-set-question-style(prefix: "Ví dụ", lbl-color: rgb("#0369A1"),
-  opt-color: rgb("#7C3AED"), num-style: "1")
-#vp-set-ans-style(shape: "round-rect", bg: rgb("#DCFCE7"),
-  border: rgb("#15803D"), text-color: rgb("#166534"))
-#vp-show-ans.update(true)
-#vp-question([Nội dung minh họa.], options: ("N", "J", "W", "Pa"), ans: "A")
-#vp-show-ans.update(false)
-#vp-q-prefix.update("Câu")
-#vp-q-lbl-color.update(auto)
-#vp-opt-color.update(auto)
-#vp-ans-shape.update(auto)
-#vp-ans-mark-bg.update(auto)
-#vp-ans-mark-border.update(auto)
-#vp-ans-text-color.update(auto)
-]
-
-
-= Hình ảnh, công thức và đơn vị
-
-== Ảnh cạnh câu hỏi
-`image` nhận content ảnh. `image-side`: left/right/bottom; `image-scope`: stem/full. `image-ratio` là trọng số cột ảnh so với cột chữ: 0.65 tương ứng khoảng 0.65/(1+0.65) chiều rộng còn lại, không phải 65% trang. `stem2` nằm dưới hình khi scope là stem; `image-gap/valign` chỉnh khoảng cách và căn dọc.
-
-*Code:*
-```typst
-#vp-question([Quan sát đồ thị vận tốc theo thời gian và tính gia tốc.],
-  stem2: [Quan sát đồ thị vận tốc theo thời gian và tính gia tốc.], image: image("assets/motion.svg", width: 100%),
-  image-side: "right", image-scope: "stem", image-ratio: 0.65,
-  image-gap: 10pt, image-valign: top,
-  options: ("2 m/s²", "4 m/s²", "6 m/s²", "8 m/s²"), ans: "A")
-```
-
-*Sản phẩm thực tế:*
-#product[
-#vp-question([Quan sát đồ thị vận tốc theo thời gian và tính gia tốc.],
-  stem2: [Quan sát đồ thị vận tốc theo thời gian và tính gia tốc.], image: image("assets/motion.svg", width: 100%),
-  image-side: "right", image-scope: "stem", image-ratio: 0.65,
-  image-gap: 10pt, image-valign: top,
-  options: ("2 m/s²", "4 m/s²", "6 m/s²", "8 m/s²"), ans: "A")
-]
-
-== Hình có chú thích và công thức đánh số
-Truyền `path(...)` tại file tài liệu để đường dẫn thuộc tài liệu. `vp-formula` nhận chuỗi toán Typst, không phải LaTeX. `vp-unit` hỗ trợ tích, chia, mũ, micro, ohm, độ và Angstrom; `vp-qty` đổi dấu chấm thập phân thành dấu phẩy, e/E thành ký hiệu khoa học.
-
-*Code:*
-```typst
-#vp-image(path("assets/motion.svg"), width: 45%, caption: [Nội dung minh họa.], align-pos: center)
-#vp-formula(eq: "F = m a", numbered: true)
-#vp-qty("3.14", "m") ; #vp-qty("6.02e23", "mol^-1")
-#vp-unit("kg/m^3") ; #vp-unit("uF") ; #vp-unit("ohm") ; #vp-unit("degC")
-```
-
-*Sản phẩm thực tế:*
-#product[
-#vp-image(path("assets/motion.svg"), width: 45%, caption: [Nội dung minh họa.], align-pos: center)
-#vp-formula(eq: "F = m a", numbered: true)
-#vp-qty("3.14", "m") ; #vp-qty("6.02e23", "mol^-1")
-#vp-unit("kg/m^3") ; #vp-unit("uF") ; #vp-unit("ohm") ; #vp-unit("degC")
-]
-
-= Theme và hộp kiến thức
-Preset: konoha, minato, uchiha, ocean, wind, shadow, violet, emerald. Có thể dùng `vp-set-theme(color: "#0369A1")`. Thành phần hỗ trợ `color: auto` lấy theme chung. Mặc định màu câu hỏi còn có cấu hình riêng, nên đổi theme trang trí không thay mọi màu MCQ/TF.
-
-== Theme và bốn hộp kiến thức
-Definition: viền đầy đủ; theorem: nền và chữ nghiêng; note: viền trái. Warning dùng màu cảnh báo đỏ cố định. Dùng `color` để đổi màu các kiểu còn lại; `title/content` là tiêu đề và nội dung.
-
-*Code:*
-```typst
-#vp-set-theme(preset: "violet")
-#for kind in ("definition", "theorem", "warning", "note") [
-  #vp-knowledge-box(type: kind, title: "Minh họa " + kind, content: [Định luật II Newton: $F = m a$.])
-  #v(8pt)
-]
-#vp-set-theme(color: "#0369A1")
-#vp-knowledge-box(title: "Minh họa", color: rgb("#15803D"), content: [Nội dung minh họa.])
-#vp-set-theme(preset: "ocean")
-```
-
-*Sản phẩm thực tế:*
-#product[
-#vp-set-theme(preset: "violet")
-#for kind in ("definition", "theorem", "warning", "note") [
-  #vp-knowledge-box(type: kind, title: "Minh họa " + kind, content: [Định luật II Newton: $F = m a$.])
-  #v(8pt)
-]
-#vp-set-theme(color: "#0369A1")
-#vp-knowledge-box(title: "Minh họa", color: rgb("#15803D"), content: [Nội dung minh họa.])
-#vp-set-theme(preset: "ocean")
-]
-
-== Ghi chú gấp góc
-`vp-note` nhận title/icon/color/bg-color. Icon là tên Font Awesome, logo hoặc none. Hộp không tách trang, nên dùng cho ghi chú ngắn.
-
-*Code:*
-```typst
-#v(15pt)
-#vp-note(title: "Ghi nhớ", icon: "lightbulb", color: rgb("#92400E"), bg-color: rgb("#FEF3C7"))[
-  Công suất: $P = A / t$. Luôn kiểm tra đơn vị trước khi thay số.
-]
-```
-
-*Sản phẩm thực tế:*
-#product[
-#v(15pt)
-#vp-note(title: "Ghi nhớ", icon: "lightbulb", color: rgb("#92400E"), bg-color: rgb("#FEF3C7"))[
-  Công suất: $P = A / t$. Luôn kiểm tra đơn vị trước khi thay số.
-]
-]
-
-= Chương, bài học và heading
-Chapter hỗ trợ `chap_modern` (mặc định), `chap_hexagon`, `default`; lesson hỗ trợ `less_modern` (mặc định), `less_ribbon`, `less_star` (alias `vp-lesson-star`, `vp-lesson-title`), `less_default` / `default`. Hệ thống tự động nhận diện phân cấp Chương → Bài → Mục (`=`, `==`, `===`), tự tăng bộ đếm chương/bài và reset số mục nội dung về 1 ở mỗi bài mới. `num/title/subtitle/color/font/tab-text/new-page/label` tùy chỉnh nội dung, ngắt trang và tham chiếu `@label`.
-
-== Chương default
-
-*Code:*
-```typst
-#vp-chapter(num: "2", title: "ĐỘNG LỰC HỌC", style: "default", color: rgb("#184C99"), font: "Arial")
-```
-
-*Sản phẩm thực tế:*
-#demo-keep-counter(1)[
-  #vp-chapter(num: "2", title: "ĐỘNG LỰC HỌC", style: "default", color: rgb("#184C99"), font: "Arial")
-]
-
-== Chương chap_hexagon
-
-*Code:*
-```typst
-#vp-chapter(num: "2", title: "ĐỘNG LỰC HỌC", style: "chap_hexagon", color: rgb("#184C99"), font: "Arial")
-```
-
-*Sản phẩm thực tế:*
-#demo-keep-counter(2)[
-  #vp-chapter(num: "2", title: "ĐỘNG LỰC HỌC", style: "chap_hexagon", color: rgb("#184C99"), font: "Arial")
-]
-
-== Chương chap_modern
-
-*Code:*
-```typst
-#vp-chapter(num: "2", title: "ĐỘNG LỰC HỌC", style: "chap_modern", color: rgb("#184C99"), font: "Arial")
-```
-
-*Sản phẩm thực tế:*
-#demo-keep-counter(3)[
-  #vp-chapter(num: "2", title: "ĐỘNG LỰC HỌC", style: "chap_modern", color: rgb("#184C99"), font: "Arial")
-]
-
-== Bài default
-
-*Code:*
-```typst
-#vp-lesson(num: "1", title: "Định luật Newton", subtitle: "Kiến thức và bài tập", style: "default", color: rgb("#7C3AED"), font: "Arial")
-```
-
-*Sản phẩm thực tế:*
-#demo-keep-counter(4)[
-  #vp-lesson(num: "1", title: "Định luật Newton", subtitle: "Kiến thức và bài tập", style: "default", color: rgb("#7C3AED"), font: "Arial")
-]
-
-== Bài less_ribbon
-
-*Code:*
-```typst
-#vp-lesson(num: "1", title: "Định luật Newton", subtitle: "Kiến thức và bài tập", style: "less_ribbon", color: rgb("#7C3AED"), font: "Arial")
-```
-
-*Sản phẩm thực tế:*
-#demo-keep-counter(5)[
-  #vp-lesson(num: "1", title: "Định luật Newton", subtitle: "Kiến thức và bài tập", style: "less_ribbon", color: rgb("#7C3AED"), font: "Arial")
-]
-
-== Bài less_modern
-
-*Code:*
-```typst
-#vp-lesson(num: "1", title: "Định luật Newton", subtitle: "Kiến thức và bài tập", style: "less_modern", color: rgb("#7C3AED"), font: "Arial")
-```
-
-*Sản phẩm thực tế:*
-#demo-keep-counter(6)[
-  #vp-lesson(num: "1", title: "Định luật Newton", subtitle: "Kiến thức và bài tập", style: "less_modern", color: rgb("#7C3AED"), font: "Arial")
-]
-
-== Bài less_star (`vp-lesson-star` / `vp-lesson-title`) và `vp-section`
-
-*Code:*
-```typst
-#vp-lesson(num: "3", title: "CÔNG VÀ CÔNG SUẤT", subtitle: "Kiến thức trọng tâm", style: "less_star", color: rgb("#15803D"))
-#vp-section(size: 14pt, color: rgb("#184C99"))[Hướng dẫn giải bài tập]
-```
-
-*Sản phẩm thực tế:*
-#product[
-#demo-keep-counter(7)[
-  #vp-lesson(num: "3", title: "CÔNG VÀ CÔNG SUẤT", subtitle: "Kiến thức trọng tâm", style: "less_star", color: rgb("#15803D"), new-page: false)
-  #vp-section(size: 14pt, color: rgb("#184C99"))[Hướng dẫn giải bài tập]
-]
-]
-
-== Heading vp-heading-theme-modern
-
-*Code:*
-```typst
-#[
-  #show: vp-heading-theme-modern.with(font: "Arial")
-  = Kiến thức trọng tâm
-  Nội dung cấp một.
-  == Định luật
-  Nội dung cấp hai.
-  === Công thức
-  Nội dung cấp ba.
-]
-```
-
-*Sản phẩm thực tế:*
-#product[
-#demo-keep-counter(8)[
-  #set heading(outlined: false, bookmarked: false)
-  #counter(heading).update(0)
-  #show: vp-heading-theme-modern.with(font: "Arial")
-  = Kiến thức trọng tâm
-  Nội dung cấp một.
-  == Định luật
-  Nội dung cấp hai.
-  === Công thức
-  Nội dung cấp ba.
-]
-]
-
-== Heading vp-heading-theme-01
-
-*Code:*
-```typst
-#[
-  #show: vp-heading-theme-01
-  = Kiến thức trọng tâm
-  Nội dung cấp một.
-  == Định luật
-  Nội dung cấp hai.
-  === Công thức
-  Nội dung cấp ba.
-]
-```
-
-*Sản phẩm thực tế:*
-#product[
-#demo-keep-counter(9)[
-  #set heading(outlined: false, bookmarked: false)
-  #counter(heading).update(0)
-  #show: vp-heading-theme-01
-  = Kiến thức trọng tâm
-  Nội dung cấp một.
-  == Định luật
-  Nội dung cấp hai.
-  === Công thức
-  Nội dung cấp ba.
-]
-]
-
-== Heading vp-heading-theme-academic và vp-heading-theme-native
-
-`vp-heading-theme-academic` có hai biến thể `"paper"` (mặc định) và `"thesis"` (cấp 1 in hoa, căn giữa). `vp-heading-theme-native` giữ giao diện tối giản với dòng tiêu đề tiếp theo căn thẳng lề trái của chỉ số.
-
-*Code:*
-```typst
-#[
-  #show: vp-heading-theme-academic.with(variant: "thesis", chapter-pagebreak: false)
-  = Cơ sở lý thuyết
-  Nội dung chương nghiên cứu.
-  == Phương pháp thực nghiệm
-  Nội dung mục con.
-  === Bố trí thí nghiệm
-  Nội dung mục nhỏ.
-]
-```
-
-*Sản phẩm thực tế:*
-#product[
-#demo-keep-counter(10)[
-  #set heading(outlined: false, bookmarked: false)
-  #counter(heading).update(0)
-  #show: vp-heading-theme-academic.with(variant: "thesis", chapter-pagebreak: false)
-  = Cơ sở lý thuyết
-  Nội dung chương nghiên cứu.
-  == Phương pháp thực nghiệm
-  Nội dung mục con.
-  === Bố trí thí nghiệm
-  Nội dung mục nhỏ.
-]
-]
-
-= Header, footer và widget
-Có 15 mẫu header. Sản phẩm ở đầu từng trang mẫu bên dưới; code dùng set page. Các mẫu tràn viền thiết kế cho A4, cần chừa đủ lề và xem lại khi đổi khổ giấy. Dùng page setup để tự ẩn header ở trang có banner chương.
-
-#pagebreak()
-#[
-#set page(margin: (x: 60pt, y: 80pt), header: vp-header-theme-01(title: "VẬT LÍ 12", subtitle: "Chuyên đề ôn tập", color: rgb("#184C99")))
-== Header 01
-*Code:*
-```typst
-#set page(margin: (x: 60pt, y: 80pt), header: vp-header-theme-01(title: "VẬT LÍ 12", subtitle: "Chuyên đề ôn tập", color: rgb("#184C99")))
-```
-*Sản phẩm:* mẫu header thực tế ở đầu trang này. Các tham số riêng của mẫu có trong phụ lục.
-
-]
-
-#pagebreak()
-#[
-#set page(margin: (x: 60pt, y: 80pt), header: vp-header-theme-02(title: "VẬT LÍ 12", subtitle: "Chuyên đề ôn tập", color: rgb("#184C99")))
-== Header 02
-*Code:*
-```typst
-#set page(margin: (x: 60pt, y: 80pt), header: vp-header-theme-02(title: "VẬT LÍ 12", subtitle: "Chuyên đề ôn tập", color: rgb("#184C99")))
-```
-*Sản phẩm:* mẫu header thực tế ở đầu trang này. Các tham số riêng của mẫu có trong phụ lục.
-
-]
-
-#pagebreak()
-#[
-#set page(margin: (x: 60pt, y: 80pt), header: vp-header-theme-03(title: "VẬT LÍ 12", subtitle: "Chuyên đề ôn tập", color: rgb("#184C99")))
-== Header 03
-*Code:*
-```typst
-#set page(margin: (x: 60pt, y: 80pt), header: vp-header-theme-03(title: "VẬT LÍ 12", subtitle: "Chuyên đề ôn tập", color: rgb("#184C99")))
-```
-*Sản phẩm:* mẫu header thực tế ở đầu trang này. Các tham số riêng của mẫu có trong phụ lục.
-
-]
-
-#pagebreak()
-#[
-#set page(margin: (x: 60pt, y: 80pt), header: vp-header-theme-04(title: "VẬT LÍ 12", subtitle: "Chuyên đề ôn tập", color: rgb("#184C99")))
-== Header 04
-*Code:*
-```typst
-#set page(margin: (x: 60pt, y: 80pt), header: vp-header-theme-04(title: "VẬT LÍ 12", subtitle: "Chuyên đề ôn tập", color: rgb("#184C99")))
-```
-*Sản phẩm:* mẫu header thực tế ở đầu trang này. Các tham số riêng của mẫu có trong phụ lục.
-
-]
-
-#pagebreak()
-#[
-#set page(margin: (x: 60pt, y: 80pt), header: vp-header-theme-05(title: "VẬT LÍ 12", subtitle: "Chuyên đề ôn tập", color: rgb("#184C99")))
-== Header 05
-*Code:*
-```typst
-#set page(margin: (x: 60pt, y: 80pt), header: vp-header-theme-05(title: "VẬT LÍ 12", subtitle: "Chuyên đề ôn tập", color: rgb("#184C99")))
-```
-*Sản phẩm:* mẫu header thực tế ở đầu trang này. Các tham số riêng của mẫu có trong phụ lục.
-
-]
-
-#pagebreak()
-#[
-#set page(margin: (x: 60pt, y: 80pt), header: vp-header-theme-06(title: "VẬT LÍ 12", subtitle: "Chuyên đề ôn tập", color: rgb("#184C99")))
-== Header 06
-*Code:*
-```typst
-#set page(margin: (x: 60pt, y: 80pt), header: vp-header-theme-06(title: "VẬT LÍ 12", subtitle: "Chuyên đề ôn tập", color: rgb("#184C99")))
-```
-*Sản phẩm:* mẫu header thực tế ở đầu trang này. Các tham số riêng của mẫu có trong phụ lục.
-
-]
-
-#pagebreak()
-#[
-#set page(margin: (x: 60pt, y: 80pt), header: vp-header-theme-07(title: "VẬT LÍ 12", subtitle: "Chuyên đề ôn tập", color: rgb("#184C99")))
-== Header 07
-*Code:*
-```typst
-#set page(margin: (x: 60pt, y: 80pt), header: vp-header-theme-07(title: "VẬT LÍ 12", subtitle: "Chuyên đề ôn tập", color: rgb("#184C99")))
-```
-*Sản phẩm:* mẫu header thực tế ở đầu trang này. Các tham số riêng của mẫu có trong phụ lục.
-
-]
-
-#pagebreak()
-#[
-#set page(margin: (x: 60pt, y: 80pt), header: vp-header-theme-08(title: "VẬT LÍ 12", subtitle: "Chuyên đề ôn tập", color: rgb("#184C99")))
-== Header 08
-*Code:*
-```typst
-#set page(margin: (x: 60pt, y: 80pt), header: vp-header-theme-08(title: "VẬT LÍ 12", subtitle: "Chuyên đề ôn tập", color: rgb("#184C99")))
-```
-*Sản phẩm:* mẫu header thực tế ở đầu trang này. Các tham số riêng của mẫu có trong phụ lục.
-
-]
-
-#pagebreak()
-#[
-#set page(margin: (x: 60pt, y: 80pt), header: vp-header-theme-09(title: "VẬT LÍ 12", subtitle: "Chuyên đề ôn tập", color: rgb("#184C99")))
-== Header 09
-*Code:*
-```typst
-#set page(margin: (x: 60pt, y: 80pt), header: vp-header-theme-09(title: "VẬT LÍ 12", subtitle: "Chuyên đề ôn tập", color: rgb("#184C99")))
-```
-*Sản phẩm:* mẫu header thực tế ở đầu trang này. Các tham số riêng của mẫu có trong phụ lục.
-
-]
-
-#pagebreak()
-#[
-#set page(margin: (x: 60pt, y: 80pt), header: vp-header-theme-10(title: "VẬT LÍ 12", subtitle: "Chuyên đề ôn tập", color: rgb("#184C99")))
-== Header 10
-*Code:*
-```typst
-#set page(margin: (x: 60pt, y: 80pt), header: vp-header-theme-10(title: "VẬT LÍ 12", subtitle: "Chuyên đề ôn tập", color: rgb("#184C99")))
-```
-*Sản phẩm:* mẫu header thực tế ở đầu trang này. Các tham số riêng của mẫu có trong phụ lục.
-
-]
-
-#pagebreak()
-#[
-#set page(margin: (x: 60pt, y: 80pt), header: vp-header-theme-11(title: "VẬT LÍ 12", subtitle: "Chuyên đề ôn tập", color: rgb("#184C99")))
-== Header 11
-*Code:*
-```typst
-#set page(margin: (x: 60pt, y: 80pt), header: vp-header-theme-11(title: "VẬT LÍ 12", subtitle: "Chuyên đề ôn tập", color: rgb("#184C99")))
-```
-*Sản phẩm:* mẫu header thực tế ở đầu trang này. Các tham số riêng của mẫu có trong phụ lục.
-
-]
-
-#pagebreak()
-#[
-#set page(margin: (x: 60pt, y: 80pt), header: vp-header-theme-12(title: "VẬT LÍ 12", subtitle: "Chuyên đề ôn tập", color: rgb("#184C99")))
-== Header 12
-*Code:*
-```typst
-#set page(margin: (x: 60pt, y: 80pt), header: vp-header-theme-12(title: "VẬT LÍ 12", subtitle: "Chuyên đề ôn tập", color: rgb("#184C99")))
-```
-*Sản phẩm:* mẫu header thực tế ở đầu trang này. Các tham số riêng của mẫu có trong phụ lục.
-
-]
-
-#pagebreak()
-#[
-#set page(margin: (x: 60pt, y: 80pt), header: vp-header-theme-13(title: "VẬT LÍ 12", subtitle: "Chuyên đề ôn tập", color: rgb("#184C99")))
-== Header 13
-*Code:*
-```typst
-#set page(margin: (x: 60pt, y: 80pt), header: vp-header-theme-13(title: "VẬT LÍ 12", subtitle: "Chuyên đề ôn tập", color: rgb("#184C99")))
-```
-*Sản phẩm:* mẫu header thực tế ở đầu trang này. Các tham số riêng của mẫu có trong phụ lục.
-
-]
-
-#pagebreak()
-#[
-#set page(margin: (x: 60pt, y: 80pt), header: vp-header-theme-14(title: "VẬT LÍ 12", subtitle: "Chuyên đề ôn tập", color: rgb("#184C99")))
-== Header 14
-*Code:*
-```typst
-#set page(margin: (x: 60pt, y: 80pt), header: vp-header-theme-14(title: "VẬT LÍ 12", subtitle: "Chuyên đề ôn tập", color: rgb("#184C99")))
-```
-*Sản phẩm:* mẫu header thực tế ở đầu trang này. Các tham số riêng của mẫu có trong phụ lục.
-
-]
-
-#pagebreak()
-#[
-#set page(margin: (x: 60pt, y: 80pt), header: vp-header-theme-15(title: "VẬT LÍ 12", subtitle: "Chuyên đề ôn tập", color: rgb("#184C99")))
-== Header 15
-*Code:*
-```typst
-#set page(margin: (x: 60pt, y: 80pt), header: vp-header-theme-15(title: "VẬT LÍ 12", subtitle: "Chuyên đề ôn tập", color: rgb("#184C99")))
-```
-*Sản phẩm:* mẫu header thực tế ở đầu trang này. Các tham số riêng của mẫu có trong phụ lục.
-
-]
-
-#pagebreak()
-#[
-#set page(footer: vp-footer())
-== Footer vp-footer
-*Code:*
-```typst
-#set page(footer: vp-footer())
-```
-*Sản phẩm:* mẫu footer thực tế ở cuối trang này.
-
-]
-
-#pagebreak()
-#[
-#set page(footer: vp-footer-kage())
-== Footer vp-footer-kage
-*Code:*
-```typst
-#set page(footer: vp-footer-kage())
-```
-*Sản phẩm:* mẫu footer thực tế ở cuối trang này.
-
-]
-
-#pagebreak()
-#[
-#set page(footer: vp-footer-shuriken())
-== Footer vp-footer-shuriken
-*Code:*
-```typst
-#set page(footer: vp-footer-shuriken())
-```
-*Sản phẩm:* mẫu footer thực tế ở cuối trang này.
-
-]
-
-#pagebreak()
-#[
-#set page(footer: vp-footer-kage-enso())
-== Footer vp-footer-kage-enso
-*Code:*
-```typst
-#set page(footer: vp-footer-kage-enso())
-```
-*Sản phẩm:* mẫu footer thực tế ở cuối trang này.
-
-]
-
-#pagebreak()
-#[
-#set page(footer: vp-manual-footer-standard())
-== Footer vp-manual-footer-standard
-*Code:*
-```typst
-#set page(footer: vp-manual-footer-standard())
-```
-*Sản phẩm:* mẫu footer thực tế ở cuối trang này.
-
-]
-
-#pagebreak()
-#[
-#set page(footer: vp-manual-footer-fancy())
-== Footer vp-manual-footer-fancy
-*Code:*
-```typst
-#set page(footer: vp-manual-footer-fancy())
-```
-*Sản phẩm:* mẫu footer thực tế ở cuối trang này.
-
-]
-
-== Footer tùy chỉnh sâu
-Footer Shuriken/Enso nhận title, slogan, color, accent-color, icon (kunai/shuriken/logo/content/none), divider (line/brush/none), page-format (1 hoặc 1 / total). Enso thêm enso-style: zen, grunge, ring-09, ring-01, ring-10. kage-brush và ninja-enso là alias của kage-enso.
-
-*Code:*
-```typst
-#vp-footer-kage-enso(title: "VIETPHYS", slogan: "Học và thực hành",
-  color: rgb("#184C99"), accent-color: rgb("#B08D57"),
-  icon: "shuriken", enso-style: "grunge", divider: "brush", page-format: "1 / total")
-```
-
-*Sản phẩm thực tế:*
-#product[
-#vp-footer-kage-enso(title: "VIETPHYS", slogan: "Học và thực hành",
-  color: rgb("#184C99"), accent-color: rgb("#B08D57"),
-  icon: "shuriken", enso-style: "grunge", divider: "brush", page-format: "1 / total")
-]
-
-#pagebreak()
-#[
-#set page(margin: (x: 60pt, y: 80pt), header: vp-manual-header-standard())
-== vp-manual-header-standard
-```typst
-#set page(header: vp-manual-header-standard())
-```
-]
-
-#pagebreak()
-#[
-#set page(margin: (x: 60pt, y: 80pt), header: vp-manual-header-logo())
-== vp-manual-header-logo
-```typst
-#set page(header: vp-manual-header-logo())
-```
-]
-
-#pagebreak()
-#[
-#set page(margin: (x: 60pt, y: 80pt), header: vp-manual-header-fancy())
-== vp-manual-header-fancy
-```typst
-#set page(header: vp-manual-header-fancy())
-```
-]
-
-== Widget thông tin
-Widget nhận tên tác giả, trường/lớp, ngày, mã đề/thời gian, mục tiêu hoặc content. Ngày là chuỗi bạn nhập. `vp-set-part`/`vp-part` cập nhật phần hiện tại; `vp-part-marker` chèn marker. Trong header dùng `right-content: vp-widget-part()` hoặc `vp-widget-smart-heading()`. Các widget có bộ tham số riêng ở phụ lục.
-
-*Code:*
-```typst
-#vp-widget-stack(vp-widget-author(name: "Nguyễn Minh", role: "GV"),
-  vp-widget-school(school: "THPT", class-name: "12A"))
-#vp-widget-stack(vp-widget-date(date: "03/10/2026"), vp-widget-exam(code: "ĐỀ 101", time: "50 phút"))
-#vp-widget-target(target: "9+", slogan: "Luyện tập mỗi ngày")
-#vp-widget-pill([Nội dung minh họa.], icon: "bolt", color: rgb("#7C3AED"))
-#vp-set-part("Phần I: Trắc nghiệm")
-#vp-widget-part()
-#vp-widget-heading(level: 1)
-#vp-widget-smart-heading()
-```
-
-*Sản phẩm thực tế:*
-#product[
-#vp-widget-stack(vp-widget-author(name: "Nguyễn Minh", role: "GV"),
-  vp-widget-school(school: "THPT", class-name: "12A"))
-#vp-widget-stack(vp-widget-date(date: "03/10/2026"), vp-widget-exam(code: "ĐỀ 101", time: "50 phút"))
-#vp-widget-target(target: "9+", slogan: "Luyện tập mỗi ngày")
-#vp-widget-pill([Nội dung minh họa.], icon: "bolt", color: rgb("#7C3AED"))
-#vp-set-part("Phần I: Trắc nghiệm")
-#vp-widget-part()
-#vp-widget-heading(level: 1)
-#vp-widget-smart-heading()
-]
-
-= Logo, icon và nét cọ
-Các mẫu logo/icon và toàn bộ 35 preset nét cọ dưới đây có code và sản phẩm thực tế. Dùng `color`, kích thước và các tham số riêng trong phụ lục. Brush hỗ trợ width/height/flip-x/flip-y.
-
-== vp-logo
-
-*Code:*
-```typst
-#vp-logo()
-```
-
-*Sản phẩm thực tế:*
-#product[
-#vp-logo()
-]
-
-== vp-logo-colored
-
-*Code:*
-```typst
-#vp-logo-colored()
-```
-
-*Sản phẩm thực tế:*
-#product[
-#vp-logo-colored()
-]
-
-== vp-hockage-logo
-
-*Code:*
-```typst
-#vp-hockage-logo()
-```
-
-*Sản phẩm thực tế:*
-#product[
-#vp-hockage-logo()
-]
-
-== vp-ninja-scholar-logo
-
-*Code:*
-```typst
-#vp-ninja-scholar-logo()
-```
-
-*Sản phẩm thực tế:*
-#product[
-#vp-ninja-scholar-logo()
-]
-
-== vp-icon-shuriken
-
-*Code:*
-```typst
-#vp-icon-shuriken()
-```
-
-*Sản phẩm thực tế:*
-#product[
-#vp-icon-shuriken()
-]
-
-== vp-icon-kunai
-
-*Code:*
-```typst
-#vp-icon-kunai()
-```
-
-*Sản phẩm thực tế:*
-#product[
-#vp-icon-kunai()
-]
-
-== vp-icon-cloud
-
-*Code:*
-```typst
-#vp-icon-cloud()
-```
-
-*Sản phẩm thực tế:*
-#product[
-#vp-icon-cloud()
-]
-
-== vp-icon-ninja-silhouette
-
-*Code:*
-```typst
-#vp-icon-ninja-silhouette()
-```
-
-*Sản phẩm thực tế:*
-#product[
-#vp-icon-ninja-silhouette()
-]
-
-== vp-physics-enso-icon
-
-*Code:*
-```typst
-#vp-physics-enso-icon()[Vật lí]
-```
-
-*Sản phẩm thực tế:*
-#product[
-#vp-physics-enso-icon()[Vật lí]
-]
-
-== vp-icon-atom
-
-*Code:*
-```typst
-#vp-icon-atom(color: rgb("#184C99"), size: 28pt)
-```
-
-*Sản phẩm thực tế:*
-#product[
-#vp-icon-atom(color: rgb("#184C99"), size: 28pt)
-]
-
-== Nét cọ enso-badge
-
-*Code:*
-```typst
-#vp-brush("enso-badge", color: rgb("#184C99"), width: 6cm, height: 1.3cm)
-```
-
-*Sản phẩm thực tế:*
-#product[
-#vp-brush("enso-badge", color: rgb("#184C99"), width: 6cm, height: 1.3cm)
-]
-
-== Nét cọ enso-grunge
-
-*Code:*
-```typst
-#vp-brush("enso-grunge", color: rgb("#184C99"), width: 6cm, height: 1.3cm)
-```
-
-*Sản phẩm thực tế:*
-#product[
-#vp-brush("enso-grunge", color: rgb("#184C99"), width: 6cm, height: 1.3cm)
-]
-
-== Nét cọ enso-ring-01
-
-*Code:*
-```typst
-#vp-brush("enso-ring-01", color: rgb("#184C99"), width: 6cm, height: 1.3cm)
-```
-
-*Sản phẩm thực tế:*
-#product[
-#vp-brush("enso-ring-01", color: rgb("#184C99"), width: 6cm, height: 1.3cm)
-]
-
-== Nét cọ enso-ring-06
-
-*Code:*
-```typst
-#vp-brush("enso-ring-06", color: rgb("#184C99"), width: 6cm, height: 1.3cm)
-```
-
-*Sản phẩm thực tế:*
-#product[
-#vp-brush("enso-ring-06", color: rgb("#184C99"), width: 6cm, height: 1.3cm)
-]
-
-== Nét cọ enso-ring-09
-
-*Code:*
-```typst
-#vp-brush("enso-ring-09", color: rgb("#184C99"), width: 6cm, height: 1.3cm)
-```
-
-*Sản phẩm thực tế:*
-#product[
-#vp-brush("enso-ring-09", color: rgb("#184C99"), width: 6cm, height: 1.3cm)
-]
-
-== Nét cọ enso-ring-10
-
-*Code:*
-```typst
-#vp-brush("enso-ring-10", color: rgb("#184C99"), width: 6cm, height: 1.3cm)
-```
-
-*Sản phẩm thực tế:*
-#product[
-#vp-brush("enso-ring-10", color: rgb("#184C99"), width: 6cm, height: 1.3cm)
-]
-
-== Nét cọ enso-ring-11
-
-*Code:*
-```typst
-#vp-brush("enso-ring-11", color: rgb("#184C99"), width: 6cm, height: 1.3cm)
-```
-
-*Sản phẩm thực tế:*
-#product[
-#vp-brush("enso-ring-11", color: rgb("#184C99"), width: 6cm, height: 1.3cm)
-]
-
-== Nét cọ banner-horizontal
-
-*Code:*
-```typst
-#vp-brush("banner-horizontal", color: rgb("#184C99"), width: 6cm, height: 1.3cm)
-```
-
-*Sản phẩm thực tế:*
-#product[
-#vp-brush("banner-horizontal", color: rgb("#184C99"), width: 6cm, height: 1.3cm)
-]
-
-== Nét cọ banner-calligraphy-01
-
-*Code:*
-```typst
-#vp-brush("banner-calligraphy-01", color: rgb("#184C99"), width: 6cm, height: 1.3cm)
-```
-
-*Sản phẩm thực tế:*
-#product[
-#vp-brush("banner-calligraphy-01", color: rgb("#184C99"), width: 6cm, height: 1.3cm)
-]
-
-== Nét cọ banner-calligraphy-02
-
-*Code:*
-```typst
-#vp-brush("banner-calligraphy-02", color: rgb("#184C99"), width: 6cm, height: 1.3cm)
-```
-
-*Sản phẩm thực tế:*
-#product[
-#vp-brush("banner-calligraphy-02", color: rgb("#184C99"), width: 6cm, height: 1.3cm)
-]
-
-== Nét cọ banner-calligraphy-03
-
-*Code:*
-```typst
-#vp-brush("banner-calligraphy-03", color: rgb("#184C99"), width: 6cm, height: 1.3cm)
-```
-
-*Sản phẩm thực tế:*
-#product[
-#vp-brush("banner-calligraphy-03", color: rgb("#184C99"), width: 6cm, height: 1.3cm)
-]
-
-== Nét cọ banner-calligraphy-04
-
-*Code:*
-```typst
-#vp-brush("banner-calligraphy-04", color: rgb("#184C99"), width: 6cm, height: 1.3cm)
-```
-
-*Sản phẩm thực tế:*
-#product[
-#vp-brush("banner-calligraphy-04", color: rgb("#184C99"), width: 6cm, height: 1.3cm)
-]
-
-== Nét cọ banner-calligraphy-05
-
-*Code:*
-```typst
-#vp-brush("banner-calligraphy-05", color: rgb("#184C99"), width: 6cm, height: 1.3cm)
-```
-
-*Sản phẩm thực tế:*
-#product[
-#vp-brush("banner-calligraphy-05", color: rgb("#184C99"), width: 6cm, height: 1.3cm)
-]
-
-== Nét cọ banner-calligraphy-06
-
-*Code:*
-```typst
-#vp-brush("banner-calligraphy-06", color: rgb("#184C99"), width: 6cm, height: 1.3cm)
-```
-
-*Sản phẩm thực tế:*
-#product[
-#vp-brush("banner-calligraphy-06", color: rgb("#184C99"), width: 6cm, height: 1.3cm)
-]
-
-== Nét cọ banner-grunge-01
-
-*Code:*
-```typst
-#vp-brush("banner-grunge-01", color: rgb("#184C99"), width: 6cm, height: 1.3cm)
-```
-
-*Sản phẩm thực tế:*
-#product[
-#vp-brush("banner-grunge-01", color: rgb("#184C99"), width: 6cm, height: 1.3cm)
-]
-
-== Nét cọ banner-grunge-02
-
-*Code:*
-```typst
-#vp-brush("banner-grunge-02", color: rgb("#184C99"), width: 6cm, height: 1.3cm)
-```
-
-*Sản phẩm thực tế:*
-#product[
-#vp-brush("banner-grunge-02", color: rgb("#184C99"), width: 6cm, height: 1.3cm)
-]
-
-== Nét cọ banner-grunge-03
-
-*Code:*
-```typst
-#vp-brush("banner-grunge-03", color: rgb("#184C99"), width: 6cm, height: 1.3cm)
-```
-
-*Sản phẩm thực tế:*
-#product[
-#vp-brush("banner-grunge-03", color: rgb("#184C99"), width: 6cm, height: 1.3cm)
-]
-
-== Nét cọ banner-grunge-04
-
-*Code:*
-```typst
-#vp-brush("banner-grunge-04", color: rgb("#184C99"), width: 6cm, height: 1.3cm)
-```
-
-*Sản phẩm thực tế:*
-#product[
-#vp-brush("banner-grunge-04", color: rgb("#184C99"), width: 6cm, height: 1.3cm)
-]
-
-== Nét cọ banner-grunge-05
-
-*Code:*
-```typst
-#vp-brush("banner-grunge-05", color: rgb("#184C99"), width: 6cm, height: 1.3cm)
-```
-
-*Sản phẩm thực tế:*
-#product[
-#vp-brush("banner-grunge-05", color: rgb("#184C99"), width: 6cm, height: 1.3cm)
-]
-
-== Nét cọ banner-ribbon-01
-
-*Code:*
-```typst
-#vp-brush("banner-ribbon-01", color: rgb("#184C99"), width: 6cm, height: 1.3cm)
-```
-
-*Sản phẩm thực tế:*
-#product[
-#vp-brush("banner-ribbon-01", color: rgb("#184C99"), width: 6cm, height: 1.3cm)
-]
-
-== Nét cọ banner-ribbon-02
-
-*Code:*
-```typst
-#vp-brush("banner-ribbon-02", color: rgb("#184C99"), width: 6cm, height: 1.3cm)
-```
-
-*Sản phẩm thực tế:*
-#product[
-#vp-brush("banner-ribbon-02", color: rgb("#184C99"), width: 6cm, height: 1.3cm)
-]
-
-== Nét cọ banner-ribbon-03
-
-*Code:*
-```typst
-#vp-brush("banner-ribbon-03", color: rgb("#184C99"), width: 6cm, height: 1.3cm)
-```
-
-*Sản phẩm thực tế:*
-#product[
-#vp-brush("banner-ribbon-03", color: rgb("#184C99"), width: 6cm, height: 1.3cm)
-]
-
-== Nét cọ banner-ribbon-04
-
-*Code:*
-```typst
-#vp-brush("banner-ribbon-04", color: rgb("#184C99"), width: 6cm, height: 1.3cm)
-```
-
-*Sản phẩm thực tế:*
-#product[
-#vp-brush("banner-ribbon-04", color: rgb("#184C99"), width: 6cm, height: 1.3cm)
-]
-
-== Nét cọ banner-ribbon-05
-
-*Code:*
-```typst
-#vp-brush("banner-ribbon-05", color: rgb("#184C99"), width: 6cm, height: 1.3cm)
-```
-
-*Sản phẩm thực tế:*
-#product[
-#vp-brush("banner-ribbon-05", color: rgb("#184C99"), width: 6cm, height: 1.3cm)
-]
-
-== Nét cọ stroke-dynamic-01
-
-*Code:*
-```typst
-#vp-brush("stroke-dynamic-01", color: rgb("#184C99"), width: 6cm, height: 1.3cm)
-```
-
-*Sản phẩm thực tế:*
-#product[
-#vp-brush("stroke-dynamic-01", color: rgb("#184C99"), width: 6cm, height: 1.3cm)
-]
-
-== Nét cọ stroke-dynamic-02
-
-*Code:*
-```typst
-#vp-brush("stroke-dynamic-02", color: rgb("#184C99"), width: 6cm, height: 1.3cm)
-```
-
-*Sản phẩm thực tế:*
-#product[
-#vp-brush("stroke-dynamic-02", color: rgb("#184C99"), width: 6cm, height: 1.3cm)
-]
-
-== Nét cọ stroke-curve-01
-
-*Code:*
-```typst
-#vp-brush("stroke-curve-01", color: rgb("#184C99"), width: 6cm, height: 1.3cm)
-```
-
-*Sản phẩm thực tế:*
-#product[
-#vp-brush("stroke-curve-01", color: rgb("#184C99"), width: 6cm, height: 1.3cm)
-]
-
-== Nét cọ stroke-curve-02
-
-*Code:*
-```typst
-#vp-brush("stroke-curve-02", color: rgb("#184C99"), width: 6cm, height: 1.3cm)
-```
-
-*Sản phẩm thực tế:*
-#product[
-#vp-brush("stroke-curve-02", color: rgb("#184C99"), width: 6cm, height: 1.3cm)
-]
-
-== Nét cọ splatter-01
-
-*Code:*
-```typst
-#vp-brush("splatter-01", color: rgb("#184C99"), width: 6cm, height: 1.3cm)
-```
-
-*Sản phẩm thực tế:*
-#product[
-#vp-brush("splatter-01", color: rgb("#184C99"), width: 6cm, height: 1.3cm)
-]
-
-== Nét cọ splatter-02
-
-*Code:*
-```typst
-#vp-brush("splatter-02", color: rgb("#184C99"), width: 6cm, height: 1.3cm)
-```
-
-*Sản phẩm thực tế:*
-#product[
-#vp-brush("splatter-02", color: rgb("#184C99"), width: 6cm, height: 1.3cm)
-]
-
-== Nét cọ splatter-05
-
-*Code:*
-```typst
-#vp-brush("splatter-05", color: rgb("#184C99"), width: 6cm, height: 1.3cm)
-```
-
-*Sản phẩm thực tế:*
-#product[
-#vp-brush("splatter-05", color: rgb("#184C99"), width: 6cm, height: 1.3cm)
-]
-
-== Nét cọ splatter-09
-
-*Code:*
-```typst
-#vp-brush("splatter-09", color: rgb("#184C99"), width: 6cm, height: 1.3cm)
-```
-
-*Sản phẩm thực tế:*
-#product[
-#vp-brush("splatter-09", color: rgb("#184C99"), width: 6cm, height: 1.3cm)
-]
-
-== Nét cọ splatter-10
-
-*Code:*
-```typst
-#vp-brush("splatter-10", color: rgb("#184C99"), width: 6cm, height: 1.3cm)
-```
-
-*Sản phẩm thực tế:*
-#product[
-#vp-brush("splatter-10", color: rgb("#184C99"), width: 6cm, height: 1.3cm)
-]
-
-== Nét cọ splatter-19
-
-*Code:*
-```typst
-#vp-brush("splatter-19", color: rgb("#184C99"), width: 6cm, height: 1.3cm)
-```
-
-*Sản phẩm thực tế:*
-#product[
-#vp-brush("splatter-19", color: rgb("#184C99"), width: 6cm, height: 1.3cm)
-]
-
-== Nét cọ splatter-20
-
-*Code:*
-```typst
-#vp-brush("splatter-20", color: rgb("#184C99"), width: 6cm, height: 1.3cm)
-```
-
-*Sản phẩm thực tế:*
-#product[
-#vp-brush("splatter-20", color: rgb("#184C99"), width: 6cm, height: 1.3cm)
-]
-
-= Đáp án và lời giải của các ví dụ
-Bảng tổng hợp chứa các câu trước vị trí gọi lệnh, kể cả câu đã hiện đáp án trực tiếp. Phần lời giải chỉ chứa lời giải chưa hiện trực tiếp. Reset số giữa đề có thể làm bảng có số trùng.
-
-== Lệnh tổng hợp cuối tài liệu
-`vp-print-keys` và `vp-print-solutions` nhận title. Màu bảng đáp án tổng hợp dùng vp-colors, không lấy option tf-... của từng câu.
-
-*Code:*
-```typst
-#vp-print-keys(title: "ĐÁP ÁN CÁC VÍ DỤ")
-#vp-print-solutions(title: "LỜI GIẢI CHƯA HIỆN TRỰC TIẾP")
-```
-
-*Sản phẩm thực tế:*
-#product[
-#set heading(outlined: false, numbering: none)
-#vp-print-keys(title: "ĐÁP ÁN CÁC VÍ DỤ")
-#vp-print-solutions(title: "LỜI GIẢI CHƯA HIỆN TRỰC TIẾP")
-]
-
-#pagebreak()
-= Tra cứu toàn bộ API công khai
-Chữ ký dưới đây lấy trực tiếp từ mã nguồn hiện tại, gồm tham số và mặc định. Tham số không có dấu hai chấm là tham số vị trí. Hàm bắt đầu bằng gạch dưới là nội bộ. Alias, state và counter được liệt kê theo module.
-
-== Theme câu hỏi nâng cao
-`vp-theme-state` chứa dictionary mcq/tf/short/essay. Giữ các khóa còn lại khi sửa dictionary. `vp-set-theme` quản lý palette trang trí; `vp-theme-state` quản lý mặc định theo dạng câu. Các giá trị mặc định đầy đủ có ở phần dữ liệu cuối phụ lục.
-```typst
-#context {
-  let theme = vp-theme-state.get()
-  theme.tf.tf-header = rgb("#6D28D9")
-  theme.tf.tf-correct-color = rgb("#15803D")
-  vp-theme-state.update(theme)
+#set text(lang: "vi")
+#set par(justify: true)
+#show raw.where(block: false): it => box(fill: rgb("#EEF2F8"), inset: (x: 2pt), outset: (y: 2pt), radius: 2pt, text(size: 0.92em, it))
+
+// ---- Bộ dựng trình bày ----------------------------------------------------------
+#let vien = rgb("#CAD5E2")
+#let nen-ma = rgb("#F4F6FA")
+#let pham-vi = dictionary(vm)
+#let _ma(src, size: 7.8pt) = { set par(justify: false); text(size: size, raw(src, lang: "typst", block: true)) }
+// Thẻ ví dụ: code bên trái, sản phẩm (eval từ đúng đoạn code) bên phải; stack: true đặt sản phẩm dưới.
+#let ex(src, code: 46%, stack: false, align-out: center + horizon, prelude: "") = {
+  let ket-qua = eval(prelude + src, mode: "markup", scope: pham-vi)
+  block(width: 100%, stroke: 0.6pt + vien, radius: 5pt, clip: true, breakable: stack, above: 8pt, below: 10pt,
+    if stack {
+      grid(columns: 1, fill: (_, y) => if y == 0 { nen-ma }, inset: (8pt, 10pt), _ma(src), ket-qua)
+    } else {
+      grid(columns: (code, 1fr), fill: (x, _) => if x == 0 { nen-ma }, inset: 8pt,
+        align: (left + top, align-out), _ma(src), ket-qua)
+    })
 }
-```
+#let bang(..cells, columns: (32%, 68%)) = block({
+  set par(justify: false)
+  set text(size: 9pt)
+  table(columns: columns, inset: 5pt, stroke: 0.4pt + vien, fill: (_, y) => if y == 0 { rgb("#EEF5FC") }, ..cells)
+})
+#let meo(body) = block(breakable: false, vp-knowledge-box(type: "theorem", title: "Mẹo", content: body))
 
-== layout/page_setup.typ
+// Dải trang A4 thu nhỏ, giữ đúng lề 60pt như trang thật; có vài dòng chữ mờ để thấy vị trí nội dung.
+// vi-tri: "top" đặt mẫu như page.header, "bottom" đặt như page.footer.
+#let _dong-mo = range(3).map(i => block(width: (92%, 100%, 70%).at(i), height: 4pt, fill: luma(90%), radius: 2pt, above: 7pt))
+#let dai-trang(mau, vi-tri: "top", height: 92pt) = layout(size => {
+  let s = size.width / 210mm
+  scale(s * 100%, reflow: true, origin: top + left,
+    block(width: 210mm, height: height, fill: white, clip: true, {
+      if vi-tri == "top" {
+        place(top + left, dx: 60pt, dy: 20pt, block(width: 210mm - 120pt, mau))
+        place(top + left, dx: 60pt, dy: height - 30pt, block(width: 210mm - 120pt, stack(.._dong-mo)))
+      } else {
+        place(top + left, dx: 60pt, dy: 8pt, block(width: 210mm - 120pt, stack(.._dong-mo)))
+        place(bottom + left, dx: 60pt, dy: -12pt, block(width: 210mm - 120pt, mau))
+      }
+    }))
+})
+// Thẻ một mẫu đầu/chân trang: tên, code khai báo, hình gần cỡ thật.
+#let the-mau(ten, code, mau, vi-tri: "top", height: 92pt, ghi: none) = block(width: 100%, breakable: false,
+  stroke: 0.6pt + vien, radius: 5pt, clip: true, above: 6pt, below: 8pt,
+  grid(columns: 1,
+    block(width: 100%, fill: nen-ma, inset: (x: 8pt, y: 6pt), grid(columns: (auto, 1fr), column-gutter: 10pt, align: horizon,
+      box(fill: mau-chinh, radius: 3pt, inset: (x: 6pt, y: 3pt), text(fill: white, weight: "bold", size: 8pt, ten)),
+      _ma(code))),
+    dai-trang(mau, vi-tri: vi-tri, height: height),
+    if ghi != none { block(width: 100%, inset: (x: 8pt, y: 5pt), stroke: (top: 0.4pt + vien), text(size: 8.5pt, ghi)) },
+  ))
+#let mo-chuong(title, style, summary) = {
+  vp-chapter(title: title, style: style, color: mau-chinh, font: "Arial")
+  vp-chapter-outline(summary: summary, color: mau-chinh)
+}
+#let bai(title, subtitle: none, first: false, style: "less_modern") = vp-lesson(title: title, subtitle: subtitle,
+  style: style, color: mau-chinh, font: "Arial", new-page: if first { true } else { auto })
 
+// ============================================================================
+// BÌA VÀ MỤC LỤC
+// ============================================================================
+#page(header: none, footer: none, margin: 0pt, {
+  place(top + left, rect(width: 100%, height: 62%, fill: gradient.linear(mau-chinh, mau-chinh.darken(35%), angle: 60deg)))
+  place(top + left, dx: 2cm, dy: 3cm, {
+    box(fill: white, radius: 50%, inset: 8pt, vp-logo-colored(color: mau-chinh, width: 62pt))
+    v(18pt)
+    text(fill: white, size: 34pt, weight: "bold", font: "Arial")[VIETPHYS]
+    v(-6pt)
+    text(fill: white.darken(10%), size: 15pt, font: "Arial")[Cẩm nang hướng dẫn sử dụng · phiên bản 0.1.0]
+    v(26pt)
+    block(width: 14cm, text(fill: white, size: 11pt, font: "Arial")[
+      Gói Typst soạn bài học, đề kiểm tra và sách bài tập Vật lí. Cẩm nang được dựng bằng chính các mẫu
+      chương, bài, đầu trang và chân trang của gói.])
+  })
+  place(top + right, dx: -1.2cm, dy: 1.2cm, vp-brush("enso-ring-09", color: white, width: 6cm))
+})
+
+#vp-book-outline(subtitle: [CẨM NANG VIETPHYS 0.1.0], color: mau-chinh,
+  intro: [Nhấn vào tên chương hoặc bài để chuyển nhanh đến trang tương ứng.])
+
+// ============================================================================
+// PHẦN 1. KHAI BÁO, ĐẦU TRANG VÀ CHÂN TRANG
+// ============================================================================
+#mo-chuong("KHAI BÁO VÀ TRANG TRÍ TRANG", "chap_modern",
+  [Cách khai báo một tài liệu Vietphys và danh mục đầy đủ các mẫu đầu trang, chân trang có trong gói.])
+
+#bai("Khai báo tài liệu", subtitle: "import, vp-page-setup và các tham số", first: true)
+
+= Ba dòng khai báo
+Mọi tài liệu Vietphys bắt đầu bằng hai bước: nạp gói, rồi áp dụng `vp-page-setup` cho toàn bộ nội dung bằng một show rule.
 ```typst
-#let vp-page-setup(
-  paper: "a4",
-  margin: (x: 2cm, y: 2.5cm),
-  theme-color: auto,
-  theme-preset: none,
-  header: auto,
-  footer: auto,
-  header-ascent: auto,
-  footer-descent: auto,
-  leading: 1.2em,
-  font: vp-settings.base-font,
-  font-size: vp-settings.base-size,
-  heading-theme: vp-heading-theme-modern,
-  hierarchy: auto,
-  body,
-)
+#import "@local/vietphys:0.1.0": *          // gói đã cài
+#show: vp-page-setup.with(theme-preset: "ocean")
+#vp-question([Đơn vị của lực là gì?], options: ("N", "J", "W", "Pa"), ans: "A")
 ```
+Trong repo, tệp ở thư mục `examples/` dùng `#import "../vietphys.typ": *` thay cho dòng đầu.
 
-== layout/workbook.typ
+= Cài gói local
+```text
+python scripts/build_release.py
+python -m zipfile -e dist/vietphys-0.1.0.zip .typst-packages/local/vietphys/0.1.0
+typst compile tai-lieu.typ --package-path .typst-packages
+```
+Giải nén vào thư mục package mặc định của Typst thì không cần `--package-path`. Bản cài là bản sao: cập nhật repo xong cần cài lại.
 
+= Tham số của vp-page-setup
+#bang(columns: (26%, 30%, 44%),
+  [*Tham số*], [*Mặc định*], [*Ý nghĩa*],
+  [`paper`], [`"a4"`], [Khổ giấy.],
+  [`margin`], [`(x: 2cm, y: 2.5cm)`], [Lề trang.],
+  [`font`, `font-size`], [Times New Roman, 13pt], [Font và cỡ chữ nội dung.],
+  [`leading`], [`1.2em`], [Khoảng cách dòng.],
+  [`theme-preset`], [`none` (ocean)], [`ocean`, `konoha`, `minato`, `uchiha`, `wind`, `shadow`, `violet`, `emerald`.],
+  [`theme-color`], [`auto`], [Màu chủ đạo tùy ý, ví dụ `rgb("#184C99")`.],
+  [`header`, `footer`], [`auto`], [Mẫu đầu/chân trang (hai bài sau), ví dụ `vp-header-modern(title: "VẬT LÍ 12")`; `none` để bỏ.],
+  [`header-ascent`, `footer-descent`], [`auto`], [Khoảng cách từ header/footer đến nội dung.],
+  [`heading-theme`], [`vp-heading-theme-modern`], [Kiểu `=`, `==`, `===`; `none` dùng kiểu native tối giản.],
+  [`hierarchy`], [`auto`], [Cây phân cấp: `"book"`, `"lesson"`, `"standalone"` hoặc tự nhận diện.],
+)
+
+= Một khai báo đầy đủ
 ```typst
-#let vp-workbook(
-  body,
-  title: "SÁCH BÀI TẬP",
-  subtitle: "LUYỆN TẬP THEO CHỦ ĐỀ",
-  page: (:),
-  questions: (:),
-  header: auto,
-  footer: auto,
-)
-
-#let vp-workbook-chapter = vp-chapter.with(
-  style: "chap_hexagon",
-  font: ("Rounded Mplus 1c", "Arial"),
-)
-
-#let vp-workbook-lesson = vp-lesson.with(
-  style: "less_modern",
-  font: ("Rounded Mplus 1c", "Arial"),
-  new-page: true,
-  tab-text: "BÀI",
+#show: vp-page-setup.with(
+  paper: "a4", margin: (x: 2cm, top: 2.6cm, bottom: 2.4cm),
+  font: "Times New Roman", font-size: 12pt,
+  theme-color: rgb("#184C99"),
+  header: vp-header-modern(title: "VẬT LÍ 12", subtitle: "Dao động cơ"),
+  footer: vp-footer-shuriken(title: "VẬT LÍ 12", page-format: "1 / total"),
 )
 ```
-
-== components/hierarchy.typ & components/hierarchy_rules.typ
-
-```typst
-#let vp-chapter(
-  num: auto,
-  title: "TÊN CHƯƠNG",
-  style: "chap_modern", // "chap_modern", "chap_hexagon", "default"
-  color: auto,
-  font: auto,
-  label: none,
-)
-
-#let vp-lesson(
-  num: auto,
-  title: "TÊN BÀI HỌC",
-  subtitle: none,
-  style: "less_modern", // "less_modern", "less_ribbon", "less_star", "less_default", "default"
-  color: auto,
-  font: auto,
-  tab-text: "BÀI HỌC",
-  new-page: auto,
-  label: none,
-)
-
-#let vp-lesson-star = vp-lesson.with(style: "less_star")
-#let vp-lesson-title = vp-lesson-star
-
-#let vp-hierarchy(
-  mode: auto, // auto, "book", "lesson", "standalone"
-  body,
-)
-
-#let vp-chapter-counter = counter("vp-chapter")
-#let vp-lesson-counter = counter("vp-lesson")
-```
-
-== components/book_contents.typ & components/section.typ
-
-```typst
-#let vp-book-outline(
-  title: [MỤC LỤC],
-  subtitle: none,
-  intro: none,
-  break-before: (),
-  color: auto,
-  font: "Arial",
-  title-font: ("Rounded Mplus 1c", "Arial"),
-  lesson-size: 11pt,
-  row-padding: 6pt,
-)
-
-#let vp-chapter-outline(
-  title: [NỘI DUNG CHƯƠNG],
-  summary: none,
-  color: auto,
-  font: "Arial",
-  title-font: ("Rounded Mplus 1c", "Arial"),
-  lesson-size: 12pt,
-  row-padding: 8pt,
-)
-
-#let vp-section(
-  title,
-  size: 16pt,
-  color: rgb("#174B78"),
-  font: auto,
-  before: 16pt,
-  after: 9pt,
-)
-```
-
-== themes/modern_headings.typ, heading_theme.typ, academic_headings.typ, native_headings.typ
-
-```typst
-#let vp-heading-theme-modern(
-  color: auto,
-  font: ("Rounded Mplus 1c", "Arial"),
-  paragraph-indent: 1.5em,
-  numbering: "1.1.1.1",
-  body,
-)
-
-#let vp-heading-theme-01(
-  color: auto,
-  bg-color: auto,
-  numbering: "1.1.1.1",
-  paragraph-indent: 1.5em,
-  body,
-)
-
-#let vp-heading-theme-academic(
-  variant: "paper", // "paper" or "thesis"
-  font: "Times New Roman",
-  color: rgb("#222222"),
-  numbering: "1.1.1.1",
-  chapter-pagebreak: false,
-  heading-leading: 0.55em,
-  heading-before: auto,
-  heading-after: auto,
-  body-size: auto,
-  body-leading: auto,
-  paragraph-indent: 1.5em,
-  body,
-)
-
-#let vp-heading-theme-native(
-  paragraph-indent: 1.5em,
-  heading-leading: 0.55em,
-  numbering: "1.1.1.1",
-  body,
-)
-```
-
-== themes/theme_colors.typ
-
-```typst
-#let vp-set-theme(color: auto, preset: none)
-#let vp-make-palette(base-color)
-#let vp-resolve-color(custom-color)
-#let vp-resolve-palette(custom-color: auto)
-#let vp-theme-color = state("vp-theme-color", vp-theme-presets.ocean)
-```
-
-== layout/headers.typ
-
-```typst
-#let vp-header(
-  left-text: "",
-  center-text: "",
-  right-text: "",
-  color: rgb("#000000"),
-  line-width: 1pt,
-)
-
-#let vp-header-theme-01(
-  title: "TÀI LIỆU VẬT LÍ 12",
-  subtitle: "Chuyên đề: Động lực học - Vượt chướng ngại vật",
-  color: auto,
-  icon: "bolt",
-  date: none,
-  right-content: none,
-)
-
-#let vp-header-theme-02(
-  title: "TÀI LIỆU HỌC TẬP",
-  subtitle: "Học hôm nay - Thành công ngày mai",
-  color: auto,
-  icon: "book-open",
-  right-content: none,
-)
-
-#let vp-header-theme-03(
-  title: "TÀI LIỆU HỌC TẬP",
-  subtitle: "Chinh phục tri thức",
-  color: rgb("#E67E22"),
-  icon: none,
-  date: "Ngày: 24/07/2026",
-  right-content: none,
-  font: "Times New Roman",
-)
-
-#let vp-header-theme-04(
-  title: "TÀI LIỆU HỌC TẬP",
-  subtitle: "Khoa học – Logic – Sáng tạo",
-  color: rgb("#259697"),
-  icon: none,
-  date: "Ngày: 24/07/2026",
-  right-content: none,
-  font: "Times New Roman",
-)
-
-#let vp-header-theme-05(
-  title: "TÀI LIỆU HỌC TẬP",
-  subtitle: "Học để hiểu – Hiểu để hành động",
-  color: rgb("#722ED1"),
-  icon: "book-open",
-  date: "Ngày: 24/07/2026",
-  right-content: none,
-  font: "Times New Roman",
-)
-
-#let vp-header-theme-06(
-  title: "TÀI LIỆU HỌC TẬP",
-  subtitle: "Đơn giản – Hiệu quả – Bền vững",
-  color: rgb("#1E3A8A"),
-  icon: none,
-  date: "Ngày: 24/07/2026",
-  right-content: none,
-  font: "Times New Roman",
-)
-
-#let vp-header-theme-07(
-  title: "TÀI LIỆU HỌC TẬP",
-  subtitle: "Tập trung – Tư duy – Bứt phá",
-  color: rgb("#D32F2F"),
-  icon: "bullseye",
-  date: "Ngày: 24/07/2026",
-  right-content: none,
-  font: "Times New Roman",
-)
-
-#let vp-header-theme-08(
-  title: "TÀI LIỆU HỌC TẬP",
-  subtitle: "Tri thức xanh – Tương lai xanh",
-  color: rgb("#5F9E31"),
-  icon: "seedling",
-  date: "Ngày: 24/07/2026",
-  right-content: none,
-  font: "Times New Roman",
-)
-
-#let vp-header-theme-09(
-  title: "TÀI LIỆU HỌC TẬP",
-  subtitle: "Ước mơ – Nỗ lực – Thành công",
-  color: rgb("#1D3B7A"),
-  icon: "star",
-  date: "Ngày: 24/07/2026",
-  right-content: none,
-  font: "Times New Roman",
-)
-
-#let vp-header-theme-10(
-  title: "TÀI LIỆU HỌC TẬP",
-  subtitle: "Nền tảng vững chắc – Tương lai rộng mở",
-  color: rgb("#795548"),
-  icon: "landmark",
-  date: "Ngày: 24/07/2026",
-  right-content: none,
-  font: "Times New Roman",
-)
-
-#let vp-header-theme-11(
-  title: "TÀI LIỆU HỌC TẬP",
-  subtitle: "Tư duy khác biệt – Kết quả khác biệt",
-  color: rgb("#008080"),
-  icon: none,
-  date: "Ngày: 24/07/2026",
-  right-content: none,
-  font: "Times New Roman",
-)
-
-#let vp-header-theme-12(
-  title: "TÀI LIỆU HỌC TẬP",
-  subtitle: "Kiến tạo giá trị – Dẫn lối thành công",
-  color: rgb("#D35400"),
-  icon: none,
-  date: "Ngày: 24/07/2026",
-  right-content: none,
-  font: "Times New Roman",
-)
-
-#let vp-header-theme-13(
-  title: "TÀI LIỆU HỌC TẬP",
-  subtitle: "Công nghệ – Kết nối – Phát triển",
-  color: rgb("#0288D1"),
-  icon: none,
-  date: "Ngày: 24/07/2026",
-  right-content: none,
-  font: "Times New Roman",
-)
-
-#let vp-header-theme-14(
-  title: "TÀI LIỆU HỌC TẬP",
-  subtitle: "Sáng tạo không giới hạn",
-  color: rgb("#8E44AD"),
-  icon: none,
-  date: "Ngày: 24/07/2026",
-  right-content: none,
-  font: "Times New Roman",
-)
-
-#let vp-header-theme-15(
-  title: "TÀI LIỆU HỌC TẬP",
-  subtitle: "Hành trình học tập – Hành trình trưởng thành",
-  color: rgb("#2E7D32"),
-  icon: none,
-  date: "Ngày: 24/07/2026",
-  right-content: none,
-  font: "Times New Roman",
-)
-
-#let vp-manual-header-standard()
-
-#let vp-manual-header-logo(
-  title: "VIETPHYS PACKAGE",
-  subtitle: "CẨM NANG HƯỚNG DẪN SỬ DỤNG",
-  date: none,
-  right-content: none,
-  color: auto,
-)
-
-#let vp-manual-header-fancy(
-  title: "VIETPHYS PACKAGE",
-  subtitle: "CẨM NANG HƯỚNG DẪN SỬ DỤNG",
-  color: rgb("#1D3B7A"),
-  icon: auto, // auto/"logo", "atom", none, or custom content
-  compact: false,
-  font: auto,
-  title-size: auto, subtitle-size: auto, chapter-size: auto,
-  icon-size: auto, title-gap: auto, column-gap: auto,
-  bottom-padding: auto, chapter-inset: auto, divider-thickness: auto,
-  chapter-label: auto, // auto: current chapter number; none: hide badge
-)
-```
-
-== layout/footers.typ
-
-```typst
-#let vp-footer(
-  left-text: "",
-  center-text: "",
-  right-text: "",
-  color: rgb("#000000"),
-  line-width: 1pt,
-)
-
-#let vp-footer-kage(
-  color: rgb("#FF3D00"),
-  kunai-path: "kunai.svg",
-  slogan: "Level Up Your Knowledge",
-)
-
-#let vp-footer-shuriken(
-  title: "Học Kage",
-  slogan: "Level Up Your Knowledge",
-  color: auto,
-  accent-color: auto,
-  icon: "kunai", // "kunai", "shuriken", "logo", or custom content / none
-  divider: "line", // "line", "brush", "none"
-  page-format: "1", // "1" or "1 / total"
-  compact: false,
-  font: auto,
-  title-size: auto, slogan-size: auto, page-size: auto,
-  badge-size: auto, page-radius: auto, icon-size: auto, column-gap: auto,
-  divider-gap: auto,
-)
-
-#let vp-footer-kage-enso(
-  title: "Học Kage",
-  slogan: "Level Up Your Knowledge",
-  color: auto,
-  accent-color: auto,
-  icon: "kunai", // "kunai", "shuriken", "logo", or custom content / none
-  enso-style: "zen", // "zen", "grunge", "ring-09", "ring-01", "ring-10"
-  divider: "line", // "line", "brush", "none"
-  page-format: "1", // "1" or "1 / total"
-)
-
-#let vp-manual-footer-standard()
-
-#let vp-manual-footer-fancy(
-  slogan: "Vietphys Typst Engine • Sách & Đề Thi Chuẩn Quốc Gia",
-  color: rgb("#1D3B7A"),
-)
-
-// Alias:
-#let vp-footer-kage-brush = vp-footer-kage-enso
-#let vp-footer-ninja-enso = vp-footer-kage-enso
-```
-
-== layout/header_widgets.typ & components/document_state.typ
-
-```typst
-#let vp-set-part(title)
-#let vp-part = vp-set-part
-#let vp-part-marker(title)
-#let vp-current-part = state("vp-current-part", "")
-#let vp-is-first-lesson = state("vp-is-first-lesson", true)
-
-#let vp-widget-smart-heading(
-  title: none,
-  icon: "hashtag",
-  color: rgb("#1890FF"),
-  bg: none,
-  font: "Times New Roman",
-)
-
-#let vp-widget-part(
-  title: none,
-  icon: "bookmark",
-  color: rgb("#1890FF"),
-  bg: none,
-  font: "Times New Roman",
-)
-
-#let vp-widget-heading(
-  level: 1,
-  icon: "hashtag",
-  color: rgb("#1890FF"),
-  bg: none,
-  font: "Times New Roman",
-)
-
-#let vp-widget-date(
-  date: "24/07/2026",
-  icon: "calendar-days",
-  color: rgb("#1890FF"),
-  bg: none,
-  font: "Times New Roman",
-)
-
-#let vp-widget-author(
-  name: "Thầy Minh",
-  role: "GV",
-  icon: "chalkboard-user",
-  color: rgb("#1890FF"),
-  bg: none,
-  font: "Times New Roman",
-)
-
-#let vp-widget-school(
-  school: "THPT Chuyên",
-  class-name: "Lớp 12",
-  icon: "school",
-  color: rgb("#1890FF"),
-  bg: none,
-  font: "Times New Roman",
-)
-
-#let vp-widget-exam(
-  code: "MÃ ĐỀ 101",
-  time: "50 phút",
-  color: rgb("#D32F2F"),
-  font: "Times New Roman",
-)
-
-#let vp-widget-target(
-  target: "9+",
-  slogan: "Chinh phục điểm 10",
-  icon: "bullseye",
-  color: rgb("#D35400"),
-  font: "Times New Roman",
-)
-
-#let vp-widget-pill(
-  content,
-  icon: none,
-  color: rgb("#1890FF"),
-  bg: none,
-  radius: 4pt,
-  font: "Times New Roman",
-)
-
-#let vp-widget-stack(
-  ..widgets,
-  spacing: 5pt,
-)
-```
-
-== layout/graphics.typ
-
-```typst
-#let vp-icon-atom(color: auto, size: 18pt)
-
-#let vp-brush(
-  name,
-  color: auto,
-  width: auto,
-  height: auto,
-  flip-x: false,
-  flip-y: false,
-)
-
-#let vp-icon-shuriken(color: auto, size: 12pt)
-
-#let vp-icon-kunai(
-  color: auto,
-  accent: none,
-  size: auto,
-  width: auto,
-  height: auto,
-  angle: 0deg,
-)
-
-#let vp-icon-cloud(color: auto, size: 16pt)
-#let vp-icon-ninja-silhouette(color: auto, size: 30pt)
-
-#let vp-physics-enso-icon(
-  body,
-  num: "1",
-  title: "ĐỘNG HỌC",
-  desc: "Chuyển động thẳng, cong, vận tốc, gia tốc",
-  color: auto,
-  size: 65pt,
-)
-
-#let vp-logo-hockage(
-  primary: auto,
-  accent: auto,
-  size: 60pt,
-  width: auto,
-  height: auto,
-)
-#let vp-hockage-logo = vp-logo-hockage
-
-#let vp-ninja-scholar-logo(
-  primary: auto,
-  accent: auto,
-  size: 60pt,
-  width: auto,
-  height: auto,
-)
-
-#let vp-logo-colored(color: blue, width: 40pt)
-```
-
-== components/boxes.typ, knowledge_box.typ, media.typ, quantities.typ
-
-```typst
-#let vp-note(
-  title: "Ghi nhớ",
-  icon: "logo",
-  color: rgb("#5F9E31"),
-  bg-color: rgb("#FEE57E"),
-  body,
-)
-
-#let vp-knowledge-box(
-  title: "",
-  content: [],
-  type: "definition", // "definition", "theorem", "warning", "note"
-  color: auto,
-)
-
-#let vp-image(
-  path,
-  caption: "",
-  width: 80%,
-  align-pos: center,
-)
-
-#let vp-formula(
-  eq: "",
-  numbered: false,
-)
-
-#let vp-logo(
-  color: rgb("#1D3B7A"),
-  color2: rgb("#C09153"),
-  height: 2cm,
-)
-
-#let vp-unit(unit)
-#let vp-qty(val, unit)
-```
-
-== components/question_bank.typ
-
-```typst
-#let vp-exercise-layout(
-  body,
-  ..settings, // q-spacing, stem-spacing, line-spacing, lines-above, keep-first-line, keep-together, tf-inset, instruction-gap, show-answers, show-solutions, show-levels, show-sources
-)
-
-#let vp-instructions(
-  body,
-  gap: auto,
-  sticky: true,
-  reset: false,
-)
-
-#let vp-set-ans-style(
-  shape: auto,
-  border: auto,
-  bg: auto,
-  width: auto,
-  text-color: auto,
-)
-
-#let vp-set-question-style(
-  num-style: auto,
-  lines: auto,
-  prefix: auto,
-  icon-before: auto,
-  icon-after: auto,
-  lbl-color: auto,
-  lbl-bg: auto,
-  lbl-border: auto,
-  lbl-radius: auto,
-  lbl-padding: auto,
-  opt-color: auto,
-  opt-bg: auto,
-  opt-border: auto,
-  opt-radius: auto,
-  ans-shape: auto,
-  ans-mark-border: auto,
-  ans-mark-bg: auto,
-  ans-mark-width: auto,
-  ans-text-color: auto,
-  q-bg: auto,
-  q-border: auto,
-  q-radius: auto,
-  q-padding: auto,
-)
-
-#let vp-question(
-  stem,
-  listEs: (),
-  num-style: auto,
-  type: "mcq", // "mcq", "tf", "short", "essay"
-  options: (),
-  statements: (),
-  ans: none,
-  ans-tf: (),
-  sol: none,
-  level: none,
-  source: none,
-  stem2: none,
-  image-scope: "stem",
-  prefix: auto,
-  points: none,
-  q-spacing: auto,
-  stem-spacing: auto,
-  keep-first-line: auto,
-  line-spacing: auto,
-  lines-above: auto,
-  tf-inset: auto,
-  breakable: auto,
-  short-boxes: 4,
-  short-fields: (),
-  lines: auto,
-  q-bg: auto,
-  q-border: auto,
-  tf-header-bg: auto,
-  ans-color: auto,
-  tf-correct-color: auto,
-  tf-wrong-color: auto,
-  ans-shape: auto,
-  ans-mark-bg: auto,
-  ans-mark-border: auto,
-  ans-mark-width: auto,
-  ans-text-color: auto,
-  level-color: auto,
-  source-color: auto,
-  q-radius: auto,
-  q-padding: auto,
-  q-margin: 6pt,
-  lbl-color: auto,
-  lbl-bg: none,
-  lbl-border: none,
-  lbl-radius: 0pt,
-  lbl-padding: 0pt,
-  icon-before: none,
-  icon-after: none,
-  opt-color: auto,
-  opt-bg: none,
-  opt-border: none,
-  opt-radius: 0pt,
-  opt-padding: 0pt,
-  tf-style: "table",
-  tf-header-color: white,
-  tf-border: rgb("#E8E8E8"),
-  tf-row-bg: none,
-  short-border: rgb("#333333"),
-  short-bg: none,
-  image: none,
-  image-ratio: 0.65,
-  image-gap: 4%,
-  image-side: "right",
-  image-valign: top,
-)
-
-#let vp-print-keys(title: "BẢNG ĐÁP ÁN NHANH")
-#let vp-print-solutions(title: "HƯỚNG DẪN GIẢI CHI TIẾT")
-
-// Counter & State:
-vp-q-counter = counter("vp-question")
-vp-show-ans = state("vp-show-ans", false)
-vp-show-sol = state("vp-show-sol", false)
-vp-show-level = state("vp-show-level", true)
-vp-show-source = state("vp-show-source", true)
-vp-sol-store = state("vp-sol-store", ())
-vp-ans-shape = state("vp-ans-shape", auto)
-vp-ans-mark-border = state("vp-ans-mark-border", auto)
-vp-ans-mark-bg = state("vp-ans-mark-bg", auto)
-vp-ans-mark-width = state("vp-ans-mark-width", auto)
-vp-ans-text-color = state("vp-ans-text-color", auto)
-vp-opt-color = state("vp-opt-color", auto)
-vp-opt-bg = state("vp-opt-bg", auto)
-vp-opt-border = state("vp-opt-border", auto)
-vp-opt-radius = state("vp-opt-radius", auto)
-vp-q-prefix = state("vp-q-prefix", "Câu")
-vp-q-icon-before = state("vp-q-icon-before", none)
-vp-q-icon-after = state("vp-q-icon-after", none)
-vp-q-lbl-color = state("vp-q-lbl-color", auto)
-vp-q-lbl-bg = state("vp-q-lbl-bg", auto)
-vp-q-lbl-border = state("vp-q-lbl-border", auto)
-vp-q-lbl-radius = state("vp-q-lbl-radius", auto)
-vp-q-lbl-padding = state("vp-q-lbl-padding", auto)
-vp-q-bg = state("vp-q-bg", auto)
-vp-q-border = state("vp-q-border", auto)
-vp-q-radius = state("vp-q-radius", auto)
-vp-q-padding = state("vp-q-padding", auto)
-vp-q-num-style = state("vp-q-num-style", "1")
-vp-q-lines = state("vp-q-lines", auto)
-vp-theme-state = state("vp-theme-state", vp-question-theme)
-```
-
-== Dữ liệu vp-theme-presets
-```typst
-#let vp-theme-presets = (
-  konoha: rgb("#5F9E31"),    // Làng Lá (Xanh lục Ninja / Mộc Độn)
-  minato: rgb("#F59E0B"),    // Tia Chớp Vàng (Vàng Cam Phi Lôi Thần)
-  uchiha: rgb("#E53E3E"),    // Lửa Uchiha (Đỏ Hỏa Độn)
-  ocean: rgb("#1890FF"),     // Đại Dương (Xanh dương Thủy Độn / Tiêu chuẩn)
-  wind: rgb("#0EA5E9"),      // Phong Độn (Xanh da trời Rasengan)
-  shadow: rgb("#2D3748"),    // Ám Bộ (Xám đen / Huyền bí)
-  violet: rgb("#8B5CF6"),    // Rinnegan (Tím Luân Hồi)
-  emerald: rgb("#10B981"),   // Ngọc Lục Bảo
-)
-```
-
-== Dữ liệu vp-colors
-```typst
-#let vp-colors = (
-  primary: rgb("#1890FF"),
-  success: rgb("#52C41A"),
-  warning: rgb("#FAAD14"),
-  danger: rgb("#FF4D4F"),
-  text-main: rgb("#333333"),
-  text-muted: rgb("#888888"),
-  bg-light: rgb("#F5F5F5")
-)
-```
-
-== Dữ liệu vp-settings
-```typst
-#let vp-settings = (
-  base-font: "Times New Roman",
-  base-size: 13pt,
-  line-height: 1.2
-)
-```
-
-== Dữ liệu vp-question-theme & vp-workbook-defaults
-```typst
-#let vp-question-theme = (
-  mcq: (bg: none, border: none, lines: 0, ans-color: vp-colors.danger, ans-shape: "circle", ans-mark-bg: none, ans-mark-border: rgb("#333"), ans-mark-width: 0.8pt, ans-text-color: rgb("#333"), level-color: vp-colors.primary, source-color: vp-colors.text-muted),
-  tf: (bg: none, border: none, lines: 0, tf-header: rgb("#1A73E8"), tf-correct-color: vp-colors.success, tf-wrong-color: vp-colors.danger, ans-mark-bg: none, ans-mark-border: rgb("#333"), ans-mark-width: 0.8pt, level-color: vp-colors.primary, source-color: vp-colors.text-muted),
-  short: (bg: none, border: none, lines: 0, ans-color: vp-colors.danger, level-color: vp-colors.primary, source-color: vp-colors.text-muted),
-  essay: (bg: none, border: none, lines: 5, ans-color: vp-colors.danger, level-color: vp-colors.primary, source-color: vp-colors.text-muted),
-)
-
-#let vp-workbook-defaults = (
-  page: (
-    paper: "a4", margin: (x: 2cm, top: 2cm, bottom: 1.6cm),
-    font: "Times New Roman", font-size: 14pt, leading: 0.55em,
-    header-ascent: 23pt, footer-descent: 6pt,
-    theme-preset: "ocean", hierarchy: "book",
-    heading-theme: vp-heading-theme-modern.with(font: "Arial", paragraph-indent: 0pt,
-      numbering: (..nums) => numbering("I", nums.pos().first())),
-  ),
-  questions: (
-    q-spacing: 6pt, stem-spacing: 7pt, line-spacing: 1.8em, lines-above: 16pt,
-    instruction-gap: 14pt, tf-inset: (x: 5pt, y: 7pt),
-    keep-first-line: true, keep-together: ("short",),
-    show-answers: false, show-solutions: false, show-levels: false, show-sources: false,
-  ),
-)
-```
-
-= Sách bài tập và cấu hình tái sử dụng
-
-Mẫu `vp-workbook` tích hợp các tùy chỉnh trang và bài tập. Tệp
-`examples/workbook.typ` là ví dụ độc lập, đủ bốn dạng câu hỏi; chỉ cần import gói.
-Các tùy chỉnh trong `page` và `questions` ghi đè mặc định theo từng khóa.
-Dictionary con như `margin` được thay toàn bộ.
-
-```typst
-#import "@local/vietphys:0.1.0": *
-#show: vp-workbook.with(
-  title: "BÀI TẬP VẬT LÍ 10",
-  page: (font-size: 14pt, header-ascent: 23pt, footer-descent: 6pt),
-  questions: (
-    q-spacing: 6pt, stem-spacing: 7pt,
-    line-spacing: 1.8em, lines-above: 16pt,
-    instruction-gap: 14pt, tf-inset: (x: 5pt, y: 7pt),
-  ),
-)
-#vp-workbook-chapter(num: "I", title: "Động học")
-Nội dung chương.
-#vp-workbook-lesson(num: 1, title: "Quãng đường và độ dịch chuyển")
-= Phần I. Trắc nghiệm khách quan
-#vp-instructions(reset: true)[Chọn một phương án đúng.]
-#vp-question([Tốc độ có đơn vị nào?],
-  options: ([$"m/s"$], [$"m"$], [$"s"$], [$"kg"$]), ans: "A")
-```
-
-`vp-workbook-chapter` dùng chap_hexagon; `vp-workbook-lesson` dùng less_modern
-và bắt đầu trang mới kể cả bài đầu chương. Hai hàm nhận mọi tham số của
-`vp-chapter` và `vp-lesson`, gồm `font`, `style`, `num`, `title`, `label`.
-Font tiêu đề mặc định là Rounded Mplus 1c, dự phòng Arial nếu máy thiếu font.
-`vp-workbook-defaults` công khai hai dictionary `page`, `questions`.
-
-== Mục lục và nội dung chương tự động
-
-```typst
-#vp-book-outline(subtitle: [SÁCH BÀI TẬP VẬT LÍ 10], break-before: (3,))
-#vp-workbook-chapter(num: "I", title: "Động học")
-#vp-chapter-outline(summary: [Mỗi bài gồm bốn phần luyện tập.])
-```
-
-Hai hàm lấy tên bài, số thứ tự và số trang trực tiếp từ heading của tài liệu,
-và tạo liên kết đến từng bài. Mục lục giữ đầy đủ tiêu đề dài; trang nội dung
-chương chỉ liệt kê các bài thuộc chương hiện tại. Tùy chỉnh `color`, `font`,
-`title-font`, `lesson-size`, `row-padding`. `break-before` là mảng thứ tự
-chương cần bắt đầu ở trang mục lục mới. Đặt các lệnh trước những bài được liệt kê.
-
-== Cấu hình câu hỏi và câu hướng dẫn
-
-`vp-exercise-layout` có thể dùng dưới dạng show rule hoặc bọc một đoạn.
-Cấu hình kế thừa vào các tệp include, khôi phục khi hết đoạn, và hỗ trợ lồng nhau.
-Tham số truyền trực tiếp vào từng câu được ưu tiên cao nhất.
-
-#table(
-  columns: (1fr, 2fr), inset: 6pt,
-  [*Tham số*], [*Tác dụng*],
-  [`q-spacing`], [Khoảng cách câu và các block trong câu.],
-  [`stem-spacing`], [Khoảng cách block đề câu hỏi.],
-  [`line-spacing`], [Đệm sau mỗi dòng kẻ; không phải chiều cao hàng cố định.],
-  [`lines-above`], [Khoảng trống trước dòng kẻ đầu.],
-  [`instruction-gap`], [Khoảng cách hướng dẫn đến Câu 1.],
-  [`tf-inset`], [Đệm ô bảng đúng/sai; tăng y để hàng cao hơn.],
-  [`keep-first-line`], [Giữ cuối đề cùng dòng làm bài đầu tiên.],
-  [`keep-together`], [Mảng các loại câu giữ trên cùng trang.],
-  [`show-answers`, `show-solutions`], [Hiện đáp án và lời giải trực tiếp.],
-  [`show-levels`, `show-sources`], [Hiện mức độ và nguồn.],
-)
-
-Preset workbook ẩn đáp án/lời giải; câu mcq được ngắt giữa các hàng phương án,
-giữ cuối đề cùng hàng đầu tiên. Mỗi phương án giữ nguyên, các nhãn cùng hàng thẳng nhau.
-Câu đúng/sai được ngắt giữa các phát biểu, giữ cuối đề cùng hàng đầu tiên và lặp
-tiêu đề bảng ở trang sau. Mỗi phát biểu cùng hai ô Đ/S giữ nguyên trên một trang.
-Câu short được giữ trên một trang; câu tự luận được phép ngắt trang.
-Từng câu có thể ghi đè `breakable: false` để giữ nguyên hoặc `breakable: true` để cho phép ngắt.
-Không gọi lệnh in bảng đáp án nếu chỉ cần bản học sinh.
-
-```typst
-// Chỉ cấu hình câu hỏi, dùng cùng bố cục trang hiện có:
-#show: vp-exercise-layout.with(q-spacing: 6pt, instruction-gap: 14pt)
-
-// Câu hướng dẫn: áp dụng cho cả bốn phần, reset số câu tùy chọn.
-#vp-instructions(gap: 16pt, reset: true)[Trình bày lời giải.]
-
-// Ghi đè riêng một câu:
-#vp-question([Đề bài...], type: "essay", lines: 5,
-  lines-above: 20pt, line-spacing: 2em, breakable: true)
-
-// Đoạn giáo viên; ra ngoài đoạn sẽ trở lại cấu hình trước đó:
-#vp-exercise-layout(show-answers: true, show-solutions: true)[
-  #vp-question([Đề bài...], type: "short", ans: "20", sol: [Lời giải.])
-]
-```
-
-Ví dụ hiển thị với khoảng cách 14pt sau hướng dẫn và 16pt trước dòng kẻ:
-
-#product[
-  #vp-exercise-layout(q-spacing: 6pt, instruction-gap: 14pt,
-    line-spacing: 1.8em, lines-above: 16pt, keep-first-line: true,
-    show-answers: false, show-solutions: false)[
-    #vp-instructions[Trình bày lập luận, công thức và kết luận.]
-    #vp-question([Một người đi thẳng 30 m rồi quay lại 10 m.
-      Tính quãng đường và độ lớn độ dịch chuyển.], type: "essay", lines: 3)
-  ]
-]
-
-== Tinh chỉnh header và footer qua tham số
-
-`vp-page-setup` nhận `header-ascent`, `footer-descent`, `leading`.
-Tăng header-ascent để header xa vùng nội dung hơn; tăng footer-descent để footer
-xuống thấp hơn. Cần chừa đủ lề trên/dưới bằng `margin`.
-
-```typst
-#vp-manual-header-fancy(
-  title: "BÀI TẬP VẬT LÍ", subtitle: "LUYỆN TẬP", icon: "atom", compact: true,
-  title-size: 12pt, subtitle-size: 8pt, chapter-size: 10pt,
-  icon-size: 18pt, title-gap: 4pt, bottom-padding: 4pt,
-)
-#vp-footer-shuriken(
-  title: "Học Kage", slogan: "Level up your knowledge", compact: true,
-  title-size: 12pt, slogan-size: 10pt, page-size: 9pt, badge-size: 27pt,
-)
-```
-
-Các kích thước truyền tường minh ghi đè preset compact. Header nhận
-`chapter-label: auto` để hiện đúng số chương, hoặc `none` để ẩn nhãn.
-Icon `"atom"` nằm trong gói; có thể dùng riêng `vp-icon-atom(size: 18pt)`.
-Header còn nhận `font`, `column-gap`, `chapter-inset`, `divider-thickness`;
-footer còn nhận `font`, `icon-size`, `column-gap`, `page-radius`, `divider-gap`.
-Không cần sửa tệp thư viện để chỉnh cỡ chữ hoặc khoảng đệm của tài liệu.
-
-= Các lưu ý khi sử dụng
-
-- `opt-padding` có trong API nhưng hiện chưa được dùng để dựng giao diện.
-- Không có option màu riêng từng nhãn A/B/C/D. Có thể tô nội dung từng phương án bằng `text(fill: rgb("#7C3AED"))[...]` trong options.
-- Đường dẫn ảnh tính tại tài liệu: tạo image/path ở nơi gọi rồi truyền vào gói.
-- Chọn font có trên máy; thiếu font có thể làm bố cục thay đổi.
-- Kiểm tra trực quan sau khi đổi font, lề hoặc khổ giấy, nhất là header tràn viền và hộp không tách trang.
-
-
+Header tự ẩn ở trang có banner chương (`vp-chapter`) để không chồng lên banner.
+#meo[Cẩm nang này khai báo `header: vp-header-modern(...)` và `footer: vp-footer-kage-enso(...)` — đầu và chân mỗi trang bạn đang đọc chính là hai mẫu đó.]
+
+= Màu chủ đạo
+#ex("#for p in (\"ocean\", \"konoha\", \"violet\") {
+  vp-set-theme(preset: p)
+  vp-knowledge-box(title: p, content: [$F = m a$])
+}
+#vp-set-theme(color: \"#184C99\")", code: 52%)
+Các mẫu có `color: auto` lấy màu theme hiện tại; truyền `color` để dùng màu riêng.
+
+// ----------------------------------------------------------------------------
+// Trang mẫu: chính trang này dùng mẫu đầu/chân trang đang giới thiệu.
+#let _noi-dung-mau = {
+  set par(first-line-indent: 0pt)
+  text(weight: "bold", fill: mau-chinh)[Ví dụ nội dung trên trang]
+  v(4pt)
+  [Một vật dao động điều hòa với phương trình $x = 5 cos(4 pi t + pi / 3)$ cm. Biên độ, tần số góc và pha ban đầu của dao động lần lượt là bao nhiêu? Đoạn nội dung này chỉ để thấy đầu trang và chân trang nằm cùng một trang tài liệu thật.]
+  v(6pt)
+  vp-question([Chu kì của dao động trên là], options: ("0,5 s", "1 s", "2 s", "4 s"), ans: "A")
+}
+#let trang-mau(ten, code, mo-ta, header: auto, footer: auto, tham-so: none) = {
+  let args = (:)
+  if header != auto { args.insert("header", header) }
+  if footer != auto { args.insert("footer", footer) }
+  let vi-tri = if header != auto { [▲ ĐẦU TRANG CỦA TRANG NÀY] } else { [▼ CHÂN TRANG CỦA TRANG NÀY] }
+  page(..args, {
+    block(width: 100%, fill: rgb("#EEF5FC"), radius: 6pt, inset: 10pt, breakable: false, {
+      text(size: 7.5pt, weight: "bold", fill: mau-chinh, tracking: 0.8pt, vi-tri)
+      v(2pt)
+      text(size: 14pt, weight: "bold", fill: mau-chinh, ten)
+      v(2pt)
+      mo-ta
+      v(4pt)
+      block(width: 100%, fill: white, radius: 4pt, inset: 8pt, _ma(code, size: 8.5pt))
+    })
+    if tham-so != none { tham-so }
+    v(10pt)
+    _noi-dung-mau
+  })
+}
+
+#bai("Các mẫu đầu trang", subtitle: "Mỗi mẫu được dùng làm đầu trang của một trang")
+
+Bài này không vẽ lại header trong khung: *mỗi trang sau là một trang thật dùng chính mẫu đang giới thiệu*, nhìn lên đầu trang để thấy kết quả. Khai báo cho cả tài liệu bằng tham số `header` của `vp-page-setup`; chỉ đổi riêng một trang bằng `#page(header: ...)[...]`.
+#bang(columns: (34%, 66%),
+  [*Mẫu*], [*Đặc điểm*],
+  [`vp-header-modern`], [Thanh hiện đại: huy hiệu gradient, tiêu đề, phụ đề, tự hiện chương và bài. Hai kiểu `"line"`, `"card"`.],
+  [`vp-header`], [Ba vùng chữ trái – giữa – phải, đường kẻ mảnh.],
+  [`vp-manual-header-fancy`], [Kiểu cẩm nang có logo V và huy hiệu “CHƯƠNG n”.],
+  [`vp-manual-header-logo`], [Logo và dải tiêu đề tràn hai mép giấy.],
+  [`vp-manual-header-standard`], [`vp-header-modern` với tiêu đề Vietphys.],
+)
+#bang(columns: (24%, 22%, 54%),
+  [*Tham số vp-header-modern*], [*Mặc định*], [*Ý nghĩa*],
+  [`title`, `subtitle`], [`"VẬT LÍ 12"`, `none`], [Tiêu đề và phụ đề (phụ đề tự in hoa).],
+  [`style`], [`"line"`], [`"line"`: kẻ mảnh nhạt dần; `"card"`: thẻ bo góc nền nhạt.],
+  [`icon`], [`"atom"`], [Tên icon Font Awesome, content, hoặc `none` (monogram chữ cái đầu).],
+  [`info`], [`auto`], [`auto`: chip CHƯƠNG n + tên bài hiện tại; chuỗi, widget, content; `none` để trống.],
+  [`color`], [`auto`], [Màu chủ đạo (theo theme).],
+  [`font`, `title-size`, `badge-size`], [`auto`, 11pt, 24pt], [Font, cỡ tiêu đề, cỡ huy hiệu.],
+)
+
+#trang-mau("vp-header-modern — kiểu line",
+  "#show: vp-page-setup.with(header: vp-header-modern(\n  title: \"VẬT LÍ 12\", subtitle: \"Ôn thi tốt nghiệp\"))",
+  [Kiểu mặc định. Bên phải tự hiện chương và bài đang đọc.],
+  header: vp-header-modern(title: "VẬT LÍ 12", subtitle: "Ôn thi tốt nghiệp", color: mau-chinh))
+#trang-mau("vp-header-modern — kiểu card",
+  "header: vp-header-modern(title: \"VẬT LÍ 12\",\n  subtitle: \"Ôn thi tốt nghiệp\", style: \"card\")",
+  [Thẻ nổi bo góc, nền nhạt cùng tông.],
+  header: vp-header-modern(title: "VẬT LÍ 12", subtitle: "Ôn thi tốt nghiệp", style: "card", color: mau-chinh))
+#trang-mau("vp-header-modern — monogram, màu riêng",
+  "header: vp-header-modern(title: \"Hóa học 11\", subtitle: \"Đề cương\",\n  icon: none, color: rgb(\"#0F766E\"), style: \"card\")",
+  [`icon: none` dùng chữ cái đầu của tiêu đề làm monogram; `color` đổi màu riêng cho header.],
+  header: vp-header-modern(title: "Hóa học 11", subtitle: "Đề cương", icon: none, color: rgb("#0F766E"), style: "card"))
+#trang-mau("vp-header-modern — thông tin tùy ý",
+  "header: vp-header-modern(title: \"ĐỀ KIỂM TRA\", subtitle: \"Học kì I\",\n  icon: \"pen-ruler\", color: rgb(\"#B91C1C\"),\n  info: vp-widget-exam(code: \"ĐỀ 101\", time: \"50 phút\"))",
+  [`info` thay đường dẫn chương/bài bằng widget, chuỗi hoặc content.],
+  header: vp-header-modern(title: "ĐỀ KIỂM TRA", subtitle: "Học kì I", icon: "pen-ruler", color: rgb("#B91C1C"),
+    info: vp-widget-exam(code: "ĐỀ 101", time: "50 phút")))
+#trang-mau("vp-header",
+  "header: vp-header(left-text: \"VẬT LÍ 12\",\n  center-text: \"Dao động cơ\", right-text: \"Đề 01\")",
+  [Header chữ tối giản; tham số `left-text`, `center-text`, `right-text`, `color`, `line-width`.],
+  header: vp-header(left-text: "VẬT LÍ 12", center-text: "Dao động cơ", right-text: "Đề 01"))
+#trang-mau("vp-manual-header-fancy",
+  "header: vp-manual-header-fancy(title: \"VẬT LÍ 12\",\n  subtitle: \"Ôn thi\", compact: true)",
+  [Tham số: `title`, `subtitle`, `color`, `icon`, `compact`, `font`, `chapter-label` (`auto` hiện “CHƯƠNG n”) và các cỡ chữ, khoảng đệm.],
+  header: vp-manual-header-fancy(title: "VẬT LÍ 12", subtitle: "Ôn thi", compact: true))
+#trang-mau("vp-manual-header-logo",
+  "header: vp-manual-header-logo(title: \"VẬT LÍ 12\")",
+  [Tham số: `title`, `subtitle`, `date`, `right-content`, `color`. Dải tiêu đề tràn hai mép giấy.],
+  header: vp-manual-header-logo(title: "VẬT LÍ 12"))
+
+// ----------------------------------------------------------------------------
+#bai("Các mẫu chân trang", subtitle: "Mỗi mẫu được dùng làm chân trang của một trang")
+
+Tương tự bài trước, mỗi trang sau dùng chính mẫu chân trang đang giới thiệu — nhìn xuống cuối trang để thấy kết quả. Khai báo bằng tham số `footer` của `vp-page-setup`.
+#bang(columns: (34%, 66%),
+  [*Mẫu*], [*Tham số*],
+  [`vp-footer`], [`left-text`, `center-text`, `right-text`, `color`, `line-width`.],
+  [`vp-footer-kage`], [`color`, `slogan`, `kunai-path` (`none` để bỏ hình kunai).],
+  [`vp-footer-shuriken`], [`title`, `slogan`, `color`, `accent-color`, `icon` (`"kunai"`, `"shuriken"`, `"logo"`, content, `none`), `divider` (`"line"`, `"brush"`, `none`), `page-format` (`"1"`, `"1 / total"`), `compact`, `font`, các cỡ chữ và khoảng đệm.],
+  [`vp-footer-kage-enso`], [Như Shuriken, thêm `enso-style`: `"zen"`, `"grunge"`, `"ring-01"`, `"ring-09"`, `"ring-10"`. Tên khác: `vp-footer-kage-brush`, `vp-footer-ninja-enso`.],
+  [`vp-manual-footer-standard`], [Không tham số.],
+  [`vp-manual-footer-fancy`], [`slogan`, `color`.],
+)
+
+#trang-mau("vp-footer", "footer: vp-footer(left-text: \"VẬT LÍ 12\",\n  center-text: context counter(page).display(), right-text: \"Vietphys\")",
+  [Chân trang chữ tối giản ba vùng.],
+  footer: vp-footer(left-text: "VẬT LÍ 12", center-text: context counter(page).display(), right-text: "Vietphys"))
+#trang-mau("vp-footer-kage", "footer: vp-footer-kage()", [Tên, hình kunai, khẩu hiệu và số trang trong huy hiệu.],
+  footer: vp-footer-kage())
+#trang-mau("vp-footer-shuriken", "footer: vp-footer-shuriken(title: \"VẬT LÍ 12\")", [Số trang trong huy hiệu shuriken.],
+  footer: vp-footer-shuriken(title: "VẬT LÍ 12"))
+#trang-mau("vp-footer-shuriken — tùy chỉnh",
+  "footer: vp-footer-shuriken(title: \"VẬT LÍ 12\", icon: \"shuriken\",\n  divider: \"brush\", page-format: \"1 / total\")",
+  [Đường phân cách nét cọ, số trang dạng “trang / tổng”.],
+  footer: vp-footer-shuriken(title: "VẬT LÍ 12", icon: "shuriken", divider: "brush", page-format: "1 / total"))
+#trang-mau("vp-footer-kage-enso — zen", "footer: vp-footer-kage-enso(title: \"VẬT LÍ 12\")", [Số trang trong vòng enso.],
+  footer: vp-footer-kage-enso(title: "VẬT LÍ 12"))
+#trang-mau("vp-footer-kage-enso — grunge",
+  "footer: vp-footer-kage-enso(title: \"VẬT LÍ 12\",\n  enso-style: \"grunge\", icon: \"shuriken\")", [Vòng enso kiểu nét cọ thô.],
+  footer: vp-footer-kage-enso(title: "VẬT LÍ 12", enso-style: "grunge", icon: "shuriken"))
+#trang-mau("vp-footer-kage-enso — ring-09",
+  "footer: vp-footer-kage-enso(title: \"VẬT LÍ 12\",\n  enso-style: \"ring-09\", divider: \"brush\")", [Chân trang của chính cẩm nang dùng mẫu này với `page-format: \"1 / total\"`.],
+  footer: vp-footer-kage-enso(title: "VẬT LÍ 12", enso-style: "ring-09", divider: "brush"))
+#trang-mau("vp-manual-footer-standard", "footer: vp-manual-footer-standard()", [`vp-footer-kage` màu xanh với khẩu hiệu Vietphys.],
+  footer: vp-manual-footer-standard())
+#trang-mau("vp-manual-footer-fancy", "footer: vp-manual-footer-fancy(slogan: \"Vật lí 12\")", [Tham số `slogan`, `color`.],
+  footer: vp-manual-footer-fancy(slogan: "Vật lí 12"))

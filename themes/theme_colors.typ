@@ -76,13 +76,16 @@
   vp-make-palette(c)
 }
 
+// With no color and no preset, return to the package default (ocean).
 #let vp-set-theme(color: auto, preset: none) = {
-  let target-color = if preset != none and preset in vp-theme-presets {
+  assert(preset == none or preset in vp-theme-presets,
+    message: "vietphys: preset " + repr(preset) + " không tồn tại. Có: " + vp-theme-presets.keys().join(", "))
+  let target-color = if preset != none {
     vp-theme-presets.at(preset)
   } else if color != auto and color != none {
     _vp-to-color(color)
   } else {
-    rgb("#5F9E31")
+    vp-theme-presets.ocean
   }
   vp-theme-color.update(target-color)
 }

@@ -2,6 +2,22 @@
 
 ## Unreleased
 
+- Thêm `vp-header-modern`: header hiện đại kiểu thanh ứng dụng, huy hiệu gradient chứa icon hoặc monogram, phụ đề in hoa giãn chữ, tự hiện chip “CHƯƠNG n” và tên bài hiện tại; hai kiểu `"line"` và `"card"`. Cẩm nang dùng mẫu này làm đầu trang.
+- Bỏ 15 mẫu `vp-header-theme-01` … `15`; dùng `vp-header-modern` thay thế. `vp-manual-header-standard()` nay là `vp-header-modern` với tiêu đề Vietphys.
+- Viết lại cẩm nang `examples/huong-dan-day-du.typ` bằng chính các mẫu của gói: mỗi chương một kiểu banner (`chap_modern`, `chap_hexagon`, `default`) kèm `vp-chapter-outline`, mục lục `vp-book-outline`, header `vp-manual-header-fancy`, footer `vp-footer-kage-enso`. Mỗi ví dụ là một thẻ code ngắn đặt cạnh sản phẩm dựng bằng `eval` từ đúng đoạn code đó; header và banner chương xem qua trang A4 thu nhỏ. Rút từ 114 xuống 55 trang.
+- Thêm thư viện hình vẽ `vp-draw` (CeTZ 0.5.2) trong `components/drawing/`, dùng bằng `import vp-draw: *` trong `vp-canvas`: trục và đồ thị, góc, đa giác, vector, đường kích thước, điện tích, bản tụ, điện trường đều, ký hiệu từ trường, đường sức tính số, lò xo ba kiểu, giá đỡ, vật, mặt phẳng nghiêng, ròng rọc, thấu kính, gương, tia sáng và linh kiện mạch điện. Thêm `vp-canvas`, `vp-figure` và chương hướng dẫn trong cẩm nang.
+- `vp-draw` theo phong cách hình vật lí của Izaak Neutelings (tikz.net): bảng màu theo ý nghĩa `pal` (lực, vận tốc, gia tốc, độ dời, điện trường, từ trường...), vật liệu gradient `materials`, tô gạch chéo `hatch`, đầu mũi tên kiểu LaTeX `head`, viền chữ `halo`, ký hiệu `vb`. Thêm `force`, `velocity`, `accel`, `component`, `measure`, `displacement`, `axis`, `tick`, `angle-arrow`, `guide`, `ground`, `floor-wall`, `rope`, `pendulum`, `marked-line`, `b-in`, `b-out`, `current-wire`, `wire-section`, `glass`, `normal-line`, `wave`, `standing-wave`; vẽ lại `mass`, `pulley`, `spring`, `incline`, `charge`, `plate`, `uniform-field`, `field-lines`, `lens` theo phong cách mới. Cẩm nang thêm mục “Cách tư duy khi vẽ hình”; mã ví dụ được chạy bằng `eval` nên luôn khớp hình.
+- Gộp mọi tài liệu hướng dẫn vào `examples/huong-dan-day-du.typ`: thêm chương Phân cấp, đánh số và mục lục (từ manual-hierarchy), mục cài đặt, tự dàn cột/vùng hẹp/công thức cao, ảnh dưới đề và ảnh ôm cả câu, chi tiết theme học thuật. Bỏ các ví dụ trùng lặp `manual`, `manual-hierarchy`, `demo-full`, `demo-complete`, `review-hierarchy`, `widgets`, `hierarchy`, `modern`, `academic`; giữ `workbook` và `demo-on-tap` làm mẫu khởi đầu. README rút gọn, trỏ về cẩm nang.
+- `vp-book-outline` và `vp-chapter-outline` chỉ lấy heading cấu trúc của chapter/lesson; heading `=`/`==` độc lập không còn bị coi là chương/bài.
+- Xóa năm tệp chuyển tiếp không còn được import (`layout/header_footer.typ`, `heading_widgets.typ`, `modern_layout.typ`, `additional_styles.typ`, `components/modern_hierarchy.typ`) và bốn hàm SVG nội bộ không dùng trong `layout/graphics.typ`.
+- Câu mcq nhận số phương án tùy ý, bảng đúng/sai nhận số ý tùy ý; trước đây quá 4 làm lỗi biên dịch.
+- Kiểm tra dữ liệu câu hỏi: loại câu, đáp án mcq, `ans-tf`, khóa cấu hình và preset sai đều báo lỗi rõ ràng. `ans` không phân biệt hoa thường, nhận số thứ tự; `ans-tf` nhận true/false.
+- Tham số kiểu từng câu (`opt-*`, `lbl-*`, `icon-*`) mặc định `auto`, cho phép `none`/`0pt` xóa kiểu chung trên một câu.
+- Thêm `vp-question-style` có phạm vi, `vp-set-labels`/`vp-default-labels`, `vp-register-question-type` và tham số `data`, `items`.
+- `vp-print-keys`/`vp-print-solutions` thêm `scope`, `groups`, `group-numbering`; `vp-print-keys` thêm `accent`, `mcq-columns`, `short-columns`. Mặc định giữ nguyên kết quả cũ.
+- `vp-unit` chỉ thay bí danh trên nguyên từ (không còn biến `lumen` thành `lμmen`), hỗ trợ `kohm`, `muA` và thêm tiền tố micro.
+- `vp-set-theme()` không tham số trở về `ocean` như mặc định của gói.
+- Kiểm thử mới trong `tests/test_robustness.py`; đã đối chiếu từng trang của các dự án trong repo trước và sau thay đổi.
 - Workbook cho phép bảng đúng/sai nối trang giữa các phát biểu; giữ cuối đề cùng hàng đầu, giữ nguyên từng hàng và lặp tiêu đề “Phát biểu – Đ – S” trên trang tiếp theo.
 - Workbook cho phép câu A–D ngắt giữa các hàng phương án, giữ cuối đề cùng hàng đầu để giảm khoảng trắng cuối trang; vẫn hỗ trợ `breakable: false` và `keep-together` khi cần giữ cả câu.
 - Căn các nhãn A–D theo cùng đường chân chữ khi phương án có phân số; thêm kiểm thử vị trí nhãn và ngắt trang.

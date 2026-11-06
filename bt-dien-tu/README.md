@@ -63,6 +63,7 @@ Giữ dòng `// source-id: P1/1.1; pdf: 2` tương ứng để script lập danh
 
 ## Hình vẽ
 
+- `hinh/cong-cu.typ`: hàm vẽ dùng chung (mũi tên vector, đường kích thước, điện tích, trục, bản tích điện, mẫu hàm) cho `hinh-01-dien-truong.typ` và `hinh-02-dien-the.typ`. Đường sức P1/1.5 và các đồ thị được tính từ công thức, không chép tọa độ.
 - `hinh/ve-hinh.typ`: 11 bộ sơ đồ mạch điện (Bài 2.4 có hai mạch), đồ thị điện trường lớp cầu, sơ đồ lực.
 - `hinh/so-do-vat-li.typ` (đổi tên từ `bo-sung.typ`): hình điện tích, hai bản, thanh tích điện, hốc cầu, các lớp điện môi, dây mang dòng, hình thang, khung khuyết và mạch RL. Đây chỉ là mã hình chuyên biệt của tài liệu.
 - Các hình trên được gọi trực tiếp từ mã Typst/CeTZ, chỉnh sửa được, không qua ảnh trung gian.

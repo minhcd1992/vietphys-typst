@@ -1,5 +1,6 @@
 import hashlib
 import os
+import shutil
 from pathlib import Path
 import subprocess
 import sys
@@ -14,14 +15,15 @@ from build_release import build
 
 
 class ReleaseTests(unittest.TestCase):
-    def test_hierarchy_compiles_from_release(self):
+    def test_examples_compile_from_release(self):
         with tempfile.TemporaryDirectory(prefix="vietphys-hierarchy-test-") as folder:
             root = Path(folder)
             manifest = tomllib.loads((ROOT / "typst.toml").read_text(encoding="utf-8"))["package"]
             package = root / "packages/local" / manifest["name"] / manifest["version"]
             with zipfile.ZipFile(build(root)) as archive:
                 archive.extractall(package)
-            for example in ("hierarchy.typ", "modern.typ", "widgets.typ", "academic.typ", "manual-hierarchy.typ", "workbook.typ"):
+            shutil.copytree(ROOT / "examples" / "assets", root / "assets")
+            for example in ("huong-dan-day-du.typ", "workbook.typ", "demo-on-tap.typ"):
                 with self.subTest(example=example):
                     source = (ROOT / "examples" / example).read_text(encoding="utf-8")
                     source = source.replace('"../vietphys.typ"', f'"@local/vietphys:{manifest["version"]}"')
@@ -30,7 +32,7 @@ class ReleaseTests(unittest.TestCase):
                     result = subprocess.run(
                         [os.getenv("TYPST_BINARY", "typst"), "compile", str(document), str(root / "main.pdf"),
                          "--root", str(root), "--package-path", str(root / "packages")],
-                        capture_output=True, text=True, encoding="utf-8", timeout=30,
+                        capture_output=True, text=True, encoding="utf-8", timeout=120,
                     )
                     self.assertEqual(result.returncode, 0, result.stderr)
 
@@ -84,7 +86,7 @@ $#vp-qty("1.3e-10", "s") + 1 #vp-unit("m.s^-1")$
 #vp-print-solutions()
 #pagebreak()
 #show: doc => vp-page-setup(
-  header: context vp-header-theme-04(date: "2026-2027"),
+  header: vp-header-modern(info: "2026-2027"),
   footer: context vp-footer-shuriken(),
   doc,
 )
